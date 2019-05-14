@@ -6,4 +6,8 @@ public class Ref<T> {
     public Ref(T initialValue) {
         this.Value = initialValue;
     }
+
+    public Ref() {
+
+    }
 }

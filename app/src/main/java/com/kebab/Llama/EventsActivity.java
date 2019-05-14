@@ -1,5 +1,6 @@
 package com.kebab.Llama;
 
+import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.app.Dialog;
 import android.app.ExpandableListActivity;
@@ -575,7 +576,7 @@ public class EventsActivity extends ExpandableListActivity implements LlamaListT
                     Logging.Report("EventsActivity background thread is unwanted :(", (Context) this);
                     break;
                 }
-                SpannableStringBuilder richTextBuilder = GetEventDescription(((Tuple3Mutable) exp.get(j)).Item3, ((Integer) LlamaSettings.ColourEventList.GetValue(this)).intValue(), lastStateChange, trueColour, falseColour);
+                SpannableStringBuilder richTextBuilder = GetEventDescription((Event) ((Tuple3Mutable) exp.get(j)).Item3, ((Integer) LlamaSettings.ColourEventList.GetValue(this)).intValue(), lastStateChange, trueColour, falseColour);
                 synchronized (this._EventColourLock) {
                     ((Tuple3Mutable) exp.get(j)).Item2 = richTextBuilder;
                 }
@@ -752,6 +753,7 @@ public class EventsActivity extends ExpandableListActivity implements LlamaListT
         return _RandomTips;
     }
 
+    @SuppressLint("ResourceType")
     public void onContentChanged() {
         ExpandableListView v = (ExpandableListView) findViewById(R.id.expandylist);
         v.setId(16908298);

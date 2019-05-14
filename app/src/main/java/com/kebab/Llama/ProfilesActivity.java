@@ -160,7 +160,7 @@ public class ProfilesActivity extends LlamaListTabBase {
     }
 
     public boolean onContextItemSelected(MenuItem item) {
-        final String selectedProfileName = ((Tuple3) this._Data.get(((AdapterContextMenuInfo) item.getMenuInfo()).position)).Item1;
+        final String selectedProfileName = (String) ((Tuple3) this._Data.get(((AdapterContextMenuInfo) item.getMenuInfo()).position)).Item1;
         switch (item.getItemId()) {
             case 8:
                 Instances.Service.SetProfile(selectedProfileName, false, null, true);

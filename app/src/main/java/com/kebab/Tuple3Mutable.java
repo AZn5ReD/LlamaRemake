@@ -5,6 +5,10 @@ public class Tuple3Mutable<T1, T2, T3> extends Tuple3<T1, T2, T3> {
         super(item1, item2, item3);
     }
 
+    public Tuple3Mutable() {
+        super();
+    }
+
     public static <TT1, TT2, TT3> Tuple3Mutable<TT1, TT2, TT3> Create(TT1 a, TT2 b, TT3 c) {
         return new Tuple3Mutable(a, b, c);
     }

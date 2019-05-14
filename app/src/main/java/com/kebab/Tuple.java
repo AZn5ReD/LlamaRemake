@@ -10,16 +10,18 @@ public class Tuple<T1, T2> {
         public int compare(Tuple<String, ?> x, Tuple<String, ?> y) {
             Object obj;
             Object obj2;
+            String obj3 = "";
+            String obj22 = "";
             Comparator comparator = String.CASE_INSENSITIVE_ORDER;
             if (x == null) {
                 obj = null;
             } else {
-                String obj3 = (String) x.Item1;
+                obj3 = (String) x.Item1;
             }
             if (y == null) {
                 obj2 = null;
             } else {
-                String obj22 = (String) y.Item1;
+                obj22 = (String) y.Item1;
             }
             return comparator.compare(obj3, obj22);
         }

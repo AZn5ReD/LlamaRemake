@@ -1,5 +1,6 @@
 package com.kebab.Llama;
 
+import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.app.Dialog;
@@ -82,8 +83,8 @@ public class LlamaUi extends TabActivity {
                 handleLlamaSharedIntent(dataString);
                 return true;
             }
-            Integer clearNotificationId;
-            Integer confirmationMessageId;
+            final Integer clearNotificationId;
+            final Integer confirmationMessageId;
             String intentMessage = activityIntent.getStringExtra(Constants.EXTRA_NOTIFICATION_MESSAGE);
             String intentTitle = activityIntent.getStringExtra(Constants.EXTRA_NOTIFICATION_TITLE);
             String eventName = activityIntent.getStringExtra(Constants.EXTRA_NOTIFICATION_EVENT_NAME);
@@ -117,6 +118,7 @@ public class LlamaUi extends TabActivity {
                     }
                 } else if (clearNotificationId != null) {
                     _Dialog.setPositiveButton(R.string.hrClearNotification, new OnClickListener() {
+                        @SuppressLint("WrongConstant")
                         public void onClick(DialogInterface dialog, int which) {
                             ((NotificationManager) LlamaUi.this.getSystemService("notification")).cancel(clearNotificationId.intValue());
                         }
@@ -230,7 +232,7 @@ public class LlamaUi extends TabActivity {
             Iterable profileNames = new ArrayList();
             for (Profile p : Instances.Service.GetProfiles()) {
                 if (p.HasRingerChangeButNoVolume()) {
-                    profileNames.add(p.Name);
+                    ((ArrayList) profileNames).add(p.Name);
                 }
             }
             Helpers.ShowSimpleDialogMessage(context, IterableHelpers.ConcatenateString(profileNames, "\n"));
@@ -242,7 +244,7 @@ public class LlamaUi extends TabActivity {
             Iterable profileNames = new ArrayList();
             for (Profile p : Instances.Service.GetProfiles()) {
                 if (!p.HasSameRingerNotificationVolumes()) {
-                    profileNames.add(p.Name);
+                    ((ArrayList) profileNames).add(p.Name);
                 }
             }
             Helpers.ShowSimpleDialogMessage(context, IterableHelpers.ConcatenateString(profileNames, "\n"));

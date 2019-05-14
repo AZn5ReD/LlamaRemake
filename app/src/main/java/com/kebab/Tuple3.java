@@ -11,6 +11,10 @@ public class Tuple3<T1, T2, T3> {
         this.Item3 = item3;
     }
 
+    public Tuple3() {
+
+    }
+
     public static <TT1, TT2, TT3> Tuple3<TT1, TT2, TT3> Create(TT1 a, TT2 b, TT3 c) {
         return new Tuple3(a, b, c);
     }

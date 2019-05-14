@@ -91,8 +91,8 @@ public class LocalePluginAction extends EventAction<LocalePluginAction> {
             public void FillDialogBuilder(final LocalePluginAction existingSelectedItem, Builder dialog, final GotResultHandler<LocalePluginAction> gotResultHandler) {
                 dialog.setItems(this._ListItemStrings, new OnClickListener() {
                     public void onClick(DialogInterface dialog, int which) {
-                        final LocaleActionPlugin pluginInfo = (LocaleActionPlugin) AnonymousClass1.this._ListItems.get(which);
-                        localeHelper.StartSettingsActivity(AnonymousClass1.this._Host, pluginInfo, pluginInfo.PackageName.equals(existingSelectedItem._PackageName) ? Helpers.GetBundleFromString(existingSelectedItem._Base64Bundle) : null, new ResultCallback() {
+                        final LocaleActionPlugin pluginInfo = (LocaleActionPlugin) _ListItems.get(which);
+                        localeHelper.StartSettingsActivity(_Host, pluginInfo, pluginInfo.PackageName.equals(existingSelectedItem._PackageName) ? Helpers.GetBundleFromString(existingSelectedItem._Base64Bundle) : null, new ResultCallback() {
                             public void HandleResult(int result, Intent data, Object extraStateInfo) {
                                 if (result == -1) {
                                     Bundle bundle = localeHelper.GetBundleFromResultIntent(data);

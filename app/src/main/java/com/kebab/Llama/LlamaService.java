@@ -2,6 +2,7 @@ package com.kebab.Llama;
 
 import android.accounts.Account;
 import android.accounts.AccountManager;
+import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.app.ActivityManager;
 import android.app.AlarmManager;
@@ -128,6 +129,8 @@ import java.util.List;
 import java.util.Map.Entry;
 import java.util.Random;
 import java.util.concurrent.CountDownLatch;
+
+import static java.lang.System.currentTimeMillis;
 
 public class LlamaService extends Service implements OnKeyguardExitResult {
     static final int ANTI_VOLUME_CHANGE_TIMEOUT = 4000;
@@ -561,6 +564,7 @@ public class LlamaService extends Service implements OnKeyguardExitResult {
         }
     }
 
+    @SuppressLint("WrongConstant")
     public void initLocationListener() {
         if (this._LocationManager == null) {
             this._LocationManager = (LocationManager) getSystemService("location");
@@ -696,12 +700,12 @@ public class LlamaService extends Service implements OnKeyguardExitResult {
         }
         if (sb.length() == 0) {
             for (i = 0; i < 6; i++) {
-                e2 = stack[i];
-                String methodName = e2.getMethodName();
+                e = stack[i];
+                String methodName = e.getMethodName();
                 if (appendedNames > 0) {
                     sb.append(", ");
                 }
-                sb.append(e2.getClassName() + "." + methodName);
+                sb.append(e.getClassName() + "." + methodName);
                 appendedNames++;
             }
         }
@@ -777,7 +781,7 @@ public class LlamaService extends Service implements OnKeyguardExitResult {
             return;
         }
         try {
-            long millis = System.currentTimeMillis();
+            long millis = java.lang.System.currentTimeMillis();
             String intentAction = intent.getAction();
             Logging.Report("Intent Action is " + intentAction, (Context) this);
             if (Constants.ACTION_RUN_SHORTCUT.equals(intentAction)) {
@@ -887,7 +891,7 @@ public class LlamaService extends Service implements OnKeyguardExitResult {
             } else {
                 Logging.Report("HandleIntent receive had an unknown intent. With extras " + IterableHelpers.ConcatenateString(intent.getExtras().keySet(), ","), (Context) this);
             }
-            Logging.Report("IntentProfile", intentAction + " = " + (System.currentTimeMillis() - millis) + "ms", (Context) this);
+            Logging.Report("IntentProfile", intentAction + " = " + (System..        currentTimeMillis() - millis) + "ms", (Context) this);
             if (releaseLock) {
                 handler.removeCallbacks(this._ReleaseRtcReceiverLockRunnable);
                 handler.post(this._ReleaseRtcReceiverLockRunnable);
@@ -1014,9 +1018,9 @@ public class LlamaService extends Service implements OnKeyguardExitResult {
             Instances.ProfilesActivity.UpdateDebugInfo();
         }
         if (this._LastVolumeChangeMillis == 0) {
-            this._LastVolumeChangeMillis = System.currentTimeMillis();
+            this._LastVolumeChangeMillis = java.lang.System.currentTimeMillis();
         } else if (this._VolumeChangeCounts > 6) {
-            if (System.currentTimeMillis() - this._LastVolumeChangeMillis < 4000) {
+            if (java.lang.System.currentTimeMillis() - this._LastVolumeChangeMillis < 4000) {
                 Logging.Report("Too many volume changes! Llama will stop trying to reset your profile", (Context) this);
                 this._Handler.removeCallbacks(this._HandleVolumeChangeRunnable);
                 this._Handler.postDelayed(this._HandleVolumeChangeRunnable, 2000);
@@ -2690,6 +2694,7 @@ public class LlamaService extends Service implements OnKeyguardExitResult {
         }
     }
 
+    @SuppressLint("WrongConstant")
     private void showConfirmationForEvent(Event e) {
         e.ConfirmationStatus = 2;
         int notificationId = createNotificationForEvent(e, true);
@@ -2718,7 +2723,7 @@ public class LlamaService extends Service implements OnKeyguardExitResult {
             notificationId = Constants.OTHER_NOTIFICATION_STARTID + rand;
         }
         CharSequence tickerText = "Llama Confirmation";
-        long when = System.currentTimeMillis();
+        long when = java.lang.System.currentTimeMillis();
         Context context = getBaseContext();
         CharSequence contentTitle = "Llama Confirmation";
         CharSequence contentText = e.Name;
