@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="alertDialogListText" parent="@android:style/Widget.TextView">
+        <item name="android:textAppearance">?android:textAppearanceLarge</item>
+    </style>
+    <style name="alertDialogListButton" parent="@android:style/Widget.TextView">
+        <item name="android:paddingLeft">10.0dip</item>
+        <item name="android:paddingRight">10.0dip</item>
+    </style>
+    <style name="LlamaThemeCompat" parent="@android:style/Theme.Holo" />
+    <style name="LlamaThemeCompat.NoTitleBar" parent="@style/LlamaThemeCompat">
+        <item name="android:windowNoTitle">true</item>
+    </style>
+</resources>

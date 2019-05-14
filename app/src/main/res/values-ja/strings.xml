@@ -1,0 +1,1410 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Llama</string>
+    <string name="hrChoosePreset">リストから選ぶ</string>
+    <string name="hrTapRhythm">リズムを教える</string>
+    <string name="hrTest">テストする</string>
+    <string name="hrReset">やり直す</string>
+    <string name="hrVibrateDialogMessage">リストから選ぶ か、リズムを教える か、自分でパターンを書いてね。(リストから選んでみると、書き方がわかるかも)</string>
+    <string name="hrCalendarEventDialogMessage">"この条件は、カレンダーに書き込んだ予定の名前を使います。また、開始、終了のどちらかのタイミングで実行できます。
+
+入力した文字列が予定の名前の一部と一致すると、条件が整った、とみなされます。(例)「会議」と入力した場合、「仕事の会議」や「退屈な会議」という予定によってイベントが発生します。"</string>
+    <string name="hrNotificationTitle">Llama</string>
+    <string name="hrIntroText">"私は Llama - Location Aware Mobile Application (場をわきまえる携帯アプリ)です。私は携帯電話の電波塔を見つけて場所を知るので、GPS信号を受信しようとして電池を使いすぎることはありません。はじめて使う前には、ちょっとした学習が必要です。場所タブを選んで、私が今どこにいるのか教えてください。
+
+もし気に入ってもらえたら、メニューから「寄付」をお願いします。
+
+ご意見は kebabapps@gmail.com までお願いします。(和訳に関しては llama@wizforest.com へ)"</string>
+    <string name="hrCommonTip1">お気に入りの場所をLlamaに学習させてください</string>
+    <string name="hrCommonTip2">全速力のLlamaは、時速45kmに達します</string>
+    <string name="hrCommonTip3">カピバラさんともお友達</string>
+    <string name="hrCommonTip4">ダライ・ラマとは関係ないよ</string>
+    <string name="hrCommonTip5">LlamaはLocation Aware Mobile Application(場をわきまえる携帯アプリ)です</string>
+    <string name="hrCommonTip6">Llamaはラクダに似ているけど、ずっとかっこいいよ</string>
+    <string name="hrAreasTip1">場所の特定で電波塔があてにならないなら、実験設定にある他のオプションを試してみてください</string>
+    <string name="hrAreasTip2">「場所」を長押ししてLlamaに今いる所を教えてください</string>
+    <string name="hrEventsTip1">履歴ボタンを押すと最近起きたイベントを見られます</string>
+    <string name="hrEventsTip2">履歴ボタンを押すとイベントが起きた原因を見られます</string>
+    <string name="hrProfilesTip1">会議が始まる時など、固定ボタンを使うと Llama が勝手にモードを変更しないようにできます</string>
+    <string name="hrProfilesTip2">モードを長押しすると、固定して使用中になります</string>
+    <string name="hrProfilesTip3">ボタンで音量を変えてもLlamaが再設定してしまう、というときは、設定画面を見てください。</string>
+    <string name="hrRecentTip1">登録済みの場所にいる間に「どこでもない」表示を見つけたら、表示をタップしてLlamaに場所を教えてください</string>
+    <string name="hrHelpAreas">"このタブは、Llamaが区別できる場所を表示します。最初は２つの場所、「家」と「職場」が登録されています。しかし、Llamaはあなたの家や職場を知りません。これらをLlamaに教えるためには、その場所に実際にいる必要があります。
+
+今いる場所を長押しするか、+ ボタンを押して新しい場所を作ってください。Llamaはそこにどれくらいの時間いるかを聞いてきます。選択した時間の間、Llamaは近くにある電波塔(「セル」とも呼ばれます)を記憶し、再びその場所に来た時にそこがどこだか分かるようになります。
+
+リストには、各場所の特定に用いた電波塔の数も表示されます。まだ実験中の別の方法を使って位置を知ることもできます。これらを使用する場合は「設定」の「実験中の機能」から機能を有効にしてください。"</string>
+    <string name="hrHelpEvents">"このタブは、イベントが起きたときにLlamaが何をするか表示します。Llamaには最初からいくつかのイベントが用意されています。これを修正することも、消すこともできますし、新しいイベントの追加もできます。
+
+イベントは、複数の「条件」と「動作」でできています。すべての条件が整うと、Llamaはイベントに設定された動作を行います。
+
+大抵のイベントは、２つ組になっています。ある条件で何かをオンにしたら、別の条件ではオフにするでしょう。だから、普通は条件が逆の２つのイベントを一緒に作ることになります。たとえば…
+
+家に入った　→　設定を変える
+家を出た　→　設定を変える
+
+どうも設定がうまく動いていないな、と感じたら、履歴ボタンを押して、最近起きたイベントとその理由を見ることができます。
+
+ホーム画面に、イベントのショートカットを置くこともできます。ホーム画面で長押しをして、ショートカットからLlamaを選んでください。"</string>
+    <string name="hrHelpProfiles">"このタブは、Llamaが使用できる「モード」が表示されます。最初からいくつか共通のモードが設定されていますが、変更したり、追加することもできます。
+
+モードは、スマホ以前の携帯電話で使われた「マナーモード」や「ドライブモード」、「オリジナルマナーモード」によく似たものです。それぞれのモードは着信や通知、通話などのいくつかの音量・振動の設定をまとめたもので、タップしてモードを変えられます。また、イベントを使って自動的に切り替えることもできます。モードごとにアイコンを決められますので、通知領域で現在のモードを知ることもできます。
+
+大切な会議がある時など、一時的にモードを変えることもできます。決められた時間が過ぎると元のモードに戻ります。設定画面では、Llamaにボリュームボタンを監視させることもできます。手動で音量を変えたときにはモードが固定され、一定時間後に元に戻る、などの設定も可能です。"</string>
+    <string name="hrHelpRecent">"このタブは、Llamaが最近見つけた電波塔が表示されます。Llamaが場所を覚えた後であれば、それぞれの電波塔(セルとも呼ばれます)がどの場所のものかを見ることもできます。
+
+もし、Llamaが十分に場所を覚えられていないなら、「どこでもない」と書かれた電波塔が見られるでしょう。この電波塔をタップすれば、手動で場所に追加することもできます。リストには見つけた時間も表示されますので、その時どこにいたのか思い出して、場所に追加することもできるでしょう。
+
+１つの電波塔が２つの場所に登録された場合、残念ながらその２つの場所は区別できません。そのときは、まだ実験中の「場所を知る方法」を試してみてください。"</string>
+    <string name="hrServiceRestarted">前回Llamaを使った後、「終了」ボタンが押されました。Llamaのバックグラウンドサービスを再開します。サービスを止めたいときは、また「終了」ボタンを使ってください。</string>
+    <string name="hrTabAreas">場所</string>
+    <string name="hrTabEvents">イベント</string>
+    <string name="hrTabProfiles">モード</string>
+    <string name="hrTabRecent">近況</string>
+    <string name="hrLlamaLogWarning">警告:LlamaLogに記録を残す設定になっています。このファイルは非常に大きくなります!いつか、残さない設定に変えたくなりますよ。</string>
+    <string name="hrOkeyDokeExclamation">わかった!</string>
+    <string name="hrTurnItOff">残さない</string>
+    <string name="hrOk">了解</string>
+    <string name="hrCancel">やめる</string>
+    <string name="hrViewMap">地図を見る</string>
+    <string name="hrCreateReminder">場所に入ったら通知</string>
+    <string name="hrRenameArea">名前を変える</string>
+    <string name="hrSetPositionOnMap">地図で指定</string>
+    <string name="hrStartLearningArea">場所の学習を始める</string>
+    <string name="hrStopLearningArea">場所の学習を中止</string>
+    <string name="hrDeleteArea">この場所を消す</string>
+    <string name="hrYes">はい</string>
+    <string name="hrNo">いいえ</string>
+    <string name="hrEnterAReminderForArea1">「%1s」での表示文は？</string>
+    <string name="hrEnterANewNameForTheArea">場所の新しい名前を入れてね</string>
+    <string name="hrNewLocationPrompt">新しい場所の名前を教えて</string>
+    <string name="hr1SecondsToGo">あと%1s秒</string>
+    <string name="hr1MinutesToGo">あと%1s分</string>
+    <string name="hrLearningDash">"学習中 - "</string>
+    <string name="hrCurrentDash">"現在地 - "</string>
+    <string name="hrCurrentNoDash">現在設定</string>
+    <string name="hrAnd">そして</string>
+    <string name="hrHowLongWillYouBeAt1For">どれくらい%1sにいるの?</string>
+    <string name="hrImNotThere">そこにいない</string>
+    <string name="hrSecond">秒</string>
+    <string name="hrSeconds">秒</string>
+    <string name="hrMinute">分</string>
+    <string name="hrMinutes">分</string>
+    <string name="hr0Minutes">0分</string>
+    <string name="hr0Seconds">0秒</string>
+    <string name="hrSpaceMinutes">分</string>
+    <string name="hrSpaceSeconds">秒</string>
+    <string name="hrSpaceMilliseconds">ミリ秒</string>
+    <string name="hrHour">時間</string>
+    <string name="hrHours">時間</string>
+    <string name="hrMapPoint">地点</string>
+    <string name="hrMapPoints">地点</string>
+    <string name="hrCell">セル</string>
+    <string name="hrCells">セル</string>
+    <string name="hrWifiName">WiFi名</string>
+    <string name="hrWifiNames">WiFi名</string>
+    <string name="hrWifiMac">WiFi MAC</string>
+    <string name="hrWifiMacs">WiFi MAC</string>
+    <string name="hrBluetoothDevice">Bluetooth機器</string>
+    <string name="hrBluetoothDevices">Bluetooth機器</string>
+    <string name="hrUnknown">不明</string>
+    <string name="hrNotAddedToAnyAreas">どこでもない</string>
+    <string name="hrViewAllMapPoints">全地点を見る</string>
+    <string name="hrAllRecentMapPositions">最近の地点</string>
+    <string name="hrAddToArea">場所に追加</string>
+    <string name="hrViewCoordinatesOnMap">地図上に配置</string>
+    <string name="hrEditAreasPositionOnMap">地図を使って場所を作成</string>
+    <string name="hrRemoveFromArea">場所から削除</string>
+    <string name="hrPositionOfARecentLocationEstimate">最近いた場所</string>
+    <string name="hrWhichAreaDoYouWantToRemove1From">どの場所から%1sを削除する?</string>
+    <string name="hrCouldntFindTheAreaNamed1s">%1sという名前の場所は見つかりません</string>
+    <string name="hrWhichAreaDoYouWantToEdit">どの場所を編集する?</string>
+    <string name="hrCreateNewArea">新しい場所を作る</string>
+    <string name="hrWhichAreaDoYouWantToAdd1To">どの場所に%1sを追加する?</string>
+    <string name="hrEnterANameForTheNewArea">新しい場所の名前を入れてね</string>
+    <string name="hrWithin1m">%1sm以内</string>
+    <string name="hrNewEvent1">新しいイベント%1s</string>
+    <string name="hrNewProfile1">新しいモード%1s</string>
+    <string name="hrLlamaDashEditingEvent">Llama - イベント編集</string>
+    <string name="hrLlamaDashOrConditions">Llama - いずれかの条件で</string>
+    <string name="hrLlamaDashAndConditions">Llama - すべての条件で</string>
+    <string name="hrLlamaDashNewEvent">Llama - 新しいイベント</string>
+    <string name="hrLlamaShortcutName">Llamaショートカット名</string>
+    <string name="hrActions">動作</string>
+    <string name="hrCancelRemove">削除しない</string>
+    <string name="hrNowTapAConditionOrActionToRemoveIt">消したい条件、動作をタップしてね</string>
+    <string name="hrSelectConditionToTriggerEvent">イベントを起こす条件は？</string>
+    <string name="hrSelectActionToPerformWhenTriggered">条件が整ったときの動作</string>
+    <string name="hrCool">いいね</string>
+    <string name="hrYourEventIsNotCompleteColon">イベントの設定がおかしいよ:</string>
+    <string name="hrPleaseFixTheseErrorsOrRemoveTheOffendingConditionsSlashActions">エラーを修正するか、うまく設定できてない条件/動作の削除をお願いします。</string>
+    <string name="hrIWillIPromise">あぁ、そうするよ</string>
+    <string name="hrProblems">問題発生</string>
+    <string name="hrLlamaDashEventHistory">Llama - イベント履歴</string>
+    <string name="hrTriggeredBy1Condition">%1sにより実行</string>
+    <string name="hrDisabled">無効</string>
+    <string name="hrEditEvent">編集</string>
+    <string name="hrCopyEvent">コピー</string>
+    <string name="hrRunEventActions">動作させる</string>
+    <string name="hrEnableEvent">有効にする</string>
+    <string name="hrDisableEvent">無効にする</string>
+    <string name="hrDeleteEvent">削除する</string>
+    <string name="hrAreYouSureYouWantToDelete1">本当に「%1s」を消していいの?</string>
+    <string name="hrCopy">コピー</string>
+    <string name="hrCreateLlamaShortcut">Llamaショートカットを作る</string>
+    <string name="hrEnterALabelForTheShortcut">ショートカットのラベルを決めてね</string>
+    <string name="hrCustomEvent">作ったイベント</string>
+    <string name="hrSwitchToProfile1">%1sにモード切り替え</string>
+    <string name="hrSpecifyACustomSetOfActionsForTheShortcut">ショートカットを作る動作を指定してね</string>
+    <string name="hrProfile">モード</string>
+    <string name="hrEvent">イベント</string>
+    <string name="hrCustomEventActions">動作を作る</string>
+    <string name="hrTheLlamaServiceMustBeRunningForShortcutsToWork">ショートカットを使うには、Llamaサービスを動かす必要があります</string>
+    <string name="hrHowCanIHelpYou">私にできることは?</string>
+    <string name="hrCurrentTabInfo">このタブについて</string>
+    <string name="hrLlamaInstructions">Llamaの説明</string>
+    <string name="hrLlamaAndKebabAppsWebsite">LlamaとKebabappsのWebsiteへ</string>
+    <string name="hrSendEmail">作者にメール</string>
+    <string name="hrAboutTheApp">このアプリについて</string>
+    <string name="hrWhatDoesThisTabDo">このタブでできること</string>
+    <string name="hrGroovy">イカしてる!</string>
+    <string name="hrPerformed1ActionsSince2DaysAgo">ここ%2$s日間で%1$s回働いたよ。</string>
+    <string name="hrDonateSmiley">寄付まってます o(^▽^)o</string>
+    <string name="hrSettings">設定</string>
+    <string name="hrImportExportData">設定データの保存/読込</string>
+    <string name="hrToggleMobileData">モバイルデータ切替</string>
+    <string name="hrToggleApn">APN切替</string>
+    <string name="hrDonate">寄付</string>
+    <string name="hrQuit">終了</string>
+    <string name="hrQuitLlama">Llamaの終了</string>
+    <string name="hrPutLlamaToSleep">おやすみ、Llama</string>
+    <string name="hrCloseLlamaExplanation">Llamaを眠らせ、バックグラウンドサービスも終了します。サービスを再起動するには、ホーム画面のアプリ一覧から、Llamaのアイコンをタップしてください。</string>
+    <string name="hrEnableApn">APN有効</string>
+    <string name="hrCurrent">現在の設定</string>
+    <string name="hrDisableApn">APN無効</string>
+    <string name="hrEnableMobileData">モバイルデータ有効</string>
+    <string name="hrDisableMobileData">モバイルデータ無効</string>
+    <string name="hrImportWarning">本当に設定データを読込んでいいですか? すでにLlamaが使っている、場所、モード、イベントのデータは **消えます** !</string>
+    <string name="hrExportWarning">本当に設定データをSDに書き込んでいいですか? すでにSDに保存されている、場所、モード、イベントのデータは **消えます** !</string>
+    <string name="hrImportFromSdCard">SDカードから読込</string>
+    <string name="hrExportToSdCard">SDカードに保存</string>
+    <string name="hrOkeyDoke">わかった!</string>
+    <string name="hrLockedUntil1">%1sまで固定されています</string>
+    <string name="hrProfileLocked">モードは固定されています</string>
+    <string name="hrTheShortcutRefersToAnEventNamed1WhichNoLongerExists">ショートカットで呼び出した「%1s」というイベントは、すでに存在していないようです。</string>
+    <string name="hrTheShortcutRefersToAProfileNamed1WhichNoLongerExists">ショートカットで呼び出した「%1s」というモードは、すでに存在していないようです。</string>
+    <string name="hrLoadSettingsError">設定の読み込みに失敗しました。SDカードには保存されています。</string>
+    <string name="hrCriticalLoadSettingsError">設定の読み込みに失敗しました。さらに、SDカードへの保存も失敗です。Llamaはもう死んでしまいます… (T_T)</string>
+    <string name="hrQuietAtNight">夜は静かに</string>
+    <string name="hrHome">家</string>
+    <string name="hrQuiet">静粛</string>
+    <string name="hrNormalAtHome">家は普通</string>
+    <string name="hrNormal">普通</string>
+    <string name="hrLeftHome">家を出た</string>
+    <string name="hrQuietAtWork">職場は静かに</string>
+    <string name="hrWork">職場</string>
+    <string name="hrNormalOutsideWork">職場休憩中は普通</string>
+    <string name="hrLeftWork">職場を出た</string>
+    <string name="hrSilent">黙止</string>
+    <string name="hrLoud">大声</string>
+    <string name="hrCouldNotFindEventNamed1">「%1s」というイベントはありません</string>
+    <string name="hrTestVersion">＊テスト版＊</string>
+    <string name="hrLlamaForAndroidVersionContact">"Llama for Android
+%1s
+Contact kebabapps@gmail.com
+(和訳への意見は llama@wizforest.com)"</string>
+    <string name="hrThanksForDonatingExclamation">寄付をありがとう!</string>
+    <string name="hrPleaseDonateBeerMoney">使えるアプリだと感じたら、カンパをお願いします。</string>
+    <string name="hrOkThanks">OK、ありがとう</string>
+    <string name="hrDonateViaMarket">Google Playで寄付</string>
+    <string name="hrProfilesAreLockedGotoProfilesTabToUnlock">モードが固定されました。モードタブでメニューを押すと、固定解除されます。</string>
+    <string name="hrCouldNotChangeProfileBecauseNoProfileNamed1">「%1s」というモードがないため、変更できませんでした。</string>
+    <string name="hrError">エラー</string>
+    <string name="hrInfo">お知らせ</string>
+    <string name="hrExportFailedSadFace">保存失敗 (T_T)</string>
+    <string name="hrImportFailedSadFace">読込失敗 (T_T) SDカードのLlamaフォルダにデータがあることを確認してください。</string>
+    <string name="hrImportOf1Successful">%1sの読み込みに成功しました。Llamaを再起動してください。</string>
+    <string name="hrStorageAreas">場所</string>
+    <string name="hrStorageEvents">イベント</string>
+    <string name="hrStorageProfiles">モード</string>
+    <string name="hrStorageIgnoredCell">無視するセル</string>
+    <string name="hrQuickReminderAt1">%1sでの通知</string>
+    <string name="hrNoApnsDefinedTip">APN設定がありません。イベントからAPN動作を消してください。</string>
+    <string name="hrWifiNotTurnedOffAsItsConnected">接続中なので、WiFi切断できません</string>
+    <string name="hrBluetoothNotTurnedOffAsConnectedToAudioDevice">音響機器に接続中なので、Bluetooth切断できません。</string>
+    <string name="hrBluetoothNotTurnedOffAsItsConnected">接続中なので、Bluetooth切断できません。</string>
+    <string name="hrCouldnNotTurnOnBluetoothMaybeAirplane">機内モードなので、Bluetooth使用できません。</string>
+    <string name="hrBluetoothIsntSupported">Bluetoothがサポートされていません</string>
+    <string name="hrBluetoothApiNotSupported">Bluetooth APIがサポートされていません</string>
+    <string name="hrCouldnotStart1">%1sを開始できません</string>
+    <string name="hrRebootFailWarning">携帯の起動時間が%1s分では再起動できません。安全のため、５分以上待ってください。</string>
+    <string name="hrShutdownFailWarning">携帯の起動時間が%1s分では電源オフできません。安全のため、５分以上待ってください。</string>
+    <string name="hrRebooting">再起動!!!</string>
+    <string name="hrShuttingDown">電源オフ!!!</string>
+    <string name="hrProfileChangesUnlocked">モードの固定を解除</string>
+    <string name="hrPositionsFor1">位置は%1s</string>
+    <string name="hrSave">保存</string>
+    <string name="hrClose">閉じる</string>
+    <string name="hrLlamaMapNotInstalled">Llama Mapが入ってないよ</string>
+    <string name="hrGoToMarket">Google Playに行く</string>
+    <string name="hrLlamaMapNeededMessage">"Llamaで地図を見るには、Llama Map addonのインストールが必要です。
+
+Llamaはインターネット接続の権限を持っていませんが、地図はGoogleからダウンロードされるためです。
+
+Map addonは、Llamaと同じく無料です。"</string>
+    <string name="hrSelectEmailApplication">Eメールアプリを選んでね</string>
+    <string name="hrEnteredUnknownArea">知らない場所に入りました</string>
+    <string name="hrLeftArea1">%1sを出ました</string>
+    <string name="hrEnteredArea1">%1sに入りました</string>
+    <string name="hrLlamaDashEditingProfile">Llama - モード編集</string>
+    <string name="hrLlamaDashNewProfile">Llama - 新しいモード</string>
+    <string name="hrVibrate">振動</string>
+    <string name="hrRing">着信音</string>
+    <string name="hrRingAndVibrate">着信音と振動</string>
+    <string name="hrProfilesUnlocked">モード固定解除</string>
+    <string name="hrActivateAndLock">固定して使用する</string>
+    <string name="hrEditProfile">編集</string>
+    <string name="hrCopyProfile">コピー</string>
+    <string name="hrDeleteProfile">削除</string>
+    <string name="hrNever">ずっとしない</string>
+    <string name="hrAutomaticallyUnlockProfileDescription">しばらくの間、イベントでモードが変わらないようにします。例えば、１時間の会議に出ている間、静かにしていて欲しい時などに使います</string>
+    <string name="hrAutomaticallyUnlockProfileChangesAfter">終了後は自動で固定解除されます</string>
+    <string name="hrWillActivateWhenProfilesAreManuallyUnlocked">手動で固定解除すると、使用されます</string>
+    <string name="hrWillActivateAt1">%1sになると使用されます</string>
+    <string name="hrActivatedAt1">%1sに使用開始</string>
+    <string name="hrAuto">自動</string>
+    <string name="hrChangeBrightness">明るさ変更</string>
+    <string name="hrSetToAutomaticBrightness">明るさを自動調整</string>
+    <string name="hrSetTo1Brightness">%1s%%の明るさ</string>
+    <string name="hrLlamaBluetoothPolling">Llama Bluetooth確認</string>
+    <string name="hrChangeLlamaBluetoothPolling">Llama Bluetooth確認の変更</string>
+    <string name="hrChangeAndroidLocationPolling">Android位置確認の変更</string>
+    <string name="hrAndroidLocationPolling">Android位置確認</string>
+    <string name="hrLlamaWifiPolling">Llama WiFi確認</string>
+    <string name="hrChangeLlamaWifiPolling">Llama WiFi確認の変更</string>
+    <string name="hrSet1ToNever">%1sしない</string>
+    <string name="hrSet1To2">%1$sは%2$s毎</string>
+    <string name="hrChangeNotificationIconTo1">通知アイコンを%1sにする</string>
+    <string name="hrChangeNotificationIcon">通知アイコン変更</string>
+    <string name="hrChangeProfile">モード変更</string>
+    <string name="hrChangeProfileTo">%1sモードにする</string>
+    <string name="hrChooseAProfile">モードを選んでね</string>
+    <string name="hrChangeScreenTimeout">画面オフまでの時間を変更</string>
+    <string name="hrDisableScreenTimeout">画面オフしない</string>
+    <string name="hrSetScreenTimeoutTo1Seconds">%1s秒で画面オフ</string>
+    <string name="hrToggleScreenLock">ロック画面の切替</string>
+    <string name="hrScreenLockOn">表示する</string>
+    <string name="hrScreenLockOnForce">表示する(強制)</string>
+    <string name="hrScreenLockOffImmediately">即時解除(動作不調!)</string>
+    <string name="hrScreenLockOffAfterPassword">手動解除後は表示しない</string>
+    <string name="hrEnableKeyGuard">ロック画面表示</string>
+    <string name="hrEnableKeyGuardForce">ロック画面表示(強制)</string>
+    <string name="hrDisableKeyGuardImmediately">ロック画面即時解除</string>
+    <string name="hrDisableKeyGuardAfterUnlock">手動解除の後、ロック画面表示しない</string>
+    <string name="hrKillApplication">アプリ停止</string>
+    <string name="hrKillApplicationWithRoot">アプリ停止(Root)</string>
+    <string name="hrKill1DieDieDie">%1s停止。止!ま!れ!</string>
+    <string name="hrChooseAnApplication">アプリを選んでね</string>
+    <string name="hrChooseAnApplicationWithAName">名前でアプリを選んでね</string>
+    <string name="hrLockProfileChanges">モードを固定</string>
+    <string name="hrUnlockProfileChanges">モードを固定解除</string>
+    <string name="hrLockProfileChangesDescription">モードを固定</string>
+    <string name="hrUnlockProfileChangesDescription">モードを固定解除</string>
+    <string name="hrChangeMusicVolume">音楽/メディアの音量変更</string>
+    <string name="hrSetMusicVolumeTo1">音楽/メディアの音量を%1sに</string>
+    <string name="hrReminder">通知</string>
+    <string name="hrShowAReminder">通知を表示</string>
+    <string name="hrEnterSomeReminderText">表示する文を入れてね</string>
+    <string name="hrNoDontDoAnything">ダメだ、何もしない</string>
+    <string name="hrYesIReallyWantToReboot">そうだ、本当に再起動しろ!</string>
+    <string name="hrYesIReallyWantToShutdown">そうだ、本当に電源オフしろ!</string>
+    <string name="hrRebootPhoneDescription">携帯を再起動します</string>
+    <string name="hrDontRebootPhoneDescription">再起動しません</string>
+    <string name="hrShutdownPhoneDescription">携帯電源オフ</string>
+    <string name="hrDontShutdownPhoneDescription">電源オフしません</string>
+    <string name="hrRunApplication">アプリの起動</string>
+    <string name="hrRun1">%1sを起動</string>
+    <string name="hrIfNotConnected">非接続なら</string>
+    <string name="hrForAtLeast1">%1sだけ</string>
+    <string name="hrForAtLeast1Minutes">%1s分だけ</string>
+    <string name="hrIfNotConnectedDescription">非接続なら</string>
+    <string name="hrFor1ThenDisconectIfNotConnected">%1s後、非接続なら切断</string>
+    <string name="hrFor1MinutesThenDisconectIfNotConnected">%1s分後、非接続なら切断</string>
+    <string name="hrAirplaneModeOn">機内モードにする</string>
+    <string name="hrAirplaneModeOff">機内モード解除</string>
+    <string name="hrToggleAirplaneMode">機内モード切替</string>
+    <string name="hrEnableAirplaneMode">機内モード有効</string>
+    <string name="hrDisableAirplaneMode">機内モード無効</string>
+    <string name="hrApnOn">APN使用</string>
+    <string name="hrApnOff">APN使わない</string>
+    <string name="hrBluetoothOn">Bluetooth使用</string>
+    <string name="hrBluetoothOff">Bluetooth使わない</string>
+    <string name="hrToggleBluetooth">Bluetooth切替</string>
+    <string name="hrEnableBluetooth">Bluetooth有効</string>
+    <string name="hrDisableBluetooth">Bluetooth無効</string>
+    <string name="hrToggleLlamaCellPolling">Llamaセル確認切替</string>
+    <string name="hrCellPollingOn">セル確認使用</string>
+    <string name="hrCellPollingOff">セル確認しない</string>
+    <string name="hrEnableLlamaCellPolling">セル確認有効</string>
+    <string name="hrDisableLlamaCellPolling">セル確認無効</string>
+    <string name="hrToggleGps">GPS切替</string>
+    <string name="hrGpsOn">GPS使用</string>
+    <string name="hrGpsOff">GPS使わない</string>
+    <string name="hrEnableGps">GPS有効</string>
+    <string name="hrDisableGps">GPS無効</string>
+    <string name="hrMobileDataOn">モバイルデータ使用</string>
+    <string name="hrMobileDataOff">モバイルデータ使わない</string>
+    <string name="hrEnableSyncRequestUpdate">自動同期有効、今すぐ同期</string>
+    <string name="hrEnableSyncNoUpdate">自動同期有効、同期はしない</string>
+    <string name="hrDisableSync">自動同期無効</string>
+    <string name="hrToggleAccountSync">自動同期切替</string>
+    <string name="hrEnableAccountSyncThenRequestUpdateDescription">自動同期有効、今すぐ同期</string>
+    <string name="hrEnableAccountSyncDescription">自動同期有効</string>
+    <string name="hrDisableAccountSyncDescription">自動同期無効</string>
+    <string name="hrWifiOn">WiFi使用</string>
+    <string name="hrWifiOff">WiFi使わない</string>
+    <string name="hrToggleWifi">WiFi切替</string>
+    <string name="hrEnableWifi">WiFi有効</string>
+    <string name="hrDisableWifi">WiFi無効</string>
+    <string name="hrVibratePattern">振動パターン</string>
+    <string name="hrVibrateThe1Pattern">%1s振動</string>
+    <string name="hrVibrateACustomisedPattern">定義した型で振動</string>
+    <string name="hrVibrateShort">短い</string>
+    <string name="hrVibrateLong">長い</string>
+    <string name="hrVibrateMultipleShort">短く３つ</string>
+    <string name="hrVibrateMultipleLong">長く３つ</string>
+    <string name="hrBatteryLevel">電池残量</string>
+    <string name="hrBatteryLevelAbove1">電池残量%1s以上</string>
+    <string name="hrBatteryLevelBelow1">電池残量%1s以下</string>
+    <string name="hrWhenBatteryGoesBelow1Percent">電池容量%1s%%以下なら</string>
+    <string name="hrWhenBatteryRisesAbove1Percent">電池容量%1s%%以上なら</string>
+    <string name="hrPleaseChooseAtLeastOneBluetoothDevice">Bluetooth機器を１つだけ選んでください</string>
+    <string name="hrPleaseChooseAtLeastOneWifiNetwork">WiFiネットワークを１つだけ選んでください</string>
+    <string name="hrOr">か</string>
+    <string name="hrNor">や</string>
+    <string name="hrWhen1IsConnected">%1s接続なら</string>
+    <string name="hrWhen1Disconnects">%1s切断なら</string>
+    <string name="hrBluetoothDeviceDisconnected">Bluetooth機器切断</string>
+    <string name="hrBluetoothDeviceConnected">Bluetooth機器接続</string>
+    <string name="hrWhenCalendarHasACurrentEventNameContaining1">カレンダーの予定名に「%1s」が含まれるなら</string>
+    <string name="hrWhenCalendarDoesNotHaveACurrentEventNameContaining1">カレンダーの予定名が「%1s」を含まないなら</string>
+    <string name="hrCalendarHasACurrentEventNameContaining1">カレンダーの予定名に「%1s」が含まれる</string>
+    <string name="hrCalendarDoesNotHaveACurrentEventNameContaining1">カレンダーの予定名が「%1s」を含まない</string>
+    <string name="hrCalendarEvent">カレンダーの予定</string>
+    <string name="hrCalendarConditionMustHaveACalendarEventNameOrCalendarOrEventType">カレンダーの条件では、予定名、カレンダー、予定の形式の、どれかを含めてください。</string>
+    <string name="hrInCarMode">車載モード</string>
+    <string name="hrNotInCarMode">車載モードでない</string>
+    <string name="hrWhenInCarMode">車載モードなら</string>
+    <string name="hrWhenNotInCarMode">車載モードでないなら</string>
+    <string name="hrUsingBattery">電池駆動</string>
+    <string name="hrChargingFromAny">とにかく充電中</string>
+    <string name="hrChargingFromAc">AC充電中</string>
+    <string name="hrChargingFromUsb">USB充電中</string>
+    <string name="hrChargingFromWireless">無線充電中</string>
+    <string name="hrChargingStatus">充電状態</string>
+    <string name="hrWhenChargingUnknown">とにかく充電中なら</string>
+    <string name="hrWhenChargingFromAc">AC充電中なら</string>
+    <string name="hrWhenChargingFromUsb">USB充電中なら</string>
+    <string name="hrWhenChargingWirelessy">無線充電中なら</string>
+    <string name="hrWhenCharging">充電中なら</string>
+    <string name="hrWhenUsingBattery">電池駆動なら</string>
+    <string name="hrChooseAtLeastOneDay">日付を選んでね</string>
+    <string name="hrDayOfTheWeek">曜日</string>
+    <string name="hrWhenIts1">%1sなら</string>
+    <string name="hrChooseAnAreaToEnter">入る場所を選んでね</string>
+    <string name="hrEnterArea">場所に入った</string>
+    <string name="hrAt1">%1sで</string>
+    <string name="hrAtTime1">%1sに</string>
+    <string name="hrWiredHeadsetConnected">イヤホン接続</string>
+    <string name="hrWiredHeadsetDisconnected">イヤホンを抜いた</string>
+    <string name="hrWhenWiredHeadsetIsDisconnected">イヤホンを抜いたら</string>
+    <string name="hrChooseAnAreaToLeave">出る場所を選んでね</string>
+    <string name="hrLeaveArea">場所を出た</string>
+    <string name="hrUponLeaving1">%1sを出た</string>
+    <string name="hrMusicPlayback">音楽再生状態</string>
+    <string name="hrMusicPlaying">音楽再生中</string>
+    <string name="hrMusicPaused">音楽停止中</string>
+    <string name="hrWhenMusicIsPlaying">音楽再生中なら</string>
+    <string name="hrWhenMusicIsPaused">音楽停止中なら</string>
+    <string name="hrBluetoothDeviceNotConnected">Bluetooth機器非接続</string>
+    <string name="hrWhen1IsNotConnected">%1sが非接続なら</string>
+    <string name="hrNotInArea">場所にいない</string>
+    <string name="hrChooseAnAreaToNotBeIn">居たくない場所を選んで</string>
+    <string name="hrWhenNotAt1">%1sにいないなら</string>
+    <string name="hrTimeBetween">時間の間</string>
+    <string name="hrBetween1And2">%1$sから%2$sの間</string>
+    <string name="hrFrom">いつから</string>
+    <string name="hrTo">いつまで</string>
+    <string name="hrActionChangeProfile">Llamaモード</string>
+    <string name="hrActionChangeProfileDescription">モードタブの設定にしたがって、携帯の音量設定を変更します。モードに設定されていれば、通知アイコンも変更されます。</string>
+    <string name="hrActionNotificationIcon">Llama通知アイコン</string>
+    <string name="hrActionNotificationIconDescription">通知領域に表示されるアイコンを変更します。現在の状態を示すために、アイコンを変えてください。通知領域へのアイコン表示方法は、Llamaのメイン設定で変更できます。</string>
+    <string name="hrActionScreenBrightness">画面の明るさ</string>
+    <string name="hrActionScreenBrightnessDescription">画面の明るさを変更します。携帯によっては「自動明るさ調整」が使用できます。</string>
+    <string name="hrActionScreenOn">画面オン</string>
+    <string name="hrActionScreenOnDescription">すぐに画面を表示します。ロック画面が表示されない設定であれば操作可能になり、画面オフ時間まで表示されたままになります。ロック画面が表示される設定であれば、ロック画面が表示され、２秒後に消灯します。　注意:携帯によっては「暗い」「明るい」「キーライトも一緒に」の違いが無いかもしれません。</string>
+    <string name="hrActionScreenOff">画面オフ</string>
+    <string name="hrActionScreenOffDescription">すぐに画面を消します。ロック画面を表示する設定であれば、次に画面を表示する時には表示されています。</string>
+    <string name="hrActionMusicVolume">音楽/メディア音量</string>
+    <string name="hrActionMusicVolumeDescription">音楽/メディア音量を変更します。</string>
+    <string name="hrActionVibrate">振動</string>
+    <string name="hrActionVibrateDescription">携帯を振動させます。あらかじめ決められたパターンを使うことも、自分でリズムを作ることもできます。</string>
+    <string name="hrActionApn">APN</string>
+    <string name="hrActionApnDescription">携帯キャリアの設定を回避するように、APNを設定できます。この設定はGSMでのみ有効です。APNDroidウィジェットと同等のものです。</string>
+    <string name="hrActionBluetooth">Bluetooth</string>
+    <string name="hrActionBluetoothDescription">Bluetoothを切替えます。Bluetooth機器が接続していない時だけオフ、ということもできます。わずかな時間だけ接続を試みて、機器が接続されなければオフ、ということもできます。</string>
+    <string name="hrActionAirplane">機内モード</string>
+    <string name="hrActionAirplaneDescription">機内モードを切替えます。機内モードにすると、電話だけでなく、WiFiとBluetoothも使えなくなります。その時、あなたは位置を知ることができなくなります!</string>
+    <string name="hrActionWifi">WiFi</string>
+    <string name="hrActionWifiDescription">WiFiを切替えます。WiFiネットワーク接続がないときだけオフ、ということもできます。わずかな時間だけ接続を行い、その後ネットワーク接続がなければオフ、ということもできます。</string>
+    <string name="hrActionGps">GPS</string>
+    <string name="hrActionGpsDescription">GPSを切替えます。これはAndroidで公式に認められていない方法で、動かないかもしれません。特にGingerbread(Android 2.3)では動きません。動くようにしたい場合、Googleを苦情攻めにしてください。</string>
+    <string name="hrActionReboot">携帯再起動(要root)</string>
+    <string name="hrActionRebootDescription">携帯を再起動します。起動直後にまた再起動、とならないように、イベントの条件に注意してください。操作不能に陥らないように、Llamaは携帯が起動して５分間は再起動を行いません。</string>
+    <string name="hrActionShutdown">携帯電源オフ(要root)</string>
+    <string name="hrActionShutdownDescription">携帯の電源を切ります。起動直後に電源オフ、とならないように、イベントの条件に注意してください。操作不能に陥らないように、Llamaは携帯が起動して５分間は電源オフを行いません。</string>
+    <string name="hrActionSync">自動同期</string>
+    <string name="hrActionSyncDescription">自動同期を切替えます。強制的に同期を開始することもできます。</string>
+    <string name="hrActionLlamaCellPolling">Llamaセル確認</string>
+    <string name="hrActionLlamaCellPollingDescription">実験中:Llamaがセルを確認する周期を変更します。実験設定で使用可能にしたときだけ、動作します。</string>
+    <string name="hrActionLlamaWifiPolling">Llama WiFi確認</string>
+    <string name="hrActionLlamaWifiPollingDescription">実験中:LlamaがWiFiを確認する周期を変更します。実験設定で使用可能にしたときだけ、動作します。確認を「しない」にした時、LlamaはAndroidのWiFi確認に相乗りします。</string>
+    <string name="hrActionLlamaBluetoothPolling">Llama Bluetooth確認</string>
+    <string name="hrActionLlamaBluetoothPollingDescription">実験中:LlamaがBluetooth機器を確認する周期を変更します。実験設定で使用可能にしたときだけ、動作します。確認を「しない」にした時、LlamaはAndroidのBluetoothスキャンに相乗りします。</string>
+    <string name="hrActionAndroidLocationPolling">Llama Android位置確認</string>
+    <string name="hrActionAndroidLocationPollingDescription">実験中:Android位置確認の周期を変更します。実験設定で使用可能にしたときだけ、動作します。確認を「しない」にした時、Llamaは他のアプリが位置を確認するのに相乗りします。</string>
+    <string name="hrActionScreenTimeout">画面オフ時間</string>
+    <string name="hrActionScreenTimeoutDescription">最後に画面にタッチしてから、画面がオフになるまでの時間を変更できます。</string>
+    <string name="hrActionMobileData">モバイルデータ</string>
+    <string name="hrActionMobileDataDescription">モバイルデータの設定を変更できます。Googleの意向により、Gingerbreadでは動きません (x_x)　2.2.1以下を使用している場合、あらかじめAndroidの「設定」画面で、モバイルデータの設定を有効にしておく必要があります。</string>
+    <string name="hrActionReminder">通知</string>
+    <string name="hrActionReminderDescription">通知領域に、非常に簡単な文面を表示します。</string>
+    <string name="hrActionScreenLock">ロック画面(動作不良)</string>
+    <string name="hrActionScreenLockDescription2">"ロック画面の使用/不使用を切替えます。Androidが正式なロック画面切替え方法を用意していないため、動かないかもしれません。
+
+画面表示中で、固定表示しない時:
+-ロック画面表示にしても、次に画面がオフになるまで表示されません。
+-ロック画面表示(強制)は、すぐに画面をオフにします。次に表示した時にはロック画面が表示されます。
+-ロック画面の解除は、すぐにおこなわれます。(つまり、画面をオフにしても、ロック画面を見ることはありません)
+
+
+画面オフで、固定表示の時:
+-ロック画面表示にすると、次に画面をオンにした時にロック画面が表示されます。
+-即時解除した場合、ロック画面は表示されることはないが、ホーム/サーチボタンがおかしなことになるかもしれない。
+-手動解除後は表示しない、とした場合、次回画面オンのときにロック画面が表示されるが、解除後は表示されなくなる。
+
+
+画面オフで、固定表示しない時:
+-ロック画面表示にしたあと、画面がオンになってもロック画面は表示されません。再度オフにされた後でオンになると表示します。
+-ロック画面表示(強制)は、次に画面がオンになったときにロック画面を表示します。
+
+
+ホームボタンで作業を終了する設定の場合、この動作を使わないほうが良いでしょう。パターン認証ではなく、PINやパスワードを使っている時は、さらに運が必要かもしれません。"</string>
+    <string name="hrActionProfileLock">Llamaモードを固定</string>
+    <string name="hrActionProfileLockDescription">Llamaのモードを固定します。これを使うと、一定時間の間、Llamaが勝手にモードを変えないようにできます。</string>
+    <string name="hrActionRunApp">アプリの起動</string>
+    <string name="hrActionRunAppDescription">アプリケーションを起動できます。アプリが多い場合、リストを作るのに少し時間がかかるかもしれません。</string>
+    <string name="hrActionKillApp">アプリの停止</string>
+    <string name="hrActionKillAppDescription">他のアプリを停止させます。ただし、Androidの制限により、思ったように働かない場合もあります。</string>
+    <string name="hrActionKillWithRootApp">アプリの停止(要root)</string>
+    <string name="hrActionKillWithRootAppDescription">「無理やり」他のアプリを停止させます。これは非常に無作法で、推奨されません。使用するには、携帯のroot化が必要です。</string>
+    <string name="hrConditionEnterInArea">場所に入る/居る</string>
+    <string name="hrConditionEnterInAreaDescription">この条件は、設定した場所のいずれかに入った時に有効になり、出るまで有効なままです。</string>
+    <string name="hrConditionLeaveArea">場所を出る</string>
+    <string name="hrConditionLeaveAreaDescription">この条件は、設定した場所のいずれかから出たときに有効になります。(場所に居ない、も参照)</string>
+    <string name="hrConditionNotInAreas">場所に居ない</string>
+    <string name="hrConditionNotInAreasDescription">この条件は、設定した場所のすべてから出たときに有効になり、いない間有効なままです。</string>
+    <string name="hrConditionCalendarEvent">カレンダーの予定</string>
+    <string name="hrConditionCalendarEventDescription">この条件は、あなたがカレンダーに設定した現在の予定で有効になります。予定が始まった時、終わった時を指定することができます。</string>
+    <string name="hrConditionDayOfTheWeek">曜日</string>
+    <string name="hrConditionDayOfTheWeek_Description">この条件は、曜日によってイベントを制御します。</string>
+    <string name="hrConditionHeadset">イヤホンの接続/切断</string>
+    <string name="hrConditionHeadsetDescription">この条件は、有線接続のイヤホンの接続/切断でイベントを制御します。</string>
+    <string name="hrConditionCharging">電源の接続/切断</string>
+    <string name="hrConditionChargingDescription">この条件は、携帯がPCや充電器に接続されているかどうかでイベントを制御します。</string>
+    <string name="hrConditionPhoneReboot">携帯の再起動</string>
+    <string name="hrConditionPhoneRebootDescription">この条件は、携帯の起動直後や、終了直前にイベントを制御します。</string>
+    <string name="hrConditionBatteryLevel">電池残量</string>
+    <string name="hrConditionBatteryLevelDescription">この条件は、電池の残量が基準値以下になったり、異状になったりしたときにイベントを制御します。</string>
+    <string name="hrConditionSignalLevel">電波強度</string>
+    <string name="hrConditionSignalLevelDescription">"この条件は、電波強度が定めた値を上回った/下回った時にイベントを制御します。
+
+編集時に、その時点での信号強度を dBmで示します。
+
+Llamaは、信号がない場合に -150を使用します。GSM信号が -113dBm程度まで低下することがある、というのに注意してください。"</string>
+    <string name="hrConditionCarMode">車載モード</string>
+    <string name="hrConditionCarModeDescription">この条件は、携帯が「車載ドック」モードに入った/出たときにイベントを制御します。</string>
+    <string name="hrConditionBluetoothConnected">Bluetooth機器接続</string>
+    <string name="hrConditionBluetoothConnectedDescription">この条件は、決めておいたBluetooth機器のいずれかに接続した時に有効になり、切断されるまで有効なままです。</string>
+    <string name="hrConditionBluetootDeviceNotConnected">Bluetooth機器非接続</string>
+    <string name="hrConditionBluetootDeviceNotConnectedDescription">この条件は、決めておいたBluetooth機器がひとつも接続していない時に有効になります。指定機器がすべて切断された時に、イベントを起動するでしょう。</string>
+    <string name="hrConditionBluetoothDisconnected">Bluetooth機器切断</string>
+    <string name="hrConditionBluetoothDisconnectedDescription">この条件は、決めておいたBluetooth機器のいずれかが切断された時に有効になります。</string>
+    <string name="hrConditionMusicPlayback">音楽再生</string>
+    <string name="hrConditionMusicPlaybackDescription">この条件は、Androidミュージックプレイヤーの変化を起動条件とします。　注意:メーカーによっては標準以外のミュージックプレイヤーを搭載していますが、外部からの制御方法などは公式に提供されていません (x_x)</string>
+    <string name="hrConditionTimeBetween">時間</string>
+    <string name="hrConditionTimeBetweenDescription">この条件は、特定の時間にイベントを制御します。日付跨ぎの設定(例えば、夜10時から朝6時など)で、夜だけ動作するイベント、などのフィルタを作ることもできます。「いつから」を条件のひとつとしておくと、時間が一致する時だけ、Llamaは他の条件もチェックし、イベントを動作させます。</string>
+    <string name="hrAlternativeIconColour">他のアイコンの色</string>
+    <string name="hrAlternativeIconColourDescription">白や黒の通知アイコン(Gingerbread風)を使うかどうかを変更します。</string>
+    <string name="hrNotificationMode">通知方法</string>
+    <string name="hrNotificationModeDescription">モードの変更をあなたに知らせる方法を変更します。実行中の通知は、AndroidにLlamaを停止させないようにさせます。</string>
+    <string name="hr12HourPickers">時刻入力で12時間制を使う</string>
+    <string name="hr12HourPickersDescription">時刻入力で12時間制を使います。(タップ回数が少なくてすみます)</string>
+    <string name="hrShowApnMobileData">APN/モバイルデータをメニューに表示</string>
+    <string name="hrShowApnMobileDataDescription">Llamaのメニューに、APN/モバイルデータを表示します。　ヒント:ホーム画面にショートカットを作るかわりに使えます。</string>
+    <string name="hrSoundProfileSettings">音のモード設定</string>
+    <string name="hrLockProfilesOnChange">音量変更に対するモード固定</string>
+    <string name="hrLockProfilesOnChangeDescription">音量調節ボタンを使って手動で音量を変更する時、Llamaがモードを変更するのを防ぎます。</string>
+    <string name="hrUnlockProfilesAutomatically">自動でモード固定を解除</string>
+    <string name="hrUnlockProfilesAutomaticallyDescription">モードを固定した後、解除するまでの時間</string>
+    <string name="hrCellTrackingSettings">セルの追跡設定</string>
+    <string name="hrIgnoreInvalidNoSignal">おかしな信号のセルは無視する</string>
+    <string name="hrIgnoreInvalidNoSignalDescription">おかしな信号電波を無視します。無視しないと「エリア外に出た」ことになります。</string>
+    <string name="hrCellPollingMode">セル確認方法</string>
+    <string name="hrCellPollingModeDescription">実験中:CPUを時々動かして、セル追跡の信頼性をあげます。これは、電池の消費に影響を与えます。オフにすると、次に携帯が使われるときに、場所に入った/出た判定が行われます。</string>
+    <string name="hrCellPollingInterval">セル確認間隔</string>
+    <string name="hrCellPollingIntervalDescription">CPUを動かす間隔</string>
+    <string name="hrCellPollingIntervalMinutes">セル確認間隔(分単位)</string>
+    <string name="hrAlternativeLocationMethods">その他の測位方法</string>
+    <string name="hrExperimentalStuff">実験中の機能</string>
+    <string name="hrExperimentalStuffDescription">虎の子はこの中</string>
+    <string name="hrLocationSettings">測位の設定</string>
+    <string name="hrUseAndroidLocation">Android測位を使う</string>
+    <string name="hrUseAndroidLocationDescription">非常に実験的:Androidに組み込まれた測位方法を使用します。WiFiを使ってより正確な位置を得ることができますが、電池の消費に影響があるかもしれません。</string>
+    <string name="hrUseGps">GPSを使う</string>
+    <string name="hrUseGpsDescription">位置を決めるのにGPSを使用します。確実に電池消費を激しくします。</string>
+    <string name="hrAndroidLocationPollingName">Android測位確認間隔</string>
+    <string name="hrAndroidLocationPollingDescription">非常に実験的:どのくらいの間隔で測位しますか</string>
+    <string name="hrAndroidLocationPollingInterval">Android測位確認間隔(分単位)</string>
+    <string name="hrWifiTrackingSettings">WiFi追跡設定</string>
+    <string name="hrCheckForWifiNetworks">WiFiネットワークを確認</string>
+    <string name="hrCheckForWifiNetworksDescription">非常に実験的:時々WiFiをオンにして、近くのネットワークを調べます。</string>
+    <string name="hrWifiPolling">WiFi確認間隔</string>
+    <string name="hrWifiPollingDescription">非常に実験的:どのくらいの間隔でWiFiネットワークを確認しますか</string>
+    <string name="hrWifiPollingInterval">WiFi確認間隔(分単位)</string>
+    <string name="hrBluetoothTrackingSettings">Bluetooth追跡設定</string>
+    <string name="hrCheckForBluetoothDevices">Bluetooth機器を確認</string>
+    <string name="hrCheckForBluetoothDevicesDescription">非常に実験的:時々Bluetoothをオンにして、近くの機器を探します。</string>
+    <string name="hrBluetoothPollingInterval">Bluetooth確認間隔</string>
+    <string name="hrBluetoothPollingIntervalDescription">非常に実験的:どのくらいの間隔でBluetooth機器を確認しますか</string>
+    <string name="hrBluetoothPollingIntervalMinutes">Bluetooth確認間隔(分単位)</string>
+    <string name="hrUserInterfaceSettings">インターフェイス設定</string>
+    <string name="hrDebugSettings">デバッグ設定 - 変人向け</string>
+    <string name="hrDebugSettingsTitle">デバッグ設定</string>
+    <string name="hrDebugSettingsDescriptions">動作確認のためのログの追加設定</string>
+    <string name="hrEventName">イベント名</string>
+    <string name="hrEventNameAndGroup">イベント名とグループ</string>
+    <string name="hrEventNameDescription">名前はイベントの識別に使われます</string>
+    <string name="hrEnabled">有効</string>
+    <string name="hrEventEnabledDescription">Llamaは、イベントに定められた条件が整ったら動作します。</string>
+    <string name="hrProfileName">モード名</string>
+    <string name="hrProfileNameDescription">名前はモードの識別に使われます</string>
+    <string name="hrNotificationVolume">通知音量</string>
+    <string name="hrRingVibrateSilent">着信音/振動/無音</string>
+    <string name="hrChangeRingVibrateSilent">着信音/振動/無音の変更</string>
+    <string name="hrChangeRingVibrateSilentDescription">このモードになった時、着信音、振動、無音の設定を変更します</string>
+    <string name="hrRingtone">着信音</string>
+    <string name="hrChangeRingtone">着信音の変更</string>
+    <string name="hrChangeRingtoneDescription">このモードになった時、着信音を変更します</string>
+    <string name="hrNotificationTone">通知音</string>
+    <string name="hrChangeNotificationTone">通知音の変更</string>
+    <string name="hrChangeNotificationToneDescription">このモードになった時、通知音を変更します</string>
+    <string name="hrMusicVolume">音楽/メディア音量</string>
+    <string name="hrChangeMusicVolumeDescription">このモードになった時、音楽/メディア音量を変更します</string>
+    <string name="hrAlarmVolume">アラーム音量</string>
+    <string name="hrChangeAlarmVolume">アラーム音量の変更</string>
+    <string name="hrChangeAlarmVolumeDescription">このモードになった時、アラーム音量を変更します</string>
+    <string name="hrInCallVolume">通話音量</string>
+    <string name="hrChangeInCallVolume">通話音量の変更</string>
+    <string name="hrChangeInCallVolumeDescription">このモードになった時、通話音量を変更します</string>
+    <string name="hrSystemSoundsVolume">システム音量</string>
+    <string name="hrChangeSystemSoundsVolume">システム音量の変更</string>
+    <string name="hrChangeSystemSoundsVolumeDescription">このモードになった時、システム音量を変更します</string>
+    <string name="hrLlamaIcon">Llamaアイコン</string>
+    <string name="hrChangeLlamaIcon">Llamaアイコンの変更</string>
+    <string name="hrChangeLlamaIconDescription">このモードになった時、Llamaアイコンを変更します</string>
+    <string name="hrLlamaIcons">Llamaアイコン</string>
+    <string name="hrSelectALlamaIcon">Llamaアイコンを選んでね</string>
+    <string name="hrRingtoneVolumeDescription">着信音の音量は</string>
+    <string name="hrNotificationToneVolumeDescription">通知音の音量は</string>
+    <string name="hrChooseVibrateMode">着信通知の設定</string>
+    <string name="hrChooseVibrateModeDescription">着信通知の方法</string>
+    <string name="hrSelectARingtone">着信音の選択</string>
+    <string name="hrRingtones">着信音</string>
+    <string name="hrSelectDefaultNotificationDescription">通常の通知音の設定</string>
+    <string name="hrNotificationTones">通知音</string>
+    <string name="hrMusicVolumeDescription">音楽/メディア音量は</string>
+    <string name="hrAlarmDescription">アラーム音量は</string>
+    <string name="hrInCallDescription">着信音量は</string>
+    <string name="hrSystemSoundDescription">システム音量は</string>
+    <string name="hrChangeRingtoneVolume">着信音量の変更</string>
+    <string name="hrChangeRingtoneVolumeDescription">このモードになった時、着信音量を変更します</string>
+    <string name="hrChangeNotificationVolume">通知音量の変更</string>
+    <string name="hrChangeNotificationVolumeDescription">このモードになった時、通知音量を変更します</string>
+    <string name="hrRingtoneVolume">着信音量</string>
+    <string name="hrAddAction">動作追加</string>
+    <string name="hrAddCondition">条件追加</string>
+    <string name="hrRemove">消去</string>
+    <string name="hrTestActions">動作のテスト</string>
+    <string name="hrNotificationIconOnlyError">実行中の通知で「アイコンのみ」の表示は、Gingerbreadではできません (T_T)</string>
+    <string name="hrThanksToTranslators">Llamaの翻訳、本当にありがとう:</string>
+    <string name="hrUnableToUpdateArea1">「%1s」が存在しないので、変更できません。(T_T)</string>
+    <string name="hrToggleProfileChangesLock">モード固定切替</string>
+    <string name="hrRebootBracketRequiresRootBracket">再起動(要root)</string>
+    <string name="hrCarMode">車載モード</string>
+    <string name="hrWiredHeadset">イヤホン</string>
+    <string name="hrConditionsMatchAll">条件(すべて整ったら)</string>
+    <string name="hrConditionsMatchAny">条件(どれか整ったら)</string>
+    <string name="hrSorryNoHelpYet">ごめん、助けられない (T_T)</string>
+    <string name="hrAirplaneModeEnterAreaWarning">機内モードにすると、携帯は電波の送受信を止めます。このため、どの「場所」にも入ることができなくなります。</string>
+    <string name="hrRebootSafetyMessage">"条件に注意してください!
+安全上の理由から、起動後５分間は再起動できません。"</string>
+    <string name="hrShutdownSafetyMessage">"条件に注意してください!
+安全上の理由から、起動後５分間は電源オフできません。"</string>
+    <string name="hrBluetoothParingInfo">Bluetooth機器を使うには、携帯とのペアリングが必要です。もしリストが空っぽなら、Bluetoothを開始してもう一度試してください。</string>
+    <string name="hrWifiNetworkInfo">もしリストが空っぽなら、WiFiを開始してもう一度試してください。WiFiを指定するには、電波の範囲内にいるか、過去に接続したことがあるのを「思い出す」必要があります。</string>
+    <string name="hrAndroid22Only">Android 2.2以上が必要です</string>
+    <string name="hrKeyGuardBuggyWarning">警告:動作不良!ロック画面を再表示するまで、ホームボタンが利かなくなるかもしれません。さらに、SIMカード固定がおかしなことになるかも!</string>
+    <string name="hrMobileDataWarning">実験中:設定画面でモバイルデータを有効にしてください!</string>
+    <string name="hrLanguageDescription">携帯に設定されたのとは違う言語を使います</string>
+    <string name="hrLanguageBracketEnglishLanguageBracket">言語</string>
+    <string name="hrTurnOnTheScreenDim">暗めに画面オンする</string>
+    <string name="hrTurnOnTheScreenBright">普通に画面オンする</string>
+    <string name="hrTurnOnTheScreenBrightAndKeyboard">キーライトと一緒に画面オンする</string>
+    <string name="hrTurnOffTheScreen">画面オフする</string>
+    <string name="hrErrorNotificationMode">エラー通知</string>
+    <string name="hrErrorNotificationModeDescription">Llamaがバックグラウンドで動作している時、イベントのエラーやモードの固定をどのように通知するかを設定します</string>
+    <string name="hrLlamaErrorV2">Llamaエラー - ここをタップ</string>
+    <string name="hrLlamaInfoV2">Llamaより - ここをタップ</string>
+    <string name="hrLlamaProblem">Llama問題発生</string>
+    <string name="hrFailedToReadCalendar1">%1sのカレンダーを読み取れませんでした。Llamaの設定画面でエラー通知を出さないようにできます。</string>
+    <string name="hrRevertVolumeChanges">音量ボタン無効</string>
+    <string name="hrRevertVolumeChangesDescription">間違って音量ボタンを押してしまったときでも、すぐに現在のモードの音量に戻します。</string>
+    <string name="hrScreenOn">画面オン</string>
+    <string name="hrScreenOff">画面オフ</string>
+    <string name="hrWhenScreenIsOn">画面オンなら</string>
+    <string name="hrWhenScreenIsOff">画面オフなら</string>
+    <string name="hrScreenOnOff">画面オン/オフ</string>
+    <string name="hrConditionScreenOnOffDescription">この条件は、画面のオン/オフによってイベントを起動したり、フィルタしたりできます。</string>
+    <string name="hrAutoRelinkVolumes">音量再リンク</string>
+    <string name="hrAutoRelinkVolumesDescription">通知音量と着信音量が一致するモードが使用されるとき、Android設定の「通知音にも着信音量を適用」のチェックボックスを有効にします。</string>
+    <string name="hrTimeBetweenWarning">設定時間を出たときのイベントも作成するのを忘れないように!</string>
+    <string name="hrConditionWifiConnected">WiFiネットワーク接続</string>
+    <string name="hrConditionWifiConnectedDescription">この条件は、設定したWiFiネットワークのどれかに接続されると有効になり、繋がっている間は有効なままです。</string>
+    <string name="hrConditionWifiDisconnected">WiFiネットワーク切断</string>
+    <string name="hrConditionWifiDisconnectedDescription">この条件は、設定したWiFiネットワークのどれかが切断されるか、繋がっていないと有効になり、繋がっていない間は有効なままです。</string>
+    <string name="hrWhenWifi1Disconnects">%1$sと繋がっていないなら</string>
+    <string name="hrWhenWifi1Connects">%1$sと繋がっているなら</string>
+    <string name="hrNoSignalUnknown">信号なし/不明</string>
+    <string name="hrNewProfile">新しいモード</string>
+    <string name="hrColourEventList">イベントリストの色分け</string>
+    <string name="hrColourEventListDescription">"現状に従って、イベントの条件部分に色を付けます。
+緑は有効、赤は無効、下線は直近の条件変化で有効化したものです。"</string>
+    <string name="hrActionUsbStorage">USBマスストレージ</string>
+    <string name="hrActionUsbStorageDescription">USBストレージモードを切替えます。携帯メーカーによってUSBモード(メディアシンクやＰＣ連携など)が追加されている場合、うまく動かないかもしれません。　ヒント:Llamaショートカットをホーム画面に置いておけば、USBストレージモードを簡単に切り替えられます。もううるさい通知画面をタップする必要はありません (^_^)</string>
+    <string name="hrUsbStorageOn">USBストレージ オン</string>
+    <string name="hrUsbStorageOff">USBストレージ オフ</string>
+    <string name="hrUsbStorageToggle">USBストレージ オン/オフ</string>
+    <string name="hrUsbStorageOnDescription">USBストレージをオン</string>
+    <string name="hrUsbStorageOffDescription">USBストレージをオフ</string>
+    <string name="hrUsbStorageToggleDescription">USBストレージをオン/オフ</string>
+    <string name="hrUsbToggleError">USBストレージの状態変更に失敗</string>
+    <string name="hrActionMediaPlayer">音楽/メディア操作</string>
+    <string name="hrActionMediaPlayerDescription">メディアプレイヤーの再生、停止などを行います。イヤホンコードについている、再生/一時停止、巻戻し、先送りボタンを押すのとおなじ働きです。ボタン対応はメディアプレイヤー次第なので、お使いのプレイヤーによって動作は異なります。</string>
+    <string name="hrSendMedia1Button">メディア%1sボタンを押す</string>
+    <string name="hrUnknownArea">不明な場所</string>
+    <string name="hrNoisyContacts">特別な連絡先</string>
+    <string name="hrNoisyContactsDescription">このモードの着信音設定を無視し、特別な設定を使う連絡先を選んでください。</string>
+    <string name="hrNoisyContactRingerVolume">特別な着信音量</string>
+    <string name="hrNoisyContactRingerVolumeDescription">特別な連絡先から電話がかかってきた時の、着信音量を設定します。</string>
+    <string name="hrNoisyContactPicker1Selected">特別な人々 - %1s人</string>
+    <string name="hr4GOn">4Gオン</string>
+    <string name="hr4GOff">4Gオフ</string>
+    <string name="hrActionToggle4G">4G(LTE/WiMAX)</string>
+    <string name="hrActionToggle4GDescription">対応携帯なら、4Gを切替えられます。対応してないなら…とりあえず、ELT改めLTEのライブでも見にいきなよ。お父さんは来ないらしいけど。</string>
+    <string name="hrEnable4G">4G有効</string>
+    <string name="hrDisable4G">4G無効</string>
+    <string name="hr4GWarning">実験中:僕は4G携帯持ってないから試してません。寄付待ってます!</string>
+    <string name="hrActionRunShortcut">アプリショートカット実行</string>
+    <string name="hrActionRunShortcutDescription">ショートカットを使って他のアプリを起動します。他のアプリの機能をすべて使えます。アプリがリストに出ない、欲しい機能が出ないなどの場合は、アプリの開発者に要望を出しましょう。</string>
+    <string name="hrChooseAShortcutToRun">実行するショートカットを選んでね</string>
+    <string name="hrRunAShortcut">ショートカット「%1s」を実行</string>
+    <string name="hrPleaseWait">少し待ってね…</string>
+    <string name="hrGettingApplicationNames">アプリ名取得…</string>
+    <string name="hrGettingShortcuts">ショートカット取得…</string>
+    <string name="hrAnyWifiNetwork">&lt;WiFiどれでも></string>
+    <string name="hrInAirplaneMode">機内モード有効</string>
+    <string name="hrNotInAirplaneMode">機内モード無効</string>
+    <string name="hrWhenInAirplaneMode">機内モード有効なら</string>
+    <string name="hrWhenNotInAirplaneMode">機内モード無効なら</string>
+    <string name="hrConditionAirplaneMode">機内モード</string>
+    <string name="hrConditionAirplaneModeDescription">この条件は、機内モードの有効/無効でイベントを実行します。</string>
+    <string name="hrTheApocalypse">五劫の擦り切れ!!!</string>
+    <string name="hrEnableHapticFeedback">入力時バイブレーション オン</string>
+    <string name="hrDisableHapticFeedback">入力時バイブレーション オフ</string>
+    <string name="hrActionHapticFeedback">入力時バイブレーション</string>
+    <string name="hrActionHapticFeedbackDescription">入力時バイブレーションを切替えます。オンにすると、画面上のボタンをタップした時に振動します。</string>
+    <string name="hrHapticFeedbackOn">入力時バイブレーション オン</string>
+    <string name="hrHapticFeedbackOff">入力時バイブレーション オフ</string>
+    <string name="hrActionScreenOnWarning">携帯により効果が違います。正しい明るさにしたい場合は、画面の明るさと併用してください。</string>
+    <string name="hrWifiSleepPolicyNever">WiFiスリープしない</string>
+    <string name="hrWifiSleepPolicyNeverWhilePlugged">充電中はWiFiスリープしない</string>
+    <string name="hrWifiSleepPolicyScreenOff">画面オフでWiFiスリープ</string>
+    <string name="hrWifiSleepPolicyNeverDescription">WiFiスリープしない</string>
+    <string name="hrWifiSleepPolicyNeverWhilePluggedDescription">電源接続時はWiFiスリープしない</string>
+    <string name="hrWifiSleepPolicyScreenOffDescription">画面オフ後にWiFiスリープ</string>
+    <string name="hrActionWifiSleepPolicy">WiFiスリープ</string>
+    <string name="hrActionWifiSleepPolicyDescription">WiFiをスリープさせる方法を詳細に設定します。注意:携帯によっては、画面オフからWiFiスリープまで、少し間が開きます。</string>
+    <string name="hrClearNotification">消去</string>
+    <string name="hrLeaveNotification">またね</string>
+    <string name="hrChangeWallpaperTo1">壁紙を「%1s」に</string>
+    <string name="hrPleaseChooseAWallpaper">壁紙を選んでね</string>
+    <string name="hrActionWallpaper">壁紙</string>
+    <string name="hrActionWallpaperDescription">"ホーム画面の壁紙を変えます。Androidの壁紙変更を使うので、ギャラリーから画像を選び、範囲を決めてください。切り取られた画像は、SDカードのLlama/Wallpaperフォルダに保存されます。
+
+Androidでは、アプリからライブ壁紙を変えることはできません (x_x)"</string>
+    <string name="hrHowDoIChangeOtherStuff">他の設定はどこ?</string>
+    <string name="hrHowDoIChangeOtherStuffDescription">この画面では音を設定します。BlutoothやWiFiなどを変更したい場合は、イベントタブで新しいイベントを作り、命令してください。</string>
+    <string name="hrConditionAppNotification">通知バーアイコン</string>
+    <string name="hrConditionAppNotificationDescription">実験中:この条件は、他のアプリのアイコンが通知領域に出ているかを調べます。使用する前に、ユーザー補助サービスとしてLlamaを設定する必要があります。これを使えば、SMSやGoogleTalkのメッセージの受信や、とにかく他のアプリが通知領域にアイコンを出したのをきっかけにイベントを起動できます。**開発中、マニア専用**</string>
+    <string name="hrConditionAppNotificationWarning">実験中:Androidのユーザー補助設定でLlamaを有効に!</string>
+    <string name="hrKillWithRootDieDieDie1">%1sをroot権限で停止。止!ま!れ!</string>
+    <string name="hrInvalidPackageNameToKill1">「%1s」を停止できません。名前が無効です。</string>
+    <string name="hrIgnored">無視した</string>
+    <string name="hrUnignoreCell">無視しないセル</string>
+    <string name="hrIgnoreCell">無視するセル</string>
+    <string name="hrIgnoreCells">無視するセル</string>
+    <string name="hrNoCellsIgnoredLongTapRecentTab">無視したセルはありません。無視したい場合は、近況タブでセルを長押しします。</string>
+    <string name="hrIgnoreOtherCells">他の無視したセル...</string>
+    <string name="hrIgnoreOtherCellsDescription">２つの場所にまたがるセルを見つけることがあります。これらのセルでは場所の移動を知ることはできないため、無視するのが良いです。近況タブで、無視したいセルを長押ししてください。</string>
+    <string name="hrAndFinally">そしてさらに...</string>
+    <string name="hrCalendarEventDialogEventNameContains">予定名の一部...(複数指定するときは、縦棒で区切ります)</string>
+    <string name="hrCalendarEventDialogInCalendars">カレンダーで...</string>
+    <string name="hrThisAreaHasNotBeenDefinedLongTapItOrLookInTheRecentTab">この場所はまだ設定前です。長押しして近くの電波塔の学習を始めるか、近況タブの項目を長押しして場所の定義ができます。</string>
+    <string name="hrActionScreenBrightnessWarning">画面の明るさの扱いは携帯ごとに違います。設定した明るさにするために、画面のオフ/オンが必用な場合もあります。</string>
+    <string name="hrAnyCalendarEvent">予定どれでも</string>
+    <string name="hrAnyCalendar">カレンダーどれでも</string>
+    <string name="hrCalendarEvents1ContainsAnyEvent">%1$sの予定どれでも</string>
+    <string name="hrCalendarEvents1DoesNotContainAnyEvent">%1$sの予定がどれも無い</string>
+    <string name="hrCalendarEvents1Contains2">%1$sの「%2$s」予定</string>
+    <string name="hrCalendarEvents1DoesNotContains2">%1$sの「%2$s」予定が無い</string>
+    <string name="hrCalendarEvents1ContainsAnyEventDescription">%1$sの予定がなにかあるなら</string>
+    <string name="hrCalendarEvents1DoesNotContainAnyEventDescription">%1$sの予定がどれも無いなら</string>
+    <string name="hrCalendarEvents1Contains2Description">%1$sの「%2$s」予定があるなら</string>
+    <string name="hrCalendarEvents1DoesNotContains2Description">%1$sの「%2$s」予定が無いなら</string>
+    <string name="hrCalendarEventNameSpaceWarning">予定名の前後に「空白」文字がついています。Androidキーボードの種類によっては、自動的に空白を入れることがあります。意図して空白を入れたのでなければ、「空白除去」を押してください。</string>
+    <string name="hrRemoveSpaces">空白除去</string>
+    <string name="hrLeaveSpaces">そのまま残す</string>
+    <string name="hrOnStartUp">起動直後</string>
+    <string name="hrOnShutdown">電源断直前</string>
+    <string name="hrWhenPhoneBoots">起動したら</string>
+    <string name="hrWhenPhoneShutsdown">電源断するなら</string>
+    <string name="hrEnableRotation">自動回転有効</string>
+    <string name="hrDisableRotation">自動回転無効</string>
+    <string name="hrActionScreenRotation">画面の自動回転</string>
+    <string name="hrActionScreenRotationDescription">携帯を回転させた時に、画面も回転するようにします。多くの携帯で、縦画面のみで固定するか、自動回転で縦横を変えられるかを選べます。</string>
+    <string name="hrAllow1Rotations">%1s度に画面回転</string>
+    <string name="hrLockProfileFor1">%1s間モード固定</string>
+    <string name="hrForeverEternity">永遠に(モードタブを使わない限り)</string>
+    <string name="hrLockProfileForever">永遠にモード固定</string>
+    <string name="hrAlsoPreventOtherEventsFromChangingProfilesForDotDotDot_1">さらにモードを固定する。他のイベントでモードを変えてしまうことがなくなります。設定した時間を過ぎると、Llamaはもとのモードに戻ります。</string>
+    <string name="hrCarDockOnOffDescription">車載モード切替え</string>
+    <string name="hrCarDockOnOff">車載モード切替</string>
+    <string name="hrCarDockOffDescription">車載モード無効</string>
+    <string name="hrCarDockOff">車載モード無効</string>
+    <string name="hrCarDockOnDescription">車載モード有効</string>
+    <string name="hrCarDockOn">車載モード有効</string>
+    <string name="hrActionCarMode">車載モード</string>
+    <string name="hrActionCarModeDescription">車載モードの有効/無効を手動で切替えます。Android 2.2以上が必要です。</string>
+    <string name="hrCarModeNotSupportedByPhone">車載モードはAndroid2.2以上で使えます</string>
+    <string name="hrFailedToStartShortcut1">ショートカット%1sの起動に失敗しました</string>
+    <string name="hrLlamaFailedToChangeApnSettings">LlamaはAPNの設定変更に失敗しました</string>
+    <string name="hrErrorReadingContacts">連絡先を読めませんでした</string>
+    <string name="hrThereWasAnErrorReadingYourContacts">連絡先を読もうとしたけど、失敗 (T_T)</string>
+    <string name="hrAlarmVolumeWarning">自分で音量を調節する目覚まし時計アプリに注意してください。…サムスンの携帯とかね。Google Playで、音量を変えない別の目覚まし時計をインストールしましょう。</string>
+    <string name="hrRunIntent1">Androidのインテント「%1s」を送ります。</string>
+    <string name="hrCreateAnIntent">Androidのインテントを定義</string>
+    <string name="hrActionAndroidIntent">Androidインテント</string>
+    <string name="hrActionAndroidIntentDescription">Androidのインテントを送ります。これはまさに拡張的な機能で、他のアプリケーションの協力が必要になります。Llamaには、最初からいくつかのインテント定義が入っています。もし良い定義が作れたら、みんなにも教えてください (^_^)</string>
+    <string name="hrPreset">サンプル</string>
+    <string name="hrDashDashOrDashDash">または</string>
+    <string name="hrIntentEditPackageName">パッケージ名</string>
+    <string name="hrIntentEditClassName">クラス名</string>
+    <string name="hrIntentEditAction">動作</string>
+    <string name="hrIntentEditCategory">カテゴリ(カンマ/パイプ区切り)</string>
+    <string name="hrIntentEditData">データ</string>
+    <string name="hrIntentEditDateType">データタイプ</string>
+    <string name="hrCustomAndroidIntent">Androidインテントの自作</string>
+    <string name="hrIntentEditExtras">Extras</string>
+    <string name="hrIntentEditAddExtra">「extra」を追加</string>
+    <string name="hrTpiWidgetLockerEnable">Widget Locker: Enable</string>
+    <string name="hrTpiWidgetLockerDisable">Widget Locker: Disable</string>
+    <string name="hrTpiWidgetLockerSuspend">Widget Locker: Suspend</string>
+    <string name="hrTpiWidgetLockerResume">Widget Locker: Resume</string>
+    <string name="hrTpiWidgetLockerActivate">Widget Locker: Lock</string>
+    <string name="hrTpiWidgetLockerUnlock">Widget Locker: Unlock</string>
+    <string name="hrTpiBeautifulWidgetsRefresh">Beautiful Widgets: Refresh</string>
+    <string name="hrTpiAndroidStartHome">Android: Start home screen</string>
+    <string name="hrTpiHoursBankStartStop">Hours Bank: Start/stop</string>
+    <string name="hrTpiDrivingModeWidgetOn">Driving Mode Widget: On</string>
+    <string name="hrTpiDrivingModeWidgetOff">Driving Mode Widget: Off</string>
+    <string name="hrIntentEditSendMode">送信モード</string>
+    <string name="hrAdvancedDotDotDot">高度機能...</string>
+    <string name="hrEventAdvancedDescription2">イベント実行時の遅延、繰返し、確認要求、トリガ条件の限定。</string>
+    <string name="hrRepeatEvent">イベントを繰返す</string>
+    <string name="hrRepeatEventDescription">条件が続く間、イベントの動作し続ける</string>
+    <string name="hrRepeatEventMinutes">繰返し間隔</string>
+    <string name="hrRepeatEventMinutesDescription">何分間隔で動作を繰り返しますか</string>
+    <string name="hrDelayEvent">イベントを遅らせる</string>
+    <string name="hrDelayEventDescription">条件が整ってすぐに動作するか、数分待ってからにするか</string>
+    <string name="hrDelayEventMinutes">何分遅らせる？</string>
+    <string name="hrDelayEventMinutesDescription">イベントの条件が整ってから、動作するまでを分単位で。</string>
+    <string name="hrDelayEventSeconds">何秒遅らせる？</string>
+    <string name="hrDelayEventSecondsDescription">イベントの条件が整ってから、動作するまでを秒単位で。上の分単位設定と足されるのだけど…。利用者のリクエストで作ったけど、5分10秒とか必要ないでしょ？</string>
+    <string name="hrCancelDelayedEvent">条件が変わった場合は中止</string>
+    <string name="hrCancelDelayedEventDescription">待ち時間後に動作する前に、もう一度条件を調べ、整っていなければ中止します。</string>
+    <string name="hrEventRequireConfirmation">確認要求</string>
+    <string name="hrEventRequireConfirmationDescription">動作する前に、通知領域を使って確認を求めます。</string>
+    <string name="hrMoreInfoDotDotDot">さらなる情報...</string>
+    <string name="hrEventAdvancedDetailedDescription">"複数の高度機能を使うなら:
+
+-遅延時間が過ぎるまで、確認要求されません。
+
+-遅延時間が過ぎ、確認要求も終わるまで、繰り返しは始まりません。"</string>
+    <string name="hrRepeatTriggerName">繰り返しイベント</string>
+    <string name="hrAfterDelayTriggerName">遅延イベント</string>
+    <string name="hrConfirmationTriggerName">ユーザー確認</string>
+    <string name="hrEventNameTriggerName">イベント名</string>
+    <string name="hrEventNameTriggerShortcutName">イベント名ショートカット</string>
+    <string name="hrEventNameTriggerShortcutCustom">カスタムショートカット</string>
+    <string name="hrEventNameTriggerEventEditor">イベント編集でテスト</string>
+    <string name="hrEventNameTriggerEventList">イベントリストでテスト</string>
+    <string name="hrEventNameTriggerSetLlamaVariableIntent">外部からのLlama変数設定</string>
+    <string name="hrEventNameExternalSetLlamaVariable">外部からのLlama変数設定</string>
+    <string name="hrTheEventNamed1NoLongerExists">イベント名「%1s」は存在しません</string>
+    <string name="hrWifiAccessPointMayNotBeSupported">テザリングがサポートされていません</string>
+    <string name="hrEvent1RequiresConfirmation">イベント名「%1$s」が、次の動作を行ってよいか訊ねます:</string>
+    <string name="hrEventRequiresConfirmationFooter">いますぐ実行するか、あとで実行するか、消してしまうか選んでください。</string>
+    <string name="hrEventRequireConfirmationDialog">確認応答</string>
+    <string name="hrEventRequireConfirmationDialogDescription">あなたが何をしていても、割込んで確認画面を表示します。</string>
+    <string name="hrEventConfirmationRunNow">実行</string>
+    <string name="hrEventConfirmationSaveForLater">あとで</string>
+    <string name="hrEventConfirmationDontRun">消す</string>
+    <string name="hrRepeatingAt1">(%1sに繰返し)</string>
+    <string name="hrDelayedUntil1">(%1sまで待機)</string>
+    <string name="hrAwaitingConfirmation">(確認まで待機)</string>
+    <string name="hrWifiHotSpotOnOffDescription">テザリング切替え</string>
+    <string name="hrWifiHotSpotOnOff">テザリング切替え</string>
+    <string name="hrWifiHotSpotOffDescription">テザリングしない</string>
+    <string name="hrWifiHotSpotOff">テザリングしない</string>
+    <string name="hrWifiHotSpotOnDescription">テザリングする</string>
+    <string name="hrWifiHotSpotOn">テザリングする</string>
+    <string name="hrActionWifiHotSpot">テザリング</string>
+    <string name="hrActionWifiHotSpotDescription">テザリングを手動で切替えます。Android 2.2以上が必要です。</string>
+    <string name="hrScreenBrightnessWarning">すべてのAndroid携帯が同じように作られているわけではありません。いくつかの携帯では、明るさ変更は、画面を一度オフ/オンするまで動作しません。</string>
+    <string name="hrScreenBrightnessLowWarning">警告:いくつかの携帯では、画面が見えなくなるほど暗くできます。この先は自己責任で!　電池を外して再起動すれば、元に戻るかもしれません。</string>
+    <string name="hrSpeakerphoneOnOffDescription">スピーカーホンの切替え</string>
+    <string name="hrSpeakerphoneOnOff">スピーカーホン切替え</string>
+    <string name="hrSpeakerphoneOffDescription">スピーカーホンにしない</string>
+    <string name="hrSpeakerphoneOff">スピーカーホンにしない</string>
+    <string name="hrSpeakerphoneOnDescription">スピーカーホンにする</string>
+    <string name="hrSpeakerphoneOn">スピーカーホンにする</string>
+    <string name="hrActionSpeakerphone">スピーカーホン</string>
+    <string name="hrActionSpeakerphoneDescription">スピーカーホンでの通話を切替えます。他のオーディオ(音楽など)には関係なく、通話のみに影響します。</string>
+    <string name="hrDeviceAdminDescription">Llamaのいくつかの動作制限を取り払います</string>
+    <string name="hrDeviceAdminNotSupported">デバイス管理者はAndroid2.2以上で使えます</string>
+    <string name="hrDeviceAdminError">Llamaにデバイス管理権限がありません。Androidの「位置情報とセキュリティの設定」を確認してください。</string>
+    <string name="hrScreenOffError">画面オフできませんでした</string>
+    <string name="hrActionChangePassword">ロック画面パスワード</string>
+    <string name="hrActionChangePasswordDescription">ロック画面パスワードを変更します。ロック画面を一次的に表示しないようにするため、このパスワードが使用されます。パスワードは暗号化されて記録され、Llamaがデータエラーを起こした時や、手動で保存した際にはSDカードに書き出されます。パスワードの暗号化には、Llamaの設定画面で入れた「Llamaセキュリティパスワード」が使用され、こちらは絶対にSDに書き込まれることはありません。しかしながら、他のアプリがroot権限を持っていた場合、Llamaセキュリティパスワードを読み取れるかもしれません!　Llamaセキュリティパスワードを再設定する際は、ロック画面パスワードも再設定する必要があります。</string>
+    <string name="hrChangePasswordError">ロック画面パスワードを変更できません</string>
+    <string name="hrThereWasAnErrorSavingYourPassword">保存されたロック画面パスワードでエラーが出ました。Llamaセキュリティパスワードを変更しましたか？　ロック画面パスワードの再入力をお願いします。</string>
+    <string name="hrFailedToDecryptYourPassword">ロック画面パスワードが解読できません。変更はされませんでした。</string>
+    <string name="hrSecuritySettings">セキュリティ設定</string>
+    <string name="hrLlamaSecurityPassword">Llamaセキュリティパスワード</string>
+    <string name="hrLlamaSecurityPasswordDescription">機密情報を暗号化するのに使用します。例えば、ロック画面パスワードなど。</string>
+    <string name="hrLlamaSecurityPasswordDescriptionEx">"イベントで使用される機密情報を暗号化するのに使用します(たとえば、ロック画面パスワードなど)。これにより、あなたがデータの保存を行ったとしても、機密情報がそのままSDカードに書き込まれることはありません。
+
+このパスワードを変更すると、ロック画面パスワードを使用する動作を作り直す必要があります。
+
+携帯の機種変や、Llamaの再インストールを行わない限り、パスワードの再入力をすることはありません。"</string>
+    <string name="hrSetLlamaSecurityPasswordNow">Llamaセキュリティパスワードを設定すべきです。これは、イベントで使用される機密情報をSDに書く必要があるときに、保護を行うために使われます。このパスワードは、ロック画面パスワードや、Googleアカウントのパスワードとは違うものです。Llamaセキュリティパスワードを今すぐ設定しますか?</string>
+    <string name="hrPleaseEnterALlamaSecurityPassword">設定するパスワードを入れてね。Cancelすれば今のままです。</string>
+    <string name="hrChangeScreenLockPassword">ロック画面パスワードの変更</string>
+    <string name="hrQueueEventActionValidation">待ちイベントには、条件か待ち時間のいずれかを設定しなくてはいけません。</string>
+    <string name="hrActionQueueEvent">単発イベントを待機</string>
+    <string name="hrActionQueueEventDescription">"決めた時間が過ぎるか条件が整ったときに、１回限り実行されるイベントを作り出すことができます。作り出したイベントは１度動作すると消滅します。
+
+時間と条件の両方を設定したイベントを作った場合は、決めた時間が来た時に条件が整っている時だけ、動作します。
+
+条件だけを設定した場合、その条件になるのを待って動作します。"</string>
+    <string name="hrQueueEventMinutes">待ち時間</string>
+    <string name="hrQueueEventSeconds">待ち秒数</string>
+    <string name="hrQueueEventMinutesDescription">イベントが作り出されてから、条件が判断され実行されるまでの待ち時間を、分単位で設定します。</string>
+    <string name="hrQueueEventSecondsDescription">イベントが作り出されてから、条件が判断され実行されるまでの待ち時間を、秒単位で設定します。</string>
+    <string name="hrQueueAnEventNamed1After2Minutes">%2$s分待って「%1$s」イベント実行</string>
+    <string name="hrQueueAnEventNamed1After2Seconds">%2$s秒待って「%1$s」イベント実行</string>
+    <string name="hrQueueAnEventNamed1After2Minutes3Seconds">%2$s分%3$s秒待って「%1$s」イベント実行</string>
+    <string name="hrQueueAnEventNamed1">「%1$s」イベントを待機</string>
+    <string name="hrWaitFor1Minutes">%1$s分待機</string>
+    <string name="hrWaitFor1Seconds">%1$s秒待機</string>
+    <string name="hrWaitFor1Minutes2Seconds">%1$s分%2$s秒待機</string>
+    <string name="hrConditionAbbr">条件</string>
+    <string name="hrActionAbbr">動作</string>
+    <string name="hrYouHaveFiltersActive">フィルタで隠されたイベントがあります!</string>
+    <string name="hrEnterAScreenLockPassword">ロック画面パスワードを入れてね:</string>
+    <string name="hrConfirmScreenLockPassword">確認用のロック画面パスワード:</string>
+    <string name="hrPasswordsDontMatch">パスワードが一致しません。もう一度お願いします。</string>
+    <string name="hrPasswordHidden">パスワードを隠す</string>
+    <string name="hrPasswordErrorPleaseReenterItAgain">パスワードエラー。再入力をお願いします。</string>
+    <string name="hrEventActionAndConditionSettings">イベント用の動作条件の設定</string>
+    <string name="hrDefaultReminderTone">通知の音</string>
+    <string name="hrDefaultReminderToneDescription">「通知」動作時に、通知音を鳴らします。</string>
+    <string name="hrWaitForConditions">条件待ち</string>
+    <string name="hrLongerProfileLock">長期モード固定</string>
+    <string name="hrLongerProfileLockDescription">8時間から24時間のモード固定を可能にします</string>
+    <string name="hrCellPolling">セル確認設定</string>
+    <string name="hrCellPollingDescription">Llamaは、通常は現在電波が繋がっているセルを使用します。しかし、違う方法でセルの確認を行うこともできます。</string>
+    <string name="hrCellPollingWithWakeLock">確認中は起きたまま</string>
+    <string name="hrCellPollingWithWakeLockDescription">セル確認中は、携帯が休止しないようにします。携帯によっては必要となります。</string>
+    <string name="hrCellPollingWithScreenWakeLock">確認中は画面オン</string>
+    <string name="hrCellPollingWithScreenWakeLockDescription">確認中は画面を点けたままにします。警告:一日に数えられないほどの画面オン/オフを繰り返えすと、壊れるかもしれません。私は特に何も言いません。自分のリスクでやってください。</string>
+    <string name="hrCellPollingActiveInterval">セル確認時間</string>
+    <string name="hrCellPollingActiveIntervalMillis">確認のために携帯を動作させる時間を、ミリ秒(1/1000秒)単位で指定します。電力消費を考えれば、５秒以上にすべきではありません。</string>
+    <string name="hrConfirmationTriggeredBy1Condition">%1sにより確認</string>
+    <string name="hrDelayTriggeredBy1Condition">%1sにより遅延実行</string>
+    <string name="hrEventDelayCancelled">条件が合わなくなり、遅延実行中止</string>
+    <string name="hrEventRepeatingCancelled">条件が合わなくなり、繰返し実行中止</string>
+    <string name="hrSetLlamaVariable1To2">「%1$s」を「%2$s」に</string>
+    <string name="hrPleaseEnterAVariableName">Llama変数名を入れてね</string>
+    <string name="hrPleaseEnterAVariableValue">Llama変数の値を入れてね</string>
+    <string name="hrVariableName">変数名</string>
+    <string name="hrVariableValue">変数の値(入れないこともできます)</string>
+    <string name="hrActionSetLlamaVariable">Llama変数</string>
+    <string name="hrActionSetLlamaVariableDescription">Llama変数に文を入れて、他のイベントを制御できます。これにより、恐ろしく複雑なイベントの集合体を作り出すこともできます。名前をつけた変数に、文を入れるだけです。変数はいくつも作れます。追加ボーナスとして、Llama変数はMinimalistic Textウィジェット(MTW)に送られます。MTWはLocale variableとして変数名を知っています。</string>
+    <string name="hrDonateRequiresMarket">Google Playの起動で問題が起きました。寄付はGoogle Play経由でのみ行えます。</string>
+    <string name="hrWhen1HasAValueOf2">「%1$s」が「%2$s」なら</string>
+    <string name="hrWhen1DoesNotHaveAValueOf2">「%1$s」が「%2$s」でないなら</string>
+    <string name="hrWhen1HasAValueGreaterThan2">「%1$s」が「%2$s」より大きければ</string>
+    <string name="hrWhen1HasAValueGreaterThanOrEqualTo2">「%1$s」が「%2$s」以上ならば</string>
+    <string name="hrWhen1HasAValueLessThan2">「%1$s」が「%2$s」より小さければ</string>
+    <string name="hrWhen1HasAValueLessThanOrEqualTo2">「%1$s」が「%2$s」以下ならば</string>
+    <string name="hrConditionLlamaVariable">Llama変数</string>
+    <string name="hrConditionLlamaVariableDescription">Llama変数に入れた文で連携します。現在のLlama変数の値によって、イベントを起動することができます。</string>
+    <string name="hrVariables">Llama変数</string>
+    <string name="hrAreYouSureYouWantToClearVariables">"本当にLlama変数と値を消去しますか?
+
+これは、使い終わった変数を消すだけです。他のイベントを起動するきっかけとはなりません。"</string>
+    <string name="hrNoVariablesSet">変数はありません。変数を使うには、イベントの動作で「Llama変数」を使ってください。イベントが始めて動作するまで、変数は表示されません。</string>
+    <string name="hrConfirmationDeniedTriggerName">確認で拒否</string>
+    <string name="hrForceNoisyContactRingtone">特別な着信音を強制</string>
+    <string name="hrForceNoisyContactRingtoneDescription">携帯によっては、無音時に着信音を鳴らしません。強制すれば、Llamaが代わって着信音を鳴らします。着信音が二重に聞こえるようなら、チェックを外してください。</string>
+    <string name="hrRepeatingEventWithNoConditionsWarning">"この繰り返しイベントは、条件がないため絶対に実行されません。
+
+もし永久に繰り返したい、というのであれば、携帯の再起動/起動直後を条件にするとよいでしょう。
+
+今すぐこの条件を追加しますか?"</string>
+    <string name="hrNotificationIconDots">点の数</string>
+    <string name="hrColour">色</string>
+    <string name="hrTheNumberOfDotsToShowOnTheIcon">アイコンの点の数</string>
+    <string name="hr1Dots">点%1s個</string>
+    <string name="hr1Dot">点%1s個</string>
+    <string name="hrWith">それと</string>
+    <string name="hrDontChangeDots">点は変えない</string>
+    <string name="hrPleaseChooseASoundToPlay">鳴らす音を選んでね</string>
+    <string name="hrNotificationIconMustChangeTheIconOrNumberOfDots">通知アイコンの、アイコンおよび点の数を変更できます。</string>
+    <string name="hrActionSoundPlayer">音を鳴らす</string>
+    <string name="hrActionSoundPlayerDescription">"着信音や通知音を鳴らします。この際、どのストリームで鳴らすか決められます。各ストリームはそれぞれの音量をもっていて、Llamaのモード設定で変更できます。
+
+音は最後まで鳴らされ、次の音を鳴らそうとすると待ち行列に入ります。音を止めたい場合は、音を鳴らしたときに現れる通知アイコンを使います。このアイコンはLlamaの設定で消すこともできます。"</string>
+    <string name="hrRingtonePickerType">音の種類</string>
+    <string name="hrPlaySound1">「%1s」を鳴らす</string>
+    <string name="hrEventColonSoundDescription">%1$s:「%2$s」演奏中</string>
+    <string name="hrChooseARingToneToPlay">着信音を選んで</string>
+    <string name="hrNoneSelected">選んでません</string>
+    <string name="hrCurrentRingtoneColon1">現在の着信音:%1s</string>
+    <string name="hrErrrMusicDescription">"Android標準の着信音設定は、着信音として好きな音楽を選べません。しかし、Androidは果物みたいな名前のライバルよりも賢く、着信音設定プログラムを自由に選べます!
+
+私は、GooglerのDianne Hackbornが作ったアプリ、Rings Extendedを推奨します。
+
+アプリ無料、といいながら音楽を設定しようとしたら料金をとる様なサービスは全部無視しましょう。そんなサービスに手を出すなんて、おばかさんだけですよ。
+
+それとも、やっぱりGoogle Playで他の着信音設定プログラムを探したいですか?"</string>
+    <string name="hrNoisyLlamaTapToStop">やかましいLlama - タップで止まります</string>
+    <string name="hrProblemStartingAndroidMarket">Google Playの起動で問題がおきました (T_T)</string>
+    <string name="hrUseTheNotificationToStopPlaying">通知を使って音を止められます。このオン/オフはLlamaの設定にあります。</string>
+    <string name="hrBulkOperations">大量操作</string>
+    <string name="hrBulkOperationsDescription">手っ取り早い操作方法が入ってます</string>
+    <string name="hrBulkDeleteCellsFromAreas">場所からセルを消します。キャリアを変更したときなどに。</string>
+    <string name="hrBulkDeleteMapPointsFromAreas">場所から地点を消します</string>
+    <string name="hrBulkDeleteWifiMacFromAreas">場所からWiFi MACアドレスを消します</string>
+    <string name="hrBulkDeleteWifiNameFromAreas">場所からWiFiネットワークを消します</string>
+    <string name="hrBulkDeleteBluetoothFromAreas">場所からBluetooth機器を消します</string>
+    <string name="hrBulkDeleteBeaconWarning">本当にやっていいの?! 気が変わったときのために、バックアップを取ったか確認してください。これが終わったら、Llamaを一度終了して再起動してください。</string>
+    <string name="hrActionTwoGThreeG">2G/3G(改造携帯専用)</string>
+    <string name="hrActionTwoGThreeGDescription">"**ハック/改造された携帯でしか動作しません** この機能を使うには、CyanogenMod 7以上が携帯にインストールされている必要があります。Androidの持つ制限により、普通はサードパーティアプリからネットワークモードを操作することができないためです。
+
+つまらない警句はともかく、この機能は携帯が接続するネットワークモードを変更します。あなたの携帯が使えるモードについては、ググってみてください。まぁ、たぶんこれでしょう:
+
+au - CDMA/EvDo、docomo/softbank - WCDMA"</string>
+    <string name="hrChangeNetworkTo1">ネットワークを%1sに変更</string>
+    <string name="hrGpsEnableWarning">動かないかもしれません! GPSはAndroid 2.2以下か、改造した携帯でしか変更できません。これはAndroidのセキュリティ上の制限で、アプリがあなたをこっそり見張れないようにしています。</string>
+    <string name="hrActionKillAppWarning">動かないかもしれません! Android 2.2以上では、他のアプリの停止が制限されます。Hack/root化した携帯をお使いなら、もうひとつの「アプリ停止」を試してください。</string>
+    <string name="hrMilliAbbreviation">ms</string>
+    <string name="hrDelayFor1">%1s待機</string>
+    <string name="hrRepeatedEventEditWarning">繰返しイベントを編集しました。今すぐ条件を調べ、繰り返しを開始しますか?</string>
+    <string name="hrQueuedEventDefaultName">待機中イベント</string>
+    <string name="hrQueuedEventChangeDefaultNameTip">イベントの名前は、すべて異なる必要があります。別のイベントでも同じ名前を使っていると、このイベントを作り出すことはできません!　作り出したいイベントの名前を変更することをお勧めします。</string>
+    <string name="hrCalendarEventDialogExtraEventSettings">予定を、予定のタイプと、外部向け表示でフィルタできます。カレンダーも予定の名前も決めない場合、イベントは終日で予定なし、などの条件で動作します。&lt;br>&lt;br>注意:すべてのカレンダーアプリが、同じように予定を作るわけではありません(例えばMSエクスチェンジなど);&lt;u>ここをタップすると、Llamaカレンダーデバッグビュワーが見られます。&lt;/u>これで、Llamaが何を考えたか確かめられます。</string>
+    <string name="hrCalendarDebugTitle1">次の%1s分の予定</string>
+    <string name="hrCalendarEventMustBe">それが</string>
+    <string name="hrAllDay">終日予定</string>
+    <string name="hrNotAllDay">終日ではない</string>
+    <string name="hrShownAsAvailable">予定なし</string>
+    <string name="hrNotShownAsAvailable">予定あり</string>
+    <string name="hrYourDeviceDoesNotSupportDeviceAdmin">この機種は、Androidのデバイス管理者を設定できないようです (T_T)</string>
+    <string name="hrAlsoThanksTo">さらにありがとう:</string>
+    <string name="hrConditionAudioBecomingNoisy">イヤホンが外れた</string>
+    <string name="hrConditionAudioBecomingNoisyDescription">有線だけでなく、Bluetoothでも、イヤホン接続が切れた条件でイベントを起こします。携帯によっては、他の条件より早く反応します。</string>
+    <string name="hrWhenAudioBecomesNoisy">イヤホンが外れたら</string>
+    <string name="hrConditionDeskDock">卓上ドック</string>
+    <string name="hrConditionDeskDockDescription">"卓上ドック(クレードル)に置かれたときにイベントを起こします。
+
+この携帯が、Android標準のドック動作を行うか、注意してください。携帯メーカーによっては、ドック動作の変更が好きで、適切に動作しません。さらに、いくつかのドックは本物の(携帯を接続するための)ドックではなく、安っぽいプラスチックの塊に過ぎません。その場合、携帯はドックに置かれたかどうかもわかりません。"</string>
+    <string name="hrInDeskDock">ドック内</string>
+    <string name="hrNotInDeskDock">ドック内ではない</string>
+    <string name="hrWhenInDeskDock">ドック内なら</string>
+    <string name="hrWhenNotInDeskDock">ドック内でないなら</string>
+    <string name="hrActionSpeak">喋る</string>
+    <string name="hrActionSpeakDescription">ロボット音声でLlamaに会話をさせます。変数名をハッシュ２個で囲むことで、変数の値を話させることもできます。例:「ロックは##LockEnabled##になります」</string>
+    <string name="hrSay1">「%1s」と喋る</string>
+    <string name="hrActionLocalePlugin">Localeプラグイン</string>
+    <string name="hrActionLocalePluginDescription">"**実験中**
+有名な「Locale」アプリ用に作られたサードパーティ製のプラグインを使用します。Localeプラグインは、無料のものから有料のものまで、Google Playで見つけることができます。しかし、Llama はそれらが動作するとは約束 **しません**!
+
+既知の問題としては、Localeが使用する文やアイコンへの連携があります。これらの場合、適切な表示は望めませんが、動作はしてくれます。
+
+Localeプラグインを設定するとき、変更を保存するのにMENUを押す必要があります。MENUボタンで表示されるメニューの中の最後のボタンを押せば、通常は保存されます。"</string>
+    <string name="hrLocalePluginConfigMessage">いくつかのプラグインは、MENUボタンを押して最後のアイテムを選ぶとセーブされます。</string>
+    <string name="hrRunLocalePlugin1Quotes2">Localeプラグイン「%1$s:%2$s」</string>
+    <string name="hrChooseALocalePluginToRun">Localeプラグインを選んでね</string>
+    <string name="hrGettingLocaleActionPlugins">Localeプラグインを入手してね...</string>
+    <string name="hrInAppDonateBlurb">"私がLlamaを作った苦労を認めてもらえるなら、わずかでよいので寄付をお願いします。一度といわず何度でもどうぞ。アイテムをタップすると、Google Playで実際の額が表示され、送金することができます。
+
+表示は、私が何に使うかの目安に過ぎません (^_^) ありがとう!"</string>
+    <string name="hrInAppThanksForDonating">寄付しました! 乾杯!</string>
+    <string name="hrYouCanHideTheDonateMenu">Llamaの設定で「寄付」を隠せます (^_^)</string>
+    <string name="hrHideDonateMenuItem">メニュー項目「寄付」を隠す</string>
+    <string name="hrHideDonateMenuItemDescription">寄付をありがとう。メニュー項目の「寄付」を隠せるようになりました。寄付は引き続きLlama?ボタンから行えます。</string>
+    <string name="hrRecheckDonation">寄付状態を再確認</string>
+    <string name="hrWhen1ShowsANotification">%1sが通知を出したら</string>
+    <string name="hrChooseAnApp">アプリを選んで</string>
+    <string name="hrAppStatus">状態:</string>
+    <string name="hrConditionActiveApp">アプリ切替え</string>
+    <string name="hrConditionActiveAppDescription">特定のアプリが画面に表示されたり、非表示になったりする条件で動作します。Llamaは数百ミリ秒ごとに、現在使用中のアプリをAndroidに問い合わせる必要があります。この間隔はLlama設定で変更できます。</string>
+    <string name="hrActiveAppWatcherMillis">現在のアプリ確認間隔</string>
+    <string name="hrActiveAppWatcherMillisDescription">「アプリ切り替え」条件を使用した場合、Llamaは数百ミリ秒ごとに現在のアプリを調べます。数値を小さくすると、Llamaの反応は良くなりますが、携帯の動作に影響が出ます。おすすめは200ミリ秒から1秒の間です。</string>
+    <string name="hrMIUIVolumeChangeWarning">"最近のバージョンのMIUI(改造ROM)は権限管理するため、Llamaが着信音量を変更するのを阻害します。うまく動かしたいなら、こうしてください:
+
+-super-user appに行く
+-Llamaアプリの詳細を見つける
+-「Monitor Calls」(盗聴)を許可する
+
+この権限名は紛らわしく、音量とは関係なさそうですが、うまく動くようになります。ウーム、Llamaは怪しげな記録なんて一切とりませんよ。"</string>
+    <string name="hrNeverShowAgain">もう見たくない</string>
+    <string name="hrThinkingDotDotDot">考え中...</string>
+    <string name="hrConditionGroupOr">条件どれかが(OR)</string>
+    <string name="hrConditionGroupOrDescription">条件をまとめたグループを作ります。グループ内のどれかひとつの条件が整うと、グループ全体として、条件が整ったことになります。</string>
+    <string name="hrConditionGroupAnd">条件すべてが(AND)</string>
+    <string name="hrConditionGroupAndDescription">条件をまとめたグループを作ります。グループ内のすべての条件が整うと、グループ全体として、条件が整ったことになります。注意:「条件すべてが(AND)」は、「条件どれかが(OR)」の中だけで必要になります。Llamaのイベントは、普通は「条件すべてが(AND)」となっています。</string>
+    <string name="hrAllowRetrigger">再度の条件確認</string>
+    <string name="hrAllowRetriggerDescription">すでに条件が整っているときに、新たに条件が整った項目があった場合、再度動作します。</string>
+    <string name="hrIcsNotificationUseRingVolumeWarning">"Ice Cream Sandwich(Android 4.0以上)では、通知音量と着信音量がわけられなくなりました。
+
+モードを編集して、音量を合わせて下さい。そうしないと、Llamaは音量が変えられたと思って、モードを固定しようとします。
+
+Android 4.0 - 一歩前へ、あとは後ろへ (T_T)"</string>
+    <string name="hrRingerChangeNoVolumeWarning">着信音量や通知音量が設定されているのであれば、着信通知の設定を「着信音」か「着信音と振動」にしなくてはなりません。モード設定の修正をお願いします。</string>
+    <string name="hrIcsApn">Ice Cream Sandwich(Android 4.0以上)では、サードパーティアプリはAPN設定を変えられなくなりました。</string>
+    <string name="hrWhatShouldLlamaSay">Llamaはこう言うよ:</string>
+    <string name="hrConditionCallState">通話状態</string>
+    <string name="hrConditionCallStateDescription">"通話状態、つまり通話中か否かをもとにした条件を作ります。設定で次の条件を選べます。
+-電話を掛けるか、掛かってきた
+-通話が終わった"</string>
+    <string name="hrExtraTtsCleanup">「喋り終わる」Hack</string>
+    <string name="hrExtraTtsCleanupDescription">「喋る」機能が終わった後、テキスト読み上げエンジンを、激しく小突きます。喋った後、音楽再生などができなくなる場合に使います。</string>
+    <string name="hrExtraTtsCleanupText">「喋り終わる」文章</string>
+    <string name="hrExtraTtsCleanupTextDescription">上のhackで喋らせる文。普通はdot(終止符)ですが、多くのテキスト読み上げエンジンは、「ドット」と喋るでしょう。中括弧 {} やパイプ | も試してみてください。</string>
+    <string name="hrAudioStreamSpeakInfo">"いくつかの音のストリーム(着信音や通知音)は、スピーカーとイヤホンの両方から鳴らされます。音楽/メディアは、イヤホンが繋がっていればそちらだけから鳴ります。
+
+着信音/通知音のストリームで喋らせてみると、音楽が止まってしまうのに気付くかもしれません。もし音が止まるようなら、Llama設定にある「喋り終わるHack」を使ってみてください。これは、いくつかの携帯と、テキスト読み上げ(TTS)エンジンの組み合わせでだけ起こります。サムスンのTTSは無作法です。サムスンが悪いんだ!"</string>
+    <string name="hrEnterSomeTextToSpeak">Llamaはなにを喋るの？</string>
+    <string name="hrBilling_cannot_connect_message">アプリ内課金は、あなたの携帯か、Market/Google Playのバージョンでは使えません。</string>
+    <string name="hrBilling_billing_not_available">アプリ内課金は、今は使えません。あとで試してみてください。</string>
+    <string name="hrBilling_learn_more">もっと学ぶ</string>
+    <string name="hrAdvancedRotationWarning">"この機能は、回転角度を自由にできるROM改造した携帯でしか動きません。例えば、Cyanogenmod 7など。
+
+単純な回転と高度な回転を混ぜて使わないでください。普通に戻したいときは、0°と90°を使います。お使いのROMによっては、絶対に回転しない場合もあります。"</string>
+    <string name="hrWhenTheCurrentAppIs1">現在アプリが%1sなら</string>
+    <string name="hrWhenTheCurrentAppIsNot1">現在アプリが%1sでないなら</string>
+    <string name="hrAndThen">の後で</string>
+    <string name="hrEvery1minutes">%1s毎に繰り返し</string>
+    <string name="hrIcsHiddenNotificationIcon">Llamaに実行中通知を表示させますが、アイコンは表示されません。Androidがさせてくれないのです。Ice Cream Sandwich以前のアプリは、透明アイコンと、遠い昔の日付を使えました。これはアイコンを右に置く効果がありましたが、もうできません。申し訳ありませんが、Llamaの通知アイコンの設定を他のものに変更してください。</string>
+    <string name="hrChangeIconIfVolumeChanges">音量変更でアイコンも変更</string>
+    <string name="hrChangeIconIfVolumeChangesDescription">音量が変わったときに、通知アイコンを「警告」に変更します。</string>
+    <string name="hrUnknownProfile">モード不明</string>
+    <string name="hrFailedToWriteToLocationLog">位置記録の書き込みに失敗</string>
+    <string name="hrLlamaTrailSettings">Llamaの足跡設定(開発中!!!)</string>
+    <string name="hrLlamaTrail">Llamaの足跡を保存</string>
+    <string name="hrLlamaTrailDescription">一度見たセル、つまりはあなたの移動記録を、永遠に見られるように残します。勤務記録などが必要なときにどうぞ。</string>
+    <string name="hrLlamaTrailToSdCard">SDカードに書き込む</string>
+    <string name="hrLlamaTrailToSdCardDescription">Llamaの足跡を、SDに残すか携帯内に残すか選べます。USBストレージモードを度々使うのであれば、SDに記録する方法は問題が出るかもしれません。</string>
+    <string name="hrConditionScreenRotation">画面の回転(現在のアプリ)</string>
+    <string name="hrConditionScreenRotationDescription">"画面の回転を条件としてイベントを起こします。Android 2.1以前ではおかしなことになると思います。だって画面が縦か横かしかわからないんだもん。でも、2.1をまだ使っている人は、たった1300人しかいないはず。
+
+画面がオンで、現在のアプリが回転に対応しているときしか動きません。電池の消費を抑えるために、Androidがセンサーを使うのに相乗りしているからね。"</string>
+    <string name="hrWhenScreenIsRotated1">画面の回転が%1sなら</string>
+    <string name="hrEditArea">場所の編集</string>
+    <string name="hrRingtonePickerFailedToOpen">着信音選択を呼び出せませんでした。携帯が着信音選択の呼び出しに対応していないのかも (T_T)</string>
+    <string name="hrRingtonePickerPickedSilent">"着信音選択で「サイレント」が選ばれました。無音を鳴らすなんてことはできないので、別のものをお願いします。
+
+じゃぁ、なんで「サイレント」を表示するんだい、と聞く人もいるでしょう... サムスンさんのおかげです。Galaxy Sの着信音選択で、「サイレント」を非表示にしようとすると、クラッシュを引き起こすのです。
+http://stackoverflow.com/q/5874372/
+
+さん、はい！面倒かけてくれてありがとうサムスン！（拍手喝采）"</string>
+    <string name="hrApps2SdWarning">"LlamaがSDカードにインストールされました。携帯の内蔵メモリが少ないとか、Llamaに移動するように頼んだのかもしれません。
+
+Llamaは、バックグラウンドで動作するサービスだ、ということに注意してください。あなたがUSBケーブルをつないで「ストレージモード」に入ったとき、SDカードへのアクセスはできなくなります。するとLlamaは身動きが取れなくなり、条件を知ることも、動作することもできなくなるでしょう。
+
+「ストレージモード」が終わったとき、Llamaは再び動き出します。画面をオフにすると、さらに早く動かすことができます。
+
+容量があるならば、Llamaを内蔵メモリにインストールするのが理想です。Android設定の「アプリケーションの管理」から、Llamaの詳細情報を見てください。"</string>
+    <string name="hrViewLlamaAppInfo">アプリ情報</string>
+    <string name="hrWhenTheNextAlarmIsDue1">次のアラーム予定(%1s)があるなら</string>
+    <string name="hrConditionNextAlarm">アラーム時刻</string>
+    <string name="hrConditionNextAlarmDescription">アラームの予定があるか調べます。これは正しい方法でNEXT_ALARM_FORMATTEDを更新する、他のアプリがある場合にだけ動作します。</string>
+    <string name="hrWhenTheresNoAlarmSet">アラームがないなら</string>
+    <string name="hrTheNextAlarmIs1AndHeresHowYouUseIt">"次のアラームは:
+
+%1s
+
+このアラームが鳴ると条件が整います。または、アラームがセットされていないときに整う条件も作れます。
+
+例
+アラームがあるなら > 通知を表示
+
+または
+
+21:00から21:05の間,アラームがないなら > 振動たくさん"</string>
+    <string name="hrTriggerWhenAlarmIsDue">アラーム予定があれば実行</string>
+    <string name="hrTrueWhenNoAlarm">アラームがなければ実行</string>
+    <string name="hrEventGroupOptional">イベントグループ(任意)</string>
+    <string name="hrNoGroupString">グループなし</string>
+    <string name="hrEventsNowGroupedEditEventNamesToGroup">表示をグループ化。イベント編集でグループを作れます。</string>
+    <string name="hrEventsNotGrouped">表示はグループ化しません</string>
+    <string name="hrFilterViewSearch">フィルタ：表示形式と検索も</string>
+    <string name="hrWhenUserIsPresent">ロック画面の解除</string>
+    <string name="hrConditionUserPresent">ロック画面の解除</string>
+    <string name="hrConditionUserPresentDescription">ロック画面の解除で条件が整います。ロック画面を表示しないなら、整うことはありません。</string>
+    <string name="hrWhenCallStateIs1">通話状態が%1sなら</string>
+    <string name="hrCallStateInCall">通話中</string>
+    <string name="hrCallStateNotInCall">通話中でない</string>
+    <string name="hrCallStateRinging">着信中</string>
+    <string name="hrPleaseChooseOneOrTwoCallStates">通話状態を１つか２つ、選んでね。</string>
+    <string name="hrDontCheckVolumeInCall">通話中の音量変更は無視</string>
+    <string name="hrDontCheckVolumeInCallDescription">いくつかの携帯では、通話中に音量を報告しないか、間違えます。このせいで、なにもしていないのにLlamaは音量が変えられたと勘違いします。勝手にLlamaがモード固定したり、通話の間「モード不明」になるようなら、「通話中の音量変更は無視」を使ってください。</string>
+    <string name="hrTheAction1CannotBeRunFromACustomShortcut">動作「%1s」は安全上の理由により、カスタムショートカットでは使えません。イベントを作り、イベント名ショートカットを作ってください。</string>
+    <string name="hrLlamaTonePicker">LlamaTone選択</string>
+    <string name="hrLlamaTones">LlamaTone</string>
+    <string name="hrLlamaTonesDescription">LlamaToneは、モードを変更したときに、他アプリでも通知音などを変更できるようにします。</string>
+    <string name="hrLlamaTonesDetailedDescription">"LlamaToneは、他のアプリの着信音を現在のモードに基づいて変更できるようにします。
+
+モードのうちどれかで、LlamaToneを作ってわかりやすい名前を付けてください。例えば、「Gmail」とかね。これで、このモードの時にGmailが通知につかう着信音を決められます。
+
+別のモードのLlamaToneも編集して、このモードでGmailが使う着信音を決めてください。
+
+最後に、GmailにLlamaToneを使うことを知らせます。これは、Gmailの着信音設定で行います。着信音を選ぼうとすると「LlamaTone選択」を目にするでしょう。これを使ってLlamaToneを選びます。
+
+LlamaToneを消したい場合は、すべてのモードから「消去/中止」を選んでください。"</string>
+    <string name="hrCreateNewLlamaTone">LlamaToneを作る</string>
+    <string name="hrTapToCreateANewLlamaTone">LlamaToneを作るにはタップ</string>
+    <string name="hrPleaseEnterNameForTheLlamaTone">新しいLlamaToneの名前を入れてね:</string>
+    <string name="hrALlamaToneNamed1AlreadyExists">「%1s」というLlamaToneはすでにあります。別の名前にするか、既存のLlamaToneを使ってください。</string>
+    <string name="hrCurrentlySetTo1">現在の設定は%1s</string>
+    <string name="hr3rdPartyActionCrumb">動作</string>
+    <string name="hrYouHaventSetUpAnyLlamaTones">"LlamaToneの設定がありません。使う前に、いずれかのモードを編集してください。
+
+LlamaToneは、サードパーティアプリでも、モード設定にしたがって音を変えられるようにします。"</string>
+    <string name="hrDontChange">LlamaToneを変えないで</string>
+    <string name="hrCopyLlamaTonesToProfile">このLlamaToneを使う、他のモードを選んでね</string>
+    <string name="hrCopyTo">コピー先は...</string>
+    <string name="hrCopyToSelected">選んだ先にコピー</string>
+    <string name="hrExportSuccess">データ保存に成功</string>
+    <string name="hrDataNotExported">データは保存されてません!</string>
+    <string name="hrWhichTypeOfToneIsLlamaTone">着信音の種類を選ぶか、中止します</string>
+    <string name="hrLlamaCouldntFindAnyRingtonePickers">"Llamaは着信音選択を見つけられませんでした。
+
+わけがわからないよ"</string>
+    <string name="hrChooseARingtonePicker">どの着信音選択を使おう</string>
+    <string name="hrClearCancelLlamaTone">LlamaToneの消去/中止</string>
+    <string name="hrCantSelectLlamaToneAsLlamaTone">"LlamaToneを選ぶのにLlamaToneを使わないでね。
+
+頭山に落ちてしまうよ。"</string>
+    <string name="hrWhichProfiles">どのモード?</string>
+    <string name="hrMoanToGoogle">Googleに愚痴る</string>
+    <string name="hrLeaveSettingsAlone">やっぱこれを使う</string>
+    <string name="hrMakeSettingsTheSame">同じものを作る</string>
+    <string name="hrWhenWifiHotspotIsEnabled">テザリング有効なら</string>
+    <string name="hrWhenWifiHotspotIsDisabled">テザリング無効なら</string>
+    <string name="hrConditionWifiHotspot">テザリング</string>
+    <string name="hrConditionWifiHotspotDescription">テザリングが有効かどうか調べます。これは、イベントを起動することはありません。他の条件とあわせ、フィルタとして働きます。</string>
+    <string name="hrEnableAll">すべて有効</string>
+    <string name="hrDisableAll">すべて無効</string>
+    <string name="hrRenameGroup">グループ名変更</string>
+    <string name="hrPleaseEnterANewGroupName">新しいグループ名を入れてね</string>
+    <string name="hrBrightnessCustomEventWarning">カスタムショートカットでは、そんなに画面を暗くできません。イベントを作り、イベント名ショートカットを作ってください。これは安全上の理由によるものです!</string>
+    <string name="hrRootedShutdownCommand">Root shutdownコマンド</string>
+    <string name="hrRootedShutdownCommandDescription">携帯を電源オフするためにLlamaが使うコマンドです。root化しているのに電源オフできないときは、別のコマンドを試してください。</string>
+    <string name="hrRootedRebootCommand">Root rebootコマンド</string>
+    <string name="hrRootedRebootCommandDescription">携帯を再起動するためにLlamaが使うコマンドです。root化しているのに再起動できないときは、別のコマンドを試してください。</string>
+    <string name="hrNearbyWifiDisableForHotSpot">テザリングと共生</string>
+    <string name="hrNearbyWifiDisableForHotSpotDescription">テザリングが有効になったとき、LlamaはWiFi確認を休止します。これは、Android標準のWiFiテザリングでのみ動作します。</string>
+    <string name="hrWhatEventDescriptionsShouldIShow">イベントを断片から検索するよ</string>
+    <string name="hrIcsRingerNotificationVolumeMessage">Ice Cream Sandwichは、着信音と通知音量を別けることができなくなりました。どうしよっか?</string>
+    <string name="hrDeviceAdminWarning">"セキュリティに関わるAndroidの機能を使うためには、Llamaをデバイス管理者にする必要があります。もしあなたがLlamaのアンインストールを決めたときには、先にLlamaをデバイス管理者から外さなくてはなりません。この方法は、Android設定の「セキュリティ」の中にあります。
+
+そうしないと、Androidは不親切極まりない「アンインストールできませんでした」という表示を出します。
+
+覚えてくれてありがとう (^_^)"</string>
+    <string name="hrInstantConfirmation">イベント確認の簡略化</string>
+    <string name="hrInstantConfirmationDescription">Llamaが確認要求したとき、応答画面を出すことなく、通知領域をタップしただけでイベントを実行します。「消す」ボタンを使いたいときは、スワイプ(通知を横方向になぞる)で通知を消すことができます。</string>
+    <string name="hrWhenNfcTag1IsDectected">NFCタグ%1sを見つけたら</string>
+    <string name="hrPleaseChooseAnNfcTag">NFCタグを選んでね</string>
+    <string name="hrConditionNfcTagDetected">NFCタグ検出</string>
+    <string name="hrConditionNfcTagDetectedDescription">"NFCタグを見つけると条件が整います。携帯がNFCを使えるようにする必要があります（悲しいかな、Llamaからはコントロールできません）。
+
+NFCタグが近くにないと、Llamaは見つけられません。これは、この条件がほとんど整わないことを意味します。
+
+イベントの繰返しを行うのであれば、NFCタグを見つけたことを変数に保持する必要があります。そして、別の条件になったら変数を消してください。"</string>
+    <string name="hrDoYouWantToUseTheTag1InThisCondition">「%1s」タグを条件として使いますか?</string>
+    <string name="hrLlamaHasFoundATagPleaseNameIt">Llamaはタグを見つけた!わかりやすい呼び名をつけて:</string>
+    <string name="hrTheFriendlyNameForNfcTag1WasModified">NFCタグ「%1s」の呼び名が修正されました</string>
+    <string name="hrLlamaDoesNotKnowAboutAnyNfcTagsTapOneOnYourPhone">LlamaはNFCタグを知りません。NFCタグを携帯にタッチしてください。</string>
+    <string name="hrYourPhoneDoesNotSupportNfc">残念ながら携帯がNFCに対応していません (T_T) 問題解決には、新しい携帯を買うか… KFCでも食べて元気だしなよ!</string>
+    <string name="hrChooseAnNfcTagOrTapYourPhoneAgainstANewTag">知っているNFCタグを選んでね</string>
+    <string name="hrYouCanAlsoUseAnotherTagByTappingItOnYourPhone">他のタグを使うには、それを携帯にタッチしてください</string>
+    <string name="hrNfcIsNotCurrentlyTurnedOnTurnItOnToAddTags">NFCが無効です。タグを追加するには有効にしてね</string>
+    <string name="hrPleaseSeeTheKebabappsWebsiteToDonateToTranslators">Kebabappsのwebsiteを見て、翻訳者たちにも寄付してね!</string>
+    <string name="hrLocalLanguageName">日本語</string>
+    <string name="hrPlaySoundNotificationIcon">演奏中の通知</string>
+    <string name="hrPlaySoundNotificationIconDescription">Llamaが音を鳴らしている間に通知アイコンを出すかどうかを決めます。オフにすれば、演奏中の音を止めてしまうことがなくなります。</string>
+    <string name="hrConditionRoaming">ローミング</string>
+    <string name="hrConditionRoamingDescription">この条件は、あなたの携帯がローミング(契約会社外の提携電波を使うこと)を開始したり終了したりすることで整います。</string>
+    <string name="hrNotRoaming">ローミングでない</string>
+    <string name="hrRoaming">ローミング</string>
+    <string name="hrWhenRoaming">ローミングなら</string>
+    <string name="hrWhenNotRoaming">ローミングでないなら</string>
+    <string name="hrManageSavedNfcTags">NFCタグの管理</string>
+    <string name="hrManageSavedNfcTagsDescription">名前をつけたタグを管理するにはタップ</string>
+    <string name="hrDeleteTag">タグを消す</string>
+    <string name="hrWatchForNfcTags">NFC検出を使う</string>
+    <string name="hrWatchForNfcTagsDescription">LlamaがNFCタグを見るかどうか決めます。別のアプリでNFCタグを使うならオフにします。この設定は、携帯全体のNFC設定とは関係ありません。</string>
+    <string name="hrCancelTagReading">NFCタグ探し終了</string>
+    <string name="hrFailedToDecodeIntentInEvent1">「%1s」イベントでインテント解読に失敗</string>
+    <string name="hrShareEvent">イベント共有</string>
+    <string name="hrShareLlamaEvent">Llamaイベント共有</string>
+    <string name="hrConditionMobileData">モバイルデータ有効/無効</string>
+    <string name="hrConditionMobileDataDescription">"この条件は、モバイルデータ使用にチェックがつけられているときに整います。このことを調べるのに公式でないAndroidの機能を使用しているので、すべての端末で動くわけでは *ありません*。
+
+動作を保障して欲しい、とGoogleに意見を出してください。そうすれば、正式な方法が用意されるかもしれません。
+
+この条件は、実際の条件変化から数秒後れて変化します。"</string>
+    <string name="hrWhenMobileDataEnabled">モバイルデータが有効なら</string>
+    <string name="hrWhenMobileDataDisabled">モバイルデータが無効なら</string>
+    <string name="hrMobileDataEnabled">モバイルデータ有効</string>
+    <string name="hrMobileDataDisabled">モバイルデータ無効</string>
+    <string name="hrConditionMobileDataConnected">モバイルデータ接続</string>
+    <string name="hrConditionMobileDataConnectedDescription">この条件は、モバイルデータ(つまり、G,E,3G,Hデータ通信)に接続していると整います。たぶん、LTE/WiMaxでも動作しますが、作者のいる英国では4Gが普及していないので未確認です。こんなところは英国の伝統を誇らないでいいのに。</string>
+    <string name="hrWhenMobileDataConnected">モバイルデータ接続なら</string>
+    <string name="hrWhenMobileDataNotConnected">モバイルデータ非接続なら</string>
+    <string name="hrMobileDataConnected">モバイルデータ接続</string>
+    <string name="hrMobileDataNotConnected">モバイルデータ非接続</string>
+    <string name="hrLlamaToneRateLimitHint">"LlamaTone割合制限:
+スライダーを使って、LlamaToneが音を出す間隔を制限します。GTalkなどのインスタントメッセンジャーアプリを便利に使えます。"</string>
+    <string name="hrRateLimit1SecondsSilence">%1s秒は静かに</string>
+    <string name="hrNoRateLimiting">制限しない</string>
+    <string name="hrNowPickALlameTone">使うLlamaToneを選んでね</string>
+    <string name="hrSocialImportWarning">Llamaのイベントを取り込もうとしています。悪意を持って作られていないか確認してください。</string>
+    <string name="hrTheChoiceIsYours">どうしましょう…</string>
+    <string name="hrImportLlamaEvent">イベントを取り込む</string>
+    <string name="hrAddToLlama">Llamaに追加</string>
+    <string name="hrEventImported">取り込み済</string>
+    <string name="hrRingtoneChangeError1">Llamaは「%1s」モードの着信音を変えられませんでした。着信音を選びなおしてください。</string>
+    <string name="hrLlamaFormatterInfo">"この画面は、NFCタグをLlamaで使うために初期化します。
+
+「見つかったタグ」を使うよりも、Llama用のタグのほうがLlamaを確実に動作させます。
+
+フォーマットするために、タグを端末にタッチさせます。タグに記録されたデータはすべて消去されます。読み取り専用属性は付けられません。
+
+一度初期化すれば、「NFCタグ検出」条件で使うことができます。もし、Llamaが初めて見るタグなら、タグにつける名前を訊かれるでしょう。"</string>
+    <string name="hrKey">キー</string>
+    <string name="hrValue">値</string>
+    <string name="hrCouldNotConvertExtra3">%1$sの値「%2$s」を、%3$s型に変換できません。</string>
+    <string name="hrAirplaneModeStupidness">Androidは、機内モードを「セキュリティ」関連と決めました。Llamaで機内モードを切り替えるには、端末のroot化が必要となります。苦情はGoogleへどうぞ。Google が悪いんです! 選択肢も示さずに悪い方向に変化するのは止めてほしい。</string>
+    <string name="hrResolveContentUris">音楽Content URIの解決</string>
+    <string name="hrResolveContentUrisDescription">通常、Androidの着信音選択は、OS内部のメディアデータベースのIDを content:// URIの形式で返します。Llama を別の端末で使用したり、OSのROMを書き換えたりすると、同じファイルであってもIDが変わるかもしれません。この項目を有効にすると、Llamaは音を鳴らす際に使用するファイルを、IDではなくパスとして記録します。</string>
+    <string name="hrAdvancedVariableActions">増やす/減らす/その他</string>
+    <string name="hrSetLlamaVariableIncrement1">Llama変数「%1$s」を増やす</string>
+    <string name="hrSetLlamaVariableDecrement1">Llama変数「%1$s」を減らす</string>
+    <string name="hrSetLlamaVariableToggle01">Llama変数「%1$s」で0と1を切り替え</string>
+    <string name="hrAdvancedVariableConditions">大きい/小さい/その他</string>
+    <string name="hrIcsSystemVolumeMessage">"Ice Cream Sandwich(Android 4.0以上)でシステム音量を変更しようとすると、実際には、着信音量が変わってしまいます。
+
+「システム音量の変更」のチェックを外したほうがよいでしょう。
+
+「保存」を押すと、このモードでシステム音量を変更しようとします。「やめる」を押せば、編集を続けられます。"</string>
+    <string name="hrSignalLevelAbove1">電波強度が%1sdBm以上</string>
+    <string name="hrSignalLevelBelow1">電波強度が%1sdBm以下</string>
+    <string name="hrWhenSignalGoesBelow1">電波強度が%1sdBm以上になったら</string>
+    <string name="hrWhenSignalRisesAbove1">電波強度が%1sdBm以下になったら</string>
+    <string name="hrCurrentStrengthColon1">現在の電波強度: %1sdBm</string>
+    <string name="hrSignalStrengthDialogHint">"上に書いてあるのが、現在の電波強度です。
+
+GSM(訳注:海外で主流の携帯電波)は、-113(圏外)から、-51(バリ５)の範囲を使用します。機内モードやサービス停止のときは、Llamaは仮に -150を使用します。
+
+注:端末によっては、この値はあてになりません。電波のほとんど届かないところでも、通信ができる、と勘違いすることになります。
+
+「モバイルデータ接続」条件と組み合わせることで、より確かな情報を得られるかもしれません。"</string>
+    <string name="hrVisitWebsite">サイトを見る</string>
+    <string name="hrBrokenWifiToggleUpdateDeviceStats">"ご使用の端末は、Llamaの WiFiオンオフを邪魔する、という恐ろしいバグを持っています。
+
+この報告は、code.google.comにログオンすると読むことができます。
+
+端末のアップデートを待つか、カスタムROMの利用を検討してください。
+
+それまでは、WiFi切替の動作を使わないようにするか、表示されるメッセージを消し続けることになります。「サイトを見る」ボタンを押して、code.google.comに書かれた詳細を読むことも、役に立つかも知れません。"</string>
+    <string name="hrCouldNotResolveContentUri">Content URIをファイルパスに変換できませんでした。Content URIのまま格納されます。</string>
+    <string name="hrLlamaCouldNotGetRootAccess">Llamaはroot権限を得られませんでした。Superuserアプリとして登録をお願いします。</string>
+    <string name="hrAddNewArea">新しい場所の追加</string>
+    <string name="hrAddNewEvent">新しいイベントの追加</string>
+    <string name="hrSearchEventsByNameAndDescription">イベント検索(名前や内容で)</string>
+    <string name="hrShowEventsGroupedOrFlat">イベント表示形式切替え</string>
+    <string name="hrAddNewProfile">新しいモードの追加</string>
+    <string name="hrProfileLock">モード固定</string>
+    <string name="hrProfileUnlock">モード固定解除</string>
+    <string name="hrShowHelpMenu">ヘルプ表示</string>
+    <string name="permSetLlamaVariable">Llama変数設定</string>
+    <string name="permSetLlamaVariableDescription">他のアプリがLlama変数を設定することを可能にします。Llama変数を条件としたイベントが予期せず動作するかもしれません。</string>
+    <string name="hrBrokenWifiToggleMultiuser">"…ハッ！ Llama は気を失っていました。WiFi状態を変えようとしたのは覚えていますが、その結果どうなったかはわかりません。大事なのは、結果がどうあれ、Llamaはあなたの端末に殺されかかった、ということです。
+
+あなたの端末は、WiFiの状態を変えるのに 'android.permission.INTERACT_ACROSS_USERS_FULL' か 'android.permission.INTERACT_ACROSS_USERS' の許可を必要とするようです。
+
+しかし、これらはLlamaが持つことができない、システム用のものです(x_x) 端末かROMのアップデートがないか確認してみてください。"</string>
+    <string name="hrWhenMccMncIs12">携帯電波の識別子が「%1$s:%2$s」なら</string>
+    <string name="hrWhenMccMncIsNot12">携帯電波の識別子が「%1$s:%2$s」でないなら</string>
+    <string name="hrConditionMobileNetworkId">携帯電波ID</string>
+    <string name="hrConditionMobileNetworkIdDescription">この条件は、現在捉えている電波のIDを使用します。このIDは、国を示す番号と、事業者を示す番号の組み合わせです。「近況」タブで最近捉えた電波IDを見ることができます。詳しくはWikipediaの「Mobile Network Code」を見てください。</string>
+    <string name="hrMccMncHelpText">この条件は、現在捉えている電波のIDを使用します。MCCは国番号、MNCは事業者番号です。空欄だと一致の判断をしません。</string>
+    <string name="hrAllowedTriggers">トリガ条件の絞り込み</string>
+    <string name="hrAllowedTriggersDescription">条件がすべて整ってイベントが動作するとき、最後に動作のきっかけとなった条件を「トリガ」と呼びます。ここでは、同一種の条件が複数書かれているときに、トリガにならないようにできます。トリガでなくすには、チェックを外してください。</string>
+</resources>

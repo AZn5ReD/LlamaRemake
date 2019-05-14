@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="notificationModeArray">
+        <item>Nincs értesítés</item>
+        <item>Folyamat értesítés és ikon</item>
+        <item>Csak folyamat értesítés</item>
+        <item>Csak folyamat ikon</item>
+        <item>Törölhető értesítés és ikon</item>
+        <item>Felugró értesítések (Toast)</item>
+        <item>Ongoing notification and icon (normal priority)</item>
+        <item>Ongoing notification and icon (high priority)</item>
+    </string-array>
+    <string-array name="batteryLevelOptions">
+        <item>Akkumulátor szint kisebb, mint...</item>
+        <item>Akkumulátor szint nagyobb, mint...</item>
+    </string-array>
+    <string-array name="signalLevelOptions">
+        <item>Térerő kisebb, mint...</item>
+        <item>Térerő nagyobb, mint...</item>
+    </string-array>
+    <string-array name="calendarContainsOptions">
+        <item>Esemény indítás/Jelenlegi esemény</item>
+        <item>Esemény kész/Nem aktuális esemény</item>
+    </string-array>
+    <string-array name="cellPollingModeArray">
+        <item>Nincs lekérdezés (az események késhetnek)</item>
+        <item>Csak tanulás közben</item>
+        <item>Lekérdezések be (hatással lehet az aksi szintre)</item>
+    </string-array>
+    <string-array name="mobileDataMenuModeArray">
+        <item>Egyik sem</item>
+        <item>Mobil adatkapcsolat</item>
+        <item>APN</item>
+        <item>Mindkettő</item>
+    </string-array>
+    <string-array name="notificationColourNames">
+        <item>Piros</item>
+        <item>Narancssárga</item>
+        <item>Sárga</item>
+        <item>Zöld</item>
+        <item>Kék</item>
+        <item>Lila</item>
+        <item>Rózsaszín</item>
+        <item>Cián</item>
+        <item>Fekete</item>
+        <item>Fehér</item>
+        <item>Llama beállítás: Alternatív ikonszín</item>
+        <item>A szín ne változzon</item>
+    </string-array>
+    <string-array name="screenOnNames">
+        <item>Világos, billentyű fényekkel</item>
+        <item>Világos (csak kijelző)</item>
+        <item>Sötét (csak kijelző)</item>
+    </string-array>
+    <string-array name="errorNotificationModeArray">
+        <item>Semmi</item>
+        <item>Csak feltűnő üzenetek</item>
+        <item>Értesítési sáv és feltűnő üzenetek</item>
+    </string-array>
+    <string-array name="colourEventListModeArray">
+        <item>Ki</item>
+        <item>Be</item>
+        <item>Be (színtévesztőknek)</item>
+        <item>Be (színtévesztőknek2)</item>
+    </string-array>
+    <string-array name="mediaButtonNames">
+        <item>Lejátszás/szünet</item>
+        <item>Következő szám</item>
+        <item>Előző szám</item>
+        <item>Stop</item>
+        <item>Gyors előre</item>
+        <item>Vissza</item>
+        <item>Lejátszás (Android 3.0+)</item>
+        <item>Szünet (Android 3.0+)</item>
+        <item>Felvétel (Android 3.0+)</item>
+    </string-array>
+    <string-array name="simpleRotationOptions">
+        <item>Nincs elforgatás</item>
+        <item>Elforgatás be</item>
+        <item>Haladó... (egyedi ROM támogatása szükséges)</item>
+    </string-array>
+    <string-array name="intentEditorTypes">
+        <item>Activity indítása</item>
+        <item>Szolgáltatás indítása</item>
+        <item>Adás</item>
+    </string-array>
+    <string-array name="llamaVariableChangeOptions">
+        <item>Aktuális érték</item>
+        <item>Nem a mostani érték</item>
+    </string-array>
+    <string-array name="mccMncDropDown">
+        <item>Mobilhálózat azonosító egyenlő...</item>
+        <item>Mobilhálózat azonosító nem egyenlő...</item>
+    </string-array>
+    <string-array name="audioStreamNames">
+        <item>Csengetés</item>
+        <item>Értesítések</item>
+        <item>Zene/média</item>
+        <item>Ébresztés</item>
+        <item>Beszélgetés</item>
+        <item>Rendszer</item>
+        <item>[Lejátszás megszakítása]</item>
+    </string-array>
+    <string-array name="ringtoneTypes">
+        <item>Csengőhangok</item>
+        <item>Értesítések</item>
+        <item>Ébresztések</item>
+        <item>Ööö... mi van a zenékkel???</item>
+    </string-array>
+    <string-array name="twoGThreeGNames">
+        <item>"WCDMA preferált
+(2G / prefer 3G)"</item>
+        <item>"Csak GSM
+(2G)"</item>
+        <item>"Csak WCDMA
+(3G)"</item>
+        <item>"Automata GSM (PRL)
+(2G / 3G preferálása)"</item>
+        <item>"Automata CDMA (PRL)
+(2G / 3G)"</item>
+        <item>"Csak CDMA
+(2G)"</item>
+        <item>"Csak EvDo
+(3G)"</item>
+        <item>"Automata GSM/CDMA (PRL)
+(2G / 3G)"</item>
+    </string-array>
+    <string-array name="calendarAllDayOptions">
+        <item>Egész napos és nem egész napos</item>
+        <item>Csak egész napos események</item>
+        <item>Nem egész napos események</item>
+    </string-array>
+    <string-array name="calendarAvailabilityOptions">
+        <item>Elérhető és elfoglalt</item>
+        <item>Csak elérhető</item>
+        <item>Csak elfoglalt</item>
+    </string-array>
+    <string-array name="activeAppStatuses">
+        <item>Alkalmazás elindítva vagy az előtérben</item>
+        <item>Alkalmazás leállítva vagy a háttérben</item>
+    </string-array>
+    <string-array name="rebootCommandArray">
+        <item>reboot</item>
+        <item>reboot -p</item>
+    </string-array>
+    <string-array name="shutdownCommandArray">
+        <item>poweroff</item>
+        <item>poweroff -f</item>
+        <item>poweroff -d 8 -f</item>
+        <item>reboot -p</item>
+    </string-array>
+    <string-array name="advancedVariableActionNames">
+        <item>Növelés</item>
+        <item>Csökkentés</item>
+        <item>0 és 1 váltása</item>
+    </string-array>
+</resources>

@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="notificationModeArray">
+        <item>Brez obvestila</item>
+        <item>Obvestilo in ikona</item>
+        <item>Obvestilo (brez ikone)</item>
+        <item>Ikona (brez obvestila)</item>
+        <item>Obvestilo in ikona, ki se izbrišeta</item>
+        <item>Toast</item>
+        <item>Ongoing notification and icon (normal priority)</item>
+        <item>Ongoing notification and icon (high priority)</item>
+    </string-array>
+    <string-array name="batteryLevelOptions">
+        <item>Stanje baterije pod...</item>
+        <item>Stanje baterije nad...</item>
+    </string-array>
+    <string-array name="signalLevelOptions">
+        <item>Signal strength goes below...</item>
+        <item>Signal strength rises above...</item>
+    </string-array>
+    <string-array name="calendarContainsOptions">
+        <item>Začetek dogodka/Dogodek v teku</item>
+        <item>Dogodek zaključen/Ni dogodka v teku</item>
+    </string-array>
+    <string-array name="cellPollingModeArray">
+        <item>Brez preverjanja (dogodki lahko zamujajo)</item>
+        <item>Samo, ko se uči</item>
+        <item>Omogoči preverjanje (lahko vpliva na porabo energije)</item>
+    </string-array>
+    <string-array name="mobileDataMenuModeArray">
+        <item>Nič</item>
+        <item>Mobilni prenos podatkov</item>
+        <item>APN</item>
+        <item>Oboje</item>
+    </string-array>
+    <string-array name="notificationColourNames">
+        <item>Rdeča</item>
+        <item>Oranžna</item>
+        <item>Rumena</item>
+        <item>Zelena</item>
+        <item>Modra</item>
+        <item>Vijolična</item>
+        <item>Roza</item>
+        <item>Modrozelena</item>
+        <item>Črna</item>
+        <item>Bela</item>
+        <item>Llama nastavitve: Alternativna barva ikone</item>
+        <item>Ne spreminjaj barve</item>
+    </string-array>
+    <string-array name="screenOnNames">
+        <item>Svetlo s svetlimi gumbi</item>
+        <item>Svetlo (samo zaslon)</item>
+        <item>Zatemnjeno (samo zaslon)</item>
+    </string-array>
+    <string-array name="errorNotificationModeArray">
+        <item>Nič</item>
+        <item>Samo toastki</item>
+        <item>Obvestila in toastki</item>
+    </string-array>
+    <string-array name="colourEventListModeArray">
+        <item>Izključeno</item>
+        <item>Vključeno</item>
+        <item>Vključeno (za barvno slepe)</item>
+        <item>Vključeno (za barvno slepe 2)</item>
+    </string-array>
+    <string-array name="mediaButtonNames">
+        <item>Predvajaj/Pavziraj</item>
+        <item>Naslednji</item>
+        <item>Prejšnji</item>
+        <item>Ustavi</item>
+        <item>Naprej</item>
+        <item>Nazaj</item>
+        <item>Predvajaj (Android 3.0+)</item>
+        <item>Pavziraj (Android 3.0+)</item>
+        <item>Snemaj(Android 3.0+)</item>
+    </string-array>
+    <string-array name="simpleRotationOptions">
+        <item>Brez zasuka</item>
+        <item>Zasuk vključen</item>
+        <item>Napredno... (zahteva ROM podporo po meri)</item>
+    </string-array>
+    <string-array name="intentEditorTypes">
+        <item>Začni aktivnost</item>
+        <item>Začni storitev</item>
+        <item>Oddajanje</item>
+    </string-array>
+    <string-array name="llamaVariableChangeOptions">
+        <item>Trenutna vrednost</item>
+        <item>Ni trenutna vrednost</item>
+    </string-array>
+    <string-array name="mccMncDropDown">
+        <item>Mobile network ID equal to...</item>
+        <item>Mobile network ID not equal to...</item>
+    </string-array>
+    <string-array name="audioStreamNames">
+        <item>Zvonjenje</item>
+        <item>Obvestila</item>
+        <item>Glasba</item>
+        <item>Alarm</item>
+        <item>Klic</item>
+        <item>Sistem</item>
+        <item>[Cancel queued sounds]</item>
+    </string-array>
+    <string-array name="ringtoneTypes">
+        <item>Melodije zvonjenja</item>
+        <item>Obvestila</item>
+        <item>Alarmi</item>
+        <item>Hmm...kaj pa glasba???</item>
+    </string-array>
+    <string-array name="twoGThreeGNames">
+        <item>"Prednostno WCDMA
+(2G / prednostno 3G)"</item>
+        <item>"Samo GSM
+(2G)"</item>
+        <item>"SamoWCDMA
+(3G)"</item>
+        <item>"Avto GSM (PRL)
+(Prednostno 2G / 3G)"</item>
+        <item>"Avto CDMA (PRL)
+(2G / 3G)"</item>
+        <item>"Samo CDMA 
+(2G)"</item>
+        <item>"Samo EvDo
+(3G)"</item>
+        <item>"Avto GSM/CDMA (PRL)
+(2G / 3G)"</item>
+    </string-array>
+    <string-array name="calendarAllDayOptions">
+        <item>Vsi dogodki</item>
+        <item>Samo celodnevni dogodki</item>
+        <item>Ignoriraj celodnevne dogodke</item>
+    </string-array>
+    <string-array name="calendarAvailabilityOptions">
+        <item>Prikaži kadar dosegljiv ali zaseden</item>
+        <item>Prikaži samo kadar dosegljiv</item>
+        <item>Prikaži samo kadar zaseden</item>
+    </string-array>
+    <string-array name="activeAppStatuses">
+        <item>Aplikacija zagnana ali v ospredju</item>
+        <item>Aplikacija zaustavljena ali v ozadju</item>
+    </string-array>
+    <string-array name="rebootCommandArray">
+        <item>ponovni zagon</item>
+        <item>reboot -p</item>
+    </string-array>
+    <string-array name="shutdownCommandArray">
+        <item>izklop</item>
+        <item>izklop -f</item>
+        <item>poweroff -d 8 -f</item>
+        <item>reboot -p</item>
+    </string-array>
+    <string-array name="advancedVariableActionNames">
+        <item>Increment</item>
+        <item>Decrement</item>
+        <item>Toggle 0 and 1</item>
+    </string-array>
+</resources>

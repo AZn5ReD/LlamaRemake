@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.kebab.EditTextPreference android:persistent="false" android:selectAllOnFocus="true" android:title="@string/hrProfileName" android:key="profileName" android:summary="@string/hrProfileNameDescription" android:defaultValue="false" android:inputType="textCapSentences" />
+    <PreferenceCategory android:title="@string/hrRingtoneVolume">
+        <com.kebab.longpref.CheckBoxPreference android:persistent="false" android:title="@string/hrChangeRingtoneVolume" android:key="changeRingerVolume" android:summary="@string/hrChangeRingtoneVolumeDescription" android:defaultValue="false" />
+        <com.kebab.SeekBarPreference android:persistent="false" android:max="7" android:text="" android:title="@string/hrRingtoneVolume" android:key="ringerVolume" android:summary="" android:dependency="changeRingerVolume" android:defaultValue="5" android:dialogMessage="@string/hrRingtoneVolumeDescription" /> />
+</PreferenceCategory>
+    <PreferenceCategory android:title="@string/hrNotificationVolume">
+        <com.kebab.longpref.CheckBoxPreference android:persistent="false" android:title="@string/hrChangeNotificationVolume" android:key="changeNotificationVolume" android:summary="@string/hrChangeNotificationVolumeDescription" android:defaultValue="false" />
+        <com.kebab.SeekBarPreference android:persistent="false" android:max="7" android:text="" android:title="@string/hrNotificationVolume" android:key="notificationVolume" android:summary="" android:dependency="changeNotificationVolume" android:defaultValue="5" android:dialogMessage="@string/hrNotificationToneVolumeDescription" /> />
+</PreferenceCategory>
+    <PreferenceCategory android:title="@string/hrRingVibrateSilent">
+        <com.kebab.longpref.CheckBoxPreference android:persistent="false" android:title="@string/hrChangeRingVibrateSilent" android:key="changeVibrateMode" android:summary="@string/hrChangeRingVibrateSilentDescription" android:defaultValue="false" />
+        <com.kebab.ListPreference android:persistent="false" android:title="@string/hrChooseVibrateMode" android:key="vibrateMode" android:summary="@string/hrChooseVibrateModeDescription" android:dependency="changeVibrateMode" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/hrRingtone">
+        <com.kebab.longpref.CheckBoxPreference android:persistent="false" android:title="@string/hrChangeRingtone" android:key="changeRingtone" android:summary="@string/hrChangeRingtoneDescription" android:defaultValue="false" />
+        <com.kebab.RingtonePreference android:name="Ringtone preference" android:persistent="false" android:title="@string/hrRingtones" android:key="ringtone" android:summary="@string/hrSelectARingtone" android:dependency="changeRingtone" android:showDefault="false" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/hrNotificationTone">
+        <com.kebab.longpref.CheckBoxPreference android:persistent="false" android:title="@string/hrChangeNotificationTone" android:key="changeNotificationTone" android:summary="@string/hrChangeNotificationToneDescription" android:defaultValue="false" />
+        <com.kebab.RingtonePreference android:name="Notification tone preference" android:persistent="false" android:title="@string/hrNotificationTones" android:key="notificationTone" android:summary="@string/hrSelectDefaultNotificationDescription" android:dependency="changeNotificationTone" android:ringtoneType="notification" android:showDefault="false" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/hrMusicVolume">
+        <com.kebab.longpref.CheckBoxPreference android:persistent="false" android:title="@string/hrChangeMusicVolume" android:key="changeMusicVolume" android:summary="@string/hrChangeMusicVolumeDescription" android:defaultValue="false" />
+        <com.kebab.SeekBarPreference android:persistent="false" android:max="7" android:text="" android:title="@string/hrMusicVolume" android:key="musicVolume" android:summary="" android:dependency="changeMusicVolume" android:defaultValue="5" android:dialogMessage="@string/hrMusicVolumeDescription" /> />
+</PreferenceCategory>
+    <PreferenceCategory android:title="@string/hrAlarmVolume">
+        <com.kebab.longpref.CheckBoxPreference android:persistent="false" android:title="@string/hrChangeAlarmVolume" android:key="changeAlarmVolume" android:summary="@string/hrChangeAlarmVolumeDescription" android:defaultValue="false" />
+        <com.kebab.SeekBarPreference android:persistent="false" android:max="7" android:text="" android:title="@string/hrAlarmVolume" android:key="alarmVolume" android:summary="" android:dependency="changeAlarmVolume" android:defaultValue="5" android:dialogMessage="@string/hrAlarmDescription" /> />
+</PreferenceCategory>
+    <PreferenceCategory android:title="@string/hrInCallVolume">
+        <com.kebab.longpref.CheckBoxPreference android:persistent="false" android:title="@string/hrChangeInCallVolume" android:key="changeInCallVolume" android:summary="@string/hrChangeInCallVolumeDescription" android:defaultValue="false" />
+        <com.kebab.SeekBarPreference android:persistent="false" android:max="7" android:text="" android:title="@string/hrInCallVolume" android:key="inCallVolume" android:summary="" android:dependency="changeInCallVolume" android:defaultValue="5" android:dialogMessage="@string/hrInCallDescription" /> />
+</PreferenceCategory>
+    <PreferenceCategory android:title="@string/hrSystemSoundsVolume">
+        <com.kebab.longpref.CheckBoxPreference android:persistent="false" android:title="@string/hrChangeSystemSoundsVolume" android:key="changeSystemVolume" android:summary="@string/hrChangeSystemSoundsVolumeDescription" android:defaultValue="false" />
+        <com.kebab.SeekBarPreference android:persistent="false" android:max="7" android:text="" android:title="@string/hrSystemSoundsVolume" android:key="systemVolume" android:summary="" android:dependency="changeSystemVolume" android:defaultValue="5" android:dialogMessage="@string/hrSystemSoundDescription" /> />
+</PreferenceCategory>
+    <PreferenceCategory android:title="@string/hrLlamaIcon">
+        <com.kebab.longpref.CheckBoxPreference android:persistent="false" android:title="@string/hrChangeLlamaIcon" android:key="changeNotificationIcon" android:summary="@string/hrChangeLlamaIconDescription" android:defaultValue="false" />
+        <com.kebab.ListPreference android:name="Llama icon preference" android:persistent="false" android:title="@string/hrLlamaIcons" android:key="notificationIcon" android:summary="@string/hrSelectALlamaIcon" android:dependency="changeNotificationIcon" />
+        <com.kebab.SeekBarPreference android:persistent="false" android:max="4" android:text="" android:title="@string/hrNotificationIconDots" android:key="notificationIconDots" android:summary="" android:dependency="changeNotificationIcon" android:defaultValue="3" android:dialogMessage="@string/hrTheNumberOfDotsToShowOnTheIcon" min="0" topMostValue="@string/hrDontChangeDots" /> />
+</PreferenceCategory>
+    <PreferenceCategory android:title="@string/hrNoisyContacts">
+        <PreferenceScreen android:persistent="false" android:layout="@layout/long_preference" android:title="@string/hrNoisyContacts" android:key="noisyContactChooser" android:summary="@string/hrNoisyContactsDescription" android:defaultValue="false" />
+        <com.kebab.SeekBarPreference android:persistent="false" android:max="7" android:text="" android:title="@string/hrNoisyContactRingerVolume" android:key="noisyContactRingerVolume" android:summary="" android:defaultValue="5" android:dialogMessage="@string/hrNoisyContactRingerVolumeDescription" /> />
+</PreferenceCategory>
+    <PreferenceCategory android:title="@string/hrLlamaTones">
+        <PreferenceScreen android:persistent="false" android:layout="@layout/long_preference" android:title="@string/hrLlamaTones" android:key="llamaTonesEditor" android:summary="@string/hrLlamaTonesDescription" android:defaultValue="false" />
+        <Preference android:title="@string/hrMoreInfoDotDotDot" android:key="llamaTonesHelp" /> />
+</PreferenceCategory>
+    <PreferenceCategory android:title="@string/hrAndFinally">
+        <PreferenceScreen android:persistent="false" android:layout="@layout/long_preference" android:title="@string/hrHowDoIChangeOtherStuff" android:key="blahblahblah" android:summary="@string/hrHowDoIChangeOtherStuffDescription" android:defaultValue="false" />
+    </PreferenceCategory>
+</PreferenceScreen>

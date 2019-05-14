@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="notificationModeArray">
+        <item>No hay notificación</item>
+        <item>Ícono de notificación en curso</item>
+        <item>Notificación en curso (sin ícono)</item>
+        <item>Ícono en curso (sin notificación)</item>
+        <item>Notificación temporal e ícono</item>
+        <item>Avisos</item>
+        <item>Ongoing notification and icon (normal priority)</item>
+        <item>Ongoing notification and icon (high priority)</item>
+    </string-array>
+    <string-array name="batteryLevelOptions">
+        <item>La batería esta por debajo de...</item>
+        <item>La batería está por encima de...</item>
+    </string-array>
+    <string-array name="signalLevelOptions">
+        <item>La intensidad de la señal es menor que...</item>
+        <item>La intensidad de la señal es mayor que...</item>
+    </string-array>
+    <string-array name="calendarContainsOptions">
+        <item>Inicia el evento/Evento activo</item>
+        <item>Evento finalizado/No hay eventos activos</item>
+    </string-array>
+    <string-array name="cellPollingModeArray">
+        <item>Sin sondeo (Los eventos podrían retardarse)</item>
+        <item>Solamente mientras aprende</item>
+        <item>Permitir polling (puede afectar a la vida de la batería)</item>
+    </string-array>
+    <string-array name="mobileDataMenuModeArray">
+        <item>Ninguno</item>
+        <item>Conexión de datos móviles</item>
+        <item>APN</item>
+        <item>Ambos</item>
+    </string-array>
+    <string-array name="notificationColourNames">
+        <item>Rojo</item>
+        <item>Naranja</item>
+        <item>Amarillo</item>
+        <item>Verde</item>
+        <item>Azul</item>
+        <item>Purpura</item>
+        <item>Rosa</item>
+        <item>Cian</item>
+        <item>Negro</item>
+        <item>Blanco</item>
+        <item>Configuración Llama: Colores de íconos alternativos</item>
+        <item>No cambiar el color</item>
+    </string-array>
+    <string-array name="screenOnNames">
+        <item>Brillante con botones luminosos</item>
+        <item>Brillo (sólo la pantalla)</item>
+        <item>Atenuar (sólo la pantalla)</item>
+    </string-array>
+    <string-array name="errorNotificationModeArray">
+        <item>Nada</item>
+        <item>Avisos solamente</item>
+        <item>Notificaciones y avisos</item>
+    </string-array>
+    <string-array name="colourEventListModeArray">
+        <item>Apagado</item>
+        <item>Encendido</item>
+        <item>Encendido (daltónico)</item>
+        <item>Encendido (daltónico 2)</item>
+    </string-array>
+    <string-array name="mediaButtonNames">
+        <item>Reproducir/Pausa</item>
+        <item>Próxima canción</item>
+        <item>Canción Anterior</item>
+        <item>Parar</item>
+        <item>Avance rápido</item>
+        <item>Rebobinar</item>
+        <item>Reproducir (Android 3.0+)</item>
+        <item>Pausar (Android 3.0+)</item>
+        <item>Grabar (Android 3.0+)</item>
+    </string-array>
+    <string-array name="simpleRotationOptions">
+        <item>No rotar</item>
+        <item>Rotación encendida</item>
+        <item>Avanzado... (necesita soporte de ROM personalizada)</item>
+    </string-array>
+    <string-array name="intentEditorTypes">
+        <item>Comenzar actividad</item>
+        <item>Comenzar servicio</item>
+        <item>Transmitir</item>
+    </string-array>
+    <string-array name="llamaVariableChangeOptions">
+        <item>Valor actual</item>
+        <item>No es el valor actual</item>
+    </string-array>
+    <string-array name="mccMncDropDown">
+        <item>Mobile network ID equal to...</item>
+        <item>Mobile network ID not equal to...</item>
+    </string-array>
+    <string-array name="audioStreamNames">
+        <item>Melodía</item>
+        <item>Notificaciones</item>
+        <item>Música/Media</item>
+        <item>Alarma</item>
+        <item>En Llamada</item>
+        <item>Sistema</item>
+        <item>[Cancel queued sounds]</item>
+    </string-array>
+    <string-array name="ringtoneTypes">
+        <item>Melodías</item>
+        <item>Notificaciones</item>
+        <item>Alarmas</item>
+        <item>Errr...música???</item>
+    </string-array>
+    <string-array name="twoGThreeGNames">
+        <item>"Preferida WCDMA
+(2G/ fav 3G)"</item>
+        <item>"Sólo GSM
+(2G)"</item>
+        <item>"Sólo WCDMA
+(3G)"</item>
+        <item>"GSM automàtico (PRL)
+(fav 2G / 3G)"</item>
+        <item>"CDMA automàtico (PRL)
+(2G / 3G)"</item>
+        <item>"Sólo CDMA
+(2G)"</item>
+        <item>"Sólo EvDo
+(3G)"</item>
+        <item>"GSM/CDMA auto (PRL)
+(2G/3G)"</item>
+    </string-array>
+    <string-array name="calendarAllDayOptions">
+        <item>Todo el día... o no...</item>
+        <item>Solo eventos de día entero</item>
+        <item>Ignorar eventos de día entero</item>
+    </string-array>
+    <string-array name="calendarAvailabilityOptions">
+        <item>Mostrarme disponible u ocupado</item>
+        <item>Solo mostrarme como disponible</item>
+        <item>Solo mostrarme como ocupado</item>
+    </string-array>
+    <string-array name="activeAppStatuses">
+        <item>Aplicación iniciada o en primer plano</item>
+        <item>Aplicación detenida o en primer plano</item>
+    </string-array>
+    <string-array name="rebootCommandArray">
+        <item>reiniciar</item>
+        <item>reiniciar -p</item>
+    </string-array>
+    <string-array name="shutdownCommandArray">
+        <item>apagar</item>
+        <item>apagar -f</item>
+        <item>apagar -d 8 -f</item>
+        <item>reboot -p</item>
+    </string-array>
+    <string-array name="advancedVariableActionNames">
+        <item>Aumento</item>
+        <item>Reducción</item>
+        <item>Intercambiar 0 y 1</item>
+    </string-array>
+</resources>

@@ -1,0 +1,1345 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Llama</string>
+    <string name="hrChoosePreset">選擇預設...</string>
+    <string name="hrTapRhythm">點選節奏</string>
+    <string name="hrTest">測試</string>
+    <string name="hrReset">重設</string>
+    <string name="hrVibrateDialogMessage">選擇一個預設值 -或- 點選節奏 -或- 手動輸入模式(以預設值為例)</string>
+    <string name="hrCalendarEventDialogMessage">"這個條件式依照您的行事曆事件的名稱。您可以選擇使用行事曆的開始事件或結束事件。
+
+如果事件名稱內的字串與條件定義的文字相符，例如：如果你設定會議，行事曆事件中的工作會議和無聊的會議事件都將會被觸發。"</string>
+    <string name="hrNotificationTitle">Llama</string>
+    <string name="hrIntroText">"我是Llama(草泥馬)，採用電信基地台訊號來定位您的位置，這個定位方式不會使用耗電的GPS訊號來定位。在開始前要先做一些訓練，您要先設定一個地點並且點選區域標籤進行學習。
+
+如果您覺得這個程式好用, 請點選贊助選單贊助這個程式。
+
+請將您的意見寄到:kebabapps@gmail.com"</string>
+    <string name="hrCommonTip1">您必須要訓練Llama去辨識您所在的區域</string>
+    <string name="hrCommonTip2">Llama(草泥馬)的速度可達到每小時45公里</string>
+    <string name="hrCommonTip3">點播一首 Llama llama duck!</string>
+    <string name="hrCommonTip4">這可跟達賴喇嘛沒關係喔</string>
+    <string name="hrCommonTip5">Llama是位置感知移動應用程式</string>
+    <string name="hrCommonTip6">Llama(草泥馬)跟駱駝很像，但是可愛多了!</string>
+    <string name="hrAreasTip1">如果基地台訊號定位不夠精準，可以試試實驗性設定中的其他參數。</string>
+    <string name="hrAreasTip2">長按一個區域來開始訓練Llama(草泥馬)辨識您的位置</string>
+    <string name="hrEventsTip1">您可以點選歷史紀錄來查看過去觸發的事件</string>
+    <string name="hrEventsTip2">您可以點選歷史紀錄來查看事件是被甚麼條件觸發</string>
+    <string name="hrProfilesTip1">如果您在開會，您可以點選鎖定圖示來防止情境模式被其他條件觸發</string>
+    <string name="hrProfilesTip2">您可以長按一個情境來啟用並鎖定</string>
+    <string name="hrProfilesTip3">在設定中確定Llama不會在使用音量鍵調整時重設您的音量</string>
+    <string name="hrRecentTip1">如果您看到尚未加入區域的基地台，可以點選設定所屬區域</string>
+    <string name="hrHelpAreas">"此頁面顯示您的Llama已經學習了哪些區域。剛開始會有兩個預設區域: 家與工作。但是Llama不知道你家在哪裡也不知道你在哪工作，您必須要讓Llama學習辨識區域。
+
+長按您目前所在的區域或者按+來建立一個新的區域。Llama會問你要在這個區域待多久，在這段時間內Llama會持續學習附近的基地台來辨識區域位置。當你往後再進到這個區域時，Llama就能夠自動辨識。
+
+選單中會顯示您在這個區域學習了多少基地台，您也可以嘗試實驗性設定中的參數來辨識您的位置。"</string>
+    <string name="hrHelpEvents">"此頁面顯示那些事件要讓Llama自動幫你執行。剛開始有些預設的範例事件，您可以修改或刪除它也可以新增更多事件。
+
+一個事件包含了一些觸發條件與執行動作。當設定條件符合時，Llama會自動幫您執行設定的動作。
+
+多數的事件都是成對出現的，您需要開啟的東西，之後也需要關閉，所以通常會建立兩個相對立的事件。e.g.
+
+進入家 -> 改變情境
+離開家 -> 改變情境
+
+如果你覺得事件觸發的時機跟您想的不一樣，您可以點選歷史紀錄查看是哪邊出問題。
+
+您也可以在桌面建立捷徑來快速開啟您的Llama(草泥馬)."</string>
+    <string name="hrHelpProfiles">"此頁面顯示Llama的情境模式。Llama已經幫您建立了幾種不同的情境模式讓您直接使用，您也可以修改或新增情境。
+
+您可以透過事件來改變情境，也可以手動切換。每個情境可以對應一個通知列的草泥馬圖示，透過圖示可以很清楚知道現在手機是在哪個情境下使用。
+
+如果您在開會，您可以點選鎖定圖示來防止情境模式被其他條件觸發。"</string>
+    <string name="hrHelpRecent">"此頁面顯示最近被Llama偵測到的基地台訊號。經過區域學習後，您可以看到被偵測到的基地台是屬於哪個區域。
+
+如果您看到尚未加入區域的基地台，可以根據時間與位置來手動點選來加入正確的區域。
+
+如果同一個基地台被加入兩個區域，會造成區域無法被正確判斷，可以嘗試看看實驗性設定中的參數來辨識您的位置。"</string>
+    <string name="hrServiceRestarted">上一次使用Llama時，你按了離開鍵。Llama的背景服務現在已經重啟。請點選離開鍵關閉。</string>
+    <string name="hrTabAreas">區域</string>
+    <string name="hrTabEvents">事件</string>
+    <string name="hrTabProfiles">情境模式</string>
+    <string name="hrTabRecent">基地台</string>
+    <string name="hrLlamaLogWarning">警告:Llama草泥馬日誌已啟用。檔案會持續增大，不需要時請記得停用。</string>
+    <string name="hrOkeyDokeExclamation">好的，沒問題。</string>
+    <string name="hrTurnItOff">關閉</string>
+    <string name="hrOk">確定</string>
+    <string name="hrCancel">取消</string>
+    <string name="hrViewMap">查看地圖</string>
+    <string name="hrCreateReminder">建立提醒</string>
+    <string name="hrRenameArea">重新命名</string>
+    <string name="hrSetPositionOnMap">在地圖上設定位置</string>
+    <string name="hrStartLearningArea">開始學習區域</string>
+    <string name="hrStopLearningArea">停止學習區域</string>
+    <string name="hrDeleteArea">刪除區域</string>
+    <string name="hrYes">是</string>
+    <string name="hrNo">否</string>
+    <string name="hrEnterAReminderForArea1">"進入區域'%1s'時，新增提醒"</string>
+    <string name="hrEnterANewNameForTheArea">輸入一個新的名稱給區域</string>
+    <string name="hrNewLocationPrompt">新增一個區域名稱</string>
+    <string name="hr1SecondsToGo">持續執行%1s秒</string>
+    <string name="hr1MinutesToGo">持續執行%1s分</string>
+    <string name="hrLearningDash">"學習中 - "</string>
+    <string name="hrCurrentDash">"目前 - "</string>
+    <string name="hrCurrentNoDash">目前</string>
+    <string name="hrAnd">與</string>
+    <string name="hrHowLongWillYouBeAt1For">您會在%1s多久?</string>
+    <string name="hrImNotThere">不要開始學習</string>
+    <string name="hrSecond">秒</string>
+    <string name="hrSeconds">秒</string>
+    <string name="hrMinute">分</string>
+    <string name="hrMinutes">分</string>
+    <string name="hr0Minutes">0 分</string>
+    <string name="hr0Seconds">0 秒</string>
+    <string name="hrSpaceMinutes">" 分"</string>
+    <string name="hrSpaceSeconds">" 秒"</string>
+    <string name="hrSpaceMilliseconds">" 毫秒"</string>
+    <string name="hrHour">小時</string>
+    <string name="hrHours">小時</string>
+    <string name="hrMapPoint">地圖點</string>
+    <string name="hrMapPoints">地圖位置</string>
+    <string name="hrCell">基地台</string>
+    <string name="hrCells">基地台</string>
+    <string name="hrWifiName">WiFi 名稱</string>
+    <string name="hrWifiNames">WiFi 名稱</string>
+    <string name="hrWifiMac">WiFi MAC位址</string>
+    <string name="hrWifiMacs">WiFi MAC位址</string>
+    <string name="hrBluetoothDevice">藍芽設備</string>
+    <string name="hrBluetoothDevices">藍芽設備</string>
+    <string name="hrUnknown">未知</string>
+    <string name="hrNotAddedToAnyAreas">尚未加入區域</string>
+    <string name="hrViewAllMapPoints">查看所有的地圖點</string>
+    <string name="hrAllRecentMapPositions">所有附近的地圖點</string>
+    <string name="hrAddToArea">新增到區域</string>
+    <string name="hrViewCoordinatesOnMap">查看地圖座標</string>
+    <string name="hrEditAreasPositionOnMap">編輯地圖上的區域位置</string>
+    <string name="hrRemoveFromArea">從區域中移除</string>
+    <string name="hrPositionOfARecentLocationEstimate">最近位置的概估點</string>
+    <string name="hrWhichAreaDoYouWantToRemove1From">您要從那個區域移除%1s?</string>
+    <string name="hrCouldntFindTheAreaNamed1s">找不到區域:%1s</string>
+    <string name="hrWhichAreaDoYouWantToEdit">您要編輯哪個區域?</string>
+    <string name="hrCreateNewArea">建立一個新區域</string>
+    <string name="hrWhichAreaDoYouWantToAdd1To">您要新增%1s到那個區域?</string>
+    <string name="hrEnterANameForTheNewArea">輸入一個名稱給新區域</string>
+    <string name="hrWithin1m">在%1sm內</string>
+    <string name="hrNewEvent1">新事件%1s</string>
+    <string name="hrNewProfile1">新情境%1s</string>
+    <string name="hrLlamaDashEditingEvent">Llama - 編輯事件</string>
+    <string name="hrLlamaDashOrConditions">Llama - 符合任一條件</string>
+    <string name="hrLlamaDashAndConditions">Llama - 符合所有條件</string>
+    <string name="hrLlamaDashNewEvent">Llama - 新事件</string>
+    <string name="hrLlamaShortcutName">Llama 捷徑名稱</string>
+    <string name="hrActions">動作</string>
+    <string name="hrCancelRemove">取消移除</string>
+    <string name="hrNowTapAConditionOrActionToRemoveIt">點選一個條件或動作移除它</string>
+    <string name="hrSelectConditionToTriggerEvent">選擇條件來觸發事件</string>
+    <string name="hrSelectActionToPerformWhenTriggered">當條件觸發時，選擇動作來執行</string>
+    <string name="hrCool">酷!</string>
+    <string name="hrYourEventIsNotCompleteColon">您的事件還沒完成:</string>
+    <string name="hrPleaseFixTheseErrorsOrRemoveTheOffendingConditionsSlashActions">請修正這些錯誤或移除違規的條件/動作</string>
+    <string name="hrIWillIPromise">我會的，我保證</string>
+    <string name="hrProblems">問題</string>
+    <string name="hrLlamaDashEventHistory">Llama - 事件歷程</string>
+    <string name="hrEventHistory">事件歷程</string>
+    <string name="hrTriggeredBy1Condition">被%1s條件觸發</string>
+    <string name="hrTrigger1Prohibitted">不允許被%1s條件觸發</string>
+    <string name="hrDisabled">停用</string>
+    <string name="hrEditEvent">編輯事件</string>
+    <string name="hrCopyEvent">複製事件</string>
+    <string name="hrRunEventActions">執行事件動作</string>
+    <string name="hrEnableEvent">啟用事件</string>
+    <string name="hrDisableEvent">停用事件</string>
+    <string name="hrDeleteEvent">刪除事件</string>
+    <string name="hrAreYouSureYouWantToDelete1">你確定要刪除%1s?</string>
+    <string name="hrCopy">複製</string>
+    <string name="hrCreateLlamaShortcut">建立Llama捷徑</string>
+    <string name="hrEnterALabelForTheShortcut">輸入一個標籤給捷徑</string>
+    <string name="hrCustomEvent">自訂事件</string>
+    <string name="hrSwitchToProfile1">切換到情境 %1s</string>
+    <string name="hrSpecifyACustomSetOfActionsForTheShortcut">指定一組自定義動作給捷徑</string>
+    <string name="hrProfile">情境</string>
+    <string name="hrEvent">事件</string>
+    <string name="hrCustomEventActions">自訂事件動作</string>
+    <string name="hrTheLlamaServiceMustBeRunningForShortcutsToWork">捷徑要運作，必須執行Llama服務</string>
+    <string name="hrHowCanIHelpYou">我要怎麼幫你呢?</string>
+    <string name="hrCurrentTabInfo">目前頁面資訊</string>
+    <string name="hrLlamaInstructions">Llama 說明</string>
+    <string name="hrLlamaAndKebabAppsWebsite">Llama and Kebabapps 網站</string>
+    <string name="hrSendEmail">發送郵件</string>
+    <string name="hrAboutTheApp">關於這個APP</string>
+    <string name="hrWhatDoesThisTabDo">這個標籤是做什麼</string>
+    <string name="hrGroovy">了解</string>
+    <string name="hrPerformed1ActionsSince2DaysAgo">執行 %1$s 動作從 %2$s 天前開始</string>
+    <string name="hrDonateSmiley">贊助 :)</string>
+    <string name="hrSettings">設定</string>
+    <string name="hrImportExportData">匯入/匯出資料</string>
+    <string name="hrToggleMobileData">切換行動網路</string>
+    <string name="hrToggleApn">切換APN</string>
+    <string name="hrDonate">贊助</string>
+    <string name="hrQuit">離開</string>
+    <string name="hrQuitLlama">離開 Llama</string>
+    <string name="hrPutLlamaToSleep">設定Llama休眠</string>
+    <string name="hrCloseLlamaExplanation">這將關閉Llama並且停用背景服務。若想重啟服務，點選通知列的Llama圖示。</string>
+    <string name="hrEnableApn">啟用 APN</string>
+    <string name="hrCurrent">目前</string>
+    <string name="hrDisableApn">停用 APN</string>
+    <string name="hrEnableMobileData">啟用行動網路</string>
+    <string name="hrDisableMobileData">停用行動網路</string>
+    <string name="hrImportWarning">您確定要匯入設定嗎?這將會刪除現有的所有資料(包含區域、情境與事件)</string>
+    <string name="hrExportWarning">您確定要匯出設定到您的儲存裝置(SD卡)嗎?這將會刪除原本已儲存的資料(包含區域、情境與事件)</string>
+    <string name="hrImportFromSdCard">從儲存裝置匯入</string>
+    <string name="hrExportToSdCard">匯出至儲存裝置</string>
+    <string name="hrOkeyDoke">好的，沒問題。</string>
+    <string name="hrLockedUntil1">鎖定直到%1s</string>
+    <string name="hrProfileLocked">情境已鎖定</string>
+    <string name="hrTheShortcutRefersToAnEventNamed1WhichNoLongerExists">捷徑導向名為%1s的事件已不存在</string>
+    <string name="hrTheShortcutRefersToAProfileNamed1WhichNoLongerExists">捷徑導向名為%1s的情境已不存在</string>
+    <string name="hrLoadSettingsError">導入設定失敗，已經儲存到您的SD卡</string>
+    <string name="hrCriticalLoadSettingsError">導入設定失敗，並且有一個錯誤訊息儲存到您的SD卡。Llama即將結束 :(</string>
+    <string name="hrQuietAtNight">晚上-安靜情境</string>
+    <string name="hrHome">家</string>
+    <string name="hrQuiet">安靜情境</string>
+    <string name="hrNormalAtHome">在家-標準情境</string>
+    <string name="hrNormal">標準情境</string>
+    <string name="hrLeftHome">離開家</string>
+    <string name="hrQuietAtWork">在工作-安靜情境</string>
+    <string name="hrWork">工作</string>
+    <string name="hrNormalOutsideWork">外出工作-標準情境</string>
+    <string name="hrLeftWork">離開工作</string>
+    <string name="hrSilent">無聲模式</string>
+    <string name="hrLoud">大聲模式</string>
+    <string name="hrCouldNotFindEventNamed1">找不到%1s事件</string>
+    <string name="hrTestVersion">測試版本</string>
+    <string name="hrLlamaForAndroidVersionContact">"Llama for Android
+%1s
+Contact kebabapps@gmail.com"</string>
+    <string name="hrThanksForDonatingExclamation">謝謝您的捐贈!</string>
+    <string name="hrPleaseDonateBeerMoney">如果您覺得這個APP很好用，請贊助我一杯啤酒的錢</string>
+    <string name="hrOkThanks">好的，謝謝。</string>
+    <string name="hrDonateViaMarket">使用Google Play贊助</string>
+    <string name="hrProfilesAreLockedGotoProfilesTabToUnlock">情境已被鎖定。請到情境頁面的選單解鎖</string>
+    <string name="hrCouldNotChangeProfileBecauseNoProfileNamed1">無法變更情境，因為這邊沒有%1s情境</string>
+    <string name="hrError">錯誤</string>
+    <string name="hrInfo">資訊</string>
+    <string name="hrExportFailedSadFace">匯出失敗:(</string>
+    <string name="hrImportFailedSadFace">匯入失敗:( 請確定您的儲存裝置中有Llama資料夾</string>
+    <string name="hrImportOf1Successful">匯入%1s成功，請重啟Llama</string>
+    <string name="hrStorageAreas">區域</string>
+    <string name="hrStorageEvents">事件</string>
+    <string name="hrStorageProfiles">情境</string>
+    <string name="hrStorageIgnoredCell">忽略的基地台</string>
+    <string name="hrQuickReminderAt1">在%1s快速提醒</string>
+    <string name="hrNoApnsDefinedTip">您沒有APN，您可以從您的事件中移除APN動作</string>
+    <string name="hrWifiNotTurnedOffAsItsConnected">WiFi連接中，無法關閉</string>
+    <string name="hrBluetoothNotTurnedOffAsConnectedToAudioDevice">藍芽連接到一個播放設備，無法關閉</string>
+    <string name="hrBluetoothNotTurnedOffAsItsConnected">藍芽連接中，無法關閉</string>
+    <string name="hrCouldnNotTurnOnBluetoothMaybeAirplane">無法開啟藍芽，也許您開啟了飛航模式</string>
+    <string name="hrBluetoothIsntSupported">不支援藍芽</string>
+    <string name="hrBluetoothApiNotSupported">不支援藍芽API</string>
+    <string name="hrCouldnotStart1">無法啟用 %1s</string>
+    <string name="hrRebootFailWarning">沒有重開機，手機的正常運行時間是%1s分鐘。為了安全起見，至少要等5分鐘。</string>
+    <string name="hrShutdownFailWarning">沒有關機，手機的正常運行時間是%1s分鐘。為了安全起見，至少要等5分鐘。</string>
+    <string name="hrRebooting">正在重開機!</string>
+    <string name="hrShuttingDown">正在關機!</string>
+    <string name="hrProfileChangesUnlocked">情境已解鎖</string>
+    <string name="hrPositionsFor1">位置在%1s</string>
+    <string name="hrSave">儲存</string>
+    <string name="hrClose">關閉</string>
+    <string name="hrLlamaMapNotInstalled">Llama 地圖沒有安裝</string>
+    <string name="hrGoToMarket">到Google Play</string>
+    <string name="hrLlamaMapNeededMessage">"要在Llama中檢視地圖，請安裝Llama地圖套件。
+
+因為Llama沒有上網權限無法下載google地圖資訊。
+
+如同Llama一樣，地圖套件也是免費的。"</string>
+    <string name="hrSelectEmailApplication">選取email程式</string>
+    <string name="hrEnteredUnknownArea">進入未知區域</string>
+    <string name="hrLeftArea1">離開 %1s</string>
+    <string name="hrEnteredArea1">進入 %1s</string>
+    <string name="hrLlamaDashEditingProfile">Llama - 編輯情境</string>
+    <string name="hrLlamaDashNewProfile">Llama - 新情境</string>
+    <string name="hrVibrate">振動</string>
+    <string name="hrRing">響鈴</string>
+    <string name="hrRingAndVibrate">響鈴+振動</string>
+    <string name="hrProfilesUnlocked">情境已解鎖</string>
+    <string name="hrActivateAndLock">啟用並鎖定</string>
+    <string name="hrEditProfile">編輯情境</string>
+    <string name="hrCopyProfile">複製情境</string>
+    <string name="hrDeleteProfile">刪除情境</string>
+    <string name="hrNever">不執行</string>
+    <string name="hrAutomaticallyUnlockProfileDescription">您可以在一段時間中防止Llama事件改變情境。例如：您在會議中，接下來的一小時都想維持無聲情境。</string>
+    <string name="hrAutomaticallyUnlockProfileChangesAfter">當...自動解鎖情境模式</string>
+    <string name="hrWillActivateWhenProfilesAreManuallyUnlocked">當情境模式手動解鎖後啟用</string>
+    <string name="hrWillActivateAt1">將在%1s啟用</string>
+    <string name="hrActivatedAt1">已在%1s啟用</string>
+    <string name="hrAuto">自動</string>
+    <string name="hrChangeBrightness">改變螢幕亮度</string>
+    <string name="hrSetToAutomaticBrightness">設定自動調整螢幕亮度</string>
+    <string name="hrSetTo1Brightness">設定%1s%%螢幕亮度</string>
+    <string name="hrLlamaBluetoothPolling">Llama 藍芽輪詢</string>
+    <string name="hrChangeLlamaBluetoothPolling">改變Llama 藍芽輪詢</string>
+    <string name="hrChangeAndroidLocationPolling">改變Android位置輪詢</string>
+    <string name="hrAndroidLocationPolling">Android位置輪詢</string>
+    <string name="hrLlamaWifiPolling">Llama WiFi輪詢</string>
+    <string name="hrChangeLlamaWifiPolling">改變Llama WiFi輪詢</string>
+    <string name="hrSet1ToNever">設定%1s為不執行</string>
+    <string name="hrSet1To2">設定%1$s為%2$s</string>
+    <string name="hrChangeNotificationIconTo1">改變通知列圖示為%1s</string>
+    <string name="hrChangeNotificationIcon">改變通知列圖示</string>
+    <string name="hrChangeProfile">改變情境</string>
+    <string name="hrChangeProfileTo">改變情境為%1s</string>
+    <string name="hrChooseAProfile">選取情境</string>
+    <string name="hrChangeScreenTimeout">改變螢幕休眠時間</string>
+    <string name="hrDisableScreenTimeout">停用螢幕休眠</string>
+    <string name="hrSetScreenTimeoutTo1Seconds">設定螢幕休眠時間為%1s秒</string>
+    <string name="hrToggleScreenLock">切換螢幕鎖</string>
+    <string name="hrScreenLockOn">啟用螢幕鎖</string>
+    <string name="hrScreenLockOnForce">啟用螢幕鎖(強制)</string>
+    <string name="hrScreenLockOffImmediately">立即停用螢幕鎖(可能異常)</string>
+    <string name="hrScreenLockOffAfterPassword">解鎖後停用螢幕鎖</string>
+    <string name="hrEnableKeyGuard">啟用螢幕鎖</string>
+    <string name="hrEnableKeyGuardForce">啟用螢幕鎖(強制)</string>
+    <string name="hrDisableKeyGuardImmediately">立即停用螢幕鎖</string>
+    <string name="hrDisableKeyGuardAfterUnlock">解鎖後停用螢幕鎖</string>
+    <string name="hrKillApplication">殺死程序</string>
+    <string name="hrKillApplicationWithRoot">殺死程序(Root)</string>
+    <string name="hrKill1DieDieDie">殺死%1s 殺!殺!殺!</string>
+    <string name="hrChooseAnApplication">選取程序</string>
+    <string name="hrChooseAnApplicationWithAName">選取程序名稱</string>
+    <string name="hrLockProfileChanges">鎖定情境模式改變</string>
+    <string name="hrUnlockProfileChanges">解鎖情境模式改變</string>
+    <string name="hrLockProfileChangesDescription">鎖定情境模式改變</string>
+    <string name="hrUnlockProfileChangesDescription">解鎖情境模式改變</string>
+    <string name="hrChangeMusicVolume">改變音樂/媒體音量</string>
+    <string name="hrSetMusicVolumeTo1">設定音樂/媒體音量為%1s</string>
+    <string name="hrReminder">提醒</string>
+    <string name="hrShowAReminder">顯示提醒</string>
+    <string name="hrEnterSomeReminderText">輸入要提醒的文字</string>
+    <string name="hrNoDontDoAnything">不，不要做任何事</string>
+    <string name="hrYesIReallyWantToReboot">是的，我確定要重開機</string>
+    <string name="hrYesIReallyWantToShutdown">是的，我確定要關機</string>
+    <string name="hrRebootPhoneDescription">重啟手機</string>
+    <string name="hrDontRebootPhoneDescription">不要重啟手機</string>
+    <string name="hrShutdownPhoneDescription">關機</string>
+    <string name="hrDontShutdownPhoneDescription">不要關機</string>
+    <string name="hrRunApplication">執行程序</string>
+    <string name="hrRun1">執行 %1s</string>
+    <string name="hrIfNotConnected">如果沒有連線</string>
+    <string name="hrForAtLeast1">至少%1s</string>
+    <string name="hrForAtLeast1Minutes">至少%1s分鐘</string>
+    <string name="hrIfNotConnectedDescription">如果沒有連線</string>
+    <string name="hrFor1ThenDisconectIfNotConnected">如果沒有連線達%1s，則關閉</string>
+    <string name="hrFor1MinutesThenDisconectIfNotConnected">如果沒有連線達%1s分鐘，則關閉</string>
+    <string name="hrAirplaneModeOn">飛航模式開啟</string>
+    <string name="hrAirplaneModeOff">飛航模式關閉</string>
+    <string name="hrToggleAirplaneMode">切換飛航模式</string>
+    <string name="hrEnableAirplaneMode">啟用飛航模式</string>
+    <string name="hrDisableAirplaneMode">停用飛航模式</string>
+    <string name="hrApnOn">APN開</string>
+    <string name="hrApnOff">APN關</string>
+    <string name="hrBluetoothOn">藍芽開</string>
+    <string name="hrBluetoothOff">藍芽關</string>
+    <string name="hrToggleBluetooth">切換藍芽</string>
+    <string name="hrEnableBluetooth">啟用藍芽</string>
+    <string name="hrDisableBluetooth">停用藍芽</string>
+    <string name="hrToggleLlamaCellPolling">切換Llama基地台輪詢</string>
+    <string name="hrCellPollingOn">基地台輪詢開</string>
+    <string name="hrCellPollingOff">基地台輪詢關</string>
+    <string name="hrEnableLlamaCellPolling">啟用基地台輪詢</string>
+    <string name="hrDisableLlamaCellPolling">停用基地台輪詢</string>
+    <string name="hrToggleGps">切換GPS</string>
+    <string name="hrGpsOn">GPS開</string>
+    <string name="hrGpsOff">GPS關</string>
+    <string name="hrEnableGps">啟用GPS</string>
+    <string name="hrDisableGps">停用GPS</string>
+    <string name="hrMobileDataOn">行動網路開</string>
+    <string name="hrMobileDataOff">行動網路關</string>
+    <string name="hrEnableSyncRequestUpdate">開啟同步，並請求更新</string>
+    <string name="hrEnableSyncNoUpdate">開啟同步</string>
+    <string name="hrDisableSync">停用同步</string>
+    <string name="hrToggleAccountSync">切換帳戶同步</string>
+    <string name="hrEnableAccountSyncThenRequestUpdateDescription">啟用帳戶同步，並請求更新</string>
+    <string name="hrEnableAccountSyncDescription">啟用帳戶同步</string>
+    <string name="hrDisableAccountSyncDescription">停用帳戶同步</string>
+    <string name="hrWifiOn">WiFi開</string>
+    <string name="hrWifiOff">WiFi關</string>
+    <string name="hrToggleWifi">切換WiFi</string>
+    <string name="hrEnableWifi">啟用WiFi</string>
+    <string name="hrDisableWifi">停用WiFi</string>
+    <string name="hrVibratePattern">振動模式</string>
+    <string name="hrVibrateThe1Pattern">振動%1s模式</string>
+    <string name="hrVibrateACustomisedPattern">自訂振動模式</string>
+    <string name="hrVibrateShort">短振動</string>
+    <string name="hrVibrateLong">長振動</string>
+    <string name="hrVibrateMultipleShort">連續短振動</string>
+    <string name="hrVibrateMultipleLong">連續長振動</string>
+    <string name="hrBatteryLevel">電池電量</string>
+    <string name="hrBatteryLevelAbove1">電量在%1s以上</string>
+    <string name="hrBatteryLevelBelow1">電量在%1s以下</string>
+    <string name="hrWhenBatteryGoesBelow1Percent">當電量低於%1s%%時</string>
+    <string name="hrWhenBatteryRisesAbove1Percent">當電量高於%1s%%時</string>
+    <string name="hrPleaseChooseAtLeastOneBluetoothDevice">請選取至少一個藍芽裝置</string>
+    <string name="hrPleaseChooseAtLeastOneWifiNetwork">請選取至少一個WiFi網路</string>
+    <string name="hrOr">或</string>
+    <string name="hrNor">也不</string>
+    <string name="hrWhen1IsConnected">當%1s已連線</string>
+    <string name="hrWhen1Disconnects">當%1s斷線</string>
+    <string name="hrBluetoothDeviceDisconnected">藍芽裝置斷線</string>
+    <string name="hrBluetoothDeviceConnected">藍芽裝置已連線</string>
+    <string name="hrWhenCalendarHasACurrentEventNameContaining1">當行事曆目前的事件名稱包括%1s</string>
+    <string name="hrWhenCalendarDoesNotHaveACurrentEventNameContaining1">當行事曆目前的事件名稱不包括%1s</string>
+    <string name="hrCalendarHasACurrentEventNameContaining1">行事曆中有個目前事件的名稱包含%1s</string>
+    <string name="hrCalendarDoesNotHaveACurrentEventNameContaining1">行事曆中沒有目前事件的名稱包含%1s</string>
+    <string name="hrCalendarEvent">行事曆事件</string>
+    <string name="hrCalendarConditionMustHaveACalendarEventNameOrCalendarOrEventType">行事曆條件必須包含行事曆事件名稱、一個被選擇的行事或者是一個被選擇的行事曆事件類型</string>
+    <string name="hrInCarMode">在車用模式</string>
+    <string name="hrNotInCarMode">不在車用模式</string>
+    <string name="hrWhenInCarMode">當在車用模式</string>
+    <string name="hrWhenNotInCarMode">當不在車用模式</string>
+    <string name="hrUsingBattery">使用電池</string>
+    <string name="hrChargingFromAny">使用任何方式充電</string>
+    <string name="hrChargingFromAc">使用AC充電</string>
+    <string name="hrChargingFromUsb">使用USB充電</string>
+    <string name="hrChargingFromWireless">使用無線充電</string>
+    <string name="hrChargingStatus">充電狀態</string>
+    <string name="hrWhenChargingUnknown">當充電狀態未知時</string>
+    <string name="hrWhenChargingFromAc">當使用AC充電時</string>
+    <string name="hrWhenChargingFromUsb">當使用USB充電時</string>
+    <string name="hrWhenChargingWirelessy">當使用無線充電時</string>
+    <string name="hrWhenCharging">當充電時</string>
+    <string name="hrWhenUsingBattery">當使用電池時</string>
+    <string name="hrChooseAtLeastOneDay">至少選取一天</string>
+    <string name="hrDayOfTheWeek">星期幾</string>
+    <string name="hrWhenIts1">當它%1s</string>
+    <string name="hrChooseAnAreaToEnter">選擇一個區域進入</string>
+    <string name="hrEnterArea">進入區域</string>
+    <string name="hrAt1">在%1s</string>
+    <string name="hrAtTime1">在%1s</string>
+    <string name="hrWiredHeadsetConnected">有線耳機已連接</string>
+    <string name="hrWiredHeadsetDisconnected">有線耳機已拔除</string>
+    <string name="hrWhenWiredHeadsetIsDisconnected">當有線耳機已拔除</string>
+    <string name="hrChooseAnAreaToLeave">選擇一個區域離開</string>
+    <string name="hrLeaveArea">離開區域</string>
+    <string name="hrUponLeaving1">當離開%1s</string>
+    <string name="hrMusicPlayback">音樂播放</string>
+    <string name="hrMusicPlaying">音樂播放</string>
+    <string name="hrMusicPaused">音樂暫停</string>
+    <string name="hrWhenMusicIsPlaying">當音樂播放中</string>
+    <string name="hrWhenMusicIsPaused">當音樂暫停時</string>
+    <string name="hrBluetoothDeviceNotConnected">藍芽設備未連接</string>
+    <string name="hrWhen1IsNotConnected">當%1s沒有連接</string>
+    <string name="hrNotInArea">不在區域</string>
+    <string name="hrChooseAnAreaToNotBeIn">選擇一個不在的區域</string>
+    <string name="hrWhenNotAt1">當不在%1s</string>
+    <string name="hrTimeBetween">時間區間</string>
+    <string name="hrBetween1And2">於%1$s與%2$s間</string>
+    <string name="hrFrom">從</string>
+    <string name="hrTo">到</string>
+    <string name="hrActionChangeProfile">情境</string>
+    <string name="hrActionChangeProfileDescription">這將依據您的情境設定來改變您的鈴聲，通知列上的圖示也會隨設定改變。</string>
+    <string name="hrActionNotificationIcon">Llama通知列圖示</string>
+    <string name="hrActionNotificationIconDescription">這將會改變通知知列上的圖示，使用不同的圖示來辨別目前使用的情境模式。您也可以在Llama的設定中開啟/關閉這個圖示。</string>
+    <string name="hrActionScreenBrightness">螢幕亮度</string>
+    <string name="hrActionScreenBrightnessDescription">這將會改變螢幕亮度。有些手機支援自動調整亮度</string>
+    <string name="hrActionScreenOn">開啟螢幕</string>
+    <string name="hrActionScreenOnDescription">這將會立即開啟螢幕。如果螢幕鎖沒啟用，螢幕將會持續開啟到休眠時間才關閉。如果螢幕鎖啟用，螢幕會顯示解鎖畫面並於兩秒後關閉。(備註:您的手機可能不會顯示亮度切換狀態的差異。)</string>
+    <string name="hrActionScreenOff">關閉螢幕</string>
+    <string name="hrActionScreenOffDescription">這將會立即關閉螢幕。如果螢幕鎖啟用，它將會馬上關閉。</string>
+    <string name="hrActionMusicVolume">音樂/媒體音量</string>
+    <string name="hrActionMusicVolumeDescription">這將會改變音樂/媒體音量</string>
+    <string name="hrActionVibrate">振動</string>
+    <string name="hrActionVibrateDescription">這將會根據預設模式來振動，或者您也可以建立您的振動節奏</string>
+    <string name="hrActionApn">APN</string>
+    <string name="hrActionApnDescription">這將會使用假的APN來關閉行動網路，這只有在GSM網路模式才有作用，它也相容於APNDroid的小工具。</string>
+    <string name="hrActionBluetooth">藍芽</string>
+    <string name="hrActionBluetoothDescription">這將會開啟或關閉藍芽。您可以選擇只在沒有設備連接的時候關閉藍芽。也可以打開藍芽一段時間，並且在沒有設備連接時關閉它。</string>
+    <string name="hrActionAirplane">飛航模式</string>
+    <string name="hrActionAirplaneDescription">這將會開啟或關閉飛航模式。當然這也會關閉您的WiFi和藍芽。當飛航模式啟用時，您將不能夠定位您的位置！</string>
+    <string name="hrActionWifi">WiFi</string>
+    <string name="hrActionWifiDescription">這將會開啟或關閉WiFi。您可以選擇只在沒有連上WiFi網路時關閉它。也可以打開WiFi一段時間，並且在沒有連接WiFi時關閉它。</string>
+    <string name="hrActionGps">GPS</string>
+    <string name="hrActionGpsDescription">這將會開啟或關閉GPS。</string>
+    <string name="hrActionReboot">重開機(需root權限)</string>
+    <string name="hrActionRebootDescription">這將會重啟您的手機。請注意您的觸發條件設置以確保您的手機不會無止境的重啟。Llama會在您的手機開啟至少5分鐘才會執行這個動作。</string>
+    <string name="hrActionShutdown">關機(需root權限)</string>
+    <string name="hrActionShutdownDescription">這將會關閉您的手機。請注意您的觸發條件設置以確保您的手機不會無止境的關閉。Llama會在您的手機開啟至少5分鐘才會執行這個動作。</string>
+    <string name="hrActionSync">帳戶同步</string>
+    <string name="hrActionSyncDescription">這將會開啟或關閉帳戶同步。您也可以用來強制執行帳戶同步</string>
+    <string name="hrActionLlamaCellPolling">Llama基地台輪詢</string>
+    <string name="hrActionLlamaCellPollingDescription">實驗性設定:這將會改變Llama基地台輪詢的頻率，這只有在啟用實驗性設定時才有作用。</string>
+    <string name="hrActionLlamaWifiPolling">Llama WiFi輪詢</string>
+    <string name="hrActionLlamaWifiPollingDescription">實驗性設定:這將會改變Llama WiFi輪詢的頻率，這只有在啟用實驗性設定時才有作用。如果設定為從不，Llama將會使用Android預設的WiFi輪詢。</string>
+    <string name="hrActionLlamaBluetoothPolling">Llama藍芽輪詢</string>
+    <string name="hrActionLlamaBluetoothPollingDescription">實驗性設定:這將會改變Llama藍芽裝置輪詢的頻率，這只有在啟用實驗性設定時才有作用。如果設定為從不，Llama將會使用Android預設的藍芽裝置輪詢。</string>
+    <string name="hrActionAndroidLocationPolling">Llama Android 位置輪詢</string>
+    <string name="hrActionAndroidLocationPollingDescription">實驗性設定:這將會改變Llama Android 位置輪詢的頻率，這只有在啟用實驗性設定時才有作用。如果設定為從不，Llama將會在其他應用程式請求位置時才擷取位置資訊。</string>
+    <string name="hrActionScreenTimeout">螢幕休眠時間</string>
+    <string name="hrActionScreenTimeoutDescription">這將會改變您開啟螢幕後多久會自動休眠的時間</string>
+    <string name="hrActionMobileData">行動網路</string>
+    <string name="hrActionMobileDataDescription">這將會改變您的行動網路設定。因為Google的限制所以它無法在薑餅Android 2.3上工作(如果您現在運行的是Android 2.2.1或更低的版本，您需要在手機設定中啟用“行動網路”來確保這個功能可以運作）</string>
+    <string name="hrActionReminder">提醒</string>
+    <string name="hrActionReminderDescription">這將會在通知欄顯示一個簡單的提醒</string>
+    <string name="hrActionScreenLock">螢幕鎖(可能異常)</string>
+    <string name="hrActionScreenLockDescription2">"這將會開啟或關閉螢幕鎖。Android沒有提供一個永久實現這種設置的方法。因此這功能也許會不如您的預期。
+
+如果您的螢幕是開啟的並且沒上鎖：
+-啟用螢幕鎖將會到螢幕被關閉為止才上鎖
+-啟用螢幕鎖(強制)將會關閉螢幕並且立即上鎖
+-停用螢幕鎖會立即生效(例如：執行後下一次關閉螢幕後開啟，將不會再看到螢幕鎖)
+
+
+如果您的螢幕是關閉且上鎖的：
+-啟用螢幕鎖將會下一次螢幕開啟時上鎖
+-直接停用螢幕鎖，將不會再出現螢幕鎖，並可能會搞亂您的HOME鍵與搜尋鍵
+-當解鎖後停用螢幕鎖將會上鎖一次後就不會再執行，直到您再次啟用為止。 
+
+
+如果您的螢幕是關閉狀態並且沒上鎖時：
+-啟用螢幕鎖將在您關閉螢幕時上鎖。 
+-啟用螢幕鎖(強制)將在下一次螢幕開啟時上鎖。 
+
+
+如果您的HOME鍵停止工作，請您不要使用這個功能。"</string>
+    <string name="hrActionProfileLock">Llama情境鎖定</string>
+    <string name="hrActionProfileLockDescription">這可以讓您控制Llama的情境鎖。您可以使用這個來阻止Llama在特定的時間來改變您的情景模式。</string>
+    <string name="hrActionRunApp">執行程序</string>
+    <string name="hrActionRunAppDescription">這可以讓您執行一個程序。如果您有安裝很多程序，請等待一些時間來載入程序清單</string>
+    <string name="hrActionKillApp">殺死程序</string>
+    <string name="hrActionKillAppDescription">這可以讓Llama以最好的能力來殺死一個程序。注意:殺死程序的動作在Android上是受限的，因此這功能也許會不如您的預期。</string>
+    <string name="hrActionKillWithRootApp">執行程序(root權限)</string>
+    <string name="hrActionKillWithRootAppDescription">這可以讓Llama使用最高權限來殺死一個程序。因為這可能引起程序錯亂，所以不建議這樣做。這需要您的手機有ROOT權限。</string>
+    <string name="hrConditionEnterInArea">進入/在 區域</string>
+    <string name="hrConditionEnterInAreaDescription">這個條件會在您第一次進入任一個選擇的區域時觸發，直到您離開區域才失效。</string>
+    <string name="hrConditionLeaveArea">離開區域</string>
+    <string name="hrConditionLeaveAreaDescription">這個條件會在您離開任一個選擇的區域時觸發</string>
+    <string name="hrConditionNotInAreas">不在區域</string>
+    <string name="hrConditionNotInAreasDescription">這個條件會在您離開全部所選的區域時觸發，直到您再次進入這些區域才失效。</string>
+    <string name="hrConditionCalendarEvent">行事曆事件</string>
+    <string name="hrConditionCalendarEventDescription">這個條件觸發是根據您行事曆的目前事件。您可以指定事件開始或結束觸發。</string>
+    <string name="hrConditionDayOfTheWeek">星期幾</string>
+    <string name="hrConditionDayOfTheWeek_Description">這個條件可以讓您過濾在一周內特定的日子所發生的事件。</string>
+    <string name="hrConditionHeadset">耳機 連接/拔除</string>
+    <string name="hrConditionHeadsetDescription">這個條件可以讓您在耳機連接或拔除時執行事件。</string>
+    <string name="hrConditionCharging">充電或不充電</string>
+    <string name="hrConditionChargingDescription">這個條件可以讓您在充電時或不充電時執行事件。</string>
+    <string name="hrConditionPhoneReboot">重啟手機</string>
+    <string name="hrConditionPhoneRebootDescription">這個條件可以讓您在手機開機後或關機前執行事件。</string>
+    <string name="hrConditionBatteryLevel">電池電量</string>
+    <string name="hrConditionBatteryLevelDescription">這個條件可以讓您在電量低於或高於設定值時執行事件。</string>
+    <string name="hrConditionSignalLevel">訊號強度</string>
+    <string name="hrConditionSignalLevelDescription">"這個條件可以讓您在訊號強度低於或高於設定值時執行事件。
+
+這個條件會在您編輯時顯示目前的訊號強度。
+
+數值單位是dBm
+
+Llama把-150dBm當成無訊號，請注意GSM的訊號可以低於-113dBm。"</string>
+    <string name="hrConditionCarMode">車用模式</string>
+    <string name="hrConditionCarModeDescription">這個條件可以讓您在啟用或退出車用模式時執行事件。</string>
+    <string name="hrConditionBluetoothConnected">藍芽裝置已連線</string>
+    <string name="hrConditionBluetoothConnectedDescription">這個條件會在您選取的藍芽裝置已連線時觸發。</string>
+    <string name="hrConditionBluetootDeviceNotConnected">藍芽裝置未連線</string>
+    <string name="hrConditionBluetootDeviceNotConnectedDescription">這個條件只在未選取的藍芽設備連接時觸發。</string>
+    <string name="hrConditionBluetoothDisconnected">藍芽裝置已斷線</string>
+    <string name="hrConditionBluetoothDisconnectedDescription">這個條件會在任何已選取的藍芽設備從手機斷線時觸發。</string>
+    <string name="hrConditionMusicPlayback">音樂播放</string>
+    <string name="hrConditionMusicPlaybackDescription">"這個條件會在啟用Android音樂播放器時觸發。備註:不同的廠商會使用不同的播放器，但是卻沒提供任何文件給第三方開發使用:'("</string>
+    <string name="hrConditionTimeBetween">時間區間</string>
+    <string name="hrConditionTimeBetweenDescription">這個條件可以讓您過濾事件只在一天當中的特定時間觸發。您可以設定跨夜的時間(例如:晚上10點到早上6點)來觸發要在晚上執行的事件。當時間符合時，Llama會檢查事件中的其他條件是否符合，並執行動作。</string>
+    <string name="hrAlternativeIconColour">改變圖示顏色</string>
+    <string name="hrAlternativeIconColourDescription">使用黑色或白色的通知列圖示</string>
+    <string name="hrNotificationMode">通知模式</string>
+    <string name="hrNotificationModeDescription">通知列圖示可以讓您知道情境的變化，也可以避免Llama被Android系統關閉。</string>
+    <string name="hr12HourPickers">使用12小時制</string>
+    <string name="hr12HourPickersDescription">是否要使用12小時制</string>
+    <string name="hrShowApnMobileData">在選單中顯示 APN/行動網路</string>
+    <string name="hrShowApnMobileDataDescription">是否在Llama的選單中顯示 APN/行動網路</string>
+    <string name="hrSoundProfileSettings">聲音情境設定</string>
+    <string name="hrLockProfilesOnChange">音量變動時鎖定情境</string>
+    <string name="hrLockProfilesOnChangeDescription">是否要在您手動調整音量後防止Llama改變情境模式</string>
+    <string name="hrUnlockProfilesAutomatically">情境模式自動解鎖</string>
+    <string name="hrUnlockProfilesAutomaticallyDescription">鎖定情境後，解鎖自</string>
+    <string name="hrCellTrackingSettings">基地台追蹤設定</string>
+    <string name="hrIgnoreInvalidNoSignal">忽略無效/沒訊號的基地台</string>
+    <string name="hrIgnoreInvalidNoSignalDescription">是否防止無效/沒訊號的基地台來觸發離開區域</string>
+    <string name="hrCellPollingMode">基地台輪詢模式</string>
+    <string name="hrCellPollingModeDescription">實驗性設定:是否喚醒CPU來密集追蹤基地台變化，這可能會讓電池更耗電。當此功能關閉時，進入/離開區域的事件可能會延遲一些時間，但是這並不是大問題，因為事件會在您的手機喚醒後立刻觸發。</string>
+    <string name="hrCellPollingInterval">基地台輪詢間隔</string>
+    <string name="hrCellPollingIntervalDescription">每隔多久喚醒CPU</string>
+    <string name="hrCellPollingIntervalMinutes">基地台輪詢間隔(分)</string>
+    <string name="hrAlternativeLocationMethods">改變定位方式</string>
+    <string name="hrExperimentalStuff">實驗性工具</string>
+    <string name="hrExperimentalStuffDescription">這裡可是充滿風險</string>
+    <string name="hrLocationSettings">位置設定</string>
+    <string name="hrUseAndroidLocation">使用Android位置</string>
+    <string name="hrUseAndroidLocationDescription">高風險實驗:是否使用Android內建的位置工具，如果啟用WiFi在地圖上標明區域會更準確，但是這會讓電池更耗電些。</string>
+    <string name="hrUseGps">使用GPS</string>
+    <string name="hrUseGpsDescription">使用GPS來確定您的位置。這會讓電池更耗電。</string>
+    <string name="hrAndroidLocationPollingName">Android位置輪詢間隔</string>
+    <string name="hrAndroidLocationPollingDescription">高風險實驗:多久檢查一次您的位置資訊</string>
+    <string name="hrAndroidLocationPollingInterval">Android位置輪詢間隔(分)</string>
+    <string name="hrWifiTrackingSettings">WiFi追蹤設定</string>
+    <string name="hrCheckForWifiNetworks">檢查WiFi網路</string>
+    <string name="hrCheckForWifiNetworksDescription">高風險實驗:是否每隔一段時間打開WiFi來確定附近是否有WiFi網路</string>
+    <string name="hrWifiPolling">WiFi輪詢間隔</string>
+    <string name="hrWifiPollingDescription">高風險實驗:多久檢查一次WiFi網路</string>
+    <string name="hrWifiPollingInterval">WiFi輪詢間隔(分)</string>
+    <string name="hrBluetoothTrackingSettings">藍芽追蹤設定</string>
+    <string name="hrCheckForBluetoothDevices">檢查藍芽裝置</string>
+    <string name="hrCheckForBluetoothDevicesDescription">高風險實驗:是否每隔一段時間打開藍芽來確定附近是否有藍芽裝置</string>
+    <string name="hrBluetoothPollingInterval">藍芽輪詢間隔</string>
+    <string name="hrBluetoothPollingIntervalDescription">高風險實驗:多久檢查一次藍芽裝置</string>
+    <string name="hrBluetoothPollingIntervalMinutes">藍芽輪詢間隔(分)</string>
+    <string name="hrUserInterfaceSettings">操作介面設定</string>
+    <string name="hrDebugSettings">除錯設定-前面有討人厭的東西</string>
+    <string name="hrDebugSettingsTitle">除錯設定</string>
+    <string name="hrDebugSettingsDescriptions">紀錄診斷的附加設定</string>
+    <string name="hrEventName">事件名稱</string>
+    <string name="hrEventNameAndGroup">事件名稱與群組</string>
+    <string name="hrEventNameDescription">用來辨識事件的名稱</string>
+    <string name="hrEnabled">啟用</string>
+    <string name="hrEventEnabledDescription">Llama是否要檢查事件的條件並執行其設定的動作</string>
+    <string name="hrProfileName">情境名稱</string>
+    <string name="hrProfileNameDescription">用來辨識情境的名稱</string>
+    <string name="hrNotificationVolume">通知音量</string>
+    <string name="hrRingVibrateSilent">響鈴/振動/靜音模式</string>
+    <string name="hrChangeRingVibrateSilent">改變響鈴/振動/靜音模式</string>
+    <string name="hrChangeRingVibrateSilentDescription">當情境模式啟用時是否要改變響鈴、振動或靜音模式</string>
+    <string name="hrRingtone">鈴聲</string>
+    <string name="hrChangeRingtone">改變鈴聲</string>
+    <string name="hrChangeRingtoneDescription">當情境模式啟用時是否要改變鈴聲</string>
+    <string name="hrNotificationTone">通知鈴聲</string>
+    <string name="hrChangeNotificationTone">改變預設通知鈴聲</string>
+    <string name="hrChangeNotificationToneDescription">當情境模式啟用時是否要改變預設通知鈴聲</string>
+    <string name="hrMusicVolume">音樂/媒體音量</string>
+    <string name="hrChangeMusicVolumeDescription">當情境模式啟用時是否要改變音樂/媒體音量</string>
+    <string name="hrAlarmVolume">鬧鐘音量</string>
+    <string name="hrChangeAlarmVolume">改變鬧鐘音量</string>
+    <string name="hrChangeAlarmVolumeDescription">當情境模式啟用時是否要改變鬧鐘音量</string>
+    <string name="hrInCallVolume">通話音量</string>
+    <string name="hrChangeInCallVolume">改變通話音量</string>
+    <string name="hrChangeInCallVolumeDescription">當情境模式啟用時是否要改變通話音量</string>
+    <string name="hrSystemSoundsVolume">系統聲音音量</string>
+    <string name="hrChangeSystemSoundsVolume">改變系統聲音音量</string>
+    <string name="hrChangeSystemSoundsVolumeDescription">當情境模式啟用時是否要改變系統聲音音量</string>
+    <string name="hrLlamaIcon">Llama(草泥馬)圖示</string>
+    <string name="hrChangeLlamaIcon">改變Llama圖示</string>
+    <string name="hrChangeLlamaIconDescription">當情境模式啟用時是否要改變Llama圖示</string>
+    <string name="hrLlamaIcons">Llama圖示</string>
+    <string name="hrSelectALlamaIcon">選擇一個Llama圖示</string>
+    <string name="hrRingtoneVolumeDescription">設定鈴聲音量為</string>
+    <string name="hrNotificationToneVolumeDescription">設定通知音量為</string>
+    <string name="hrChooseVibrateMode">選擇振動模式</string>
+    <string name="hrChooseVibrateModeDescription">響鈴/振動模式</string>
+    <string name="hrSelectARingtone">選取一個鈴聲</string>
+    <string name="hrRingtones">鈴聲</string>
+    <string name="hrSelectDefaultNotificationDescription">選取一個預設的通知音</string>
+    <string name="hrNotificationTones">通知音</string>
+    <string name="hrMusicVolumeDescription">設定音樂/媒體音量為</string>
+    <string name="hrAlarmDescription">設定鬧鐘音量為</string>
+    <string name="hrInCallDescription">設定通話音量為</string>
+    <string name="hrSystemSoundDescription">設定系通聲音音量為</string>
+    <string name="hrChangeRingtoneVolume">改變鈴聲音量</string>
+    <string name="hrChangeRingtoneVolumeDescription">當情境模式啟用時是否要改變鈴聲音量</string>
+    <string name="hrChangeNotificationVolume">改變通知音量</string>
+    <string name="hrChangeNotificationVolumeDescription">當情境模式啟用時是否要改變通知音量</string>
+    <string name="hrRingtoneVolume">鈴聲音量</string>
+    <string name="hrAddAction">增加動作</string>
+    <string name="hrAddCondition">增加條件</string>
+    <string name="hrRemove">移除</string>
+    <string name="hrTestActions">測試動作</string>
+    <string name="hrNotificationIconOnlyError">執行中的圖示僅通知功能不支援Android 2.3或更高的版本 :(</string>
+    <string name="hrThanksToTranslators">非常感謝草泥馬的翻譯者:</string>
+    <string name="hrUnableToUpdateArea1">無法更新區域%1s，因為它不存在 :(</string>
+    <string name="hrToggleProfileChangesLock">切換情境改變鎖</string>
+    <string name="hrRebootBracketRequiresRootBracket">重新開機(需要root權限)</string>
+    <string name="hrCarMode">車用模式</string>
+    <string name="hrWiredHeadset">有線耳機</string>
+    <string name="hrConditionsMatchAll">條件(全部符合)</string>
+    <string name="hrConditionsMatchAny">條件(符合任一項)</string>
+    <string name="hrSorryNoHelpYet">抱歉，無法提供協助:(</string>
+    <string name="hrAirplaneModeEnterAreaWarning">當飛航模式啟用時，您無法進入任何區域，因為您的手機訊號是停止連線的。</string>
+    <string name="hrRebootSafetyMessage">"注意您的條件設定!
+基於安全機制，您的手機開啟至少5分鐘後才能重開機。"</string>
+    <string name="hrShutdownSafetyMessage">"注意您的條件設定!
+基於安全機制，您的手機開啟至少5分鐘後才能關機。"</string>
+    <string name="hrBluetoothParingInfo">您的藍芽裝置必須要跟您的手機配對。如果清單是空白的，請開啟藍芽再試一次。</string>
+    <string name="hrWifiNetworkInfo">如果清單是空白的，請開啟WiFi再試一次。範圍內必須要有已經記憶的可用WiFi網路。</string>
+    <string name="hrAndroid22Only">僅支援Android 2.2或更高的版本</string>
+    <string name="hrKeyGuardBuggyWarning">警告:可能異常!您的HOME鍵可能會失效直到自動鍵盤鎖重新啟用，還有SIM卡可能會鎖上。</string>
+    <string name="hrMobileDataWarning">實驗性設定:這個設定必須要啟用行動網路</string>
+    <string name="hrLanguageDescription">使用您熟悉的語言</string>
+    <string name="hrLanguageBracketEnglishLanguageBracket">語言</string>
+    <string name="hrTurnOnTheScreenDim">在低亮度時開啟螢幕</string>
+    <string name="hrTurnOnTheScreenBright">在正常亮度時開啟螢幕</string>
+    <string name="hrTurnOnTheScreenBrightAndKeyboard">在正常亮度時開啟螢幕與按鍵背光</string>
+    <string name="hrTurnOffTheScreen">關閉螢幕</string>
+    <string name="hrErrorNotificationMode">錯誤通知</string>
+    <string name="hrErrorNotificationModeDescription">如何讓您知道Llama在背景執行可能發生的問題，例如事件錯誤與情境鎖定。</string>
+    <string name="hrLlamaErrorV2">Llama錯誤-點選這裡</string>
+    <string name="hrLlamaInfoV2">Llama資訊-點選這裡</string>
+    <string name="hrLlamaProblem">Llama問題</string>
+    <string name="hrFailedToReadCalendar1">讀取行事曆%1s失敗，您可以在Llama的設定中關閉錯誤通知。</string>
+    <string name="hrRevertVolumeChanges">停用音量鍵</string>
+    <string name="hrRevertVolumeChangesDescription">當你不小心按到音量鍵時，是否要改變音量到目前的情境設置</string>
+    <string name="hrScreenOn">開啟螢幕</string>
+    <string name="hrScreenOff">關閉螢幕</string>
+    <string name="hrWhenScreenIsOn">螢幕</string>
+    <string name="hrWhenScreenIsOff">螢幕</string>
+    <string name="hrScreenOnOff">開啟/關閉螢幕</string>
+    <string name="hrConditionScreenOnOffDescription">這個條件可以讓您在螢幕開啟/關閉時執行或過濾事件</string>
+    <string name="hrAutoRelinkVolumes">重新連結音量設置</string>
+    <string name="hrAutoRelinkVolumesDescription">當相關的情境被觸發時，是否重新啟用使用通話音量為通知音量選項。</string>
+    <string name="hrTimeBetweenWarning">記得在超出時建立另一個事件!</string>
+    <string name="hrConditionWifiConnected">WiFi網路已連結</string>
+    <string name="hrConditionWifiConnectedDescription">這個條件會在任何選取的WiFi網路連線時觸發。</string>
+    <string name="hrConditionWifiDisconnected">WiFi網路已中斷</string>
+    <string name="hrConditionWifiDisconnectedDescription">這個條件會在任何選取的WiFi網路斷線時觸發。</string>
+    <string name="hrWhenWifi1Disconnects">當你的手機與%1$s斷線</string>
+    <string name="hrWhenWifi1Connects">當你的手機與%1$s斷線</string>
+    <string name="hrNoSignalUnknown">無訊號/未知</string>
+    <string name="hrNewProfile">新情境</string>
+    <string name="hrColourEventList">彩色事件列表</string>
+    <string name="hrColourEventListDescription">"根據下列顏色顯示事件的條件狀態
+綠色=相符, 紅色=不符, 底線=已在最新的事件測試中觸發。"</string>
+    <string name="hrActionUsbStorage">USB大量儲存裝置</string>
+    <string name="hrActionUsbStorageDescription">這將會開啟/關閉USB大量儲存裝置。如果您的手機廠商有其他的USB模式(例如USB同步)，這功能也許不能正常運作。</string>
+    <string name="hrUsbStorageOn">USB大量儲存裝置開啟</string>
+    <string name="hrUsbStorageOff">USB大量儲存裝置關閉</string>
+    <string name="hrUsbStorageToggle">USB大量儲存裝置開啟/關閉</string>
+    <string name="hrUsbStorageOnDescription">開啟USB大量儲存裝置</string>
+    <string name="hrUsbStorageOffDescription">關閉USB大量儲存裝置</string>
+    <string name="hrUsbStorageToggleDescription">開啟/關閉USB大量儲存裝置</string>
+    <string name="hrUsbToggleError">改變USB大量儲存裝置狀態失敗</string>
+    <string name="hrActionMediaPlayer">多媒體播放器</string>
+    <string name="hrActionMediaPlayerDescription">這會執行一個多媒體播放器的動作，例如播放/暫停。這就像在耳機上按下播放/暫停、上一個、下一個按鍵一樣。這需要您的多媒體播放器有支援這些動作才可以。</string>
+    <string name="hrSendMedia1Button">傳送多媒體按鍵-%1s</string>
+    <string name="hrUnknownArea">未知的區域</string>
+    <string name="hrNoisyContacts">特定聯絡人...</string>
+    <string name="hrNoisyContactsDescription">選取在這個情境模式下可以變動鈴聲設置的聯絡人</string>
+    <string name="hrNoisyContactRingerVolume">特定鈴聲音量</string>
+    <string name="hrNoisyContactRingerVolumeDescription">這個音量設定是在特定聯絡人來電時觸發</string>
+    <string name="hrNoisyContactPicker1Selected">特定聯絡人選取 - %1s 已選</string>
+    <string name="hr4GOn">4G開啟</string>
+    <string name="hr4GOff">4G關閉</string>
+    <string name="hrActionToggle4G">4G</string>
+    <string name="hrActionToggle4GDescription">如果您的手機有支援4G，可以開啟/關閉4G。如果您的手機不支援，也許會招喚出意想不到的東西。</string>
+    <string name="hrEnable4G">啟用4G</string>
+    <string name="hrDisable4G">停用4G</string>
+    <string name="hr4GWarning">實驗性設定:</string>
+    <string name="hrActionRunShortcut">執行程式捷徑</string>
+    <string name="hrActionRunShortcutDescription">使用特定的捷徑來開啟應用程式。您可以用它來執行任何應用程式的動作。</string>
+    <string name="hrChooseAShortcutToRun">選擇一個捷徑執行</string>
+    <string name="hrRunAShortcut">執行捷徑%1s</string>
+    <string name="hrPleaseWait">請等待...</string>
+    <string name="hrGettingApplicationNames">取得應用程式名稱...</string>
+    <string name="hrGettingShortcuts">取得捷徑...</string>
+    <string name="hrAnyWifiNetwork">&lt;任何WiFi網路></string>
+    <string name="hrInAirplaneMode">飛航模式已啟用</string>
+    <string name="hrNotInAirplaneMode">飛航模式已停用</string>
+    <string name="hrWhenInAirplaneMode">當飛航模式啟用時</string>
+    <string name="hrWhenNotInAirplaneMode">當飛航模式停用時</string>
+    <string name="hrConditionAirplaneMode">飛航模式</string>
+    <string name="hrConditionAirplaneModeDescription">這個條件可以讓您在啟用/停用飛航模式時執行事件。</string>
+    <string name="hrTheApocalypse">At the apocalypse!!!</string>
+    <string name="hrEnableHapticFeedback">開啟觸控回饋</string>
+    <string name="hrDisableHapticFeedback">關閉觸控回饋</string>
+    <string name="hrActionHapticFeedback">觸控回饋</string>
+    <string name="hrActionHapticFeedbackDescription">這個動作會開啟/關閉觸控回饋。觸控回饋是當您點選螢幕或手機按鍵時產生振動回饋。</string>
+    <string name="hrHapticFeedbackOn">觸控回饋開啟</string>
+    <string name="hrHapticFeedbackOff">觸控回饋關閉</string>
+    <string name="hrActionScreenOnWarning">不同的手機會呈現不同效果，使用在自動偵測環境亮度來調整螢幕亮度。</string>
+    <string name="hrWifiSleepPolicyNever">WiFi從不休眠</string>
+    <string name="hrWifiSleepPolicyNeverWhilePlugged">WiFi在充電時從不休眠</string>
+    <string name="hrWifiSleepPolicyScreenOff">WiFi在螢幕關閉時休眠</string>
+    <string name="hrWifiSleepPolicyNeverDescription">阻止WiFi休眠</string>
+    <string name="hrWifiSleepPolicyNeverWhilePluggedDescription">阻止在充電時WiFi休眠</string>
+    <string name="hrWifiSleepPolicyScreenOffDescription">設定WiFi在螢幕關閉時短暫休眠</string>
+    <string name="hrActionWifiSleepPolicy">WiFi休眠規則</string>
+    <string name="hrActionWifiSleepPolicyDescription">這個動作會改變WiFi進階設定來控制您手機的WiFi甚麼時候休眠。有些手機在控制時會有一些延遲。</string>
+    <string name="hrClearNotification">清除它</string>
+    <string name="hrLeaveNotification">保留它</string>
+    <string name="hrChangeWallpaperTo1">改變桌布為%1s</string>
+    <string name="hrPleaseChooseAWallpaper">選擇一個桌布</string>
+    <string name="hrActionWallpaper">桌布</string>
+    <string name="hrActionWallpaperDescription">"這可以改變您的主頁桌布。這將會使用Android的桌布選取器從圖庫中挑選並剪裁一張圖片當作桌布。剪裁的圖片將會儲存在SD卡上的Llama/Wallpaper資料夾中。
+
+ 可惜這功能沒辦法設定動態桌布:'("</string>
+    <string name="hrHowDoIChangeOtherStuff">其他的設定在哪邊?</string>
+    <string name="hrHowDoIChangeOtherStuffDescription">這一頁是聲音情境頁面。如果你要改變藍芽、WiFi..或其他選項，請到事件頁面建立一個事件來執行。</string>
+    <string name="hrConditionAppNotification">APP通知列圖示</string>
+    <string name="hrConditionAppNotificationDescription">實驗性設定:這個條件會在其他應用程式於通知列顯示一個圖示時觸發；您必須要設定Llama為一個輔助服務來確保它能運作。例如.您可以在收到簡訊或即時通訊訊息時執行這個動作。這功能最好是高手才使用喔!</string>
+    <string name="hrConditionAppNotificationWarning">實驗性設定:請勾選設定Llama為輔助服務。</string>
+    <string name="hrKillWithRootDieDieDie1">使用root權限殺死%1s 殺!殺!殺!</string>
+    <string name="hrInvalidPackageNameToKill1">無法殺死程序%1s,因為名稱錯誤</string>
+    <string name="hrIgnored">忽略</string>
+    <string name="hrUnignoreCell">取消忽略基地台</string>
+    <string name="hrIgnoreCell">忽略基地台</string>
+    <string name="hrIgnoreCells">忽略基地台</string>
+    <string name="hrNoCellsIgnoredLongTapRecentTab">沒有其他基地台被忽略，請在基地台頁面長按一個基地台新增。</string>
+    <string name="hrIgnoreOtherCells">其他已忽略的基地台</string>
+    <string name="hrIgnoreOtherCellsDescription">有時您會在兩個區域內同時包含同一個基地台，您可以忽略這些基地台來確保他們不會互相影響。</string>
+    <string name="hrAndFinally">最後...</string>
+    <string name="hrCalendarEventDialogEventNameContains">事件名稱包含...(使用豎線符號區隔不同名稱)</string>
+    <string name="hrCalendarEventDialogInCalendars">在行事曆...</string>
+    <string name="hrThisAreaHasNotBeenDefinedLongTapItOrLookInTheRecentTab">這個區域還沒設定。長按它來學習附近的基地台或者在基地台頁面直接新增到這個區域。</string>
+    <string name="hrActionScreenBrightnessWarning">不同的手機對螢幕亮度的調節方式不同，您可能需要開關螢幕來使設定觸發。</string>
+    <string name="hrAnyCalendarEvent">任何行事曆事件</string>
+    <string name="hrAnyCalendar">任何行事曆</string>
+    <string name="hrCalendarEvents1ContainsAnyEvent">%1$s 包含任何行事曆事件</string>
+    <string name="hrCalendarEvents1DoesNotContainAnyEvent">%1$s 不包含任何行事曆事件</string>
+    <string name="hrCalendarEvents1Contains2">%1$s 包含一個名稱是%2$s的行事曆事件</string>
+    <string name="hrCalendarEvents1DoesNotContains2">%1$s 不包含一個名稱是%2$s的行事曆事件</string>
+    <string name="hrCalendarEvents1ContainsAnyEventDescription">當%1$s 包含任何行事曆事件</string>
+    <string name="hrCalendarEvents1DoesNotContainAnyEventDescription">當%1$s 不包含任何行事曆事件</string>
+    <string name="hrCalendarEvents1Contains2Description">當%1$s 包含一個名稱是%2$s的行事曆事件</string>
+    <string name="hrCalendarEvents1DoesNotContains2Description">當%1$s 不包含一個名稱是%2$s的行事曆事件</string>
+    <string name="hrCalendarEventNameSpaceWarning">您有些行事曆事件名稱前後有包含空白。有些輸入法會自動在單字後面插入空白，如果這些空白不是您輸入的，請刪除它。</string>
+    <string name="hrRemoveSpaces">刪除空白</string>
+    <string name="hrLeaveSpaces">保留空白</string>
+    <string name="hrOnStartUp">啟動後</string>
+    <string name="hrOnShutdown">在關閉之前</string>
+    <string name="hrWhenPhoneBoots">當手機開機</string>
+    <string name="hrWhenPhoneShutsdown">當手機關機</string>
+    <string name="hrEnableRotation">啟用自動旋轉</string>
+    <string name="hrDisableRotation">停用自動旋轉</string>
+    <string name="hrActionScreenRotation">螢幕自動旋轉</string>
+    <string name="hrActionScreenRotationDescription">這可以讓您設定手機轉向時是否螢幕要跟著一起旋轉。</string>
+    <string name="hrAllow1Rotations">允許螢幕旋轉%1s</string>
+    <string name="hrLockProfileFor1">為%1s鎖定情境</string>
+    <string name="hrForeverEternity">永久(到情境頁面重新啟用)</string>
+    <string name="hrLockProfileForever">永久鎖定情境</string>
+    <string name="hrAlsoPreventOtherEventsFromChangingProfilesForDotDotDot_1">也起用情境鎖定，其他事件將無法改變情境。當設定的時間到達，Llama將會切回到原本的情境模式。</string>
+    <string name="hrCarDockOnOffDescription">開啟/關閉車用模式</string>
+    <string name="hrCarDockOnOff">車用模式開啟/關閉</string>
+    <string name="hrCarDockOffDescription">關閉車用模式</string>
+    <string name="hrCarDockOff">關閉車用模式</string>
+    <string name="hrCarDockOnDescription">開啟車用模式</string>
+    <string name="hrCarDockOn">開啟車用模式</string>
+    <string name="hrActionCarMode">車用模式</string>
+    <string name="hrActionCarModeDescription">這個動作是手動開啟/關閉車用模式，只有支援Android 2.2+</string>
+    <string name="hrCarModeNotSupportedByPhone">車用模式只有支援Android 2.2+</string>
+    <string name="hrFailedToStartShortcut1">開啟捷徑%1s失敗</string>
+    <string name="hrLlamaFailedToChangeApnSettings">Llama改變APN設定失敗</string>
+    <string name="hrErrorReadingContacts">讀取聯絡人錯誤</string>
+    <string name="hrThereWasAnErrorReadingYourContacts">讀取聯絡人時產生一個錯誤:(</string>
+    <string name="hrAlarmVolumeWarning">請注意有些鬧鐘程式會控制鬧鐘的音量。例如三星的手機。請安裝不會這樣控制音量的鬧鐘程式。</string>
+    <string name="hrRunIntent1">執行一個Android Intent %1s</string>
+    <string name="hrCreateAnIntent">定義一個Android Intent</string>
+    <string name="hrActionAndroidIntent">Android Intent</string>
+    <string name="hrActionAndroidIntentDescription">這可以讓你執行一個Android Intent。這是個很進階的功能而且需要與第三方程式合作。Llama有些預設的Intent可以試試，如果你有不錯的也可以跟大家分享。</string>
+    <string name="hrPreset">預設</string>
+    <string name="hrDashDashOrDashDash">-OR-</string>
+    <string name="hrIntentEditPackageName">Package名稱</string>
+    <string name="hrIntentEditClassName">Class名稱</string>
+    <string name="hrIntentEditAction">動作</string>
+    <string name="hrIntentEditCategory">類別(逗號分隔)</string>
+    <string name="hrIntentEditData">資料</string>
+    <string name="hrIntentEditDateType">資料類型</string>
+    <string name="hrCustomAndroidIntent">自訂android intent</string>
+    <string name="hrIntentEditExtras">Extras</string>
+    <string name="hrIntentEditAddExtra">"Add new 'extra' row"</string>
+    <string name="hrTpiWidgetLockerEnable">小工具鎖定:啟用</string>
+    <string name="hrTpiWidgetLockerDisable">小工具鎖定:停用</string>
+    <string name="hrTpiWidgetLockerSuspend">小工具鎖定:暫停</string>
+    <string name="hrTpiWidgetLockerResume">小工具鎖定:恢復</string>
+    <string name="hrTpiWidgetLockerActivate">小工具鎖定:上鎖</string>
+    <string name="hrTpiWidgetLockerUnlock">小工具鎖定:解鎖</string>
+    <string name="hrTpiBeautifulWidgetsRefresh">Beautiful Widgets:重新整理</string>
+    <string name="hrTpiAndroidStartHome">Android:開始主頁面</string>
+    <string name="hrTpiHoursBankStartStop">Hours Bank: 開始/停止</string>
+    <string name="hrTpiDrivingModeWidgetOn">駕駛模式小工具:開</string>
+    <string name="hrTpiDrivingModeWidgetOff">駕駛模式小工具:關</string>
+    <string name="hrIntentEditSendMode">Intent發送模式</string>
+    <string name="hrAdvancedDotDotDot">進階...</string>
+    <string name="hrEventAdvancedDescription2">是否要重複或延遲事件,需要確認與觸發過濾。</string>
+    <string name="hrRepeatEvent">重複事件</string>
+    <string name="hrRepeatEventDescription">如果條件允許是否要讓此事件的動作持續執行</string>
+    <string name="hrRepeatEventMinutes">重複間隔</string>
+    <string name="hrRepeatEventMinutesDescription">重複此事件動作的時間間隔(分鐘)</string>
+    <string name="hrDelayEvent">延遲事件</string>
+    <string name="hrDelayEventDescription">要讓這個事件動作立即執行還是延遲幾分鐘在執行</string>
+    <string name="hrDelayEventMinutes">延遲時間(分)</string>
+    <string name="hrDelayEventMinutesDescription">要讓這個動作延遲的時間間隔(分鐘)</string>
+    <string name="hrDelayEventSeconds">延遲時間(秒)</string>
+    <string name="hrDelayEventSecondsDescription">要讓這個動作延遲的時間間隔(秒)</string>
+    <string name="hrCancelDelayedEvent">如果不符則取消延遲</string>
+    <string name="hrCancelDelayedEventDescription">檢查時如果條件不符，延遲的事件動作將不會執行。</string>
+    <string name="hrEventRequireConfirmation">需要確認</string>
+    <string name="hrEventRequireConfirmationDescription">這個事件動作要經過您的確認後才會執行</string>
+    <string name="hrMoreInfoDotDotDot">更多資訊...</string>
+    <string name="hrEventAdvancedDetailedDescription">"如果有多個進階選項被選中:
+
+-在延遲動作完成前確認視窗將不會顯示。
+
+-在延遲與確認動作完成前，重複動作將不會重複執行。"</string>
+    <string name="hrRepeatTriggerName">重複的事件</string>
+    <string name="hrAfterDelayTriggerName">延遲的事件</string>
+    <string name="hrConfirmationTriggerName">已被使用者確認</string>
+    <string name="hrEventNameTriggerName">事件名稱</string>
+    <string name="hrEventNameTriggerShortcutName">事件名稱捷徑</string>
+    <string name="hrEventNameTriggerShortcutCustom">自訂捷徑</string>
+    <string name="hrEventNameTriggerEventEditor">事件編輯測試</string>
+    <string name="hrEventNameTriggerEventList">事件列表測試</string>
+    <string name="hrEventNameTriggerSetLlamaVariableIntent">Llama變數的外部設定</string>
+    <string name="hrEventNameExternalSetLlamaVariable">Llama變數的外部設定</string>
+    <string name="hrTheEventNamed1NoLongerExists">名稱為%1s的事件不存在</string>
+    <string name="hrWifiAccessPointMayNotBeSupported">您的手機可能不支援WiFi基地台</string>
+    <string name="hrEvent1RequiresConfirmation">這個名為%1$s的事件需要確認來執行這些動作:</string>
+    <string name="hrEventRequiresConfirmationFooter">您可以現在執行這些動作，之後在儲存，也可以清除通知。</string>
+    <string name="hrEventRequireConfirmationDialog">確認對話框</string>
+    <string name="hrEventRequireConfirmationDialogDescription">是否要中斷目前的活動來顯示一個對話框，或者只是在通知列放置一個圖示。</string>
+    <string name="hrEventConfirmationRunNow">立即執行</string>
+    <string name="hrEventConfirmationSaveForLater">之後</string>
+    <string name="hrEventConfirmationDontRun">清除</string>
+    <string name="hrRepeatingAt1">(於%1s重複執行)</string>
+    <string name="hrDelayedUntil1">(延遲執行直到%1s)</string>
+    <string name="hrAwaitingConfirmation">(等待確認)</string>
+    <string name="hrWifiHotSpotOnOffDescription">開啟/關閉WiFi熱點模式</string>
+    <string name="hrWifiHotSpotOnOff">開啟/關閉WiFi熱點</string>
+    <string name="hrWifiHotSpotOffDescription">關閉WiFi熱點</string>
+    <string name="hrWifiHotSpotOff">關閉WiFi熱點</string>
+    <string name="hrWifiHotSpotOnDescription">開啟WiFi熱點</string>
+    <string name="hrWifiHotSpotOn">開啟WiFi熱點</string>
+    <string name="hrActionWifiHotSpot">WiFi熱點</string>
+    <string name="hrActionWifiHotSpotDescription">這個動作會手動開關WiFi熱點。僅支援Android 2.2+</string>
+    <string name="hrScreenBrightnessWarning">有些手機對螢幕亮度的調節需要開關螢幕才能使設定觸發。</string>
+    <string name="hrScreenBrightnessLowWarning">警告:有些手機會將螢幕亮度調得太低導致螢幕看不清楚。您可以重新開機試試看。</string>
+    <string name="hrSpeakerphoneOnOffDescription">開啟/關閉擴音模式</string>
+    <string name="hrSpeakerphoneOnOff">開啟/關閉擴音模式</string>
+    <string name="hrSpeakerphoneOffDescription">關閉擴音模式</string>
+    <string name="hrSpeakerphoneOff">關閉擴音模式</string>
+    <string name="hrSpeakerphoneOnDescription">開啟擴音模式</string>
+    <string name="hrSpeakerphoneOn">開啟擴音模式</string>
+    <string name="hrActionSpeakerphone">擴音模式</string>
+    <string name="hrActionSpeakerphoneDescription">這個動作會切換擴音模式。這只有對通話功能有影響，不會影響其他聲音類型(例如音樂)。</string>
+    <string name="hrDeviceAdminDescription">針對一些Llama的動作提供支援</string>
+    <string name="hrDeviceAdminNotSupported">設備管理員只有支援Android 2.2+</string>
+    <string name="hrDeviceAdminError">Llama沒有被授予設備管理員權限，請在Android位置與安全性設定中設置。</string>
+    <string name="hrScreenOffError">無法關閉螢幕</string>
+    <string name="hrActionChangePassword">螢幕鎖密碼</string>
+    <string name="hrActionChangePasswordDescription">這將會改變您的螢幕鎖密碼。您可以用它來暫時清除螢幕鎖密碼。密碼會被加密儲存在SD卡中，如果有資料錯誤產生，您可以手動匯出您的資料。密碼會使用Llama設定中的安全密碼編譯加密。</string>
+    <string name="hrChangePasswordError">無法改變螢幕鎖密碼</string>
+    <string name="hrThereWasAnErrorSavingYourPassword">儲存您的螢幕鎖密碼時發生錯誤，您需要改變Llama的安全密碼後再重新嘗試。</string>
+    <string name="hrFailedToDecryptYourPassword">無法解開您的螢幕鎖密碼，所以它沒有被改變。</string>
+    <string name="hrSecuritySettings">安全性設定</string>
+    <string name="hrLlamaSecurityPassword">Llama安全密碼</string>
+    <string name="hrLlamaSecurityPasswordDescription">這是用來加密事件中定義的敏感訊息。例如:螢幕鎖密碼</string>
+    <string name="hrLlamaSecurityPasswordDescriptionEx">"這是用來加密事件中定義的敏感訊息。(例如:螢幕鎖密碼)這確保定義的敏感訊息不會在匯出的時候以純文字的方式寫到SD卡中。
+
+如果密碼改變，您需要重新定義含螢幕鎖密碼的動作。
+
+除了更換手機或重新安裝Llama，不然這個密碼將不會再被用上。"</string>
+    <string name="hrSetLlamaSecurityPasswordNow">您必須設定一個Llama安全密碼，這將被用來保護您事件中的敏感訊息。您要現在設定嗎?</string>
+    <string name="hrPleaseEnterALlamaSecurityPassword">請輸入新的Llama安全密碼，或者按下取消。</string>
+    <string name="hrChangeScreenLockPassword">改變螢幕鎖密碼</string>
+    <string name="hrQueueEventActionValidation">您佇列的事件最少得包含一個條件或者排序在一分鐘之後。</string>
+    <string name="hrActionQueueEvent">佇列其他事件</string>
+    <string name="hrActionQueueEventDescription">這可以讓你建立一個一次性事件。您可以用它在特定時間來執行特別設定的動作。當事件被觸發後它就會被刪除。</string>
+    <string name="hrQueueEventMinutes">佇列延遲</string>
+    <string name="hrQueueEventSeconds">佇列延遲(秒)</string>
+    <string name="hrQueueEventMinutesDescription">這個事件要等待多少時間(分鐘)後才執行</string>
+    <string name="hrQueueEventSecondsDescription">這個事件要等待多少時間(秒)後才執行</string>
+    <string name="hrQueueAnEventNamed1After2Minutes">佇列事件名稱%1$s於%2$s分後</string>
+    <string name="hrQueueAnEventNamed1After2Seconds">佇列事件名稱%1$s於%2$s秒後</string>
+    <string name="hrQueueAnEventNamed1After2Minutes3Seconds">佇列事件名稱%1$s於%2$s分%3$s秒後</string>
+    <string name="hrQueueAnEventNamed1">佇列事件名稱%1$s</string>
+    <string name="hrWaitFor1Minutes">等待%1$s分</string>
+    <string name="hrWaitFor1Seconds">等待%1$s秒</string>
+    <string name="hrWaitFor1Minutes2Seconds">等待%1$s分%2$s秒</string>
+    <string name="hrConditionAbbr">C</string>
+    <string name="hrActionAbbr">A</string>
+    <string name="hrYouHaveFiltersActive">有些事件被過濾條件過濾掉了</string>
+    <string name="hrEnterAScreenLockPassword">輸入螢幕鎖密碼:</string>
+    <string name="hrConfirmScreenLockPassword">確定螢幕鎖密碼:</string>
+    <string name="hrPasswordsDontMatch">密碼不符，請重試。</string>
+    <string name="hrPasswordHidden">密碼隱藏</string>
+    <string name="hrPasswordErrorPleaseReenterItAgain">密碼錯誤，請重試。</string>
+    <string name="hrEventActionAndConditionSettings">事件動作與條件設定</string>
+    <string name="hrDefaultReminderTone">提醒通知鈴聲</string>
+    <string name="hrDefaultReminderToneDescription">通知鈴聲會於提醒動作執行時播放</string>
+    <string name="hrWaitForConditions">等待條件觸發</string>
+    <string name="hrLongerProfileLock">長期情境鎖定</string>
+    <string name="hrLongerProfileLockDescription">是否鎖定情境長達8小時或24小時</string>
+    <string name="hrCellPolling">基地台輪詢設定</string>
+    <string name="hrCellPollingDescription">通常Llama僅被動地掃描連結的基地台。這個設定會調整Llama基地台輪詢的方式。</string>
+    <string name="hrCellPollingWithWakeLock">輪詢時喚醒</string>
+    <string name="hrCellPollingWithWakeLockDescription">當檢視基地台是否變動時，是否要強制喚醒手機。(有些手機必須要喚醒才能作用)</string>
+    <string name="hrCellPollingWithScreenWakeLock">輪詢時開啟螢幕</string>
+    <string name="hrCellPollingWithScreenWakeLockDescription">是否要開啟您的螢幕。警告:太頻繁地開關螢幕會容易損壞，要執行請注意這個風險。</string>
+    <string name="hrCellPollingActiveInterval">基地台輪詢執行時間</string>
+    <string name="hrCellPollingActiveIntervalMillis">要讓基地台輪詢執行多少毫秒，請不要設定超過5秒，那會非常耗電。</string>
+    <string name="hrConfirmationTriggeredBy1Condition">確認由%1s條件觸發</string>
+    <string name="hrDelayTriggeredBy1Condition">延遲自%1s條件</string>
+    <string name="hrEventDelayCancelled">因為條件不符，所以延遲取消</string>
+    <string name="hrEventRepeatingCancelled">因為條件不符，所以重複執行取消</string>
+    <string name="hrSetLlamaVariable1To2">"設定Llama變數'%1$s'到'%2$s'"</string>
+    <string name="hrPleaseEnterAVariableName">請輸入Llama變數名稱</string>
+    <string name="hrPleaseEnterAVariableValue">請輸入Llama變數數值</string>
+    <string name="hrVariableName">變數名稱</string>
+    <string name="hrVariableValue">變數數值(可空白)</string>
+    <string name="hrActionSetLlamaVariable">Llama變數</string>
+    <string name="hrActionSetLlamaVariableDescription">Llama可以儲存一些文字於事件執行時使用，讓你建立更複雜的事件設定。您儲存的文字是個變數，您可以建立多個變數。</string>
+    <string name="hrDonateRequiresMarket">呼叫Google Play出現問題，捐贈只能在Google Play執行。</string>
+    <string name="hrWhen1HasAValueOf2">"當'%1$s'包含數值'%2$s'"</string>
+    <string name="hrWhen1DoesNotHaveAValueOf2">"當'%1$s'不包含數值'%2$s'"</string>
+    <string name="hrWhen1HasAValueGreaterThan2">"當'%1$s'的數值大於'%2$s'"</string>
+    <string name="hrWhen1HasAValueGreaterThanOrEqualTo2">"當'%1$s'的數值大於等於'%2$s'"</string>
+    <string name="hrWhen1HasAValueLessThan2">"當'%1$s'的數值小於'%2$s'"</string>
+    <string name="hrWhen1HasAValueLessThanOrEqualTo2">"當'%1$s'的數值小於等於'%2$s'"</string>
+    <string name="hrConditionLlamaVariable">Llama變數</string>
+    <string name="hrConditionLlamaVariableDescription">這是用來跟Llama變數動作相結合。您可以使用Llama變數的預設值來建立事件。</string>
+    <string name="hrVariables">Llama變數</string>
+    <string name="hrAreYouSureYouWantToClearVariables">"你確定要清除您的變數名稱與數值嗎?
+
+這會重設您使用的變數，不會觸發其他事件。"</string>
+    <string name="hrNoVariablesSet">沒有設定變數。建立一個包含Llama變數的事件動作來使用變數。您在第一次使用時要設定變數的數值。</string>
+    <string name="hrConfirmationDeniedTriggerName">確認駁回</string>
+    <string name="hrForceNoisyContactRingtone">強制特定聯絡人鈴聲</string>
+    <string name="hrForceNoisyContactRingtoneDescription">有些手機在靜音時不會播放鈴聲，為了確保鈴聲會被播放，如果您聽到兩個鈴聲再把選項取消</string>
+    <string name="hrRepeatingEventWithNoConditionsWarning">"這個重複事件沒有設定條件，所以不可能被觸發。
+
+您現在要添加條件嗎?"</string>
+    <string name="hrNotificationIconDots">點的數量</string>
+    <string name="hrColour">顏色</string>
+    <string name="hrTheNumberOfDotsToShowOnTheIcon">圖示要顯示幾個點</string>
+    <string name="hr1Dots">%1s個點</string>
+    <string name="hr1Dot">%1s個點</string>
+    <string name="hrWith">與</string>
+    <string name="hrDontChangeDots">不要改變點的數量</string>
+    <string name="hrPleaseChooseASoundToPlay">請選擇一個聲音播放</string>
+    <string name="hrNotificationIconMustChangeTheIconOrNumberOfDots">通知列圖示上的點會改變</string>
+    <string name="hrActionSoundPlayer">播放聲音</string>
+    <string name="hrActionSoundPlayerDescription">這將會播放鈴聲或通知音。您可選擇播放哪種音效的聲音。每一種音效都可以透過Llama的情境來設定音量。</string>
+    <string name="hrRingtonePickerType">鈴聲選擇器類型</string>
+    <string name="hrPlaySound1">"播放聲音'%1s'"</string>
+    <string name="hrEventColonSoundDescription">"%1$s:播放'%2$s'"</string>
+    <string name="hrChooseARingToneToPlay">選擇一個鈴聲</string>
+    <string name="hrNoneSelected">未選擇</string>
+    <string name="hrCurrentRingtoneColon1">當前鈴聲：%1s</string>
+    <string name="hrErrrMusicDescription">Android的預設鈴聲選取器無法挑選音樂當作鈴聲。但是您可以透過其他鈴聲選取器來挑選音樂(例如.Rings Extended)</string>
+    <string name="hrNoisyLlamaTapToStop">嘈雜的Llama - 點選停止</string>
+    <string name="hrProblemStartingAndroidMarket">開啟Google Play時出包了:(</string>
+    <string name="hrUseTheNotificationToStopPlaying">用通知項目來停止聲音。您可以在Llama設定中開啟/關閉</string>
+    <string name="hrBulkOperations">批次作業</string>
+    <string name="hrBulkOperationsDescription">快速的進階設定方式</string>
+    <string name="hrBulkDeleteCellsFromAreas">在區域中刪除基地台。當你改變行動網路業者的時候需要使用。</string>
+    <string name="hrBulkDeleteMapPointsFromAreas">從區域中刪除地圖點</string>
+    <string name="hrBulkDeleteWifiMacFromAreas">從區域中刪除MAC位址</string>
+    <string name="hrBulkDeleteWifiNameFromAreas">從區域中刪除WiFi網路名稱</string>
+    <string name="hrBulkDeleteBluetoothFromAreas">從區域中刪除藍芽裝置</string>
+    <string name="hrBulkDeleteBeaconWarning">您確定要這樣做嗎?確認您已經先備份以免到時候後悔。請退出Llama後重新執行。</string>
+    <string name="hrActionTwoGThreeG">2G/3G (刷機才能使用)</string>
+    <string name="hrActionTwoGThreeGDescription">"**這只有在手機已經刷機或破解後才能使用**You need to have Cyanogenmod 7+ installed on your phone for this to have any effect. This is a limitation of Android. Android does NOT normally let third-party apps control the network type.
+
+Tedious warning aside, this lets you set the network type that your phone will connect to. Do some Googlin' to find your network type, but it's probably these:
+
+Europe - GSM/WCDMA
+USA - either GSM/WCDMA or CDMA"</string>
+    <string name="hrChangeNetworkTo1">切換網路為%1s</string>
+    <string name="hrGpsEnableWarning">這也許無法運作!GPS只能在Android 2.2或以下的版本被變動，或者是刷機的手機。</string>
+    <string name="hrActionKillAppWarning">這也許無法運作!Android 2.2或以上的版本限制了殺死其他程序的效果，如果您有刷機或破解的手機，才能夠嘗試。</string>
+    <string name="hrMilliAbbreviation">ms</string>
+    <string name="hrDelayFor1">延遲%1s</string>
+    <string name="hrRepeatedEventEditWarning">您編輯了一個重複事件。您要不要確認看看條件是否有效能夠開始重複執行?</string>
+    <string name="hrQueuedEventDefaultName">序列的事件</string>
+    <string name="hrQueuedEventChangeDefaultNameTip">所有事件的名稱都必須是唯一的。您可能名稱有重複導致序列的事件無法被建立，請重新命名。</string>
+    <string name="hrCalendarEventDialogExtraEventSettings">您可以依據事件的類型與可用性來過濾事件。如果您離開行事曆且事件名稱欄位空白，設定的條件將只會對符合整天或可用的事件有效。</string>
+    <string name="hrCalendarDebugTitle1">事件在%1s分鐘後</string>
+    <string name="hrCalendarEventMustBe">必須是</string>
+    <string name="hrAllDay">整天</string>
+    <string name="hrNotAllDay">非整天</string>
+    <string name="hrShownAsAvailable">顯示為可用</string>
+    <string name="hrNotShownAsAvailable">不顯示為可用</string>
+    <string name="hrYourDeviceDoesNotSupportDeviceAdmin">您的裝置不支援Android設備管理員功能。</string>
+    <string name="hrAlsoThanksTo">也非常感謝:</string>
+    <string name="hrConditionAudioBecomingNoisy">聲音變吵雜</string>
+    <string name="hrConditionAudioBecomingNoisyDescription">這將會在有線耳機或藍芽耳機斷開時觸發。有些手機反應會比其他條件設置來得快。</string>
+    <string name="hrWhenAudioBecomesNoisy">當聲音變吵雜</string>
+    <string name="hrConditionDeskDock">手機座</string>
+    <string name="hrConditionDeskDockDescription">"這個條件可以讓您手機在手機座架時觸發。
+
+請注意您的手機必須要支援Android手機座架模式，有些廠商自己定義的手機座架不是Android標準的，這個功能就會失效。"</string>
+    <string name="hrInDeskDock">在手機座架上</string>
+    <string name="hrNotInDeskDock">不在手機座架上</string>
+    <string name="hrWhenInDeskDock">當在手機座架時</string>
+    <string name="hrWhenNotInDeskDock">當不在手機座架時</string>
+    <string name="hrActionSpeak">說話</string>
+    <string name="hrActionSpeakDescription">"讓您的Llama(草泥馬)使用機器人腔調跟你說話。(例如.'Lock is set to ##LockEnabled##')"</string>
+    <string name="hrSay1">"說'%1s'"</string>
+    <string name="hrActionLocalePlugin">地區擴充元件</string>
+    <string name="hrActionLocalePluginDescription">**實驗性設定**這可以讓您執行第三方的區域性擴充套件。您可以在Google Play上找到，有些是需要付費的。但是Llama無法保證可以完全相容使用。</string>
+    <string name="hrLocalePluginConfigMessage">有些擴充套件需要按下選單到最後面儲存。</string>
+    <string name="hrRunLocalePlugin1Quotes2">"執行區域性擴充套件'%1$s: %2$s'"</string>
+    <string name="hrChooseALocalePluginToRun">選擇一個區域性擴充套件執行</string>
+    <string name="hrGettingLocaleActionPlugins">取得區域性擴充套件...</string>
+    <string name="hrInAppDonateBlurb">非常感謝您的贊助!您如果喜歡也可以多贊助幾次。當你點選項目時，將會被引導到Google Play中去進行贊助流程。謝謝。</string>
+    <string name="hrInAppThanksForDonating">您已經贊助成功!恭喜!</string>
+    <string name="hrYouCanHideTheDonateMenu">您可以在Llama設定中隱藏贊助選單 :)</string>
+    <string name="hrHideDonateMenuItem">隱藏贊助選單</string>
+    <string name="hrHideDonateMenuItemDescription">感謝您的贊助。您可以在Llama設定中隱藏贊助選單，您如果喜歡也可以多贊助幾次。</string>
+    <string name="hrRecheckDonation">檢查贊助狀態</string>
+    <string name="hrWhen1ShowsANotification">當%1s顯示一個通知</string>
+    <string name="hrChooseAnApp">選擇一個程式</string>
+    <string name="hrAppStatus">狀態:</string>
+    <string name="hrConditionActiveApp">啟用程式</string>
+    <string name="hrConditionActiveAppDescription">這個條件會在程式於前景執行或背景執行切換時觸發。Llama可以在設定中設置檢查的時間間隔(ms)。</string>
+    <string name="hrActiveAppWatcherMillis">啟用程式輪詢(ms)</string>
+    <string name="hrActiveAppWatcherMillisDescription">"如果您使用'啟用程式條件',Llama每隔幾百毫秒(ms)會檢查一次。檢查越頻繁反應會越快。但是會影響手機的效能。我建議可以設在200ms~1s之間。"</string>
+    <string name="hrMIUIVolumeChangeWarning">"最新版的MIUI有權限管理，可以防止Llama改變通話音量。您需要執行下列步驟確保它能運作:
+
+-Go to the super-user app
+-Find Llama's app details
+-Set 'Monitor Calls' to allow
+
+This permission is misleadingly named and should not affect volume, but it does. Grrr. Llama DOES NOT do any weird stuff like record your phone calls."</string>
+    <string name="hrNeverShowAgain">不再顯示</string>
+    <string name="hrThinkingDotDotDot">思考...</string>
+    <string name="hrConditionGroupOr">OR(符合任一項)</string>
+    <string name="hrConditionGroupOrDescription">這個條件讓您建立一個群組包含其他條件式。如果這些條件中有一個符合，那這個條件就會是符合狀態。</string>
+    <string name="hrConditionGroupAnd">AND(符合全部項目)</string>
+    <string name="hrConditionGroupAndDescription">這個條件讓您建立一個群組包含其他條件式。如果這些條件中每一個都符合，那這個條件就會是符合狀態。</string>
+    <string name="hrAllowRetrigger">允許重新觸發</string>
+    <string name="hrAllowRetriggerDescription">當條件已相符，又被另一個相符的條件觸發時，是否要再執行這個事件動作一次。</string>
+    <string name="hrIcsNotificationUseRingVolumeWarning">Android 4.0以上版本已不允許通知音量與鈴聲音量設定不同。</string>
+    <string name="hrRingerChangeNoVolumeWarning">當你設為響鈴或響鈴+振動時需要選擇一個音量等級給鈴聲與通知音量使用。請修改您的情境。</string>
+    <string name="hrIcsApn">Android 4.0以上版本已不允許第三方程式改變APN設定</string>
+    <string name="hrWhatShouldLlamaSay">Llama(草泥馬)應該說:</string>
+    <string name="hrConditionCallState">通話狀態</string>
+    <string name="hrConditionCallStateDescription">這個條件可讓您根據通話狀態來建立一個事件，可以是在通話中或非通話中觸發條件。</string>
+    <string name="hrAudioStreamSpeakInfo">"有些音效(如.鈴聲與通知)會同時在喇叭跟耳機播放。音樂/媒體在接上耳機時只會在耳機播放。
+
+如果您播放鈴聲/通知音效時會導致音樂停止播放，請在設定中啟用'Speak action cleanup hack'。"</string>
+    <string name="hrEnterSomeTextToSpeak">輸入一些東西給草泥馬說</string>
+    <string name="hrBilling_cannot_connect_message">您的手機或Market/Google Play版本不支援付費功能。</string>
+    <string name="hrBilling_billing_not_available">付費功能無法使用，請等一下再試。</string>
+    <string name="hrBilling_learn_more">學習更多</string>
+    <string name="hrAdvancedRotationWarning">這只有在刷了支援自訂旋轉角度的系統(ROM)才能運作。</string>
+    <string name="hrWhenTheCurrentAppIs1">當目前程式是%1s</string>
+    <string name="hrWhenTheCurrentAppIsNot1">當目前程式不是%1s</string>
+    <string name="hrAndThen">然後</string>
+    <string name="hrEvery1minutes">每%1s</string>
+    <string name="hrIcsHiddenNotificationIcon">您已經設定了Llama顯示執行中通知，但是隱藏圖示。Android並不允許應用程式這樣做。</string>
+    <string name="hrChangeIconIfVolumeChanges">當音量變動時改變圖示</string>
+    <string name="hrChangeIconIfVolumeChangesDescription">是否在音量變動時，改變通知圖示為警告圖示</string>
+    <string name="hrUnknownProfile">未知的情境</string>
+    <string name="hrFailedToWriteToLocationLog">寫入位置紀錄失敗</string>
+    <string name="hrLlamaTrailSettings">Llama軌跡設定(開發中!)</string>
+    <string name="hrLlamaTrail">儲存Llama軌跡</string>
+    <string name="hrLlamaTrailDescription">是否要儲存您所看到的所有基地台，您可以根據您的移動狀態來判斷。</string>
+    <string name="hrLlamaTrailToSdCard">寫入SD卡</string>
+    <string name="hrLlamaTrailToSdCardDescription">是否要儲存Llama軌跡檔案到您的SD卡或手機中。</string>
+    <string name="hrConditionScreenRotation">螢幕旋轉(目前程式)</string>
+    <string name="hrConditionScreenRotationDescription">這個條件會在螢幕旋轉時觸發。</string>
+    <string name="hrWhenScreenIsRotated1">當螢幕旋轉%1s</string>
+    <string name="hrEditArea">編輯區域</string>
+    <string name="hrRingtonePickerFailedToOpen">鈴聲選取器無法正常開啟。也許是您的手機沒有支援這種類型的鈴聲選取器。</string>
+    <string name="hrRingtonePickerPickedSilent">你從鈴聲選取器中選取了靜音。靜音是無法被播放的，請選擇其他音效。</string>
+    <string name="hrApps2SdWarning">Llama已經被安裝到SD卡了。這應該是您的內建空間不足所導致。安裝在SD卡時，Llama會在SD卡被卸載或與電腦連接時被停用。如果空間允許，您應該安裝到內建的空間。</string>
+    <string name="hrViewLlamaAppInfo">程式資訊</string>
+    <string name="hrWhenTheNextAlarmIsDue1">當下個鬧鐘時間到(%1s)</string>
+    <string name="hrConditionNextAlarm">鬧鐘時間</string>
+    <string name="hrConditionNextAlarmDescription">這個條件將在下個鬧鐘時間到時觸發。這只有在固定的Android程式(有支援NEXT_ALARM_FORMATTED設定)才能運作</string>
+    <string name="hrWhenTheresNoAlarmSet">當沒有鬧鐘設定</string>
+    <string name="hrTheNextAlarmIs1AndHeresHowYouUseIt">"接下來的鬧鐘設定為:
+
+%1s
+
+當鬧鐘啟動時您可以選擇這個條件觸發，也可以選擇如果沒有鬧鐘設定就跳過這個條件。
+
+例如
+當鬧鐘時間到 > 顯示提醒
+
+-or-
+
+從21:00到21:05，這裡沒有鬧鐘設定 > 振動。"</string>
+    <string name="hrTriggerWhenAlarmIsDue">當鬧鐘時間到時觸發</string>
+    <string name="hrTrueWhenNoAlarm">當沒有鬧鐘時為真</string>
+    <string name="hrEventGroupOptional">事件群組(選擇性)</string>
+    <string name="hrNoGroupString">未分組</string>
+    <string name="hrEventsNowGroupedEditEventNamesToGroup">事件列表已分組。編輯事件來建立群組</string>
+    <string name="hrEventsNotGrouped">事件列表已取消分組</string>
+    <string name="hrFilterViewSearch">過濾，列表形式與搜尋</string>
+    <string name="hrWhenUserIsPresent">當用戶存在</string>
+    <string name="hrConditionUserPresent">用戶存在</string>
+    <string name="hrConditionUserPresentDescription">這將在螢幕鎖解開時觸發。如果螢幕沒鎖，將會立即觸發。</string>
+    <string name="hrWhenCallStateIs1">當通話狀態是%1s</string>
+    <string name="hrCallStateInCall">通話中</string>
+    <string name="hrCallStateNotInCall">不在通話</string>
+    <string name="hrCallStateRinging">響鈴</string>
+    <string name="hrPleaseChooseOneOrTwoCallStates">請選取一個或兩個通話狀態。</string>
+    <string name="hrDontCheckVolumeInCall">忽略通話音量變動</string>
+    <string name="hrDontCheckVolumeInCallDescription">有些手機在通話時無法取回正確的音量等級，這會導致Llama在音量的判斷上出錯。如果Llama會在通話時鎖定情境錯誤或改變到未知的情境，請把忽略通話音量變動選項打勾。</string>
+    <string name="hrTheAction1CannotBeRunFromACustomShortcut">"動作'%1s'無法執行自自訂捷徑。基於安全考量請幫它建立一個事件與捷徑名稱。"</string>
+    <string name="hrLlamaTonePicker">LlamaTone選取器</string>
+    <string name="hrLlamaTones">LlamaTones</string>
+    <string name="hrLlamaTonesDescription">LlamaTone可以在改變情境模式時改變其他程序的通知音效。</string>
+    <string name="hrLlamaTonesDetailedDescription">"LlamaTone可以讓您依照目前的情境模式改變其他程序使用的鈴聲。
+
+在您其中一個情境中建立一個LlamaTone並且給它命名(例如.Gmail)，然後您可以指定一個通知音給它使用。
+
+再編輯其他情境的LlamaTone，分別設定不同的鈴聲給Gmail使用。
+
+最後告訴Gmail使用哪個LlamaTone。設定Gmail的通知鈴聲，您可以看到 'LlamaTone'選取器，可以用它來選取LlamaTone。
+
+若是要刪除LlamaTone，您必須要從所有的情境中刪除/取消。"</string>
+    <string name="hrCreateNewLlamaTone">建立新的LlamaTone</string>
+    <string name="hrTapToCreateANewLlamaTone">點擊來命名一個新的LlamaTone</string>
+    <string name="hrPleaseEnterNameForTheLlamaTone">請命名新的LlamaTone:</string>
+    <string name="hrALlamaToneNamed1AlreadyExists">一個名為%1s的LlamaTone已存在。請選擇其他名稱或使用既有的LlamaTone。</string>
+    <string name="hrCurrentlySetTo1">目前設置為%1s</string>
+    <string name="hr3rdPartyActionCrumb">動作</string>
+    <string name="hrYouHaventSetUpAnyLlamaTones">"你還沒有設定任何LlamaTone。請編輯您的情境模式來開始使用。
+
+LlamaTone可以讓您改變第三方應用程式的聲音，使用當前的情境來播放。"</string>
+    <string name="hrDontChange">不要改變LlamaTone</string>
+    <string name="hrCopyLlamaTonesToProfile">選擇另一個情境來使用LlamaTone</string>
+    <string name="hrCopyTo">複製到...</string>
+    <string name="hrCopyToSelected">複製到已選取的</string>
+    <string name="hrExportSuccess">匯出資料成功</string>
+    <string name="hrDataNotExported">資料沒有匯出!</string>
+    <string name="hrWhichTypeOfToneIsLlamaTone">選擇一個鈴聲類型或取消這個LlamaTone</string>
+    <string name="hrLlamaCouldntFindAnyRingtonePickers">Llama無法找到鈴聲選取器。</string>
+    <string name="hrChooseARingtonePicker">選擇一個鈴聲選取器</string>
+    <string name="hrClearCancelLlamaTone">清除/取消LlamaTone</string>
+    <string name="hrCantSelectLlamaToneAsLlamaTone">"您不能選擇一個LlamaTone來給LlamaTone使用。
+
+這樣會有問題。"</string>
+    <string name="hrWhichProfiles">哪個情境?</string>
+    <string name="hrMoanToGoogle">到Google申訴</string>
+    <string name="hrLeaveSettingsAlone">保留音量設定</string>
+    <string name="hrMakeSettingsTheSame">使音量相同</string>
+    <string name="hrWhenWifiHotspotIsEnabled">當WiFi熱點啟用</string>
+    <string name="hrWhenWifiHotspotIsDisabled">當WiFi熱點停用</string>
+    <string name="hrConditionWifiHotspot">WiFi熱點</string>
+    <string name="hrConditionWifiHotspotDescription">是否啟用WiFi熱點。這個事件不會觸發其他事件，它只能過濾其他事件。</string>
+    <string name="hrEnableAll">全部啟用</string>
+    <string name="hrDisableAll">全部停用</string>
+    <string name="hrRenameGroup">重新命名群組</string>
+    <string name="hrPleaseEnterANewGroupName">請輸入一個新的群組名稱:</string>
+    <string name="hrBrightnessCustomEventWarning">無法在自訂事件捷徑中改變亮度降低。建立一個事件與捷徑名稱來取代。這是安全性考量。</string>
+    <string name="hrRootedShutdownCommand">關機指令(root權限)</string>
+    <string name="hrRootedShutdownCommandDescription">這個指令用來關閉您的手機。如果您的手機已經有root權限卻無法關機，請試其他指令。</string>
+    <string name="hrRootedRebootCommand">重開機指令(root權限)</string>
+    <string name="hrRootedRebootCommandDescription">這個指令用來重新啟動您的手機。如果您的手機已經有root權限卻無法重開機，請試其他指令。</string>
+    <string name="hrNearbyWifiDisableForHotSpot">常用的Wifi熱點</string>
+    <string name="hrNearbyWifiDisableForHotSpotDescription">當Wifi熱點啟用時，Llama是否要暫停所有的wifi輪詢。這只有在使用android標準Wifi熱點時才有作用。</string>
+    <string name="hrWhatEventDescriptionsShouldIShow">我該顯示甚麼樣的事件描述給您?</string>
+    <string name="hrIcsRingerNotificationVolumeMessage">android 4.0以上的版本將不再允許您設定不同的鈴聲與通知音量。</string>
+    <string name="hrDeviceAdminWarning">"您必須要以設備管理員權限來啟用Llama來執行指定的Android安全性相關的功能。如果您要移除Llama，您需要把Llama設備管理員權限停掉，這可以在Android的安全性設定中執行。
+
+否則您會移除失敗喔。"</string>
+    <string name="hrInstantConfirmation">即時事件確認</string>
+    <string name="hrInstantConfirmationDescription">勾選時，當在通知列點選後，Llama將會立即執行可確認的事件動作，不會再跳出對話視窗。您可以使用清除來清除通知列訊息。</string>
+    <string name="hrWhenNfcTag1IsDectected">當偵測到NFC標籤%1s</string>
+    <string name="hrPleaseChooseAnNfcTag">請選擇一個NFC標籤</string>
+    <string name="hrConditionNfcTagDetected">偵測到NFC標籤</string>
+    <string name="hrConditionNfcTagDetectedDescription">這個條件會在您的手機偵測到特定的NFC標籤時觸發。您的手機必須要支援NFC並啟用。</string>
+    <string name="hrDoYouWantToUseTheTag1InThisCondition">"您要在這條件中使用標籤'%1s'嗎?"</string>
+    <string name="hrLlamaHasFoundATagPleaseNameIt">Llama偵測到一個標籤!請幫它取個名字。</string>
+    <string name="hrTheFriendlyNameForNfcTag1WasModified">"NFC標籤'%1s'的名稱已修改。"</string>
+    <string name="hrLlamaDoesNotKnowAboutAnyNfcTagsTapOneOnYourPhone">"Llama偵測不到任何NFC標籤。
+
+請放一個標籤在手機上，並且幫它取個名字。"</string>
+    <string name="hrYourPhoneDoesNotSupportNfc">您的手機不支援NFC標籤功能。換一支新手機來實現這個功能吧!</string>
+    <string name="hrChooseAnNfcTagOrTapYourPhoneAgainstANewTag">選擇一個已儲存的NFC標籤</string>
+    <string name="hrYouCanAlsoUseAnotherTagByTappingItOnYourPhone">您也可以使用其他標籤來觸碰手機並新增。</string>
+    <string name="hrNfcIsNotCurrentlyTurnedOnTurnItOnToAddTags">NFC功能目前沒有啟用。請開啟並新增一個標籤。</string>
+    <string name="hrPleaseSeeTheKebabappsWebsiteToDonateToTranslators">請到Kebabapps網站贊助翻譯人員</string>
+    <string name="hrLocalLanguageName">英語</string>
+    <string name="hrPlaySoundNotificationIcon">播放聲音通知</string>
+    <string name="hrPlaySoundNotificationIconDescription">當Llama執行播放聲音動作時會顯示一個通知圖示。如果您把它停用，您將會無法停止播放。</string>
+    <string name="hrConditionRoaming">漫遊</string>
+    <string name="hrConditionRoamingDescription">這個條件會在您的手機切換漫遊狀態時觸發</string>
+    <string name="hrNotRoaming">非漫遊</string>
+    <string name="hrRoaming">漫遊</string>
+    <string name="hrWhenRoaming">當漫遊時</string>
+    <string name="hrWhenNotRoaming">當非漫遊時</string>
+    <string name="hrManageSavedNfcTags">管理NFC標籤</string>
+    <string name="hrManageSavedNfcTagsDescription">點選這裡來管理已命名的NFC標籤</string>
+    <string name="hrDeleteTag">刪除標籤</string>
+    <string name="hrWatchForNfcTags">啟用NFC偵測</string>
+    <string name="hrWatchForNfcTagsDescription">是否要讓Llama偵測NFC標籤。如果您有用其他應用程式偵測，請取消勾選這個功能。這個設定不會變更您的NFC裝置啟用/停用狀態。</string>
+    <string name="hrCancelTagReading">停止偵測NFC標籤</string>
+    <string name="hrFailedToDecodeIntentInEvent1">"在事件'%1s'中解碼Intent失敗"</string>
+    <string name="hrShareEvent">分享事件</string>
+    <string name="hrShareLlamaEvent">分享Llama事件</string>
+    <string name="hrConditionMobileData">行動網路啟用/停用</string>
+    <string name="hrConditionMobileDataDescription">這個條件會在勾選的行動網路啟用時生效。這個功能不一定可以支援所有手機。</string>
+    <string name="hrWhenMobileDataEnabled">當行動網路啟用</string>
+    <string name="hrWhenMobileDataDisabled">當行動網路停用</string>
+    <string name="hrMobileDataEnabled">行動網路已啟用</string>
+    <string name="hrMobileDataDisabled">行動網路已停用</string>
+    <string name="hrConditionMobileDataConnected">行動網路連線</string>
+    <string name="hrConditionMobileDataConnectedDescription">這個條件會在手機連上行動網路時生效(G,E,3G 或 H)。</string>
+    <string name="hrWhenMobileDataConnected">當行動網路已連線</string>
+    <string name="hrWhenMobileDataNotConnected">當行動網路未連線</string>
+    <string name="hrMobileDataConnected">行動網路已連線</string>
+    <string name="hrMobileDataNotConnected">行動網路未連線</string>
+    <string name="hrLlamaToneRateLimitHint">"LlamaTone 頻率限制:
+使用滑軌來限制LlamaTone多長間隔可以播放。這對一些即時通訊程式很有用。"</string>
+    <string name="hrRateLimit1SecondsSilence">%1s秒 靜音</string>
+    <string name="hrNoRateLimiting">無頻率限制</string>
+    <string name="hrNowPickALlameTone">選取一個LlamaTone使用</string>
+    <string name="hrSocialImportWarning">您將要匯入事件到Llama。您必須要檢查一下它會不會有惡意的條件與動作。</string>
+    <string name="hrTheChoiceIsYours">這是您的選擇...</string>
+    <string name="hrImportLlamaEvent">匯入Llama事件</string>
+    <string name="hrAddToLlama">新增到Llama</string>
+    <string name="hrEventImported">已匯入</string>
+    <string name="hrRingtoneChangeError1">"Llama依據情境'%1s'改變鈴聲失敗。請再次選取鈴聲。"</string>
+    <string name="hrLlamaFormatterInfo">"這個畫面可以讓您在Llama中格式化一個NFC標籤。
+
+把要格式化的標籤放在您的手機上來進行格式化，這將會移除標籤上所有的資料。請確定標籤必須是可讀寫的。
+
+格式化之後，您可以在條件中使用標籤，如果Llama沒有新增過這個標籤，您可以新增並命名。"</string>
+    <string name="hrKey">Key</string>
+    <string name="hrValue">Value</string>
+    <string name="hrCouldNotConvertExtra3">"無法為'%1$s'轉換'%2$s'到'%3$s'"</string>
+    <string name="hrIntentEditSetKeyBlankToDelete2">設定Key為空白來移除這一行。用兩個井字號包含變數名稱(例如.##variablename##)</string>
+    <string name="hrAirplaneModeStupidness">Android決定飛航模式算是安全性的設定。Llama只能在您手機有root權限下才能切換飛航模式。</string>
+    <string name="hrResolveContentUris">解析content URIs時播放聲音</string>
+    <string name="hrResolveContentUrisDescription">在Android中選擇鈴聲時通常會回饋一個content:// URI來對應到媒體資料庫的ID。如果你移動Llama到其他手機或系統，這些ID對英可能會不同。啟用這個會讓Llama儲存檔案路徑來替換播放聲音的動作與LlamaTone。</string>
+    <string name="hrAdvancedVariableActions">增加/減少/其他</string>
+    <string name="hrSetLlamaVariableIncrement1">"增加Llama變數'%1$s'"</string>
+    <string name="hrSetLlamaVariableDecrement1">"減少Llama變數'%1$s'"</string>
+    <string name="hrSetLlamaVariableToggle01">"切換Llama變數'%1$s'在0與1之間"</string>
+    <string name="hrAdvancedVariableConditions">大於/小於/其他</string>
+    <string name="hrIcsSystemVolumeMessage">"Android 4.0以上版本沒有支援細項的系統音量設定。
+
+您可能會發現在設定系統音量時，同時也已經設好鈴聲音量。
+
+您可能要取消選取系統音量選項。
+
+按下儲存鍵來讓儲存音量變動或取消的情境設定。"</string>
+    <string name="hrSignalLevelAbove1">訊號強度高於%1sdBm</string>
+    <string name="hrSignalLevelBelow1">訊號強度低於%1sdBm</string>
+    <string name="hrWhenSignalGoesBelow1">當訊號強度低於%1sdBm</string>
+    <string name="hrWhenSignalRisesAbove1">當訊號強度高於%1sdBm</string>
+    <string name="hrCurrentStrengthColon1">目前訊號強度:%1sdBm</string>
+    <string name="hrSignalStrengthDialogHint">"上面的數字是您手機目前的訊號等級。GSM網路的範圍在-113(無訊號)到-51(訊號強)
+
+Llama會在沒訊號時回報數值為-150。"</string>
+    <string name="hrVisitWebsite">開啟網站</string>
+    <string name="hrBrokenWifiToggleUpdateDeviceStats">您的手機/平板軟體有個嚴重的Bug會阻止Llama開啟/關閉WiFi。</string>
+    <string name="hrCouldNotResolveContentUri">無法解析項目到檔案路徑，這將會儲存為一個Content URI.</string>
+    <string name="hrLlamaCouldNotGetRootAccess">Llama無法取得root權限，請檢察您的SU程式</string>
+    <string name="hrAddNewArea">新增新區域</string>
+    <string name="hrAddNewEvent">新增新事件</string>
+    <string name="hrSearchEventsByNameAndDescription">搜尋事件名稱與敘述</string>
+    <string name="hrShowEventsGroupedOrFlat">顯示群組或清單中的事件</string>
+    <string name="hrAddNewProfile">新增一個新情境</string>
+    <string name="hrProfileLock">鎖定情境</string>
+    <string name="hrProfileUnlock">解鎖情境</string>
+    <string name="hrShowHelpMenu">顯示說明選單</string>
+    <string name="permSetLlamaVariable">設定Llama變數</string>
+    <string name="permSetLlamaVariableDescription">允許程式設定Llama變數。這可能會導致事件意外被Llama變數觸發。</string>
+    <string name="hrWhenMccMncIs12">當手機網路代碼是%1$s:%2$s</string>
+    <string name="hrWhenMccMncIsNot12">當手機網路代碼不是%1$s:%2$s</string>
+    <string name="hrConditionMobileNetworkId">行動網路ID</string>
+    <string name="hrAllowedTriggers">過濾觸發</string>
+    <string name="hrAllowedTriggersDescription">當所有條件都滿足時，Llama將會觸發事件。這個選項可以防止動作被必然的條件類型觸發。</string>
+    <string name="hrEventFilteringPleaseAddSomeConditions">請新增一些條件到您的事件。當您不想要這些條件被觸發，你也可以取消選取條件。</string>
+    <string name="hrWhenWiredHeadsetIsConnected">當有線耳機已連接</string>
+    <string name="hrAudioStream">選取的音量(音效)的聲音會播放在:</string>
+</resources>

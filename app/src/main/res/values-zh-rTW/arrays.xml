@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="notificationModeArray">
+        <item>沒有通知</item>
+        <item>執行中的通知與圖示</item>
+        <item>執行中的通知(無圖示)</item>
+        <item>執行中的圖示(無通知)</item>
+        <item>清除通知與圖示</item>
+        <item>顯示快顯</item>
+        <item>Ongoing notification and icon (normal priority)</item>
+    </string-array>
+    <string-array name="batteryLevelOptions">
+        <item>電量低於...</item>
+        <item>電量高於...</item>
+    </string-array>
+    <string-array name="signalLevelOptions">
+        <item>訊號強度低於...</item>
+        <item>訊號強度高於...</item>
+    </string-array>
+    <string-array name="calendarContainsOptions">
+        <item>事件開始/目前事件</item>
+        <item>事件完成/非目前事件</item>
+    </string-array>
+    <string-array name="cellPollingModeArray">
+        <item>不輪詢(事件可能會延遲)</item>
+        <item>只有在學習的時候</item>
+        <item>啟用輪詢(會比較耗電)</item>
+    </string-array>
+    <string-array name="mobileDataMenuModeArray">
+        <item>兩者都不要</item>
+        <item>行動網路</item>
+        <item>APN</item>
+        <item>兩者都要</item>
+    </string-array>
+    <string-array name="notificationColourNames">
+        <item>紅</item>
+        <item>橙</item>
+        <item>黃</item>
+        <item>綠</item>
+        <item>藍</item>
+        <item>紫</item>
+        <item>粉紅</item>
+        <item>青</item>
+        <item>黑</item>
+        <item>白</item>
+        <item>Llama設定:改變圖示顏色</item>
+        <item>不要改變顏色</item>
+    </string-array>
+    <string-array name="screenOnNames">
+        <item>開啟按鍵背光</item>
+        <item>亮(僅螢幕)</item>
+        <item>暗(僅螢幕)</item>
+    </string-array>
+    <string-array name="errorNotificationModeArray">
+        <item>無</item>
+        <item>僅顯示快顯</item>
+        <item>通知與快顯</item>
+    </string-array>
+    <string-array name="colourEventListModeArray">
+        <item>關</item>
+        <item>開</item>
+        <item>開(醒目提示)</item>
+        <item>開(醒目提示2)</item>
+    </string-array>
+    <string-array name="mediaButtonNames">
+        <item>播放/暫停</item>
+        <item>下一首</item>
+        <item>上一首</item>
+        <item>停止</item>
+        <item>快轉</item>
+        <item>倒回</item>
+        <item>播放(Android 3.0+)</item>
+        <item>暫停(Android 3.0+)</item>
+        <item>錄製(Android 3.0+)</item>
+    </string-array>
+    <string-array name="simpleRotationOptions">
+        <item>禁止旋轉</item>
+        <item>自動旋轉</item>
+        <item>進階...</item>
+    </string-array>
+    <string-array name="intentEditorTypes">
+        <item>活動啟動</item>
+        <item>服務啟動</item>
+        <item>廣播</item>
+    </string-array>
+    <string-array name="llamaVariableChangeOptions">
+        <item>目前設定值</item>
+        <item>非目前設定值</item>
+    </string-array>
+    <string-array name="mccMncDropDown">
+        <item>行動網路ID等於...</item>
+        <item>行動網路ID不等於...</item>
+    </string-array>
+    <string-array name="audioStreamNames">
+        <item>鈴聲</item>
+        <item>通知</item>
+        <item>音樂/媒體</item>
+        <item>鬧鐘</item>
+        <item>通話</item>
+        <item>系統</item>
+        <item>[Cancel queued sounds]</item>
+    </string-array>
+    <string-array name="ringtoneTypes">
+        <item>鈴聲</item>
+        <item>通知</item>
+        <item>鬧鐘</item>
+        <item>錯誤...音樂呢?</item>
+    </string-array>
+    <string-array name="twoGThreeGNames">
+        <item>"WCDMA優先
+(2G/3G優先)"</item>
+        <item>"僅GSM
+(2G)"</item>
+        <item>"僅WCDMA
+(3G)"</item>
+        <item>"自動切換GSM
+(2G優先/3G)"</item>
+        <item>"自動切換CDMA
+(2G/3G)"</item>
+        <item>"僅CDMA
+(2G)"</item>
+        <item>"僅EvDo
+(3G)"</item>
+        <item>"自動切換GSM/CDMA
+(2G/3G)"</item>
+    </string-array>
+    <string-array name="calendarAllDayOptions">
+        <item>整天或非整天</item>
+        <item>僅整天事件</item>
+        <item>忽略整天事件</item>
+    </string-array>
+    <string-array name="calendarAvailabilityOptions">
+        <item>顯示有空或忙碌</item>
+        <item>僅顯示有空</item>
+        <item>僅顯示忙碌</item>
+    </string-array>
+    <string-array name="activeAppStatuses">
+        <item>程式已啟動或在前景工作</item>
+        <item>程式已停止或在背景工作</item>
+    </string-array>
+    <string-array name="rebootCommandArray">
+        <item>重開機(reboot)</item>
+        <item>重開機(reboot -p)</item>
+    </string-array>
+    <string-array name="shutdownCommandArray">
+        <item>關機(poweroff)</item>
+        <item>關機(poweroff -f)</item>
+        <item>關機(poweroff -d 8 -f)</item>
+    </string-array>
+    <string-array name="advancedVariableActionNames">
+        <item>增加</item>
+        <item>減少</item>
+        <item>切換0與1</item>
+    </string-array>
+</resources>

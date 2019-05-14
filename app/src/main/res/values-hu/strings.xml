@@ -1,0 +1,1437 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Llama</string>
+    <string name="hrChoosePreset">Előbeállítás kiválasztása</string>
+    <string name="hrTapRhythm">Ritmus kopogása</string>
+    <string name="hrTest">Teszt</string>
+    <string name="hrReset">Alaphelyzet</string>
+    <string name="hrVibrateDialogMessage">Válassz egy előbeállítást VAGY kopogj egy ritmust VAGY írd be kézzel (használd mintának az előbeállításokat)</string>
+    <string name="hrCalendarEventDialogMessage">"Ez a feltétel a naptáradban található események nevein alapszik. Az adott naptári esemény kezdetét vagy végét is választhatod.
+
+Ha az általad megadott szöveg szerepel az esemény nevében, akkor a feltétel teljesül. Pl. ha a dobozba azt írod, hogy 'találkozó', akkor a 'Munkahelyi találkozó' és az 'Unalmas találkozók' is teljesíti a feltételt, és az eseményben megadott műveletek végrehajtódnak."</string>
+    <string name="hrNotificationTitle">Llama</string>
+    <string name="hrIntroText">"Llama vagyok. A saját helyfüggő mobil alkalmazásod. A mobil adótornyok figyelésével találom ki, éppen hol vagy, így nem merítem feleslegesen az aksidat GPS jel keresésével. De először szükségem van egy kis infóra. Mondd meg, hogy hol vagyok! Kattints a 'Területek' fülre a kezdéshez.
+
+ Ha hasznosnak találsz, kérlek támogasd a fejlesztőmet (Menü > Támogatás)
+
+ Kérlek küldj visszajelzést a kebabapps@gmail.com email címre!"</string>
+    <string name="hrCommonTip1">A Llamát be kell tanítanod, hogy felismerje a kedvenc területeidet</string>
+    <string name="hrCommonTip2">Egy terheletlen láma elérheti akár a 45 km/h sebességet is</string>
+    <string name="hrCommonTip3">Llama llama duck!</string>
+    <string name="hrCommonTip4">Nincs köze a Dalai Lámához</string>
+    <string name="hrCommonTip5">Llama jelentése: Location Aware Mobile Application (Helyfüggő Mobil Alkalmazás)</string>
+    <string name="hrCommonTip6">A láma olyan mint a teve, csak sokkal királyabb</string>
+    <string name="hrAreasTip1">Ha a mobil adótornyok nem bizonyulnak elég pontosnak a helyzeted meghatározásához, próbáld ki a Kísérleti beállításokat</string>
+    <string name="hrAreasTip2">Érintsd meg hosszan egy terület nevét a Llama betanításának megkezdéséhez</string>
+    <string name="hrEventsTip1">Az előzmények gombra kattintva megnézheted, milyen események történtek</string>
+    <string name="hrEventsTip2">Az előzmények gombra kattintva megnézheted, hogy mi váltott ki egy eseményt</string>
+    <string name="hrProfilesTip1">Ha találkozóra mész, a lakat gombra kattintva megakadályozhatod, hogy a Llama megváltoztassa a jelenlegi profilt</string>
+    <string name="hrProfilesTip2">A profilokat aktiválhatod és lezárhatod a mellettük lévő lakat ikonra kattintva</string>
+    <string name="hrProfilesTip3">Nézd meg a Beállításokban, hogy a hangerőgombok használata esetén a Llama nem állítja-e vissza a hangerőt.</string>
+    <string name="hrRecentTip1">"Ha a cellák között azt látod, hogy 'Nem tartozik területhez', érintsd meg egy területhez való hozzáadásához"</string>
+    <string name="hrHelpAreas">"Ezen a fülön azt láthatod, hogy milyen területeket tanítottál meg a Llamádnak. Itt alapból két terület van: Otthon és Munkahely. Kezdetben a Llama nem tudja, hogy hol laksz, vagy hol dolgozol. Hogy betaníthass a Llamának egy területet, fizikailag is ott kell lenned.
+
+Kattints hosszan a jelenlegi helyzetednek megfelelő területen, vagy nyomd meg a + gombot egy új terület létrehozásához. Ezután a Llama megkérdezi, hogy mennyi ideig tervezel az adott helyen tartózkodni. Ez idő alatt a Llama megjegyzi, hogy milyen mobil adótornyok és cellák láthatóak a közelben, így ha legközelebb erre jársz, fel fogja ismerni a területet.
+
+A lista azt is mutatja, hogy hány adótorony (vagy cella) tartozik egy-egy területhez. Néhány kísérleti, fejlesztés alatt álló módszert is használhatsz, ha engedélyezed őket a beállításokban."</string>
+    <string name="hrHelpEvents">"Ezen a fülön azt láthatod, hogy milyen események vannak meghatározva. A Llama alapból tartalmaz néhány előre definiált eseményt. Módosíthatod, vagy törölheted ezeket, hozzá is adhatsz újakat.
+
+Egy esemény feltételeket és műveleteket tartalmaz. Ha az összes megadott feltétel teljesül, a Llama végrehajtja a megadott műveleteket.
+
+A legtöbb esemény párban van; kell egy, amivel valamit bekapcsolsz, és egy másik, amivel valamit kikapcsolsz. Tehát általában két eseményt fogsz létrehozni, ellentétes esemény feltételekkel. Pl.
+
+ Területre érkezés -> Profil változtatása
+
+Terület elhagyása -> Profil változtatása
+
+Ha úgy gondolod, hogy olyankor is végrehajtódnak események, amikor nem kellene, megnézheted az Előzmények gombra kattintva, hogy mi is történt, és mi okozta.
+
+Parancsikonokat is létrehozhatsz az eseményekhez a kezdőképernyőre. Ehhez az kezdőképernyőn egy üres területet hosszan nyomva, válaszd a Parancsikonokat, majd 'Llama'."</string>
+    <string name="hrHelpProfiles">"Ezen a fülön láthatod a beállítható profilokat. A Llamában alapértelmezetten van néhány előre definiált profil, ezeket megváltoztathatod, vagy újakat is hozhatsz létre.
+
+A profilok hasonlóak a nem Androidos, vagy nem okostelefonokon használható profilokhoz. Csoportba foglalják a különféle hang- és jelzésbeállításokat, így ezek mindegyike megváltoztatható egyszerre egy egyszerű művelettel. Mindegyik profilhoz meg lehet adni egy értesítési sávbeli ikont, így mindig láthatod, hogy melyik profil az aktív.
+
+Lehetséges átmenetileg letiltani az automatikus profil aktiválásokat, pl. ha fontos találkozóra mész, stb. A megadott időtartam után a Llama visszaállítja a profilt az előzőleg aktívra. A beállítások menüben beállíthatod, hogy a Llama figyelje a hangerő gombokat, hogy ha manuálisan némítod a telefont, akkor a profil lezárás kapcsoljon be."</string>
+    <string name="hrHelpRecent">"Ezen a fülön azt láthatod, hogy a Llama mely mobil adótornyokat látta az utóbbi időszakban. Ha már tanítottál be a Llamának területeket, láthatod azt is, hogy a mobil adótornyok (vagy cellák) mely területhez tartoznak.
+
+Ha még nem volt sok időd a Llamád tanításához, akkor több olyat is láthatsz a listában, hogy 'Nem tartozik területhez'. Ezeket kézzel hozzáadhatod a megfelelő területhez, ha a listában megérinted. A lista mutatja az időpontot, így ha emlékszel, hogy akkor hol voltál, utólag megadhatod, hogy hová tartozzanak a cellák.
+
+Ha egy cella több különböző területhez is hozzá lett adva a betanítás alatt, akkor sajnos nincs elegendő cella a környéken, hogy meg lehessen különböztetni a területeket. Ilyenkor kipróbálhatod a Kísérleti helyzetmeghatározási módszereket."</string>
+    <string name="hrServiceRestarted">A Llama legutóbbi futásakor a kilépés gombot használtad. A Llama háttérszolgáltatása most újraindult. Használd a kilépés gombot, hogy újra letiltsd.</string>
+    <string name="hrTabAreas">Területek</string>
+    <string name="hrTabEvents">Események</string>
+    <string name="hrTabProfiles">Profilok</string>
+    <string name="hrTabRecent">Cellák</string>
+    <string name="hrLlamaLogWarning">FIGYELEM: A LlamaLog-ba való naplózás engedélyezve. Ez a fájl nagyon naggyá válhat! Javaslom, hogy egy idő múlva kapcsold ki.</string>
+    <string name="hrOkeyDokeExclamation">Okés!</string>
+    <string name="hrTurnItOff">Naplózást kapcsold ki!</string>
+    <string name="hrOk">Ok</string>
+    <string name="hrCancel">Mégse</string>
+    <string name="hrViewMap">Térkép</string>
+    <string name="hrCreateReminder">Emlékeztető létrehozása</string>
+    <string name="hrRenameArea">Átnevezés</string>
+    <string name="hrSetPositionOnMap">Helyzet beállítása térképen</string>
+    <string name="hrStartLearningArea">Tanítás megkezdése</string>
+    <string name="hrStopLearningArea">Tanítás leállítása</string>
+    <string name="hrDeleteArea">Törlés</string>
+    <string name="hrYes">Igen</string>
+    <string name="hrNo">Nem</string>
+    <string name="hrEnterAReminderForArea1">"Emlékeztető megadása a '%1s' területhez"</string>
+    <string name="hrEnterANewNameForTheArea">Ird be a terület új nevét</string>
+    <string name="hrNewLocationPrompt">Adj nevet az új területnek</string>
+    <string name="hr1SecondsToGo">%1s másodperc van hátra</string>
+    <string name="hr1MinutesToGo">%1s perc van még hátra</string>
+    <string name="hrLearningDash">"Betanítás - "</string>
+    <string name="hrCurrentDash">"Jelenlegi - "</string>
+    <string name="hrCurrentNoDash">Jelenlegi</string>
+    <string name="hrAnd">és</string>
+    <string name="hrHowLongWillYouBeAt1For">"Mennyi ideig leszel itt: '%1s'?"</string>
+    <string name="hrImNotThere">Most máshol vagyok.</string>
+    <string name="hrSecond">másodperc</string>
+    <string name="hrSeconds">másodperc</string>
+    <string name="hrMinute">perc</string>
+    <string name="hrMinutes">perc</string>
+    <string name="hr0Minutes">0 perc</string>
+    <string name="hr0Seconds">0 másodperc</string>
+    <string name="hrSpaceMinutes">"  perc"</string>
+    <string name="hrSpaceSeconds">"  másodperc"</string>
+    <string name="hrSpaceMilliseconds">"  ezredmásodperc"</string>
+    <string name="hrHour">óra</string>
+    <string name="hrHours">óra</string>
+    <string name="hrMapPoint">térkép pont</string>
+    <string name="hrMapPoints">térkép pont</string>
+    <string name="hrCell">cella</string>
+    <string name="hrCells">cella</string>
+    <string name="hrWifiName">WiFi név</string>
+    <string name="hrWifiNames">WiFi név</string>
+    <string name="hrWifiMac">WiFi MAC</string>
+    <string name="hrWifiMacs">WiFi MAC</string>
+    <string name="hrBluetoothDevice">Bluetooth eszköz</string>
+    <string name="hrBluetoothDevices">Bluetooth eszköz</string>
+    <string name="hrUnknown">ismeretlen</string>
+    <string name="hrNotAddedToAnyAreas">Nem tartozik területhez</string>
+    <string name="hrViewAllMapPoints">Minden térkép pont megnézése</string>
+    <string name="hrAllRecentMapPositions">Minden legutóbbi térkép pont</string>
+    <string name="hrAddToArea">Hozzáadás területhez</string>
+    <string name="hrViewCoordinatesOnMap">Koordináták a térképen</string>
+    <string name="hrEditAreasPositionOnMap">Terület elhelyezkedésének módosítása a térképen</string>
+    <string name="hrRemoveFromArea">Eltávolítás a területről</string>
+    <string name="hrPositionOfARecentLocationEstimate">Egy előző helyzet-becslés pozíciója</string>
+    <string name="hrWhichAreaDoYouWantToRemove1From">Melyik területről szeretnéd eltávolítani ezt: %1s?</string>
+    <string name="hrCouldntFindTheAreaNamed1s">Nem találtam %1s nevű területet.</string>
+    <string name="hrWhichAreaDoYouWantToEdit">Melyik területet szeretnéd módosítani?</string>
+    <string name="hrCreateNewArea">Új terület</string>
+    <string name="hrWhichAreaDoYouWantToAdd1To">Melyik területhez szeretnéd hozzáadni ezt: %1s?</string>
+    <string name="hrEnterANameForTheNewArea">Add meg az új terület nevét</string>
+    <string name="hrWithin1m">%1sm-en belül</string>
+    <string name="hrNewEvent1">Új esemény %1s</string>
+    <string name="hrNewProfile1">Új profil %1s</string>
+    <string name="hrLlamaDashEditingEvent">Llama - esemény módosítása</string>
+    <string name="hrLlamaDashOrConditions">Llama - Bármely feltétel</string>
+    <string name="hrLlamaDashAndConditions">Llama - Minden feltétel</string>
+    <string name="hrLlamaDashNewEvent">Llama - Új esemény</string>
+    <string name="hrLlamaShortcutName">Llama parancsikon név</string>
+    <string name="hrActions">Műveletek</string>
+    <string name="hrCancelRemove">Eltávolítás: mégse</string>
+    <string name="hrNowTapAConditionOrActionToRemoveIt">Most kattints arra, amit ki akarsz törölni</string>
+    <string name="hrSelectConditionToTriggerEvent">Válassz feltételt az eseményhez</string>
+    <string name="hrSelectActionToPerformWhenTriggered">Válassz műveletet az eseményhez</string>
+    <string name="hrCool">Király</string>
+    <string name="hrYourEventIsNotCompleteColon">Az esemény még nincs készen:</string>
+    <string name="hrPleaseFixTheseErrorsOrRemoveTheOffendingConditionsSlashActions">Kérlek javítsd a hibákat, vagy távolítsd el a hiányos feltételeket/műveleteket!</string>
+    <string name="hrIWillIPromise">Ígérem, így teszek.</string>
+    <string name="hrProblems">Problémák</string>
+    <string name="hrLlamaDashEventHistory">Llama - Esemény előzmények</string>
+    <string name="hrEventHistory">Esemény előzmények</string>
+    <string name="hrTriggeredBy1Condition">%1s feltétel által kiváltva</string>
+    <string name="hrTrigger1Prohibitted">Kiváltás %1s feltétel által nem megengedett</string>
+    <string name="hrDisabled">Letiltva</string>
+    <string name="hrEditEvent">Módosítás</string>
+    <string name="hrCopyEvent">Másolás</string>
+    <string name="hrRunEventActions">A műveletek futtatása</string>
+    <string name="hrEnableEvent">Engedélyezés</string>
+    <string name="hrDisableEvent">Letiltás</string>
+    <string name="hrDeleteEvent">Törlés</string>
+    <string name="hrAreYouSureYouWantToDelete1">"Biztosan törölni akarod ezt: '%1s'?"</string>
+    <string name="hrCopy">másolata</string>
+    <string name="hrCreateLlamaShortcut">Llama parancsikon készítése</string>
+    <string name="hrEnterALabelForTheShortcut">Add meg a parancsikon nevét</string>
+    <string name="hrCustomEvent">Egyéni esemény</string>
+    <string name="hrSwitchToProfile1">Váltás a %1s profilra</string>
+    <string name="hrSpecifyACustomSetOfActionsForTheShortcut">Határozd meg a parancsikonhoz tartozó műveleteket</string>
+    <string name="hrProfile">Profil</string>
+    <string name="hrEvent">Esemény</string>
+    <string name="hrCustomEventActions">Egyéni esemény műveletek</string>
+    <string name="hrTheLlamaServiceMustBeRunningForShortcutsToWork">A Llama szolgáltatásnak futnia kell a parancsikonok működéséhez</string>
+    <string name="hrHowCanIHelpYou">Segíthetek valamiben?</string>
+    <string name="hrCurrentTabInfo">Infó a jelenlegi fülről</string>
+    <string name="hrLlamaInstructions">Llama használati utasítások</string>
+    <string name="hrLlamaAndKebabAppsWebsite">Llama és Kebabapps honlap</string>
+    <string name="hrSendEmail">Email a fejlesztőnek</string>
+    <string name="hrAboutTheApp">Névjegy</string>
+    <string name="hrWhatDoesThisTabDo">Mit csinál ez a fül?</string>
+    <string name="hrGroovy">Frankó</string>
+    <string name="hrPerformed1ActionsSince2DaysAgo">%2$s napja %1$s művelet végrehajtva.</string>
+    <string name="hrDonateSmiley">Adakozz :)</string>
+    <string name="hrSettings">Beállítások</string>
+    <string name="hrImportExportData">Adat export/import</string>
+    <string name="hrToggleMobileData">Mobil adatkapcsolat ki/be</string>
+    <string name="hrToggleApn">APN ki/bekapcsolása</string>
+    <string name="hrDonate">Támogatás</string>
+    <string name="hrQuit">Kilépés</string>
+    <string name="hrQuitLlama">Kilépés a Llamából</string>
+    <string name="hrPutLlamaToSleep">A Llama altatása</string>
+    <string name="hrCloseLlamaExplanation">Így a Llama bezárul, és a háttérszolgáltatás le lesz állítva. A szolgáltatás újraindításához csak nyisd meg újra a Llamát az alkalmazás listádból.</string>
+    <string name="hrEnableApn">APN engedélyezése</string>
+    <string name="hrCurrent">jelenlegi</string>
+    <string name="hrDisableApn">APN letiltása</string>
+    <string name="hrEnableMobileData">mobil adatkapcsolat be</string>
+    <string name="hrDisableMobileData">mobil adatkapcsolat ki</string>
+    <string name="hrImportWarning">Biztos vagy benne, hogy importálod a beállításokat? Ez MINDEN jelenlegi területet, profilt és eseményt törölni fog a Llamából!</string>
+    <string name="hrExportWarning">Biztos vagy benne, hogy exportálni akarod a beállításokat az SD kártyára? Ez MINDEN előzőleg exportált területet, profilt és eseményt törölni fog az SD kártyáról!</string>
+    <string name="hrImportFromUrl">Importálás Llama URL címből</string>
+    <string name="hrImportFromSdCard">Importálás SD kártyáról</string>
+    <string name="hrExportToSdCard">Exportálás SD kártyára</string>
+    <string name="hrOkeyDoke">Okés!</string>
+    <string name="hrLockedUntil1">Lezárva %1s-ig</string>
+    <string name="hrProfileLocked">Profil lezárva</string>
+    <string name="hrTheShortcutRefersToAnEventNamed1WhichNoLongerExists">"A parancsikon egy '%1s' nevű eseményre hivatkozik, ami már nem létezik"</string>
+    <string name="hrTheShortcutRefersToAProfileNamed1WhichNoLongerExists">"A parancsikon egy '%1s' nevű profilra hivatkozik, ami már nem létezik"</string>
+    <string name="hrLoadSettingsError">Hiba történt a beállítások betöltése közben. El lettek mentve az SD kártyára.</string>
+    <string name="hrCriticalLoadSettingsError">Nem sikerült a beállítások betöltése, és hiba történt az SD kártyára történő mentésük közben. A Llama most meg fog halni :(</string>
+    <string name="hrQuietAtNight">Halk éjszaka</string>
+    <string name="hrHome">Otthon</string>
+    <string name="hrQuiet">Halk</string>
+    <string name="hrNormalAtHome">Normál otthon</string>
+    <string name="hrNormal">Normál</string>
+    <string name="hrLeftHome">Otthonról el</string>
+    <string name="hrQuietAtWork">Halk a munkahelyen</string>
+    <string name="hrWork">Munkahely</string>
+    <string name="hrNormalOutsideWork">Normál a munkahelyen kívül</string>
+    <string name="hrLeftWork">Munkahelyről el</string>
+    <string name="hrSilent">Néma</string>
+    <string name="hrLoud">Hangos</string>
+    <string name="hrCouldNotFindEventNamed1">"'%1s' nevű eseményt nem találtam"</string>
+    <string name="hrTestVersion">TESZT VERZIÓ</string>
+    <string name="hrLlamaForAndroidVersionContact">"Llama Androidhoz
+%1s
+Vedd fel a kapcsolatot kebabapps@gmail.com"</string>
+    <string name="hrThanksForDonatingExclamation">Köszönöm az adományt!</string>
+    <string name="hrPleaseDonateBeerMoney">Ha hasznosnak találod ezt az appot, kérlek fizess nekem egy sört</string>
+    <string name="hrOkThanks">Ok, köszi</string>
+    <string name="hrDonateViaMarket">Adakozás a Google Play-en keresztül</string>
+    <string name="hrProfilesAreLockedGotoProfilesTabToUnlock">A profilok le vannak zárva. Menj a profilok fülre, és nyomd meg a Menü gombot a feloldáshoz.</string>
+    <string name="hrCouldNotChangeProfileBecauseNoProfileNamed1">Nem tudtam profilt váltani, mert nincs %1s nevű profil</string>
+    <string name="hrError">HIBA</string>
+    <string name="hrInfo">INFÓ</string>
+    <string name="hrExportFailedSadFace">Nem sikerült exportálni :(</string>
+    <string name="hrImportFailedSadFace">"Nem sikerült importálni :( Kérlek ellenőrizd, hogy az adataid a 'Llama' nevű mappában vannak-e az SD kártyán"</string>
+    <string name="hrImportOf1Successful">%1s importálása sikerült. Kérlek indítsd újra az alkalmazást!</string>
+    <string name="hrStorageAreas">területek</string>
+    <string name="hrStorageEvents">események</string>
+    <string name="hrStorageProfiles">profilok</string>
+    <string name="hrStorageIgnoredCell">mellőzött cellák</string>
+    <string name="hrQuickReminderAt1">Gyors emlékeztető: %1s</string>
+    <string name="hrNoApnsDefinedTip">Nincsenek APN-jeid. Eltávolíthatod az APN műveleteket az eseményeidből.</string>
+    <string name="hrWifiNotTurnedOffAsItsConnected">A WiFi nem kapcsolt ki, mert csatlakoztatva van</string>
+    <string name="hrBluetoothNotTurnedOffAsConnectedToAudioDevice">A Bluetooth kapcsolt ki, mert csatlakoztatva van egy audioeszköz</string>
+    <string name="hrBluetoothNotTurnedOffAsItsConnected">A Bluetooth kapcsolt ki, mert csatlakoztatva van</string>
+    <string name="hrCouldnNotTurnOnBluetoothMaybeAirplane">A Bluetooth nem kapcsolható be. Talán a repülőgépes mód be van kapcsolva.</string>
+    <string name="hrBluetoothIsntSupported">A Bluetooth nem támogatott</string>
+    <string name="hrBluetoothApiNotSupported">A Bluetooth API nem támogatott</string>
+    <string name="hrCouldnotStart1">%1s indítása nem sikerült</string>
+    <string name="hrRebootFailWarning">A telefon nem indult újra. A legutóbbi indítás óta eltelt idő: %1s perc. Biztonsági okokból legalább 5 percnek el kell telnie.</string>
+    <string name="hrShutdownFailWarning">A telefont nem kapcsoltam ki, mert a legutóbbi indítás óta csak %1s perc telt el. Biztonsági okokból legalább 5 percnek el kell telnie.</string>
+    <string name="hrRebooting">ÚJRAINDÍTÁS!!!</string>
+    <string name="hrShuttingDown">KIKAPCSOLÁS!!!</string>
+    <string name="hrProfileChangesUnlocked">Profil váltások engedélyezve</string>
+    <string name="hrPositionsFor1">%1s pozíciói</string>
+    <string name="hrSave">Mentés</string>
+    <string name="hrClose">Bezárás</string>
+    <string name="hrLlamaMapNotInstalled">Llama Térkép nincs telepítve</string>
+    <string name="hrGoToMarket">Irány a Play Áruház</string>
+    <string name="hrLlamaMapNeededMessage">"Térképek megjelenítéséhez telepítened kell a Llama Térkép kiegészítőt.
+
+Ez amiatt szükséges, mert a Llama nem rendelkezik internet hozzáférési engedéllyel. Ez pedig kell a térképek Google-tól való letöltéséhez.
+
+A Llamához hasonlóan, a térkép kiegészítő is ingyenes."</string>
+    <string name="hrSelectEmailApplication">Email alkalmazás kiválasztása</string>
+    <string name="hrEnteredUnknownArea">Ismeretlen területre érkezés</string>
+    <string name="hrLeftArea1">%1s elhagyva</string>
+    <string name="hrEnteredArea1">%1s elérve</string>
+    <string name="hrLlamaDashEditingProfile">Llama - Profil szerkesztés</string>
+    <string name="hrLlamaDashNewProfile">Llama - Új profil</string>
+    <string name="hrVibrate">Rezgés</string>
+    <string name="hrRing">Csengőhang</string>
+    <string name="hrRingAndVibrate">Csengőhang és rezgés</string>
+    <string name="hrProfilesUnlocked">Profil váltások engedélyezve</string>
+    <string name="hrActivateAndLock">Aktiválás és lezárás</string>
+    <string name="hrEditProfile">Szerkesztés</string>
+    <string name="hrCopyProfile">Másolás</string>
+    <string name="hrDeleteProfile">Törlés</string>
+    <string name="hrNever">Soha</string>
+    <string name="hrAutomaticallyUnlockProfileDescription">Beállíthatod, hogy az események ne változtathassák a profilokat egy ideig. Pl. ha találkozón veszel részt, és szeretnéd, hogy a telefon néma módban maradjon adott ideig.</string>
+    <string name="hrAutomaticallyUnlockProfileChangesAfter">automatikus engedélyezés ennyi idő múlva:</string>
+    <string name="hrWillActivateWhenProfilesAreManuallyUnlocked">Aktiválás, ha a profilváltások kézzel engedélyezettek</string>
+    <string name="hrWillActivateAt1">Aktiválás ekkor: %1s</string>
+    <string name="hrActivatedAt1">aktiválva ekkor: %1s</string>
+    <string name="hrAuto">Automatikus</string>
+    <string name="hrChangeBrightness">Fényerő változtatása</string>
+    <string name="hrSetToAutomaticBrightness">váltás automatikus fényerő beállításra</string>
+    <string name="hrSetTo1Brightness">váltás %1s%% fényerőre</string>
+    <string name="hrLlamaBluetoothPolling">Llama Bluetooth lekérdezés</string>
+    <string name="hrChangeLlamaBluetoothPolling">Llama Bluetooth lekérdezés változtatása</string>
+    <string name="hrChangeAndroidLocationPolling">Android helyzet lekérdezés változtatása</string>
+    <string name="hrAndroidLocationPolling">Android helyzet lekérdezés</string>
+    <string name="hrLlamaWifiPolling">Llama WiFi lekérdezés</string>
+    <string name="hrChangeLlamaWifiPolling">Llama WiFi lekérdezés változtatása</string>
+    <string name="hrSet1ToNever">%1s kikapcsolása teljesen</string>
+    <string name="hrSet1To2">%1$s gyakorisága: %2$s</string>
+    <string name="hrChangeNotificationIconTo1">ért. ikon váltása erre: %1s</string>
+    <string name="hrChangeNotificationIcon">Értesítési ikon változtatása</string>
+    <string name="hrChangeProfile">Profil váltása</string>
+    <string name="hrChangeProfileTo">profil váltása erre: %1s</string>
+    <string name="hrChooseAProfile">Válassz egy profilt</string>
+    <string name="hrChangeScreenTimeout">Képernyő időkorlátjának beállítása</string>
+    <string name="hrDisableScreenTimeout">képernyő időkorlát letiltása</string>
+    <string name="hrSetScreenTimeoutTo1Seconds">képernyő időkorlátjának beállítása %1s másodpercre</string>
+    <string name="hrToggleScreenLock">Képernyőzár ki/bekapcsolása</string>
+    <string name="hrScreenLockOn">Képernyőzár be</string>
+    <string name="hrScreenLockOnForce">Képernyőzár be (erőltetett)</string>
+    <string name="hrScreenLockOffImmediately">Képernyőzár ki azonnal (bugos!)</string>
+    <string name="hrScreenLockOffAfterPassword">Képernyőzár ki feloldás után</string>
+    <string name="hrEnableKeyGuard">képernyőzár be</string>
+    <string name="hrEnableKeyGuardForce">képernyőzár be (erőltetett)</string>
+    <string name="hrDisableKeyGuardImmediately">képernyőzár letiltása azonnal</string>
+    <string name="hrDisableKeyGuardAfterUnlock">képernyőzár letiltása egy feloldás után</string>
+    <string name="hrKillApplication">Alkalmazás bezárása</string>
+    <string name="hrKillApplicationWithRoot">Alkalmazás bezárása (Root)</string>
+    <string name="hrKill1DieDieDie">%1s bezárása. Pusztulj!!!</string>
+    <string name="hrChooseAnApplication">Alkalmazás kiválasztása</string>
+    <string name="hrChooseAnApplicationWithAName">Alkalmazás választása névvel</string>
+    <string name="hrLockProfileChanges">Profil váltások letiltása</string>
+    <string name="hrUnlockProfileChanges">Profil váltások engedélyezése</string>
+    <string name="hrLockProfileChangesDescription">profil váltások letiltása</string>
+    <string name="hrUnlockProfileChangesDescription">profil váltások engedélyezése</string>
+    <string name="hrChangeMusicVolume">Zene/média hangerő változtatása</string>
+    <string name="hrSetMusicVolumeTo1">zene/média hangerő változtatása erre: %1s</string>
+    <string name="hrReminder">Emlékeztető</string>
+    <string name="hrShowAReminder">emlékeztető mutatása</string>
+    <string name="hrEnterSomeReminderText">Írj be valami szöveget emlékeztetőnek</string>
+    <string name="hrNoDontDoAnything">Nem, ne csinálj semmit.</string>
+    <string name="hrYesIReallyWantToReboot">Igen, tényleg újra akarom indítani!</string>
+    <string name="hrYesIReallyWantToShutdown">Igen, tényleg kapcsold ki!</string>
+    <string name="hrRebootPhoneDescription">telefon újraindítása</string>
+    <string name="hrDontRebootPhoneDescription">ne indítsd újra a telefont</string>
+    <string name="hrShutdownPhoneDescription">telefon kikapcsolása</string>
+    <string name="hrDontShutdownPhoneDescription">ne kapcsold ki a telefont</string>
+    <string name="hrRunApplication">Alkalmazás futtatása</string>
+    <string name="hrRun1">%1s futtatása</string>
+    <string name="hrIfNotConnected">ha nincs csatlakozva</string>
+    <string name="hrForAtLeast1">legalább %1s</string>
+    <string name="hrForAtLeast1Minutes">legalább %1s percig</string>
+    <string name="hrIfNotConnectedDescription">ha nincs csatlakozva</string>
+    <string name="hrFor1ThenDisconectIfNotConnected">%1s, aztán kikapcsolás, ha nincs csatlakoztatva</string>
+    <string name="hrFor1MinutesThenDisconectIfNotConnected">%1s percig, aztán kikapcsolás, ha nincs csatlakoztatva</string>
+    <string name="hrAirplaneModeOn">Repülőgépes mód be</string>
+    <string name="hrAirplaneModeOff">Repülőgépes mód ki</string>
+    <string name="hrToggleAirplaneMode">Repülőgépes mód ki/be</string>
+    <string name="hrEnableAirplaneMode">repülőgépes mód engedélyezése</string>
+    <string name="hrDisableAirplaneMode">repülőgépes mód kikapcsolása</string>
+    <string name="hrApnOn">APN be</string>
+    <string name="hrApnOff">APN ki</string>
+    <string name="hrBluetoothOn">Bluetooth be</string>
+    <string name="hrBluetoothOff">Bluetooth ki</string>
+    <string name="hrToggleBluetooth">Bluetooth ki/be</string>
+    <string name="hrEnableBluetooth">Bluetooth engedélyezése</string>
+    <string name="hrDisableBluetooth">Bluetooth letiltása</string>
+    <string name="hrToggleLlamaCellPolling">Llama cella lekérdezés ki/be</string>
+    <string name="hrCellPollingOn">Cella lekérdezés be</string>
+    <string name="hrCellPollingOff">Cella lekérdezés ki</string>
+    <string name="hrEnableLlamaCellPolling">Llama cella lekérdezés be</string>
+    <string name="hrDisableLlamaCellPolling">Llama cella lekérdezés ki</string>
+    <string name="hrToggleGps">GPS ki/be</string>
+    <string name="hrGpsOn">GPS be</string>
+    <string name="hrGpsOff">GPS ki</string>
+    <string name="hrEnableGps">GPS engedélyezése</string>
+    <string name="hrDisableGps">GPS letiltása</string>
+    <string name="hrMobileDataOn">Adatkapcsolat be</string>
+    <string name="hrMobileDataOff">Adatkapcsolat ki</string>
+    <string name="hrEnableSyncRequestUpdate">Szinkr. be és frissítés</string>
+    <string name="hrEnableSyncNoUpdate">Szinkr. be de ne frissítsen</string>
+    <string name="hrDisableSync">Szinkr. letiltása</string>
+    <string name="hrToggleAccountSync">Fiók szinkr. ki/be</string>
+    <string name="hrEnableAccountSyncThenRequestUpdateDescription">fiók szinkr. bekapcsolása és frissítés kérése</string>
+    <string name="hrEnableAccountSyncDescription">fiók szinkr. engedélyezése</string>
+    <string name="hrDisableAccountSyncDescription">fiók szinkr. letiltása</string>
+    <string name="hrWifiOn">WiFi be</string>
+    <string name="hrWifiOff">WiFi ki</string>
+    <string name="hrToggleWifi">WiFi ki/be</string>
+    <string name="hrEnableWifi">WiFi engedélyezése</string>
+    <string name="hrDisableWifi">WiFi letiltása</string>
+    <string name="hrVibratePattern">Rezgés</string>
+    <string name="hrVibrateThe1Pattern">%1s minta rezgése</string>
+    <string name="hrVibrateACustomisedPattern">egyéni minta rezgése</string>
+    <string name="hrVibrateShort">Rövid</string>
+    <string name="hrVibrateLong">Hosszú</string>
+    <string name="hrVibrateMultipleShort">Rövid többször</string>
+    <string name="hrVibrateMultipleLong">Hosszú többször</string>
+    <string name="hrBatteryLevel">Akkumulátorszint</string>
+    <string name="hrBatteryLevelAbove1">Akkumulátorszint %1s fölött</string>
+    <string name="hrBatteryLevelBelow1">Akkumulátorszint %1s alatt</string>
+    <string name="hrWhenBatteryGoesBelow1Percent">ha az akkumulátorszint %1s%% alatt</string>
+    <string name="hrWhenBatteryRisesAbove1Percent">ha az akkumulátorszint %1s%% felett</string>
+    <string name="hrPleaseChooseAtLeastOneBluetoothDevice">Kérem, válassz legalább egy Bluetooth eszközt</string>
+    <string name="hrPleaseChooseAtLeastOneWifiNetwork">Kérlek, válassz legalább egy WiFi hálózatot</string>
+    <string name="hrOr">vagy</string>
+    <string name="hrNor">vagy</string>
+    <string name="hrWhen1IsConnected">ha %1s csatlakozva</string>
+    <string name="hrWhen1Disconnects">ha %1s kapcsolat bontva</string>
+    <string name="hrBluetoothDeviceDisconnected">Bluetooth eszköz lecsatlakozva</string>
+    <string name="hrBluetoothDeviceConnected">Bluetooth eszköz csatlakozva</string>
+    <string name="hrWhenCalendarHasACurrentEventNameContaining1">"ha egy aktuális naptári esemény neve tartalmazza ezt: '%1s'"</string>
+    <string name="hrWhenCalendarDoesNotHaveACurrentEventNameContaining1">"ha nincs aktuális '%1s' szöveget tartalmazó naptári esemény"</string>
+    <string name="hrCalendarHasACurrentEventNameContaining1">"Egy aktuális naptári esemény neve tartalmazza ezt: '%1s'"</string>
+    <string name="hrCalendarDoesNotHaveACurrentEventNameContaining1">"A naptárban nincsen '%1s' szöveget tartalmazó aktuális esemény"</string>
+    <string name="hrCalendarEvent">Naptári esemény</string>
+    <string name="hrCalendarConditionMustHaveACalendarEventNameOrCalendarOrEventType">A naptár feltételhez ki kell választani egy naptári esemény nevét, egy naptárat vagy egy naptári eseménytípust.</string>
+    <string name="hrInCarMode">Autós módban</string>
+    <string name="hrNotInCarMode">Nincs autós módban</string>
+    <string name="hrWhenInCarMode">ha autós módban van</string>
+    <string name="hrWhenNotInCarMode">ha nincs autós módban</string>
+    <string name="hrUsingBattery">Akkumulátor használata</string>
+    <string name="hrChargingFromAny">Töltés bármely módon</string>
+    <string name="hrChargingFromAc">Töltés hálózatról</string>
+    <string name="hrChargingFromUsb">Töltés USB-ről</string>
+    <string name="hrChargingFromWireless">Töltés vezeték nélkül</string>
+    <string name="hrChargingStatus">Töltés állapota</string>
+    <string name="hrWhenChargingUnknown">amikor a töltés állapota ismeretlen</string>
+    <string name="hrWhenChargingFromAc">amikor hálózatról tölt</string>
+    <string name="hrWhenChargingFromUsb">amikor USB-ről tölt</string>
+    <string name="hrWhenChargingWirelessy">amikor vezeték nélkül tölt</string>
+    <string name="hrWhenCharging">amikor tölt</string>
+    <string name="hrWhenUsingBattery">ha nincs töltés</string>
+    <string name="hrChooseAtLeastOneDay">Válassz legalább egy napot</string>
+    <string name="hrDayOfTheWeek">A hét napja</string>
+    <string name="hrWhenIts1">amikor %1s</string>
+    <string name="hrChooseAnAreaToEnter">Válassz egy területet</string>
+    <string name="hrEnterArea">Érkezés területre</string>
+    <string name="hrAt1">%1s</string>
+    <string name="hrAtTime1">%1s-kor</string>
+    <string name="hrWiredHeadsetConnected">Vezetékes fülhallgató csatlakoztatva</string>
+    <string name="hrWiredHeadsetWithMicConnected">Mikrofonos vezetékes fülhallgató csatlakoztatva</string>
+    <string name="hrWiredHeadsetNoMicConnected">Mikrofon nélküli vezetékes fülhallgató csatlakoztatva</string>
+    <string name="hrWiredHeadsetDisconnected">Vezetékes fülhallgató kihúzva</string>
+    <string name="hrWhenWiredHeadsetAnyIsConnected">ha vezetékes fülhallgató csatlakoztatva</string>
+    <string name="hrWhenWiredHeadsetNoMicIsConnected">ha mikr. nélküli vez. fülhallgató csatlakoztatva</string>
+    <string name="hrWhenWiredHeadsetWithMicIsConnected">ha mikrofonos vez. fülhallgató csatlakoztatva</string>
+    <string name="hrWhenWiredHeadsetIsDisconnected">ha vezetékes fülhallgató kihúzva</string>
+    <string name="hrChooseAnAreaToLeave">Válassz egy területet az elhagyáshoz</string>
+    <string name="hrLeaveArea">Terület elhagyása</string>
+    <string name="hrUponLeaving1">%1s elhagyásakor</string>
+    <string name="hrMusicPlayback">Zenelejátszás</string>
+    <string name="hrMusicPlaying">Zenelejátszás</string>
+    <string name="hrMusicPaused">Zene szüneteltetve</string>
+    <string name="hrWhenMusicIsPlaying">ha zenelejátszás folyamatban</string>
+    <string name="hrWhenMusicIsPaused">ha a zene szüneteltetve</string>
+    <string name="hrBluetoothDeviceNotConnected">Bluetooth eszköz nincs csatlakozva</string>
+    <string name="hrWhen1IsNotConnected">ha %1s nincs csatlakozva</string>
+    <string name="hrNotInArea">Ha nem a területen</string>
+    <string name="hrChooseAnAreaToNotBeIn">Válassz területet</string>
+    <string name="hrWhenNotAt1">ha nem itt: %1s</string>
+    <string name="hrTimeBetween">Időintervallum</string>
+    <string name="hrBetween1And2">%1$s és %2$s között</string>
+    <string name="hrFrom">Ettől:</string>
+    <string name="hrTo">Eddig:</string>
+    <string name="hrActionChangeProfile">Profil</string>
+    <string name="hrActionChangeProfileDescription">Ez meg fogja változtatni a telefonod hangbeállításait a profil fül alatt található profiloknak megfelelően. Az értesítési ikon is megváltozhat az adott profil beállításaitól függően.</string>
+    <string name="hrActionNotificationIcon">Llama értesítési ikon</string>
+    <string name="hrActionNotificationIconDescription">Ez meg fogja változtatni az ikont az értesítési sávon. Használj különböző ikonokat a különböző beállításokhoz. Az ikon ki/bekapcsolható a Llama fő beállításainál.</string>
+    <string name="hrActionScreenBrightness">Kijelző fényereje</string>
+    <string name="hrActionScreenBrightnessDescription">Ez a kijelző fényerejét fogja állítani. Néhány telefon támogatja az automatikus fényerő állítást is</string>
+    <string name="hrActionScreenOn">Kijelző be</string>
+    <string name="hrActionScreenOnDescription">"Ez rögtön bekapcsolja a kijelzőt. Ha a képernyőzár le van tiltva, a képernyő addig marad bekapcsolva, amíg az inaktivitási idő le nem telik. Ha a képernyőzár engedélyezve van, akkor a lezáró képernyő lesz látható két másodpercig. MEGJEGYZÉS: a telefonod típusától függően lehet, hogy nincs látható különbség a 'sötét', 'világos' és 'világos billentyű fényekkel' beállítások között."</string>
+    <string name="hrActionScreenOff">Kijelző ki</string>
+    <string name="hrActionScreenOffDescription">Ez azonnal ki fogja kapcsolni a kijelzőt. Ha a képernyőzár engedélyezett, aktiválva lesz.</string>
+    <string name="hrActionMusicVolume">Zene/média hangerő</string>
+    <string name="hrActionMusicVolumeDescription">Ez a zene és média hangerőt változtatja</string>
+    <string name="hrActionVibrate">Rezgés</string>
+    <string name="hrActionVibrateDescription">A telefon vibrálni fog egy előre beállított vagy általad készített ritmusnak megfelelően.</string>
+    <string name="hrActionApn">APN</string>
+    <string name="hrActionApnDescription">Ezzel a művelettel a mobil adatkapcsolatot lehet engedélyezni, vagy tiltani. Ez az APN beállítások átírásával történik. Csak GSM hálózatokon működik. Kompatibilis az APNDroid widgettel.</string>
+    <string name="hrActionBluetooth">Bluetooth</string>
+    <string name="hrActionBluetoothDescription">A Bluetooth-t kapcsolja ki/be. Úgy is be lehet állítani, hogy csak akkor kapcsolja ki a Bluetooth-t, ha nincsen eszköz csatlakoztatva. Az is lehetséges, hogy csak kis ideig legyen bekapcsolva, majd kapcsolódjon ki magától, ha nem csatlakozik eszköz.</string>
+    <string name="hrActionAirplane">Repülőgépes mód</string>
+    <string name="hrActionAirplaneDescription">A repülőgépes módot kapcsolja. Mellékhatásként letiltja a WiFit és a Bluetooth-t is. Ha a repülőgépes mód aktív, a Llama nem képes megállapítani a helyzetedet!</string>
+    <string name="hrActionWifi">WiFi</string>
+    <string name="hrActionWifiDescription">Ez a WiFit kapcsolja ki/be. Választhatod, hogy csak akkor kapcsolódjon ki a WiFi, ha nincsen hálózathoz csatlakozva. Csak egy kis időre is bekapcsolható a WiFi. Ilyenkor automatikusan kikapcsolódik, ha nincs hálózat, amihez csatlakozni lehetne.</string>
+    <string name="hrActionGps">GPS</string>
+    <string name="hrActionGpsDescription">Ez a GPS-t kapcsolja ki/be. Ez hivatalosan nem támogatott az Androidban, így nem biztos, hogy működik. Ha Gingerbreaded van (Android 2.3), akkor biztos, hogy nem fog működni. Nyaggasd a Google-t, ha azt akarod, hogy működjön.</string>
+    <string name="hrActionReboot">Újraindítás (root szükséges)</string>
+    <string name="hrActionRebootDescription">Újraindítja a telefonodat. Legyél óvatos az feltételek megadásával, nehogy úgy járj, hogy amint elindul a telefon megint újraindul a feltételek teljesülése miatt. Az indulástól számítva legalább 5 percnek el kell telnie, hogy ez a művelet végrehajtódhasson.</string>
+    <string name="hrActionShutdown">Kikapcsolás (root szükséges)</string>
+    <string name="hrActionShutdownDescription">Ez ki fogja kapcsolni a telefont. Legyél óvatos a feltételek megadásával, nehogy úgy járj, hogy amint elindul a telefon megint kikapcsol a feltételek teljesülése miatt. Az indulástól számítva legalább 5 percnek el kell telnie, hogy ez a művelet végrehajtódhasson.</string>
+    <string name="hrActionSync">Fiók szinkronizálás</string>
+    <string name="hrActionSyncDescription">Ezzel az automatikus fiók szinkronizálást lehet be- és kikapcsolni. Azonnali frissítés kiváltására is használható.</string>
+    <string name="hrActionLlamaCellPolling">Llama cella lekérdezés</string>
+    <string name="hrActionLlamaCellPollingDescription">KÍSÉRLETI: Megváltoztatja a cella lekérdezések gyakoriságát. Csak akkor használható, ha engedélyezted a Kísérleti beállításoknál.</string>
+    <string name="hrActionLlamaWifiPolling">Llama WiFi lekérdezés</string>
+    <string name="hrActionLlamaWifiPollingDescription">"KÍSÉRLETI: Megváltoztatja a Llama WiFi lekérdezési gyakoriságát. Csak akkor használható, ha engedélyezted a Kísérleti beállításoknál. Ha a beállítás 'soha', akkor a Llama az Android saját WiFi lekérdezését fogja használni."</string>
+    <string name="hrActionLlamaBluetoothPolling">Llama bluetooth lekérdezés</string>
+    <string name="hrActionLlamaBluetoothPollingDescription">"KÍSÉRLETI: Megváltoztatja a Llama bluetooth eszköz keresési gyakoriságát. Csak akkor használható, ha engedélyezted a Kísérleti beállításoknál. Ha a beállítás 'soha', akkor a Llama az Android saját bluetooth keresését fogja használni."</string>
+    <string name="hrActionAndroidLocationPolling">Llama Android helyzetlekérés</string>
+    <string name="hrActionAndroidLocationPollingDescription">KÍSÉRLETI: Megváltoztatja az Android saját helyzetlekérési gyakoriságát. Csak akkor használható, ha engedélyezted a Kísérleti beállításoknál.</string>
+    <string name="hrActionScreenTimeout">Kijelző időkorlát</string>
+    <string name="hrActionScreenTimeoutDescription">A képernyő utolsó megérintése és a képernyő kikapcsolása közötti időt állítja.</string>
+    <string name="hrActionMobileData">Mobil adatkapcsolat</string>
+    <string name="hrActionMobileDataDescription">"A mobil adatkapcsolat beállítását változtatja. Ez nem működik Gingerbread-en (Android 2.3), mert a Google szándékosan letiltotta :'(
+Ha 2.2.1 vagy régebbi rendszered van, akkor a mobilod beállításainál be kell lennie pipálva a 'Adatkapcsolat használata' opciónak."</string>
+    <string name="hrActionReminder">Emlékeztető</string>
+    <string name="hrActionReminderDescription">Egy hanyag módon implementált emlékeztetőt fog mutatni az értesítési sávon.</string>
+    <string name="hrActionScreenLock">Képernyőzár (bugos)</string>
+    <string name="hrActionScreenLockDescription2">"Ez a művelet a képernyőzárat kapcsolja ki-be. Az Android nem biztosít egységes módszert ennek megvalósításához, szóval a helyes működés nem garantált.
+
+Ha a képernyő be van kapcsolva, és nincs lezárva:
+- a lezáróképernyő csak a képernyőzár engedélyezése után fog megjelenni
+- a képernyőzár engedélyezése (erőltetve) kikapcsolja a képernyőt, és mutatja a zárat a legközelebbi bekapcsolásakor
+- a képernyőzár letiltása azonnal történik (tehát legközelebb amikor kikapcsolod a képernyőt, látni fogod a lezáróképernyőt)
+
+a a képernyő le van zárva és ki van kapcsolva:
+- a képernyőzár engedélyezésekor a lezáróképernyő meg fog jelenni a képernyő következő bekapcsolásakor
+-a képernyőzár azonnali letiltásával a lezáróképernyő nem fog megjelenni többé, és összezavarhatja a home/keresés gombokat
+- a 'képernyőzár letiltása feloldás után' művelet aktiválásakor a lezáróképernyő egyszer jelenik meg, és utána addig nem, amíg újra nem engedélyezed.
+
+
+Ha a képernyő ki van kapcsolva, de nincs lezárva:
+-a képernyőzár engedélyezésekor akkor fog megjelenni a lezáróképernyő, miután a kijelző ki majd be lett kapcsolva egyszer
+-a képernyőzár erőltetett engedélyezésekor a lezáróképernyő meg fog jelenni a kijelző legközelebbi bekapcsolásakor
+
+
+Ha ezen művelet használata esetén a home gombod nem működik, akkor legjobb ha nem használod ezt a funkciót. Másrészről lehetséges, hogy több szerencséd lesz, ha minta alapú zárat használsz és nem PIN/jelszó alapút."</string>
+    <string name="hrActionProfileLock">Llama profilváltás tiltása</string>
+    <string name="hrActionProfileLockDescription">Ezzel a profil lezárást szabályozhatod. A profilok automatikus váltása letiltható megadott időre.</string>
+    <string name="hrActionRunApp">Alkalmazás futtatása</string>
+    <string name="hrActionRunAppDescription">Egy alkalmazás futtatását teszi lehetővé. Kérlek, hogy várj türelmesen a lista betöltésére, ha sok alkalmazásod van telepítve!</string>
+    <string name="hrActionKillApp">Alkalmazás leállítása</string>
+    <string name="hrActionKillAppDescription">Ez a Llama legjobb képessége szerint megpróbál egy alkalmazást bezárni. Tartsd fejben, hogy az alkalmazások leállítása az Androidban korlátozott, így nem biztos, hogy megbízhatóan fog működni.</string>
+    <string name="hrActionKillWithRootApp">Alkalmazás leállítása (root jogosultsággal)</string>
+    <string name="hrActionKillWithRootAppDescription">Ezzel a művelettel a Llama képes ERŐLTETETT módon bezárni egy alkalmazást. Ez nem ajánlott, mert az alkalmazás hibás működését eredményezheti. Szükséges, hogy a telefonod rootolva legyen.</string>
+    <string name="hrConditionEnterInArea">Területre lépés</string>
+    <string name="hrConditionEnterInAreaDescription">Ez a feltétel akkor teljesül, amikor először belépsz a megadott területek BÁRMELYIKÉRE. És érvényes marad, amíg el nem hagyod ezeket a területeket.</string>
+    <string name="hrConditionLeaveArea">Terület elhagyása</string>
+    <string name="hrConditionLeaveAreaDescription">"Ez a feltétel csak akkor teljesül, amikor a meghatározott területek BÁRMELYIKÉT elhagyod. (Lásd még a 'Területek kivételével' feltételt)"</string>
+    <string name="hrConditionNotInAreas">Területek kivételével</string>
+    <string name="hrConditionNotInAreasDescription">Ez a feltétel csak akkor teljesül ha elhagyod az ÖSSZES megadott területet, és érvényes marad amíg közülük EGYIKBEN SEM tartózkodsz.</string>
+    <string name="hrConditionCalendarEvent">Naptári esemény</string>
+    <string name="hrConditionCalendarEventDescription">Ez a feltétel a naptáraid aktuális eseményein alapszik. Meghatározhatod egy esemény kezdetét és végét.</string>
+    <string name="hrConditionDayOfTheWeek">A hét napja</string>
+    <string name="hrConditionDayOfTheWeek_Description">Ezzel meghatározhatod, hogy az esemény csak a hét bizonyos napjain legyen érvényes, és hajtódhasson végre.</string>
+    <string name="hrConditionHeadset">Fülhallgató csatlakoztatva/kihúzva</string>
+    <string name="hrConditionHeadsetDescription">Ez a feltétel lehetővé teszi műveletek végzését a vezetékes fülhallgató jelenlétének megfelelően.</string>
+    <string name="hrConditionCharging">Töltés vagy merítés</string>
+    <string name="hrConditionChargingDescription">Ez a feltétel lehetővé teszi, hogy a telefon töltőre vagy számítógépre való csatlakoztatásakor vagy töltőről való lehúzásakor végeztess műveletet.</string>
+    <string name="hrConditionPhoneReboot">Telefon újraindítása</string>
+    <string name="hrConditionPhoneRebootDescription">Lehetővé teszi műveletek végzését a telefon indulásakor vagy kikapcsolás előtt.</string>
+    <string name="hrConditionBatteryLevel">Akkumulátorszint</string>
+    <string name="hrConditionBatteryLevelDescription">Műveletek végzését teszi lehetővé, amikor az akkumulátor töltöttsége egy bizonyos szint alá süllyed, vagy egy bizonyos szint fölé emelkedik.</string>
+    <string name="hrConditionSignalLevel">Térerő</string>
+    <string name="hrConditionSignalLevelDescription">"Műveletek végzését teszi lehetővé, amikor a térerő egy bizonyos szint alá süllyed, vagy egy bizonyos szint fölé emelkedik.
+
+A feltétel kiválasztása vagy szerkesztése esetén látni fogod a jelenlegi szintet előnézetként.
+
+Az értékek mértékegysége dBm.
+
+A Llama számára a -150 jelenti azt, hogy nincs térerő. Megjegyzés: a GSM jelek elérhetik akár a -113dBm-es értéket is."</string>
+    <string name="hrConditionCarMode">Autós mód</string>
+    <string name="hrConditionCarModeDescription">"Ez a feltétel műveletek végzését teszi lehetővé, amikor a telefon 'autós dokk' módjának állapota megváltozik."</string>
+    <string name="hrConditionBluetoothConnected">Bluetooth eszköz csatlakoztatva</string>
+    <string name="hrConditionBluetoothConnectedDescription">Akkor érvényes, ha a kiválasztott eszközök bármelyike csatlakoztatva van, és mindaddig érvényes is marad, amíg a kapcsolat él.</string>
+    <string name="hrConditionBluetootDeviceNotConnected">Bluetooth eszközök nincsenek csatlakoztatva</string>
+    <string name="hrConditionBluetootDeviceNotConnectedDescription">Csak akkor érvényes, ha a meghatározott eszközök közül egyik sincsen csatlakoztatva. Akkor lép érvénybe, amikor az összes megadott eszköz kapcsolata megszűnik.</string>
+    <string name="hrConditionBluetoothDisconnected">Bluetooth eszköz lecsatlakozik</string>
+    <string name="hrConditionBluetoothDisconnectedDescription">Akkor érvényes, amikor a kiválasztott eszközök BÁRMELYIKE megszünteti a telefonoddal való kapcsolatot.</string>
+    <string name="hrConditionMusicPlayback">Zenelejátszás</string>
+    <string name="hrConditionMusicPlaybackDescription">"Az Android zenelejátszóval kapcsolatos változások esetén lép érvénybe. MEGJEGYZÉS: Különböző gyártók különféleképpen szabták át a médialejátszókat, de a kezelésük módjáról nem tettek közzé semmilyen dokumentációt más alkalmazások fejlesztői számára :'("</string>
+    <string name="hrConditionTimeBetween">Időintervallum</string>
+    <string name="hrConditionTimeBetweenDescription">Ezzel a feltétellel lehetséges az események működését csak a nap bizonyos időszakaira korlátozni. Például beállíthatod az időtartamot 22:00-től 6:00-ig, hogy az esemény csak éjszaka hajtódhasson végre. Az esemény a kezdő időpont elérésekor indul. Ekkor ellenőrzi a Llama az esemény többi feltételét, és futtatja a megadott műveleteket.</string>
+    <string name="hrAlternativeIconColour">Alternatív ikon szín</string>
+    <string name="hrAlternativeIconColourDescription">Fekete vagy fehér értesítési ikon használata (sötét vagy fekete értesítési sávhoz)</string>
+    <string name="hrNotificationMode">Értesítési mód</string>
+    <string name="hrNotificationModeDescription">Hogyan tudassa veled a Llama a profil váltásokat. A folyamat jellegű értesítések megakadályozzák az Androidot a Llama bezárásában.</string>
+    <string name="hr12HourPickers">12 órás idő használata</string>
+    <string name="hr12HourPickersDescription">Használjunk-e 12 órás idő kiválasztókat (kevesebb kattintgatás)</string>
+    <string name="hrShowApnMobileData">APN/Mobil adat a menüben</string>
+    <string name="hrShowApnMobileDataDescription">Megjelenjen-e a menüben az APN/Mobil adat kapcsoló. TIPP: Tegyél inkább az asztalra egy parancsikont</string>
+    <string name="hrSoundProfileSettings">Hangprofil beállítások</string>
+    <string name="hrLockProfilesOnChange">Profilok tiltása hangerőállításnál</string>
+    <string name="hrLockProfilesOnChangeDescription">Llama megakadályozása a profilok automatikus váltásában, amikor a hangerőgombokkal állítasz hangerőt.</string>
+    <string name="hrUnlockProfilesAutomatically">Profilváltás auto engedélyezése</string>
+    <string name="hrUnlockProfilesAutomaticallyDescription">engedélyezés ennyi idő múlva:</string>
+    <string name="hrCellTrackingSettings">Cella követési beállítások</string>
+    <string name="hrIgnoreInvalidNoSignal">Érvénytelen cellák mellőzése</string>
+    <string name="hrIgnoreInvalidNoSignalDescription">"Érvénytelen cella azonosítók, vagy gyenge térerő ne okozzon terület 'elhagyást'."</string>
+    <string name="hrCellPollingMode">Cella lekérdezési mód</string>
+    <string name="hrCellPollingModeDescription">KÍSÉRLETI: CPU felébresztése, hogy pontosabban kövesse a cella váltásokat. Ez befolyásolhatja az akkumulátorhasználatot. Kikapcsolt állapot esetén a területtel kapcsolatos események késhetnek. Általában ez nem probléma, mert az esemény azonnal végbemegy, amikor a telefon felébred.</string>
+    <string name="hrCellPollingInterval">Cella lekérdezési gyakoriság</string>
+    <string name="hrCellPollingIntervalDescription">Milyen gyakran ébredjen fel a CPU</string>
+    <string name="hrCellPollingIntervalMinutes">Cella lekérdezési gyakoriság (perc)</string>
+    <string name="hrAlternativeLocationMethods">Alternatív helyzetmeghatározási módok</string>
+    <string name="hrExperimentalStuff">Kísérleti dolgok</string>
+    <string name="hrExperimentalStuffDescription">Itt sárkányok vannak</string>
+    <string name="hrLocationSettings">Helymeghatározási beállítások</string>
+    <string name="hrUseAndroidLocation">Android helyzetmeghatározás használata</string>
+    <string name="hrUseAndroidLocationDescription">SZERFELETT KÍSÉRLETI: Használjuk-e az Androidba beépített helymeghatározási dolgot. Definiálj területeket a térképen. Pontosabb lehet, ha engedélyezed a WiFit, de befolyásolhatja az aksi élettartamát.</string>
+    <string name="hrUseGps">GPS használata</string>
+    <string name="hrUseGpsDescription">GPS használata helymeghatározáshoz. Ez NEM FOGJA kímélni az akkumulátort, az biztos.</string>
+    <string name="hrAndroidLocationPollingName">Android helyzetlekérési gyakoriság</string>
+    <string name="hrAndroidLocationPollingDescription">SZERFELETT KÍSÉRLETI: Milyen gyakran nézzük meg a helyzetet.</string>
+    <string name="hrAndroidLocationPollingInterval">Android helylekérési gyakoriság (perc)</string>
+    <string name="hrWifiTrackingSettings">WiFi követési beállítások</string>
+    <string name="hrCheckForWifiNetworks">WiFi hálózatok figyelése</string>
+    <string name="hrCheckForWifiNetworksDescription">SZERFELETT KÍSÉRLETI: A WiFi időnkénti bekapcsolása, hogy lássuk, van-e a közelben WiFi hálózat.</string>
+    <string name="hrWifiPolling">WiFi lekérdezési gyakoriság</string>
+    <string name="hrWifiPollingDescription">SZERFELETT KÍSÉRLETI: Milyen gyakran legyenek WiFi hálózatok keresve</string>
+    <string name="hrWifiPollingInterval">WiFi lekérdezési gyakoriság (perc)</string>
+    <string name="hrBluetoothTrackingSettings">Bluetooth keresési beállítások</string>
+    <string name="hrCheckForBluetoothDevices">Bluetooth eszközök keresése</string>
+    <string name="hrCheckForBluetoothDevicesDescription">SZERFELETT KÍSÉRLETI: Bekapcsoljuk-e a bluetooth-t időnként, hogy megnézzük, van-e a közelben látható bluetooth eszköz</string>
+    <string name="hrBluetoothPollingInterval">Bluetooth lekérési gyakoriság</string>
+    <string name="hrBluetoothPollingIntervalDescription">SZERFELETT KÍSÉRLETI: Milyen gyakran keressünk bluetooth eszközöket</string>
+    <string name="hrBluetoothPollingIntervalMinutes">Bluetooth lekérési gyakoriság (percek)</string>
+    <string name="hrUserInterfaceSettings">Felhasználói felület beállításai</string>
+    <string name="hrDebugSettings">Hibakeresési beállítások - ezek kocka dolgok</string>
+    <string name="hrDebugSettingsTitle">Hibakeresési beállítások</string>
+    <string name="hrDebugSettingsDescriptions">Kiegészítő beállítások diagnosztikához és naplózási célra</string>
+    <string name="hrEventName">Esemény neve</string>
+    <string name="hrEventNameAndGroup">Esemény név és csoport</string>
+    <string name="hrEventNameDescription">Egy név az esemény azonosítására</string>
+    <string name="hrEnabled">Engedélyezve</string>
+    <string name="hrEventEnabledDescription">A Llama figyelje-e ennek az eseménynek a feltételeit és futtassa-e a műveleteit</string>
+    <string name="hrProfileName">Profil neve</string>
+    <string name="hrProfileNameDescription">Egy név a profil azonosításához</string>
+    <string name="hrNotificationVolume">Értesítések hangereje</string>
+    <string name="hrRingVibrateSilent">Csengő/Rezgő/Néma mód</string>
+    <string name="hrChangeRingVibrateSilent">Csengő/rezgő/néma mód váltása</string>
+    <string name="hrChangeRingVibrateSilentDescription">Megváltozzon-e a csengetési mód erre a profilra váltva</string>
+    <string name="hrRingtone">Csengőhang</string>
+    <string name="hrChangeRingtone">Csengőhang kiválasztása</string>
+    <string name="hrChangeRingtoneDescription">Megváltozzon-e a csengőhang erre a profilra váltva</string>
+    <string name="hrNotificationTone">Értesítési hangjelzés</string>
+    <string name="hrChangeNotificationTone">Alap értesítési hangjelzés megváltoztatása</string>
+    <string name="hrChangeNotificationToneDescription">Megváltozzon-e az alapértelmezett értesítési hangjelzés a profil aktiválásakor</string>
+    <string name="hrMusicVolume">Zene/média hangerő</string>
+    <string name="hrChangeMusicVolumeDescription">Át legyen-e állítva a zene/média hangereje erre a profilra váltáskor</string>
+    <string name="hrAlarmVolume">Riasztási hangerő</string>
+    <string name="hrChangeAlarmVolume">Riasztási hangerő megváltoztatása</string>
+    <string name="hrChangeAlarmVolumeDescription">A profil aktiválásakor megváltoztatható a riasztási hangerő is</string>
+    <string name="hrInCallVolume">Hívások hangereje</string>
+    <string name="hrChangeInCallVolume">Hívások hangerejének megváltoztatása</string>
+    <string name="hrChangeInCallVolumeDescription">Átállítsuk-e a hívások/fülhallgató hangerejét a profil aktiválásakor</string>
+    <string name="hrSystemSoundsVolume">Rendszerhangok hangereje</string>
+    <string name="hrChangeSystemSoundsVolume">Rendszerhangok hangereje</string>
+    <string name="hrChangeSystemSoundsVolumeDescription">A profil aktiválásával átállítható a rendszerhangok hangereje</string>
+    <string name="hrLlamaIcon">Llama ikon</string>
+    <string name="hrChangeLlamaIcon">Llama ikon változtatása</string>
+    <string name="hrChangeLlamaIconDescription">Megváltozzon-e a Llama ikonja az értesítési sávon</string>
+    <string name="hrLlamaIcons">Llama ikonok</string>
+    <string name="hrSelectALlamaIcon">Válassz egy Llama ikont</string>
+    <string name="hrRingtoneVolumeDescription">A csengőhang hangerőszintje legyen:</string>
+    <string name="hrNotificationToneVolumeDescription">Az értesítések hangerőszintje legyen:</string>
+    <string name="hrChooseVibrateMode">Válassz jelzési módot</string>
+    <string name="hrChooseVibrateModeDescription">Csengetés/rezgés mód</string>
+    <string name="hrSelectARingtone">Válassz egy csengőhangot</string>
+    <string name="hrRingtones">Csengőhang</string>
+    <string name="hrSelectDefaultNotificationDescription">Válassz egy értesítési hangot</string>
+    <string name="hrNotificationTones">Értesítési hangjelzés</string>
+    <string name="hrMusicVolumeDescription">A zenék/média hangerőszintje legyen:</string>
+    <string name="hrAlarmDescription">A riasztások hangerőszintje legyen:</string>
+    <string name="hrInCallDescription">A hívások hangerőszintje legyen:</string>
+    <string name="hrSystemSoundDescription">A rendszerhangok hangerőszintje legyen:</string>
+    <string name="hrChangeRingtoneVolume">Csengőhang hangerejének átállítása</string>
+    <string name="hrChangeRingtoneVolumeDescription">Megváltozzon-e a hívásjelzés hangereje erre a profilra váltva</string>
+    <string name="hrChangeNotificationVolume">Értesítések hangerejének változtatása</string>
+    <string name="hrChangeNotificationVolumeDescription">Megváltozzon-e az értesítések hangereje erre a profilra váltva</string>
+    <string name="hrRingtoneVolume">Hívásjelzések hangereje</string>
+    <string name="hrAddAction">Művelet hozzáadása</string>
+    <string name="hrAddCondition">Feltétel hozzáadása</string>
+    <string name="hrRemove">Eltávolítás</string>
+    <string name="hrTestActions">Műveletek tesztelése</string>
+    <string name="hrNotificationIconOnlyError">Csak folyamatjelző ikon kirakása nem támogatott a Gingerbreadben :(</string>
+    <string name="hrThanksToTranslators">Sok köszönet a Llama fordítóinak:</string>
+    <string name="hrUnableToUpdateArea1">"Nem lehetséges a '%1s' terület frissítése, mert nem létezik :("</string>
+    <string name="hrToggleProfileChangesLock">Profilváltások letiltásának átállítása</string>
+    <string name="hrRebootBracketRequiresRootBracket">Újraindítás (Rootolást igényel)</string>
+    <string name="hrCarMode">Autós mód</string>
+    <string name="hrWiredHeadset">Vezetékes fülhallgató</string>
+    <string name="hrConditionsMatchAll">Feltételek (mind)</string>
+    <string name="hrConditionsMatchAny">Feltételek (bármelyik)</string>
+    <string name="hrSorryNoHelpYet">Bocs, ehhez még nincs súgó :(</string>
+    <string name="hrAirplaneModeEnterAreaWarning">Repülőgépes módban nem lehetséges a területek közötti váltás, mert nem csatlakozol egyetlen mobiltelefonhálózathoz sem!</string>
+    <string name="hrRebootSafetyMessage">"Légy óvatos a feltételekkel!
+A telefonnak legalább 5 perce mennie kell mielőtt újraindulhatna (elővigyázatossági okokból)"</string>
+    <string name="hrShutdownSafetyMessage">"Légy óvatos a feltételekkel!
+A telefonnak legalább 5 perce mennie kell mielőtt kikapcsolhatna (elővigyázatossági okokból)"</string>
+    <string name="hrBluetoothParingInfo">A bluetooth eszközödnek párosítva kell lennie a telefonoddal. Ha ez a lista üres, kapcsold be a bluetooth-t és próbálkozz újra.</string>
+    <string name="hrWifiNetworkInfo">"Ha ez a lista üres, kapcsold be a WiFit és próbálkozz újra. A hálózatnak hatótávolságon belül kell lennie, vagy a telefonnak 'emlékeznie' kell rá régebbről."</string>
+    <string name="hrAndroid22Only">Csak Android 2.2+</string>
+    <string name="hrKeyGuardBuggyWarning">FIGYELEM: Bugos! Lehet, hogy a home gomb nem fog addig működni, amíg újra nem engedélyezed a billentyűzárat. Ez még a SIM kártya zár fura viselkedéséhez is vezethet!</string>
+    <string name="hrMobileDataWarning">KÍSÉRLETI: Engedélyezned kell a mobil adatkapcsolatokat a telefon beállításokban</string>
+    <string name="hrLanguageDescription">A telefon alapértelmezett nyelvétől különböző nyelv használata</string>
+    <string name="hrLanguageBracketEnglishLanguageBracket">Nyelv</string>
+    <string name="hrTurnOnTheScreenDim">kijelző bekapcsolása alacsony fényerővel</string>
+    <string name="hrTurnOnTheScreenBright">kijelző bekapcsolása normál fényerővel</string>
+    <string name="hrTurnOnTheScreenBrightAndKeyboard">kijelző és gombok fényeinek bekapcsolása normál fényerővel</string>
+    <string name="hrTurnOffTheScreen">kijelző kikapcsolása</string>
+    <string name="hrErrorNotificationMode">Hibajelzések</string>
+    <string name="hrErrorNotificationModeDescription">Értesítés módja a háttérben való futáskor történtekről, mint például esemény hibák vagy profil lezárások</string>
+    <string name="hrLlamaErrorV2">Llama hiba - Kattints ide</string>
+    <string name="hrLlamaInfoV2">Llama infó - Kattints ide</string>
+    <string name="hrLlamaProblem">Llama probléma</string>
+    <string name="hrFailedToReadCalendar1">Hiba a %1s naptár olvasása közben. A hibajelzést kikapcsolhatod a Llama beállításaiban.</string>
+    <string name="hrRevertVolumeChanges">Hangerőgombok tiltása</string>
+    <string name="hrRevertVolumeChangesDescription">Visszaálljon-e a hangerő a jelenlegi profilbeállításra, ha véletlenül megnyomódik a hangerőgomb</string>
+    <string name="hrScreenOn">Kijelző be</string>
+    <string name="hrScreenOff">Kijelző ki</string>
+    <string name="hrWhenScreenIsOn">a kijelző bekapcsolásakor</string>
+    <string name="hrWhenScreenIsOff">a kijelző kikapcsolásakor</string>
+    <string name="hrScreenOnOff">Kijelző be/ki</string>
+    <string name="hrConditionScreenOnOffDescription">Ez a feltétel lehetővé teszi az esemény tiltását/engedélyezését a kijelző állapotától függően</string>
+    <string name="hrAutoRelinkVolumes">Hangerők összekötése</string>
+    <string name="hrAutoRelinkVolumesDescription">"Újra engedélyezve legyen-e a 'használja a bejövő hívás hangerejét az értesítésekhez' jelölőnégyzet, ha olyan profil aktiválódik, ahol ezek a hangerők egyeznek."</string>
+    <string name="hrTimeBetweenWarning">Ne felejts el másik eseményt is definiálni az ezen időintervallumon kívüli esetekhez!</string>
+    <string name="hrConditionWifiConnected">WiFi hálózathoz csatlakozva</string>
+    <string name="hrConditionWifiConnectedDescription">Akkor teljesül, amikor bármelyik kiválasztott WiFi hálózathoz csatlakozik a telefon, illetve érvényes marad a csatlakozás ideje alatt is.</string>
+    <string name="hrConditionWifiDisconnected">WiFi kapcsolat bontása</string>
+    <string name="hrConditionWifiDisconnectedDescription">Ez a feltétel akkor teljesül, ha a kiválasztott hálózatok kapcsolata bontásra kerül vagy nincsenek csatlakozva, illetve érvényes marad amíg a telefon egyikhez sem csatlakozik</string>
+    <string name="hrWhenWifi1Disconnects">a %1$s kapcsolat bontásakor</string>
+    <string name="hrWhenWifi1Connects">a %1$s kapcsolat csatlakoztatásakor</string>
+    <string name="hrNoSignalUnknown">Nincs térerő/ismeretlen</string>
+    <string name="hrNewProfile">Új profil</string>
+    <string name="hrColourEventList">Színes eseménylista</string>
+    <string name="hrColourEventListDescription">"Színesek legyenek-e az esemény feltételek az állapotuknak megfelelően.
+Zöld = igaz, vörös = hamis, aláhúzás = események kiváltva legutóbbi esemény tesztnél"</string>
+    <string name="hrActionUsbStorage">USB-tár</string>
+    <string name="hrActionUsbStorageDescription">Bekapcsolja az USB-tár módot. Ha a telefonod gyártója más USB módokat is hozzáadott (pl. Média szinkr., PC Suite), ez nem feltétlenül fog jól működni. TIPP: Készíts parancsikont a kezdőképernyőre az USB háttértár bekapcsolásához/leválasztásához. Nincs több idegesítő kattintgatás az értesítési sávon :)</string>
+    <string name="hrUsbStorageOn">USB-tár be</string>
+    <string name="hrUsbStorageOff">USB-tár ki</string>
+    <string name="hrUsbStorageToggle">USB-tár be/ki</string>
+    <string name="hrUsbStorageOnDescription">USB-tár bekapcsolása</string>
+    <string name="hrUsbStorageOffDescription">USB-tár kikapcsolása</string>
+    <string name="hrUsbStorageToggleDescription">USB-tár ki/bekapcsolása</string>
+    <string name="hrUsbToggleError">Nem sikerült átváltani az USB-tár módot</string>
+    <string name="hrActionMediaPlayer">Médialejátszó</string>
+    <string name="hrActionMediaPlayerDescription">"Ez a médialejátszónak küld parancsot, mint például 'lejátszás' és 'szünet'. Hasonló a headseten lévő gombok megnyomásához. Függ attól, hogy a médialejátszó programod támogatja-e ezeket a műveleteket, és nem mindegyik program fogja az összes parancsot támogatni."</string>
+    <string name="hrSendMedia1Button">%1s média gomb küldése</string>
+    <string name="hrUnknownArea">Ismeretlen terület</string>
+    <string name="hrNoisyContacts">Zajos kontaktok</string>
+    <string name="hrNoisyContactsDescription">Válassz kontaktokat, akiknek engedélyezed, hogy felülbírálják a profilban megadott beállításokat.</string>
+    <string name="hrNoisyContactRingerVolume">Zajos csengetés hangereje</string>
+    <string name="hrNoisyContactRingerVolumeDescription">Ezen a hangerőn fog csengeni a telefon, ha a zajos kontaktok egyike hív.</string>
+    <string name="hrNoisyContactPicker1Selected">Zajos kontaktok kiválasztása - %1s kiválasztva</string>
+    <string name="hr4GOn">4G be</string>
+    <string name="hr4GOff">4G ki</string>
+    <string name="hrActionToggle4G">4G</string>
+    <string name="hrActionToggle4GDescription">4G kapcsolat be vagy ki, ha a telefonod támogatja. Ha a telefonod nem 4G-s, még véletlenül megidézel egy szellemet egy borzalmas helyről.</string>
+    <string name="hrEnable4G">4G engedélyezése</string>
+    <string name="hrDisable4G">4G letiltása</string>
+    <string name="hr4GWarning">KÍSÉRLETI: Nincs a birtokomban 4G-s telefon a teszteléshez. Szívesen látom az adományokat!</string>
+    <string name="hrActionRunShortcut">App parancsikon futtatása</string>
+    <string name="hrActionRunShortcutDescription">Alkalmazás indítása a meghatározott parancsikont használva. Ezt mindenféle művelet más programok által való végrehajtására használhatod. Ha egy alkalmazás nem szerepel a listában, vagy az általad kívánt művelet nincs ott, tudasd az adott alkalmazás fejlesztőjével!</string>
+    <string name="hrChooseAShortcutToRun">Válassz egy parancsikont a futtatáshoz</string>
+    <string name="hrRunAShortcut">"'%1s' parancsikon futtatása"</string>
+    <string name="hrPleaseWait">Kis türelmet...</string>
+    <string name="hrGettingApplicationNames">Alkalmazás nevek lekérése...</string>
+    <string name="hrGettingShortcuts">Parancsikonok lekérése</string>
+    <string name="hrAnyWifiNetwork">&lt;Bármely WiFi hálózat></string>
+    <string name="hrInAirplaneMode">Repülőgépes mód engedélyezve</string>
+    <string name="hrNotInAirplaneMode">Repülőgépes mód letiltva</string>
+    <string name="hrWhenInAirplaneMode">repülőgépes mód engedélyezésekor</string>
+    <string name="hrWhenNotInAirplaneMode">ha a repülőgépes mód nem aktív</string>
+    <string name="hrConditionAirplaneMode">Repülőgépes mód</string>
+    <string name="hrConditionAirplaneModeDescription">A repülőgépes mód ki/bekapcsolásakor végzendő műveletekhez.</string>
+    <string name="hrTheApocalypse">Itt a világvége!</string>
+    <string name="hrEnableHapticFeedback">rezgő visszajelzés bekapcsolása</string>
+    <string name="hrDisableHapticFeedback">rezgő visszajelzés kikapcsolása</string>
+    <string name="hrActionHapticFeedback">Rezgő visszajelzés</string>
+    <string name="hrActionHapticFeedbackDescription">Ez a művelet a rezgő visszajelzést állítgatja. A rezgő visszajelzés az a rezgés, amit a kijelzőn lévő gombok nyomogatásakor csinál a telefon.</string>
+    <string name="hrHapticFeedbackOn">Rezgő visszajelzés be</string>
+    <string name="hrHapticFeedbackOff">Rezgő visszajelzés ki</string>
+    <string name="hrActionScreenOnWarning">Különböző telefonok különféleképpen viselkednek. Használd a kijelző fényerővel együtt, hogy a VALÓDI fényerőt állítsd.</string>
+    <string name="hrWifiSleepPolicyNever">A WiFi ne kapcsoljon ki soha</string>
+    <string name="hrWifiSleepPolicyNeverWhilePlugged">A WiFi ne kapcsoljon ki töltés közben</string>
+    <string name="hrWifiSleepPolicyScreenOff">A WiFi a képernyővel együtt kapcsoljon ki</string>
+    <string name="hrWifiSleepPolicyNeverDescription">WiFi alvó mód megelőzése</string>
+    <string name="hrWifiSleepPolicyNeverWhilePluggedDescription">WiFi alvó mód megelőzése töltés közben</string>
+    <string name="hrWifiSleepPolicyScreenOffDescription">WiFi alvó mód röviddel a kijelző kikapcsolása után</string>
+    <string name="hrActionWifiSleepPolicy">WiFi alvó mód irányelve</string>
+    <string name="hrActionWifiSleepPolicyDescription">Ez a művelet a speciális WiFi beállítást változtatja meg, ami a WiFi alvó mód irányelvét szabályozza. Megjegyzés: néhány telefonnál van egy kis késleltetés a képernyő kikapcsolása és az alvó mód aktiválása között.</string>
+    <string name="hrClearNotification">Töröld</string>
+    <string name="hrLeaveNotification">Hagyjad</string>
+    <string name="hrChangeWallpaperTo1">"háttérkép megváltoztatása erre: '%1s'"</string>
+    <string name="hrPleaseChooseAWallpaper">Háttérkép kiválasztása</string>
+    <string name="hrActionWallpaper">Háttérkép</string>
+    <string name="hrActionWallpaperDescription">"Lehetővé teszi, hogy a főképernyő háttérképét megváltoztasd. Ez az androidos háttérképválasztót fogja használni. Kiválaszthatsz egy képet a galériából. A megvágott kép el lesz mentve az SD kártyára a Llama/Wallpaper helyre.
+
+Az Android nem támogatja, hogy más programok beállítsák az élő háttérképet. :'("</string>
+    <string name="hrHowDoIChangeOtherStuff">Hol találom a többi beállítást?</string>
+    <string name="hrHowDoIChangeOtherStuffDescription">Ezen a képernyőn hangprofilokat lehet állítani. Ha a bluetooth-t, wifit, stb. akarod beállítani, menj vissza az Események fülre, és készíts eseményeket a parancsaid végrehajtására.</string>
+    <string name="hrConditionAppNotification">Alkalmazás értesítési sáv ikon</string>
+    <string name="hrConditionAppNotificationDescription">KÍSÉRLETI: Ez a feltétel akkor érvényes, amikor egy másik alkalmazás értesítési ikont helyez az értesítési sávra. A Llamát ehhez egy kisegítő szolgáltatásként kell beállítani. Műveletek végezhetők SMS vagy Google Csevegő üzenetek érkezésekor, vagy ha más alkalmazás ikont rak az értesítési sávra. FEJLESZTÉS ALATT, CSAK KOCKÁKNAK!</string>
+    <string name="hrConditionAppNotificationWarning">KÍSÉRLETI: Kérlek jelöld be a Llamát az Android beállítások kisegítő lehetőségek menüpontja alatt!</string>
+    <string name="hrKillWithRootDieDieDie1">%1s leölése root jogosultságokkal. Pusztulj!!!</string>
+    <string name="hrInvalidPackageNameToKill1">"Nem lehetett bezárni a '%1s' nevű csomagot, mert a név nem érvényes"</string>
+    <string name="hrIgnored">Mellőzött</string>
+    <string name="hrUnignoreCell">Cella figyelembe vétele</string>
+    <string name="hrIgnoreCell">Cella mellőzése</string>
+    <string name="hrIgnoreCells">Cellák mellőzése</string>
+    <string name="hrNoCellsIgnoredLongTapRecentTab">Nincs több figyelmen kívül hagyott cella. Kattints hosszan egy cellán a legutóbbi cellák fül alatti listában a mellőzéshez.</string>
+    <string name="hrIgnoreOtherCells">Más mellőzött cellák...</string>
+    <string name="hrIgnoreOtherCellsDescription">Néha előfordulnak olyan cellák, amelyek két területen is megjelennek rövid időre. Ezeket figyelmen kívül hagyhatod, hogy ne okozzanak nem kívánt terület elhagyási eseményt. Kattints hosszan a legutóbbi cellák listájában a figyelmen kívül hagyáshoz.</string>
+    <string name="hrAndFinally">És végül...</string>
+    <string name="hrCalendarEventDialogEventNameContains">Az esemény nevében előfordul... (több nevet függőleges vonallal választhatsz el)</string>
+    <string name="hrCalendarEventDialogInCalendars">Naptárakban...</string>
+    <string name="hrThisAreaHasNotBeenDefinedLongTapItOrLookInTheRecentTab">Ez a terület még nem tartalmaz cellákat. Kattints rajta hosszan, hogy a Llama megtanulja a környező cellákat, vagy</string>
+    <string name="hrActionScreenBrightnessWarning">Különböző telefonok különféleképpen kezelhetik a kijelző fényerejét. Lehet, hogy ki majd vissza kell kapcsolnod a kijelzőt, hogy a változtatások érvénybe lépjenek.</string>
+    <string name="hrAnyCalendarEvent">bármely naptári esemény</string>
+    <string name="hrAnyCalendar">bármely naptár</string>
+    <string name="hrCalendarEvents1ContainsAnyEvent">%1$s tartalmaz eseményt</string>
+    <string name="hrCalendarEvents1DoesNotContainAnyEvent">%1$s nem tartalmaz eseményeket</string>
+    <string name="hrCalendarEvents1Contains2">%1$s egy %2$s nevű eseményt tartalmaz</string>
+    <string name="hrCalendarEvents1DoesNotContains2">%1$s nem tartalmaz %2$s nevű eseményt</string>
+    <string name="hrCalendarEvents1ContainsAnyEventDescription">amikor %1$s bármilyen eseményt tartalmaz</string>
+    <string name="hrCalendarEvents1DoesNotContainAnyEventDescription">amikor %1$s nem tartalmaz eseményt</string>
+    <string name="hrCalendarEvents1Contains2Description">amikor %1$s tartalmaz egy %2$s nevű eseményt</string>
+    <string name="hrCalendarEvents1DoesNotContains2Description">amikor %1$s nem tartalmaz %2$s nevű eseményt</string>
+    <string name="hrCalendarEventNameSpaceWarning">Néhány naptár esemény név elején és végén szóközök vannak. Néhány Android billentyűzet automatikusan illeszt be szóközöket. Ha azok a szóközök nem szándékosan vannak ott, kattints a Szóközök törlésére.</string>
+    <string name="hrRemoveSpaces">Szóközök törlése</string>
+    <string name="hrLeaveSpaces">Szóközök meghagyása</string>
+    <string name="hrOnStartUp">Bekapcsolás után</string>
+    <string name="hrOnShutdown">Kikapcsolás előtt</string>
+    <string name="hrWhenPhoneBoots">a telefon indulásakor</string>
+    <string name="hrWhenPhoneShutsdown">a telefon kikapcsolásakor</string>
+    <string name="hrEnableRotation">elforgatás engedélyezése</string>
+    <string name="hrDisableRotation">elforgatás letiltása</string>
+    <string name="hrActionScreenRotation">Képernyő elforgatás</string>
+    <string name="hrActionScreenRotationDescription">Ezzel az automatikus képernyő elforgatást lehet állítani. A legtöbb telefonon csak két mód közül lehet választani: álló helyzet, vagy automatikus elforgatás álló és fekvő helyzet között.</string>
+    <string name="hrAllow1Rotations">kijelző elforgatás engedélyezve ennyi időre: %1s</string>
+    <string name="hrLockProfileFor1">profil lezárása ennyi időre: %1s</string>
+    <string name="hrForeverEternity">örökkévalóság (a profilok fülön újraengedélyezhető)</string>
+    <string name="hrLockProfileForever">profil lezárása örökre</string>
+    <string name="hrAlsoPreventOtherEventsFromChangingProfilesForDotDotDot_1">Profilzár aktiválása. Más események nem válthatnak profilt. Amikor a megadott idő eltelik, a Llama visszakapcsolja az előzőleg aktív profilt.</string>
+    <string name="hrCarDockOnOffDescription">autós mód ki/bekapcsolása</string>
+    <string name="hrCarDockOnOff">Autós mód ki/bekapcsolása</string>
+    <string name="hrCarDockOffDescription">autós mód kikapcsolása</string>
+    <string name="hrCarDockOff">Autós mód kikapcsolása</string>
+    <string name="hrCarDockOnDescription">autós mód bekapcsolása</string>
+    <string name="hrCarDockOn">Autós mód bekapcsolása</string>
+    <string name="hrActionCarMode">Autós mód</string>
+    <string name="hrActionCarModeDescription">Ez a művelet ki/bekapcsolja az autós módot</string>
+    <string name="hrCarModeNotSupportedByPhone">Az autós mód csak Android 2.2+ alatt támogatott</string>
+    <string name="hrFailedToStartShortcut1">%1s parancsikon futtatása nem sikerült</string>
+    <string name="hrLlamaFailedToChangeApnSettings">A Llama nem tudja megváltoztatni az APN beállításokat</string>
+    <string name="hrErrorReadingContacts">Névjegy olvasási hiba</string>
+    <string name="hrThereWasAnErrorReadingYourContacts">Hiba történt a névjegyek olvasása közben :(</string>
+    <string name="hrAlarmVolumeWarning">Figyelj az ébresztő alkalmazásokra. Némelyik a rendszertől függetlenül kezeli a saját hangerejét. Pl. néhány Samsung telefon ébresztője. Kérlek olyan ébresztő alkalmazást telepíts és használj, ami nem csinál ilyet.</string>
+    <string name="hrRunIntent1">"Android intent futtatása: '%1s'"</string>
+    <string name="hrCreateAnIntent">Android intent definiálása</string>
+    <string name="hrActionAndroidIntent">Android intent</string>
+    <string name="hrActionAndroidIntentDescription">Ezzel Android intentek indítására van lehetőséged. Ez egy haladó funkció és más alkalmazások közreműködése szükséges hozzá. A Llama tartalmaz néhány előre meghatározott intentet. Ha találsz újakat, kérlek tudasd róla a többieket :)</string>
+    <string name="hrPreset">Előbeállítás</string>
+    <string name="hrDashDashOrDashDash">-- VAGY --</string>
+    <string name="hrIntentEditPackageName">Csomag neve</string>
+    <string name="hrIntentEditClassName">Osztály neve</string>
+    <string name="hrIntentEditAction">Művelet</string>
+    <string name="hrIntentEditCategory">Kategóriák (vesszővel vagy függőleges vonallal (pipe) elválasztva)</string>
+    <string name="hrIntentEditData">Adat</string>
+    <string name="hrIntentEditDateType">Adattípus</string>
+    <string name="hrCustomAndroidIntent">Egyedi android intent</string>
+    <string name="hrIntentEditExtras">Extrák</string>
+    <string name="hrIntentEditAddExtra">"Új 'extra' sor hozzáadása"</string>
+    <string name="hrTpiWidgetLockerEnable">Widget Locker: Engedélyezés</string>
+    <string name="hrTpiWidgetLockerDisable">Widget Locker: Letiltás</string>
+    <string name="hrTpiWidgetLockerSuspend">Widget Locker: Felfüggesztés</string>
+    <string name="hrTpiWidgetLockerResume">Widget Locker: Visszatérés</string>
+    <string name="hrTpiWidgetLockerActivate">Widget Locker: Lezárás</string>
+    <string name="hrTpiWidgetLockerUnlock">Widget Locker: Feloldás</string>
+    <string name="hrTpiBeautifulWidgetsRefresh">Beautiful Widgets: Frissítés</string>
+    <string name="hrTpiAndroidStartHome">Android: Homescreen indítása</string>
+    <string name="hrTpiHoursBankStartStop">Hours Bank: Indítás/leállítás</string>
+    <string name="hrTpiDrivingModeWidgetOn">Autós mód widget: be</string>
+    <string name="hrTpiDrivingModeWidgetOff">Autós mód widget: ki</string>
+    <string name="hrIntentEditSendMode">Intent küldés mód</string>
+    <string name="hrAdvancedDotDotDot">Haladó...</string>
+    <string name="hrEventAdvancedDescription2">Esemény késleltetése, ismétlése, megerősítés és feltételszűrő</string>
+    <string name="hrRepeatEvent">Esemény ismétlése</string>
+    <string name="hrRepeatEventDescription">Az esemény műveletei folyamatosan végrehajtásra kerülnek, amíg a feltételek teljesülnek</string>
+    <string name="hrRepeatEventMinutes">Ismétlési időköz</string>
+    <string name="hrRepeatEventMinutesDescription">A műveletek ismételt végrehajtásai közötti idő.</string>
+    <string name="hrDelayEvent">Esemény késleltetése</string>
+    <string name="hrDelayEventDescription">Az esemény műveletei a feltételek teljesülése után csak a megadott időtartam elteltével fognak végrehajtódni</string>
+    <string name="hrDelayEventMinutes">Késleltetés (perc)</string>
+    <string name="hrDelayEventMinutesDescription">A feltételek teljesülése és a műveletek végzése között eltelt idő percben</string>
+    <string name="hrDelayEventSeconds">Késleltetés (másodperc)</string>
+    <string name="hrDelayEventSecondsDescription">A feltételek teljesülése és a műveletek végzése között eltelt idő másodpercben (gyors reflexekkel vagy OCD-vel rendelkező embereknek :) )</string>
+    <string name="hrCancelDelayedEvent">Nincs késleltetés ha hamis</string>
+    <string name="hrCancelDelayedEventDescription">Ha a késleltetett esemény feltételei már nem teljesülnek (a megadott idő letelte előtt), akkor a műveletek nem kerülnek végrehajtásra.</string>
+    <string name="hrEventRequireConfirmation">Megerősítés kérése</string>
+    <string name="hrEventRequireConfirmationDescription">Csak akkor hajtódnak végre a műveletek, ha azt megerősíted egy felugró ablakban.</string>
+    <string name="hrMoreInfoDotDotDot">Több infó...</string>
+    <string name="hrEventAdvancedDetailedDescription">"Ha több, mint egy haladó opció ki van választva:
+
+-Megerősítő üzenet csak a késleltetés leteltével jelenik meg
+
+-Az esemény ismétlése a megerősítés illetve késleltetés után indul."</string>
+    <string name="hrRepeatTriggerName">Ismételt esemény</string>
+    <string name="hrAfterDelayTriggerName">Késleltetett esemény</string>
+    <string name="hrConfirmationTriggerName">Felhasználó által megerősítve</string>
+    <string name="hrEventNameTriggerName">Eseménynév</string>
+    <string name="hrEventNameTriggerShortcutName">Eseménynév parancsikon</string>
+    <string name="hrEventNameTriggerShortcutCustom">Egyéni parancsikon</string>
+    <string name="hrEventNameTriggerEventEditor">Esemény szerkesztő teszt</string>
+    <string name="hrEventNameTriggerEventList">Eseménylista teszt</string>
+    <string name="hrEventNameTriggerSetLlamaVariableIntent">Külső Llama változó beállítása</string>
+    <string name="hrEventNameExternalSetLlamaVariable">Külső Llama változó beállítása</string>
+    <string name="hrTheEventNamed1NoLongerExists">"A '%1s' nevű esemény már nem létezik."</string>
+    <string name="hrWifiAccessPointMayNotBeSupported">A hordozható WiFi hotspot funkció lehet, hogy nem támogatott a telefonodon.</string>
+    <string name="hrEvent1RequiresConfirmation">"A '%1$s' nevű esemény engedélyt kér a következő műveletek végrehajtásához:"</string>
+    <string name="hrEventRequiresConfirmationFooter">Futtathatod a műveleteket most, elmentheted őket későbbre, vagy kitörölheted az értesítést.</string>
+    <string name="hrEventRequireConfirmationDialog">Megerősítési ablak</string>
+    <string name="hrEventRequireConfirmationDialogDescription">Jelenjen-e meg felugró ablak megszakítva az aktuális tevékenységet, vagy csak helyezzünk el egy ikont az értesítési sávra.</string>
+    <string name="hrEventConfirmationRunNow">Végrehajtás most</string>
+    <string name="hrEventConfirmationSaveForLater">Később</string>
+    <string name="hrEventConfirmationDontRun">Törlés</string>
+    <string name="hrRepeatingAt1">(Ismétlés: %1s)</string>
+    <string name="hrDelayedUntil1">(Késleltetve: %1s)</string>
+    <string name="hrAwaitingConfirmation">(Megerősítésre vár)</string>
+    <string name="hrWifiHotSpotOnOffDescription">WiFi hotspot mód be/ki</string>
+    <string name="hrWifiHotSpotOnOff">WiFi hotspot be/kikapcsolása</string>
+    <string name="hrWifiHotSpotOffDescription">WiFi hotspot ki</string>
+    <string name="hrWifiHotSpotOff">WiFi hotspot kikapcsolása</string>
+    <string name="hrWifiHotSpotOnDescription">WiFi hotspot be</string>
+    <string name="hrWifiHotSpotOn">WiFi hotspot bekapcsolása</string>
+    <string name="hrActionWifiHotSpot">WiFi hotspot</string>
+    <string name="hrActionWifiHotSpotDescription">Ez a művelet a WiFi hotspot módot aktiválja. Csak Android 2.2+</string>
+    <string name="hrScreenBrightnessWarning">Nem minden Android telefon egyenlő. Néhány készülék nem reagál a háttérvilágítás fényerejének változtatására amíg a képernyő ki majd be nem kapcsol.</string>
+    <string name="hrScreenBrightnessLowWarning">FIGYELEM: Némely készülék engedi a fényerőt olyan alacsony értékre állítani, hogy nem lehet látni semmit a kijelzőből. Használat csak saját felelősségre! Az aksi eltávolításával és/vagy újraindítással talán visszaállítható normálra.</string>
+    <string name="hrSpeakerphoneOnOffDescription">kihangosítás mód be/ki</string>
+    <string name="hrSpeakerphoneOnOff">Kihangosítás be/kikapcsolása</string>
+    <string name="hrSpeakerphoneOffDescription">kihangosítás ki</string>
+    <string name="hrSpeakerphoneOff">Kihangosítás kikapcsolása</string>
+    <string name="hrSpeakerphoneOnDescription">kihangosítás be</string>
+    <string name="hrSpeakerphoneOn">Kihangosítás bekapcsolása</string>
+    <string name="hrActionSpeakerphone">Kihangosító</string>
+    <string name="hrActionSpeakerphoneDescription">Ez a művelet a hívásközbeni kihangosítást kapcsolja. Csak a telefonhívásokat befolyásolja, más hanggal kapcsolatos dolgokat nem.</string>
+    <string name="hrDeviceAdminDescription">Néhány Llama művelet számára biztosít támogatást</string>
+    <string name="hrDeviceAdminNotSupported">A Készülék Adminisztrátor csak Android 2.2+ alatt támogatott</string>
+    <string name="hrDeviceAdminError">"A Llama nem kapott Készülék Adminisztrátor jogokat. Ellenőrizd a 'Hely és biztonság' pont alatt a rendszerbeállításokban."</string>
+    <string name="hrScreenOffError">A kijelzőt nem lehetett kikapcsolni</string>
+    <string name="hrActionChangePassword">Képernyőzár jelszó</string>
+    <string name="hrActionChangePasswordDescription">Ez megváltoztatja a képernyőzár jelszavát. A jelszó átmeneti törlésére használhatod, aminek hatására a képernyőzár nem fog megjelenni. A jelszó titkosított formában tárolódik, ami lehetséges, hogy tárolásra kerül az SD kártyán ha Llama adathiba történik, vagy manuálisan exportálod az adatokat. A jelszó a Llama biztonsági jelszóval lesz titkosítva, amely soha sem kerül tárolásra az SD kártyán. Mindazonáltal root jogosultsággal rendelkező alkalmazások elvileg olvashatják a Llama biztonsági jelszót. Ha módosítod a Llama biztonsági jelszót, akkor újra be kell írnod a jelszót a jelszó megváltoztatása műveletnél.</string>
+    <string name="hrChangePasswordError">Nem lehetett megváltoztatni a képernyőzár jelszavát</string>
+    <string name="hrThereWasAnErrorSavingYourPassword">Hiba történt a képernyőzár jelszavának mentésekor. Megváltoztattad a Llama biztonsági jelszavát? Kérlek próbáld meg újra beírni a képernyőzár jelszavát a művelet megadásánál.</string>
+    <string name="hrFailedToDecryptYourPassword">Nem sikerült a képernyőzár jelszó titkosításának feloldása, így az nem lett megváltoztatva.</string>
+    <string name="hrSecuritySettings">Biztonsági beállítások</string>
+    <string name="hrLlamaSecurityPassword">Llama biztonsági jelszó</string>
+    <string name="hrLlamaSecurityPasswordDescription">Az eseményekbeli bizalmas adatok titkosításához használt jelszó. Pl. képernyőzár jelszava</string>
+    <string name="hrLlamaSecurityPasswordDescriptionEx">"Az eseményekbeli bizalmas adatok titkosításához használt jelszó (Például: képernyőzár jelszava). Ez azért jó, mert így bizalmas adatok nem kerülnek egyszerű szöveges formában az SD kártyára amikor exportálod a beállításokat.
+
+Ha megváltoztatod ezt a jelszót, akkor képernyőzár jelszavának megváltoztatásával kapcsolatos műveleteket is újra meg kell adnod.
+
+A jelszóra csak akkor lesz szükséged újra, ha telefont cserélsz, vagy újratelepíted a Llamát."</string>
+    <string name="hrSetLlamaSecurityPasswordNow">Ajánlott, hogy beállítsd a Llama biztonsági jelszót. Ez az SD kártyára kiírt bizalmas adatokat védi. Ez különbözik a képernyőzár jelszavától és a Google fiókod jelszavától. Akarod most a Llama biztonsági jelszót beállítani?</string>
+    <string name="hrPleaseEnterALlamaSecurityPassword">Kérlek írd be az új Llama biztonsági jelszót, vagy nyomd meg a Mégsét a jelenlegi megtartásához.</string>
+    <string name="hrChangeScreenLockPassword">képernyőzár jelszó módosítása</string>
+    <string name="hrQueueEventActionValidation">Az eseménynek legalább egy feltételt kell tartalmaznia, vagy legalább egy perccel előre kell lennie ütemezve.</string>
+    <string name="hrActionQueueEvent">Másik esemény ütemezése</string>
+    <string name="hrActionQueueEventDescription">"Ezzel egy egyszeri jellegű eseményt hozhatsz létre. Arra használhatod, hogy egy meghatározott idő elteltével futtass műveletek egy másik csoportját. Amint az esemény bekövetkezett egyszer, törölve lesz.
+
+Ha az ütemezési időt és a feltételeket is megadod, az ütemezett esemény csak akkor kerül végrehajtásra ha a megadott feltételek még mindig teljesülnek az idő leteltével.
+
+Ha csak feltételeket adsz meg, az ütemezett esemény ezen feltételek teljesülésekor fog végrehajtódni."</string>
+    <string name="hrQueueEventMinutes">Ütemezési késleltés</string>
+    <string name="hrQueueEventSeconds">Ütemezési késleltés másodpercben</string>
+    <string name="hrQueueEventMinutesDescription">Az eredeti esemény utáni késleltetés percben. Ennek az eseménynek ennyit kell várnia mielőtt a feltételei ellenőrzésre kerülnek és a műveletei végrehajtódnak.</string>
+    <string name="hrQueueEventSecondsDescription">Az eredeti esemény utáni késleltetés másodpercben. Ennek az eseménynek ennyit kell várnia mielőtt a feltételei ellenőrzésre kerülnek és a műveletei végrehajtódnak.</string>
+    <string name="hrQueueAnEventNamed1After2Minutes">"'%1$s' nevű esemény ütemezése %2$s perc elteltével"</string>
+    <string name="hrQueueAnEventNamed1After2Seconds">"'%1$s' nevű esemény ütemezése %2$s másodperc elteltével"</string>
+    <string name="hrQueueAnEventNamed1After2Minutes3Seconds">"'%1$s' nevű esemény ütemezése %2$s perc %3$s másodperc elteltével"</string>
+    <string name="hrQueueAnEventNamed1">"'%1$s' nevű esemény ütemezése"</string>
+    <string name="hrWaitFor1Minutes">Várakozás %1$s percig</string>
+    <string name="hrWaitFor1Seconds">Várakozás %1$s másodpercig</string>
+    <string name="hrWaitFor1Minutes2Seconds">Várakozás %1$s perc %2$s másodpercig</string>
+    <string name="hrConditionAbbr">F</string>
+    <string name="hrActionAbbr">M</string>
+    <string name="hrYouHaveFiltersActive">A szűrő elrejtett néhány eseményt!</string>
+    <string name="hrEnterAScreenLockPassword">Írj be jelszót a képernyőzárhoz:</string>
+    <string name="hrConfirmScreenLockPassword">Jelszó megerősítése:</string>
+    <string name="hrPasswordsDontMatch">A beírt jelszavak nem egyeznek. Próbáld újra.</string>
+    <string name="hrPasswordHidden">Jelszó elrejtve</string>
+    <string name="hrPasswordErrorPleaseReenterItAgain">Jelszó hiba. Kérlek, írd be újra.</string>
+    <string name="hrEventActionAndConditionSettings">Esemény művelet és feltétel beállítások</string>
+    <string name="hrDefaultReminderTone">Emlékeztető jelzés hangja</string>
+    <string name="hrDefaultReminderToneDescription">Az emlékeztető művelet használatakor lejátszott értesítési hang</string>
+    <string name="hrWaitForConditions">Várakozás a feltételekre</string>
+    <string name="hrLongerProfileLock">Hosszabb profil lezárás</string>
+    <string name="hrLongerProfileLockDescription">A profil lezárás csúszkája 24 órát mutasson maximumként 8 helyett.</string>
+    <string name="hrCellPolling">Cella lekérdezési beállítások</string>
+    <string name="hrCellPollingDescription">A Llama alapesetben passzívan működik a jelenlegi cellát használva. Ezzel a beállítással a Llama alternatív cella lekérdezési eljárását lehet szabályozni.</string>
+    <string name="hrCellPollingWithWakeLock">Felébresztve lekérdezés alatt</string>
+    <string name="hrCellPollingWithWakeLockDescription">Maradjon ébren a telefon cella változás ellenőrzése közben. Szükséges néhány telefonnál.</string>
+    <string name="hrCellPollingWithScreenWakeLock">Kijelző be lekérdezés alatt</string>
+    <string name="hrCellPollingWithScreenWakeLockDescription">Bekapcsoljuk-e a kijelzőt röviden. FIGYELEM: Naponta több ezer ki-bekapcsolás lehetséges, hogy tönkreteszi a kijelződet. Fogalmam sincs, hogy tényleg így van, vagy sem, szóval használd saját felelősségedre!</string>
+    <string name="hrCellPollingActiveInterval">Cella lek. aktív ideje</string>
+    <string name="hrCellPollingActiveIntervalMillis">Az ezredmásodpercek max. száma, amíg a készüléket felébresztve tartsuk. Legjobb ha ezt nem állítod 5 másodpercnél hosszabbra, ha azt szeretnéd, hogy az aksi sokáig bírja.</string>
+    <string name="hrConfirmationTriggeredBy1Condition">Megerősítés a %1s feltétel által</string>
+    <string name="hrDelayTriggeredBy1Condition">Késleltetés indítva %1s feltétel által</string>
+    <string name="hrEventDelayCancelled">Késleltetés megszakítva, mert a feltételek már nem teljesültek</string>
+    <string name="hrEventRepeatingCancelled">Ismétlés megszakítva, mert a feltételek már nem teljesültek</string>
+    <string name="hrSetLlamaVariable1To2">"'%1$s' Llama változó értéke '%2$s'"</string>
+    <string name="hrPleaseEnterAVariableName">Kérlek add meg egy Llama változó nevét</string>
+    <string name="hrPleaseEnterAVariableValue">Kérlek adj meg egy Llama változó értéket</string>
+    <string name="hrVariableName">Változó neve</string>
+    <string name="hrVariableValue">Változó értéke (üresen hagyható)</string>
+    <string name="hrActionSetLlamaVariable">Llama változó</string>
+    <string name="hrActionSetLlamaVariableDescription">A Llama lehetővé teszi szövegek tárolását, amik alapján más események cselekedhetnek. Így akár szörnyen bonyolult esemény csoportokat is létrehozhatsz. A szövegeket névvel ellátott változókban tárolhatod. Több ilyen változód lehet. Ráadásképpen ezen változók a Minimalistic Text Widget (MTW) alkalmazásban is használhatóak. Az MTW-ben Locale változóként kell a Llama változókat megadni.</string>
+    <string name="hrDonateRequiresMarket">Hiba történt a Play Áruház indításakor. Támogatás csak az Áruházon keresztül lehetséges.</string>
+    <string name="hrWhen1HasAValueOf2">"amikor '%1$s' értéke '%2$s'"</string>
+    <string name="hrWhen1DoesNotHaveAValueOf2">"amikor '%1$s' értéke nem '%2$s'"</string>
+    <string name="hrWhen1HasAValueGreaterThan2">"amikor '%1$s' értéke nagyobb, mint '%2$s'"</string>
+    <string name="hrWhen1HasAValueGreaterThanOrEqualTo2">"amikor '%1$s' értéke nagyobb vagy egyenlő, mint '%2$s'"</string>
+    <string name="hrWhen1HasAValueLessThan2">"amikor '%1$s' értéke kisebb, mint '%2$s'"</string>
+    <string name="hrWhen1HasAValueLessThanOrEqualTo2">"amikor '%1$s' értéke kisebb vagy egyenlő, mint '%2$s'"</string>
+    <string name="hrConditionLlamaVariable">Llama változó</string>
+    <string name="hrConditionLlamaVariableDescription">Ez a Llama változó művelettel kapcsolatosan használható. A Llama változók aktuális értékein alapuló eseményeket hozhatsz létre.</string>
+    <string name="hrVariables">Llama változók</string>
+    <string name="hrAreYouSureYouWantToClearVariables">"Tényleg törölni akarod a változókat és értékeiket?
+
+Ez csak a változók használatának alaphelyzetbe állításához kell. Nem fogja okozni események végrehajtását."</string>
+    <string name="hrNoVariablesSet">"Nincsenek változók beállítva. Csinálj egy eseményt egy 'Llama változó' művelettel. A változó addig nem kapja meg az értékét, amíg az őt tartalmazó esemény nem futott még legalább első alkalommal."</string>
+    <string name="hrConfirmationDeniedTriggerName">Megerősítés visszautasítva</string>
+    <string name="hrForceNoisyContactRingtone">Zajos kontakt kényszerített csengetése</string>
+    <string name="hrForceNoisyContactRingtoneDescription">Egyes telefonok nem kezdenek csengőhangot játszani, amikor a néma mód aktív. Ehelyett játssza le maga a Llama a csengőhangot. Kapcsold ki, ha két csengőhangot hallasz.</string>
+    <string name="hrRepeatingEventWithNoConditionsWarning">"Ez az ismétlődő esemény nem rendelkezik feltételekkel, így soha sem lesz kiváltva
+
+Ha azt akarod, hogy mindig ismétlődjön, vedd fontolóra egy telefon újraindítás/indítás feltétel hozzáadását.
+
+Akarod most hozzáadni?"</string>
+    <string name="hrNotificationIconDots">Pontok száma</string>
+    <string name="hrColour">Szín</string>
+    <string name="hrTheNumberOfDotsToShowOnTheIcon">Az ikonon látszó pontok száma</string>
+    <string name="hr1Dots">%1s ponttal</string>
+    <string name="hr1Dot">%1s ponttal</string>
+    <string name="hrWith">ezzel:</string>
+    <string name="hrDontChangeDots">Ne változzanak a pontok</string>
+    <string name="hrPleaseChooseASoundToPlay">Válaszd ki a lejátszandó hangot</string>
+    <string name="hrNotificationIconMustChangeTheIconOrNumberOfDots">Az értesítési ikonnak meg kell változtatnia az ikont vagy a pontok számát</string>
+    <string name="hrAudioStream2">Válaszd ki a hangerőt és a csatornát amelyen keresztül a hang lejátszásra fog kerülni. Vagy választhatod az összes Llama által lejátszott hang leállítását</string>
+    <string name="hrStopQueuedSounds">hangok lejátszásának leállítása</string>
+    <string name="hrActionSoundPlayer">Hang lejátszása</string>
+    <string name="hrActionSoundPlayerDescription">"Ez egy csengőhangot vagy értesítési hangot fog lejátszani. Kiválaszthatod, hogy melyik audió csatornán játszódjon le a hang. Minden egyes csatorna saját hangerő szinttel rendelkezik. Ezeket a Llama a profilokon keresztül szabályozhatja.
+
+A hang teljes hosszában lejátszódik. A lejátszás megszakításához használd az értesítési ikont, ami a hang lejátszása alatt jelenik meg. Ez az ikon kikapcsolható a Llama beállításaiban."</string>
+    <string name="hrRingtonePickerType">Csengőhang kiválasztó típusa</string>
+    <string name="hrPlaySound1">"'%1s' hang lejátszása"</string>
+    <string name="hrEventColonSoundDescription">"%1$s: '%2$s' Lejátszása"</string>
+    <string name="hrChooseARingToneToPlay">Válassz csengőhangot</string>
+    <string name="hrNoneSelected">nincs kiválasztva</string>
+    <string name="hrCurrentRingtoneColon1">Jelenlegi csengőhang: %1s</string>
+    <string name="hrErrrMusicDescription">"Az Android beépített csengőhang választójával nem választhatsz ki zenét csengőhangként. De mivel az Android okosabb, mint gyümölcs alapú vetélytársa, használhatsz egy másik csengőhang kiválasztó alkalmazást!
+
+Én a Rings Extended-et ajánlom, melyet Dianne Hackborn (Google alkalmazott) készített.
+
+Legjobb ha elkerülöd az olyan alkalmazásokat, amelyek ingyen zenéket ígérnek, vagy pénzért kínálják a-hét-csengőhangját. Bárki, aki ilyen szolgáltatást használ, az idióta.
+
+Szóval, akarsz az Áruházban alternatív csengőhang kiválasztót keresni?"</string>
+    <string name="hrNoisyLlamaTapToStop">Zajos Llama - Katt a leállításhoz</string>
+    <string name="hrProblemStartingAndroidMarket">Probléma történt a Play Áruház indításakor :(</string>
+    <string name="hrUseTheNotificationToStopPlaying">Használd az értesítést a hang leállításához. Kapcsold be/ki a Llama beállításaiban.</string>
+    <string name="hrBulkOperations">Tömeges műveletek</string>
+    <string name="hrBulkOperationsDescription">Haladó dolgok gyors elvégzéséhez</string>
+    <string name="hrBulkDeleteCellsFromAreas">Cellák törlése a területekből. Hasznos, amikor mobilszolgáltatót váltasz.</string>
+    <string name="hrBulkDeleteMapPointsFromAreas">Térkép pontok törlése a területekből</string>
+    <string name="hrBulkDeleteWifiMacFromAreas">WiFi MAC címek törlése a területekből</string>
+    <string name="hrBulkDeleteWifiNameFromAreas">WiFi hálózati nevek törlése a területekből</string>
+    <string name="hrBulkDeleteBluetoothFromAreas">Bluetooth eszközök törlése a területekből</string>
+    <string name="hrBulkDeleteBeaconWarning">Biztos, hogy ezt akarod csinálni?! Csinálj biztonsági mentést arra az esetre, ha mégis meggondolod magad. Legjobb ha leállítod, majd újraindítod a Llamát ezután.</string>
+    <string name="hrActionTwoGThreeG">2G/3G (Csak moddolt telefonok)</string>
+    <string name="hrActionTwoGThreeGDescription">"**EZ CSAK OLYAN TELEFONOKON MŰKÖDIK, AMELYEK DIREKT MÓDOSÍTVA/HEKKELVE LETTEK A FUNKCIÓ TÁMOGATÁSÁHOZ** CyanogenMod 7 vagy újabb szükséges a funkció használatához. Ez az Android korlátozása. Az Android alapesetben NEM engedi más programok számára a hálózatok típusának szabályozását.
+
+Unalmas figyelmeztetést félretéve: ez a hálózat típus beállítását teszi lehetővé, amelyhez a telefonod csatlakozni fog. Ez Magyarországon (és Európában) GSM/WCDMA(UMTS) (Az USA-ban lehet CDMA is)"</string>
+    <string name="hrChangeNetworkTo1">hálózat váltása erre: %1s</string>
+    <string name="hrGpsEnableWarning">Megeshet, hogy ez nem működik! A GPS kapcsolása csak 2.2 vagy régebbi Android alatt lehetséges, vagy moddolt telefonokon. Ez egy biztonsággal kapcsolatos korlátozás, hogy megakadályozza az alkalmazásokat, hogy kémkedjenek utánad.</string>
+    <string name="hrActionKillAppWarning">Ez lehet, hogy nem működik! Az Android 2.2 és újabb verziók korlátozták az alkalmazások kilövésének hatékonyságát más alkalmazások által. Ha hekkelted/rootoltad a telefonodat, próbáld meg az alternatív műveletet.</string>
+    <string name="hrMilliAbbreviation">ms</string>
+    <string name="hrDelayFor1">%1s késleltetés</string>
+    <string name="hrRepeatedEventEditWarning">Módosítottál egy ismétlődő eseményt. Akarod a feltételek ellenőrzését most? Ha teljesülnek, akkor elkezdődik az ismétlés.</string>
+    <string name="hrQueuedEventDefaultName">Ütemezett esemény</string>
+    <string name="hrQueuedEventChangeDefaultNameTip">Minden esemény nevének egyedinek kell lennie. Az ütemezett esemény lehet, hogy nem jön létre, ha egy másik esemény már létezik ugyanazzal a névvel! Kérlek változtasd meg az esemény nevét.</string>
+    <string name="hrCalendarEventDialogExtraEventSettings">Az eseményeket a típusuk és elérhetőség alapján is szűrheted. Ha a naptár és esemény nevet nem adod meg, akkor a feltételed csak az alább megadott tulajdonságú naptári eseményekre fog reagálni (egész napos, elérhető, stb.)&lt;br>&lt;br>MEGJEGYZÉS: Különböző naptár típusok különbözőképpen működhetnek (pl. MS Exchange alkalmazások); &lt;u>kattints ide a naptár hibakereső nézetének megnyitásához.&lt;/u> Megnézheted, hogy a Llama szerint mi történik.</string>
+    <string name="hrCalendarDebugTitle1">Események a következő %1s percben</string>
+    <string name="hrCalendarEventMustBe">must be</string>
+    <string name="hrAllDay">egész napos</string>
+    <string name="hrNotAllDay">nem egész napos</string>
+    <string name="hrShownAsAvailable">elérhetőként mutatva</string>
+    <string name="hrNotShownAsAvailable">nem mutatva elérhetőként</string>
+    <string name="hrYourDeviceDoesNotSupportDeviceAdmin">A készüléked nem támogatja az Android Készülék Adminisztrátor funkcióját :(</string>
+    <string name="hrAlsoThanksTo">További köszönet:</string>
+    <string name="hrConditionAudioBecomingNoisy">Az audió hangos lesz</string>
+    <string name="hrConditionAudioBecomingNoisyDescription">Ez akkor érvényes, amikor a vezetékes fülhallgatóval vagy Bluetooth headset-tel megszűnik a csatlakozás. Néhány telefon erre gyorsabban reagálhat, mint más eseményekre.</string>
+    <string name="hrWhenAudioBecomesNoisy">amikor az audió hangos lesz</string>
+    <string name="hrConditionDeskDock">Asztali dokkoló</string>
+    <string name="hrConditionDeskDockDescription">"Ez a feltétel a telefon asztali dokkolóba helyezésekor használható események végrehajtására.
+
+Megjegyzés: a telefonodnak az Android normális asztali dokkolási módszerét kell támogatnia ehhez. Némely gyártó szereti megváltoztatni ezt, így a dokkolás nem feltétlenül működik az elvártnak megfelelően. Továbbá némely asztali dokkoló igazából csak egy olcsó, csúnya műanyagdarab, és nem igazi dokkoló, így a telefonod nem tudja, hogy dokkolva van."</string>
+    <string name="hrInDeskDock">Asztali dokkolóban</string>
+    <string name="hrNotInDeskDock">Nincs asztali dokkolóban</string>
+    <string name="hrWhenInDeskDock">amikor asztali dokkolóban van</string>
+    <string name="hrWhenNotInDeskDock">amikor nincs asztali dokkolóban</string>
+    <string name="hrActionSpeak">Felolvasás</string>
+    <string name="hrActionSpeakDescription">"Lehetővé teszi, hogy a Llama robothangon beszéljen hozzád. Llama változók felolvasására is használhatod, ekkor a változó nevét 2-2 kettős kereszt karakter közé kell írni. Pl: 'A lezárás ##LezarasEngedelyezve##'"</string>
+    <string name="hrSay1">"'%1s' felolvasása"</string>
+    <string name="hrActionLocalePlugin">Locale beépülő</string>
+    <string name="hrActionLocalePluginDescription">"**KÍSÉRLETI**
+Használhatod a népszerű Locale alkalmazás beépülőit. A beépülők letölthetők a Google Play áruházból. Némelyik ingyenes, némelyikért pénzt kell fizetned. A Llama NEM garantálja, hogy bármelyik beépülő teljesen jól fog működni!
+
+Jelenleg probléma van a szöveg és ikon alapú Locale beépülőkkel. Ezek lehet, hogy nem jelennek meg megfelelően, de azért működnek.
+
+Amikor egy Locale beépülőt konfigurálsz, a beállítások mentéséhez meg kell nyomnod a MENÜ gombot. A MENÜ gombos menüben a 'mentés' általában az utolsó elem."</string>
+    <string name="hrLocalePluginConfigMessage">"Néhány beépülő beállításait a MENÜ gomb listájának utolsó 'mentés' pontjának kiválasztásával kell elmentened!"</string>
+    <string name="hrRunLocalePlugin1Quotes2">"Locale beépülő futtatása '%1$s: %2$s'"</string>
+    <string name="hrChooseALocalePluginToRun">Válaszd ki a futtatandó Locale beépülőt.</string>
+    <string name="hrGettingLocaleActionPlugins">Locale beépülők elérése...</string>
+    <string name="hrInAppDonateBlurb">"Ha méltányolod a Llama fejlesztésével kapcsolatos erőfeszítéseimet, kérlek támogass egy kis pénzzel. Annyiszor támogathatsz, amennyiszer csak szeretnéd. Ha kiválasztasz egy elemet, továbbítalak a Google Play áruházba a folyamat elvégzéséhez. (Ott a ténylegesen fizetendő árakat is megláthatod.)
+
+Ezek csak tippek, hogy esetleg mit fogok venni a pénzen :) Köszi!"</string>
+    <string name="hrInAppThanksForDonating">Támogattál! Köszi!</string>
+    <string name="hrYouCanHideTheDonateMenu">Elrejtheted a támogatás menüpontot a Llama beállításokban :)</string>
+    <string name="hrHideDonateMenuItem">Támogatás menüpont elrejtése</string>
+    <string name="hrHideDonateMenuItemDescription">Köszönöm a támogatást. Most már elrejtheted a támogatás pontot a menüből. A Llama? gomb használatával továbbra is küldhetsz támogatást.</string>
+    <string name="hrRecheckDonation">Támogatás állapotának újraellenőrzése</string>
+    <string name="hrWhen1ShowsANotification">amikor %1s értesítést mutat</string>
+    <string name="hrChooseAnApp">Válassz egy alkalmazást</string>
+    <string name="hrAppStatus">Állapot:</string>
+    <string name="hrConditionActiveApp">Aktív alkalmazás</string>
+    <string name="hrConditionActiveAppDescription">Ez a feltétel akkor tud érvényes lenni, amikor egy alkalmazás az előtérbe vagy a háttérbe kerül. Ehhez a Llamának néhány száz ezredmásodpercenként meg kell kérdeznie a rendszert, hogy mi az aktuálisan aktív alkalmazás. Ez a lekérdezési időköz beállítható a Llama beállításokban</string>
+    <string name="hrActiveAppWatcherMillis">Aktív app lekérdezési időköz (ms)</string>
+    <string name="hrActiveAppWatcherMillisDescription">"Ha az 'Aktív alkalmazás' feltételt használod, a Llama ellenőrizni fogja a jelenlegi alkalmazást néhány száz ezredmásodpercenként. Rövidebb időközök esetén gyorsabban fog a Llama reagálni, de csökkentheti a telefonod általános teljesítményét. Én 200 ms és 1 s közötti értékeket javaslok."</string>
+    <string name="hrMIUIVolumeChangeWarning">"A MIUI legújabb verzióiban megjelent jogosultság menedzsment megakadályozza a Llamát a hívások hangerejének megváltoztatásában. Ez esetben ezt kell tenned:
+
+-Nyisd meg a super-user appot
+-Keresd meg a Llama app részleteit
+-Állítsd a 'Hívások figyelése' ('Monitor Calls') elemet engedélyezettre
+
+ Ez az engedély félrevezetően van elnevezve, és nem kellene a hangerő állítást befolyásolnia, de mégis így tesz. Grrr. A Llama NEM csinál semmi furcsa dolgot, mint pl. telefonbeszélgetések felvétele."</string>
+    <string name="hrNeverShowAgain">Ne mutasd többé</string>
+    <string name="hrThinkingDotDotDot">Gondolkodom...</string>
+    <string name="hrConditionGroupOr">VAGY (bármely)</string>
+    <string name="hrConditionGroupOrDescription">Ezzel a feltétellel létrehozhatod feltételek egy csoportját. Ha a csoportbeli feltételek közül BÁRMELYIK igaz, akkor fog a VAGY feltétel is igaz lenni.</string>
+    <string name="hrConditionGroupAnd">ÉS (mind)</string>
+    <string name="hrConditionGroupAndDescription">Ezzel a feltétellel létrehozhatod feltételek egy csoportját. Ha a csoportbeli feltételek közül MINDEGYIK igaz, akkor fog az ÉS feltétel is igaz lenni.</string>
+    <string name="hrAllowRetrigger">Kiértékelés újra</string>
+    <string name="hrAllowRetriggerDescription">Fussanak-e a műveletek újra abban az esetben, ha a feltételek már teljesülnek, de eközben az esemény egy másik feltétele is kiváltásra kerül.</string>
+    <string name="hrIcsNotificationUseRingVolumeWarning">"Az Ice Cream Sandwich (4.0+ verzió) nem teszi többé lehetővé, hogy az értesítések/jelzések hangereje különbözzön a hívásjelzés hangerejétől.
+
+Szerkeszd a profiljaidat ennek megfelelően. Ellenkező esetben a Llama helytelenül azt fogja gondolni, hogy a hangerő megváltozott, és aktiválja a profil lezárást.
+
+Android 4.0 - egy lépés előre, egy másik hátra :("</string>
+    <string name="hrRingerChangeNoVolumeWarning">A Llama most már igényli, hogy válassz egy hangerő szintet a csengésnek vagy értesítéseknek, amikor a módot csengésre vagy csengés/rezgésre állítod. Kérlek, módosítsd a profiljaidat ennek megfelelően.</string>
+    <string name="hrIcsApn">Az Ice Cream Sandwich (4.0+ verzió) már nem engedélyezi az alkalmazások számára az APN beállítások megváltoztatását</string>
+    <string name="hrWhatShouldLlamaSay">Mit mondjon a Llama:</string>
+    <string name="hrConditionCallState">Hívás állapota</string>
+    <string name="hrConditionCallStateDescription">"Ez a feltétel a hívások állapotán alapuló események létrehozásához használható. A beállítástól függően akkor teljesül, amikor
+-hívást kezdeményezel vagy hívás érkezik
+-a hívás befejeződik."</string>
+    <string name="hrExtraTtsCleanup">Beszéd tisztítás hack</string>
+    <string name="hrExtraTtsCleanupDescription">A felolvasó motor határozottabb ösztökélése a felolvasások befejezésekor. Akkor használd, amikor a zene nem működik felolvasások után.</string>
+    <string name="hrExtraTtsCleanupText">Beszéd hack szöveg</string>
+    <string name="hrExtraTtsCleanupTextDescription">"E szöveg 'felolvasása' a fenti hack esetén. Az alapértelmezett a pont '.', de némelyik felolvasó motor valóban kimondja azt, hogy 'pont'. Próbálkozhatsz kapcsos zárójellel, vagy függőleges vonallal: {}|"</string>
+    <string name="hrAudioStreamSpeakInfo">"Néhány audiófolyam (pl. csengetés és jelzések) a hangszórón és a fülhallgatón is lejátszódik. A zene/média csak a fülhallgatón keresztül kerül lejátszásra, ha az csatlakoztatva van.
+
+Ha a csengetés/jelzés folyamon keresztül megy a hang, azt tapasztalhatod, hogy a zene lejátszása megszakad. Ha ez történik, engedélyezd a 'Beszéd tisztítás hack' opciót a Llama beállításokban. Ez csak néhány telefon típus és felolvasó motor esetén történik. A Samsung felolvasója neveletlen. Rossz Samsung!"</string>
+    <string name="hrEnterSomeTextToSpeak">Írj be valamit, hogy a Llama felolvassa</string>
+    <string name="hrBilling_cannot_connect_message">Az alkalmazáson belüli vásárlás nem elérhető a telefonodon vagy a Market/Google Play verziódban.</string>
+    <string name="hrBilling_billing_not_available">Jelen pillanatban az alkalmazáson belüli vásárlás nem elérhető. Kérlek, próbáld meg később.</string>
+    <string name="hrBilling_learn_more">Több infó</string>
+    <string name="hrAdvancedRotationWarning">"Ez olyan telefonokon működik, amelyek módosított ROM-ja támogatja az egyedi elforgatási szögeket. Pl. CyanogenMod 7.
+
+Kerüld el az egyszerű és haladó elforgatási műveletek egyszerre való használatát. Használj 0° illetve 90° értéket a rendes beállításhoz való visszatéréshez.
+
+Az elforgatás lehet, hogy nem történik azonnal. Ez függ az adott ROM-tól."</string>
+    <string name="hrWhenTheCurrentAppIs1">ha %1s a jelenlegi alkalmazás</string>
+    <string name="hrWhenTheCurrentAppIsNot1">ha nem %1s a jelenlegi alkalmazás</string>
+    <string name="hrAndThen">utána</string>
+    <string name="hrEvery1minutes">%1s időközönként</string>
+    <string name="hrIcsHiddenNotificationIcon">Azt állítottad be a Llama-nak, hogy folyamat jellegű értesítést mutasson, de ikont ne. Az Android igazából nem engedi ezt. Az Ice Cream Sandwich előtt az alkalmazások használhattak egy teljesen átlátszó ikont, az értesítés idejét pedig egy messze jövőbeli értékre állították. Ennek következtében az átlátszó ikon mindig a jobb szélen helyezkedett el. Ez a trükk már nem használható. Kérlek, hogy állítsd át az értesítési ikon beállítását, valamelyik másik módra.</string>
+    <string name="hrChangeIconIfVolumeChanges">Ikon hangerő állításkor</string>
+    <string name="hrChangeIconIfVolumeChangesDescription">Megváltozzon-e az értesítési ikon egy figyelmeztető ikonra, amikor megváltoztatod a hangerőt.</string>
+    <string name="hrUnknownProfile">Ismeretlen profil</string>
+    <string name="hrFailedToWriteToLocationLog">Helyzet napló írása nem sikerült</string>
+    <string name="hrLlamaTrailSettings">Llama nyomkövetési beállítások (FEJLESZTÉS ALATT!!!)</string>
+    <string name="hrLlamaTrail">Llama nyomkövetés tárolása</string>
+    <string name="hrLlamaTrailDescription">Az összes látott cella eltárolása, így később megvizsgálhatod a mozgásodat. Pl. időtáblázatokhoz.</string>
+    <string name="hrLlamaTrailToSdCard">SD kártyára írás</string>
+    <string name="hrLlamaTrailToSdCardDescription">A Llama nyomkövetési fájlok tárolási helye az SD kártya legyen, vagy a telefon belső memóriája. Az SD kártyán való tárolás problémákat okozhat, ha gyakran használod az USB-tár funkciót.</string>
+    <string name="hrConditionScreenRotation">Kijelző elforgatás (jelenlegi app)</string>
+    <string name="hrConditionScreenRotationDescription">"Ez a feltétel lehetővé teszi, hogy a kijelző elforgatásának megfelelően végeztess műveleteket. Ez furcsán működhet Android 2.2 előtti verziók alatt, mert azok csak az álló/fekvő állapotokat jelentik. De szerencsére csak 1300-an ragadtatok meg Android 2.1-en.
+
+Ez csak akkor működik, ha a kijelző be van kapcsolva, és ha az aktuális alkalmazás támogatja az elforgatást. Így ezzel meglovagoljuk az Android saját szenzor figyelését, és nem használjuk feleslegesen az aksit."</string>
+    <string name="hrWhenScreenIsRotated1">amikor a kijelző elforgatása %1s</string>
+    <string name="hrEditArea">Terület szerkesztése</string>
+    <string name="hrRingtonePickerFailedToOpen">A csengőhang kiválasztó nem tudott rendesen elindulni. Lehet, hogy a telefonod nem támogatja az ilyen típusú kiválasztót :(</string>
+    <string name="hrRingtonePickerPickedSilent">"'néma' - ezt választottad a csengőhang kiválasztóban. Nyilvánvalóan nem lehet lejátszani egy néma hangot, így választanod kell egy másikat.
+
+Felteheted a kérdést, hogy egyáltalán miért hagytam, hogy a kiválasztó mutasson egy ilyen választási lehetőséget. Hát... ezért a Samsungnak jár köszönet. A Galaxy S csengőhang kiválasztója összeomlik ha arra kérem, hogy rejtse el a 'néma' lehetőséget.
+http://stackoverflow.com/q/5874372/
+
+3-ra... 1, 2, 3... Köszönjük Samsung! *éljenzés és tapsvihar*"</string>
+    <string name="hrApps2SdWarning">"A Llama az SD kártyára van telepítve. Ez úgy történhetett, ha a telefonod belső memóriájában kevés volt a szabad hely az alkalmazás telepítésekor, vagy te magad mozgattad a Llamát az SD kártyára.
+
+Kérlek, vedd figyelembe, hogy a Llamának háttérszolgáltatásként kell futnia. Amikor csatlakoztatod az USB kábeledet, és az USB-tár funkciót használod fájlok átviteléhez, a Llama szolgáltatása leáll, és nem fog tudni eseményeket detektálni, műveleteket futtatni.
+
+Amikor befejezted az USB-tár használatát, a Llama végülis újra fog indulni. Ezt a folyamatot felgyorsíthatod a kijelző kikapcsolásával.
+
+Ideális esetben, ha a hely engedi, telepítsd a Llamát a belső memóriába. Ehhez keresd elő a Llamát az Android alkalmazás kezelőjében a beállítások alatt."</string>
+    <string name="hrViewLlamaAppInfo">App infó</string>
+    <string name="hrWhenTheNextAlarmIsDue1">amikor a következő ébresztés esedékes (%1s)</string>
+    <string name="hrConditionNextAlarm">Ébresztés ideje</string>
+    <string name="hrConditionNextAlarmDescription">Ez a feltétel akkor teljesül, amikor a következő ébresztés esedékes. Ez csak az alap androidos ébresztővel működik, illetve azokkal az alkalmazásokkal, amelyek helyesen frissítik a NEXT_ALARM_FORMATTED Android beállítást.</string>
+    <string name="hrWhenTheresNoAlarmSet">amikor nincs ébresztő beállítva</string>
+    <string name="hrTheNextAlarmIs1AndHeresHowYouUseIt">"A következő ébresztés ideje:
+
+%1s
+
+Beállíthatod, hogy a feltétel akkor teljesüljön, amikor ez az ébresztés esedékes, vagy akkor teljesüljön, amikor nincsen ébresztés beállítva.
+
+Pl.
+
+amikor ébresztés esedékes -> emlékeztető mutatása
+
+-vagy-
+
+21:00 és 21:05 között, ha nincs aktív ébresztés -> rezgetés sokszor"</string>
+    <string name="hrTriggerWhenAlarmIsDue">Igaz ébresztés esetén</string>
+    <string name="hrTrueWhenNoAlarm">Igaz, ha nincs ébresztés beállítva</string>
+    <string name="hrEventGroupOptional">Esemény csoport (opcionális)</string>
+    <string name="hrNoGroupString">Nincs csoportosítva</string>
+    <string name="hrEventsNowGroupedEditEventNamesToGroup">Az eseménylista most csoportosítva van. Szerkeszd az eseményeket csoportok létrehozásához.</string>
+    <string name="hrEventsNotGrouped">Az eseménylista már nincs csoportosítva</string>
+    <string name="hrFilterViewSearch">Szűrés, lista stílus és keresés</string>
+    <string name="hrWhenUserIsPresent">amikor a felhasználó jelen van</string>
+    <string name="hrConditionUserPresent">A felhasználó jelen van</string>
+    <string name="hrConditionUserPresentDescription">Ez a feltétel a képernyőzár feloldásakor teljesül. Ha nincsen képernyőzár beállítva, akkor rögtön teljesül.</string>
+    <string name="hrWhenCallStateIs1">amikor az állapot: %1s</string>
+    <string name="hrCallStateInCall">hívás közben</string>
+    <string name="hrCallStateNotInCall">nincs hívás</string>
+    <string name="hrCallStateRinging">csengetés</string>
+    <string name="hrPleaseChooseOneOrTwoCallStates">Kérlek válassz EGY vagy KETTŐ hívási állapotot.</string>
+    <string name="hrDontCheckVolumeInCall">Híváskor hangerőállítás mellőzése</string>
+    <string name="hrDontCheckVolumeInCallDescription">"Néhány fajta telefon ostoba, és helytelenül jelentik a hangerőszinteket telefonhívás közben. Ez azt okozza, hogy a Llama azt hiszi, hogy megváltozott a hangerő, amikor igazából nem. Tegyél róla, hogy a 'Híváskor hangerőállítás mellőzése' opció be legyen kapcsolva, ha a Llama helytelenül zárja le a profilokat vagy ismeretlen profilra vált hívás közben."</string>
+    <string name="hrTheAction1CannotBeRunFromACustomShortcut">"A '%1s' művelet nem futtatható EGYEDI parancsikon által. Biztonsági okokból, kérlek, hozz létre egy eseményt e célból, és csinálj egy esemény parancsikont NÉVVEL."</string>
+    <string name="hrLlamaTonePicker">LlamaHang választó</string>
+    <string name="hrLlamaTones">LlamaHangok</string>
+    <string name="hrLlamaTonesDescription">A LlamaHangok lehetővé teszik más programok értesítési hangjainak profil alapján történő változtatását.</string>
+    <string name="hrLlamaTonesDetailedDescription">"A LlamaHangok lehetővé teszik más programok értesítési hangjainak az aktuális profil alapján történő változtatását.
+
+Az egyik profilodban hozz létre egy LlamaHangot, és adj neki egy beszédes nevet pl. Gmail. Ezután kiválaszthatod a csengőhangot, amely a Gmail értesítésekhez használandó e profil alkalmazása esetén.
+
+Ezt tedd meg a többi profil LlamaHangjával is, rendre a kívánt csengőhangokat kiválasztva.
+
+Az utolsó lépés, hogy meghatározzuk a Gmail ezt a LlamaHangot használja a jelzésekhez. Nyisd meg a Gmailt, és szerkeszd az értesítési beállításait. A csengőhang kiválasztásakor látni fogsz egy 'LlamaHang' menüpontot, itt válaszd ki a Gmail nevű LlamaHangot
+
+(Ez csak egy példa, nyilván bármely más programmal is működik, nem csak Gmail-lel)"</string>
+    <string name="hrCreateNewLlamaTone">Új LlamaHang</string>
+    <string name="hrTapToCreateANewLlamaTone">Katt új LlamaHang elnevezéséhez</string>
+    <string name="hrPleaseEnterNameForTheLlamaTone">Kérlek nevezd el az új LlamaHangot</string>
+    <string name="hrALlamaToneNamed1AlreadyExists">%1s nevű LlamaHang már létezik. Kérlek válassz másik nevet, vagy használd a meglévő LlamaHangot.</string>
+    <string name="hrCurrentlySetTo1">Jelenleg: %1s</string>
+    <string name="hr3rdPartyActionCrumb">Művelet</string>
+    <string name="hrYouHaventSetUpAnyLlamaTones">"Nem állítottál még be egy LlamaHangot sem. Kérlek szerkeszd valamelyik profilt a használat megkezdéséhez.
+
+A LlamaHangok lehetővé teszik más programok által lejátszott hangok változtatását a jelenlegi profiltól függően."</string>
+    <string name="hrDontChange">Ne változzon a LlamaHang</string>
+    <string name="hrCopyLlamaTonesToProfile">Válassz egy másik profilt a LlamaHang ok használatához</string>
+    <string name="hrCopyTo">Másolás...</string>
+    <string name="hrCopyToSelected">Másolás a kiválasztottba</string>
+    <string name="hrExportSuccess">Adat sikeresen exportálva</string>
+    <string name="hrDataNotExported">Az adat NEM lett exportálva!</string>
+    <string name="hrWhichTypeOfToneIsLlamaTone">Válassz egy csengőhang típust, vagy töröld ezt a LlamaHangot</string>
+    <string name="hrLlamaCouldntFindAnyRingtonePickers">"A Llama nem talált egy csengőhang kiválasztót sem.
+
+DOES NOT COMPUTE!!!"</string>
+    <string name="hrChooseARingtonePicker">Válassz egy csengőhang kiválasztót</string>
+    <string name="hrClearCancelLlamaTone">Törlés/LlamaHang elvetése</string>
+    <string name="hrCantSelectLlamaToneAsLlamaTone">"Nem választhatsz ki LlamaHangot LlamaHangkénti használatra.
+
+Ez véget vetne az univerzumnak."</string>
+    <string name="hrWhichProfiles">Melyik profil?</string>
+    <string name="hrMoanToGoogle">Nyavalyogjunk a Google-nál</string>
+    <string name="hrLeaveSettingsAlone">Hagyd</string>
+    <string name="hrMakeSettingsTheSame">Ugyanaz</string>
+    <string name="hrWhenWifiHotspotIsEnabled">ha a WiFi hotspot aktív</string>
+    <string name="hrWhenWifiHotspotIsDisabled">ha a WiFi hotspot nem aktív</string>
+    <string name="hrConditionWifiHotspot">WiFi hotspot</string>
+    <string name="hrConditionWifiHotspotDescription">Aktív-e a WiFi hotspot vagy sem. Ez az esemény nem teljesít feltételeket! Ezzel csak szűrni lehet más eseményeket!</string>
+    <string name="hrEnableAll">Összes engedélyezése</string>
+    <string name="hrDisableAll">Összes tiltása</string>
+    <string name="hrRenameGroup">Csoport átnevezése</string>
+    <string name="hrPleaseEnterANewGroupName">Írd be az új csoport nevét</string>
+    <string name="hrBrightnessCustomEventWarning">Egyedi parancsikonban nem lehet ilyen alacsonyra állítani a fényerőt. Csinálj egy eseményt és egy esemény parancsikont névvel helyette! Biztonsági okokból.</string>
+    <string name="hrRootedShutdownCommand">Root leállítási parancs</string>
+    <string name="hrRootedShutdownCommandDescription">Ezt a parancsot használja a Llama a telefon leállításához. Próbálj ki másikat, ha a telefonod rootolva van és nem működik a leállítás.</string>
+    <string name="hrRootedRebootCommand">Root újraindítási parancs</string>
+    <string name="hrRootedRebootCommandDescription">Ezt a parancsot használja a Llama a telefon újraindításához. Próbálj ki másikat, ha a telefonod rootolva van és nem működik az újraindítás.</string>
+    <string name="hrNearbyWifiDisableForHotSpot">Legyen WiFi hotspot barátságos</string>
+    <string name="hrNearbyWifiDisableForHotSpotDescription">Felfüggesszük-e a WiFi lekérdezést amikor a WiFi hotspot aktív. Ez csak azokon a telefonokon működik, amik az Android normál WiFi hotspot módszerét használják.</string>
+    <string name="hrWhatEventDescriptionsShouldIShow">Milyen esemény leírásokat mutassak?</string>
+    <string name="hrIcsRingerNotificationVolumeMessage">Az Ice Cream Sandwich már nem engedi, hogy különböző legyen a csengetési és a jelzési hangerő. Micsináljunk?</string>
+    <string name="hrDeviceAdminWarning">"Készülék Adminisztrátorként kell engedélyezned a Llamát bizonyos biztonsággal kapcsolatos Android funkciók elvégzéséhez. Ha a Llama eltávolítása mellett döntesz, LE KELL TILTANOD a Llamát, mint Készülék Adminisztrátor. Ezt az Android biztonsági beállításai alatt találod.
+
+Egyébként a rendszer egy felettébb informatív 'eltávolítás sikertelen' üzenetet fog dobni.
+
+Köszi, hogy emlékezni fogsz erre :)"</string>
+    <string name="hrInstantConfirmation">Azonnali megerősítés</string>
+    <string name="hrInstantConfirmationDescription">"Ha be van jelölve, akkor a Llama egy megerősítéses esemény műveleteit akkor fogja futtatni, amikor az értesítési sávban rákattintasz, felugró ablak mutatása nélkül. Ha nem akarod futtatni az eseményt, akkor a 'törlés' gombot kell használnod, vagy oldalra húzással eldobni az értesítést."</string>
+    <string name="hrWhenNfcTag1IsDectected">amikor a(z) %1s NFC címke érzékelve</string>
+    <string name="hrPleaseChooseAnNfcTag">Kérlek válassz egy NFC címkét</string>
+    <string name="hrConditionNfcTagDetected">NFC címke érzékelve</string>
+    <string name="hrConditionNfcTagDetectedDescription">"Ez a feltétel akkor teljesül, amikor a meghatározott NFC címkét detektálja a készüléked. Ehhez engedélyezni kell az NFC-t (sajnos ezt a Llama nem tudja szabályozni).
+
+A Llama nem értesül arról, ha egy NFC címke már nincs a közelben, tehát a feltétel csak a detektálás időpontjában teljesül.
+
+Ha ismétlődő eseményt szeretnél definiálni, használd a Llama változókat az NFC detektálás tényének eltárolására, majd később valamely más eseményt és feltételt a változó törlésére."</string>
+    <string name="hrDoYouWantToUseTheTag1InThisCondition">"Akarod használni a '%1s' címkét ebben a feltételben?"</string>
+    <string name="hrLlamaHasFoundATagPleaseNameIt">A Llama talált egy címkét! Kérlek adj neki egy barátságos nevet:</string>
+    <string name="hrTheFriendlyNameForNfcTag1WasModified">"A '%1s' NFC címke barátságos neve módosult"</string>
+    <string name="hrLlamaDoesNotKnowAboutAnyNfcTagsTapOneOnYourPhone">"A Llama nem ismer egy NFC címkét sem.
+
+Érints egyet a telefonodhoz az elnevezéséhez."</string>
+    <string name="hrYourPhoneDoesNotSupportNfc">A készüléked nem támogatja az NFC címkék olvasását :( Ennek javításához kérlek vásárolj egy új telefont, vagy használd a képzelőerődet... esetleg segíthet, ha pittyegő hangokat adsz ki.</string>
+    <string name="hrChooseAnNfcTagOrTapYourPhoneAgainstANewTag">Válassz egy ismert NFC címkét</string>
+    <string name="hrYouCanAlsoUseAnotherTagByTappingItOnYourPhone">Használhatsz másik címkét is, csak érintsd a telefonodhoz</string>
+    <string name="hrNfcIsNotCurrentlyTurnedOnTurnItOnToAddTags">Az NFC jelenleg nincs engedélyezve. Kapcsold be új címke hozzáadásához</string>
+    <string name="hrPleaseSeeTheKebabappsWebsiteToDonateToTranslators">Kérlek látogass el a Kebabapps honlapra a fordítók támogatásához!</string>
+    <string name="hrLocalLanguageName">English</string>
+    <string name="hrPlaySoundNotificationIcon">Értesítés hangok lejátszásakor</string>
+    <string name="hrPlaySoundNotificationIconDescription">Mutasson-e a Llama ikont az értesítő sávban, amikor a hanglejátszás művelete folyamatban van. Ha ezt kikapcsolod, akkor nem lesz meg a lehetőséged a hanglejátszás leállítására mielőtt az végetérne!</string>
+    <string name="hrConditionRoaming">Roaming</string>
+    <string name="hrConditionRoamingDescription">Ez a feltétel akkor teljesül, amikor a telefon roaming módja megváltozik.</string>
+    <string name="hrNotRoaming">Nincs roaming</string>
+    <string name="hrRoaming">Roaming</string>
+    <string name="hrWhenRoaming">roaming esetén</string>
+    <string name="hrWhenNotRoaming">ha nincs roaming</string>
+    <string name="hrManageSavedNfcTags">NFC címkék kezelése</string>
+    <string name="hrManageSavedNfcTagsDescription">Kattints ide az elnevezett NFC címkék kezeléséhez</string>
+    <string name="hrDeleteTag">Címke törlése</string>
+    <string name="hrWatchForNfcTags">NFC érzékelés engedélyezése</string>
+    <string name="hrWatchForNfcTagsDescription">A Llama kísérje-e figyelemmel az NFC címkéket. Ha másik alkalmazást használsz az NFC címkék érzékelésére, érdemes ezt kikapcsolnod. Ez az opció nincs hatással a készüléked globális NFC beállítására.</string>
+    <string name="hrCancelTagReading">NFC címkék keresésének leállítása</string>
+    <string name="hrFailedToDecodeIntentInEvent1">"Az '%1s' eseménybeli Intent dekódolása sikertelen"</string>
+    <string name="hrShareEvent">Esemény megosztása</string>
+    <string name="hrShareLlamaEvent">Llama esemény megosztása</string>
+    <string name="hrConditionMobileData">Adatok engedélyezése</string>
+    <string name="hrConditionMobileDataDescription">"Ez a feltétel igaz, amikor az 'Adatok engedélyezése' jelölőnégyzet be van jelölve, különben hamis. Ez egy hivatalosan nem dokumentált Android API-n alapul. A MŰKÖDÉSE NEM GARANTÁLT minden készüléken.
+
+Udvariasan tudasd Google-lel, hogy te szeretnéd ha ez lehetséges lenne, és akkor talán implementálnak hozzá egy rendes API-t.
+
+Ez a feltétel pár másodpercig késleltetődik, amíg valami belső Androidos mobil adat intent le nem fut."</string>
+    <string name="hrWhenMobileDataEnabled">ha az adatok engedélyezve</string>
+    <string name="hrWhenMobileDataDisabled">ha az adatok letiltva</string>
+    <string name="hrMobileDataEnabled">Adatok engedélyezve</string>
+    <string name="hrMobileDataDisabled">Adatok letiltva</string>
+    <string name="hrConditionMobileDataConnected">Adatkapcsolatok</string>
+    <string name="hrConditionMobileDataConnectedDescription">Ez a feltétel akkor teljesül, amikor a készülék egy mobil adathálózathoz kapcsolódik (vagyis G,E,3G vagy H). Elképzelhető, hogy működik LTE/WiMax hálózaton is, de nem tudom, hogy ezek hogyan viselkednek, mert az UK beragadt a sötét középkorba. Patkányok futkosnak az utcákon, és még mindig adják a Fekete Viperát.</string>
+    <string name="hrWhenMobileDataConnected">ha a mobil adat kapcsolódva</string>
+    <string name="hrWhenMobileDataNotConnected">ha a mobil adat nincs kapcsolódva</string>
+    <string name="hrMobileDataConnected">Mobil adat kapcsolódva</string>
+    <string name="hrMobileDataNotConnected">Mobil adat nincs kapcsolódva</string>
+    <string name="hrLlamaToneRateLimitHint">"LlamaHang gyakoriság korlátozás:
+Használd a csúszkát annak szabályozására, hogy milyen gyakran történjen jelzés. Hasznos a Gtalk esetén vagy más üzenetküldő alkalmazásoknál."</string>
+    <string name="hrRateLimit1SecondsSilence">%1s másodperc csend</string>
+    <string name="hrNoRateLimiting">Nincs gyakoriság limit</string>
+    <string name="hrNowPickALlameTone">Válassz egy LlamaHangot</string>
+    <string name="hrSocialImportWarning">Egy Llama eseményt szándékozol importálni. Ellenőrizd, hogy nem fog-e valami kártékony dolgot csinálni.</string>
+    <string name="hrTheChoiceIsYours">A választás a tiéd...</string>
+    <string name="hrImportLlamaEvent">Llama esemény importálása</string>
+    <string name="hrAddToLlama">Hozzáadás a Llama-hoz</string>
+    <string name="hrEventImported">Importálva</string>
+    <string name="hrRingtoneChangeError1">"A Llama nem tudta megváltoztatni a '%1s' profil csengőhangját. Kérlek, válaszd ki a csengőhangot újra."</string>
+    <string name="hrLlamaFormatterInfo">"Ez a képernyő lehetővé teszi az NFC címkék formázását a Llama-val való használathoz.
+
+Ez szükséges ahhoz, hogy a címke megbízhatóan detektálható legyen, ahelyett hogy a 'címke található' felugró jelenne meg mindig.
+
+Érintsd a címkét a telefonodhoz a formázáshoz. Ez minden meglévő adatot eltávolít a címkéről. A címke NEM lesz csak olvashatóként megjelölve.
+
+Ha sikerült a formázás, használhatod a címkét a feltételekben. Ha a Llama még nem látta eddig ezt a címkét, akkor kérni fogja, hogy nevezd el."</string>
+    <string name="hrKey">Kulcs</string>
+    <string name="hrValue">Érték</string>
+    <string name="hrCouldNotConvertExtra3">"'%2$s' nem konvertálható erre: '%3$s'. '%1$s'"</string>
+    <string name="hrIntentEditSetKeyBlankToDelete2">Állíts a kulcs mezőt üresre az adott sor eltávolításához. A változóneveket vedd körül dupla hash-sel a string extrában való kiterjesztéséhez. (pl. ##változónév##)</string>
+    <string name="hrAirplaneModeStupidness">Az Android úgy határozott, hogy a repülős mód biztonsági beállításnak minősül. A Llama csak úgy tudja állítgatni a repülőgépes módot, ha a készüléked rootolva van. Hibáztasd a Google-t ezért. Rossz Google! Ne változtass meg dolgokat rosszabbra alternatívák nélkül.</string>
+    <string name="hrResolveContentUris">Content URI-k feloldása hanglejátszáshoz</string>
+    <string name="hrResolveContentUrisDescription">Az Androidos csengőhangválasztók általában egy content:// URI-t adnak vissza, ami a média adatbázisban mutat egy számazonosítóra. Ha készülékek között viszel át beállításokat, vagy ROM-ot váltasz, ugyanaz a fájl nem biztos, hogy ugyanazon azonosító alatt lesz elérhető. Ennek az opciónak az engedélyezésével a Llama a kiválaszott fájl elérési útját fogja eltárolni az azonosító helyett, és ez lesz használva a LlamaHangokhoz, és hang lejátszáshoz.</string>
+    <string name="hrAdvancedVariableActions">Növelés/csökkentés/stb.</string>
+    <string name="hrSetLlamaVariableIncrement1">"'%1$s' Llama változó növelése"</string>
+    <string name="hrSetLlamaVariableDecrement1">"'%1$s' Llama változó csökkentése"</string>
+    <string name="hrSetLlamaVariableToggle01">"'%1$s' Llama változó váltása 0 és 1 között"</string>
+    <string name="hrAdvancedVariableConditions">Nagyobb/kisebb/stb.</string>
+    <string name="hrIcsSystemVolumeMessage">"Az újabb Android verziók (4.0+) nem nagyon törődnek a rendszer hangerővel többé.
+
+Valójában előfordulhat hogy a csengőhang hangereje az általad beállított rendszer hangerőre állítódik.
+
+VALÓSZÍNŰLEG érdemes NEM BEJELÖLNI a rendszerhangok jelölőnégyzetet.
+
+Nyomj a mentésre, hogy a profil változtathassa a rendszerhangerőt, vagy a mégsére a profil szerkesztéséhez."</string>
+    <string name="hrSignalLevelAbove1">Térerő %1sdBm fölött</string>
+    <string name="hrSignalLevelBelow1">Térerő %1sdBm alatt</string>
+    <string name="hrWhenSignalGoesBelow1">ha a térerő %1sdBm alá megy</string>
+    <string name="hrWhenSignalRisesAbove1">ha a térerő %1sdBm fölé megy</string>
+    <string name="hrCurrentStrengthColon1">Jelenlegi térerő: %1sdBm</string>
+    <string name="hrSignalStrengthDialogHint">"A fenti szám a telefonod jelenlegi térerejét mutatja. GSM hálózatoknál ez -113 (nincs térerő) és -51 (teljes térerő) között változhat.
+
+A Llama mesterségesen egy -150-es értéket fog jelenteni repülőgépes módban, illetve ha nincs szolgáltatás. Megjegyzés: vannak olyan bolond telefonok, amelyek jó térerőt mutatnak még akkor is amikor pl. több méter mélyen a csővasúton vagy.
+
+Érdemes lehet az alacsony térerő feltételt egy 'mobil adat nincs kapcsolódva' feltétellel kombinálni, mert az megbízhatóbb módja a működő kapcsolat detektálásának."</string>
+    <string name="hrVisitWebsite">Weboldal megnyitása</string>
+    <string name="hrBrokenWifiToggleUpdateDeviceStats">"A készüléked szoftverének van egy szörnyű hibája, ami megakadályozza, hogy a Llama ki-bekapcsolja a WiFi-t.
+
+A hiba jelentve van a code.google.com-on.
+
+Kérlek, ellenőrizd, hogy elérhető-e frissítés a készülékedhez, vagy a custom ROM-odhoz.
+
+Időközben érdemes eltávolítanod minden wifi kapcsoló műveletet, vagy letiltani a megjelenő üzenetet. Továbbá érdemes feliratkozni a hibajegyre a code.google.com-on. Ehhez nyomj a 'Weboldal megnyitása' gombra."</string>
+    <string name="hrCouldNotResolveContentUri">Az elemet nem lehetett elérési útra feloldani, így content URI-ként lesz eltárolva.</string>
+    <string name="hrLlamaCouldNotGetRootAccess">A Llama nem kapott root jogosultságot időben. Kérlek, ellenőrizd a SU alkalmazásodat.</string>
+    <string name="hrAddNewArea">Új terület</string>
+    <string name="hrAddNewEvent">Új esemény</string>
+    <string name="hrSearchEventsByNameAndDescription">Esemény keresése név vagy leírás alapján</string>
+    <string name="hrShowEventsGroupedOrFlat">Események mutatása csoportosítva vagy listában</string>
+    <string name="hrAddNewProfile">Új profil</string>
+    <string name="hrProfileLock">Profilváltás tiltása</string>
+    <string name="hrProfileUnlock">Profilváltás engedélyezése</string>
+    <string name="hrShowHelpMenu">Súgó megjelenítése</string>
+    <string name="permSetLlamaVariable">Llama változó beállítása</string>
+    <string name="permSetLlamaVariableDescription">Engedélyezi, hogy az alkalmazás beállítson Llama változókat. Ez okozhatja a Llama változókat használó események váratlan aktiválódását.</string>
+    <string name="hrBrokenWifiToggleMultiuser">"Áááá! A Llama majdnem összeesett a készüléked wifi állapotának megváltoztatása közben. Lehet, hogy megváltozott, lehet, hogy nem, mindenesetre a készüléked majdnem megölte a Llama-t.
+
+A készüléked elvárja, hogy a Llama rendelkezzen az 'android.permission.INTERACT_ACROSS_USERS_FULL' vagy 'android.permission.INTERACT_ACROSS_USERS' engedéllyel a WiFi állapot megváltoztatásához.
+
+Ezek rendszerszintű jogosultságok, amelyekkel a Llama soha sem rendelkezhet :'( Kérlek ellenőrizd, hogy elérhető-e szoftverfrissítés a készülékedhez illetve ROM-odhoz."</string>
+    <string name="hrWhenMccMncIs12">amikor a telefonhálózat kódja: %1$s:%2$s</string>
+    <string name="hrWhenMccMncIsNot12">amikor a telefonhálózat kódja nem ez: %1$s:%2$s</string>
+    <string name="hrConditionMobileNetworkId">Mobilhálózat azonosító</string>
+    <string name="hrConditionMobileNetworkIdDescription">"Ez a feltétel az aktuális hálózati azonosítón alapul. Ez két részből tevődik össze: egy országazonosító és egy hálózatazonosító. A 'Cellák' fül alatt láthatod a jelenlegi számokat (Az 1. a cella, a 2. az ország, a 3. a hálózat ID), de utánanézhetsz a Wikipédián is."</string>
+    <string name="hrMccMncHelpText">Ez a feltétel az aktuális hálózati azonosítót használja. Az MCC az országkód, az MNC pedig a hálózati kód. Ha üresen hagyod a mezőt, akkor bármely érték elfogadott.</string>
+    <string name="hrAllowedTriggers">Feltételszűrés</string>
+    <string name="hrAllowedTriggersDescription">A Llama akkor hajt végre egy eseményt, amikor minden feltétele teljesül, illetve legalább egy feltétel előidézte a kiváltást. Ezzel az opcióval megelőzheő, hogy bizonyos típusú feltételek végrehajtást váltsanak ki. Vedd ki a jelölőnégyzetet az adott feltételnél a kiváltás megelőzéséhez.</string>
+    <string name="hrEventFilteringPleaseAddSomeConditions">Kérlek, adj néhány feltételt az eseményhez! Ezután lehetővé válik azoknak kiválasztása, amelyeket nem szeretnéd, hogy kiváltó okként működjenek.</string>
+    <string name="hrNfcFormatSuccess">A címke sikeresen formázva Llama címkeként! Megformázhatsz egy másikat is, vagy csak használjuk ezt.</string>
+    <string name="hrFormatFailHelp">"Nem sikerült a címke formázása a Llama számára.
+
+Megpróbálhatod manuálisan formázni az 'NFC Tag Writer' app telepítésével a Play Store-ból, majd ráírni a következő speciális Llama URL-t:
+
+%1s"</string>
+    <string name="hrRingerSilentButHasVolumes">"Kiválasztottál egy csengőhangot vagy az értesítési hangerőt, de a csengetési mód némára vagy rezgőre van állítva.
+
+Kérlek állítsd át csengésre vagy csengés+rezgésre, vagy állítsd a csengőhang vagy értesítési hangerőt nullára."</string>
+    <string name="hrPasteLlamaUrl">Írd vagy illeszd be a Llama URL-t a mezőbe:</string>
+</resources>

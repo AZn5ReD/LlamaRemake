@@ -1,0 +1,1260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Llama</string>
+    <string name="hrChoosePreset">Izberi prednastavljeno...</string>
+    <string name="hrTapRhythm">Določi ritem</string>
+    <string name="hrTest">Testiraj</string>
+    <string name="hrReset">Ponastavi</string>
+    <string name="hrVibrateDialogMessage">Izberi prednastavljeno -ALI- Določi ritem -ALI- Vnesi vzorec ročno (uporabi prednastavljeno kot primer)</string>
+    <string name="hrCalendarEventDialogMessage">"Ta pogoj se nanaša na imena dogodkov v koledarju. Izbereš lahko začetek ali konec dogodka v koledarju.
+
+Pogoj je izpolnjen tudi, če se s ključno besedo ujema samo del imena dogodka v koledarju. Če kot ključno besedo uporabite npr. 'sestanek', bo pogoj izpolnjen, kadar je koledarskemu dogodku ime 'Poslovni sestanek' kot tudi 'Nepomemben sestanek'."</string>
+    <string name="hrNotificationTitle">Llama</string>
+    <string name="hrIntroText">"Jaz sem Llama, mobilna aplikacija, ki zazna tvoj položaj. Za to uporabljam mobilne bazne postaje, tako da ne trošim energije za iskanje GPS-signala. Za začetek potrebujem malček treninga. Prosim, izberi zavihek Območja in mi povej, kje se trenutno nahajam.
+
+Če se ti zdim uporabna, lahko doniraš s pritiskom na Meni in nato Doniraj.
+
+Svoje mnenje lahko sporočiš na kebabapps@gmail.com"</string>
+    <string name="hrCommonTip1">Da bo Llama lahko prepoznala tvoja priljubljena območja, jo moraš strenirati.</string>
+    <string name="hrCommonTip2">Nenatovorjena Llama lahko doseže hitrost 45 km/h.</string>
+    <string name="hrCommonTip3">Llama, lama in dva slona!</string>
+    <string name="hrCommonTip4">Nisem v sorodu z Dalajlamo.</string>
+    <string name="hrCommonTip5">Llama je mobilna aplikacija, ki zazna tvoj položaj.</string>
+    <string name="hrCommonTip6">Llame so kot kamele, samo bolj kul!</string>
+    <string name="hrAreasTip1">Če z uporabo mobilnih baznih postaj ne moreš dovolj natančno določiti svoje lokacije, poizkusi še druge možnosti v Eksperimentalnih nastavitvah</string>
+    <string name="hrAreasTip2">Z dolgim pritiskom lahko Llamo naučiš, kje se nahajaš</string>
+    <string name="hrEventsTip1">"S pritiskom na gumb 'zgodovina' lahko pogledaš dogodke, ki so se zgodili."</string>
+    <string name="hrEventsTip2">"S pritiskom na gumb 'zgodovina' lahko pogledaš, kaj je sprožilo dogodek."</string>
+    <string name="hrProfilesTip1">Če odhajaš na sestanek, lahko Llami preprečiš spreminjanje profila s pritiskom na gumb z obešanko</string>
+    <string name="hrProfilesTip2">Z dolgi pritiskom na profil ga lahko hkrati aktiviraš in zakleneš</string>
+    <string name="hrProfilesTip3">Preveri Nastavitve, da ne bi Llama ponastavila glasnosti, ko uporabljaš gumbe za nastavitev glasnosti</string>
+    <string name="hrRecentTip1">"Če opaziš 'Ni dodana v nobeno območje' med ostalimi območji, klikni celico in pouči Llamo, kam ta celica spada"</string>
+    <string name="hrHelpAreas">"Ta zavihek prikazuje območja, ki se jih je Llama naučila prepoznavati. Llama prihaja z dvema prednastavljenima območjema: Doma in Služba. Seveda pa Llama ne ve, kje stanuješ ali delaš, zato jo moraš tega naučiti. Da lahko to storiš, pa moraš biti fizično na tej lokaciji.
+
+Z dolgim pritiskom na območje določiš trenutno lokacijo, z gumbom + pa dodaš novo območje. Llama te bo vprašala, kako dolgo nameravaš ostati. V tem času si bo Llama zapomnila bazne postaje v bližini in to območje prepoznala, ko se vrneš.
+
+Ta seznam prikazuje tudi število baznih postaj (znanih tudi kot celice), ki določa vsako območje. Uporabiš lahko tudi nekatere eksperimentalne načine določanja lokacije, le vključiti jih moraš v nastavitvah Llame (glej Eksperimentalno)."</string>
+    <string name="hrHelpEvents">"Ta zavihek prikazuje dogodke, ki jih zna Llama izvesti. Llama ima nekaj prednastavljenih dogodkov, ki jih lahko spremeniš, izbrišeš ali pa dodaš nove. Llama bo izvedla dejanja za ta dogodek, ko bodo izpolnjeni vsi pogoji.
+
+Večinoma se dogodki pojavljajo v parih; z enim nekaj vključiš, medtem ko z drugim to izključiš. Tako ponavadi potrebuješ dva dogodka z nasprotnimi pogoji, npr.:
+
+Prihod v območje Služba -> Spremeni profil
+Izhod iz območja Služba -> Spremeni profil
+
+Če se dogodki dogajajo, ko se ne bi smeli, lahko s pritiskom na gumb zgodovina ugotoviš, kaj je dogodek sprožilo.
+
+Na namizju lahko ustvariš tudi bližnjice do dogodkov. To storiš z dolgim pritiskom na namizje, izbereš Bližnjice (Shortcuts) in nato Llama."</string>
+    <string name="hrHelpProfiles">"Ta zavihek prikazuje profile, ki jih Llama uporablja. Nekaj splošnih profilov ima Llama že prednastavljenih, dodaš pa lahko tudi svoje ali spremeniš obstoječe. Profili v Llami so podobni profilom v drugih neandroidnih telefonih. Omogočajo združevanje različnih nastavitev glasnosti tako, da jih lahko spremeniš z enim dotikom. Llami lahko naročiš, da z uporabo dogodkov avtomatično spreminja profile. Vsakemu profilu lahko določiš svojo ikono in tako takoj vidiš, kateri profil je trenutno dejaven.
+
+Llami lahko začasno preprečiš spreminjanje profilov (npr. če greš na sestanek in želiš utišati telefon za eno uro). Po določenem času bo Llama zopet spremenila profil na ustreznega. V nastavitvah lahko Llami naročiš nadzor nad gumbi za nastavitev glasnosti. Če glasnost nastaviš ročno, bo Llama tedaj za določen čas zaklenila profil."</string>
+    <string name="hrHelpRecent">"Ta zavihek prikazuje seznam baznih postaj, s katerimi se je Llama srečala v zadnjem času. Ko bo Llama znala prepoznavati območja, lahko tu vidiš, kateremu območju določena bazna postaja (celica) pripada.
+
+Če se Llama ni dovolj naučila, lahko pri celicah piše 'Ni dodana v nobeno območje'. Te lahko nato ročno dodaš v želeno območje s pritiskom na celico. Seznam celic prikazuje tudi čas nahajanja v posamezni celici, kar ti lahko olajša prepoznavanje le-teh.
+
+Če je celica dodana v dve različni območji, potem je v okolici premalo baznih postaj za razlikovanje med omenjenima lokacijama. Poskuite omogočiti Eksperimentalne načine določanja lokacije."</string>
+    <string name="hrServiceRestarted">Med zadnjo uporabo Llame se je le-ta izključila po pritisku na gumb Izhod, sedaj pa Llama zopet deluje v ozadju. Z gumbom Izhod jo lahko zopet izključiš.</string>
+    <string name="hrTabAreas">Območja</string>
+    <string name="hrTabEvents">Dogodki</string>
+    <string name="hrTabProfiles">Profili</string>
+    <string name="hrTabRecent">Nedavno</string>
+    <string name="hrLlamaLogWarning">OPOZORILO: Beleženje v LlamaLog je omogočeno. Ta datoteka lahko postane zeloooo velika! Mogoče bi bilo smiselno to možnost v prihodnosti izklučiti.</string>
+    <string name="hrOkeyDokeExclamation">V redu, stari!</string>
+    <string name="hrTurnItOff">Izključi</string>
+    <string name="hrOk">OK</string>
+    <string name="hrCancel">Prekliči</string>
+    <string name="hrViewMap">Poglej zemljevid</string>
+    <string name="hrCreateReminder">Ustvari opomnik</string>
+    <string name="hrRenameArea">Preimenuj Območje</string>
+    <string name="hrSetPositionOnMap">Določi položaj na zemljevidu</string>
+    <string name="hrStartLearningArea">Prični z učenjem</string>
+    <string name="hrStopLearningArea">Prekini z učenjem</string>
+    <string name="hrDeleteArea">Izbriši območje</string>
+    <string name="hrYes">Da</string>
+    <string name="hrNo">Ne</string>
+    <string name="hrEnterAReminderForArea1">"Vnesi opomnik za območje '%1s'"</string>
+    <string name="hrEnterANewNameForTheArea">Vnesi novo ime območja</string>
+    <string name="hrNewLocationPrompt">Vpiši ime nove lokacije</string>
+    <string name="hr1SecondsToGo">%1s sekund/-i/-e do konca</string>
+    <string name="hr1MinutesToGo">%1s minut/-i/-e do konca</string>
+    <string name="hrLearningDash">"Učenje - "</string>
+    <string name="hrCurrentDash">"Trenutno - "</string>
+    <string name="hrCurrentNoDash">Trenutno</string>
+    <string name="hrAnd">in</string>
+    <string name="hrHowLongWillYouBeAt1For">Koliko časa boš v območju %1s?</string>
+    <string name="hrImNotThere">Ni me tu</string>
+    <string name="hrSecond">sekundo</string>
+    <string name="hrSeconds">sekund</string>
+    <string name="hrMinute">min</string>
+    <string name="hrMinutes">min</string>
+    <string name="hrSpaceMinutes">" minut"</string>
+    <string name="hrSpaceMilliseconds">" milisekund/-i/-e"</string>
+    <string name="hrHour">h</string>
+    <string name="hrHours">h</string>
+    <string name="hrMapPoint">točka na zemljevidu</string>
+    <string name="hrMapPoints">točk/-i/-e na zemljevidu</string>
+    <string name="hrCell">celica</string>
+    <string name="hrCells">celic/-i/-e</string>
+    <string name="hrWifiName">Wifi ime</string>
+    <string name="hrWifiNames">WiFi imena</string>
+    <string name="hrWifiMac">WiFi MAC naslov</string>
+    <string name="hrWifiMacs">WiFi MAC naslovi</string>
+    <string name="hrBluetoothDevice">Bluetooth naprava</string>
+    <string name="hrBluetoothDevices">Bluetooth naprave</string>
+    <string name="hrUnknown">neznano</string>
+    <string name="hrNotAddedToAnyAreas">Ni dodana v nobeno območje</string>
+    <string name="hrViewAllMapPoints">Poglej vse točke na zemljevidu</string>
+    <string name="hrAllRecentMapPositions">Vse nedavne položaje na zemljevidu</string>
+    <string name="hrAddToArea">Dodaj v Območje</string>
+    <string name="hrViewCoordinatesOnMap">Poglej koordinate na zemljevidu</string>
+    <string name="hrEditAreasPositionOnMap">Uredi lokacije Območij na zemljevidu</string>
+    <string name="hrRemoveFromArea">Odstrani iz Območja</string>
+    <string name="hrPositionOfARecentLocationEstimate">Položaji nedavnih lokacijskih približkov</string>
+    <string name="hrWhichAreaDoYouWantToRemove1From">Iz katerega območja želiš odstraniti %1s?</string>
+    <string name="hrCouldntFindTheAreaNamed1s">Ne najdem območja z imenom %1s</string>
+    <string name="hrWhichAreaDoYouWantToEdit">Katero območje želiš urediti?</string>
+    <string name="hrCreateNewArea">Ustvari novo območje</string>
+    <string name="hrWhichAreaDoYouWantToAdd1To">V katero območje želiš dodati %1s?</string>
+    <string name="hrEnterANameForTheNewArea">Vnesi ime novega območja</string>
+    <string name="hrWithin1m">znotraj %1sm</string>
+    <string name="hrNewEvent1">Nov Dogodek %1s</string>
+    <string name="hrNewProfile1">Nov Profil %1s</string>
+    <string name="hrLlamaDashEditingEvent">Llama - Urejanje dogodka</string>
+    <string name="hrLlamaDashOrConditions">Llama - ujemanje kateregakoli pogoja</string>
+    <string name="hrLlamaDashAndConditions">Llama - ujemanje vseh pogojev</string>
+    <string name="hrLlamaDashNewEvent">Llama - Nov dogodek</string>
+    <string name="hrLlamaShortcutName">Ime bližnjice</string>
+    <string name="hrActions">Dejanja</string>
+    <string name="hrCancelRemove">Prekliči odstranjevanje</string>
+    <string name="hrNowTapAConditionOrActionToRemoveIt">Za brisanje pritisni na pogoj ali dejanje</string>
+    <string name="hrSelectConditionToTriggerEvent">Izberi pogoj, ki sproži dogodek</string>
+    <string name="hrSelectActionToPerformWhenTriggered">Izberi dejanje, ki bo izvedeno</string>
+    <string name="hrCool">Fino</string>
+    <string name="hrYourEventIsNotCompleteColon">Dogodek ni popoln:</string>
+    <string name="hrPleaseFixTheseErrorsOrRemoveTheOffendingConditionsSlashActions">Prosim, odpravi pomanjkljivosti ali pa odstrani pogoje/dejanja, ki jih povzročajo.</string>
+    <string name="hrIWillIPromise">Bom, obljubim</string>
+    <string name="hrProblems">Težave</string>
+    <string name="hrLlamaDashEventHistory">Llama - zgodovina dogodkov</string>
+    <string name="hrTriggeredBy1Condition">Sprožen s pogojem %1s</string>
+    <string name="hrDisabled">Onemogočen</string>
+    <string name="hrEditEvent">Uredi dogodek</string>
+    <string name="hrCopyEvent">Kopiraj dogodek</string>
+    <string name="hrRunEventActions">Izvedi dejanja dogodka</string>
+    <string name="hrEnableEvent">Omogoči dogodek</string>
+    <string name="hrDisableEvent">Onemogoči dogodek</string>
+    <string name="hrDeleteEvent">Izbriši dogodek</string>
+    <string name="hrAreYouSureYouWantToDelete1">"Ali resnično želiš izbrisati '%1s'?"</string>
+    <string name="hrCopy">kopiraj</string>
+    <string name="hrCreateLlamaShortcut">Ustvari Llama bližnjico</string>
+    <string name="hrEnterALabelForTheShortcut">Vnesi ime bližnjice</string>
+    <string name="hrCustomEvent">Dogodek po meri</string>
+    <string name="hrSwitchToProfile1">Preklopi na profil %1s</string>
+    <string name="hrSpecifyACustomSetOfActionsForTheShortcut">Določi niz dejanj po meri za bližnjico</string>
+    <string name="hrProfile">Profil</string>
+    <string name="hrEvent">Dogodek</string>
+    <string name="hrCustomEventActions">Dejanja dogodka po meri</string>
+    <string name="hrTheLlamaServiceMustBeRunningForShortcutsToWork">Llama se mora izvajati, da lahko bližnjice delujejo</string>
+    <string name="hrHowCanIHelpYou">Kako ti lahko pomagam?</string>
+    <string name="hrCurrentTabInfo">Informacije o trenutnem zavihku</string>
+    <string name="hrLlamaInstructions">Llama navodila</string>
+    <string name="hrLlamaAndKebabAppsWebsite">Spletna stran Llame in Kebabapps</string>
+    <string name="hrSendEmail">Pošlji e-pošto</string>
+    <string name="hrAboutTheApp">O aplikaciji</string>
+    <string name="hrWhatDoesThisTabDo">Kaj počne ta zavihek</string>
+    <string name="hrGroovy">Hudo</string>
+    <string name="hrPerformed1ActionsSince2DaysAgo">Izvedenih %1$s dejanj v zadnjih %2$s dneh.</string>
+    <string name="hrDonateSmiley">Lahko tudi kaj doniraš :)</string>
+    <string name="hrSettings">Nastavitve</string>
+    <string name="hrImportExportData">Uvozi/izvozi podatke</string>
+    <string name="hrToggleMobileData">Preklopi mobilni prenos podatkov</string>
+    <string name="hrToggleApn">Preklopi APN</string>
+    <string name="hrDonate">Doniraj</string>
+    <string name="hrQuit">Zapusti</string>
+    <string name="hrQuitLlama">Zapusti Llamo</string>
+    <string name="hrPutLlamaToSleep">Uspavaj Llamo</string>
+    <string name="hrCloseLlamaExplanation">S tem uspavaš Llamo in onemogočiš njeno delovanje v ozadju. Za ponovni zagon pritisni na ikono Llama na namizju ali v seznamu aplikacij.</string>
+    <string name="hrEnableApn">omogoči APN</string>
+    <string name="hrCurrent">trenutno</string>
+    <string name="hrDisableApn">onemogoči APN</string>
+    <string name="hrEnableMobileData">omogoči mobilni prenos podatkov</string>
+    <string name="hrDisableMobileData">onemogoči mobilni prenos podatkov</string>
+    <string name="hrImportWarning">Ali resnično želiš uvoziti nastavitve? To dejanje bo IZBRISALO vsa shranjena območja, profile in dogodke, ki so trenutno v Llami!</string>
+    <string name="hrExportWarning">Ali resnično želiš izvoziti nastavitve na SD-kartico? To dejanje bo IZBRISALO vsa shranjena območja, profile in dogodke, ki so že na kartici!</string>
+    <string name="hrImportFromSdCard">Uvozi iz SD kartice</string>
+    <string name="hrExportToSdCard">Izvozi na SD kartico</string>
+    <string name="hrOkeyDoke">Zmenjeno!</string>
+    <string name="hrLockedUntil1">Zaklenjen do %1s</string>
+    <string name="hrProfileLocked">Profil zaklenjen</string>
+    <string name="hrTheShortcutRefersToAnEventNamed1WhichNoLongerExists">"Ta bližnjica se nanaša na dogodek '%1s', ki ne obstaja več"</string>
+    <string name="hrTheShortcutRefersToAProfileNamed1WhichNoLongerExists">"Ta bližnjica se nanaša na profil '%1s', ki ne obstaja več"</string>
+    <string name="hrLoadSettingsError">Nalaganje nastavitev ni uspelo. Nastavitve so bile shranjene na SD kartico.</string>
+    <string name="hrCriticalLoadSettingsError">Nalaganje nastavitev ni uspelo, prišlo pa je tudi do napake pri shranjevanju na SD kartico. Llama umira :(</string>
+    <string name="hrQuietAtNight">Tiho ponoči</string>
+    <string name="hrHome">Doma</string>
+    <string name="hrQuiet">Tiho</string>
+    <string name="hrNormalAtHome">Normalno doma</string>
+    <string name="hrNormal">Normalno</string>
+    <string name="hrLeftHome">Zapusti dom</string>
+    <string name="hrQuietAtWork">Tiho v službi</string>
+    <string name="hrWork">Služba</string>
+    <string name="hrNormalOutsideWork">Normalno zunaj službe</string>
+    <string name="hrLeftWork">Zapusti službo</string>
+    <string name="hrSilent">Tiho</string>
+    <string name="hrLoud">Glasno</string>
+    <string name="hrCouldNotFindEventNamed1">"Ne najdem dogodka '%1s'"</string>
+    <string name="hrTestVersion">TESTNA VERZIJA</string>
+    <string name="hrLlamaForAndroidVersionContact">"Llama za Android
+%1s
+Piši na kebabapps@gmail.com"</string>
+    <string name="hrThanksForDonatingExclamation">Hvala za donacijo!</string>
+    <string name="hrPleaseDonateBeerMoney">Če se ti zdi ta aplikacija uporabna, prosim, doniraj za kakšno pivo</string>
+    <string name="hrOkThanks">Ok, hvala</string>
+    <string name="hrDonateViaMarket">Doniraj preko androidne tržnice</string>
+    <string name="hrProfilesAreLockedGotoProfilesTabToUnlock">Profili so zaklenjeni. Pojdi med profile in pritisni meni, kjer jih lahko odkleneš.</string>
+    <string name="hrCouldNotChangeProfileBecauseNoProfileNamed1">Sprememba profila ni možna, ker profil %1s ne obstaja</string>
+    <string name="hrError">NAPAKA</string>
+    <string name="hrInfo">INFORMACIJE</string>
+    <string name="hrExportFailedSadFace">Izvoz podatkov ni uspel :(</string>
+    <string name="hrImportFailedSadFace">Uvoz podatkov ni uspel :(</string>
+    <string name="hrImportOf1Successful">Uvoz %1s je bil uspešen. Ponovno zaženi Llamo.</string>
+    <string name="hrStorageAreas">območja</string>
+    <string name="hrStorageEvents">dogodki</string>
+    <string name="hrStorageProfiles">profili</string>
+    <string name="hrStorageIgnoredCell">prezrte celice</string>
+    <string name="hrQuickReminderAt1">Hitri opomnik ob %1s</string>
+    <string name="hrNoApnsDefinedTip">Nimaš APN-jev. APN dejanja lahko odstraniš iz dogodkov.</string>
+    <string name="hrWifiNotTurnedOffAsItsConnected">WiFi ni bil izklučen, ker je v uporabi</string>
+    <string name="hrBluetoothNotTurnedOffAsConnectedToAudioDevice">Bluetooth ni bil izključen, ker je povezan z avdio napravo.</string>
+    <string name="hrBluetoothNotTurnedOffAsItsConnected">Bluetooth ni bil izključen, ker je v uporabi</string>
+    <string name="hrCouldnNotTurnOnBluetoothMaybeAirplane">Ne morem vključiti bluetooth-a. Mogoče je vključen Način letenja.</string>
+    <string name="hrBluetoothIsntSupported">Bluetooth ni podprt</string>
+    <string name="hrBluetoothApiNotSupported">Bluetooth vmesnik ni podprt</string>
+    <string name="hrCouldnotStart1">Ne morem zagnati %1s</string>
+    <string name="hrRebootFailWarning">Telefon se ni ponovno zagnal, ker je od zadnjega zagona poteklo %1s min. Iz varnostnih razlogov mora poteči vsaj 5 minut.</string>
+    <string name="hrShutdownFailWarning">Telefon ni bil izključen, ker je prižgan šele %1s min. Iz varnostnih razlogov mora biti vsaj 5 minut.</string>
+    <string name="hrRebooting">PONOVNI ZAGON!!!</string>
+    <string name="hrShuttingDown">IZKLAPLJANJE!!!</string>
+    <string name="hrProfileChangesUnlocked">Profili odkljenjeni</string>
+    <string name="hrPositionsFor1">Položaji %1s</string>
+    <string name="hrSave">Shrani</string>
+    <string name="hrClose">Zapri</string>
+    <string name="hrLlamaMapNotInstalled">Llama zemljevidi niso nameščeni</string>
+    <string name="hrGoToMarket">Pojdi na tržnico</string>
+    <string name="hrLlamaMapNeededMessage">"Če želiš uporabljati zemljevide v Llami, moraš namestiti dodatek Llama zemljevidi.
+
+Razlog za to je, da Llama nima pooblastil za uporabo interneta, ki so potrebna za prenos zemljevidov iz Googla.
+
+Dodatek Llama zemljevidi je pravtako brezplačen."</string>
+    <string name="hrSelectEmailApplication">Izberi aplikacijo za e-pošto.</string>
+    <string name="hrEnteredUnknownArea">Vstop v neznano območje</string>
+    <string name="hrLeftArea1">Izstop iz %1s</string>
+    <string name="hrEnteredArea1">Vstop v %1s</string>
+    <string name="hrLlamaDashEditingProfile">Llama - urejanje profila</string>
+    <string name="hrLlamaDashNewProfile">Llama - nov profil</string>
+    <string name="hrVibrate">Vibriranje</string>
+    <string name="hrRing">Zvonjenje</string>
+    <string name="hrRingAndVibrate">Zvonjenje in vibriranje</string>
+    <string name="hrProfilesUnlocked">Profili odklenjeni</string>
+    <string name="hrActivateAndLock">Aktiviraj in zakleni</string>
+    <string name="hrEditProfile">Uredi profil</string>
+    <string name="hrCopyProfile">Kopiraj profil</string>
+    <string name="hrDeleteProfile">Izbriši profil</string>
+    <string name="hrNever">Nikoli</string>
+    <string name="hrAutomaticallyUnlockProfileDescription">Llami lahko onemogočiš spreminjanje profilov za določen čas (npr. če greš na sestanek za eno uro in želiš, da telefon ostane tih)</string>
+    <string name="hrAutomaticallyUnlockProfileChangesAfter">Avtomatično odkleni profil po</string>
+    <string name="hrWillActivateWhenProfilesAreManuallyUnlocked">Bo aktiviran, ko bodo profili odklenjeni ročno</string>
+    <string name="hrWillActivateAt1">Bo aktiviran ob %1s</string>
+    <string name="hrActivatedAt1">profil aktiviran %1s</string>
+    <string name="hrAuto">Avtomatično</string>
+    <string name="hrChangeBrightness">Spremeni svetlost zaslona</string>
+    <string name="hrSetToAutomaticBrightness">nastavi na avtomatično svetlost zaslona</string>
+    <string name="hrSetTo1Brightness">nastavi svetlost zaslona na %1s%%</string>
+    <string name="hrLlamaBluetoothPolling">Llama preverjanje bluetooth-a</string>
+    <string name="hrChangeLlamaBluetoothPolling">Spremeni Llama preverjanje bluetooth-a</string>
+    <string name="hrChangeAndroidLocationPolling">Spremeni Androidno preverjanje lokacij</string>
+    <string name="hrAndroidLocationPolling">Androidno preverjanje lokacij</string>
+    <string name="hrLlamaWifiPolling">Llama preverjanje WiFi-ja</string>
+    <string name="hrChangeLlamaWifiPolling">Spremeni Llama preverjanje WiFi-ja</string>
+    <string name="hrSet1ToNever">nastavi %1s na nikoli</string>
+    <string name="hrSet1To2">nastavi %1$s na %2$s</string>
+    <string name="hrChangeNotificationIconTo1">spremeni ikono za obvestila v %1s</string>
+    <string name="hrChangeNotificationIcon">Spremeni ikono za obvestila</string>
+    <string name="hrChangeProfile">Spremeni profil</string>
+    <string name="hrChangeProfileTo">spremeni profil v %1s</string>
+    <string name="hrChooseAProfile">Izberi profil</string>
+    <string name="hrChangeScreenTimeout">Spremeni časovno omejitev zaslona</string>
+    <string name="hrDisableScreenTimeout">onemogoči časovno omejitev zaslona</string>
+    <string name="hrSetScreenTimeoutTo1Seconds">nastavi časovno omejitev zaslona na %1s sekund</string>
+    <string name="hrToggleScreenLock">Preklopi zaklep zaslona</string>
+    <string name="hrScreenLockOn">Zaklep zaslona vključen</string>
+    <string name="hrScreenLockOnForce">Omogoči zaklep zaslona (vsili)</string>
+    <string name="hrScreenLockOffImmediately">Izključi zaklep zaslona takoj (hroščasto!)</string>
+    <string name="hrScreenLockOffAfterPassword">Izključi zaklep zaslona po odklepu</string>
+    <string name="hrEnableKeyGuard">omogoči zaklep zaslona</string>
+    <string name="hrEnableKeyGuardForce">omogoči zaklep zaslona (vsili)</string>
+    <string name="hrDisableKeyGuardImmediately">onemogoči zaklep zaslona takoj</string>
+    <string name="hrDisableKeyGuardAfterUnlock">onemogoči zaklep zaslona po odklepu</string>
+    <string name="hrKillApplication">Zapri aplikacijo</string>
+    <string name="hrKillApplicationWithRoot">Zapri aplikacijo (root način)</string>
+    <string name="hrKill1DieDieDie">Zapri %1s Zapri! Zapri! Zapri!</string>
+    <string name="hrChooseAnApplication">Izberi aplikacijo</string>
+    <string name="hrChooseAnApplicationWithAName">Izberi aplikacijo z imenom</string>
+    <string name="hrLockProfileChanges">Zakleni profil</string>
+    <string name="hrUnlockProfileChanges">Odkleni profil</string>
+    <string name="hrLockProfileChangesDescription">zakleni profil</string>
+    <string name="hrUnlockProfileChangesDescription">odkleni profil</string>
+    <string name="hrChangeMusicVolume">Spremeni glasnost glasbe</string>
+    <string name="hrSetMusicVolumeTo1">nastavi glasnost glasbe na %1s</string>
+    <string name="hrReminder">Opomnik</string>
+    <string name="hrShowAReminder">prikaži opomnik</string>
+    <string name="hrEnterSomeReminderText">Vnasi tekst opomnika</string>
+    <string name="hrNoDontDoAnything">Ne, ne stori ničesar</string>
+    <string name="hrYesIReallyWantToReboot">Da, resnično želim ponovno zaganti sistem!</string>
+    <string name="hrYesIReallyWantToShutdown">Da, resnično želim izključiti telefon!</string>
+    <string name="hrRebootPhoneDescription">ponovno zaženi telefon</string>
+    <string name="hrDontRebootPhoneDescription">ne izvedi ponovnega zagona</string>
+    <string name="hrShutdownPhoneDescription">izključi telefon</string>
+    <string name="hrDontShutdownPhoneDescription">ne izključi telefona</string>
+    <string name="hrRunApplication">Zaženi aplikacijo</string>
+    <string name="hrRun1">zaženi %1s</string>
+    <string name="hrIfNotConnected">če ni povezan</string>
+    <string name="hrForAtLeast1">za najmanj %1s</string>
+    <string name="hrForAtLeast1Minutes">za najmanj %1s min</string>
+    <string name="hrIfNotConnectedDescription">če ni povezan</string>
+    <string name="hrFor1ThenDisconectIfNotConnected">za %1s, nato prekini, če ni povezan</string>
+    <string name="hrFor1MinutesThenDisconectIfNotConnected">za %1s min, nato prekini, če ni povezan</string>
+    <string name="hrAirplaneModeOn">Način letenja vključen</string>
+    <string name="hrAirplaneModeOff">Način letenja izključen</string>
+    <string name="hrToggleAirplaneMode">Preklopi Način letenja</string>
+    <string name="hrEnableAirplaneMode">omogoči Način letenja</string>
+    <string name="hrDisableAirplaneMode">onemogoči Način letenja</string>
+    <string name="hrApnOn">APN vključen</string>
+    <string name="hrApnOff">APN izključen</string>
+    <string name="hrBluetoothOn">Bluetooth vključen</string>
+    <string name="hrBluetoothOff">Bluetooth izključen</string>
+    <string name="hrToggleBluetooth">Preklopi bluetooth</string>
+    <string name="hrEnableBluetooth">omogoči bluetooth</string>
+    <string name="hrDisableBluetooth">onemogoči bluetooth</string>
+    <string name="hrToggleLlamaCellPolling">Preklopi Llama preverjanje celic</string>
+    <string name="hrCellPollingOn">Preverjanje celic vključeno</string>
+    <string name="hrCellPollingOff">Preverjanje celic izključeno</string>
+    <string name="hrEnableLlamaCellPolling">omogoči Llama preverjanje celic</string>
+    <string name="hrDisableLlamaCellPolling">onemogoči Llama preverjanje celic</string>
+    <string name="hrToggleGps">Preklopi GPS</string>
+    <string name="hrGpsOn">GPS vključen</string>
+    <string name="hrGpsOff">GPS izključen</string>
+    <string name="hrEnableGps">omogoči GPS</string>
+    <string name="hrDisableGps">onemogoči GPS</string>
+    <string name="hrMobileDataOn">Mobilni prenos podatkov vključen</string>
+    <string name="hrMobileDataOff">Mobilni prenos podatkov izključen</string>
+    <string name="hrEnableSyncRequestUpdate">Omogoči sinhronizacijo, zahtevaj posodobitve</string>
+    <string name="hrEnableSyncNoUpdate">Omogoči sinhronizacijo, brez posodobitev</string>
+    <string name="hrDisableSync">Onemogoči sinhronizacijo</string>
+    <string name="hrToggleAccountSync">Preklopi sinhronizacijo računa</string>
+    <string name="hrEnableAccountSyncThenRequestUpdateDescription">omogoči sinhronizacijo računa in nato zahtevaj posodobitve</string>
+    <string name="hrEnableAccountSyncDescription">omogoči sinhronizacijo računa</string>
+    <string name="hrDisableAccountSyncDescription">onemogoči sinhronizacijo računa</string>
+    <string name="hrWifiOn">WiFi vključen</string>
+    <string name="hrWifiOff">WiFi izključen</string>
+    <string name="hrToggleWifi">Preklopi WiFi</string>
+    <string name="hrEnableWifi">omogoči WiFi</string>
+    <string name="hrDisableWifi">onemogoči WiFi</string>
+    <string name="hrVibratePattern">Vzorec vibriranja</string>
+    <string name="hrVibrateThe1Pattern">vibriraj po vzorcu %1s</string>
+    <string name="hrVibrateACustomisedPattern">vibriraj po meri</string>
+    <string name="hrVibrateShort">Kratko</string>
+    <string name="hrVibrateLong">Dolgo</string>
+    <string name="hrVibrateMultipleShort">Večkratno kratko</string>
+    <string name="hrVibrateMultipleLong">Večkratno dolgo</string>
+    <string name="hrBatteryLevel">Stanje baterije</string>
+    <string name="hrBatteryLevelAbove1">Stanje baterije nad %1s</string>
+    <string name="hrBatteryLevelBelow1">Stanje baterije pod %1s</string>
+    <string name="hrWhenBatteryGoesBelow1Percent">ko se baterija sprazni pod %1s%%</string>
+    <string name="hrWhenBatteryRisesAbove1Percent">ko se baterija napolni nad %1s%%</string>
+    <string name="hrPleaseChooseAtLeastOneBluetoothDevice">Prosim, izberi vsaj eno bluetooth napravo</string>
+    <string name="hrPleaseChooseAtLeastOneWifiNetwork">Prosim, izberi vsaj eno WiFi omrežje</string>
+    <string name="hrOr">ali</string>
+    <string name="hrNor">niti</string>
+    <string name="hrWhen1IsConnected">ko je povezan z %1s</string>
+    <string name="hrWhen1Disconnects">ko ni povezan z %1s</string>
+    <string name="hrBluetoothDeviceDisconnected">Bluetooth naprava ni nepovezana</string>
+    <string name="hrBluetoothDeviceConnected">Bluetooth naprava povezana</string>
+    <string name="hrWhenCalendarHasACurrentEventNameContaining1">"kadar je v koledarju v teku dogodek z imenom, ki vsebuje '%1s'"</string>
+    <string name="hrWhenCalendarDoesNotHaveACurrentEventNameContaining1">"kadar v koledarju ni v teku dogodka z imenom, ki vsebuje '%1s'"</string>
+    <string name="hrCalendarHasACurrentEventNameContaining1">"V koledarju je v teku dogodek z imenom, ki vsebuje '%1s'"</string>
+    <string name="hrCalendarDoesNotHaveACurrentEventNameContaining1">"V koledarju ni v teku dogodka z imenom, ki vsebuje '%1s'"</string>
+    <string name="hrCalendarEvent">Koledarski dogodek</string>
+    <string name="hrCalendarConditionMustHaveACalendarEventNameOrCalendarOrEventType">Za koledarski pogoj moraš vpisati ime dogodka, izbrati pa moraš tudi koledar ali tip koledarskega dogodka.</string>
+    <string name="hrInCarMode">V Načinu vožnje</string>
+    <string name="hrNotInCarMode">Ni v Načinu vožnje</string>
+    <string name="hrWhenInCarMode">kadar je v Načinu vožnje</string>
+    <string name="hrWhenNotInCarMode">kadar ni v Načinu vožnje</string>
+    <string name="hrUsingBattery">Uporaba baterije</string>
+    <string name="hrChargingFromAc">Polnjenje preko adapterja</string>
+    <string name="hrChargingFromUsb">Polnjenje prek USB-ja</string>
+    <string name="hrChargingStatus">Stanje polnjenja</string>
+    <string name="hrWhenChargingUnknown">ko je polnjenje nedoločeno</string>
+    <string name="hrWhenChargingFromAc">ko se polni preko adapterja</string>
+    <string name="hrWhenChargingFromUsb">ko se polni preko USB-ja</string>
+    <string name="hrWhenCharging">ko se polni</string>
+    <string name="hrWhenUsingBattery">ko uporablja baterijo</string>
+    <string name="hrChooseAtLeastOneDay">Izberi najmanj en dan</string>
+    <string name="hrDayOfTheWeek">Dan v tednu</string>
+    <string name="hrWhenIts1">v %1s</string>
+    <string name="hrChooseAnAreaToEnter">Izberi območje za vstop</string>
+    <string name="hrEnterArea">Vstop v območje</string>
+    <string name="hrAt1">v območju %1s</string>
+    <string name="hrAtTime1">ob %1s</string>
+    <string name="hrWiredHeadsetConnected">Slušalke priključene</string>
+    <string name="hrWiredHeadsetDisconnected">Slušalke niso priključene</string>
+    <string name="hrWhenWiredHeadsetIsDisconnected">ko slušalke niso priključene</string>
+    <string name="hrChooseAnAreaToLeave">Izberi območje za izstop</string>
+    <string name="hrLeaveArea">Izstop iz območja</string>
+    <string name="hrUponLeaving1">pri izstopu iz območja %1s</string>
+    <string name="hrMusicPlayback">Predvajanje glasbe</string>
+    <string name="hrMusicPlaying">Predvajanje glasbe</string>
+    <string name="hrMusicPaused">Pavza</string>
+    <string name="hrWhenMusicIsPlaying">ko se glasba predvaja</string>
+    <string name="hrWhenMusicIsPaused">ko je glasba na pavzi</string>
+    <string name="hrBluetoothDeviceNotConnected">Bluetooth naprava ni povazana</string>
+    <string name="hrWhen1IsNotConnected">ko %1s ni povazan</string>
+    <string name="hrNotInArea">Ni v območju</string>
+    <string name="hrChooseAnAreaToNotBeIn">Izberi območje, v katerem naj ne bi bil</string>
+    <string name="hrWhenNotAt1">ko ni v območju %1s</string>
+    <string name="hrTimeBetween">Čas med</string>
+    <string name="hrBetween1And2">med %1$s in %2$s</string>
+    <string name="hrFrom">Od</string>
+    <string name="hrTo">Do</string>
+    <string name="hrActionChangeProfile">Profil</string>
+    <string name="hrActionChangeProfileDescription">S tem spremeniš nastavitve zvokov telefona gčede na profile, prikazane na zavihku Profili. Glede na nastavitve profila se lahko spremeni tudi ikona za obvestila.</string>
+    <string name="hrActionNotificationIcon">Llama ikona za obvestila</string>
+    <string name="hrActionNotificationIconDescription">S tem spremeniš ikono, ki se pojavlja v obvestilni vrstici. Z uporabo različnih ikon lahko vidiš, kakšne so trenutne nastavitve. Ikono lahko vključiš ali izključiš v glavnih nastavitvah Llame.</string>
+    <string name="hrActionScreenBrightness">Zaslon - svetlost</string>
+    <string name="hrActionScreenBrightnessDescription">S tem s lahko spremeniš svetlost zaslona. Nekateri modeli telefonov omogočajo avtomatsko spreminjanje svetlosti.</string>
+    <string name="hrActionScreenOn">Zaslon vključen</string>
+    <string name="hrActionScreenOnDescription">S tem v trenutku vključiš zaslon. Če zaklep zaslona ni aktiviran, bo zaslon ostal prižgan določen čas. Če pa je zaklep zaslona vključen, se bo zaslon izključil po 2 sekundah. PAZI: Tvoj telefon morda ne podpira razlikovanja med zatemnjenim, svetlim in svetlim z osvetljenimi gumbi zaslonskim načinom</string>
+    <string name="hrActionScreenOff">Zaslon izključen</string>
+    <string name="hrActionScreenOffDescription">S tem v trenutku izključiš zaslon. Če je zaklep zaslona vkjučen, se bo aktiviral.</string>
+    <string name="hrActionMusicVolume">Glasnost glasbe</string>
+    <string name="hrActionMusicVolumeDescription">S tem spremeniš glasnost glasbe</string>
+    <string name="hrActionVibrate">Vibriraj</string>
+    <string name="hrActionVibrateDescription">S tem določiš način vibriranja na prednastavljene vzorce, lahko pa ustvariš lastne ritme vibriranja.</string>
+    <string name="hrActionApn">APN</string>
+    <string name="hrActionApnDescription">S tem onemogočiš mobilni prenos podatkov s spremembo APN nastavitev mobilnega operaterja. Deluje samo na GSM omrežjih in je kompativilno z APNDroid gradnikom (widgetom).</string>
+    <string name="hrActionBluetooth">Bluetooth</string>
+    <string name="hrActionBluetoothDescription">S tem vključiš ali izključiš bluetooth. Lahko izbereš izklop bluetooth-a samo v primeru, ko ni povezan z nobeno napravo. Bluetooth lahko vkjučiš za določen čas in se nato avtomatično izključi, če ni povezane nobene naprave.</string>
+    <string name="hrActionAirplane">Način letenja</string>
+    <string name="hrActionAirplaneDescription">S tem vključiš ali izključiš Način letenja. Stranski učinek je tudi izklop WiFi-ja in bluetooth-a. Kadar je Način letenja vključen, določanje lokacije ni mogoče.</string>
+    <string name="hrActionWifi">WiFi</string>
+    <string name="hrActionWifiDescription">S tem vključiš ali izključiš WiFi. WiFi lahko izključiš tudi samo v primeru, ko ni povezan, ali pa ga vključiš za kratek čas in se nato avtomatično izključi, če ni povezan z nobenim omrežjem.</string>
+    <string name="hrActionGps">GPS</string>
+    <string name="hrActionGpsDescription">S tem vključiš ali izključiš GPS. Tega Android sicer uradno ne podpira, zato mogoče ne bo delovalo. Če imaš nameščen Gingerbread (Android 2.3), potem sigurno ne bo. Zateži Googlu, naj uredi.</string>
+    <string name="hrActionReboot">Ponovni zagon (zahteva root)</string>
+    <string name="hrActionRebootDescription">S tem ponovno zaženeš telefon. Previdno s pogoji dogodkov, saj se lahko konča z nekontroliranimi zaporednimi ponovnimi zagoni. Llama zahteva, da je telefon prižgan vsaj 5 minut, da se lahko to dejanje izvede.</string>
+    <string name="hrActionShutdown">Izključi telefon (zahteva root)</string>
+    <string name="hrActionShutdownDescription">S tem izključiš telefon. Previdno pri izbiri pogojev, da ne pride do ponovnega zagona takoj po vklopu telefon. Llama iz varnostnih razlogov zahteva, da je telefon vključen vsaj 5 minut, predno lahko izvede ponovni zagon.</string>
+    <string name="hrActionSync">Sinhronizacija računa</string>
+    <string name="hrActionSyncDescription">S tem omogočiš ali onemogočiš sinhronizacijo nastavitev računa. Prav tako lahko vsiliš začetek sinhronizacije.</string>
+    <string name="hrActionLlamaCellPolling">Llama preverjanje celic</string>
+    <string name="hrActionLlamaCellPollingDescription">EKSPERIMENTALNO: S tem spremenite frekvenco preverjanja celic. Deluje samo, če je omogočeno v eksperimentalnih nastavitvah.</string>
+    <string name="hrActionLlamaWifiPolling">Llama preverjanje WiFi-ja</string>
+    <string name="hrActionLlamaWifiPollingDescription">"EKSPERIMENTALNO: S tem spremenite frekvenco preverjanja WiFi-ja. Deluje samo, če je omogočeno v eksperimentalnih nastavitvah. Če je nastavljeno na 'nikoli', bo Llama prevzela nastavitve Androida."</string>
+    <string name="hrActionLlamaBluetoothPolling">Llama preverjanje bluetooth-a</string>
+    <string name="hrActionLlamaBluetoothPollingDescription">"EKSPERIMENTALNO: S tem spremenite frekvenco preverjanja bluetooth-a. Deluje samo, če je omogočeno v eksperimentalnih nastavitvah. Če je nastavljeno na 'nikoli', bo Llama prevzela nastavitve Androida."</string>
+    <string name="hrActionAndroidLocationPolling">Llama Androidni nadzor lokacij</string>
+    <string name="hrActionAndroidLocationPollingDescription">"EKSPERIMENTALNO: S tem spremenite frekvenco preverjanja lokacij. Deluje samo, če je omogočeno v eksperimentalnih nastavitvah. Če je nastavljeno na 'nikoli', bo Llama prevzela nastavitve drugih aplikacij, ki iščejo lokacijo."</string>
+    <string name="hrActionScreenTimeout">Časovna omejitev zaslona</string>
+    <string name="hrActionScreenTimeoutDescription">S tem spremeniš čas po zadnjem dotiku, po katerem se zaslon izključi.</string>
+    <string name="hrActionMobileData">Mobilni prenos podatkov</string>
+    <string name="hrActionMobileDataDescription">"S tem spremeniš nastavitve mobilnega prenosa podatkov. Ne deluje na Gingerbreadu, ker je Google to možnost namerno pokvaril :(. Če imaš nameščen sistem 2.2.1 ali starejšega, moraš v nastavitvah telefona omogočiti 'mobilni prenos podatkov'."</string>
+    <string name="hrActionReminder">Opomnik</string>
+    <string name="hrActionReminderDescription">To pokaže borno implementiran opomnik v obvestilni vrstici.</string>
+    <string name="hrActionScreenLock">Zaslon - zaklep (hroščasto)</string>
+    <string name="hrActionScreenLockDescription2">"S tem vključiš ali izključiš zaklep zaslona. Ker Android ne ponuja trajne rešitve, ta reč morda ne bo vedno delovala.
+
+Če je zaslon vključen in odklenjen in:
+-omogočiš zaklep zaslona, bo zaslon odklenjen potem, ko se enkrat izključi
+-onemogočiš zaklep zaslona, zaklep zaslona naslednjič, ko izključiš zaslon, ne bo prikazan
+
+Če je zaslon izključen in zaklenjen in:
+-omogočiš zaklep zaslona, bo zaklep prikazan, ko naslednjič prižgeš zaslon
+-onemogočiš zaklep zaslona takoj, zaklep ne bo več prikazan, lahko pa se pomešata gumba domov in iskanje
+-onemogočiš zaklep zaslona po odklepu, bo zaklep prikazan enkrat in nato ne več, dokler ponovno ne omogočiš te možnosti.
+
+Če gumb domov preneha delovati, ti odsvetujem uporabo te funkcije. Prav tako je več možnosti, da bo stvar delovala, če uporabljaš zaklep s pikami kot zaklep z geslom/pin-om."</string>
+    <string name="hrActionProfileLock">Profil - zaklep</string>
+    <string name="hrActionProfileLockDescription">S tem lahko zakleneš profile in za določen čas preprečiš Llami spreminjanje profilov.</string>
+    <string name="hrActionRunApp">Zaženi aplikacijo</string>
+    <string name="hrActionRunAppDescription">To omogoča, da zaženeš aplikacijo. Daj Llami nekaj časa, če imaš veliko aplikacij</string>
+    <string name="hrActionKillApp">Zapri aplikacijo</string>
+    <string name="hrActionKillAppDescription">S tem dovoliš Llami, da zapre aplikacijo po njenih najboljših močeh. Vedi, da je zapiranje aplikacij v Androidu omejeno in zato morda ne bo delovalo po planu.</string>
+    <string name="hrActionKillWithRootApp">Zapri aplikacijo (root!)</string>
+    <string name="hrActionKillWithRootAppDescription">To dovoljuje Llami, da nasilno zapre aplikacijo. Ni priporočljivo, ker lahko povzroči čudne odzive aplikacije. Zahteva root.</string>
+    <string name="hrConditionEnterInArea">Vstop v območje/v območju</string>
+    <string name="hrConditionEnterInAreaDescription">Ta pogoj je veljeven, ko prvič vstopiš v eno od izbranih območij, ter dokler ne zapustiš območja.</string>
+    <string name="hrConditionLeaveArea">Izstop iz območja</string>
+    <string name="hrConditionLeaveAreaDescription">"Ta pogoj je veljaven samo kadar zapustiš katerokoli od izbranih območij. (glej pogoj 'Izven območja')"</string>
+    <string name="hrConditionNotInAreas">Izven območja</string>
+    <string name="hrConditionNotInAreasDescription">Ta pogoj je veljaven samo, kadar zapustiš vsa izbrana območja in dokler ostaneš izven teh območij.</string>
+    <string name="hrConditionCalendarEvent">Koledarski dogodek</string>
+    <string name="hrConditionCalendarEventDescription">Ta pogoj je veljaven glede na trenutne koledarske dogodke. Določiš lahko začetek ali konec koledaskega dogodka.</string>
+    <string name="hrConditionDayOfTheWeek">Dan v tednu</string>
+    <string name="hrConditionDayOfTheWeek_Description">Ta pogoj omogoča, da se dogodki zgodijo samo na en ali več določenih dni v tednu.</string>
+    <string name="hrConditionHeadset">Slušalke</string>
+    <string name="hrConditionHeadsetDescription">Ta pogoj omogoča, da se dogodki zgodijo glede na to, ali so slušalke priključene na telefon ali ne.</string>
+    <string name="hrConditionCharging">Polnilec</string>
+    <string name="hrConditionChargingDescription">Ta pogoj omogoča, da se dogodki zgodijo glede na to, ali je telefon priključen na računalnik, polnilec ali pa je izključen.</string>
+    <string name="hrConditionPhoneReboot">Ponovni zagon telefona</string>
+    <string name="hrConditionPhoneRebootDescription">Ta pogoj omogoča, da se dogodki zgodijo, ko se telefon prižge ali predno se ugasne.</string>
+    <string name="hrConditionBatteryLevel">Stanje baterije</string>
+    <string name="hrConditionBatteryLevelDescription">Ta pogoj omogoča, da se dogodki zgodijo, ko se baterija izprazni pod ali napolni nad določeno vrednost.</string>
+    <string name="hrConditionCarMode">Način vožnje</string>
+    <string name="hrConditionCarModeDescription">Ta pogoj omogoča, da se dogodki zgodijo, ko je telefon priključen ali odklopljen od stojala v avtu.</string>
+    <string name="hrConditionBluetoothConnected">Bluetooth naprava povezana</string>
+    <string name="hrConditionBluetoothConnectedDescription">Ta pogoj je veljaven samo, kadar je telefon povezan s katerokoli od izbranih bluetooth naprav, in ostane veljaven dokler je ta naprava povezana.</string>
+    <string name="hrConditionBluetootDeviceNotConnected">Bluetooth naprave niso povezane</string>
+    <string name="hrConditionBluetootDeviceNotConnectedDescription">Ta pogoj je veljaven samo, kadar nobena od izbranih bluetooth naprav ni povezana s telefonom.</string>
+    <string name="hrConditionBluetoothDisconnected">Bluetooth naprava ni povezana</string>
+    <string name="hrConditionBluetoothDisconnectedDescription">Ta pogoj je veljaven, kadar katerakoli bluetooth naprava ni povezana s telefonom.</string>
+    <string name="hrConditionMusicPlayback">Predvajanje glasbe</string>
+    <string name="hrConditionMusicPlaybackDescription">"Ta pogoj je sprožen s spremembami androidnega predvajalnika glasbe. PAZI: Različni razvijalci prilagajajo predvajalnik glasbe po svoje, hkrati pa ne omogočajo tretjim osebam dostopa do do kode. Tako da... :'("</string>
+    <string name="hrConditionTimeBetween">Čas med</string>
+    <string name="hrConditionTimeBetweenDescription">"Ta pogoj omogoča filtriranje dogodkov, da se zgodijo samo v določenih delih dneva. Določiš lahko časovni razpon preko noči (npr. od 22-ih do 6-ih) za dogodke, ki naj se zgodijo samo ponoči. Ob času 'Od' Llama preveri še ostale pogoje in sproži dejanja dogodka."</string>
+    <string name="hrAlternativeIconColour">Alternativna barva ikone</string>
+    <string name="hrAlternativeIconColourDescription">Ali naj Llama uporabi črno ali beli ikono za obvestila (za Sense/Gingerbread).</string>
+    <string name="hrNotificationMode">Način obveščanja</string>
+    <string name="hrNotificationModeDescription">Kako naj te Llama opozori na spremembo profila. Opozorila v teku sporočijo Androidu, naj ne zapre Llame.</string>
+    <string name="hr12HourPickers">Uporabi 12-urni način</string>
+    <string name="hr12HourPickersDescription">Ali naj Llama uporabi 12-urni zapis časa - manj klikanja ;)</string>
+    <string name="hrShowApnMobileData">Prikaži APN/mobilni prenos podatkov v meniju</string>
+    <string name="hrShowApnMobileDataDescription">Ali naj Llama prikaže možnosti preklopa APN/mobilnega prenosa podatkov v meniju. NAMIG: Ustvari bližnjico na namizju namesto tega.</string>
+    <string name="hrSoundProfileSettings">Nastavitve zvočnih profilov</string>
+    <string name="hrLockProfilesOnChange">Zakleni spreminjanje zvokov v profiiih</string>
+    <string name="hrLockProfilesOnChangeDescription">Ali želiš Llami onemogočiti spreminjanje profilov, kadar ročno nastaviš glasnost z uporabo gumbov na telefonu.</string>
+    <string name="hrUnlockProfilesAutomatically">Avtomatično odkleni profile</string>
+    <string name="hrUnlockProfilesAutomaticallyDescription">Po zaklepu profilov jih odkleni čez</string>
+    <string name="hrCellTrackingSettings">Nastavitve sledenja celic</string>
+    <string name="hrIgnoreInvalidNoSignal">Ignoriraj neveljavne celice in celice brez signala</string>
+    <string name="hrIgnoreInvalidNoSignalDescription">Ali preprečim Llami, da neveljavne celice in celice brez signala obravnava kot izstop iz območja</string>
+    <string name="hrCellPollingMode">Način preverjanja celic</string>
+    <string name="hrCellPollingModeDescription">"EKSPERIMENTALNO: Ali naj zbudim CPU za bolj zanesljivo sledenje spremembam celic. To bo vplivalo na baterijo. Če izključeno, lahko dogodki 'v/iz območja' malce zamujajo. Ponavadi to ni problem, saj se dogodki zgodijo v trenutku, ko se telefon zbudi."</string>
+    <string name="hrCellPollingInterval">Interval preverjanja celic</string>
+    <string name="hrCellPollingIntervalDescription">Kako pogosto naj zbudim CPU</string>
+    <string name="hrCellPollingIntervalMinutes">Interval preverjanja celic (v minutah)</string>
+    <string name="hrAlternativeLocationMethods">Alternativni načini določanja lokacije</string>
+    <string name="hrExperimentalStuff">Eksperimentalne zadeve</string>
+    <string name="hrExperimentalStuffDescription">Tukaj so zmaji</string>
+    <string name="hrLocationSettings">Nastavitve lokacije</string>
+    <string name="hrUseAndroidLocation">Uporabi androidno lokacijo</string>
+    <string name="hrUseAndroidLocationDescription">IZREDNO EKSPERIMENTALNO: Ali naj uporabim Androidovo vgrajeno lokacijsko rešitev. Postavitev območij na zemljevid je lahko bolj natančno, vendar pa lahko poveča porabo energije</string>
+    <string name="hrUseGps">Uporabi GPS</string>
+    <string name="hrUseGpsDescription">Za določanje lokacije uporabi GPS. ŽRE baterijo.</string>
+    <string name="hrAndroidLocationPollingName">Interval določanja androidne lokacije</string>
+    <string name="hrAndroidLocationPollingDescription">IZREDNO EKSPERIMENTALNO: kako pogosto naj preverim lokacijo</string>
+    <string name="hrAndroidLocationPollingInterval">Interval določanja androidne lokacije (v minutah)</string>
+    <string name="hrWifiTrackingSettings">Nastavitve sledenja WiFi</string>
+    <string name="hrCheckForWifiNetworks">Preveri WiFi omrežja</string>
+    <string name="hrCheckForWifiNetworksDescription">IZREDNO EKSPERIMENTALNO: Ali naj vključim WiFi vsake toliko, da preverim, če so v dosegu brezžična omrežja</string>
+    <string name="hrWifiPolling">Interval preverjanja WiFi</string>
+    <string name="hrWifiPollingDescription">IZREDNO EKSPERIMENTALNO: Kako pogosto naj preverim brezžična omrežja</string>
+    <string name="hrWifiPollingInterval">Interval preverjanja WiFi-ja (v minutah)</string>
+    <string name="hrBluetoothTrackingSettings">Nastavitve sledenja bluetooth-a</string>
+    <string name="hrCheckForBluetoothDevices">Preveri bluetooth naprave</string>
+    <string name="hrCheckForBluetoothDevicesDescription">IZREDNO EKSPERIMENTALNO: Ali naj vključim bluetooth vsake toliko, da preverim, če so v bližini bluetooth naprave</string>
+    <string name="hrBluetoothPollingInterval">Interval preverjanja bluetooth-a</string>
+    <string name="hrBluetoothPollingIntervalDescription">IZREDNO EKSPERIMENTALNO: Kako pogosto naj preverim bluetooth naprave</string>
+    <string name="hrBluetoothPollingIntervalMinutes">Interval preverjanja bluetooth-a (v minutah)</string>
+    <string name="hrUserInterfaceSettings">Nastavitve uporabniškega vmesnika</string>
+    <string name="hrDebugSettings">Razhroščevanje - reči za geeke</string>
+    <string name="hrDebugSettingsTitle">Nastavitve razhroščevanja</string>
+    <string name="hrDebugSettingsDescriptions">Dodatne nastavitve za namene diagnostike in beleženja</string>
+    <string name="hrEventName">Ime dogodka</string>
+    <string name="hrEventNameAndGroup">Ime dogodka in skupine</string>
+    <string name="hrEventNameDescription">Ime, ki bo uporabljeno za prepoznavanje tega dogodka</string>
+    <string name="hrEnabled">Omogočeno</string>
+    <string name="hrEventEnabledDescription">Ali naj Llama preveri pogoje tega dogodka in izvede dejanja</string>
+    <string name="hrProfileName">Ime profila</string>
+    <string name="hrProfileNameDescription">Ime, ki bo uporabljeno za prepoznavanje tega profila</string>
+    <string name="hrNotificationVolume">Glasnost melodije za obvestila</string>
+    <string name="hrRingVibrateSilent">Zvonjenje/Vibriranje/Tiho</string>
+    <string name="hrChangeRingVibrateSilent">Spremeni zvonjenje/vibriranje/tiho</string>
+    <string name="hrChangeRingVibrateSilentDescription">Ali naj spremenim zvonjenje, vibriranje ali tihi način, ko se ta profil akivira</string>
+    <string name="hrRingtone">Melodija zvonjenja</string>
+    <string name="hrChangeRingtone">Spremeni melodijo zvonjenja</string>
+    <string name="hrChangeRingtoneDescription">Ali naj spremenim melodijo zvonjenja, ko se ta profil aktivira</string>
+    <string name="hrNotificationTone">Melodija obvestil</string>
+    <string name="hrChangeNotificationTone">Spremeni privzet melodijo obvestil</string>
+    <string name="hrChangeNotificationToneDescription">Ali naj spremenim melodije obvestil, ko se ta profil aktivira</string>
+    <string name="hrMusicVolume">Glasnost glasbe/medijev</string>
+    <string name="hrChangeMusicVolumeDescription">Ali naj spremenim glasnost glasbe/medijev, ko se ta profil aktivira</string>
+    <string name="hrAlarmVolume">Glasnost alarma</string>
+    <string name="hrChangeAlarmVolume">Spremeni glasnost alarma</string>
+    <string name="hrChangeAlarmVolumeDescription">Ali naj spremenim glasnost alarma, ko se ta profil aktivira</string>
+    <string name="hrInCallVolume">Glasnost slušalke</string>
+    <string name="hrChangeInCallVolume">Spremeni glasnost slušalke</string>
+    <string name="hrChangeInCallVolumeDescription">Ali naj spremenim glasnost slušalke, ko se ta profil aktivira</string>
+    <string name="hrSystemSoundsVolume">Glasnost sistemskih zvokov</string>
+    <string name="hrChangeSystemSoundsVolume">Spremeni glasnost sistemskih zvokov</string>
+    <string name="hrChangeSystemSoundsVolumeDescription">Ali naj spremenim glasnost sistemskih zvokov, ko se ta profil aktivira</string>
+    <string name="hrLlamaIcon">Llamina ikona</string>
+    <string name="hrChangeLlamaIcon">Spremeni Llamino ikono</string>
+    <string name="hrChangeLlamaIconDescription">Ali naj spremenim Llamino ikono, ko se ta profil aktivira</string>
+    <string name="hrLlamaIcons">Llamine ikone</string>
+    <string name="hrSelectALlamaIcon">Izberi ikono</string>
+    <string name="hrRingtoneVolumeDescription">Nastavi glasnost zvonjenja na</string>
+    <string name="hrNotificationToneVolumeDescription">Nastavi glasnost obvestil na</string>
+    <string name="hrChooseVibrateMode">Izberi vibriranje</string>
+    <string name="hrChooseVibrateModeDescription">Zvonjenje/vibriranje</string>
+    <string name="hrSelectARingtone">Izberi melodijo zvonjenja</string>
+    <string name="hrRingtones">Melodije zvonjenja</string>
+    <string name="hrSelectDefaultNotificationDescription">Izberi privzeto melodijo za obvestila</string>
+    <string name="hrNotificationTones">Melodije za obvestila</string>
+    <string name="hrMusicVolumeDescription">Nastavi glasnost glasbe/medijev na</string>
+    <string name="hrAlarmDescription">Nastavi glasnost alarma na</string>
+    <string name="hrInCallDescription">Nastavi glasnost slušalke na</string>
+    <string name="hrSystemSoundDescription">Nastavi glasnost sistemskih zvokov na</string>
+    <string name="hrChangeRingtoneVolume">Spremeni glasnost zvonjenja</string>
+    <string name="hrChangeRingtoneVolumeDescription">Ali naj spremenim glasnost zvonjenja, ko se ta profil aktivira</string>
+    <string name="hrChangeNotificationVolume">Spremeni glasnost obvestil</string>
+    <string name="hrChangeNotificationVolumeDescription">Ali naj spremenim glasnost obvestil, ko se ta profil aktivira</string>
+    <string name="hrRingtoneVolume">Glasnost zvonjenja</string>
+    <string name="hrAddAction">Dodaj dejanje</string>
+    <string name="hrAddCondition">Dodaj pogoj</string>
+    <string name="hrRemove">Odstrani</string>
+    <string name="hrTestActions">Testiraj dejanja</string>
+    <string name="hrNotificationIconOnlyError">Obvestilo samo z ikono ni podprto v Gingerbread-u :(</string>
+    <string name="hrThanksToTranslators">Najlepša hvala prevajalcem Llame:</string>
+    <string name="hrUnableToUpdateArea1">"Ne morem posodobiti območja '%1s', ker ne obstaja več :("</string>
+    <string name="hrToggleProfileChangesLock">Preklopi zaklep profilov</string>
+    <string name="hrRebootBracketRequiresRootBracket">Ponovni zagon (zahteva root)</string>
+    <string name="hrCarMode">Način vožnje</string>
+    <string name="hrWiredHeadset">Slušalke</string>
+    <string name="hrConditionsMatchAll">Pogoji (ujemanje vseh)</string>
+    <string name="hrConditionsMatchAny">Pogoji (ujemanje karegakoli)</string>
+    <string name="hrSorryNoHelpYet">Sorči, ni pomoči (še) :(</string>
+    <string name="hrAirplaneModeEnterAreaWarning">"Ko si v načinu v letalu, ne moreš 'vstopiti' v območje, ker ni povezave z omrežjem!"</string>
+    <string name="hrRebootSafetyMessage">"Pazljivo s pogoji!
+Telefon mora biti prižgan vsaj 5 minut, da se lahko ponovno zažene. Iz varnostnih razlogov"</string>
+    <string name="hrShutdownSafetyMessage">"Previdno pri izbiri pogojev!
+Iz varnostnih razlogov mora biti telefon prižgan vsaj 5 minut, predno lahko izvedeš ponovni zagon."</string>
+    <string name="hrBluetoothParingInfo">Bluetooth naprava mora biti povezana s telefonom. Če je seznam prazen, vključi bluetooth in poskusi ponovno.</string>
+    <string name="hrWifiNetworkInfo">Če je seznam prazen, vključi WiFi in poskusi ponovno. Brezžično omrežje mora biti v dosegu ali pa na seznamu omrežij, ki jih telefon že pozna.</string>
+    <string name="hrAndroid22Only">Samo Android 2.2+</string>
+    <string name="hrKeyGuardBuggyWarning">"OPOZORILO: Hrošči! Gumb 'domov' lahko preneha delovati, dokler ponovno ne omogočiš zaščite zaslona"</string>
+    <string name="hrMobileDataWarning">EKSPERIMENTALNO: Mobilni prenos podatkov mora biti omogočen v nastavitvah!</string>
+    <string name="hrLanguageDescription">Uporabi jezik, ki ni privzet jezik telefona</string>
+    <string name="hrLanguageBracketEnglishLanguageBracket">Jezik</string>
+    <string name="hrTurnOnTheScreenDim">vključi zaslon pri nižji osvetlitvi</string>
+    <string name="hrTurnOnTheScreenBright">vključi zaslon pri normalni osvetlitvi</string>
+    <string name="hrTurnOnTheScreenBrightAndKeyboard">vključi zaslon in gumbe pri normalni osvetlitvi</string>
+    <string name="hrTurnOffTheScreen">izključi zaslon</string>
+    <string name="hrErrorNotificationMode">Obvestila o napakah</string>
+    <string name="hrErrorNotificationModeDescription">Kako naj te Llama opozori na težave, ki se lahko zgodijo, ko Llama teče v ozadju, kot npr. napake v dogodkih ali pri zaklepanju profilov.</string>
+    <string name="hrLlamaProblem">Llama problem</string>
+    <string name="hrFailedToReadCalendar1">Branje koledarja %1s ni uspelo. Opozarjanje na napake lahko izključiš v nastavitvah</string>
+    <string name="hrRevertVolumeChanges">Onemogoči gumbe za nastavitev glasnosti</string>
+    <string name="hrRevertVolumeChangesDescription">Ali naj Llama nastavi glasnost na vrednost, določeno v profilu, če po nesreči pritisneš gumb za nastavtev glsnosti.</string>
+    <string name="hrScreenOn">Zaslon vključen</string>
+    <string name="hrScreenOff">Zaslon izključen</string>
+    <string name="hrWhenScreenIsOn">ko se zaslon vključi</string>
+    <string name="hrWhenScreenIsOff">ko se zaslon izključi</string>
+    <string name="hrScreenOnOff">Zaslon vključen/izključen</string>
+    <string name="hrConditionScreenOnOffDescription">S tem pogojem lahko izvedeš dejanja glede na to, ali je zaslon vključen ali izključen</string>
+    <string name="hrAutoRelinkVolumes">Ponovno poveži glasnost</string>
+    <string name="hrAutoRelinkVolumesDescription">"Ali naj ponovno omogočim gumb'uporabi glasnost zvonjenja tudi za obvestila' v nastavitvah Androida, kadar se aktivira profil z enakimi nastavitvami glasnosti."</string>
+    <string name="hrTimeBetweenWarning">Ne pozabi ustvariti še enega dogodka za čas izven določenega!</string>
+    <string name="hrConditionWifiConnected">WiFi omrežje povezano</string>
+    <string name="hrConditionWifiConnectedDescription">Pogoj je izpolnjen, kadar je telefon povezan s katerimkoli od izbranih omrežij, in ostane veljaven, dokler telefon ostane povezan.</string>
+    <string name="hrConditionWifiDisconnected">WiFi omrežje ni povezano</string>
+    <string name="hrConditionWifiDisconnectedDescription">Pogoj je izpolnjen, kadar telefon ni povezan z nobenim od izbranih omrežij ali pa se povezava s katerimkoli od izbranih omrežij prekine. Pogoj ostane veljaven, dokler se telefon ne poveže z enim od naštetih omrežij.</string>
+    <string name="hrWhenWifi1Disconnects">ko se povezava telefona z %1$s prekine ali ni povezan z %1$s</string>
+    <string name="hrWhenWifi1Connects">ko se telefon poveže z omrežjem %1$s</string>
+    <string name="hrNoSignalUnknown">Ni signala/Neznano</string>
+    <string name="hrNewProfile">Nov profil</string>
+    <string name="hrColourEventList">Barvni seznam dogodkov</string>
+    <string name="hrColourEventListDescription">"Ali naj bodo pogoji dogodkov obarvani glede na trenutno stanje.
+Zelena=izpolnjen, rdeča=ni izpolnjen, podčrtano=sproženo med zadnjim testom dogodka"</string>
+    <string name="hrActionUsbStorage">USB shramba</string>
+    <string name="hrActionUsbStorageDescription">S tem vključiš ali izključiš USB shrambo. Če je proizvajalec dodal še druge USB funkcije (npr. MediaSync, PC Suite), ta reč mogoče ne bo delovala. NAMIG: Ustvari bližnjico na namizju za vklop USB shrambe na preprost način.</string>
+    <string name="hrUsbStorageOn">USB shramba vključena</string>
+    <string name="hrUsbStorageOff">USB shramba izključena</string>
+    <string name="hrUsbStorageToggle">USB shramba vključena/izključena</string>
+    <string name="hrUsbStorageOnDescription">vključi USB shrambo</string>
+    <string name="hrUsbStorageOffDescription">izključi USB shrambo</string>
+    <string name="hrUsbStorageToggleDescription">vključi/izključi USB shrambo</string>
+    <string name="hrUsbToggleError">Vklop/izklop USB shrambe ni uspel</string>
+    <string name="hrActionMediaPlayer">Predvajalnik</string>
+    <string name="hrActionMediaPlayerDescription">S tem nadzorujete predvajalnik, podobno kot z gumbi Predvajaj/Pavziraj ali Prejšnji/Naslednji na slušalkah. Pomembno je tudi, da tvoj predvajalnik podpira ta dejanja. Vsi namreč ne :(</string>
+    <string name="hrSendMedia1Button">pritisni gumb %1s na predvajalniku</string>
+    <string name="hrUnknownArea">Neznano območje</string>
+    <string name="hrNoisyContacts">Hrupni stiki</string>
+    <string name="hrNoisyContactsDescription">Izberi stike, ki jim dovoliš, da spremenijo nastavitve zvonjenja, določene s tem profilom.</string>
+    <string name="hrNoisyContactRingerVolume">Hrupne nastavitve zvonjenja</string>
+    <string name="hrNoisyContactRingerVolumeDescription">To je glasnost zvonjenja, kadar vas pokliče kdo od hrupnih stikov.</string>
+    <string name="hrNoisyContactPicker1Selected">Izbor hrupnih stikov - izbranih %1s</string>
+    <string name="hr4GOn">4G vključen</string>
+    <string name="hr4GOff">4G izključen</string>
+    <string name="hrActionToggle4G">4G</string>
+    <string name="hrActionToggle4GDescription">Lahko vključiš ali izključiš 4G, če telefon to omogoča. Če ne, je lahko to strašno območje.</string>
+    <string name="hrEnable4G">vključi 4G</string>
+    <string name="hrDisable4G">izključi 4G</string>
+    <string name="hr4GWarning">EKSPERIMENTALNO: Nimam 4G telefona, pa nisem testiral. Donacije dobrodošle :)</string>
+    <string name="hrActionRunShortcut">Zaženi bližnjico do aplikacije</string>
+    <string name="hrActionRunShortcutDescription">Zažene drugo aplikacijo z uporabo določene bližnjice. S tem lahko izvedete celo vrsto dejanj znotraj drugih aplikacij. Če aplikacije ni na seznamu ali pa želeno dejanje ne obstaja, obvesti razvijalca.</string>
+    <string name="hrChooseAShortcutToRun">Izberi bližnjico za zagon</string>
+    <string name="hrRunAShortcut">"zaženi bližnjico '%1s'"</string>
+    <string name="hrPleaseWait">Počakaj, prosim....</string>
+    <string name="hrGettingApplicationNames">Pregledujem aplikacije...</string>
+    <string name="hrGettingShortcuts">Pregledujem bližnjice...</string>
+    <string name="hrAnyWifiNetwork">&lt;Katerokoli WiFi omrežje></string>
+    <string name="hrInAirplaneMode">Način letenja vključen</string>
+    <string name="hrNotInAirplaneMode">Način letenja izključen</string>
+    <string name="hrWhenInAirplaneMode">ko je Način letenja vključen</string>
+    <string name="hrWhenNotInAirplaneMode">ko je Način letenja izključen</string>
+    <string name="hrConditionAirplaneMode">Način letenja</string>
+    <string name="hrConditionAirplaneModeDescription">S tem pogojem omogočite, da se zgodijo dejanja, kadar vključite ali izključite Način letenja.</string>
+    <string name="hrTheApocalypse">Ob koncu sveta!!!</string>
+    <string name="hrEnableHapticFeedback">vključi vibrirajoči odziv</string>
+    <string name="hrDisableHapticFeedback">izključi vibrirajoči odziv</string>
+    <string name="hrActionHapticFeedback">Vibrirajoči odziv</string>
+    <string name="hrActionHapticFeedbackDescription">To dejanje vključi ali izključi odziv z vibriranjem. Odziv z vibriranjem pomenji, da telefon zavibrira, kadar se dotaknete gumbov na zaslonu.</string>
+    <string name="hrHapticFeedbackOn">Vibrirajoči odziv vključen</string>
+    <string name="hrHapticFeedbackOff">Vibrirajoči odziv izkjučen</string>
+    <string name="hrActionScreenOnWarning">Različni modeli se obnašajo različno. Uporabljaj v kombinaciji z nastavitvami za svetlost zaslona za nastavitev DEJANSKE svetlosti.</string>
+    <string name="hrWifiSleepPolicyNever">WiFi nikoli ne zaspi</string>
+    <string name="hrWifiSleepPolicyNeverWhilePlugged">WiFi nikoli ne zaspi med polnjenjem</string>
+    <string name="hrWifiSleepPolicyScreenOff">WiFi zaspi, ko se izkopi zaslon</string>
+    <string name="hrWifiSleepPolicyNeverDescription">prepreči, da WiFi zaspi</string>
+    <string name="hrWifiSleepPolicyNeverWhilePluggedDescription">prepreči, da WiFi zaspi, kadar je telefon priklopljen</string>
+    <string name="hrWifiSleepPolicyScreenOffDescription">nastavi, da WiFi zaspi kmalu potem, ko se izključi zaslon</string>
+    <string name="hrActionWifiSleepPolicy">WiFi - pravila, kdaj zaspi</string>
+    <string name="hrActionWifiSleepPolicyDescription">S tem spreminjate napredne WiFi nastavitve, ki določajo, kdaj telefon zaspi. Vedi, da imajo nekateri telefoni zamik med izklopom zaslona in izklopom WiFi-ja.</string>
+    <string name="hrClearNotification">Počisti</string>
+    <string name="hrLeaveNotification">Zapusti</string>
+    <string name="hrChangeWallpaperTo1">"spremeni ozadje zaslona v '%1s'"</string>
+    <string name="hrPleaseChooseAWallpaper">Izberi ozadje zaslona</string>
+    <string name="hrActionWallpaper">Zaslon - ozadje</string>
+    <string name="hrActionWallpaperDescription">"Omogoča ti, da spremeniš ozadje namizja. Izbiraš lahko iz zbirke ozadij v Androidni galeriji, kjer jih lahko tudi obrežeš. Obdelane slike bodo shranjene v mapo Llama/Wallpaper na SD kartici.
+
+Android ne omogoča spreminjanja dinamičnih ozadij :'("</string>
+    <string name="hrHowDoIChangeOtherStuff">Kaj pa ostale nastavitve?</string>
+    <string name="hrHowDoIChangeOtherStuffDescription">Tukaj so zvočni profili. Če želiš spreminjati nastavitve Bluetooth-a, WiFi-ja in druge, pojdi na zavihek Dogodki in ustvari nov dogodek za želeno nastavitev.</string>
+    <string name="hrConditionAppNotification">Ikona aplikacije v obvestilni vrstici</string>
+    <string name="hrConditionAppNotificationDescription">"EKSPERIMENTALNO: Ta pogoj se aktivira, kadar izbrana aplikacija namesti ikono v obvestilno vrstico. Llama mora imeti omogočene 'accessibility settings'. Lahko izvedeš dejanja, ko prejmeš SMS ali Google Talk sporočilo ali pa neka druga aplikacija namesti ikono v obvestilno vrstico. V RAZVOJU. SAMO ZA GEEKE."</string>
+    <string name="hrConditionAppNotificationWarning">"EKSPERIMENTALNO: Odkljukaj Llamo v 'accessibility settings'."</string>
+    <string name="hrKillWithRootDieDieDie1">zapri %1s s korenskim pristopom!!!</string>
+    <string name="hrInvalidPackageNameToKill1">"Paket '%1s' ni bil zaprt, kar ime ne obstaja"</string>
+    <string name="hrIgnored">Prezrto</string>
+    <string name="hrUnignoreCell">Ne prezri celic</string>
+    <string name="hrIgnoreCell">Prezri celico</string>
+    <string name="hrIgnoreCells">Prezri celice</string>
+    <string name="hrNoCellsIgnoredLongTapRecentTab">Nobena druga celica ni prezrta. Pojdi na zavihek Nedavno in z dolgim pritiskom prezri kakšno.</string>
+    <string name="hrIgnoreOtherCells">Druge prezrte celice</string>
+    <string name="hrIgnoreOtherCellsDescription">Včasih se kakšna celica nahaja v dveh območjih. Takšne celice lahko prezreš, da ne sporočajo, da zapuščaš območja. Prezreš jo z dolgim pritiskom na celico na zavihku Nedavno.</string>
+    <string name="hrAndFinally">In končno...</string>
+    <string name="hrCalendarEventDialogEventNameContains">Ime dogodka vključuje...(več imen ločiš z navpično črto)</string>
+    <string name="hrCalendarEventDialogInCalendars">V koledarjih...</string>
+    <string name="hrThisAreaHasNotBeenDefinedLongTapItOrLookInTheRecentTab">To območje še ni bilo določeno. Z dolgim pritiskom na območje pričneš z beleženjem mobilnih baznih postaj. Lahko pa območje definiraš tudi na zavihku Nedavno.</string>
+    <string name="hrActionScreenBrightnessWarning">Različni telefoni različno razumejo nastavitve svetlosti zalona. Mogoče bo potrebno zaslon izključiti in ponovno vključiti, predno bodo spremebe vidne.</string>
+    <string name="hrAnyCalendarEvent">katerikoli koledarski dogodek</string>
+    <string name="hrAnyCalendar">katerikoli koledar</string>
+    <string name="hrCalendarEvents1ContainsAnyEvent">je v koledarju %1$s katerikoli dogodek</string>
+    <string name="hrCalendarEvents1DoesNotContainAnyEvent">v koledarju %1$s ni nobenega dogodka</string>
+    <string name="hrCalendarEvents1Contains2">je v koledarju %1$s dogodek z imenom %2$s</string>
+    <string name="hrCalendarEvents1DoesNotContains2">v koledarju %1$s ni dogodka z imenom %2$s</string>
+    <string name="hrCalendarEvents1ContainsAnyEventDescription">ko je v koledarju %1$s katerikoli dogodek</string>
+    <string name="hrCalendarEvents1DoesNotContainAnyEventDescription">ko v koledarju %1$s ni nobenega dogodka</string>
+    <string name="hrCalendarEvents1Contains2Description">ko je v koledarju %1$s dogodek z imenom %2$s</string>
+    <string name="hrCalendarEvents1DoesNotContains2Description">ko v koledarju %1$s ni dogodka z imenom %2$s</string>
+    <string name="hrCalendarEventNameSpaceWarning">Nekatera imena koledarskih dogodkov imajo presledke pred ali za imenom in nekatere Androidne tipkovnice presledke vstavljajo avtomatično. Če ne želiš presledkov, klikni Odstrani presledke</string>
+    <string name="hrRemoveSpaces">Odstrani presledke</string>
+    <string name="hrLeaveSpaces">Pusti presledke</string>
+    <string name="hrOnStartUp">Po zagonu</string>
+    <string name="hrOnShutdown">Pred izklopom</string>
+    <string name="hrWhenPhoneBoots">ko se telefon zažene</string>
+    <string name="hrWhenPhoneShutsdown">ko se telefon izključi</string>
+    <string name="hrEnableRotation">omogoči zasuk</string>
+    <string name="hrDisableRotation">onemogoči zasuk</string>
+    <string name="hrActionScreenRotation">Zasuk zaslona</string>
+    <string name="hrActionScreenRotationDescription">S tem nastaviš, ali se zaslon zavrti, kadar zavrtiš telefon. Pri večini telofonov lahko nastaviš samo pokončni način ali pa avtomatski preklop med pokončnim in ležečim.</string>
+    <string name="hrAllow1Rotations">dovoli zasuk zaslona %1s</string>
+    <string name="hrLockProfileFor1">zakleni profil za %1s</string>
+    <string name="hrForeverEternity">za vedno (ponovno omogoči na zavihku Profili)</string>
+    <string name="hrLockProfileForever">zakleni profil za vedno</string>
+    <string name="hrAlsoPreventOtherEventsFromChangingProfilesForDotDotDot_1">Aktiviraj tudi zaklep profilov. Drugi dogodki ne bodo mogli spreminjati profilov, po določenem času pa bo Llama zopet preklopila na prejšnji profil.</string>
+    <string name="hrCarDockOnOffDescription">vključi/izključi Način vožnje</string>
+    <string name="hrCarDockOnOff">Vključi/izključi Način vožnje</string>
+    <string name="hrCarDockOffDescription">izključi Način vožnje</string>
+    <string name="hrCarDockOff">Izključi Način vožnje</string>
+    <string name="hrCarDockOnDescription">vključi Način vožnje</string>
+    <string name="hrCarDockOn">Vključi Način vožnje</string>
+    <string name="hrActionCarMode">Način vožnje</string>
+    <string name="hrActionCarModeDescription">S tem ročno vključiš/izključš Način vožnje. Podprto samo v Androidu 2.2+.</string>
+    <string name="hrCarModeNotSupportedByPhone">Način vožnje podprt samo v Androidu 2.2+.</string>
+    <string name="hrFailedToStartShortcut1">Zagon bližnjice %1s ni uspel</string>
+    <string name="hrLlamaFailedToChangeApnSettings">Llami ni uspelo spremeniti APN nastavitev</string>
+    <string name="hrErrorReadingContacts">Napaka pri branju stikov</string>
+    <string name="hrThereWasAnErrorReadingYourContacts">Zgodila se je napaka pri branju stikov :(</string>
+    <string name="hrAlarmVolumeWarning">Pazi, kajti nekatere budilke same kontrolirajo glasnost alarma, npr. nekateri Samsung-ovi modeli. Naloži drugo aplikacijo, ki ne počne tega.</string>
+    <string name="hrRunIntent1">"zaženi aAndroidno namero'%1s'"</string>
+    <string name="hrCreateAnIntent">Določi Androidno namero</string>
+    <string name="hrActionAndroidIntent">Androidna namera</string>
+    <string name="hrActionAndroidIntentDescription">Tu lahko zaženete Androidno namero. To je zelo napredna funkcija in potrebuje sodelovanje s tretjeosebno aplikacijo. Llama ima nekatere Namere že prednastavljene. Če se ti posveti kakšna dobra Namera, jo veselo razširi med ostale :)</string>
+    <string name="hrPreset">Prednastavljeno</string>
+    <string name="hrDashDashOrDashDash">--ALI--</string>
+    <string name="hrIntentEditPackageName">Ime paketa</string>
+    <string name="hrIntentEditClassName">Ime razreda</string>
+    <string name="hrIntentEditAction">Dejanje</string>
+    <string name="hrIntentEditCategory">Kategorije (ločene z vejico/črto)</string>
+    <string name="hrIntentEditData">Podatki</string>
+    <string name="hrIntentEditDateType">Tip podatkov</string>
+    <string name="hrCustomAndroidIntent">Androidna namera po meri</string>
+    <string name="hrTpiWidgetLockerEnable">Widget Locker: Omogoči</string>
+    <string name="hrTpiWidgetLockerDisable">Widget Locker: Onemogoči</string>
+    <string name="hrTpiWidgetLockerSuspend">Widget Locker: Zaustavi</string>
+    <string name="hrTpiWidgetLockerResume">Widget Locker: Nadaljuj</string>
+    <string name="hrTpiWidgetLockerActivate">Widget Locker: Zakleni</string>
+    <string name="hrTpiWidgetLockerUnlock">Widget Locker: Odkleni</string>
+    <string name="hrTpiBeautifulWidgetsRefresh">Beautiful Widgets: Osveži</string>
+    <string name="hrTpiAndroidStartHome">Android: Pojdi na domači zaslon</string>
+    <string name="hrTpiHoursBankStartStop">Urna Banka: Start/Stop</string>
+    <string name="hrIntentEditSendMode">Namera - način za pošiljanje</string>
+    <string name="hrAdvancedDotDotDot">Napredno...</string>
+    <string name="hrRepeatEvent">Ponavljajoč dogodek</string>
+    <string name="hrRepeatEventDescription">Ali naj se dejanja dogodka izvajajo, dokler so pogoji izpolnjeni</string>
+    <string name="hrRepeatEventMinutes">Interval ponovitev</string>
+    <string name="hrRepeatEventMinutesDescription">Čas med posameznimi ponovitvami dejanj dogodka.</string>
+    <string name="hrDelayEvent">Zakasnitev dogodka</string>
+    <string name="hrDelayEventDescription">Ali naj se dejanja tega dogodka izvršijo takoj ali pa po določenem času.</string>
+    <string name="hrDelayEventMinutes">Zakasnitev</string>
+    <string name="hrDelayEventMinutesDescription">Čas, ki mora preteči med sprožitvijo dogodka in izvedbo dejanj tega dogodka.</string>
+    <string name="hrCancelDelayedEvent">Prekliči, če ne drži</string>
+    <string name="hrCancelDelayedEventDescription">Če odkjukaš, se dejanja zakasnjenega dogodka ne bodo izvedla, če pogoji niso več izpolnjeni.</string>
+    <string name="hrEventRequireConfirmation">Počakaj na potrditev</string>
+    <string name="hrEventRequireConfirmationDescription">Ali naj se dejanja dogodka izvedejo šele, ko jih potrdiš preko obvestilnega okna.</string>
+    <string name="hrMoreInfoDotDotDot">Več informacij...</string>
+    <string name="hrEventAdvancedDetailedDescription">"Če je izbranih več naprednih možnosti:
+
+-Potrditveno okno ne bo prikazano do preteka zakasnitve.
+
+-Ponavljajoč dogodek se ne bo pričel ponvaljati do preteka zakasnitve in/ali potrditve."</string>
+    <string name="hrRepeatTriggerName">Ponavljajoč dogodek</string>
+    <string name="hrAfterDelayTriggerName">Zakasnjen dogodek</string>
+    <string name="hrConfirmationTriggerName">Potrdil uporabnik</string>
+    <string name="hrEventNameTriggerName">Ime dogodka</string>
+    <string name="hrEventNameTriggerShortcutName">Bližnjica do dogodka</string>
+    <string name="hrEventNameTriggerShortcutCustom">Bližnjica po meri</string>
+    <string name="hrEventNameTriggerEventEditor">Test urejevalnika dogodkov</string>
+    <string name="hrEventNameTriggerEventList">Test seznama dogodkov</string>
+    <string name="hrTheEventNamed1NoLongerExists">"Dogodek z imenom '%1s' ne obstaja več."</string>
+    <string name="hrWifiAccessPointMayNotBeSupported">WiFi dostopne točke (WAP) niso podprte v tvojem telefonu.</string>
+    <string name="hrEvent1RequiresConfirmation">"Dogodek z imenom '%1$s' zahteva potrditev za izvedbo dejanj:"</string>
+    <string name="hrEventRequiresConfirmationFooter">Dejanja lahko izvedeš sedaj, jih shraniš za kasneje ali pa obvestilo izbrišeš.</string>
+    <string name="hrEventRequireConfirmationDialog">Potrditveno okno</string>
+    <string name="hrEventRequireConfirmationDialogDescription">Ali naj prekinem trenutno aktivnost s prikazom potrditvenega okna ali naj prikažem samo ikono v obvestilni vrstici.</string>
+    <string name="hrEventConfirmationRunNow">Zaženi zdaj</string>
+    <string name="hrEventConfirmationSaveForLater">Kasneje</string>
+    <string name="hrEventConfirmationDontRun">Prekliči</string>
+    <string name="hrRepeatingAt1">(Ponovitev ob %1s)</string>
+    <string name="hrDelayedUntil1">(Zakasnjeno do %1s)</string>
+    <string name="hrAwaitingConfirmation">(Čakam potrditev)</string>
+    <string name="hrWifiHotSpotOnOffDescription">vključi/izključi WiFi hotspot način</string>
+    <string name="hrWifiHotSpotOnOff">Vključi/izključi WiFi hotspot</string>
+    <string name="hrWifiHotSpotOffDescription">izključi WiFi hotspot</string>
+    <string name="hrWifiHotSpotOff">Izključi WiFi hotspot</string>
+    <string name="hrWifiHotSpotOnDescription">vključi WiFi hotspot</string>
+    <string name="hrWifiHotSpotOn">Vključi WiFi hotspot</string>
+    <string name="hrActionWifiHotSpot">WiFi hotspot</string>
+    <string name="hrActionWifiHotSpotDescription">S tem dejanjem ročno vključite WiFi hotspot. Podprto samo v Androidu 2.2+.</string>
+    <string name="hrScreenBrightnessWarning">Niso vsi telefoni narejeni na enak način. Pri nekaterih ne bo odziva na spremembo svetlosti zaslona, dokler se zaslon ne izključi in ponovno vključi.</string>
+    <string name="hrScreenBrightnessLowWarning">OPOZORILO: Nekateri telefoni omogočajo nastavitev tako šibke osvetlitve zaslona, da zaslona praktično ni več videti. Nadaljuj na lastno pest! Mogoče bo treba odstraniti baterijo in ponovno zagnati telefon, da bo stvar zopet delovala.</string>
+    <string name="hrSpeakerphoneOnOffDescription">vključi/izključi zvočnik</string>
+    <string name="hrSpeakerphoneOnOff">Vključi/izključi zvočnik</string>
+    <string name="hrSpeakerphoneOffDescription">izključi zvočnik</string>
+    <string name="hrSpeakerphoneOff">Izključi zvočnik</string>
+    <string name="hrSpeakerphoneOnDescription">vključi zvočnik</string>
+    <string name="hrSpeakerphoneOn">Vključi zvočnik</string>
+    <string name="hrActionSpeakerphone">Zvočnik</string>
+    <string name="hrActionSpeakerphoneDescription">To dejanje vključi oz. izključi zvočnik med klicem. Deluje samo med klicem in ne vpliva na druge reči, npr. glasbo.</string>
+    <string name="hrDeviceAdminDescription">Omogoča podporo za nekatera Llamina dejanja</string>
+    <string name="hrDeviceAdminNotSupported">Administrator naprave je podprt samo v Androidih 2.2+</string>
+    <string name="hrDeviceAdminError">Llami nima dodeljenih administratorskih pravic. Poglej nastavitve Androida (Location and Security settings).</string>
+    <string name="hrScreenOffError">Izklop zaslona ni bil mogoč.</string>
+    <string name="hrActionChangePassword">Geslo za zaklep zaslona</string>
+    <string name="hrActionChangePasswordDescription">S tem spremenite geslo za zaklep zaslona. Uporabno je, če želiš začasno izključiti geslo, tako da se zaklep zaslona ne prikaže. To geslo bo shranjeno v zakodirani obliki in se zapiše na SD-kartico, če slučajno pride do napake pri Llama podatkih ali če ročno izvoziš svoje podatke. Geslo bo zakodirano z uporabo Llama Varnostnega gesla v nastavitvah Llame, ki se nikoli ne shrani na SD-kartico. Vseeno pa lahko nekatere aplikacije s korenskim dostopom dostopajo do Llama Varnostnega gesla! Če spremeniš Llama Varnostno geslo, bo potrebno ponovno vnesti kodo za dejanje spremembe gesla.</string>
+    <string name="hrChangePasswordError">Gesla za zaklep zaslona ni bilo mogoče spremeniti.</string>
+    <string name="hrThereWasAnErrorSavingYourPassword">Prišlo je do napake med shranjevanjem gesla za zaklep zaslona. Mogoče si spremeil/-a Llama Varnostno geslo. Poizkusi ponovno vnesti geslo za zakelp zaslona.</string>
+    <string name="hrFailedToDecryptYourPassword">Dekodiranje gesla za zaklep zaslona ni uspelo in zato ni bilo spremenjeno.</string>
+    <string name="hrSecuritySettings">Varnostne nastavitve</string>
+    <string name="hrLlamaSecurityPassword">Llama Varnostno geslo</string>
+    <string name="hrLlamaSecurityPasswordDescription">To se uporablja za kodiranje občutljivih informacij, določenih v dogodkih (npr. geslo za zaklep zaslona)</string>
+    <string name="hrLlamaSecurityPasswordDescriptionEx">"Se uporablja za kodiranje občutljivih informacij, določenih v dogodkih (npr. geslo za zaklep zaslona). Občutljivi podatki tako niso zapisani v tekstovni obliki, tudi če ročno izvozite podatke na SD-kartico.
+
+Če varnostno geslo spremeniš, je potrebno ponovno določiti vsa dejanja, povezana z geslom za zaklep zaslona.
+
+Tega varnostnega gesla ne boš več potreboval/-a, razen če zamenjaš telefon ali ponovno naložiš Llamo."</string>
+    <string name="hrSetLlamaSecurityPasswordNow">Dobro bi bilo nastaviti Llama Varnostno geslo. Le-to se uporablja za zaščito občutljivih informacij, kadar svoje dogodke izvoziš na SD-kartico. To geslo je ločeno od gesla za zaklep zaslona ali gesla Googlovega računa. Ali želiš nastaviti Llama Varnostno geslo zdaj?</string>
+    <string name="hrPleaseEnterALlamaSecurityPassword">Prosim, vnesi Llama Varnostno geslo ali pritisni Prekliči, če želiš ohraniti obstoječe.</string>
+    <string name="hrChangeScreenLockPassword">spremeni geslo za zaklep zaslona</string>
+    <string name="hrQueueEventActionValidation">Dogodek mora vsebovati vsaj en pogoj ali biti razporejen na čakalno listo po vsaj eni minuti.</string>
+    <string name="hrActionQueueEvent">Razporedi še en dogodek</string>
+    <string name="hrActionQueueEventDescription">"S tem lahko ustvariš enkraten dogodek, ki ga lahko uporabiš za izvedbo drugega niza dogodov po določenem času. Enkraten dogodek bo izbrisan, ko se enkrat sproži.
+
+Če določiš tako čas v razporedu kot tudi pogoje, se bo razporejen dogodek sprožil le, če bodo pogoji še vedno izpolnjeni.
+
+Če določiš samo pogoje, se bo razporejn dogodek sprožil, ko bodo pogoji izpolnjeni."</string>
+    <string name="hrQueueEventMinutes">Zamik razporeda</string>
+    <string name="hrQueueEventMinutesDescription">Čas po sprožitvi originalnega dogodka predno Llama ponovno preveri pogoje dogodka in izvede dejanja.</string>
+    <string name="hrQueueAnEventNamed1After2Minutes">"razporedi dogodek '%1$s' čez %2$s min"</string>
+    <string name="hrQueueAnEventNamed1">"razporedi dogodek '%1$s'"</string>
+    <string name="hrWaitFor1Minutes">Počakaj %1s min</string>
+    <string name="hrConditionAbbr">P</string>
+    <string name="hrActionAbbr">D</string>
+    <string name="hrYouHaveFiltersActive">Nekateri dogodki so skriti zaradi vključenega filtra!</string>
+    <string name="hrEnterAScreenLockPassword">Vnesi geslo za zaklep zaslona:</string>
+    <string name="hrConfirmScreenLockPassword">Potrdi geslo za zaklep zaslona:</string>
+    <string name="hrPasswordsDontMatch">Gesli se ne ujemata. Prosim, poizkusi ponovno.</string>
+    <string name="hrPasswordHidden">Geslo je skrito</string>
+    <string name="hrPasswordErrorPleaseReenterItAgain">Napačno geslo. Prosim, vpiši ga ponovno.</string>
+    <string name="hrEventActionAndConditionSettings">Nastavitve pogojev in dejanj dogodka</string>
+    <string name="hrDefaultReminderTone">Melodija opomnika</string>
+    <string name="hrDefaultReminderToneDescription">Melodija, ki se predvaja, kadar uporabljaš dejanja z opomnikom</string>
+    <string name="hrWaitForConditions">Počakaj na pogoje</string>
+    <string name="hrLongerProfileLock">Daljši zaklep profilov</string>
+    <string name="hrLongerProfileLockDescription">Ali naj bo v funkciji zaklepa profilov možnost zaklepa za 24 ur.</string>
+    <string name="hrCellPolling">Nastavitve preverjanja celic</string>
+    <string name="hrCellPollingDescription">Llama običajno deluje v ozadju z uporabo trenutno povezanih celic. S temi nastavitvami lahko prilagodiš Llamine metode preverjanja celic.</string>
+    <string name="hrCellPollingWithWakeLock">Zbudi med preverjanjem</string>
+    <string name="hrCellPollingWithWakeLockDescription">Ali naj Llama prisili telefon, da ostane buden medtem, ko preverja, če je prišlo do spremembe celic. Za nekatere telefone je to nujno.</string>
+    <string name="hrCellPollingWithScreenWakeLock">Vključi zaslon med preverjanjem</string>
+    <string name="hrCellPollingWithScreenWakeLockDescription">Ali naj na kratko vključim zaslon. OPOZORILO: Prižiganje zaslona tisočkrat dnevno ga mogoče lahko poškoduje. Sicer nimam pojma, ampak uporabljaš na lastno odgovornost.</string>
+    <string name="hrCellPollingActiveInterval">Čas preverjanja celic</string>
+    <string name="hrCellPollingActiveIntervalMillis">Čas v milisekundah, v katerem lahko Llama ohranja tvojo napravo budno. Naj ne bo več kot 5 sekund, če ne želiš prehitro iztrošiti baterije.</string>
+    <string name="hrConfirmationTriggeredBy1Condition">Potrditev sprožena s pogojem %1s</string>
+    <string name="hrDelayTriggeredBy1Condition">Zakasnitev začeta s pogojem %1s</string>
+    <string name="hrEventDelayCancelled">Zakasnitev preklicana, ker pogoji niso več izpolnjeni</string>
+    <string name="hrEventRepeatingCancelled">Ponavljanje preklicano, ker pogoji niso več izpolnjeni</string>
+    <string name="hrSetLlamaVariable1To2">"nastavi Llama spremenljivko '%1$s' na '%2$s'"</string>
+    <string name="hrPleaseEnterAVariableName">Vnesi ime Llama spremenljivke</string>
+    <string name="hrPleaseEnterAVariableValue">Vnesi vrednost Llama spremenljivke</string>
+    <string name="hrVariableName">Ime spremenljivke</string>
+    <string name="hrVariableValue">Vrednost spremenljivke (lahko prazno)</string>
+    <string name="hrActionSetLlamaVariable">Llama spremenljivka</string>
+    <string name="hrActionSetLlamaVariableDescription">Llama ti omogoča, da shraniš besedilo, na katerga se nato sklicujejo drugi dogodki. S tem lahko ustvariš grozno zapletene nize dogodkov. Besedilo shraniš v poimenovano spremenljivko, imaš pa lahko več različno poimenovanih spremenljivk. Povrhu vsega Llama spremenljivke pošlje Minimalističnim Text Widgetom (MTW). MTW-ju lahko določiš prepoznavo spremenljivke kot njegovo Lokalno spremenljivko.</string>
+    <string name="hrDonateRequiresMarket">Problem pri zagonu Androidnega Marketa. Doniraš lahko samo preko Marketa.</string>
+    <string name="hrWhen1HasAValueOf2">"ko ima spremenjljivka'%1$s' vrednost '%2$s'"</string>
+    <string name="hrWhen1DoesNotHaveAValueOf2">"ko spremenljivka '%1$s' nima vrednosti '%2$s'"</string>
+    <string name="hrConditionLlamaVariable">Llama spremenljivka</string>
+    <string name="hrConditionLlamaVariableDescription">To se uporablja v povezavi z dejanjem Llama spremenljivke. Lahko jo uporabiš, da ustvariš dogodek z uporabo trenutne vrednosti Llama spremenljivke.</string>
+    <string name="hrVariables">Llama spremenljivke</string>
+    <string name="hrAreYouSureYouWantToClearVariables">"Ali resnišno želiš izbrisati imena in vrednosti spremenljivk?
+
+To se uporablja samo za ponastavitev statistike uporabe spremenljivk. Ne bo sprožilo nobenega dogodka."</string>
+    <string name="hrNoVariablesSet">Ni nastavljenih nobenih spremenljivk. Za uporabo spremenljivk ustvari dogodek z dejanjem, ki določa vrednost spremenljivke. Spremenljivka ne bo imela določene vrednosti, dokler dejanje, ki določa njeno vrednost, ne bo prvič zagnano.</string>
+    <string name="hrConfirmationDeniedTriggerName">Potrditev zavrnjena</string>
+    <string name="hrForceNoisyContactRingtone">Vsili melodijo zvonjenja za hrupne kontakte</string>
+    <string name="hrForceNoisyContactRingtoneDescription">Nekateri telefoni ne omogočajo zvonjenja v tihem načinu. Omogoči Llami, da predvaja melodijo zvonjenja. Pusti prazno, če slišiš dve melodiji.</string>
+    <string name="hrRepeatingEventWithNoConditionsWarning">"Ta ponavljajoč dogodek nima nastavljenih nobenih pogojev in zato ne bo sprožen.
+
+Če želiš, da se ponavlja v nedogled, razmisli o pogoju Ponovni zagon.
+
+Želiš to dodati zdaj?"</string>
+    <string name="hrNotificationIconDots">Število pik</string>
+    <string name="hrColour">Barva</string>
+    <string name="hrTheNumberOfDotsToShowOnTheIcon">Število pik, ki se prikažejo na ikoni.</string>
+    <string name="hr1Dots">%1s pikami/a</string>
+    <string name="hr1Dot">%1s piko</string>
+    <string name="hrWith">s/z</string>
+    <string name="hrDontChangeDots">Ne spreminjaj pik</string>
+    <string name="hrPleaseChooseASoundToPlay">Izberi melodijo za predvajanje</string>
+    <string name="hrNotificationIconMustChangeTheIconOrNumberOfDots">Obvestilna ikona mora spremeniti ikono ali število pik</string>
+    <string name="hrActionSoundPlayer">Predvajaj melodijo</string>
+    <string name="hrActionSoundPlayerDescription">"To predvaja melodijo zvonjenja ali opozorilni zvok. Izbereš lahko avdio način, ki do zaigral melodijo zvonjenja. Vsak avdio način ima svoje nastavitve glasnosti, ki jih Llama kontrolira preko profilov.
+
+Melodija zvonjenja se bo odigrala do konca in se nato začela ponavljati. Utišaš jo s pritiskom na obvestilno ikono. To ikono lahko izključiš v nastavitvah Llame."</string>
+    <string name="hrRingtonePickerType">Izbirnik melodij zvonjenja</string>
+    <string name="hrPlaySound1">"predvajaj melodijo '%1s'"</string>
+    <string name="hrEventColonSoundDescription">"%1$s: Predvajanje '%2$s'"</string>
+    <string name="hrChooseARingToneToPlay">Izberi melodijo zvonjenja</string>
+    <string name="hrNoneSelected">ni izbran</string>
+    <string name="hrCurrentRingtoneColon1">Trenutni melodijo zvonjenja: %1s</string>
+    <string name="hrErrrMusicDescription">"Privzet Androidni izbirnik melodij zvonjenja ne omogoča nastavitve glasbe. Ker pa je Android pametnejši od svojega sadnega konkurenta, lahko zato uporabiš izbirnik melodij, ki prihaja iz kake druge aplikacije.
+
+ Priporočam uporabo aplikacije Rings Extended Googlerke Dianne Hackborn.
+
+Predlagam, da ignoriraš vse aplikacije, ki ponujajo zastonj glasbo ali neke hude melodije. Samo bedaki uporabljajo take aplikacije.
+
+Kakorkoli, ali želiš pobrskati po tržnici za ustreznim izbirnikom melodij zvonjenja."</string>
+    <string name="hrNoisyLlamaTapToStop">Hrupna Llama - Klikni in utišaj</string>
+    <string name="hrProblemStartingAndroidMarket">Problem pri zagonu Androidne tržnice</string>
+    <string name="hrUseTheNotificationToStopPlaying">Uporabi obvestilo za utišanje zvonjenja. Vključi/izkljiči v nastavitvak Llame.</string>
+    <string name="hrBulkOperations">Hkratna dejanja</string>
+    <string name="hrBulkOperationsDescription">Hiter način izvajanja nekaterih naprednih reči.</string>
+    <string name="hrBulkDeleteCellsFromAreas">Izbriši celice iz območja. Uporabno, kadar menjaš operaterja.</string>
+    <string name="hrBulkDeleteMapPointsFromAreas">Izbriši točke na zemljevidu iz območij</string>
+    <string name="hrBulkDeleteWifiMacFromAreas">Izbriši WiFi MAC-naslove iz območij</string>
+    <string name="hrBulkDeleteWifiNameFromAreas">Izbriši imena WiFi omrežij iz območij</string>
+    <string name="hrBulkDeleteBluetoothFromAreas">Izbriši bloutooth naprave iz območij</string>
+    <string name="hrBulkDeleteBeaconWarning">Ali resnično želiš izbrisati vse? Predno to storiš, se prepričaj, da si naredil/-a varnostno kopijo. Za vsak slučaj, če si premisliš. Po tem moraš ponovno zagnati Llamo.</string>
+    <string name="hrActionTwoGThreeG">2G/3G (samo za prirejejne naprave)</string>
+    <string name="hrActionTwoGThreeGDescription">"**DELUJE SAMO V TELEFONIH, KI SO SHEKANI ALI PRIREJENI**
+Da bo stvar delovala, potrebuješ nameščen Cyanogenmod 7+. Android namreč ne dovoljuje aplikacijam izbire tipa omrežne povezave. Pogooglaj, katero omrežje uporablja tvoj operater. Verjetno je ena od naštetih možnosti:
+
+Evropa - GSM/WCDMA
+ZDA - GSM/WCDMA ali CDMA"</string>
+    <string name="hrChangeNetworkTo1">spremeni omrežje v %1s</string>
+    <string name="hrGpsEnableWarning">Mogoče ne bo delovalo! GPS lahko preklopiš samo na Androidu 2.2+ in nekaterih prirejenih telefonih. Ta varnostna omejitev Androida preprečuje aplikacijam, da bi vohunile za teboj.</string>
+    <string name="hrActionKillAppWarning">Mogoče ne bo delovalo! Android 2.2+ preprečuje aplikacijam učinkovito zaustavljanje drugih aplikacij. Če imaš shekan/rootan telefon, poizkusi alternativno opcijo zapiranja aplikacije.</string>
+    <string name="hrMilliAbbreviation">ms</string>
+    <string name="hrDelayFor1">zakasnitev %1s</string>
+    <string name="hrRepeatedEventEditWarning">Urejanje ponavljajočega dogodka. Ali želiš, da Llama preveri, ali so pogoji izpolnjeni in se dogodek lahko začne ponavljati.</string>
+    <string name="hrQueuedEventDefaultName">Razporejen dogodek</string>
+    <string name="hrCalendarEventDialogExtraEventSettings">Dogodke lahko filtriraš glede na tip dogodka in dosegljivost. Če pustiš ime koledarja in dogodka prazno, bo pogoj veljal samo za koledarske dogodke, ki se ujemajo tekom celega dneva ali glede dosegljivosti. &lt;br> &lt;br> OPOZORILO: Niso vse koledarske aplikacije narejeno na enak način (npr. nekatere MS Exchange aplikacije) &lt;u>Tukaj lahko pogledaš v Llama koledarski debugger&lt;/u>, da vidiš, kaj o tem misli Llama.</string>
+    <string name="hrCalendarDebugTitle1">Dogodki v naslednjih %1s minutah</string>
+    <string name="hrCalendarEventMustBe">kadar je dogodek</string>
+    <string name="hrAllDay">celodneven</string>
+    <string name="hrNotAllDay">necelodneven</string>
+    <string name="hrShownAsAvailable">prikazan kot dosegljiv</string>
+    <string name="hrNotShownAsAvailable">prikazan kot zaseden</string>
+    <string name="hrYourDeviceDoesNotSupportDeviceAdmin">Tvoj telefon ne omogoča nadzora naprave :(</string>
+    <string name="hrAlsoThanksTo">Hvala tudi:</string>
+    <string name="hrConditionAudioBecomingNoisy">Avdio postane hrupen</string>
+    <string name="hrConditionAudioBecomingNoisyDescription">To se sproži, ko odklopiš slušalke ali Bluetooth slušalke. Nekateri telefoni se na to odzovejo hitreje kot na ostale pogoje.</string>
+    <string name="hrWhenAudioBecomesNoisy">ko avdio postane hrupen</string>
+    <string name="hrConditionDeskDock">Stojalo</string>
+    <string name="hrConditionDeskDockDescription">"Ta pogoj ti omogoča izvedbo dejanj, ko telefon priključiš v stojalo.
+
+Tvoj telefon mora podpirati normalen androidni način priključitve stojala. Nekateri proizvajalci to funkcijo namreč prilagajajo po svoje, zato ne deluje vedno. Prav tako so nekatera stojala preveč cenena in jih telefon sploh ne zazna."</string>
+    <string name="hrInDeskDock">V stojalu</string>
+    <string name="hrNotInDeskDock">Ni v stojalu</string>
+    <string name="hrWhenInDeskDock">ko je v stojalu</string>
+    <string name="hrWhenNotInDeskDock">ko ni v stojalu</string>
+    <string name="hrActionSpeak">Izgovori</string>
+    <string name="hrActionSpeakDescription">"S tem omogočiš Llami, da govori z robotskim glasom. Llama lahko izgovori imena spremenljivk tako, do obdaš ime spremenljivke z dvema lojtrama, npr. 'Lock is set to ##LockEnabled##'"</string>
+    <string name="hrSay1">"izgovori '%1s'"</string>
+    <string name="hrActionLocalePlugin">Locale vtičnik</string>
+    <string name="hrActionLocalePluginDescription">"**EKSPERIMENTALNO**
+S tem lahko zaženeš vtičnik drugega razvijalca za popularno Locale app. Nekateri so brezplačni, nekateri pač ne. Llama ne zagotavlja, do bodo delovali.
+
+Trenutno obstajajo težave z vtičniki, ki se zanašajo na Locale-ine ikone in tekst. Le-ti se ne prikazujejo pravilno, vendar kljub temu delujejo. Zadnji gumb v meniju je običajno gumb shrani (save button)."</string>
+    <string name="hrLocalePluginConfigMessage">Nekateri vtičniki zahtevajo, da pritisneš MENI in nato zadnji zadnji gumb na meniji, da lahko shraniš nastavitve.</string>
+    <string name="hrRunLocalePlugin1Quotes2">"zaženi Locale vtičnik '%1$s: %2$s'"</string>
+    <string name="hrChooseALocalePluginToRun">Izberi Locale vtičnik za zagon</string>
+    <string name="hrGettingLocaleActionPlugins">Posodabljanje Locale vtičnikov</string>
+    <string name="hrInAppDonateBlurb">"Če ceniš moj trud z Llamo, lahko doniraš kakšno malenkost. Doniraš lahko tudi večkrat. Ko klikneš na gumb, boš preusmerjen/-a na Androidno tržnico, kjer lahko zaključiš postopek.
+
+Hvala:)"</string>
+    <string name="hrInAppThanksForDonating">Hvala za donacijo! Resnično hvala!</string>
+    <string name="hrYouCanHideTheDonateMenu">Možnost za donacijo lahko skriješ v nastavitvah Llame :)</string>
+    <string name="hrHideDonateMenuItem">Skrij možnost za donacijo</string>
+    <string name="hrHideDonateMenuItemDescription">Hvala za donacijo. Sedaj lahko odstraniš možnost za donacijo v nastavitvah. Še vedno pa lahko doniraš preko Llama? gumba.</string>
+    <string name="hrRecheckDonation">Preveri stanje donacije</string>
+    <string name="hrWhen1ShowsANotification">ko %1s prikaže obvestilo</string>
+    <string name="hrChooseAnApp">Izberi aplikacijo</string>
+    <string name="hrAppStatus">Status:</string>
+    <string name="hrConditionActiveApp">Aktivna aplikacija</string>
+    <string name="hrConditionActiveAppDescription">Ta pogoj se izpolni, ko se dejavnost aplikacije premakne v ospredje ali kadar se umakne v ozadje. To zahteva, da Llama vsakih nekaj sto milisekund povpraša sistem po aktivnih aplikacijah. Interval preverjanja lahko določiš v nastavitvah Llame.</string>
+    <string name="hrActiveAppWatcherMillis">Preverjanje aktivnih aplikacij (milisekunde)</string>
+    <string name="hrActiveAppWatcherMillisDescription">"Če uporabljaš pogoj 'aktivne aplikacije', bo Llama vsakih nekaj sto milisekund preverila izbrano aplikacijo. Nižje vrednosti omogočajo Llami večjo odzivnost, vendar pa lahko vplivajo na delovanje telefona. Priporočam vrednosti med 200 ms in 1 sekundo"</string>
+    <string name="hrMIUIVolumeChangeWarning">"Zadnje verzije MIUI imajo upravljalska dovoljenja, ki preprečujejo Llami spreminjanje glasnosti med klicem. Če želiš, da bo stvar delovala, naredi naslednje:
+
+Odpri aplikacijo super-user
+Poišči podrobnosti aplikacije Llama
+Nastavi 'Monitor Calls' na dovoli (allow)
+
+To dovoljenje je malce zavajajoče in vpliva na glasnost, čeprav naj ne bi. Grr. Llama NE POČNE ničesar sumljivega (kot na primer snemanje klicev)."</string>
+    <string name="hrNeverShowAgain">Ne prikaži več</string>
+    <string name="hrThinkingDotDotDot">Razmišljam</string>
+    <string name="hrConditionGroupOr">OR (ujemanje vseh)</string>
+    <string name="hrConditionGroupOrDescription">Ta pogoj ti omogoča, da narediš skupine drugih pogojev. Če je katerikoli pogoj izpolnjen, velja, da so izpolnjeni pogoji celotne skupine.</string>
+    <string name="hrConditionGroupAnd">AND (ujemanje vseh)</string>
+    <string name="hrConditionGroupAndDescription">"Ta pogoj ti omogoča, da narediš skupine drugih pogojev. Če so izpolnjeni vsi posamezni pogoji, velja, da so izpolnjeni pogoji celotne skupine. PAZI: To je potrebno samo, kadar želiš dodati 'AND (ujemanje vseh)' v 'OR (ujemaje kateregakoli)', saj Llama normalno obravnava dogodke v 'AND (ujemanje vseh)' načinu."</string>
+    <string name="hrAllowRetrigger">Dovoli ponovno sprožitev</string>
+    <string name="hrAllowRetriggerDescription">Ali naj se dejanja tega dogodka, kljub temu, da so se že sprožila, sprožijo ponovno, če se izpolni še kak drug pogoj v nizu.</string>
+    <string name="hrIcsNotificationUseRingVolumeWarning">"Ice Cream Sandwich (4.0+) ne podpira več glasnosti opozoril, ki se razlikuje od glasnosti zvonjenja.
+
+Spremeni svoje profile tako, da bo glasnost enaka, v nasprotnem primeru lahko Llama napačno misli, da je prišlo do spremembe nastavitve glasnosti in zaklene profil.
+
+Android 4.0 - en korak naprej, drugje korak nazaj :("</string>
+    <string name="hrIcsApn">Ice Cream Sandwich (Verzija 4.0+) ne podpira več spreminjanja nastavitev APN s strani aplikacij tretjih oseb.</string>
+    <string name="hrWhatShouldLlamaSay">Kaj naj Llama izgovori:</string>
+    <string name="hrConditionCallState">Stanje klica</string>
+    <string name="hrConditionCallStateDescription">"Ta pogoj ti omogoča, da ustvariš dogodke glede na to, ali je klic vzpostavljen ali ne. Glede na nastavitve je pogoj izpolnjen, kadar
+-vzpostaviš klic ali si klican/-a.
+-ko klic končaš."</string>
+    <string name="hrExtraTtsCleanup">Vsili ponastavitev glasbe</string>
+    <string name="hrExtraTtsCleanupDescription">Ali naj Llama močneje dregne program za generiranje govora, ko se le-ta zaključi. Uporabi, kadar po uporabi govora glasbe ne slišiš več.</string>
+    <string name="hrExtraTtsCleanupText">Tekst govora</string>
+    <string name="hrExtraTtsCleanupTextDescription">"Tekst za govor za gornji hack. V prednastavljenem načinu je pika, vendar pa nekateri TTS programi dejansko izgovorijo 'pika'. Poizkusi z zavitimi oklepaji ali črto: {}|"</string>
+    <string name="hrAudioStreamSpeakInfo">"Nekateri zvokovni načini (npr. zvonjenje in opozorila) se predvajajo tako preko zvočnika kot preko slušalk. Glasba pa se predvaja samo preko slušalk, kadar so le-te priključene.
+
+Če govor predvajaš preko načina zvonjenja ali opozoril, lahko glasba preneha igrati. Če se to dogaja, omogoči 'Vsili ponastavitev glasbe' v nastavitvah Llame. Ta stvar vpliva samo na nekatere telefone in kombinacije generiranja govora. Predvsem Samsungovi govorni mehanizmi se obnašajo čudno. Ti ti Samsung."</string>
+    <string name="hrEnterSomeTextToSpeak">Vpiši, kar naj Llama izgovori</string>
+    <string name="hrBilling_cannot_connect_message">Zaračunavanje preko aplikacije ne deluje na tvojem telefonu ali na verziji z Androidne tržnice.</string>
+    <string name="hrBilling_billing_not_available">Zaračunavanje preko aplikacije trenutno ne deluje. Prosim, poizkusi kasneje.</string>
+    <string name="hrBilling_learn_more">Več o tem</string>
+    <string name="hrAdvancedRotationWarning">"Deluje samo na prirejenih telefonih z ROM-om, ki podpira zasuk zaslona po meri, npr. Cyanogenmod 7.
+
+Izogibaj se kombiniranju enostavnih in naprednih načinov zasuka. Za povrnitev normalnih nastavitev uporabi 0° in 90°.
+
+Način zasuka se ne preklopi vedno v trenutku, pač odvisno od ROM-a."</string>
+    <string name="hrWhenTheCurrentAppIs1">kadar je %1s aktivna aplikacija</string>
+    <string name="hrWhenTheCurrentAppIsNot1">Kadar aktivna aplikacija ni %1s</string>
+    <string name="hrAndThen">in nato</string>
+    <string name="hrEvery1minutes">vsakih %1s</string>
+    <string name="hrIcsHiddenNotificationIcon">Llamo si nastavil/-a tako, da prikaže obvestil in hkrati skrije ikono. Android tega ne omogoča več. Pred Ice Cream Sandwich-em so lahko aplikacije uporabile transparentno ikono in nastavile datum prikaza daleč v prihodnosti, s čimer se je ikona postavila skrajno desno. No, to sedaj ni več mogoče. Prosim, spremeni nastavitev Ikone za obvestila na eno od ostalih možnosti.</string>
+    <string name="hrChangeIconIfVolumeChanges">Spremeni ikono, če se spremeni glasnost</string>
+    <string name="hrChangeIconIfVolumeChangesDescription">Ali naj se obvestilna ikona spremeni v opozorilno ikono, če se spremeni glasnost.</string>
+    <string name="hrUnknownProfile">Neznan profil</string>
+    <string name="hrFailedToWriteToLocationLog">Zapis v beležko lokacij ni uspel</string>
+    <string name="hrLlamaTrailSettings">Nastavitve Llamine poti (V RAZVOJU!!!)</string>
+    <string name="hrLlamaTrail">Shrani Llamino pot</string>
+    <string name="hrLlamaTrailDescription">Ali naj Llama shrani vse celice, ki si jih srečal. S tem lahko nadzoruješ svoje premike (npr. za uporabo v časovnih tabelah).</string>
+    <string name="hrLlamaTrailToSdCard">Zapiši na SD-kartico</string>
+    <string name="hrLlamaTrailToSdCardDescription">Ali naj Llama shranjuje datoteke opravljenih poti na SD-kartico ali v telefon. Shranjevanje na SD-kartico je lahko problematično, če pogosto uporabljaš USB-shrambo.</string>
+    <string name="hrConditionScreenRotation">Zasuk zaslona (trenutna aplikacija)</string>
+    <string name="hrConditionScreenRotationDescription">"S tem pogojem določiš dogodke,ki se zgodijo, ko zavrtiš zaslon. Se lahko obnaša čudno pri verzijah pred Androidom 2.2, ker le-te omogočajo samo pokončni ali ležeči način. Ampak takih, ki ste obstali pri 2.1, je samo 1300.
+
+Deluje samo, kadar je zaslon vključen in kadar trenutna aplikacija omogoča zasuk, ker le-ta deluje nad androidnem senzorjem rotacije z namenom varčevanja z energijo."</string>
+    <string name="hrWhenScreenIsRotated1">kadar je zaslon zasukan za %1s</string>
+    <string name="hrEditArea">Uredi lokacijo</string>
+    <string name="hrRingtonePickerFailedToOpen">Izbirnik melodij zvonjenja se ni zagnal pravilno. Mogoče, da tvoj telefon ne podpira tega izbirnika :(</string>
+    <string name="hrRingtonePickerPickedSilent">"Izbral/-a si 'tiho' v izbirniku melodij zvonjenja. Očitno ne moreš predvajati tišine, zato izberi nekaj drugega.
+
+Verjetno se sprašuješ, zakaj ta možnost sploh obstaja.... Zahvala gre Samsungu. Izbirnik melodij zvonjenja pri Galaxy S se namreč sesede, če skrijem možnost 'tiho'.
+http://stackoverflow.com/q/5874372/
+
+Na tri...1,2,3... Bravo Samsung!"</string>
+    <string name="hrApps2SdWarning">"Llama je bila inštalirana na SD-kartico, bodisi zaradi premalo prostora v pomnilniku telefona bodisi, ker si jo tja premaknil/-a ti.
+
+Vedi, da se Llama izvaja kot storitev v ozadju. Ko priključiš USB-kabel in omogočiš 'shrambo podatkov', bo Llama prenehala delovati in ne bo izvedla dejanj.
+
+Ko izključiš 'shrambo podatkov', se bo Llama ponovno zagnala. To lahko pospešiš s tem, da izključiš zaslon.
+
+Za boljšo uporabniško izkušnjo je priporočljivo, da Llamo instaliraš na notranji pomnilnik telefona, če ti prostor seveda o dopušča. Za navodila poglej informacije o aplikaciji Llama v nastavitvah Androida."</string>
+    <string name="hrViewLlamaAppInfo">Informacije o aplikaciji</string>
+    <string name="hrWhenTheNextAlarmIsDue1">ko je nastavljen naslednji alarm (%1s)</string>
+    <string name="hrConditionNextAlarm">Čas alarma</string>
+    <string name="hrConditionNextAlarmDescription">Ta pogoj bo izpolnjen, kadar je nastavljen naslednji alarm. Ta reč deluje samo z originalno Androidno aplikacijo in aplikacijami, ki pravilno posodabljajo NEXT_ALARM_FORMATTED Androidne nastavitve.</string>
+    <string name="hrWhenTheresNoAlarmSet">ko ni nastavljenega nobenega alarma</string>
+    <string name="hrTheNextAlarmIs1AndHeresHowYouUseIt">"Naslednji alarm je nastavljen ob:
+
+%1s
+
+Ta pogoj je lahko izbolnjen, kadar se ta alarm sproži ali pa kadar ni nastavljenega nobenega alarma.
+
+Npr.
+Kadar je alarm nastavljen > prikaži opomnik
+
+-ali-
+
+Med 21:00 in 21:05, kadar ni nastavljenega alarma > vibriraj kot zmešan"</string>
+    <string name="hrTriggerWhenAlarmIsDue">Sproži, kadar je alarm nastavljen</string>
+    <string name="hrTrueWhenNoAlarm">Izpolnjeno, kadar ni alarma</string>
+    <string name="hrEventGroupOptional">Skupina dogodkov (po želji)</string>
+    <string name="hrNoGroupString">Nerazporejeno</string>
+    <string name="hrEventsNowGroupedEditEventNamesToGroup">Seznam dogodkov sedaj omogoča razporejanje po skupinah. Skupine ustvariš med urejanjem dogodkov.</string>
+    <string name="hrEventsNotGrouped">Seznam dogodkov ne omogoča razporejanja po skupinah.</string>
+    <string name="hrFilterViewSearch">Filter, izgled, iskanje</string>
+    <string name="hrWhenUserIsPresent">ko je uporabnik prisoten</string>
+    <string name="hrConditionUserPresent">Uporabnik prisoten</string>
+    <string name="hrConditionUserPresentDescription">Pogoj je izpolnjen, kadar uporabnik izključi zaklep zaslona. Direktno povezano.</string>
+    <string name="hrWhenCallStateIs1">ko je stanje klica: %1s</string>
+    <string name="hrCallStateInCall">klic vzpostavljen</string>
+    <string name="hrCallStateNotInCall">ni klica</string>
+    <string name="hrCallStateRinging">dohodni klic</string>
+    <string name="hrPleaseChooseOneOrTwoCallStates">Prosim, izberi ENO ali DVE stanji.</string>
+    <string name="hrDontCheckVolumeInCall">Ignoriraj spremembo glasnosti dohodnih klicev</string>
+    <string name="hrDontCheckVolumeInCallDescription">"Nekateri telefoni so nesposobni in med klicem napačno javljajo stanje glasnosti. Zaradi tega Llama misli, da je prišlo do spremembe glasnosti, čeprav se to ni zgodilo. Odkljukaj, če Llama med klicem po nepotrebnem zaklene profil ali pa ga spremeni v 'neznan profil'."</string>
+    <string name="hrTheAction1CannotBeRunFromACustomShortcut">"Zaradi varnosti dejanja '%1s' ni moč zagnati kot bližnjico PO MERI. Ustvari dogodek se tem dejanjem in nato ustvari bližnjico do tega dogodka."</string>
+    <string name="hrLlamaTonePicker">Izbirnik melodij LlamaTon</string>
+    <string name="hrLlamaTones">LlamaTones</string>
+    <string name="hrLlamaTonesDescription">LlamaTones ti omogoča spreminjanje obvestil drugih aplikacij, kadar spremeniš profil.</string>
+    <string name="hrLlamaTonesDetailedDescription">"LlamaTones ti omogoča spreminjanje melodij, ki jih druge aplikacije uporabljajo za obvestila, glede na trenuten profil.
+
+V enem od profilov ustvari LlamaTon in ga ustrezno poimenuj, npr. Gmail. Nato izberi melodijo, ki naj jo ta profil uporabi za obvestila Gmail-a.
+
+Nato uredi LlamaTone ostalih profilov in določi, katere melodije naj ti profili uporabljajo za Gmail.
+
+V zadnjem koraku poveš Gmail-u, kateri LlamaTon naj uporablja. To storiš tako, da v nastavitvah Gmail-a spremeniš izbirnik melodij na 'LlamaTones' in iz izbereš želeni LlamaTon."</string>
+    <string name="hrCreateNewLlamaTone">Ustvari nov LlamaTon</string>
+    <string name="hrTapToCreateANewLlamaTone">Klikni za poimenovanje novega LlamaTona</string>
+    <string name="hrPleaseEnterNameForTheLlamaTone">Prosim, poimenuj novi LlamaTon</string>
+    <string name="hrALlamaToneNamed1AlreadyExists">LlamaTon z imenom %1s že obstaja. Prosim, izberi drugo ime ali pa uporabi enega od obstoječih LlamaTon-ov.</string>
+    <string name="hrCurrentlySetTo1">Trenutno izbrano: %1s</string>
+    <string name="hr3rdPartyActionCrumb">Dejanje</string>
+    <string name="hrYouHaventSetUpAnyLlamaTones">"Noben LlamaTon ni določen. LlamaTon lahko določiš med urejanjem profilov.
+
+LlamaToni omogočajo, da spremeniš melodijo, ki jo predvajajo tretje aplikacije glede na trenutni profil."</string>
+    <string name="hrDontChange">Ne spremeni LlamaTona</string>
+    <string name="hrCopyLlamaTonesToProfile">Izberi drug profil, ki naj uporablja ta LlamaTon</string>
+    <string name="hrCopyTo">Kopiraj v...</string>
+    <string name="hrCopyToSelected">Kopiraj v izbrano</string>
+    <string name="hrExportSuccess">Izvoz podatkov uspel</string>
+    <string name="hrDataNotExported">Podatki NISO bili izvoženi</string>
+    <string name="hrWhichTypeOfToneIsLlamaTone">Izberi tip melodije ali prekliči ta LlamaTon</string>
+    <string name="hrLlamaCouldntFindAnyRingtonePickers">"Llama ne najde nobenega izbirnika melodij zvonjenja.
+
+DOES NOT COMPUTE!!!"</string>
+    <string name="hrChooseARingtonePicker">Izberi izbirnik melodij zvonjenja</string>
+    <string name="hrClearCancelLlamaTone">Počisti/prekliči LlamaTon</string>
+    <string name="hrCantSelectLlamaToneAsLlamaTone">"LlamaTona ne moreš uporabiti kot LlamaTon.
+
+Zaradi tega se lahko vesolje razleti na prafaktorje."</string>
+    <string name="hrWhichProfiles">Kateri profili?</string>
+    <string name="hrMoanToGoogle">Zastokaj Googlu</string>
+    <string name="hrLeaveSettingsAlone">Pusti na miru</string>
+    <string name="hrMakeSettingsTheSame">Poenoti</string>
+    <string name="hrWhenWifiHotspotIsEnabled">kadar je WiFi hotspot omogočen</string>
+    <string name="hrWhenWifiHotspotIsDisabled">kadar je WiFi hotspot onemogočen</string>
+    <string name="hrConditionWifiHotspot">WiFi hotspot</string>
+    <string name="hrConditionWifiHotspotDescription">Ali je WiFi hotspot omogočen ali ne. Ne sproži dejanj, ampak lahko samo filtrira ostale dogodke</string>
+    <string name="hrEnableAll">Omogoči vse</string>
+    <string name="hrDisableAll">Onemogoči vse</string>
+    <string name="hrRenameGroup">Preimenuj skupino</string>
+    <string name="hrPleaseEnterANewGroupName">Vnesi ime nove skupine:</string>
+    <string name="hrBrightnessCustomEventWarning">Z Bližnjico po meri ni mogoče nastaviti tako šibke osvetlitve zaslona. Namesto tega ustvari dogodek in mu dodeli bližnjico. Tako je pač zaradi varnostnih razlogov!</string>
+    <string name="hrRootedShutdownCommand">Ukaz za root izklop</string>
+    <string name="hrRootedShutdownCommandDescription">Ukaz, ki ga Llama uporablja za izklop telefona. Poizkusi z drugim ukazom, če imaš rootan telefon in se noče izključiti.</string>
+    <string name="hrRootedRebootCommand">Ukaz za root ponovni zagon</string>
+    <string name="hrRootedRebootCommandDescription">Ukaz, ki ga Llama uporablja za ponovni zagon telefona. Poizkusi z drugim ukazom, če imaš rootan telefon in se noče ponovno zagnati.</string>
+    <string name="hrNearbyWifiDisableForHotSpot">Bodi WiFi hotspot-u prijazen</string>
+    <string name="hrNearbyWifiDisableForHotSpotDescription">Ali naj Llama zaustavi preverjanje WiFi-ja, kadar je WiFi hotspot omogočen. Ta reč deluje samo na telefonih, ki uporabljajo navaden Androidov WiFi hotspot.</string>
+    <string name="hrWhatEventDescriptionsShouldIShow">Katere opise dogodkov naj ti pokažem?</string>
+    <string name="hrIcsRingerNotificationVolumeMessage">Sladoledni sendvič po novem ne dopušča različnih glasnosti za zvonjenje in obvestila. Kaj želiš narediti?</string>
+    <string name="hrDeviceAdminWarning">"Za izvedbo nekaterih Androidnih funckij, ki zadevajo varnost, je potrebno Llami omogočiti administracijo naprave. Če se odločiš Llamo odinštalirati, moraš onemogočiti Llamo kot administratorja naprave. To funkcijo najdeš med varnostnimi nastavitvami Androida.
+
+V nasprotnem primeru te bo Android opozoril z 'uninstall unsucsessful'."</string>
+    <string name="hrInstantConfirmation">Potrditev trenutnega dogodka</string>
+    <string name="hrInstantConfirmationDescription">"Kadar odkljukano, bo Llama dejanja dogodkov, ki zahtevajo potrditev, izvedla takoj, ko odpreš predal z obvestili. Pop-up okno ne bo prikazano. Za izbris obvestila pritisni gumb 'clear' v predalu za obvestila."</string>
+    <string name="hrWhenNfcTag1IsDectected">kadar ja zazanan NFC-tag %1s</string>
+    <string name="hrPleaseChooseAnNfcTag">Izberi NFC-tag</string>
+    <string name="hrConditionNfcTagDetected">Zaznan NFC-tag</string>
+    <string name="hrConditionNfcTagDetectedDescription">"Pogoj bo izpolnjen, kadar telefon zazna določen NFC-tag. Na telefonu je potrebno omogočiti NFC (česat Llama na žalost ne sme početi).
+
+Llama ne prejema obvestil o tem, ali je NFC v bližini. Zato je ta pogoj drugače vedno neizpolnjen.
+
+Če želiš ustvariti ponavljajoč dogodek, boš moral uporabiti Llama spremenljivko, kadar je zaznan NFC-tag in še nek drug dogodek, da počisti Llama spremenljivko."</string>
+    <string name="hrDoYouWantToUseTheTag1InThisCondition">"Ali želiš uporabiti tag '%1s'?"</string>
+    <string name="hrLlamaHasFoundATagPleaseNameIt">Llama je našla tag! Daj mu prijateljsko ime:</string>
+    <string name="hrTheFriendlyNameForNfcTag1WasModified">"Ime NFC-taga '%1s' je bilo spremenjeno"</string>
+    <string name="hrLlamaDoesNotKnowAboutAnyNfcTagsTapOneOnYourPhone">Llama nima podatkov o NFC-tagih. Klikni enega in ga poimenuj.</string>
+    <string name="hrYourPhoneDoesNotSupportNfc">Tvoj telefon ne podpira NFC-tagov :( Če želiš odpraviti to neprijetnost, si kupi nov telefon ali uporabi domišljijo...</string>
+    <string name="hrChooseAnNfcTagOrTapYourPhoneAgainstANewTag">Izberi znan NFC-tag</string>
+    <string name="hrYouCanAlsoUseAnotherTagByTappingItOnYourPhone">Izbereš lahko tudi drug tag, tako da ga klikneš</string>
+    <string name="hrNfcIsNotCurrentlyTurnedOnTurnItOnToAddTags">NFC trenutno ni omogočen. Vključi ga in dodaj nov tag</string>
+    <string name="hrPleaseSeeTheKebabappsWebsiteToDonateToTranslators">Obišči stran Kebabapps, če želiš donirati prevajalcem!</string>
+    <string name="hrLocalLanguageName">Angleščina</string>
+    <string name="hrPlaySoundNotificationIcon">Predvajaj zvočno obvestilo</string>
+    <string name="hrPlaySoundNotificationIconDescription">Ali na se prikaže ikona za obvestila, kadar je v teku dejanje, ki predvaja avdio. Če ni odkljukano, ne bo možno zaustaviti predvajanja.</string>
+    <string name="hrConditionRoaming">Gostovanje</string>
+    <string name="hrConditionRoamingDescription">Pogoj je izpolnjen, kadar se gostovanje v tujem omrežju začne ali konča.</string>
+    <string name="hrNotRoaming">Ni v gostovanju</string>
+    <string name="hrRoaming">V gostovanje</string>
+    <string name="hrWhenRoaming">kadar je v gostovanju</string>
+    <string name="hrWhenNotRoaming">kadar ni v gostovanje</string>
+    <string name="hrManageSavedNfcTags">Upravljaj NFC-tage</string>
+    <string name="hrManageSavedNfcTagsDescription">Klikni za upravljanje NFC-tagov.</string>
+    <string name="hrDeleteTag">Izbriši tag</string>
+    <string name="hrWatchForNfcTags">Omogoči zaznavo NFC</string>
+    <string name="hrWatchForNfcTagsDescription">Ali naj bo Llama pozorna na NFC-tage ali ne. Če za zaznavo NFC uporabljaš drugo aplikacijo, potem pusti nepotrjeno. Ta nastavitev ne vpliva na Androidne nastavitve za NFC.</string>
+</resources>

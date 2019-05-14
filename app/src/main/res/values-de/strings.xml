@@ -1,0 +1,1422 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Llama</string>
+    <string name="hrChoosePreset">Voreinstellung auswählen</string>
+    <string name="hrTapRhythm">Rhythmus klicken</string>
+    <string name="hrTest">Test</string>
+    <string name="hrReset">Zurücksetzen</string>
+    <string name="hrVibrateDialogMessage">Wähle eine Voreinstellung aus -ODER- erstelle einen Rhythmus durch Klicken -ODER- Gib manuell ein Vibrationsmuster ein (orientiere dich zu Anfang an den voreingestellten Rhythmen)</string>
+    <string name="hrCalendarEventDialogMessage">"Diese Bedingung basiert auf den Namen von Kalendereinträgen. Du kannst entweder den Anfang eines Eintrages oder dessen Ende wählen.
+
+Wenn Teile des Eintrages mit dem Text übereinstimmen ist die Bedingung erfüllt; wenn du zum Beispiel 'Besprechung' eingibst, werden Kalendereinträge, wie 'langweilige Besprechungen' oder 'Geschäftsbesprechung' die Bedingung erfüllen."</string>
+    <string name="hrNotificationTitle">Llama</string>
+    <string name="hrIntroText">"Ich bin Llama. Deine persönliche ortsbasierte Anwendung. Da ich Mobilfunkmasten zur Ortsbestimmung nutze, verbrauche ich nicht die Akkulaufzeit beim Suchen nach einem GPS-Signal. Aber ich brauche etwas Training. Du musst mir sagen, wo ich bin. Öffne dazu den Gebiete-Tab.
+
+Wenn du mich nützlich findest, spende bitte, indem du Menü drückst und dann Spenden auswählst.
+
+Unter kebabapps@gmail.com kannst du mir Feedback geben."</string>
+    <string name="hrCommonTip1">Du musst dein Llama trainieren, damit es deine häufigsten Gebiete erkennt.</string>
+    <string name="hrCommonTip2">Die Laufgeschwindigkeit eines unbeladenen Lamas kann bis zu 45 km/h erreichen.</string>
+    <string name="hrCommonTip3">Llama llama duck!</string>
+    <string name="hrCommonTip4">Steht in keiner Beziehung zum Dalai Lama</string>
+    <string name="hrCommonTip5">Llama ist eine ortsbasierte Anwendung</string>
+    <string name="hrCommonTip6">Lamas sind wie Kamele, nur viel phantastischer.</string>
+    <string name="hrAreasTip1">Wenn Mobilfunkmasten zur Ortsbestimmung nicht ausreichen, probiere die anderen Möglichkeiten im Versuchslabor.</string>
+    <string name="hrAreasTip2">Halte den Finger auf einem Gebiet, um Llama beizubringen, wo du bist.</string>
+    <string name="hrEventsTip1">Welche Regeln ausgelöst wurden, kannst du mit dem Chronik-Button erfahren.</string>
+    <string name="hrEventsTip2">Was eine bestimmte Regel ausgelöst hat, kannst du durch Drücken des Chronik-Buttons erfahren.</string>
+    <string name="hrProfilesTip1">Wenn du eine Besprechung hast, kannst du verhindern, dass Llama dein Profil ändert, indem du den Sperren-Button drückst</string>
+    <string name="hrProfilesTip2">Wenn du deinen Finger auf einem Profil hältst, kannst du es damit aktivieren und sperren</string>
+    <string name="hrProfilesTip3">Sieh in den Einstellungen nach, um sicherzustellen, dass Llama die Lautstärke nicht zurücksetzt, wenn du sie über die Lautstärke-Regler änderst</string>
+    <string name="hrRecentTip1">"Wenn du 'Noch keinem Gebiet zugeordnet' zwischen den anderen Gebieten liest, berühre die Zelle, um Llama beizubringen, zu welchem Gebiet die Zelle gehört"</string>
+    <string name="hrHelpAreas">"Dieser Tab zeigt dir, welche Gebiete dein Llama schon erkennt. Von Anfang an sind zwei Gebiete vorgegeben: Zuhause und Arbeit. Aber Llama weiß noch nicht, wo du wohnst oder arbeitest. Um Llama beizubringen, wo das ist, musst du tatsächlich dort sein.
+
+Halte deinen Finger auf einem Gebiet, in dem du gerade bist, oder erstelle mit + ein neues. Llama wird dich dann fragen, wie lang du voraussichtlich hier sein wirst. Während dieser Zeit wird Llama sich dann alle Mobilfunkmasten merken, mit denen sich dein Handy verbindet, damit es das nächste Mal weiß, wo du bist, wenn du hierher zurückkehrst.
+
+Außerdem zeigt die die Liste, wie viele Mobilfunkmasten (auch Zellen) dieses Gebiet einschließt. Des weiteren kannst du einige experimentelle Methoden zur Standortbestimmung ausprobieren, wenn du sie im Menü aktivierst (siehe Versuchslabor)."</string>
+    <string name="hrHelpEvents">"Dieser Tab zeigt dir alle Regeln, die du deinem Llama beigebracht hast. Llama bringt hier schon einige Regeln von Anfang an mit. Diese kannst du verändern oder löschen und natürlich kannst du eigene hinzufügen.
+
+Eine Regel besteht aus Bedingungen und Ereignissen. Wenn alle Bedingungen erfüllt sind, wird Llama die zugehörigen Ereignisse auslösen.
+
+Die meisten Regeln kommen zu zweit; eine, die etwas einschaltet und eine, die es wieder ausschaltet. Dabei sind die Bedingungen normalerweise genau umgekehrt. Beispiel:
+
+Zuhause Betreten -> Profil wechseln
+Zuhause verlassen -> Profil wechseln
+
+Wenn du das Gefühl hast, dass Regeln fälschlicherweise ausgelöst wurden, kannst du mit dem Chronik-Button sehen, welche Regeln warum ausgelöst wurden.
+
+Nicht zuletzt kannst du auch Schnellzugriffe für Regeln auf deinem Homescreen oder im Launcher platzieren, indem du auf eine freie Stelle auf den Homescreen deinen Finger hältst, dann Schnellzugriffe und dann Llama auswählst."</string>
+    <string name="hrHelpProfiles">"Dieser Tab zeigt dir deine Profile an. Auch hier bringt Llama einige vordefinierte mit, die du verändern kannst oder du baust dir eigene zusammen.
+
+Profile in Llama funktionieren im Grunde wie Profile in anderen Nicht-Android-Handys; sie fassen alle verschiedenen Lautstärke-Einstellungen zusammen, damit man sie mit einem Klick ändern kann. Dein Llama macht das sogar automatisch, wenn du es in den Regeln festlegst. Jedem Profil kannst du außerdem ein Benachrichtigungs-Symbol zuordnen, damit du sofort siehst, welches Profil gerade aktiv ist.
+
+Auch kannst du Llama davon abhalten Profile zu ändern, wenn du z.B. zu einer wichtigen Besprechung gehst. Nach einer bestimmten Zeit wird Llama das Profil dann wieder zurücksetzen. Des weiteren kannst du in den Einstellungen festlegen, dass Llama die Profile sperrt, wenn du an deinem Handy die Lautstärke-Regler benutzt."</string>
+    <string name="hrHelpRecent">"Dieser Tab zeigt dir, welche Mobilfunkmasten Llama in letzter Zeit registriert hat. Wenn du Llama ein Gebiet beigebracht hast, wirst du sehen können, welche Masten (auch Zellen) dazu gehören.
+
+Wenn du und dein Llama euch noch nicht so lange kennt, wirst du vielleicht noch Zellen sehen, bei denen steht 'Noch keinem Gebiet zugeordnet'. Du kannst sie dann manuell einem Gebiet hinzufügen, indem du sie antippst. Hier wird dir zusätzlich auch die Zeit angezeigt, zu der die Zelle aktiv war, sodass du sie einem Gebiet richtig zuordnen kannst.
+
+Falls eine Zelle in zwei verschiedenen Gebieten erscheint, hast du leider nicht genügend Mobilfunkmasten in der Nähe, um den Unterschied zwischen diesen Orten zu bestimmen. Probiere die experimentellen Ortsbestimmungsmethoden aus."</string>
+    <string name="hrServiceRestarted">Beim der letzten Verwendung von Llama hast du den Beenden-Button benutzt. Der Llama-Hintergrunddienst wurde jetzt wieder gestartet. Wenn du ihn ausschalten möchtest, benutze wieder den Beenden-Button.</string>
+    <string name="hrTabAreas">Gebiete</string>
+    <string name="hrTabEvents">Regeln</string>
+    <string name="hrTabProfiles">Profile</string>
+    <string name="hrTabRecent">Letzte</string>
+    <string name="hrLlamaLogWarning">ACHTUNG: Es wird nun ein LlamaLog aufgezeichnet. Diese Datei kann sehr groß werden! Eventuell solltest du diese Funktion demnächst wieder deaktivieren.</string>
+    <string name="hrOkeyDokeExclamation">Okey doke!</string>
+    <string name="hrTurnItOff">Ausschalten</string>
+    <string name="hrOk">OK</string>
+    <string name="hrCancel">Abbrechen</string>
+    <string name="hrViewMap">Karte zeigen</string>
+    <string name="hrCreateReminder">Erinnerung erstellen</string>
+    <string name="hrRenameArea">Gebiet umbenennen</string>
+    <string name="hrSetPositionOnMap">Position auf Karte festlegen</string>
+    <string name="hrStartLearningArea">Gebiet erfassen</string>
+    <string name="hrStopLearningArea">Erfassen des Gebietes beenden</string>
+    <string name="hrDeleteArea">Gebiet löschen</string>
+    <string name="hrYes">Ja</string>
+    <string name="hrNo">Nein</string>
+    <string name="hrEnterAReminderForArea1">"Gib eine Erinnerung für das Gebiet '%1s' ein"</string>
+    <string name="hrEnterANewNameForTheArea">Gib den neuen Namen ein</string>
+    <string name="hrNewLocationPrompt">Wie soll das Gebiet heißen?</string>
+    <string name="hr1SecondsToGo">noch %1s Sekunde(n)</string>
+    <string name="hr1MinutesToGo">noch %1s Minute(n)</string>
+    <string name="hrLearningDash">"Erfasse - "</string>
+    <string name="hrCurrentDash">"Aktuell - "</string>
+    <string name="hrCurrentNoDash">Aktuell</string>
+    <string name="hrAnd">und</string>
+    <string name="hrHowLongWillYouBeAt1For">Wie lang wirst du hier (%1s) sein?</string>
+    <string name="hrImNotThere">Ich bin doch nicht hier.</string>
+    <string name="hrSecond">Sekunde</string>
+    <string name="hrSeconds">Sekunden</string>
+    <string name="hrMinute">Minute</string>
+    <string name="hrMinutes">Minuten</string>
+    <string name="hr0Minutes">0 Minuten</string>
+    <string name="hr0Seconds">0 Sekunden</string>
+    <string name="hrSpaceMinutes">" Minuten"</string>
+    <string name="hrSpaceSeconds">" Sekunden"</string>
+    <string name="hrSpaceMilliseconds">" Millisekunden"</string>
+    <string name="hrHour">Stunde</string>
+    <string name="hrHours">Stunden</string>
+    <string name="hrMapPoint">Punkt auf Karte</string>
+    <string name="hrMapPoints">Punkte auf Karte</string>
+    <string name="hrCell">Zelle</string>
+    <string name="hrCells">Zellen</string>
+    <string name="hrWifiName">WLAN-Name</string>
+    <string name="hrWifiNames">WLAN-Namen</string>
+    <string name="hrWifiMac">WLAN-MAC-Adresse</string>
+    <string name="hrWifiMacs">WLAN-MAC-Adressen</string>
+    <string name="hrBluetoothDevice">Bluetooth-Gerät</string>
+    <string name="hrBluetoothDevices">Bluetooth-Geräte</string>
+    <string name="hrUnknown">unbekannt</string>
+    <string name="hrNotAddedToAnyAreas">Noch keinem Gebiet zugeordnet</string>
+    <string name="hrViewAllMapPoints">Alle Punkte auf Karte anzeigen</string>
+    <string name="hrAllRecentMapPositions">Letzte Punkte auf Karte anzeigen</string>
+    <string name="hrAddToArea">Einem Gebiet hinzufügen</string>
+    <string name="hrViewCoordinatesOnMap">Zeige Koordinaten auf der Karte</string>
+    <string name="hrEditAreasPositionOnMap">Position des Gebietes auf Karte bearbeiten</string>
+    <string name="hrRemoveFromArea">Aus dem Gebiet entfernen</string>
+    <string name="hrPositionOfARecentLocationEstimate">Positionen der letzten Positionsschätzungen</string>
+    <string name="hrWhichAreaDoYouWantToRemove1From">Aus welchem Gebiet möchtest du %1s entfernen?</string>
+    <string name="hrCouldntFindTheAreaNamed1s">Kein Gebiet %1s gefunden</string>
+    <string name="hrWhichAreaDoYouWantToEdit">Welches Gebiet möchtest du bearbeiten?</string>
+    <string name="hrCreateNewArea">Neues Gebiet anlegen</string>
+    <string name="hrWhichAreaDoYouWantToAdd1To">Welchem Gebiet möchtest du %1s hinzufügen?</string>
+    <string name="hrEnterANameForTheNewArea">Gib dem neuen Gebiet einen Namen</string>
+    <string name="hrWithin1m">innerhalb von %1sm</string>
+    <string name="hrNewEvent1">Neue Regel %1s</string>
+    <string name="hrNewProfile1">Neues Profil %1s</string>
+    <string name="hrLlamaDashEditingEvent">Llama - Regel bearbeiten</string>
+    <string name="hrLlamaDashOrConditions">Llama - Irgendeine Bedingung</string>
+    <string name="hrLlamaDashAndConditions">Llama - Alle Bedingungen</string>
+    <string name="hrLlamaDashNewEvent">Llama - Neue Regel</string>
+    <string name="hrLlamaShortcutName">Llama Schnellzugriff-Name</string>
+    <string name="hrActions">Ereignisse</string>
+    <string name="hrCancelRemove">Löschen rückgängig machen</string>
+    <string name="hrNowTapAConditionOrActionToRemoveIt">Berühre jetzt die Bedingung oder das Ereignis, das du löschen möchtest</string>
+    <string name="hrSelectConditionToTriggerEvent">Wähle eine Bedingung, die das Ereignis auslösen soll</string>
+    <string name="hrSelectActionToPerformWhenTriggered">Wähle ein Ereignis, das ausgelöst werden soll</string>
+    <string name="hrCool">Alles klar</string>
+    <string name="hrYourEventIsNotCompleteColon">Deine Regel ist nicht vollständig:</string>
+    <string name="hrPleaseFixTheseErrorsOrRemoveTheOffendingConditionsSlashActions">Bitte behebe die Probleme oder lösche die betreffenden Bedingungen/Ereignisse.</string>
+    <string name="hrIWillIPromise">Mach ich, versprochen</string>
+    <string name="hrProblems">Probleme</string>
+    <string name="hrLlamaDashEventHistory">Llama - Regel-Chronik</string>
+    <string name="hrEventHistory">Regel-Geschichte</string>
+    <string name="hrTriggeredBy1Condition">Ausgelöst von der Bedingung %1s</string>
+    <string name="hrTrigger1Prohibitted">Auslösung durch Bedingung %1s war nicht erlaubt</string>
+    <string name="hrDisabled">Deaktiviert</string>
+    <string name="hrEditEvent">Regel bearbeiten</string>
+    <string name="hrCopyEvent">Regel kopieren</string>
+    <string name="hrRunEventActions">Führe Regel-Ereignisse aus</string>
+    <string name="hrEnableEvent">Regel aktivieren</string>
+    <string name="hrDisableEvent">Regel deaktivieren</string>
+    <string name="hrDeleteEvent">Regel löschen</string>
+    <string name="hrAreYouSureYouWantToDelete1">"Bist du sicher, dass du '%1s' löschen möchtest?"</string>
+    <string name="hrCopy">Kopie</string>
+    <string name="hrCreateLlamaShortcut">Llama-Schnellzugriff erstellen</string>
+    <string name="hrEnterALabelForTheShortcut">Gib einen Namen für den Schnellzugriff ein</string>
+    <string name="hrCustomEvent">Spezielle Regel</string>
+    <string name="hrSwitchToProfile1">Zum Profil %1s wechseln</string>
+    <string name="hrSpecifyACustomSetOfActionsForTheShortcut">Lege für diesen Schnellzugriff eigene Ereignisse fest</string>
+    <string name="hrProfile">Profil</string>
+    <string name="hrEvent">Regel</string>
+    <string name="hrCustomEventActions">Ereignisse für spezielle Regel</string>
+    <string name="hrTheLlamaServiceMustBeRunningForShortcutsToWork">Der Llama-Hintergrunddienst muss laufen, damit Schnellzugriffe funktionieren</string>
+    <string name="hrHowCanIHelpYou">Wie kann ich helfen?</string>
+    <string name="hrCurrentTabInfo">Info über aktuellen Tab</string>
+    <string name="hrLlamaInstructions">Erklärungen</string>
+    <string name="hrLlamaAndKebabAppsWebsite">Llama- und Kebabapps-Website</string>
+    <string name="hrSendEmail">E-Mail schreiben</string>
+    <string name="hrAboutTheApp">Über die App</string>
+    <string name="hrWhatDoesThisTabDo">Was macht dieser Tab</string>
+    <string name="hrGroovy">Cool</string>
+    <string name="hrPerformed1ActionsSince2DaysAgo">Ich habe %1$s Ereignisse in %2$s Tagen ausgelöst.</string>
+    <string name="hrDonateSmiley">Spende :)</string>
+    <string name="hrSettings">Einstellungen</string>
+    <string name="hrImportExportData">Import/Export von Daten</string>
+    <string name="hrToggleMobileData">Datennetzmodus umschalten</string>
+    <string name="hrToggleApn">APN umschalten</string>
+    <string name="hrDonate">Spenden</string>
+    <string name="hrQuit">Beenden</string>
+    <string name="hrQuitLlama">Llama beenden</string>
+    <string name="hrPutLlamaToSleep">Schick Llama schlafen</string>
+    <string name="hrCloseLlamaExplanation">Llama wird nun mit all seinen Hintergrund-Diensten beendet. Um die Funktionen wieder nutzen zu können, öffne Llama über deine Anwendungs-Liste.</string>
+    <string name="hrEnableApn">APN aktivieren</string>
+    <string name="hrCurrent">aktuell</string>
+    <string name="hrDisableApn">APN deaktivieren</string>
+    <string name="hrEnableMobileData">Datennetzmodus aktivieren</string>
+    <string name="hrDisableMobileData">Datennetzmodus deaktivieren</string>
+    <string name="hrImportWarning">Bist du sicher, dass du Einstellungen importieren möchtest? Alle aktuellen Gebiete, Profile und Regeln werden GELÖSCHT!</string>
+    <string name="hrExportWarning">Bist du sicher, dass du Einstellungen zur SD-Karte exportieren möchtest? Alle aktuellen Gebiete, Profile und Regeln, die im Moment auf der Karte gespeichert sind werden GELÖSCHT!</string>
+    <string name="hrImportFromSdCard">Von SD-Karte importieren</string>
+    <string name="hrExportToSdCard">Auf SD-Karte exportieren</string>
+    <string name="hrOkeyDoke">Okey doke!</string>
+    <string name="hrLockedUntil1">Gesperrt bis %1s</string>
+    <string name="hrProfileLocked">Profil gesperrt</string>
+    <string name="hrTheShortcutRefersToAnEventNamed1WhichNoLongerExists">"Dieser Schnellzugriff bezieht sich auf eine Regel namens '%1s', die nicht mehr existiert"</string>
+    <string name="hrTheShortcutRefersToAProfileNamed1WhichNoLongerExists">"Dieser Schnellzugriff bezieht sich auf ein Profil namens '%1s', das nicht mehr existiert"</string>
+    <string name="hrLoadSettingsError">Fehler beim Laden der Einstellungen. Sie wurden auf der SD-Karte gespeichert.</string>
+    <string name="hrCriticalLoadSettingsError">Fehler beim Laden der Einstellungen und es gab Probleme beim Speichern auf der SD-Karte. Llama wird nun sterben :(</string>
+    <string name="hrQuietAtNight">Leise in der Nacht</string>
+    <string name="hrHome">Zuhause</string>
+    <string name="hrQuiet">Leise</string>
+    <string name="hrNormalAtHome">Normal zuhause</string>
+    <string name="hrNormal">Normal</string>
+    <string name="hrLeftHome">Zuhause verlassen</string>
+    <string name="hrQuietAtWork">Leise bei der Arbeit</string>
+    <string name="hrWork">Arbeit</string>
+    <string name="hrNormalOutsideWork">Normal außerhalb der Arbeit</string>
+    <string name="hrLeftWork">Arbeit verlassen</string>
+    <string name="hrSilent">Lautlos</string>
+    <string name="hrLoud">Laut</string>
+    <string name="hrCouldNotFindEventNamed1">"Konnte keine Regel mit Namen '%1s' finden"</string>
+    <string name="hrTestVersion">TEST-VERSION</string>
+    <string name="hrLlamaForAndroidVersionContact">"Llama für Android
+%1s
+Kontakt: kebabapps@gmail.com"</string>
+    <string name="hrThanksForDonatingExclamation">Danke für deine Spende!</string>
+    <string name="hrPleaseDonateBeerMoney">Wenn du die App nützlich findest, spende Bier-Geld.</string>
+    <string name="hrOkThanks">Ok, danke</string>
+    <string name="hrDonateViaMarket">Über Google Play spenden</string>
+    <string name="hrProfilesAreLockedGotoProfilesTabToUnlock">Die Profile sind gesperrt. Du kannst sie im Profile-Tab über das Menü entsperren.</string>
+    <string name="hrCouldNotChangeProfileBecauseNoProfileNamed1">Das Profil konnte nicht gewechselt werden, weil es kein Profil namens %1s gibt</string>
+    <string name="hrError">FEHLER</string>
+    <string name="hrInfo">INFO</string>
+    <string name="hrExportFailedSadFace">Export fehlgeschlagen :(</string>
+    <string name="hrImportFailedSadFace">Import fehlgeschlagen :( Stelle sicher, dass deine Daten in einem Verzeichnis auf der SD-Karte sind, das Llama heißt</string>
+    <string name="hrImportOf1Successful">Import von %1s erfolgreich. Bitte starte Llama neu</string>
+    <string name="hrStorageAreas">Gebiete</string>
+    <string name="hrStorageEvents">Regeln</string>
+    <string name="hrStorageProfiles">Profile</string>
+    <string name="hrStorageIgnoredCell">Ignorierte Zellen</string>
+    <string name="hrQuickReminderAt1">Schnelle Erinnerung am %1s</string>
+    <string name="hrNoApnsDefinedTip">Du hast keine APNs. Du kannst die APN-Ereignisse aus deinen Regeln löschen.</string>
+    <string name="hrWifiNotTurnedOffAsItsConnected">WLAN wird nicht deaktiviert, da eine Verbindung besteht</string>
+    <string name="hrBluetoothNotTurnedOffAsConnectedToAudioDevice">Bluetooth wird nicht deaktiviert, da eine Verbindung zu einem Audio-Gerät besteht</string>
+    <string name="hrBluetoothNotTurnedOffAsItsConnected">Bluetooth wird nicht deaktiviert, da eine Verbindung besteht</string>
+    <string name="hrCouldnNotTurnOnBluetoothMaybeAirplane">Bluetooth konnte nicht aktiviert werden, vielleicht ist der Flugmodus aktiviert.</string>
+    <string name="hrBluetoothIsntSupported">Bluetooth wird nicht unterstützt</string>
+    <string name="hrBluetoothApiNotSupported">Bluetooth-Schnittstelle nicht unterstützt</string>
+    <string name="hrCouldnotStart1">Konnte %1s nicht starten</string>
+    <string name="hrRebootFailWarning">Ich habe nicht neugestartet, da das Handy erst %1s Minute(n) eingeschaltet war. Zur Sicherheit müssen es wenigstens 5 Minuten gewesen sein.</string>
+    <string name="hrShutdownFailWarning">Es wurde nicht ausgeschaltet, da das Handy nur %1s Minute(n) eingeschaltet war. Aus Sicherheitsgründen müssen es mindestens 5 Minuten sein.</string>
+    <string name="hrRebooting">NEUSTART!!!</string>
+    <string name="hrShuttingDown">SCHALTE AUS!!!</string>
+    <string name="hrProfileChangesUnlocked">Profiländerungen entsperrt</string>
+    <string name="hrPositionsFor1">Gebiete festgelegt als %1s</string>
+    <string name="hrSave">Speichern</string>
+    <string name="hrClose">Schließen</string>
+    <string name="hrLlamaMapNotInstalled">Llama Map ist nicht installiert</string>
+    <string name="hrGoToMarket">Zu Google Play wechseln</string>
+    <string name="hrLlamaMapNeededMessage">"Um die Karte in Llama anzuzeigen musst du das Llama Map-Addon installieren.
+
+Das liegt daran, dass Llama nicht die nötigen Internet-Rechte hat, um Karten von Google zu laden.
+
+Genau wie Llama ist auch das Map-Addon kostenlos."</string>
+    <string name="hrSelectEmailApplication">E-Mail-Anwendung wählen</string>
+    <string name="hrEnteredUnknownArea">Unbekanntes Gebiet betreten</string>
+    <string name="hrLeftArea1">%1s verlassen</string>
+    <string name="hrEnteredArea1">%1s betreten</string>
+    <string name="hrLlamaDashEditingProfile">Llama - Profil bearbeiten</string>
+    <string name="hrLlamaDashNewProfile">Llama - Neues Profil</string>
+    <string name="hrVibrate">Vibrieren</string>
+    <string name="hrRing">Klingeln</string>
+    <string name="hrRingAndVibrate">Klingeln und Vibrieren</string>
+    <string name="hrProfilesUnlocked">Profile entsperrt</string>
+    <string name="hrActivateAndLock">Aktivieren und sperren</string>
+    <string name="hrEditProfile">Profil bearbeiten</string>
+    <string name="hrCopyProfile">Profil kopieren</string>
+    <string name="hrDeleteProfile">Profil löschen</string>
+    <string name="hrNever">Niemals</string>
+    <string name="hrAutomaticallyUnlockProfileDescription">Du kannst für eine bestimmte Zeit verhindern, dass Regeln Profile wechseln, wenn du z.B. eine Stunde eine Besprechung hast und möchtest, dass dein Handy lautlos ist.</string>
+    <string name="hrAutomaticallyUnlockProfileChangesAfter">Entsperre Profile nach</string>
+    <string name="hrWillActivateWhenProfilesAreManuallyUnlocked">Wird aktiviert, wenn Profile manuell entsperrt werden</string>
+    <string name="hrWillActivateAt1">wird aktiviert um %1s</string>
+    <string name="hrActivatedAt1">aktiviert am %1s</string>
+    <string name="hrAuto">automatisch</string>
+    <string name="hrChangeBrightness">Helligkeit ändern</string>
+    <string name="hrSetToAutomaticBrightness">Auf automatische Helligkeit stellen</string>
+    <string name="hrSetTo1Brightness">Auf %1s%% Helligkeit stellen</string>
+    <string name="hrLlamaBluetoothPolling">Llama-Bluetooth-Abfrage</string>
+    <string name="hrChangeLlamaBluetoothPolling">Llama-Bluetooth-Abfrage-Häufigkeit ändern</string>
+    <string name="hrChangeAndroidLocationPolling">Android-Positionsbestimmungs-Häufigkeit ändern</string>
+    <string name="hrAndroidLocationPolling">Android-Positionsbestimmung</string>
+    <string name="hrLlamaWifiPolling">Llama-WLAN-Abfrage</string>
+    <string name="hrChangeLlamaWifiPolling">Llama-WLAN-Abfrage-Häufigkeit ändenrn</string>
+    <string name="hrSet1ToNever">%1s auf niemals setzen</string>
+    <string name="hrSet1To2">%1$s auf %2$s setzen</string>
+    <string name="hrChangeNotificationIconTo1">Benachrichtigungs-Symbol ändern in %1s</string>
+    <string name="hrChangeNotificationIcon">Benachrichtigungs-Symbol ändern</string>
+    <string name="hrChangeProfile">Profil wechseln</string>
+    <string name="hrChangeProfileTo">Profil wechseln zu %1s</string>
+    <string name="hrChooseAProfile">Wähle ein Profil</string>
+    <string name="hrChangeScreenTimeout">Bildschirm-Timeout ändern</string>
+    <string name="hrDisableScreenTimeout">Bildschirm-Timeout ausschalten</string>
+    <string name="hrSetScreenTimeoutTo1Seconds">Bildschirm-Timeout auf %1s Sekunden setzen</string>
+    <string name="hrToggleScreenLock">Bildschirmsperre umschalten</string>
+    <string name="hrScreenLockOn">Bildschirmsperre ein</string>
+    <string name="hrScreenLockOnForce">Bildschirmsperre aktivieren (force)</string>
+    <string name="hrScreenLockOffImmediately">Bildschirmsperre sofort deaktivieren (fehlerhaft)</string>
+    <string name="hrScreenLockOffAfterPassword">Bildschirmsperre nach Entsperren deaktivieren</string>
+    <string name="hrEnableKeyGuard">Tastensperre aktivieren</string>
+    <string name="hrEnableKeyGuardForce">Bildschirmsperre aktivieren (force)</string>
+    <string name="hrDisableKeyGuardImmediately">Bildschirmsperre sofort deaktivieren</string>
+    <string name="hrDisableKeyGuardAfterUnlock">Bildschirmsperre nach Entsperren deaktivieren</string>
+    <string name="hrKillApplication">Anwendung beenden</string>
+    <string name="hrKillApplicationWithRoot">Anwendung beenden (benötigt Root-Rechte)</string>
+    <string name="hrKill1DieDieDie">Beende %1s stirb! stirb! stirb!</string>
+    <string name="hrChooseAnApplication">Wähle eine Anwendung</string>
+    <string name="hrChooseAnApplicationWithAName">Wähle eine Anwendung mit Namen</string>
+    <string name="hrLockProfileChanges">Profiländerungen sperren</string>
+    <string name="hrUnlockProfileChanges">Profiländerungen entsperren</string>
+    <string name="hrLockProfileChangesDescription">Profiländerungen sperren</string>
+    <string name="hrUnlockProfileChangesDescription">Profiländerungen entsperren</string>
+    <string name="hrChangeMusicVolume">Musik-/Medienvolumen ändern</string>
+    <string name="hrSetMusicVolumeTo1">Setze Musik-/Medienvolumen auf %1s</string>
+    <string name="hrReminder">Erinnerung</string>
+    <string name="hrShowAReminder">eine Erinnerung anzeigen</string>
+    <string name="hrEnterSomeReminderText">Gib einen Text für die Erinnerung ein</string>
+    <string name="hrNoDontDoAnything">Nein, tu nichts</string>
+    <string name="hrYesIReallyWantToReboot">Ja, ich will wirklich neustarten!</string>
+    <string name="hrYesIReallyWantToShutdown">Ja, ich möchte mein Handy wirklich ausschalten!</string>
+    <string name="hrRebootPhoneDescription">Handy neustarten</string>
+    <string name="hrDontRebootPhoneDescription">Handy nicht neustarten</string>
+    <string name="hrShutdownPhoneDescription">Handy ausschalten</string>
+    <string name="hrDontShutdownPhoneDescription">Handy nicht ausschalten</string>
+    <string name="hrRunApplication">Anwendung starten</string>
+    <string name="hrRun1">starte %1s</string>
+    <string name="hrIfNotConnected">falls nicht verbunden</string>
+    <string name="hrForAtLeast1">für mindestens %1s</string>
+    <string name="hrForAtLeast1Minutes">für mindestens %1s Minuten</string>
+    <string name="hrIfNotConnectedDescription">falls nicht verbunden</string>
+    <string name="hrFor1ThenDisconectIfNotConnected">für %1s, dann deaktivieren, wenn nicht verbunden</string>
+    <string name="hrFor1MinutesThenDisconectIfNotConnected">für %1s Minuten, danach deaktivieren, falls nicht verbunden</string>
+    <string name="hrAirplaneModeOn">Flugmodus ein</string>
+    <string name="hrAirplaneModeOff">Flugmodus aus</string>
+    <string name="hrToggleAirplaneMode">Flugmodus umschalten</string>
+    <string name="hrEnableAirplaneMode">Flugmodus aktivieren</string>
+    <string name="hrDisableAirplaneMode">Flugmodus deaktivieren</string>
+    <string name="hrApnOn">APN ein</string>
+    <string name="hrApnOff">APN aus</string>
+    <string name="hrBluetoothOn">Bluetooth ein</string>
+    <string name="hrBluetoothOff">Bluetooth aus</string>
+    <string name="hrToggleBluetooth">Bluetooth umschalten</string>
+    <string name="hrEnableBluetooth">Bluetooth aktivieren</string>
+    <string name="hrDisableBluetooth">Bluetooth deaktivieren</string>
+    <string name="hrToggleLlamaCellPolling">Llama-Zellen-Abfrage umschalten</string>
+    <string name="hrCellPollingOn">Zellen-Abfrage ein</string>
+    <string name="hrCellPollingOff">Zellen-Abfrage aus</string>
+    <string name="hrEnableLlamaCellPolling">Llama-Zellen-Abfrage aktivieren</string>
+    <string name="hrDisableLlamaCellPolling">Llama-Zellen-Abfrage deaktivieren</string>
+    <string name="hrToggleGps">GPS umschalten</string>
+    <string name="hrGpsOn">GPS ein</string>
+    <string name="hrGpsOff">GPS aus</string>
+    <string name="hrEnableGps">GPS aktivieren</string>
+    <string name="hrDisableGps">GPS deaktivieren</string>
+    <string name="hrMobileDataOn">Datennetzmodus ein</string>
+    <string name="hrMobileDataOff">Datennetzmodus aus</string>
+    <string name="hrEnableSyncRequestUpdate">Synchronisation mit Update aktivieren</string>
+    <string name="hrEnableSyncNoUpdate">Synchronisation ohne Update aktivieren</string>
+    <string name="hrDisableSync">Synchronisation deaktivieren</string>
+    <string name="hrToggleAccountSync">Konten-Synchronisation umschalten</string>
+    <string name="hrEnableAccountSyncThenRequestUpdateDescription">Konten-Synchronisation aktivieren, dann Update starten</string>
+    <string name="hrEnableAccountSyncDescription">Konten-Synchronisation aktivieren</string>
+    <string name="hrDisableAccountSyncDescription">Konten-Synchronisation deaktivieren</string>
+    <string name="hrWifiOn">WLAN ein</string>
+    <string name="hrWifiOff">WLAN aus</string>
+    <string name="hrToggleWifi">WLAN umschalten</string>
+    <string name="hrEnableWifi">WLAN aktivieren</string>
+    <string name="hrDisableWifi">WLAN deaktivieren</string>
+    <string name="hrVibratePattern">Vibrationsmuster</string>
+    <string name="hrVibrateThe1Pattern">Vibriere nach dem %1s-Muster</string>
+    <string name="hrVibrateACustomisedPattern">Vibriere nach einem eigenen Muster</string>
+    <string name="hrVibrateShort">kurz</string>
+    <string name="hrVibrateLong">lang</string>
+    <string name="hrVibrateMultipleShort">mehrmals kurz</string>
+    <string name="hrVibrateMultipleLong">mehrmals lang</string>
+    <string name="hrBatteryLevel">Akkuladestand</string>
+    <string name="hrBatteryLevelAbove1">Akkuladestand über %1s</string>
+    <string name="hrBatteryLevelBelow1">Akkuladestand unter %1s</string>
+    <string name="hrWhenBatteryGoesBelow1Percent">Wenn Akku unter %1s%%</string>
+    <string name="hrWhenBatteryRisesAbove1Percent">Wenn Akku über %1s%%</string>
+    <string name="hrPleaseChooseAtLeastOneBluetoothDevice">Bitte wähle mindestens ein Bluetooth-Gerät</string>
+    <string name="hrPleaseChooseAtLeastOneWifiNetwork">Bitte wähle mindestens ein WLAN-Netzwerk</string>
+    <string name="hrOr">oder</string>
+    <string name="hrNor">noch</string>
+    <string name="hrWhen1IsConnected">Wenn %1s verbunden ist</string>
+    <string name="hrWhen1Disconnects">Wenn %1s getrennt wird</string>
+    <string name="hrBluetoothDeviceDisconnected">Bluetooth-Gerät getrennt</string>
+    <string name="hrBluetoothDeviceConnected">Bluetooth-Gerät verbunden</string>
+    <string name="hrWhenCalendarHasACurrentEventNameContaining1">"Wenn im Kalender einen aktueller Eintrag ist, in dem '%1s' vorkommt"</string>
+    <string name="hrWhenCalendarDoesNotHaveACurrentEventNameContaining1">"Wenn im Kalender kein aktueller Eintrag ist, in dem '%1s' vorkommt"</string>
+    <string name="hrCalendarHasACurrentEventNameContaining1">"Im Kalender gibt es einen Eintrag, in dem '%1s' vorkommt"</string>
+    <string name="hrCalendarDoesNotHaveACurrentEventNameContaining1">"Im Kalender gibt es keinen Eintrag, in dem '%1s' vorkommt"</string>
+    <string name="hrCalendarEvent">Kalendereintrag</string>
+    <string name="hrCalendarConditionMustHaveACalendarEventNameOrCalendarOrEventType">Für die Kalender-Bedingung muss ein Kalendereintrag, ein Kalender oder ein Kalendereintragstyp gewählt sein.</string>
+    <string name="hrInCarMode">Im Automodus</string>
+    <string name="hrNotInCarMode">Nicht im Automodus</string>
+    <string name="hrWhenInCarMode">Wenn im Automodus</string>
+    <string name="hrWhenNotInCarMode">Wenn nicht im Automodus</string>
+    <string name="hrUsingBattery">Bei Akkunutzung</string>
+    <string name="hrChargingFromAny">Laden aus irgendeiner Quelle</string>
+    <string name="hrChargingFromAc">Laden über Netzteil</string>
+    <string name="hrChargingFromUsb">Laden über USB</string>
+    <string name="hrChargingFromWireless">Kabelloses Laden</string>
+    <string name="hrChargingStatus">Ladezustand</string>
+    <string name="hrWhenChargingUnknown">wenn Ladestatus unbekannt</string>
+    <string name="hrWhenChargingFromAc">Beim Laden über Netzteil</string>
+    <string name="hrWhenChargingFromUsb">Beim Laden über USB</string>
+    <string name="hrWhenChargingWirelessy">Beim kabellosen Laden</string>
+    <string name="hrWhenCharging">Beim Laden</string>
+    <string name="hrWhenUsingBattery">Bei Akkunutzung</string>
+    <string name="hrChooseAtLeastOneDay">Wähle mindestens einen Tag</string>
+    <string name="hrDayOfTheWeek">Wochentag</string>
+    <string name="hrWhenIts1">Wenn %1s ist</string>
+    <string name="hrChooseAnAreaToEnter">Wähle ein Gebiet zum Betreten</string>
+    <string name="hrEnterArea">Gebiet betreten</string>
+    <string name="hrAt1">In Gebiet(en): %1s</string>
+    <string name="hrAtTime1">um %1s</string>
+    <string name="hrWiredHeadsetConnected">Kabelgebundenes Headset verbunden</string>
+    <string name="hrWiredHeadsetDisconnected">Kabelgebundenes Headset entfernt</string>
+    <string name="hrWhenWiredHeadsetIsDisconnected">wenn kabelgebundenes Headset entfernt wird</string>
+    <string name="hrChooseAnAreaToLeave">Wähle ein Gebiet zum Verlassen</string>
+    <string name="hrLeaveArea">Gebiet verlassen</string>
+    <string name="hrUponLeaving1">Beim Verlassen von %1s</string>
+    <string name="hrMusicPlayback">Musikwiedergabe</string>
+    <string name="hrMusicPlaying">Musik spielt</string>
+    <string name="hrMusicPaused">Musik pausiert</string>
+    <string name="hrWhenMusicIsPlaying">Wenn Musik wiedergegeben wird</string>
+    <string name="hrWhenMusicIsPaused">Wenn Musik pausiert wird</string>
+    <string name="hrBluetoothDeviceNotConnected">Bluetooth-Gerät nicht verbunden</string>
+    <string name="hrWhen1IsNotConnected">Wenn %1s nicht verbunden ist</string>
+    <string name="hrNotInArea">Nicht im Gebiet</string>
+    <string name="hrChooseAnAreaToNotBeIn">Wähle ein Gebiet zum nicht dort Sein</string>
+    <string name="hrWhenNotAt1">Wenn nicht dort: %1s</string>
+    <string name="hrTimeBetween">Zeit zwischen</string>
+    <string name="hrBetween1And2">zwischen %1$s und %2$s</string>
+    <string name="hrFrom">von</string>
+    <string name="hrTo">bis</string>
+    <string name="hrActionChangeProfile">Profil</string>
+    <string name="hrActionChangeProfileDescription">Dies ändert die Sound-Einstellungen gemäß den Profilen aus dem Profile-Tab. Das Benachrichtigungs-Symbol kann sich, je nachdem ob es in den Profil-Einstellungen festgelegt wurde, auch ändern.</string>
+    <string name="hrActionNotificationIcon">Llama-Benachrichtigungs-Symbol</string>
+    <string name="hrActionNotificationIconDescription">Diese Einstellung wird das Symbol ändern, das in der Benachrichtigungszeile erscheint. Nutze verschiedene Icons um schnell festzustellen, was die aktuelle Einstellung ist. Die Icons können in den Einstellungen von Llama ein- und ausgeschaltet werden.</string>
+    <string name="hrActionScreenBrightness">Bildschirmhelligkeit</string>
+    <string name="hrActionScreenBrightnessDescription">Diese Einstellung wird die Bildschirmhelligkeit ändern. Einige Handys unterstützen automatische Helligkeit.</string>
+    <string name="hrActionScreenOn">Bildschirm ein</string>
+    <string name="hrActionScreenOnDescription">Der Bildschirm wird hier sofort eingeschaltet. Wenn die Bildschirmsperre nicht aktiv ist, wird der Bildschirm eingeschaltet bleiben, bis der Bildschirm-Timeout eingreift. Wenn die Bildschirmsperre aktiv ist, siehst du deine Bildschirmsperre und nach zwei Sekunden geht der Bildschirm wieder aus. HINWEIS: Unter Umständen gibt es bei deinem Handy keinen Unterschied zwischen gedimmt, hell und hell mit Button-Beleuchtung</string>
+    <string name="hrActionScreenOff">Bildschirm aus</string>
+    <string name="hrActionScreenOffDescription">Schaltet den Bildschirm augenblicklich aus. Falls die Bildschirmsperre aktiviert ist, schaltet sich diese ein.</string>
+    <string name="hrActionMusicVolume">Musik-/Medienvolumen</string>
+    <string name="hrActionMusicVolumeDescription">Diese Einstellung ändert das Musik-/Medienvolumen.</string>
+    <string name="hrActionVibrate">Vibrieren</string>
+    <string name="hrActionVibrateDescription">Dies aktiviert die Vibration nach einigen vorgegebenen Mustern, du kannst aber auch eigene Rythmen anlegen.</string>
+    <string name="hrActionApn">APN</string>
+    <string name="hrActionApnDescription">Mit dieser Einstellung kannst du den Datennetzmodus deaktivieren, indem Llama die APN-Einstellungen verfälscht. Das funktioniert allerdings nur mit GSM-Netzwerken. Außerdem ist die Funktion kompatibel mit dem APNDroid-Widget.</string>
+    <string name="hrActionBluetooth">Bluetooth</string>
+    <string name="hrActionBluetoothDescription">Diese Einstellung aktiviert oder deaktiviert Bluetooth. Du kannst einstellen, dass Bluetooth nur ausgeschaltet wird, falls kein Gerät verbunden ist. Außerdem kannst du Bluetooth für eine bestimmte Zeit aktivieren und es dann automatisch deaktivieren, falls kein Gerät verbunden ist.</string>
+    <string name="hrActionAirplane">Flugmodus</string>
+    <string name="hrActionAirplaneDescription">Diese Einstellung aktiviert oder deaktiviert den Flugmodus. Dabei werden automatisch auch WLAN und Bluetooth deaktiviert. Wenn der Flugmodus eingeschaltet ist, wird es nicht möglich sein deine Position zu bestimmen.</string>
+    <string name="hrActionWifi">WLAN</string>
+    <string name="hrActionWifiDescription">Diese Einstellung aktiviert oder deaktiviert WLAN. Du kannst einstellen, dass WLAN nur ausgeschaltet wird, falls kein Netzwerk verbunden ist. Außerdem kannst du WLAN für eine bestimmte Zeit aktivieren und es dann automatisch deaktivieren, falls kein Netzwerk verbunden ist.</string>
+    <string name="hrActionGps">GPS</string>
+    <string name="hrActionGpsDescription">Diese Einstellung aktiviert oder deaktiviert GPS. Das wird von Android offiziell leider nicht unterstützt, sodass es vielleicht nicht funktioniert. Falls du Gingerbread (2.3) installiert hast, wird es definitiv nicht funktionieren. Beschwert euch bei Google, wenn ihr diese Funktion wollt.</string>
+    <string name="hrActionReboot">Neustart (benötigt Root-Rechte)</string>
+    <string name="hrActionRebootDescription">Dieses Ereignis startet dein Handy neu. Sei vorsichtig mit den Bedingungen hierfür, damit dein Handy nicht nach jedem Neustart wieder neustartet. Zur Sicherheit muss dein Handy mindestens 5 Minuten eingeschaltet gewesen sein, bevor das Ereignis eintritt.</string>
+    <string name="hrActionShutdown">Handy ausschalten (Root benötigt)</string>
+    <string name="hrActionShutdownDescription">Dein Handy wird ausgeschaltet. Sei mit den Bedingungen vorsichtig, damit du dein Handy nicht ausschaltest, nachdem es hochgefahren ist. Llama wird dieses Ereignis dennoch nur ausführen, wenn dein Handy mindestens 5 Minuten eingeschaltet war.</string>
+    <string name="hrActionSync">Konten-Synchronisation</string>
+    <string name="hrActionSyncDescription">Diese Einstellung aktiviert oder deaktiviert die Konten-Synchronisation. Du kannst sie außerdem nutzen, um eine Synchronisation zu erzwingen.</string>
+    <string name="hrActionLlamaCellPolling">Llama-Zellen-Abfrage</string>
+    <string name="hrActionLlamaCellPollingDescription">Experimentell: Ändert die Häufigkeit der Zellen-Abfrage seitens Llama. Nur sinnvoll, wenn die Funktion auch im Versuchslabor aktiviert ist.</string>
+    <string name="hrActionLlamaWifiPolling">Llama-WLAN-Abfrage</string>
+    <string name="hrActionLlamaWifiPollingDescription">"Experimentell: Ändert die Häufigkeit der WLAN-Abfrage seitens Llama. Nur sinnvoll, wenn die Funktion auch im Versuchslabor aktiviert ist. Wenn du hier 'niemals' einstellst, wird Llama Androids WLAN-Abfrage mitnutzen."</string>
+    <string name="hrActionLlamaBluetoothPolling">Llama-Bluetooth-Abfrage</string>
+    <string name="hrActionLlamaBluetoothPollingDescription">"Experimentell: Ändert die Häufigkeit der Bluetooth-Geräte-Abfrage seitens Llama. Nur sinnvoll, wenn die Funktion auch im Versuchslabor aktiviert ist. Wenn du hier 'niemals' einstellst, wird Llama Androids Bluetooth-Abfrage mitbenutzen."</string>
+    <string name="hrActionAndroidLocationPolling">Llama-Android-Positionsbestimmung</string>
+    <string name="hrActionAndroidLocationPollingDescription">"Experimentell: Ändert die Häufigkeit der Positionsbestimmung von Android. Nur sinnvoll, wenn die Funktion im Versuchslabor aktiviert ist. Wenn du hier 'niemals' einstellst, wird Llama die Abfragen anderer Anwendungen, die deine Position abfragen, mitnutzen."</string>
+    <string name="hrActionScreenTimeout">Bildschirm-Timeout</string>
+    <string name="hrActionScreenTimeoutDescription">Ändert die Dauer, nach der der Bildschirm sich nach der letzten Berührung ausschaltet.</string>
+    <string name="hrActionMobileData">Datennetzmodus</string>
+    <string name="hrActionMobileDataDescription">"Diese Einstellung ändert die Datennetzmodus-Einstellungen. Es funktioniert leider nicht mit Gingerbread, weil Google vorsätzlich die Funktion entfernt hat :'( Wenn du 2.2.1 oder darunter hast, müssen 'Paketdaten' in den Einstellungen deines Handys aktiviert sein."</string>
+    <string name="hrActionReminder">Erinnerung</string>
+    <string name="hrActionReminderDescription">Es wird eine schlecht umgesetzte Erinnerung in der Benachrichtigungszeile angezeigt.</string>
+    <string name="hrActionScreenLock">Bildschirmsperre (fehlerhaft)</string>
+    <string name="hrActionScreenLockDescription2">"Diese Funktion de-/aktiviert die Bildschirmsperre. Android bietet leider keine dauerhafte Möglichkeit dafür, es kann also sein, dass es nicht wie erwartet funktioniert.
+
+Wenn dein Bildschirm eingeschaltet und entsperrt ist:
+-Bildschirmsperre aktivieren wird die Sperre nach dem Ausschalten des Bildschirms anzeigen
+-Bildschirmsperre aktivieren (force) schaltet den Bildschirm sofort aus und zeigt die Sperre beim nächsten Einschalten
+-Bildschirmsperre deaktivieren schaltet die Sperre sofort aus (beim nächsten Einschalten des Bildschirmes wirst du also keine Sperre sehen)
+
+
+Wenn dein Bildschirm gesperrt und ausgeschaltet ist:
+-Bildschirmsperre aktivieren sorgt dafür, dass die Sperre beim nächsten Einschalten angezeigt wird
+-Bildschirmsperre sofort deaktivieren wird dafür sorgen, dass die Sperre niemals erscheint, könnte aber auch deine Home-/Suche-Buttons durcheinanderbringen
+-Bildschirmsperre nach Entsperren aktivieren wird dafür sorgen, dass die Sperre ein Mal angezeigt wird. Danach muss sie wieder aktiviert werden.
+
+
+Wenn dein Bildschirm entsperrt und ausgeschaltet ist:
+-Aktivieren der Bildschirmsperre wird den Bildschirm sperren, sobald er ein Mal ein- und wieder ausgeschaltet wurde
+-Bildschirmsperre aktivieren (force) wird beim nächsten Einschalten die Sperre anzeigen.
+
+
+Falls dein Home-Button nicht mehr funktioniert, solltest du dieses Ereignis nicht benutzen. Eventuell hilft es auch, die Muster-Sperre statt einer PIN- oder Passwortsperre zu benutzen."</string>
+    <string name="hrActionProfileLock">Llama-Profilsperre</string>
+    <string name="hrActionProfileLockDescription">Gibt dir die Möglichkeit Llamas Profilsperre zu kontrollieren. Du kannst Llama davon abhalten zu bestimmten Zeiten deine Profile zu ändern.</string>
+    <string name="hrActionRunApp">Anwendung starten</string>
+    <string name="hrActionRunAppDescription">Dies gibt dir die Möglichkeit eine Anwendung zu starten. Bitte gib Llama bei langen Listen von Anwendungen etwas Zeit.</string>
+    <string name="hrActionKillApp">Anwendung beenden</string>
+    <string name="hrActionKillAppDescription">Dies gibt dir die Möglichkeit eine Anwendung zu beenden. Bedenke aber bitte, dass Android dazu nur begrenzte Möglichkeiten bietet, sodass es nicht immer funktionieren muss.</string>
+    <string name="hrActionKillWithRootApp">Anwendung beenden (mit Root-Rechten)</string>
+    <string name="hrActionKillWithRootAppDescription">Dies erlaubt Llama das Beenden einer Anwendung zu erzwingen. Ich kann das nicht empfehlen, da es Fehlfunktionen auslösen kann. Benötigt Root-Rechte.</string>
+    <string name="hrConditionEnterInArea">Betreten eines/In Gebiet</string>
+    <string name="hrConditionEnterInAreaDescription">Diese Bedingung gilt, sobald du EINES der gewählten Gebiete betrittst und bleibt aktiv, bis du die gewählten Gebiete verlässt.</string>
+    <string name="hrConditionLeaveArea">Gebiet verlassen</string>
+    <string name="hrConditionLeaveAreaDescription">"Diese Bedingung trifft nur zu, wenn du EINES der gewählten Gebiete verlässt (siehe auch 'Nicht im Gebiet'-Bedingung)."</string>
+    <string name="hrConditionNotInAreas">Nicht in Gebieten</string>
+    <string name="hrConditionNotInAreasDescription">Diese Bedingung trifft nur zu, wenn du ALLE der gewählten Gebiete verlässt und bleibt aktiv, solange du nicht in diesen Gebieten bist.</string>
+    <string name="hrConditionCalendarEvent">Kalendereintrag</string>
+    <string name="hrConditionCalendarEventDescription">Diese Bedingung bezieht sich auf die aktuellen Kalendereinträge. Du kannst entweder Anfang oder Ende eines Events festlegen.</string>
+    <string name="hrConditionDayOfTheWeek">Wochentag</string>
+    <string name="hrConditionDayOfTheWeek_Description">Diese Bedingung gibt dir die Möglichkeit Regeln auf bestimmte Wochentage zu beschränken.</string>
+    <string name="hrConditionHeadset">Headset verbunden/entfernt</string>
+    <string name="hrConditionHeadsetDescription">Diese Bedingung gibt dir die Möglichkeit Ereignisse auszulösen, sobald du dein Headset anschließt oder entfernst.</string>
+    <string name="hrConditionCharging">Laden oder Akkunutzung</string>
+    <string name="hrConditionChargingDescription">Diese Bedingung gibt dir die Möglichkeit Ereignisse auszulösen, wenn du dein Handy lädst oder das Ladegerät/USB-Kabel entfernst.</string>
+    <string name="hrConditionPhoneReboot">Handy-Neustart</string>
+    <string name="hrConditionPhoneRebootDescription">Diese Bedingung gibt dir die Möglichkeit Ereignisse auszulösen, wenn dein Handy sich ein- oder bevor es ausschaltet.</string>
+    <string name="hrConditionBatteryLevel">Akkuladestand</string>
+    <string name="hrConditionBatteryLevelDescription">Diese Bedingung gibt dir die Möglichkeit Regeln aufgrund des Akkuladestandes zu definieren. Entweder unter oder über einem bestimmten Wert.</string>
+    <string name="hrConditionSignalLevel">Signalstärke</string>
+    <string name="hrConditionSignalLevelDescription">"Diese Bedingung gibt dir die Möglichkeit, Regeln auszulösen, sobald deine Signalstärke unter oder über einer bestimmten Grenze liegt.
+
+Beim Bearbeiten dieser Bedingung wirst du eine Vorschau der aktuellen Signalstärke sehen
+
+Die Werte sind in dBm angegeben.
+
+Llama nutzt -150 als Wert für 'kein Signal'. Bitte bedenke, dass ein GSM-Signal bis -113dBm gehen kann."</string>
+    <string name="hrConditionCarMode">Automodus</string>
+    <string name="hrConditionCarModeDescription">Diese Bedingung gibt dir die Möglichkeit Ereignisse auszulösen, wenn der Automodus aktiviert oder deaktiviert wird.</string>
+    <string name="hrConditionBluetoothConnected">Bluetooth-Gerät verbunden</string>
+    <string name="hrConditionBluetoothConnectedDescription">Diese Bedingung trifft zu, sobald eines der gewählten Bluetooth-Geräte verbunden ist und bleibt aktiv, solange die Geräte verbunden sind.</string>
+    <string name="hrConditionBluetootDeviceNotConnected">Bluetooth-Geräte nicht verbunden</string>
+    <string name="hrConditionBluetootDeviceNotConnectedDescription">Diese Bedingung trifft zu, wenn keines des ausgewählten Bluetooth-Geräte verbunden ist. Sie wird aktiviert, sobald alle gewählten Geräte getrennt werden.</string>
+    <string name="hrConditionBluetoothDisconnected">Bluetooth-Gerät nicht mehr verbunden</string>
+    <string name="hrConditionBluetoothDisconnectedDescription">Diese Bedingung trifft zu, wenn IRGENDEINES der ausgewählten Bluetooth-Geräte entfernt wird.</string>
+    <string name="hrConditionMusicPlayback">Musikwiedergabe</string>
+    <string name="hrConditionMusicPlaybackDescription">Diese Bedingung wird von Änderungen in der Android-Musikwiedergabe ausgelöst. HINWEIS: Mansche Hersteller entscheiden sich, ihren Mediaplayer anzupassen, bieten aber leider keine Dokumentation für Entwickler, um die Änderungen nachzuvollziehen.</string>
+    <string name="hrConditionTimeBetween">In der Zeit zwischen</string>
+    <string name="hrConditionTimeBetweenDescription">"Diese Bedingung gibt dir die Möglichkeit Regeln auf bestimmte Uhrzeiten zu beschränken. Du kannst beispielsweise eine Zeit zwischen 22 und 6 Uhr angeben, um Regeln nur nachts auszulösen. Dabei fungiert die 'Von'-Zeit als Auslöser für die Regel. Wenn die Zeit mit der 'Von'-Zeit übereinstimmt, prüft Llama, ob die anderen Bedingungen der Regel auch zutreffen und löst dann die Ereignisse aus."</string>
+    <string name="hrAlternativeIconColour">Alternative Icon-Farbe</string>
+    <string name="hrAlternativeIconColourDescription">Es können schwarze oder weiße Benachrichtigungs-Symbole gewählt werden (für Sense/Gingerbread)</string>
+    <string name="hrNotificationMode">Benachrichtigungs-Modus</string>
+    <string name="hrNotificationModeDescription">Hier kannst du einstellen, wie du über Profil-Änderungen informiert werden möchtest. Laufende Benachrichtigungen werden Android außerdem davon abhalten, Llama zu beenden.</string>
+    <string name="hr12HourPickers">12-Stunden-Zeitauswahl benutzen</string>
+    <string name="hr12HourPickersDescription">Weniger Stunden-Klicken</string>
+    <string name="hrShowApnMobileData">APN/Paketdaten im Menü zeigen</string>
+    <string name="hrShowApnMobileDataDescription">Stellt ein, ob APN/Paketdaten-Umschalter in Llamas Menü angezeigt werden. TIPP: Erstelle stattdessen einen Schnellzugriff für deinen Homescreen.</string>
+    <string name="hrSoundProfileSettings">Sound-Profil-Einstellungen</string>
+    <string name="hrLockProfilesOnChange">Sperre Profile bei Änderung der Lautstärke</string>
+    <string name="hrLockProfilesOnChangeDescription">Verhindert bei Aktivierung, dass Llama das aktuelle Profil ändert, wenn du die Lautstärke manuell über die Laustärke-Tasten anpasst.</string>
+    <string name="hrUnlockProfilesAutomatically">Profile automatisch entsperren</string>
+    <string name="hrUnlockProfilesAutomaticallyDescription">Nachdem die Profile gesperrt wurden, entsperre nach</string>
+    <string name="hrCellTrackingSettings">Zellen-Einstellungen</string>
+    <string name="hrIgnoreInvalidNoSignal">Ignoriere ungültige Zellen oder kein Signal</string>
+    <string name="hrIgnoreInvalidNoSignalDescription">Stellt ein, ob Llama das Verlieren des Signals bzw. eine ungültige Zellen-ID als Verlassen eines Gebietes interpretiert oder nicht.</string>
+    <string name="hrCellPollingMode">Zellen-Abfrage-Modus</string>
+    <string name="hrCellPollingModeDescription">Experimentell: Stellt ein, ob die CPU kurz geweckt werden soll, um Zellen-Wechsel verlässlicher zu erfassen. Kann allerdings die Laufzeit verkürzen. Ausgeschaltet könnten Betreten-/Verlassen-Regeln verzögert werden. Normalerweise ist das jedoch kein Problem, weil die Regeln direkt nach dem Aufwachen des Handys umgesetzt werden.</string>
+    <string name="hrCellPollingInterval">Zellen-Abfrage-Intervall</string>
+    <string name="hrCellPollingIntervalDescription">Wie oft die CPU geweckt wird</string>
+    <string name="hrCellPollingIntervalMinutes">Zellen-Abfrage-Intervall (Minuten)</string>
+    <string name="hrAlternativeLocationMethods">Alternative Positionsbestimmungsmethoden</string>
+    <string name="hrExperimentalStuff">Versuchslabor</string>
+    <string name="hrExperimentalStuffDescription">Keine Garantien</string>
+    <string name="hrLocationSettings">Positionsbestimmung</string>
+    <string name="hrUseAndroidLocation">Android-Positionsbestimmung nutzen</string>
+    <string name="hrUseAndroidLocationDescription">EXTREM EXPERIMENTELL: Legt fest, ob Androids eigene Positionsbestimmung genutzt werden soll. Platziere Gebiete auf einer Karte...kann präziser sein, wenn WLAN aktiviert ist, könnte aber auch die Laufzeit verkürzen</string>
+    <string name="hrUseGps">GPS benutzen</string>
+    <string name="hrUseGpsDescription">GPS zur Bestimmung deiner Position nutzen. Dies WIRD die Akkulaufzeit verkürzen.</string>
+    <string name="hrAndroidLocationPollingName">Android-Positionsbestimmungs-Intervall</string>
+    <string name="hrAndroidLocationPollingDescription">EXTREM EXPERIMENTELL: Wie häufig deine Position erfasst werden soll</string>
+    <string name="hrAndroidLocationPollingInterval">Android-Positionsbestimmungs-Intervall (Minuten)</string>
+    <string name="hrWifiTrackingSettings">WLAN-Abfrage-Einstellungen</string>
+    <string name="hrCheckForWifiNetworks">WLAN-Netzwerke abfragen</string>
+    <string name="hrCheckForWifiNetworksDescription">EXTREM EXPERIMENTELL: Legt fest, ob WLAN regelmäßig kurz eingeschaltet wird, um nach WLAN-Netzwerken zu suchen</string>
+    <string name="hrWifiPolling">WLAN-Abfrage-Intervall</string>
+    <string name="hrWifiPollingDescription">EXTREM EXPERIMENTELL: Wie häufig nach WLAN-Netzwerken gesucht werden soll</string>
+    <string name="hrWifiPollingInterval">WLAN-Abfrage-Intervall (Minuten)</string>
+    <string name="hrBluetoothTrackingSettings">Bluetooth-Abfrage-Einstellungen</string>
+    <string name="hrCheckForBluetoothDevices">Nach Bluetooth-Geräten suchen</string>
+    <string name="hrCheckForBluetoothDevicesDescription">EXTREM EXPERIMENTELL: Legt fest, ob Bluetooth regelmäßig kurz eingeschaltet wird, um nach Bluetooth-Geräten zu suchen</string>
+    <string name="hrBluetoothPollingInterval">Bluetooth-Abfrage-Intervall</string>
+    <string name="hrBluetoothPollingIntervalDescription">EXTREM EXPERIMENTELL: Wie häufig nach Bluetooth-Geräten gesucht werden soll</string>
+    <string name="hrBluetoothPollingIntervalMinutes">Bluetooth-Abfrage-Intervall (Minuten)</string>
+    <string name="hrUserInterfaceSettings">Einstellungen für Bedienoberfläche</string>
+    <string name="hrDebugSettings">Debug-Einstellungen - Fachidioten-Zeug</string>
+    <string name="hrDebugSettingsTitle">Debug-Einstellungen</string>
+    <string name="hrDebugSettingsDescriptions">Zusätzliche Einstellungen zu Aufzeichnungen und Fehlerdiagnose</string>
+    <string name="hrEventName">Name der Regel</string>
+    <string name="hrEventNameAndGroup">Ereignisname und -gruppe</string>
+    <string name="hrEventNameDescription">Der Name zur Identifikation dieser Regel</string>
+    <string name="hrEnabled">Aktiviert</string>
+    <string name="hrEventEnabledDescription">Soll Llama die Bedingungen der Regel prüfen und die Ereignisse auslösen?</string>
+    <string name="hrProfileName">Profilname</string>
+    <string name="hrProfileNameDescription">Der Name zur Identifikation dieses Profils</string>
+    <string name="hrNotificationVolume">Benachrichtigungs-Lautstärke</string>
+    <string name="hrRingVibrateSilent">Klingeln-/Vibrieren-/Lautlos-Modus</string>
+    <string name="hrChangeRingVibrateSilent">Klingeln-/Vibrieren-/Lautlos-Modus ändern</string>
+    <string name="hrChangeRingVibrateSilentDescription">Legt fest, ob der Klingeln-/Vibrieren-/Lautlos-Modus verändert werden soll, sobald das Profil aktiviert wird</string>
+    <string name="hrRingtone">Klingelton</string>
+    <string name="hrChangeRingtone">Klingelton ändern</string>
+    <string name="hrChangeRingtoneDescription">Legt fest, ob der Klingelton geändert werden soll, sobald das Profil aktiviert wird</string>
+    <string name="hrNotificationTone">Benachrichtigungs-Klang</string>
+    <string name="hrChangeNotificationTone">Den voreingestellten Benachrichtigungs-Klang ändern</string>
+    <string name="hrChangeNotificationToneDescription">Legt fest, ob der voreingestellte Benachrichtigungs-Klang bei diesem Profil geändert werden soll</string>
+    <string name="hrMusicVolume">Musik-/Media-Lautstärke</string>
+    <string name="hrChangeMusicVolumeDescription">Legt fest, ob das Musik-/Medienvolumen geändert werden soll, sobald das Profil aktiviert wird</string>
+    <string name="hrAlarmVolume">Wecker-Lautstärke</string>
+    <string name="hrChangeAlarmVolume">Wecker-Lautstärke ändern</string>
+    <string name="hrChangeAlarmVolumeDescription">Legt fest, ob die Lautstärke des Weckers bei diesem Profil geändert werden soll.</string>
+    <string name="hrInCallVolume">Lautstärke eingehender Anrufe</string>
+    <string name="hrChangeInCallVolume">Lautstärke einlangender Anrufe ändern</string>
+    <string name="hrChangeInCallVolumeDescription">Legt fest, ob die Lautstärke während eines Anrufes bzw. die Headset-Lautstärke mit diesem Profil geändert werden soll</string>
+    <string name="hrSystemSoundsVolume">Lautstärke der System-Klänge</string>
+    <string name="hrChangeSystemSoundsVolume">Lautstärke der System-Klänge ändern</string>
+    <string name="hrChangeSystemSoundsVolumeDescription">Legt fest, ob die Lautstärke der System-Klänge mit diesem Profil geändert werden soll</string>
+    <string name="hrLlamaIcon">Llama-Icon</string>
+    <string name="hrChangeLlamaIcon">Llama-Icon ändern</string>
+    <string name="hrChangeLlamaIconDescription">Legt fest, ob das Llama-Icon geändert werden soll, sobald das Profil aktiviert wird</string>
+    <string name="hrLlamaIcons">Llama-Icons</string>
+    <string name="hrSelectALlamaIcon">Wähle ein Llama-Icon</string>
+    <string name="hrRingtoneVolumeDescription">Lautstärke für Klingelton festelegen</string>
+    <string name="hrNotificationToneVolumeDescription">Lautstärke für Benachrichtigungs-Klänge festlegen</string>
+    <string name="hrChooseVibrateMode">Vibrationsmodus wählen</string>
+    <string name="hrChooseVibrateModeDescription">Klingeln/Vibration</string>
+    <string name="hrSelectARingtone">Wähle einen Klingelton</string>
+    <string name="hrRingtones">Klingeltöne</string>
+    <string name="hrSelectDefaultNotificationDescription">Wähle einen Standard-Benachrichtigungs-Klang</string>
+    <string name="hrNotificationTones">Benachrichtigungs-Klänge</string>
+    <string name="hrMusicVolumeDescription">Lautstärke für Musik-/Medienvolumen festlegen</string>
+    <string name="hrAlarmDescription">Lautstärke für den Wecker festlegen</string>
+    <string name="hrInCallDescription">Lautstärke während eines Anrufes festlegen</string>
+    <string name="hrSystemSoundDescription">Lautstärke für System-Sounds festlegen</string>
+    <string name="hrChangeRingtoneVolume">Klingelton-Lautstärke ändern</string>
+    <string name="hrChangeRingtoneVolumeDescription">Legt fest, ob die Klingelton-Lautstärke geändert werden soll, sobald das Profil aktiviert wird</string>
+    <string name="hrChangeNotificationVolume">Lautstärke für Benachrichtigungen ändern</string>
+    <string name="hrChangeNotificationVolumeDescription">Legt fest, ob die Lautstärke für Benachrichtigungen mit diesem Profil geändert werden soll</string>
+    <string name="hrRingtoneVolume">Klingelton-Lautstärke</string>
+    <string name="hrAddAction">Ereignis hinzufügen</string>
+    <string name="hrAddCondition">Bedingung hinzufügen</string>
+    <string name="hrRemove">Entfernen</string>
+    <string name="hrTestActions">Ereignisse testen</string>
+    <string name="hrNotificationIconOnlyError">Benachrichtigung über eingehende Anrufe nur durch ein Symbol wird von Gingerbread+ nicht unterstützt :(</string>
+    <string name="hrThanksToTranslators">Vielen Dank an die Übersetzer:</string>
+    <string name="hrUnableToUpdateArea1">"Gebiet '%1s' kann nicht aktualisiert werden, weil es nicht mehr existiert :("</string>
+    <string name="hrToggleProfileChangesLock">Profilsperre umschalten</string>
+    <string name="hrRebootBracketRequiresRootBracket">Neustart (benötigt Root-Rechte)</string>
+    <string name="hrCarMode">Automodus</string>
+    <string name="hrWiredHeadset">Kabelgebundenes Headset</string>
+    <string name="hrConditionsMatchAll">Bedingungen (müssen alle zutreffen)</string>
+    <string name="hrConditionsMatchAny">Bedingungen (irgendeine muss zutreffen)</string>
+    <string name="hrSorryNoHelpYet">Sorry, hier gibt es bisher noch keine Hilfe :(</string>
+    <string name="hrAirplaneModeEnterAreaWarning">"Wenn du im Flugmodus bist, wirst du keine Gebiete 'betreten' können, weil du nicht mit Mobilfunkzellen verbunden bist!"</string>
+    <string name="hrRebootSafetyMessage">"Sie vorsichtig mit deinen Bedingungen!
+Zur Sicherheit muss dein Handy mindestens 5 Minuten eingeschaltet sein, bis es neustarten kann."</string>
+    <string name="hrShutdownSafetyMessage">"Sei mit den Bedingungen vorsichtig!
+Aus Sicherheitsgründen muss dein Handy mindestens 5 Minuten eingeschaltet gewesen sein, bevor es wieder ausgeht."</string>
+    <string name="hrBluetoothParingInfo">Dein Bluetooth-Gerät muss mit deinem Handy verbunden sein. Wenn diese Liste leer ist, aktiviere Bluetooth und versuche es erneut.</string>
+    <string name="hrWifiNetworkInfo">Wenn diese Liste leer ist, aktiviere WLAN und versuche es erneut. Das WLAN-Netzwerk muss in der Reichweite deines Handys sein oder du musst schon einmal damit verbunden gewesen sein und es ist in deiner WLAN-Liste.</string>
+    <string name="hrAndroid22Only">Nur für Android 2.2+</string>
+    <string name="hrKeyGuardBuggyWarning">WARNUNG: Problematisch! Der Home-Button könnte seine Funktion verweigern, bis du die Tastensperre wieder aktivierst. Außerdem könnte sich auch deine SIM-Karten-Sperre seltsam verhalten!</string>
+    <string name="hrMobileDataWarning">EXPERIMENTELL: Paketdaten müssen in den Einstellungen aktiviert sein!</string>
+    <string name="hrLanguageDescription">Wähle eine Sprache, die nicht der Sprache deines Handys entspricht.</string>
+    <string name="hrLanguageBracketEnglishLanguageBracket">Sprache</string>
+    <string name="hrTurnOnTheScreenDim">Bildschirm mit geringer Helligkeit einschalten</string>
+    <string name="hrTurnOnTheScreenBright">Bildschirm mit normaler Helligkeit einschalten</string>
+    <string name="hrTurnOnTheScreenBrightAndKeyboard">Bildschirm und Button-Beleuchtung mit normaler Helligkeit einschalten</string>
+    <string name="hrTurnOffTheScreen">Bildschirm ausschalten</string>
+    <string name="hrErrorNotificationMode">Fehler-Benachrichtigungen</string>
+    <string name="hrErrorNotificationModeDescription">Legt fest, wie du über Fehler informiert wirst, die passieren, während Llama im Hintergrund läuft, wie z.B. Regel-Fehler und Profilsperren</string>
+    <string name="hrLlamaErrorV2">Llama-Fehler - Hier berühren</string>
+    <string name="hrLlamaInfoV2">Llama-Info - Hier berühren</string>
+    <string name="hrLlamaProblem">Llama-Problem</string>
+    <string name="hrFailedToReadCalendar1">Der Kalender %1s konnte nicht gelesen werden. Fehler-Benachrichtigungen kannst du in den Llama-Einstellungen deaktivieren.</string>
+    <string name="hrRevertVolumeChanges">Deaktiviere Lautstärke-Regler</string>
+    <string name="hrRevertVolumeChangesDescription">Ändert die Lautstärke zurück zu der des aktuellen Profils, falls du aus Versehen die Lautstärke manuell änderst, wenn aktiviert.</string>
+    <string name="hrScreenOn">Bildschirm ein</string>
+    <string name="hrScreenOff">Bildschirm aus</string>
+    <string name="hrWhenScreenIsOn">wenn sich der Bildschirm einschaltet</string>
+    <string name="hrWhenScreenIsOff">wenn sich der Bildschirm ausschaltet</string>
+    <string name="hrScreenOnOff">Bildschirm ein/aus</string>
+    <string name="hrConditionScreenOnOffDescription">Diese Bedingung gibt dir die Möglichkeit, Ereignisse aufgrund des ein- oder ausgeschalteten Bildschirms auszulösen.</string>
+    <string name="hrAutoRelinkVolumes">Lautstärke erneut verbinden</string>
+    <string name="hrAutoRelinkVolumesDescription">"Legt fest, ob die Funktion 'Lautstärke für Anrufe auch für Benachrichtigungen benützen' aktiviert werden soll, wenn ein Profil mit entsprechenden Lautstärken aktiviert ist."</string>
+    <string name="hrTimeBetweenWarning">Vergiss nicht, dir eine Regel anzulegen für die Zeit außerhalb dieser Zeit!</string>
+    <string name="hrConditionWifiConnected">WLAN-Netzwerk verbunden</string>
+    <string name="hrConditionWifiConnectedDescription">Diese Bedingung trifft zu, wenn eines der gewählten WLAN-Netzwerke verbunden ist und bleibt aktiv, solange dein Handy mit diesen Netzwerken verbunden bleibt.</string>
+    <string name="hrConditionWifiDisconnected">WLAN-Netzwerk getrennt</string>
+    <string name="hrConditionWifiDisconnectedDescription">Diese Bedingung trifft zu, wenn eines der gewählten WLAN-Netzwerke getrennt wird oder nicht verbunden ist und bleibt aktiv, bis dein Handy sich mit einem von diesen verbindet.</string>
+    <string name="hrWhenWifi1Disconnects">Wenn dein Handy sich von %1$s trennt</string>
+    <string name="hrWhenWifi1Connects">Wenn dein Handy sich mit %1$s verbindet</string>
+    <string name="hrNoSignalUnknown">kein Signal/unbekannt</string>
+    <string name="hrNewProfile">Neues Profil</string>
+    <string name="hrColourEventList">Farbige Regel-Liste</string>
+    <string name="hrColourEventListDescription">"Legt fest, ob die Bedingungen in der Regel-Liste je nach Status eingefärbt werden.
+Grün = trifft zu, Rot = trifft nicht zu, unterstrichen = hat Ereignisse beim letzten Regel-Check ausgelöst"</string>
+    <string name="hrActionUsbStorage">USB-Speicher</string>
+    <string name="hrActionUsbStorageDescription">Diese Funktion aktiviert oder deaktiviert den USB-Speicher-Modus. Wenn dein Handy andere USB-Modi (wie Media-Synchronisation oder PC-Suite) hat, könnte es sein, dass es nicht funktioniert. TIPP: Erstelle einen Llama-Schnellzugriff auf deinem Homescreen um schnell umzuschalten. Nie wieder nerviges Benachrichtigungs-Klicken :)</string>
+    <string name="hrUsbStorageOn">USB-Speicher ein</string>
+    <string name="hrUsbStorageOff">USB-Speicher aus</string>
+    <string name="hrUsbStorageToggle">USB-Speicher ein/aus</string>
+    <string name="hrUsbStorageOnDescription">USB-Speicher einschalten</string>
+    <string name="hrUsbStorageOffDescription">USB-Speicher ausschalten</string>
+    <string name="hrUsbStorageToggleDescription">USB-Speicher ein-/ausschalten</string>
+    <string name="hrUsbToggleError">Änderung des USB-Modus fehlgeschlagen</string>
+    <string name="hrActionMediaPlayer">Mediaplayer</string>
+    <string name="hrActionMediaPlayerDescription">Dies löst ein Ereignis im Mediaplayer, wie z.B. Start und Pause, aus. Es funktioniert ähnlich, wie das Drücken von Start/Pause, bzw. Nächstes/Vorheriges an einem Headset. Je nach Mediaplayer wird diese Funktion unterstützt oder auch nicht. Auch einzelne Funktionen könnten fehlerhaft sein.</string>
+    <string name="hrSendMedia1Button">Mediaplayer %1s schicken</string>
+    <string name="hrUnknownArea">Unbekanntes Gebiet</string>
+    <string name="hrNoisyContacts">Laute Kontakte</string>
+    <string name="hrNoisyContactsDescription">Wähle Kontakte, die trotz anderer Einstellung klingeln.</string>
+    <string name="hrNoisyContactRingerVolume">Lautstärke für laute Kontakte</string>
+    <string name="hrNoisyContactRingerVolumeDescription">Legt die Lautstärke fest, mit der es klingelt, wenn einer deiner lauten Kontakte anruft.</string>
+    <string name="hrNoisyContactPicker1Selected">Laute Kontakte auswählen - %1s ausgewählt</string>
+    <string name="hr4GOn">4G ein</string>
+    <string name="hr4GOff">4G aus</string>
+    <string name="hrActionToggle4G">4G</string>
+    <string name="hrActionToggle4GDescription">Schaltet 4G ein oder aus, falls dein Handy es unterstützt. Falls dein Handy 4G nicht unterstützt, könnte es passieren, dass du einen Geist von einem schrecklichen Ort beschwörst.</string>
+    <string name="hrEnable4G">4G aktivieren</string>
+    <string name="hrDisable4G">4G deaktivieren</string>
+    <string name="hr4GWarning">EXPERIMENTELL: Ich habe leider kein 4G-Handy zum Testen. Spenden sind willkommen!</string>
+    <string name="hrActionRunShortcut">App-Schnellzugriff ausführen</string>
+    <string name="hrActionRunShortcutDescription">Startet eine andere Anwendung mit dem ausgewählten Schnellzugriff. Du kannst so alle möglichen Funktionen von anderen Anwendungen nutzen. Wenn eine Anwendung nicht aufgeführt ist oder die Funktion, die du nutzen möchtest nicht existiert, kontaktiere den Entwickler der Anwendung.</string>
+    <string name="hrChooseAShortcutToRun">Wähle einen Schnellzugriff, der ausgeführt werden soll</string>
+    <string name="hrRunAShortcut">"Schnellzugriff '%1s' ausführen"</string>
+    <string name="hrPleaseWait">Bitte warten...</string>
+    <string name="hrGettingApplicationNames">Lese Anwendungs-Namen</string>
+    <string name="hrGettingShortcuts">Lese Schnellzugriffe</string>
+    <string name="hrAnyWifiNetwork">&lt;Irgendein WLAN-Netzwerk></string>
+    <string name="hrInAirplaneMode">Flugmodus ein</string>
+    <string name="hrNotInAirplaneMode">Flugmodus aus</string>
+    <string name="hrWhenInAirplaneMode">Wenn der Flugmodus aktiviert ist</string>
+    <string name="hrWhenNotInAirplaneMode">Wenn der Flugmodus deaktiviert ist</string>
+    <string name="hrConditionAirplaneMode">Flugmodus</string>
+    <string name="hrConditionAirplaneModeDescription">Diese Bedingung ermöglicht es dir Ereignisse auszulösen, wenn du den Flugmodus ein- oder ausschaltest.</string>
+    <string name="hrTheApocalypse">Am Tag der Apokalypse!!!</string>
+    <string name="hrEnableHapticFeedback">Haptisches Feedback aktivieren</string>
+    <string name="hrDisableHapticFeedback">Haptisches Feedback deaktivieren</string>
+    <string name="hrActionHapticFeedback">Haptisches Feedback</string>
+    <string name="hrActionHapticFeedbackDescription">Dieses Ereignis aktiviert oder deaktiviert haptisches Feedback. Haptisches Feedback ist die Vibration, die das Handy macht, wenn man den Bildschirm berührt.</string>
+    <string name="hrHapticFeedbackOn">Haptisches Feedback ein</string>
+    <string name="hrHapticFeedbackOff">Haptisches Feedback aus</string>
+    <string name="hrActionScreenOnWarning">Unterschiedliche Handys verhalten sich unterschiedlich. Benutze es in Verbindung mit der Bildschirmhelligkeit um die TATSÄCHLICHE Helligkeit einzustellen.</string>
+    <string name="hrWifiSleepPolicyNever">WLAN ist nie ausgeschaltet</string>
+    <string name="hrWifiSleepPolicyNeverWhilePlugged">WLAN ist beim Laden nie ausgeschaltet</string>
+    <string name="hrWifiSleepPolicyScreenOff">WLAN geht mit dem Bildschirm aus</string>
+    <string name="hrWifiSleepPolicyNeverDescription">Ausschalten des WLAN verhindern</string>
+    <string name="hrWifiSleepPolicyNeverWhilePluggedDescription">Ausschalten des WLAN beim Laden verhindern</string>
+    <string name="hrWifiSleepPolicyScreenOffDescription">WLAN ausschalten, kurz nachdem der Bildschirm aus ist</string>
+    <string name="hrActionWifiSleepPolicy">WLAN-Standby-Richtlinie</string>
+    <string name="hrActionWifiSleepPolicyDescription">Dieses Ereignis ändert die erweiterte WLAN-Einstellung, die kontrolliert, wann das Handy WLAN ausschaltet. Beachte, dass es bei einigen Handys eine Verzögerung zwischen dem Ausschalten des Bildschirms und dem Ausschalten des WLAN gibt.</string>
+    <string name="hrClearNotification">verwerfen</string>
+    <string name="hrLeaveNotification">lassen</string>
+    <string name="hrChangeWallpaperTo1">"Hintergrundbild ändern zu '%1s'"</string>
+    <string name="hrPleaseChooseAWallpaper">Wähle ein Hintergrundbild</string>
+    <string name="hrActionWallpaper">Hintergrundbild</string>
+    <string name="hrActionWallpaperDescription">"Gibt dir die Möglichkeit das Hintergrundbild deines Homescreen zu ändern. Die Funktion nutzt das Android-Wallpaper-Feature, um ein Bild aus deiner Galerie zu wählen und zuzuschneiden. Das zugeschnittene Bild wird dann im Llama/Wallpaper-Ordner auf der SD-Karte gespeichert.
+
+Android erlaubt Anwendungen leider nicht das Ändern von Live-Hintergrundbildern :'("</string>
+    <string name="hrHowDoIChangeOtherStuff">Wo sind die ganzen anderen Einstellungen?</string>
+    <string name="hrHowDoIChangeOtherStuffDescription">In diesem Bildschirm gibt es nur Sound-Einstellungen. Wenn du Dinge wie Bluetooth, WLAN, usw. ändern möchtest, gehe zum Regeln-Tab und tu, was du musst.</string>
+    <string name="hrConditionAppNotification">App-Benachrichtigungszeilensymbol</string>
+    <string name="hrConditionAppNotificationDescription">EXPERIMENTELL: Diese Bedingung greift, wenn eine andere Anwendung ein Icon in der Benachrichtigungszeile platziert. Llama muss hierzu als Eingabehilfedienst ausgewählt sein. Du kannst die Funktion nutzen, um Ereignisse auszulösen, wenn du eine Nachricht erhältst oder wenn eine bestimmte Anwendung ein Icon in der Benachrichtigungszeile platziert. IN ARBEIT, NUR FÜR GEEKS.</string>
+    <string name="hrConditionAppNotificationWarning">EXPERIMENTELL: Bitte Llama in den Eigabehilfe-Einstellungen im Android-Menü aktivieren!</string>
+    <string name="hrKillWithRootDieDieDie1">Beende %1s mit Root-Rechten stirb! stirb! stirb!</string>
+    <string name="hrInvalidPackageNameToKill1">"Konnte Paket namens '%1s' nicht beenden, weil der Name ungültig ist"</string>
+    <string name="hrIgnored">Wird ignoriert</string>
+    <string name="hrUnignoreCell">Zelle nicht mehr ignorieren</string>
+    <string name="hrIgnoreCell">Zelle ignorieren</string>
+    <string name="hrIgnoreCells">Zellen ignorieren</string>
+    <string name="hrNoCellsIgnoredLongTapRecentTab">Es werden keine weiteren Zellen ignoriert. Halte deinen Finger im Letzte-Tab auf einer Zelle, um das zu ändern.</string>
+    <string name="hrIgnoreOtherCells">Andere ignorierte Zellen...</string>
+    <string name="hrIgnoreOtherCellsDescription">Es kann vorkommen, dass eine Zelle in zwei verschiedenen Gebieten auftaucht. Diese Zellen kannst du ignorieren, damit sie kein Verlassen eines Gebietes auslösen. Halte deinen Finger auf der Zelle im Letzte-Tab, um Zellen zu ignorieren.</string>
+    <string name="hrAndFinally">Und nun...</string>
+    <string name="hrCalendarEventDialogEventNameContains">Name des Eintrages enthält... (mehrere Namen mit vertikaler Linie getrennt)</string>
+    <string name="hrCalendarEventDialogInCalendars">In den Kalendern...</string>
+    <string name="hrThisAreaHasNotBeenDefinedLongTapItOrLookInTheRecentTab">Dieses Gebiet hast du noch nicht eingerichtet. Halte deinen Finger auf dem Namen des Gebietes, um die umliegenden Mobiltelefonmasten zu registrieren oder berühre Masten im Letzte-Tab, um dieses Gebiet zu definieren.</string>
+    <string name="hrActionScreenBrightnessWarning">Unterschiedliche Handys gehen unterschiedlich mit der Bildschirm-Helligkeit um. Eventuell musst du den Bildschirm aus- und wieder einschalten, damit die Änderung wirksam wird.</string>
+    <string name="hrAnyCalendarEvent">irgendein Kalendereintrag</string>
+    <string name="hrAnyCalendar">irgendein Kalender</string>
+    <string name="hrCalendarEvents1ContainsAnyEvent">%1$s hat irgendeinen Kalendereintrag</string>
+    <string name="hrCalendarEvents1DoesNotContainAnyEvent">%1$s hat keinen Kalendereintrag</string>
+    <string name="hrCalendarEvents1Contains2">%1$s hat einen Kalendereintrag namens %2$s</string>
+    <string name="hrCalendarEvents1DoesNotContains2">%1$s hat keinen Kalendereintrag namens %2$s</string>
+    <string name="hrCalendarEvents1ContainsAnyEventDescription">Falls %1$s irgendeinen Kalendereintrag hat</string>
+    <string name="hrCalendarEvents1DoesNotContainAnyEventDescription">Falls %1$s keinen Kalendereintrag hat</string>
+    <string name="hrCalendarEvents1Contains2Description">Falls %1$s einen Kalendereintrag namens %2$s hat</string>
+    <string name="hrCalendarEvents1DoesNotContains2Description">Falls %1$s keinen Kalendereintrag namens %2$s hat</string>
+    <string name="hrCalendarEventNameSpaceWarning">Einige deiner Kalendereinträge haben Leerzeichen vor oder nach deren Namen. Einige Android-Tastaturen fügen automatisch Leerzeichen ein. Wenn du dort keine Leerzeichen setzen wolltest, drücke auf Leerzeichen entfernen.</string>
+    <string name="hrRemoveSpaces">Leerzeichen entfernen</string>
+    <string name="hrLeaveSpaces">Leerzeichen belassen</string>
+    <string name="hrOnStartUp">Nach dem Einschalten</string>
+    <string name="hrOnShutdown">Vor dem Ausschalten</string>
+    <string name="hrWhenPhoneBoots">Wenn das Handy sich einschaltet</string>
+    <string name="hrWhenPhoneShutsdown">Wenn das Handy sich ausschaltet</string>
+    <string name="hrEnableRotation">aktiviere Rotation</string>
+    <string name="hrDisableRotation">deaktiviere Rotation</string>
+    <string name="hrActionScreenRotation">Automatische Bildschirm-Ausrichtung</string>
+    <string name="hrActionScreenRotationDescription">Diese Einstellung legt fest, ob der Bildschirm sich drehen soll, wenn du dein Handy drehst. Die meisten Handys erlauben das Sperren der Rotation nur im Portrait-Modus oder wechseln automatisch zwischen Portrait- und Landscape-Modus.</string>
+    <string name="hrAllow1Rotations">Bildschirm-Ausrichtung um %1s erlauben</string>
+    <string name="hrLockProfileFor1">Profil sperren für %1s</string>
+    <string name="hrForeverEternity">immer (Profile-Tab für Änderung benutzen)</string>
+    <string name="hrLockProfileForever">Profil für immer sperren</string>
+    <string name="hrAlsoPreventOtherEventsFromChangingProfilesForDotDotDot_1">Außerdem die Profilsperre aktivieren. Andere Regeln werden das Profil nicht ändern können. Wenn die angegebene Anzahl Minuten verstrichen ist, wird das vorherige Profil wieder aktiviert.</string>
+    <string name="hrCarDockOnOffDescription">Automodus (de)aktivieren</string>
+    <string name="hrCarDockOnOff">Automodus (de)aktivieren</string>
+    <string name="hrCarDockOffDescription">Automodus deaktivieren</string>
+    <string name="hrCarDockOff">Automodus deaktivieren</string>
+    <string name="hrCarDockOnDescription">Automodus aktivieren</string>
+    <string name="hrCarDockOn">Automodus aktivieren</string>
+    <string name="hrActionCarMode">Automodus</string>
+    <string name="hrActionCarModeDescription">Dieses Ereignis aktiviert bzw. deaktiviert den Automodus manuell. Wird erst ab Android 2.2 unterstützt.</string>
+    <string name="hrCarModeNotSupportedByPhone">Der Automodus wird erst ab Android 2.2 unterstützt</string>
+    <string name="hrFailedToStartShortcut1">Konnte Schnellzugriff %1s nicht starten</string>
+    <string name="hrLlamaFailedToChangeApnSettings">Llama konnte die APN-Einstellungen nicht ändern</string>
+    <string name="hrErrorReadingContacts">Fehler beim Lesen der Kontakte</string>
+    <string name="hrThereWasAnErrorReadingYourContacts">Beim Lesen deiner Kontakte gab es leider einen Fehler :(</string>
+    <string name="hrAlarmVolumeWarning">Achtung bei Wecker-Apps, die die Lautstärke selbst festlegen, wie z.B. bei einigen Samsung-Handys. Bitte installiere in diesem Fall eine andere Wecker-App von Google Play, die das nicht tut.</string>
+    <string name="hrRunIntent1">"Android-Intent ausführen '%1s'"</string>
+    <string name="hrCreateAnIntent">Ein Android-Intent definieren</string>
+    <string name="hrActionAndroidIntent">Android-Intent</string>
+    <string name="hrActionAndroidIntentDescription">Ermöglicht es dir ein Android-Intent auszuführen. Das ist eine sehr fortgeschrittene Funktion, die die Kooperation von Drittanbieter-Anwendungen benötigt. Llama bringt einige vordefinierte Intents mit. Wenn dir eine gute einfällt, teile dein Wissen mit anderen :)</string>
+    <string name="hrPreset">Voreinstellung</string>
+    <string name="hrDashDashOrDashDash">-- ODER --</string>
+    <string name="hrIntentEditPackageName">Paketname</string>
+    <string name="hrIntentEditClassName">Klassenname</string>
+    <string name="hrIntentEditAction">Ereignis</string>
+    <string name="hrIntentEditCategory">Kategorien (mit Komma oder senkrechtem Strich getrennt)</string>
+    <string name="hrIntentEditData">Daten</string>
+    <string name="hrIntentEditDateType">Datentyp</string>
+    <string name="hrCustomAndroidIntent">Eigenes Android-Intent</string>
+    <string name="hrIntentEditExtras">Extras</string>
+    <string name="hrIntentEditAddExtra">"Neue 'Extra'-Reihe hinzufügen"</string>
+    <string name="hrTpiWidgetLockerEnable">Widget Locker: aktivieren</string>
+    <string name="hrTpiWidgetLockerDisable">Widget Locker: deaktivieren</string>
+    <string name="hrTpiWidgetLockerSuspend">Widget Locker: aussetzen</string>
+    <string name="hrTpiWidgetLockerResume">Widget Locker: fortsetzen</string>
+    <string name="hrTpiWidgetLockerActivate">Widget Locker: sperren</string>
+    <string name="hrTpiWidgetLockerUnlock">Widget Locker: entsperren</string>
+    <string name="hrTpiBeautifulWidgetsRefresh">Beautiful Widgets: neu laden</string>
+    <string name="hrTpiAndroidStartHome">Android: Startbildschirm öffnen</string>
+    <string name="hrTpiHoursBankStartStop">Hours Bank: Start/Stop</string>
+    <string name="hrTpiDrivingModeWidgetOn">Automodus-Widget: An</string>
+    <string name="hrTpiDrivingModeWidgetOff">Automodus-Widget: Aus</string>
+    <string name="hrIntentEditSendMode">Intent-Sende-Modus</string>
+    <string name="hrAdvancedDotDotDot">Erweitert...</string>
+    <string name="hrEventAdvancedDescription2">Legt fest, ob die Regel verzögert oder wiederholt werden soll, Bestätigung und Auslöse-Filter nötig</string>
+    <string name="hrRepeatEvent">Regel wiederholen</string>
+    <string name="hrRepeatEventDescription">Führt die Ereignisse der Regel solang wiederholt aus, wie die Bedingungen zutreffen</string>
+    <string name="hrRepeatEventMinutes">Wiederholungs-Intervall</string>
+    <string name="hrRepeatEventMinutesDescription">Anzahl der Minuten zwischen den Wiederholungen der Ereignisse</string>
+    <string name="hrDelayEvent">Regel verzögern</string>
+    <string name="hrDelayEventDescription">Legt fest, ob die Ereignisse dieser Regel sofort eintreten oder erst nach einer bestimmten Zahl Minuten.</string>
+    <string name="hrDelayEventMinutes">Verzögerung um...</string>
+    <string name="hrDelayEventMinutesDescription">Anzahl Minuten, die zwischen Auslösen der Regel und Ausführung der Ereignisse vergehen muss.</string>
+    <string name="hrDelayEventSeconds">Verzögerungssekunden</string>
+    <string name="hrDelayEventSecondsDescription">Die Anzahl zusätzlicher Sekunden, die zwischen dem Eintreten der Regel und dem Auslösen der Ereignisse vergehen soll (für Leute mit guten Reaktionen oder Zwangsstörungen :)</string>
+    <string name="hrCancelDelayedEvent">Verzögerte vergessen, falls unzutreffend</string>
+    <string name="hrCancelDelayedEventDescription">Wenn aktiviert, werden die Ereignisse einer verzögerten Regel nicht mehr ausgeführt, falls sie dann nicht mehr zutreffen.</string>
+    <string name="hrEventRequireConfirmation">Benötigt Bestätigung</string>
+    <string name="hrEventRequireConfirmationDescription">Legt fest, ob die Ereignisse der Regel erst nach Bestätigung deinerseits per Benachrichtigung ausgelöst werden.</string>
+    <string name="hrMoreInfoDotDotDot">Mehr Info...</string>
+    <string name="hrEventAdvancedDetailedDescription">"Falls mehr als eine erweiterte Option ausgewählt ist:
+
+-Eine Bestätigung wird erst nach der Verzögerung erfragt.
+
+-Eine sich wiederholende Regel wird nicht beginnen sich zu wiederholen, bevor die Verzögerung es zulässt und/oder die Bestätigung gegeben wurde."</string>
+    <string name="hrRepeatTriggerName">Sich Wiederholende Regel</string>
+    <string name="hrAfterDelayTriggerName">Verzögerte Regel</string>
+    <string name="hrConfirmationTriggerName">Vom Nutzer bestätigt</string>
+    <string name="hrEventNameTriggerName">Name der Regel</string>
+    <string name="hrEventNameTriggerShortcutName">Regelnamen-Schnellzugriff</string>
+    <string name="hrEventNameTriggerShortcutCustom">eigener Schnellzugriff</string>
+    <string name="hrEventNameTriggerEventEditor">Regel-Editor-Test</string>
+    <string name="hrEventNameTriggerEventList">Regel-Listen-Test</string>
+    <string name="hrEventNameTriggerSetLlamaVariableIntent">Extern gesetzte Llama-Variable</string>
+    <string name="hrEventNameExternalSetLlamaVariable">Extern gesetzte Llama-Variable</string>
+    <string name="hrTheEventNamed1NoLongerExists">"Die Regel namens '%1s' existiert nicht mehr."</string>
+    <string name="hrWifiAccessPointMayNotBeSupported">WLAN-Zugangs-Punkt wird eventuell von deinem Handy nicht unterstützt.</string>
+    <string name="hrEvent1RequiresConfirmation">"Die Regel namens '%1$s' benötigt Bestätigung um diese Ereignisse auszulösen:"</string>
+    <string name="hrEventRequiresConfirmationFooter">Du kannst diese Ereignisse jetzt ausführen, sie für später speichern oder die Benachrichtigung abbrechen.</string>
+    <string name="hrEventRequireConfirmationDialog">Bestätigungs-Dialog</string>
+    <string name="hrEventRequireConfirmationDialogDescription">Legt fest, ob deine aktuelle Aktivität unterbrochen werden soll, um die Bestätigung anzuzeigen oder ob einfach ein Icon in der Benachrichtigungszeile angezeigt werden soll.</string>
+    <string name="hrEventConfirmationRunNow">Jetzt ausführen</string>
+    <string name="hrEventConfirmationSaveForLater">Später</string>
+    <string name="hrEventConfirmationDontRun">Abbrechen</string>
+    <string name="hrRepeatingAt1">(Wird um %1s wiederholt)</string>
+    <string name="hrDelayedUntil1">(Verzögert bis %1s)</string>
+    <string name="hrAwaitingConfirmation">(Warte auf Bestätigung)</string>
+    <string name="hrWifiHotSpotOnOffDescription">WLAN-Hotspot-Modus de-/aktivieren</string>
+    <string name="hrWifiHotSpotOnOff">WLAN-Hotspot-Modus de-/aktivieren</string>
+    <string name="hrWifiHotSpotOffDescription">WLAN-Hotspot-Modus deaktivieren</string>
+    <string name="hrWifiHotSpotOff">WLAN-Hotspot-Modus deaktivieren</string>
+    <string name="hrWifiHotSpotOnDescription">WLAN-Hotspot-Modus aktivieren</string>
+    <string name="hrWifiHotSpotOn">WLAN-Hotspot-Modus aktivieren</string>
+    <string name="hrActionWifiHotSpot">WLAN-Hotspot</string>
+    <string name="hrActionWifiHotSpotDescription">Dieses Ereignis de-/aktiviert den WLAN-Hotspot manuell. Erst ab Android 2.2 unterstützt.</string>
+    <string name="hrScreenBrightnessWarning">Nicht alle Android-Handys wurden gleich geschaffen. Einige Handys werden auf Helligkeitsänderungen nicht reagieren, bis der Bildschirm aus- und wieder eingeschaltet wurde.</string>
+    <string name="hrScreenBrightnessLowWarning">WARNUNG: Einige Handys lassen sich so dunkel einstellen, dass du den Bildschirm nicht mehr erkennen kannst. Fortfahren auf eigenes Risiko! Eventuell hilft es, die Batterie zu entfernen und neuzustarten, um es wieder normal zu bekommen.</string>
+    <string name="hrSpeakerphoneOnOffDescription">Telefon-Lautsprecher-Modus de-/aktivieren</string>
+    <string name="hrSpeakerphoneOnOff">Telefon-Lautsprecher-Modus de-/aktivieren</string>
+    <string name="hrSpeakerphoneOffDescription">Telefon-Lautsprecher-Modus deaktivieren</string>
+    <string name="hrSpeakerphoneOff">Telefon-Lautsprecher-Modus deaktivieren</string>
+    <string name="hrSpeakerphoneOnDescription">Telefon-Lautsprecher-Modus aktivieren</string>
+    <string name="hrSpeakerphoneOn">Telefon-Lautsprecher-Modus aktivieren</string>
+    <string name="hrActionSpeakerphone">Telefon-Lautsprecher</string>
+    <string name="hrActionSpeakerphoneDescription">Dieses Ereignis de-/aktiviert den Lautsprecher während Telefonaten. Dies betrifft nur Telefonate, keine anderen Audio-Ausgaben (z.B. Msuik).</string>
+    <string name="hrDeviceAdminDescription">Ermöglicht einige Llama-Ereignisse</string>
+    <string name="hrDeviceAdminNotSupported">Geräteadministrator wird erst ab Android 2.2 unterstützt</string>
+    <string name="hrDeviceAdminError">"Llama wurden keine Geräteadministratoren-Rechte eingeräumt. Sieh in den Android-Einstellungen 'Standort und Sicherheit' nach."</string>
+    <string name="hrScreenOffError">Konnte Bildschirm nicht ausschalten.</string>
+    <string name="hrActionChangePassword">Bildschirmsperren-Passwort</string>
+    <string name="hrActionChangePasswordDescription">Dies ändert das Bildschirmsperren-Passwort. Du kannst das nutzen, um zeitweise das Passwort zu entfernen, damit keine Sperre angezeigt wird. Das Passwort wird verschlüsselt auf der SD-Karte abgelegt, falls ein Llama-Daten-Fehler passiert oder wenn du deine Daten manuell exportierst. Dieses Passwort wird mit dem Llama-Sicherheits-Passwort aus den Llama-Einstellungen verschlüsselt, welches niemals auf der SD-Karte gesichert wird. Dennoch könnten andere Apps mit Root-Rechten auf das Llama-Sicherheits-Passwort zugreifen und es lesen! Wenn du das Llama-Sicherheits-Passwort änderst, wirst du das Passwort für die Bildschirmsperre neu eingeben müssen.</string>
+    <string name="hrChangePasswordError">Konnte das Bildschirmsperren-Passwort nicht ändern.</string>
+    <string name="hrThereWasAnErrorSavingYourPassword">Es gab einen Fehler beim Speichern deines Bildschirmsperren-Passwortes. Vielleicht hast du das Llama-Sicherheits-Passwort geändert. Bitte versuche das Bildschirmsperren-Passwort in der entsprechenden Regel neu einzugeben.</string>
+    <string name="hrFailedToDecryptYourPassword">Fehler beim Entschlüsseln des Bildschirmsperren-Passwortes; es wurde also nicht geändert.</string>
+    <string name="hrSecuritySettings">Sicherheits-Einstellungen</string>
+    <string name="hrLlamaSecurityPassword">Llama-Sicherheits-Passwort</string>
+    <string name="hrLlamaSecurityPasswordDescription">Wird benötigt, um sensible Daten aus Regeln zu verschlüsseln, wie z.B. das Bildschirmsperren-Passwort</string>
+    <string name="hrLlamaSecurityPasswordDescriptionEx">"Dies ist nötig, um sensible Informationen aus Regeln zu verschlüsseln (beispielsweise das Bildschirmsperren-Passwort). Dadurch werden diese Informationen nicht im Klartext auf der SD-Karte gespeichert, wenn du Daten exportierst.
+
+Wenn du dieses Passwort änderst, musst du sämtliche Bildschirmsperren-Passwort-Ereignisse, die du hast, neu definieren.
+
+Du wirst dieses Passwort nicht mehr benötigen, es sei denn, dass du dein Handy wechselst oder Llama neu installierst."</string>
+    <string name="hrSetLlamaSecurityPasswordNow">Du solltest ein Llama-Sicherheits-Passwort festlegen. Es wird benötigt, um sensible Informationen zu schützen, wenn sie auf die SD-Karte geschrieben werden. Es ist getrennt von deinem Bildschirmsperren-Passwort oder deinem Google-Passwort. Möchtest du jetzt ein Llama-Sicherheits-Passwort festlegen?</string>
+    <string name="hrPleaseEnterALlamaSecurityPassword">Bitte gib ein Llama-Sicherheits-Passwort ein oder drücke abbrechen, um dein jetziges zu behalten</string>
+    <string name="hrChangeScreenLockPassword">Bildschirmsperren-Passwort ändern</string>
+    <string name="hrQueueEventActionValidation">Deine Regel muss mindestens eine Bedingung oder eine Verzögerung von mindestens einer Minute haben.</string>
+    <string name="hrActionQueueEvent">Andere Regel anschließen</string>
+    <string name="hrActionQueueEventDescription">"Gibt dir die Möglichkeit eine einmalige Regel zu erstellen. Du kannst dies nutzen, um andere Ereignisse nach einer gewissen Zeit auszulösen. Sobald die neue Regel einmal ausgelöst wurde, wird sie gelöscht.
+
+Wenn du sowohl eine Anzahl Minuten als auch Bedingungen zum Auslösen festlegst, werden die Ereignisse nur ausgelöst, wenn die Bedingungen weiter erfüllt sind.
+
+Wenn du nur Bedingungen definierst, wird die Regel erst ausgelöst, wenn alle Bedingungen zutreffen."</string>
+    <string name="hrQueueEventMinutes">Auslöse-Verzögerung</string>
+    <string name="hrQueueEventSeconds">Verzögerungssekunden für Anschluss-Regel</string>
+    <string name="hrQueueEventMinutesDescription">Anzahl der Minuten vom Auslösen der ursprünglichen Regel bis diese Regel ihre Bedingungen prüft und die Ereignisse auslöst.</string>
+    <string name="hrQueueEventSecondsDescription">Anzahl Sekunden nach Auslösen der ursprünglichen Regel, die diese Regel warten muss, bevor die Bedingungen dieser Regel geprüft und die Ereignisse ausgelöst werden.</string>
+    <string name="hrQueueAnEventNamed1After2Minutes">"Löse eine Regel namens '%1$s' nach %2$s Minuten aus"</string>
+    <string name="hrQueueAnEventNamed1After2Seconds">"Eine Regel namens '%1$s' nach %2$s Sekunden anschließen"</string>
+    <string name="hrQueueAnEventNamed1After2Minutes3Seconds">"Eine Regel namens '%1$s' nach %2$s Minuten und %3$s Sekunden anschließen"</string>
+    <string name="hrQueueAnEventNamed1">"Löse eine Regel namens '%1$s' aus"</string>
+    <string name="hrWaitFor1Minutes">%1s Minuten warten</string>
+    <string name="hrWaitFor1Seconds">%1$s Sekunden warten</string>
+    <string name="hrWaitFor1Minutes2Seconds">%1$s Minuten und %2$s Sekunden warten</string>
+    <string name="hrConditionAbbr">B</string>
+    <string name="hrActionAbbr">E</string>
+    <string name="hrYouHaveFiltersActive">Einige Regeln werden durch deinen Filter versteckt!</string>
+    <string name="hrEnterAScreenLockPassword">Gib ein Bildschirmsperren-Passwort ein</string>
+    <string name="hrConfirmScreenLockPassword">Bestätige dein Bildschirmsperren-Passwort</string>
+    <string name="hrPasswordsDontMatch">Passwörter stimmten nicht überein. Bitte erneut versuchen.</string>
+    <string name="hrPasswordHidden">Passwort versteckt</string>
+    <string name="hrPasswordErrorPleaseReenterItAgain">Passwort-Fehler, bitte erneut eingeben.</string>
+    <string name="hrEventActionAndConditionSettings">Einstellungen für Regel-Ereignisse und -Bedingungen</string>
+    <string name="hrDefaultReminderTone">Erinnerung-Benachrichtigung-Klang</string>
+    <string name="hrDefaultReminderToneDescription">Der Benachrichtigungs-Klang für das Erinnerungs-Ereignis</string>
+    <string name="hrWaitForConditions">Warte auf Bedingungen</string>
+    <string name="hrLongerProfileLock">Längere Profilsperre</string>
+    <string name="hrLongerProfileLockDescription">Legt fest, ob der Profilsperren-Schieberegler bis zu acht oder 24 Stunden anzeigt.</string>
+    <string name="hrCellPolling">Zellen-Abfrage-Einstellungen</string>
+    <string name="hrCellPollingDescription">Llama arbeitet normalerweise passiv, indem es die aktuell verbundene Zelle nutzt. Diese Einstellungen verändern die alternativen Zell-Abfrage-Methoden von Llama.</string>
+    <string name="hrCellPollingWithWakeLock">Zur Abfrage wecken</string>
+    <string name="hrCellPollingWithWakeLockDescription">Legst fest, ob das Handy zwangsweise wach bleiben soll, solange es überprüft, ob die Zelle sich geändert hat. Bei einigen Handys könnte das nötig sein.</string>
+    <string name="hrCellPollingWithScreenWakeLock">Bildschirm bei Abfrage an</string>
+    <string name="hrCellPollingWithScreenWakeLockDescription">Legt fest, ob der Bildschirm kurz eingeschaltet werden soll. ACHTUNG: Den Bildschirm einige tausend Mal am Tag ein- und auszuschalten könnte ihn beschädigen. Ich habe keine Ahnung ob das so ist, daher: jegliche Nutzung auf eigene Gefahr.</string>
+    <string name="hrCellPollingActiveInterval">aktive Zellen-Abfrage-Zeit</string>
+    <string name="hrCellPollingActiveIntervalMillis">Die Anzahl Millisekunden, die das Handy potenziell wach sein soll. Du solltest unter fünf Sekunden bleiben, wenn dir die Laufzeit am Herzen liegt.</string>
+    <string name="hrConfirmationTriggeredBy1Condition">Bestätigung von %1s-Bedingung ausgelöst</string>
+    <string name="hrDelayTriggeredBy1Condition">Verzögerung von %1s-Bedingung ausgelöst</string>
+    <string name="hrEventDelayCancelled">Verzögerung abgebrochen, weil die Bedingungen nicht mehr zutreffen</string>
+    <string name="hrEventRepeatingCancelled">Wiederholen abgebrochen, weil die Bedingungen nicht mehr zutreffen</string>
+    <string name="hrSetLlamaVariable1To2">"Llama-Variable '%1$s' auf '%2$s' setzen"</string>
+    <string name="hrPleaseEnterAVariableName">Bitte gib einen Llama-Variablennamen ein</string>
+    <string name="hrPleaseEnterAVariableValue">Bitte gib einen Llama-Variablenwert ein</string>
+    <string name="hrVariableName">Variablenname</string>
+    <string name="hrVariableValue">Variablenwert (kann freigelassen werden)</string>
+    <string name="hrActionSetLlamaVariable">Llama-Variable</string>
+    <string name="hrActionSetLlamaVariableDescription">Llama gibt dir die Möglichkeit Text zu erzeugen, aufgrund dessen andere Regeln reagieren können. Dadurch werden fürchterlich komplexe Zusammenhänge zwischen Regeln möglich. Den Text weist du benannten Variablen zu. Davon kannst du auch mehrere haben. Als Bonus obendrauf werden die Variablen auch an das Minimalistic Text-Widget (MTW) gesendet. Erzeuge in MTW eine lokale Variable mit dem gleichen Namen.</string>
+    <string name="hrDonateRequiresMarket">Es gab ein Problem beim Starten von Google Play. Spenden können nur über Google Play gemacht werden.</string>
+    <string name="hrWhen1HasAValueOf2">"Wenn '%1$s' den Wert '%2$s' hat"</string>
+    <string name="hrWhen1DoesNotHaveAValueOf2">"Wenn '%1$s' nicht den Wert '%2$s' hat"</string>
+    <string name="hrWhen1HasAValueGreaterThan2">"wenn '%1$s' einen Wert größer als '%2$s' hat"</string>
+    <string name="hrWhen1HasAValueGreaterThanOrEqualTo2">"wenn '%1$s' einen Wert größer als oder genau den Wert '%2$s' hat"</string>
+    <string name="hrWhen1HasAValueLessThan2">"wenn '%1$s' einen Wert kleiner als '%2$s' hat"</string>
+    <string name="hrWhen1HasAValueLessThanOrEqualTo2">"wenn '%1$s' einen Wert kleiner als oder genau den Wert '%2$s' hat"</string>
+    <string name="hrConditionLlamaVariable">Llama-Variable</string>
+    <string name="hrConditionLlamaVariableDescription">Dies brauchst du im Zusammenhang mit den Llama-Variablen-Ereignissen. Du kannst es nutzen, um Regeln zu erstellen, die die aktuellen Werte der Llama-Variablen nutzen.</string>
+    <string name="hrVariables">Llama-Variable</string>
+    <string name="hrAreYouSureYouWantToClearVariables">"Willst du wirklich die Variablennamen und -werte löschen?
+
+Das solltest du nur tun, um die Variablen-Nutzung zurückzusetzen. Es werden keine Regeln ausgelöst."</string>
+    <string name="hrNoVariablesSet">"Keine Variablen definiert. Erstelle eine Regel mit einem 'Llama-Variable'-Ereignis, um Variablen zu nutzen. Einer Variablen wird kein Wert zugewiesen, solange das Ereignis, das den Wert setzen soll, nicht mindestens einmal ausgeführt wurde."</string>
+    <string name="hrConfirmationDeniedTriggerName">Bestätigung verweigert</string>
+    <string name="hrForceNoisyContactRingtone">Klingelton für lauten Kontakt erzwingen</string>
+    <string name="hrForceNoisyContactRingtoneDescription">Einige Handys spielen keine Klingeltöne ab, wenn sie lautlos sind. Lass stattdessen Llama den Klingelton abspielen. Deaktivieren, falls du zwei Klingeltöne hörst.</string>
+    <string name="hrRepeatingEventWithNoConditionsWarning">"Diese sich wiederholende Regel hat keine Bedingungen, sie wird also nie ausgeführt.
+
+Wenn du willst, dass sie sich immer wieder wiederholt, füge beispielsweise eine Bedingung, wie 'Beim Einschalten' hinzu.
+
+Möchtest du das jetzt tun?"</string>
+    <string name="hrNotificationIconDots">Anzahl der Punkte</string>
+    <string name="hrColour">Farbe</string>
+    <string name="hrTheNumberOfDotsToShowOnTheIcon">Anzahl der Punkte im Icon</string>
+    <string name="hr1Dots">%1s Punkte</string>
+    <string name="hr1Dot">%1s Punkt</string>
+    <string name="hrWith">mit</string>
+    <string name="hrDontChangeDots">Punkte nicht ändern</string>
+    <string name="hrPleaseChooseASoundToPlay">Wähle einen Ton</string>
+    <string name="hrNotificationIconMustChangeTheIconOrNumberOfDots">Das Benachrichtigungs-Icon muss das Symbol oder die Anzahl der Punkte verändern</string>
+    <string name="hrActionSoundPlayer">Ton abspielen</string>
+    <string name="hrActionSoundPlayerDescription">"Dies wird einen Klingelton oder einen anderen Ton abspielen. Du kannst auswählen welcher Audio-Stream (also z.B. Klingelton, Benachrichtigung, Wecker) den Ton abspielen soll. Jeder der Audio-Streams hat dabei seine eigene Lautstärke, die über das Llama-Profil festgelegt wird.
+
+Ein Ton wird abgespielt, bis er fertig ist; dann werden eventuell angehängte weitere Töne gespielt. Um das Abspielen zu unterbrechen, klicke auf das Notification-Symbol, das angezeigt wird. Dieses kannst du auch in den Einstellungen deaktivieren."</string>
+    <string name="hrRingtonePickerType">Typ des Klingelton-Wählers</string>
+    <string name="hrPlaySound1">"Spiele Ton '%1s'"</string>
+    <string name="hrEventColonSoundDescription">"%1$s: Spielt '%2$s'"</string>
+    <string name="hrChooseARingToneToPlay">Wähle einen Klingelton</string>
+    <string name="hrNoneSelected">nichts ausgewählt</string>
+    <string name="hrCurrentRingtoneColon1">Aktueller Klingelton: %1s</string>
+    <string name="hrErrrMusicDescription">"Android gibt dir normalerweise nicht die Möglichkeit Musik als Klingelton auszuwählen. Da Android jedoch cleverer als sein fruchtiger Konkurrent ist, kannst du einfach eine App installieren, die dir das erlaubt.
+
+Ich würde 'Rings Extended' von der Google-Mitarbeiterin Dianne Hackborn empfehlen.
+
+Davon abgesehen solltest du jegliche Apps ignorieren, die dir kostenlose Musik versprechen oder dir ein Abo des Klingeltons-der-Woche verkaufen wollen. Jeder, der solche Apps benutzt ist ein Idiot.
+
+Wie auch immer...willst du bei Google Play nach einem alternativen Klingelton-Wähler suchen?"</string>
+    <string name="hrNoisyLlamaTapToStop">Lautes Llama - anklicken zum Stoppen</string>
+    <string name="hrProblemStartingAndroidMarket">Beim Starten von Google Play ist leider ein Problem aufgetreten :(</string>
+    <string name="hrUseTheNotificationToStopPlaying">Mit der Benachrichtigung kannst du den Ton stoppen. De-/aktiviere ihn in den Einstellungen.</string>
+    <string name="hrBulkOperations">Mehrere Dinge gleichzeitig ändern</string>
+    <string name="hrBulkOperationsDescription">Möglichkeit, einige fortgeschrittene Operationen auszuführen</string>
+    <string name="hrBulkDeleteCellsFromAreas">Zellen aus Gebieten löschen. Hilfreich, wenn du den Provider wechselst.</string>
+    <string name="hrBulkDeleteMapPointsFromAreas">Punkte auf der Karte aus Gebieten entfernen</string>
+    <string name="hrBulkDeleteWifiMacFromAreas">WLAN-MAC-Adressen aus Gebieten löschen</string>
+    <string name="hrBulkDeleteWifiNameFromAreas">WLAN-Namen aus Gebieten löschen</string>
+    <string name="hrBulkDeleteBluetoothFromAreas">Bluetooth-Geräte aus Gebieten löschen</string>
+    <string name="hrBulkDeleteBeaconWarning">Bist du sicher, dass du das möchtest?! Erstelle sicherheitshalber vorher ein Backup, falls du deine Meinung änderst. Nach der Änderung solltest du Llama neustarten.</string>
+    <string name="hrActionTwoGThreeG">2G/3G (nur für modifizierte Handys)</string>
+    <string name="hrActionTwoGThreeGDescription">"**FUNKTIONIERT NUR AUF HANDYS, DIE SPEZIELL DAFÜR MODIFIZIERT WURDEN** Du benötigst Cyanogenmod 7+ auf deinem Handy, damit der gewünschte Effekt eintritt. Das liegt an einer Limitation von Android. Normalerweise lässt Android KEINE Dritthersteller-Apps den Netzwerk-Typ ändern.
+
+Lästige Warnung beiseite; dies erlaubt dir, den Netzwerk-Typ festzulegen, mit dem sich dein Handy verbinden wird. Google ein bisschen, um den richtigen Typ herauszufinden, aber wahrscheinlich ist dies hier:
+
+Europa - GSM/WCDMA
+USA - either GSM/WCDMA oder CDMA"</string>
+    <string name="hrChangeNetworkTo1">Netzwerk-Typ ändern zu %1s</string>
+    <string name="hrGpsEnableWarning">Dies wird möglicherweise nicht funktionieren! GPS kann nur unter Android 2.2 oder älter geändert werden oder mit einigen modifizierten Firmwares. Dies ist eine sicherheitstechnische Einschränkung von Android, um Anwendungen daran zu hindern, dich auszuspionieren.</string>
+    <string name="hrActionKillAppWarning">Funktioniert unter Umständen nicht! Ab Android 2.2 gibt es Einschränkungen beim Beenden fremder Apps. Falls dein Handy gerootet ist, probiere das Anwendung beenden-Ereignis</string>
+    <string name="hrMilliAbbreviation">ms</string>
+    <string name="hrDelayFor1">um %1s verzögern</string>
+    <string name="hrRepeatedEventEditWarning">Du hast eine sich wiederholende Regel verändert. Möchtest du jetzt überprüfen, ob die Bedingungen zutreffen, damit die Wiederholung beginnt?</string>
+    <string name="hrQueuedEventDefaultName">Anschließende Regel</string>
+    <string name="hrQueuedEventChangeDefaultNameTip">Alle Regel-Namen müssen einzigartig sein. Die anschließende Regel wird unter Umständen nicht wieder erzeugt, falls schon eine andere Regel mit dem gleichen Namen existiert! Bitte ändere den Namen der anzuschließenden Regel.</string>
+    <string name="hrCalendarEventDialogExtraEventSettings">"Du kannst Einträge auch nach Typ und Verfügbarkeit filtern. Wenn du die Kalender- und Eintrags-Box leer lässt, wird die Bedingung nur bei Einträgen zutreffen, die 'Den ganzen Tag' oder 'Verfügbarkeit', etc. erfüllen&lt;br>&lt;br>BEACHTE: Nicht alle Kalender-Provider sind gleich (z.B. einige MS Exchange-Apps); &lt;u>klicke hier, um Llamas Kalender-Debugger anzuzeigen&lt;/u> um zu sehen, was Llama denkt, was los ist."</string>
+    <string name="hrCalendarDebugTitle1">Einträge in den nächsten %1s Minuten</string>
+    <string name="hrCalendarEventMustBe">darf</string>
+    <string name="hrAllDay">Den ganzen Tag</string>
+    <string name="hrNotAllDay">Nicht den ganzen Tag</string>
+    <string name="hrShownAsAvailable">angezeigt als verfügbar</string>
+    <string name="hrNotShownAsAvailable">nicht als verfügbar angezeigt</string>
+    <string name="hrYourDeviceDoesNotSupportDeviceAdmin">Dein Gerät unterstützt leider keine Geräteadministratoren :(</string>
+    <string name="hrAlsoThanksTo">Ich danke außerdem:</string>
+    <string name="hrConditionAudioBecomingNoisy">Audio wird laut</string>
+    <string name="hrConditionAudioBecomingNoisyDescription">Die Bedingung löst aus, wenn ein entweder kabelgebundenes oder ein Bluetooth-Headset getrennt wird. Einige Handys reagieren hierauf schneller, als auf die anderen Bedingungen.</string>
+    <string name="hrWhenAudioBecomesNoisy">Wenn Audio laut wird</string>
+    <string name="hrConditionDeskDock">Docking-Station</string>
+    <string name="hrConditionDeskDockDescription">"Diese Bedingung gibt dir die Möglichkeit Regeln auszuführen, wenn du dein Handy in eine Docking-Station stellst.
+
+Beachte, dass dein Handy die normale Android-Art dafür unterstützen muss. Einige Hersteller passen dies an, woraufhin sich das Handy anders verhält. Außerdem gibt es einige Docking-Stations, die nichts als billige Plastik-Fetzen sind, sodass dein Handy gar nicht merkt, dass es in einer Docking-Station ist."</string>
+    <string name="hrInDeskDock">In einer Docking-Station</string>
+    <string name="hrNotInDeskDock">Nicht in einer Docking-Station</string>
+    <string name="hrWhenInDeskDock">Wenn in einer Docking-Station</string>
+    <string name="hrWhenNotInDeskDock">Wenn nicht in einer Docking-Station</string>
+    <string name="hrActionSpeak">Sprich</string>
+    <string name="hrActionSpeakDescription">"Lässt dein Llama mit einer Computerstimme zu dir sprechen. Du kannst es Llama-Variablen aussprechen lassen, indem du den Variablen-Namen mit zwei Rauten umgibst, z.B. so: 'Sperre steht auf ##SperreEin##"</string>
+    <string name="hrSay1">"Sag '%1s'"</string>
+    <string name="hrActionLocalePlugin">Locale-Plugin</string>
+    <string name="hrActionLocalePluginDescription">"**EXPERIMENTELL**
+Gibt dir die Möglichkeit Drittanbieter-Plugins für die beliebte Locale-App zu nutzen. Locale-Plugins sind bei Google Play erhältlich. Einige sind kostenlos, andere nicht. Llama garantiert NICHT, dass dies funktioniert!
+
+Aktuell gibt es ein Problem mit Plugins, die auf Locales Text und Symbolen aufbauen. Sie zeigen unter Umständen nicht richtig an, sollten aber trotzdem funktionieren. Die letzte Auswahlmöglichkeit im MENU-Button ist normalerweise sichern."</string>
+    <string name="hrLocalePluginConfigMessage">Bei einigen Plugins musst du Den Menu-Button drücken und dann den letzten Punkt auswählen, um zu speichern.</string>
+    <string name="hrRunLocalePlugin1Quotes2">"Ein Locale-Plugin starten '%1$s: %2$s'"</string>
+    <string name="hrChooseALocalePluginToRun">Ein Locale-Plugin zum Ausführen auswählen</string>
+    <string name="hrGettingLocaleActionPlugins">Suche nach Locale-Plugins</string>
+    <string name="hrInAppDonateBlurb">"Zeige deine Würdigung meiner Arbeit an Llama, indem du ein wenig Geld spendest. Du kannst so oft spenden, wie du willst. Wenn du eine Option wählst, wirst du zu Google Play weitergeleitet, um den endgültigen Preis zu sehen und den Vorgang abzuschließen.
+
+Dies sind nur einige Vorschläge, was ich kaufen könnte :) Danke!"</string>
+    <string name="hrInAppThanksForDonating">Du hast gespendet! Danke!</string>
+    <string name="hrYouCanHideTheDonateMenu">Du kannst das Spenden-Menü in den Einstellungen verbergen :)</string>
+    <string name="hrHideDonateMenuItem">Spenden-Menü verbergen</string>
+    <string name="hrHideDonateMenuItemDescription">Danke für deine Spende. Du kannst jetzt die Spenden-Option im Menü verbergen. Dann kannst du immer noch über den Llama?-Button spenden.</string>
+    <string name="hrRecheckDonation">Spenden-Status überprüfen</string>
+    <string name="hrWhen1ShowsANotification">Wenn %1s eine Benachrichtigung anzeigt</string>
+    <string name="hrChooseAnApp">Wähle eine Anwendung</string>
+    <string name="hrAppStatus">Status:</string>
+    <string name="hrConditionActiveApp">Aktive Anwendung</string>
+    <string name="hrConditionActiveAppDescription">Diese Bedingung ist erfüllt, wenn eine Anwendung im Vordergrund läuft oder wenn sie in den Hintergrund verschwindet. Dazu ist es nötig, dass Llama alle paar hundert Millisekunden bei deinem Android die aktuell laufende Anwendung abfragt. Dieses Intervall kann in den Einstellungen festgelegt werden.</string>
+    <string name="hrActiveAppWatcherMillis">Aktive Anwendungs-Abfrage in Millisekunden</string>
+    <string name="hrActiveAppWatcherMillisDescription">"Wenn du die 'Aktive Anwendung'-Bedingung nutzt, wird Llama die aktuell laufende Anwendung alle paar hundert Millisekunden abfragen. Kleinere Intervalle führen zu schnellerer Reaktion, könnten aber die Leistung des Handys beeinflussen. Ich empfehle einen Wert zwischen 200ms und 1s."</string>
+    <string name="hrMIUIVolumeChangeWarning">"Aktuelle Versionen von MIUI haben ein Genehmigungs-Management, das Llama davon abhält, die Anruf-Lautstärke zu ändern. Damit es funktioniert musst du folgendes tun:
+
+-Gehe in die Superuser-Anwendung
+-Suche nach Llamas Anwendungs-Details
+-Setze 'Anrufmonitor' auf erlauben
+
+Der Name ist missverständlich und sollte nichts mit der Anruf-Lautstärke zu tun haben. Leider ist es aber so. Grrr. Llama macht natürlich nichts böses, wie Anrufe mitzuschneiden oder so."</string>
+    <string name="hrNeverShowAgain">Nicht mehr zeigen</string>
+    <string name="hrThinkingDotDotDot">Denke nach...</string>
+    <string name="hrConditionGroupOr">ODER (irgendeines trifft zu)</string>
+    <string name="hrConditionGroupOrDescription">In dieser Bedingung kannst du eine Gruppe weiterer Bedingungen erstellen. Falls irgendeine der Bedingungen zutrifft, gilt die ganze Gruppe als zutreffend.</string>
+    <string name="hrConditionGroupAnd">UND (alle müssen zutreffen)</string>
+    <string name="hrConditionGroupAndDescription">"In dieser Bedingung kannst du eine Gruppe weiterer Bedingungen erstellen. Nur falls alle der Bedingungen zutreffen, gilt die ganze Gruppe als zutreffend. BEACHTE: Dies musst du nur nutzen, wenn du ein 'UND (alle müssen zutreffen)' innerhalb eines 'ODER (irgendeines trifft zu)' benötigst, denn Llama behandelt normalerweise alle Regeln als UND."</string>
+    <string name="hrAllowRetrigger">Erneutes Auslösen erlauben</string>
+    <string name="hrAllowRetriggerDescription">Legt fest, ob die Ereignisse der Regel erneut ausgeführt werden sollen, wenn eine andere der Bedingungen schon zutrifft.</string>
+    <string name="hrIcsNotificationUseRingVolumeWarning">"Ice Cream Sandwich (Android 4.0+) erlaubt leider keine unterschiedlichen Benachrichtigungs- und Klingelton-Lautstärken.
+
+Du solltest deine Profile dahingehend bearbeiten, dass sie dies nicht mehr tun, sonst könnte Llama denken, dass die Lautstärke geändert wurde und fälschlicherweise die Profilsperre aktivieren.
+
+Android 4.0 - ein Schritt vorwärts, ein anderer wieder zurück :("</string>
+    <string name="hrRingerChangeNoVolumeWarning">Llama erfordert es jetzt, dass du eine Lautstärke für den Klingelton oder die Benachrichtigungen festlegst, wenn du den Klingelmodus auf Klingeln oder Klingeln+Vibrieren stellst. Bitte passe deine Profile entsprechend an.</string>
+    <string name="hrIcsApn">Ice Cream Sandwich (Android 4.0+) erlaubt Drittanbieter-Anwendungen nicht mehr die APN-Einstellungen zu ändern.</string>
+    <string name="hrWhatShouldLlamaSay">Was soll Llama sagen:</string>
+    <string name="hrConditionCallState">Anrufstatus</string>
+    <string name="hrConditionCallStateDescription">"Diese Bedingung erlaubt dir, Regeln aufgrund des Anrufstatus zu erstellen; je nachdem, ob du gerade telefonierst oder nicht. Je nach Einstellung, trifft die Bedingung zu, wenn
+-du jemanden anrufst bzw. angerufen wirst
+-ein Telefonat endet."</string>
+    <string name="hrExtraTtsCleanup">Sprachausgaben-Aufräumungshack</string>
+    <string name="hrExtraTtsCleanupDescription">Legt fest, ob das Text-To-Speech-System etwas härter angestoßen wird, wenn die Sprachausgabe beendet ist. Aktiviere diese Einstellungen, wenn deine Musik nach einer Sprachausgabe nicht mehr läuft.</string>
+    <string name="hrExtraTtsCleanupText">Sprach-Hacktext</string>
+    <string name="hrExtraTtsCleanupTextDescription">"Der Text, der für den obigen Hack gesagt werden soll. Standardmäßig ist das ein Punkt, allerdings werden einige TTS-Programme tatsächlich 'Punkt' sagen. Versuch geschweifte Klammern oder einen senkrechten Strich:{}|"</string>
+    <string name="hrAudioStreamSpeakInfo">"Einige Audio-Streams (z.B. Klingelton und Benachrichtigung) spielt sowohl der Lautsprecher als auch einen eventuell verbundenen Kopfhörer ab. Musik/Medien dagegen werden nur über den Kopfhörer abgespielt.
+
+Falls du den Klingelton/Benachrichtigungs-Stream wählst, kann es vorkommen, dass deine Musik aufhört zu spielen. Falls das der Fall sein sollte, aktiviere 'Sprachausgaben-Aufräumungshack' in den Einstellungen. Dies betrifft nur einige Kombinationen von Handy und TTS-System (Text-To-Speech)."</string>
+    <string name="hrEnterSomeTextToSpeak">Was soll Llama sagen?</string>
+    <string name="hrBilling_cannot_connect_message">In-App-Billing ist auf deinem Handy oder deiner Market-Version nicht verfügbar.</string>
+    <string name="hrBilling_billing_not_available">In-App-Billing ist im Moment nicht verfügbar. Bitte versuche es später erneut.</string>
+    <string name="hrBilling_learn_more">Erfahre mehr</string>
+    <string name="hrAdvancedRotationWarning">"Dies funktioniert nur auf Handys mit Custom-ROMs, die spezielle Rotationswinkel ermöglichen, wie z.B. Cyanogenmod 7.
+
+Vermeide es, normale mit speziellen Rotations-Ereignissen zu vermischen. Nutze 0° und 90°, um zum Standard zurückzukehren.
+
+Je nach ROM schaltet die Rotation nicht immer sofort um."</string>
+    <string name="hrWhenTheCurrentAppIs1">Wenn die aktuelle Anwendung %1s ist</string>
+    <string name="hrWhenTheCurrentAppIsNot1">Wenn die aktuelle Anwendung nicht %1s ist</string>
+    <string name="hrAndThen">und dann</string>
+    <string name="hrEvery1minutes">alle %1s</string>
+    <string name="hrIcsHiddenNotificationIcon">Dein Llama zeigt eine andauernde Benachrichtigung, allerdings ohne ein Icon. Eigentlich lässt Android dies nicht zu. Vor Ice Cream Sandwich war es Apps möglich ein durchsichtiges Icon zu nutzen und das Datum des Icons in die Zukunft zu setzen. So konnte man es nach ganz rechts verschieben. Das ist leider nicht mehr möglich. Bitte ändere die Benachrichtigungseinstellungen deines Llamas zu einem anderen Modus.</string>
+    <string name="hrChangeIconIfVolumeChanges">Icon ändern, wenn Lautstärke sich ändert</string>
+    <string name="hrChangeIconIfVolumeChangesDescription">Legt fest, ob das Benachrichtigungs-Icon zu einem Warnungs-Icon werden soll, wenn du die Lautstärke änderst.</string>
+    <string name="hrUnknownProfile">Unbekanntes Profil</string>
+    <string name="hrFailedToWriteToLocationLog">Fehler beim Schreiben des Llama-Pfades</string>
+    <string name="hrLlamaTrailSettings">Llama-Pfad-Einstellungen</string>
+    <string name="hrLlamaTrail">Llama-Pfad aufzeichnen</string>
+    <string name="hrLlamaTrailDescription">Sollen alle Zellen, die dein Llama jemals sieht aufgezeichnet werden, damit du deinen Weg nachvollziehen kannst, z.B. für Stundennachweise.</string>
+    <string name="hrLlamaTrailToSdCard">Auf SD-Karte speichern</string>
+    <string name="hrLlamaTrailToSdCardDescription">Legt fest, ob die Pfad-Dateien auf der SD-Karte oder auf dem Handy gespeichert werden. Beachte, dass die Speicherung auf der SD-Karte Probleme hervorrufen kann, wenn du regelmäßig den USB-Mass-Storage-Modus nutzt.</string>
+    <string name="hrConditionScreenRotation">Bildschirmrotation (aktuelle App)</string>
+    <string name="hrConditionScreenRotationDescription">"Diese Bedingung löst Ereignisse aus, wenn der Bildschirm rotiert. Vor Android 2.2 kann es hier Probleme geben, weil dort nur Portrait- und Landschafts-Modus unterschieden werden, allerdings gibt es nur noch 1300 von euch da draußen auf 2.1.
+
+Es funktioniert nur, wenn der Bildschirm eingeschaltet ist und wenn die aktuelle Anwendung Rotation unterstützt, weil sonst die Sensoren nicht abgefragt werden, um Strom zu sparen."</string>
+    <string name="hrWhenScreenIsRotated1">Wenn die Rotation auf %1s steht</string>
+    <string name="hrEditArea">Gebiet bearbeiten</string>
+    <string name="hrRingtonePickerFailedToOpen">Der Klingenton-Wähler konnte nicht richtig geöffnet werden. Vielleicht unterstützt dein Handy diesen Typ von Klingelton-Wähler nicht :(</string>
+    <string name="hrRingtonePickerPickedSilent">"Du hast 'Lautlos' als Klingelton gewählt. Natürlich kann man einen lautlosen Ton nicht abspielen, du wirst also einen anderen wählen müssen.
+
+Vielleicht fragst du dich, warum ich dir überhaupt die Auswahlmöglichkeit für 'Lautlos' gebe...bedankt euch bei Samsung dafür. Der Galaxy S Klingelton-Wähler hängt sich auf, wenn ich 'Lautlos' verstecken möchte.
+http://stackoverflow.com/q/5874372/
+
+Auf 3...1, 2, 3... Danke Samsung! *begeistertes Schreien und Applaus*"</string>
+    <string name="hrApps2SdWarning">"Llama wurde auf deiner SD-Karte installiert. Das kann daran liegen, dass dein interner Speicher voll ist oder dass du Llama selbst dorthin verschoben hast.
+
+Llama muss als Dienst im Hintergrund laufen. Wenn du ein USB-Kabel anschließt und den Massenspeicher-Modus benutzt, wird Llama beendet und kann dann keine Bedingungen mehr überprüfen oder Ereignisse auslösen.
+
+Wenn der Massenspeicher-Modus beendet wird, wird Llama irgendwann wieder starten. Diesen Prozess kannst du beschleunigen, indem du den Bildschirm ausschaltest.
+
+Wenn der Speicher es zulässt, wäre es ideal, wenn Llama auf dem internen Speicher installiert wäre. Ändere dies, indem du Llama in den Anwendungs-Einstellungen von Android suchst."</string>
+    <string name="hrViewLlamaAppInfo">Anwendungsinfo</string>
+    <string name="hrWhenTheNextAlarmIsDue1">Wenn der nächste Wecker klingelt (%1s)</string>
+    <string name="hrConditionNextAlarm">Weckzeit</string>
+    <string name="hrConditionNextAlarmDescription">Diese Bedingung trifft zu, wenn der nächste Wecker ausgelöst wird. Es funktioniert aber nur mit der Standard-Android-Anwendung und mit Weckern, die NEXT_ALARM_FORMATTED-Einstellung korrekt aktualisieren.</string>
+    <string name="hrWhenTheresNoAlarmSet">Wenn kein Wecker gestellt ist</string>
+    <string name="hrTheNextAlarmIs1AndHeresHowYouUseIt">"Der nächste Wecker ist für
+
+%1s
+
+gestellt. Du kannst diese Bedingung entweder auslösen, wenn dieser Wecker klingelt oder wenn kein Wecker gestellt ist.
+
+z.B.
+Wenn der nächste Wecker klingelt > zeige Erinnerung
+
+-oder-
+
+Zwischen 21:00 und 21:05, wenn kein Wecker gestellt ist > vibriere lang"</string>
+    <string name="hrTriggerWhenAlarmIsDue">Auslösern, wenn Wecker klingelt</string>
+    <string name="hrTrueWhenNoAlarm">Trifft zu, wenn kein Wecker</string>
+    <string name="hrEventGroupOptional">Ereignisgruppe (optional)</string>
+    <string name="hrNoGroupString">In keiner Gruppe</string>
+    <string name="hrEventsNowGroupedEditEventNamesToGroup">Regel-Liste nach Gruppen sortiert. Bearbeite Regeln, um Gruppen zu erstellen.</string>
+    <string name="hrEventsNotGrouped">Regel-Liste nicht mehr nach Gruppen sortiert</string>
+    <string name="hrFilterViewSearch">Filtern, Listentyp und Suche</string>
+    <string name="hrWhenUserIsPresent">Wenn der Nutzer da ist</string>
+    <string name="hrConditionUserPresent">Nutzer ist da</string>
+    <string name="hrConditionUserPresentDescription">Löst aus, wenn die Bildschirmsperre entriegelt wurde. Wenn es keine Sperre gibt, wird sofort ausgelöst.</string>
+    <string name="hrWhenCallStateIs1">Wenn Anrufstatus %1s ist</string>
+    <string name="hrCallStateInCall">in einem Telefonat</string>
+    <string name="hrCallStateNotInCall">nicht in einem Telefonat</string>
+    <string name="hrCallStateRinging">klingelt</string>
+    <string name="hrPleaseChooseOneOrTwoCallStates">Bitte wähle EINEN oder ZWEI Anrufstati</string>
+    <string name="hrDontCheckVolumeInCall">Lautstärkeänderung während Gesprächen ignorieren</string>
+    <string name="hrDontCheckVolumeInCallDescription">"Einige Handys sind etwas ungeschickt und melden die Lautstärke nicht richtig an das System, wenn du in einem Telefonat bist. Das kann dazu führen, dass Llama denkt, die Lautstärke habe sich geändert, wenn das gar nicht der Fall ist. Falls Llama fälschlicherweise während eines Anrufes die Profile sperrt oder zu 'unbekanntes Profil' wechselt, aktiviere 'Lautstärkeänderung während Gesprächen ignorieren'."</string>
+    <string name="hrTheAction1CannotBeRunFromACustomShortcut">"Das Ereignis '%1s' kann nicht über einen SPEZIELLEN Schnellzugriff ausgelöst werden. Aus Sicherheitsgründen musst du eine eigene Regel dafür anlegen und einen BENANNTEN Schnellzugriff erstellen."</string>
+    <string name="hrLlamaTonePicker">LlamaTon-Wähler</string>
+    <string name="hrLlamaTones">LlamaTöne</string>
+    <string name="hrLlamaTonesDescription">LlamaTöne kann die Benachrichtigungstöne anderer Anwendungen ändern, wenn du Profile wechselst.</string>
+    <string name="hrLlamaTonesDetailedDescription">"LlamaTöne ändert den Klingelton einer anderen Anwendung beim Wechseln des Profils.
+
+Erstelle in einem deiner Profile einen LlamaTon und gib ihm einen sinnvollen Namen, wie z.B. Gmail. Dann kannst du den Ton auswählen, der bei diesem Profil von Gmail als Benachrichtigung gespielt werden soll.
+
+Dann solltest du in deinen anderen Profilen mittels LlamaTöne festlegen, welcher Ton dort für Gmail abgespielt werden soll.
+
+Zum Schluss musst du Gmail noch erklären, welchen LlamaTon es abspielen muss. Dies machst du in den Benachrichtigungseinstellungen von Gmail. Dort kannst du 'LlamaTöne' als Klingelton-Anwendung auswählen. Nachdem du LlamaTöne ausgewählt hast, kannst du dann den entsprechenden LlamaTon wählen."</string>
+    <string name="hrCreateNewLlamaTone">Neuen LlamaTon erstellen</string>
+    <string name="hrTapToCreateANewLlamaTone">Hier klicken, um neuen LlamaTon zu benennen</string>
+    <string name="hrPleaseEnterNameForTheLlamaTone">Bitte den neuen LlamaTon benennen:</string>
+    <string name="hrALlamaToneNamed1AlreadyExists">Ein LlamaTon namens %1s existiert bereits. Wähle bitte einen anderen Namen oder nutze den existierenden LlamaTon.</string>
+    <string name="hrCurrentlySetTo1">Aktuell gestellt auf %1s</string>
+    <string name="hr3rdPartyActionCrumb">Ereignis</string>
+    <string name="hrYouHaventSetUpAnyLlamaTones">"Du hast noch keine LlamaTöne festgelegt. Bearbeite eines deiner Profile, um LlamaTöne zu benutzen.
+
+LlamaTöne gibt dir die Möglichkeit, den Benachrichtigungston einer beliebigen Anwendung je nach Profil festzulegen."</string>
+    <string name="hrDontChange">LlamaTon nicht ändern</string>
+    <string name="hrCopyLlamaTonesToProfile">Wähle ein anderes Profil, das diese LlamaTöne nutzen soll</string>
+    <string name="hrCopyTo">Kopieren nach...</string>
+    <string name="hrCopyToSelected">In ausgewählte kopieren</string>
+    <string name="hrExportSuccess">Datenexport erfolgreich</string>
+    <string name="hrDataNotExported">Daten wurden NICHT exportiert!</string>
+    <string name="hrWhichTypeOfToneIsLlamaTone">Wähle eine Klingelton-Art oder belasse diesen LlamaTon</string>
+    <string name="hrLlamaCouldntFindAnyRingtonePickers">"Llama konnte keine Klingelton-Wähler finden.
+
+VORGANG ABGEBROCHEN!!!"</string>
+    <string name="hrChooseARingtonePicker">Wähle einen Klingelton-Wähler</string>
+    <string name="hrClearCancelLlamaTone">LlamaTon belassen</string>
+    <string name="hrCantSelectLlamaToneAsLlamaTone">"Du kannst keinen LlamaTon als LlamaTon auswählen.
+
+Das ließe das Universum implodieren."</string>
+    <string name="hrWhichProfiles">Welche Profile?</string>
+    <string name="hrMoanToGoogle">Beschwer dich bei Google</string>
+    <string name="hrLeaveSettingsAlone">Lassen</string>
+    <string name="hrMakeSettingsTheSame">Angleichen</string>
+    <string name="hrWhenWifiHotspotIsEnabled">Wenn Tethering (mobiler Hotspot) eingeschaltet ist</string>
+    <string name="hrWhenWifiHotspotIsDisabled">Wenn Tethering (mobiler Hotspot) ausgeschaltet ist</string>
+    <string name="hrConditionWifiHotspot">Tethering (mobiler Hotspot)</string>
+    <string name="hrConditionWifiHotspotDescription">Ist Tethering aktiv oder nicht. Diese Bedingung löst KEINE Ereignisse aus! Sie dient nur als Filter für andere Bedingungen.</string>
+    <string name="hrEnableAll">Alle aktivieren</string>
+    <string name="hrDisableAll">Alle deaktivieren</string>
+    <string name="hrRenameGroup">Gruppe umbenennen</string>
+    <string name="hrPleaseEnterANewGroupName">Bitte gib einen neuen Gruppennamen ein:</string>
+    <string name="hrBrightnessCustomEventWarning">Helligkeit kann nicht mit einem speziellen Schnellzugriff so niedrig eingestellt werden. Erstelle stattdessen ein Event und einen benannten Schnellzugriff! Nur zur Sicherheit!</string>
+    <string name="hrRootedShutdownCommand">Root-Shutdown-Kommando</string>
+    <string name="hrRootedShutdownCommandDescription">Das Kommando, das Llama nutzt, um dein Handy auszuschalten. Versuch ein anderes, wenn du Root-Zugriff hast und das Handy nicht herunterfährt.</string>
+    <string name="hrRootedRebootCommand">Root-Neustart-Kommando</string>
+    <string name="hrRootedRebootCommandDescription">Das Kommando, das Llama benutzt, um das Handy neuzustarten. Versuch ein anderes, wenn du Root-Zugriff hast und dein Handy nicht neustartet.</string>
+    <string name="hrNearbyWifiDisableForHotSpot">Tetheringfreundlich sein</string>
+    <string name="hrNearbyWifiDisableForHotSpotDescription">Legt fest, ob Llama jegliche WLAN-Abfrage stoppen soll, wenn Tethering (mobiler Hotspot) eingeschaltet ist. Das funktioniert allerdings nur bei Handys, die die normale Androidfunktion dafür nutzen.</string>
+    <string name="hrWhatEventDescriptionsShouldIShow">Welche Regel-Beschreibungen soll ich dir zeigen?</string>
+    <string name="hrIcsRingerNotificationVolumeMessage">Ice Cream Sandwich erlaubt nicht mehr unterschiedliche Lautstärken für Klingeln und Benachrichtigungen festzulegen. Was willste machen?</string>
+    <string name="hrDeviceAdminWarning">"Du musst Llama als Geräte-Administrator einstellen, um gewisse sicherheitsbezogene Android-Funktionen ausführen zu können. Wenn du Llama deinstallieren möchtest, musst du Llama den Geräte-Administrator-Status wieder ENTZIEHEN. Du findest diese Funktion in Androids Sicherheits-Einstellungen.
+
+Ansonsten siehst du bei der Deinstallation eine extrem nutzlose 'Deinstallation nicht erfolgreich'-Nachricht.
+
+Danke für's dran denken :)"</string>
+    <string name="hrInstantConfirmation">Sofortige Regel-Bestätigung</string>
+    <string name="hrInstantConfirmationDescription">"Wenn aktiviert, wird Llama die zu bestätigende Regel sofort bei Berühren der Benachrichtigung aktivieren, ohne dass ein Dialog-Fenster erscheint. Um die Benachrichtigung zu entfernen, musst du den 'Löschen'-Button drücken oder die Benachrichtigung zur Seite swipen."</string>
+    <string name="hrWhenNfcTag1IsDectected">Wenn der NFC-Tag mit Namen %1s erkannt wird</string>
+    <string name="hrPleaseChooseAnNfcTag">Wähle bitte einen NFC-Tag</string>
+    <string name="hrConditionNfcTagDetected">NFC-Tag erkannt</string>
+    <string name="hrConditionNfcTagDetectedDescription">"Diese Bedingung trifft zu, wenn der ausgewählte NFC-Tag von deinem Handy erkannt wird. Dafür muss NFC in deinem Handy aktiviert sein (was Llama leider nicht kontrollieren kann).
+
+Llama erfährt allerdings nicht, ob der NFC-Tag nach dem Auslösen immer noch in der Nähe ist oder nicht, sodass die Bedingung erst wieder zutrifft, wenn du den Tag entfernst und erneut an dein Handy hältst.
+
+Wenn du eine andauernde Regel erstellen willst, wirst du die Tatsache, dass der NFC-Tag erkannt wurde in einer Llama-Variablen speichern müssen, und diese dann in einer anderen Bedingung oder Regel wieder löschen."</string>
+    <string name="hrDoYouWantToUseTheTag1InThisCondition">"Möchtest du den NFC-Tag '%1s' in dieser Bedingung benutzen?"</string>
+    <string name="hrLlamaHasFoundATagPleaseNameIt">Llama hat einen Tag gefunden! Gib ihm einen persönlichen Namen:</string>
+    <string name="hrTheFriendlyNameForNfcTag1WasModified">"Der persönliche Name für den NFC-Tag '%1s' wurde verändert"</string>
+    <string name="hrLlamaDoesNotKnowAboutAnyNfcTagsTapOneOnYourPhone">"Llama kennt noch keine NFC-Tags.
+
+Halte jetzt einen an dein Handy, um ihn zu benennen."</string>
+    <string name="hrYourPhoneDoesNotSupportNfc">Dein Handy unterstützt leider kein NFC :( Um das zu beheben, kaufe dir bitte ein neues Handy oder nutze deine Einbildung ... vielleicht hilft es auch Piep-Geräusche zu machen.</string>
+    <string name="hrChooseAnNfcTagOrTapYourPhoneAgainstANewTag">Wähle einen bekannten NFC-Tag</string>
+    <string name="hrYouCanAlsoUseAnotherTagByTappingItOnYourPhone">Du kannst auch einen anderen Tag nutzen, wenn du ihn an dein Handy hältst</string>
+    <string name="hrNfcIsNotCurrentlyTurnedOnTurnItOnToAddTags">NFC ist zur Zeit ausgeschaltet. Schalte es ein, um einen neuen Tag hinzuzufügen</string>
+    <string name="hrPleaseSeeTheKebabappsWebsiteToDonateToTranslators">Besuche bitte die Kebabapps-Website, um direkt an die Übersetzer zu spenden!</string>
+    <string name="hrLocalLanguageName">Deutsch</string>
+    <string name="hrPlaySoundNotificationIcon">Sound-Benachrichtigung abspielen</string>
+    <string name="hrPlaySoundNotificationIconDescription">Legt fest, ob ein Benachrichtigungs-Icon angezeigt werden soll, wenn Llamas Sound-Benachrichtigungsfeature läuft. Wenn du dies ausschaltest, kannst du den Sound, den Llama abspielt nicht beenden!</string>
+    <string name="hrConditionRoaming">Roaming</string>
+    <string name="hrConditionRoamingDescription">Diese Bedingung löst aus, wenn dein Handy mit dem Roaming startet oder endet.</string>
+    <string name="hrNotRoaming">Kein Roaming</string>
+    <string name="hrRoaming">Roaming</string>
+    <string name="hrWhenRoaming">Beim Roaming</string>
+    <string name="hrWhenNotRoaming">Beim Nicht-Roaming</string>
+    <string name="hrManageSavedNfcTags">NFC-Tags verwalten</string>
+    <string name="hrManageSavedNfcTagsDescription">Drücke hier um die NFC-Tags zu verwalten, die du benannt hast.</string>
+    <string name="hrDeleteTag">Tag löschen</string>
+    <string name="hrWatchForNfcTags">NFC-Tag-Erkennung aktivieren</string>
+    <string name="hrWatchForNfcTagsDescription">Legt fest, ob Llama sich um NFC-Tags kümmern soll oder nicht. Wenn du NFC-Tags von einer anderen App erkennen lässt, solltest du das Häkchen entfernen. Diese Einstellung beeinflusst nicht die globale NFC-Aktivierung deines Handys.</string>
+    <string name="hrCancelTagReading">Nicht mehr nach NFC-Tags suchen</string>
+    <string name="hrFailedToDecodeIntentInEvent1">"Fehler beim dekodieren des Intents in der Regel '%1s'"</string>
+    <string name="hrShareEvent">Regel teilen</string>
+    <string name="hrShareLlamaEvent">Llama-Regel teilen</string>
+    <string name="hrConditionMobileData">Mobildaten de-/aktiviert</string>
+    <string name="hrConditionMobileDataDescription">"Diese Bedingung trifft zu, wenn das Häkchen bei Mobildaten gesetzt ist, ansonsten nicht. Das basiert allerdings auf einer nicht dokumentierten Android-API. ES FUNKTIONIERT NICHT UNBEDINGT auf allen Handys.
+
+Fragt freundlich bei Google nach, wenn ihr diese Funktion nutzen wollt, dann implementieren sie vielleicht eine richtige API.
+
+Die Bedingung löst etwas verzögert aus, da zunächst irgendeine Mobildaten-Aktion ausgeführt werden muss."</string>
+    <string name="hrWhenMobileDataEnabled">Wenn Mobildaten aktiviert sind</string>
+    <string name="hrWhenMobileDataDisabled">Wenn Mobildaten deaktiviert sind</string>
+    <string name="hrMobileDataEnabled">Mobildaten aktiviert</string>
+    <string name="hrMobileDataDisabled">Mobildaten deaktiviert</string>
+    <string name="hrConditionMobileDataConnected">Mobildaten-Verbindung</string>
+    <string name="hrConditionMobileDataConnectedDescription">Diese Bedingung trifft zu, wenn das Handy mit einem Mobildaten-Netzwerk verbunden ist (also G, E, 3G oder H). Vielleicht funktioniert es auch mit LTE/WiMax, aber ich weiß nicht, wie diese sich verhalten, da das UK im Mittelalter feststeckt. Die Ratten bevölkern die Straßen und die TV-Shows der 80er werden immer noch wiederholt.</string>
+    <string name="hrWhenMobileDataConnected">Wenn Mobildaten verbunden sind</string>
+    <string name="hrWhenMobileDataNotConnected">Wenn Mobildaten nicht verbunden sind</string>
+    <string name="hrMobileDataConnected">Mobildaten verbunden</string>
+    <string name="hrMobileDataNotConnected">Mobildaten nicht verbunden</string>
+    <string name="hrLlamaToneRateLimitHint">"LlamaTon-Abspielbeschränkung:
+Nutze den Slider, um die maximale Abspielhäufigkeit eines LlamaTones festzulegen. Nützlich für GTalk und andere IM-Apps."</string>
+    <string name="hrRateLimit1SecondsSilence">%1s Sekunden Stille</string>
+    <string name="hrNoRateLimiting">Kein Abspiel-Limit</string>
+    <string name="hrNowPickALlameTone">Wähle einen LlamaTon</string>
+    <string name="hrSocialImportWarning">Du bist dabei eine Regel in Llama zu importieren. Du solltest sicherstellen, dass sie nichts böses anstellt.</string>
+    <string name="hrTheChoiceIsYours">Die Wahl ist dein...</string>
+    <string name="hrImportLlamaEvent">Llama-Regel importieren</string>
+    <string name="hrAddToLlama">Zu Llama hinzufügen</string>
+    <string name="hrEventImported">Importiert</string>
+    <string name="hrRingtoneChangeError1">"Llama konnte den Klingelton für das Profil '%1s' nicht ändern. Bitte wähle den Klingelton erneut aus."</string>
+    <string name="hrLlamaFormatterInfo">"Dieser Bildschirm ermöglicht dir einen NFC-Tag für die Nutzung mit Llama zu formatieren.
+
+Das ist nötig, damit der Tag verlässlich von Llama erkannt wird, anstatt dass die Nachricht 'Tag gefunden' erscheint.
+
+Halte den Tag jetzt an dein Handy, um ihn zu formatieren. Damit werden alle Daten des Tags gelöscht. Der Tag wird NICHT als read-only markiert.
+
+Ein Mal formatiert, kannst du den Tag in der Bedingung nutzen. Wenn Llama den Tag noch nicht kennt, musst du ihm außerdem einen Namen geben."</string>
+    <string name="hrKey">Schlüssel</string>
+    <string name="hrValue">Wert</string>
+    <string name="hrCouldNotConvertExtra3">"'%2$s' konnte für '%1$s' nicht in '%3$s' umgewandelt werden"</string>
+    <string name="hrIntentEditSetKeyBlankToDelete2">"Ändere den 'key' zu leer, um die Reihe zu entfernen. Umgebe Variablennamen mit zwei Rauten, um sie im String-'Extra' mitzuschicken."</string>
+    <string name="hrAirplaneModeStupidness">Android hat sich überlegt, dass der Flugmodus eine gesicherte Einstellung sein sollte. Llama kann den Flugmodus nur ändern, wenn dein Handy gerooted ist. Google ist schuld daran. Böses Google! Hört auf, Dinge ins schlechtere zu ändern, ohne Alternativen zu bieten.</string>
+    <string name="hrResolveContentUris">Ton abspielen löst Inhalts-URIs auf</string>
+    <string name="hrResolveContentUrisDescription">"Klingelton-Wähler geben in Android normalerweise eine 'content://'-URI zurück, die auf eine ID in der Datenbank verweisen. Wenn du Llama auf ein anderes Handy überträgst oder die ROM wechselst, bekommt die Datei womöglich nicht die gleiche ID zugewiesen. Wenn du diese Option aktivierst wird Llama für das Ton-abspielen-Ereignis und LlamaTöne den Dateipfad speichern."</string>
+    <string name="hrAdvancedVariableActions">erhöhen/verringern/etc</string>
+    <string name="hrSetLlamaVariableIncrement1">"Llama-Variable '%1$s' erhöhen"</string>
+    <string name="hrSetLlamaVariableDecrement1">"Llama-Variable '%1$s' verringern"</string>
+    <string name="hrSetLlamaVariableToggle01">"Llama-Variable '%1$s' zwischen 0 und 1 umschalten"</string>
+    <string name="hrAdvancedVariableConditions">Größer als/kleiner als/etc</string>
+    <string name="hrIcsSystemVolumeMessage">"In Ice Cream Sandwich (Version 4.0+) passiert nicht mehr wirklich viel mit System-Lautstärken.
+
+Tatsächlich wirst du feststellen, dass die System-Lautstärke mit der Klingel-Lautstärke, die du eingestellt hast gleichgesetzt wird.
+
+WAHRSCHEINLICH willst du daher das Häkchen für die System-Lautstärke ENTFERNEN.
+
+Wähle Speichern, wenn dieses Profil die System-Lautstärke ändern soll oder Abbrechen, wenn du das Profil bearbeiten willst."</string>
+    <string name="hrSignalLevelAbove1">Signalstärke über %1sdBm</string>
+    <string name="hrSignalLevelBelow1">Signalstärke unter %1sdBm</string>
+    <string name="hrWhenSignalGoesBelow1">wenn die Signalstärke unter %1sdBm fällt</string>
+    <string name="hrWhenSignalRisesAbove1">wenn die Signalstärke über %1sdBm steigt</string>
+    <string name="hrCurrentStrengthColon1">Aktuelle Signalstärke: %1sdBm</string>
+    <string name="hrSignalStrengthDialogHint">"Die obere Zahl gibt die aktuelle Signalstärke wieder. GSM-Netze nutzen einen Bereich zwischen -113 (kein Signal) und -51 (volles Signal).
+
+Llama wird einen künstlichen Wert von -150 ausgeben, wenn dein Handy im Flugzeug-Modus ist oder keine Verbindung hat. Da einige Handys total beknackt sind, kann es vorkommen, dass sie ein tolles Signal melden, obwohl du tief in der Erde in der U-Bahn sitzt.
+
+Daher könnte es sinnvoll sein eine Schlechtes-Signal-Bedingung mit einer Keine-Mobildaten-Verbindung-Bedingung zu verbinden, um eine verlässlichere Aussage über eine funktionierende Verbindung treffen zu können."</string>
+    <string name="hrVisitWebsite">Website besuchen</string>
+    <string name="hrBrokenWifiToggleUpdateDeviceStats">"Die Software deine Handys/Tablets hat einen fürchterlichen Fehler, der Llama daran hindert WLAN ein- und auszuschalten.
+
+Das Problem ist auf code.google.com schon gelistet.
+
+Sieh nach, ob es eventuell Updates für dein Handy oder deine Custom-ROM gibt.
+
+In der Zwischenzeit solltest du alle WLAN-Umschalten-Ereignisse entfernen oder die Nachricht künftig nicht mehr anzeigen. Außerdem kann es helfen, wenn du das Problem auf code.google.com beobachtest, indem du auf 'Website besuchen' klickst."</string>
+    <string name="hrCouldNotResolveContentUri">Dateipfad konnte nicht aufgelöst werden, es wird daher als URI gespeichert.</string>
+    <string name="hrLlamaCouldNotGetRootAccess">Llama hat den root-Zugriff nicht rechtzeitig erhalten. Bitte kontrolliere deine SU-Anwendung.</string>
+    <string name="hrAddNewArea">Neues Gebiet hinzufügen</string>
+    <string name="hrAddNewEvent">Neue Regel hinzufügen</string>
+    <string name="hrSearchEventsByNameAndDescription">Regeln nach Name und Beschreibung durchsuchen</string>
+    <string name="hrShowEventsGroupedOrFlat">Regeln in Gruppen oder als Liste anzeigen</string>
+    <string name="hrAddNewProfile">Neues Profil hinzufügen</string>
+    <string name="hrProfileLock">Profile sperren</string>
+    <string name="hrProfileUnlock">Profile entsperren</string>
+    <string name="hrShowHelpMenu">Hilfe-Menü anzeigen</string>
+    <string name="permSetLlamaVariable">Eine Llama-Variable setzen</string>
+    <string name="permSetLlamaVariableDescription">Erlaubt es der Anwendung eine Llama-Variable zu setzen. Dies könnte dazu führen, dass Regeln, die Llama-Variablen nutzen unerwarteterweise ausgelöst werden.</string>
+    <string name="hrBrokenWifiToggleMultiuser">"Argh! Llama wäre beim Umschalten deines WLAN fast gestürzt. Eventuell hat es sogar geklappt, jedenfalls hat dein Handy Llama gerade fast beendet.
+
+Dein Handy/Tablet verlangt, dass Llama die 'android.permission.INTERACT_ACROSS_USERS_FULL'- oder die 'android.permission.INTERACT_ACROSS_USERS'-Berechtigung hat, um WLAN umzuschalten
+
+Das sind allerdings System-Berechtigungen, die Llama niemals wird haben können :'( Bitte prüfe, ob es Aktualisierungen für dein Gerät/deine ROM gibt."</string>
+    <string name="hrWhenMccMncIs12">wenn der Netzwerkcode %1$s:%2$s ist</string>
+    <string name="hrWhenMccMncIsNot12">wenn der Netzwerkcode nicht %1$s:%2$s ist</string>
+    <string name="hrConditionMobileNetworkId">Mobil-Netzwerk-ID</string>
+    <string name="hrConditionMobileNetworkIdDescription">Diese Bedingung baut auf der aktuellen Mobil-Netzwerk-ID auf. Diese besteht auf zwei Teilen: einem Ländercode und einem Netzwerkcode. Sieh im Letzte-Tab nach, um die aktuellen Länder- und Netzwerkcodes zu überprüfen oder guck auf Wikipedia.</string>
+    <string name="hrMccMncHelpText">Diese Bedingung nutzt die aktuelle Mobil-Netzwerk-ID. MCC ist der Ländercode und MNC der Netzwerkcode. Wenn du ein Feld leer lässt, trifft jeder Wert zu.</string>
+    <string name="hrAllowedTriggers">Auslöse-Filter</string>
+    <string name="hrAllowedTriggersDescription">Llama löst eine Regel aus, wenn alle Bedingungen zutreffen, wobei eine Bedingung die Regel letztendlich auslöst. Diese Option gibt dir die Möglichkeit zu verhindern, dass eine bestimmte Bedingung die Regel auslöst. Entferne das Häkchen bei einer Bedingung, um diese vom Auslösen auszuschließen.</string>
+    <string name="hrEventFilteringPleaseAddSomeConditions">Bitte füge einige Bedingungen zu deiner Regel hinzu. Sobald du das getan hast, kannst du auch welche vom Auslösen der Regeln ausschließen.</string>
+    <string name="hrNfcFormatSuccess">Tag erfolgreich als Llama-Tag formatiert! Du kannst entweder noch einen formatieren oder nur diesen nutzen.</string>
+    <string name="hrFormatFailHelp">"Tag-Formatierung für Llama fehlgeschlagen.
+
+Du kannst versuchen den Tag manuell zu formatieren, indem du einen NFC-Tag-Writer aus dem Play-Store lädst und dann diese spezielle Llama-URL auf den Tag schreibst:
+
+%1s"</string>
+</resources>

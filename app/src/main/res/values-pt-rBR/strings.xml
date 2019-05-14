@@ -1,0 +1,1382 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">LLama</string>
+    <string name="hrChoosePreset">Ajusta o seu SmartPhone pelas antenas de celular</string>
+    <string name="hrTapRhythm">Toque ritmo</string>
+    <string name="hrTest">Teste</string>
+    <string name="hrReset">Resetar</string>
+    <string name="hrVibrateDialogMessage">Escolha um ritmo predefinido - Toque em um padrão ritmico(use um pradrão como exemplo)</string>
+    <string name="hrCalendarEventDialogMessage">"Esta condição é com base nos nomes de eventos em seus calendários. Você pode escolher entre o início de um evento de calendário ou o fim de um calendário de eventos.
+
+Se parte do nome do evento coincide com o texto, em seguida, a condição é executada, por exemplo, se você colocar reunião na caixa, os eventos denominados 'Reunião de trabalho e 'reuniões chatas' irá disparar o evento."</string>
+    <string name="hrNotificationTitle">Llama</string>
+    <string name="hrIntroText">"Eu sou Llama. Seu próprio App de Localização Mobile. Eu uso antenas de telefonia para descobrir onde você está, para eu não gastar sua bateria tentando encontrar um sinal de GPS. Vou precisar de algum treinamento para começar. Você precisa me dizer onde eu estou agora. Toque na aba Áreas para começar.
+
+If Se você me achar útil, por favor doe pressionando Menu, em seguida, Doar.
+
+Por favor envie um e-mail para kebabapps@gmail.com"</string>
+    <string name="hrCommonTip1">Você precisa treinar seu Llama para identificar suas áreas favoritas</string>
+    <string name="hrCommonTip2">A velocidade em solo de um Lama sem carga pode chegar a 45 kmh</string>
+    <string name="hrCommonTip3">Llama llama pato!</string>
+    <string name="hrCommonTip4">Não relacionadas com o Dalai Lama</string>
+    <string name="hrCommonTip5">LLama é como um aplicativo ciente de sua localização</string>
+    <string name="hrCommonTip6">Llamas são como camelos, mas muito mais incríveis</string>
+    <string name="hrAreasTip1">Se antenas de telefonia não são precisas o suficiente para determinar a sua localização, tente usar as outras opções em ambientes experimentais</string>
+    <string name="hrAreasTip2">Pressione longamente uma área para começar a ensinar Llama sobre onde você está</string>
+    <string name="hrEventsTip1">Você pode ver os eventos que já ocorreram, pressionando o botão história</string>
+    <string name="hrEventsTip2">Você pode ver o que executou um evento pressionando o botão de história</string>
+    <string name="hrProfilesTip1">Se você estiver indo para uma reunião, você pode evitar que o Llama mude seu perfil usando o botão do cadeado</string>
+    <string name="hrProfilesTip2">Você pode pressionar longamente um perfil para ativar e bloqueá-lo</string>
+    <string name="hrProfilesTip3">Procure nas configurações para certificar-se que Lama não reseta o volume, se você usar os botões de volume</string>
+    <string name="hrRecentTip1">"Se você ver 'Não adicionado a nenhuma área' entre suas outras áreas, toque na célula para ensinar Llama a qual área a célula pertence"</string>
+    <string name="hrHelpAreas">"Este guia mostra quais áreas você treinou sua Llama identificar. Llama começa com duas áreas: em casa e no trabalho. No entanto, Llama não sabe onde você mora ou onde você trabalha. Para ensinar Llama onde você está, você precisa estar fisicamente lá.
+
+longamente toque na área para a sua localização atual, ou pressione o botão + para criar uma nova área. Llama, então, vai lhe perguntar quanto tempo você pretende ficar aqui. Durante esse tempo, Llama vai se lembrar quais antenas de telefonia estão nas proximidades, de modo que ele pode descobrir onde você e quando você voltar aqui.
+
+A lista também mostra quantas antenas de telefonia (também conhecidos como células) definem cada área. Você também pode usar alguns métodos experimentais para determinar a sua localização, para habilitar entre nas configurações do Llama (ver Experimental)."</string>
+    <string name="hrHelpEvents">"Este guia mostra os eventos que você disse a sua Llama para executar. Llama vem com alguns eventos pré-definidos. Você pode modificar ou exclui-los, ou adicionar mais.
+um evento contém algumas condições e algumas ações. Quando todas as condições forem atendidas, Llama vai executar as ações para o evento.
+
+eventos vêm em pares;. Você precisa de um para ligar alguma coisa, e outro para desligar, então normalmente você vai criar dois eventos com as condições de eventos invertida. por exemplo,
+Toque em Casa -> Alterar Perfil
+Sair de Casa -> Alterar Perfil
+Se você acha que os eventos ocorrem quando eles não deveriam ocorrer, você pode pressionar o botão de história para ver o que aconteceu no evento, e o que causou isso.
+Você também pode colocar atalhos para eventos em sua tela home / launcher. Para fazer isso, toque longamente em uma área vazia da tela inicial, selecione Atalhos, então Llama."</string>
+    <string name="hrHelpProfiles">"Este guia te mostra quais os perfis que você disse a Llama usar. Llama vem com perfis comuns já definidos, mas você pode alterá-los ou adicionar mais
+Perfis em Llama são semelhantes aos perfis em outros telefones não Android;. Eles permitem que você agrupe todas as diferentes configurações de volume, assim você pode alterá-los com um simples toque. Você também pode dizer a Llama para mudar o perfil automaticamente usando eventos. A cada perfil pode ser dado um ícone na barra de notificação, para que você possa ver rapidamente qual perfil está ativado.
+ocê também pode impedir temporariamente que Llama mude o perfil, se você vai a uma reunião importante. Depois de um período de tempo, Llama vai definir o perfil de volta ao que era. Se você vai para a tela de configurações, você pode dizer a Llama para monitorar seus botões de volume, então se você configurar manualmente o volume para o modo silencioso, Llama vai ligar o bloqueio do perfil."</string>
+    <string name="hrHelpRecent">"Este guia te mostra qual poste de telefone Llama viu recentemente. Depois de ter treinado a sua Llama sobre uma área, você vai ser capaz de ver qual a área de um poste de telefone (também conhecido como uma célula) pertence.
+e você não tem muito tempo para treinar Llama, você pode ver as células dizendo 'Não adicionado a nenhuma área'. Você pode adicionar manualmente para a área correta, tocando na célula da lista. Esta lista também mostra a hora, assim você pode se lembrar onde estava naquele momento e adicioná-lo para a área correta.
+e uma célula é adicionada a duas áreas diferentes, então, infelizmente você não tem antenas de telefonia suficientemente para determinar a diferença entre as duas áreas. Tente ativar os métodos experimentais de localização."</string>
+    <string name="hrServiceRestarted">A última vez que você usou Llama, você usou o botão Sair. O serviço de fundo de Llama já foi reiniciado. Use o botão sair para desativá-lo novamente.</string>
+    <string name="hrTabAreas">Áreas</string>
+    <string name="hrTabEvents">Eventos</string>
+    <string name="hrTabProfiles">Perfis</string>
+    <string name="hrTabRecent">Recente</string>
+    <string name="hrLlamaLogWarning">AVISO: O Log para LlamaLog está habilitado. Este arquivo pode ficar muito grande! Você pode querer desligá-lo em algum momento.</string>
+    <string name="hrOkeyDokeExclamation">Ok doke!</string>
+    <string name="hrTurnItOff">Desligá-lo</string>
+    <string name="hrOk">Ok</string>
+    <string name="hrCancel">Cancelar</string>
+    <string name="hrViewMap">Ver Mapa</string>
+    <string name="hrCreateReminder">Criar Lembrete</string>
+    <string name="hrRenameArea">Renomear Área</string>
+    <string name="hrSetPositionOnMap">Definir a posição no mapa</string>
+    <string name="hrStartLearningArea">Começar a aprendizagem da Área</string>
+    <string name="hrStopLearningArea">Parar aprendizagem de área</string>
+    <string name="hrDeleteArea">Excluir área</string>
+    <string name="hrYes">Sim</string>
+    <string name="hrNo">Não</string>
+    <string name="hrEnterAReminderForArea1">"Digite um lembrete para a área '%1s'"</string>
+    <string name="hrEnterANewNameForTheArea">Digite um novo nome para a área</string>
+    <string name="hrNewLocationPrompt">Dê um nome para o novo local</string>
+    <string name="hr1SecondsToGo">%1s segundos(s) para começar</string>
+    <string name="hr1MinutesToGo">%1s minuto(s) para começar</string>
+    <string name="hrLearningDash">"Aprendendo - "</string>
+    <string name="hrCurrentDash">"Atual - "</string>
+    <string name="hrCurrentNoDash">Atual</string>
+    <string name="hrAnd">e</string>
+    <string name="hrHowLongWillYouBeAt1For">Quanto tempo você vai estar em %1s ?</string>
+    <string name="hrImNotThere">Não começar a aprendizagem</string>
+    <string name="hrSecond">segundo</string>
+    <string name="hrSeconds">segundos</string>
+    <string name="hrMinute">minuto</string>
+    <string name="hrMinutes">minutos</string>
+    <string name="hr0Minutes">0 minutos</string>
+    <string name="hr0Seconds">0 segundo</string>
+    <string name="hrSpaceMinutes">" minutos"</string>
+    <string name="hrSpaceSeconds">" segundos"</string>
+    <string name="hrSpaceMilliseconds">" milisegundos"</string>
+    <string name="hrHour">hora</string>
+    <string name="hrHours">horas</string>
+    <string name="hrMapPoint">ponto do mapa</string>
+    <string name="hrMapPoints">pontos no mapa</string>
+    <string name="hrCell">célula</string>
+    <string name="hrCells">células</string>
+    <string name="hrWifiName">Nome Wifi</string>
+    <string name="hrWifiNames">Nomes Wifi</string>
+    <string name="hrWifiMac">Wif MAC</string>
+    <string name="hrWifiMacs">Wif MACs</string>
+    <string name="hrBluetoothDevice">Dispositivo Bluetooth</string>
+    <string name="hrBluetoothDevices">Dispositivos Bluetooth</string>
+    <string name="hrUnknown">desconhecido</string>
+    <string name="hrNotAddedToAnyAreas">Não esta adicionado a nenhuma área</string>
+    <string name="hrViewAllMapPoints">Ver todos os pontos do mapa</string>
+    <string name="hrAllRecentMapPositions">Todos Posições recentes do Mapa</string>
+    <string name="hrAddToArea">Adicionar à Área</string>
+    <string name="hrViewCoordinatesOnMap">Ver Coordenadas no Mapa</string>
+    <string name="hrEditAreasPositionOnMap">Posição da área de edição no mapa</string>
+    <string name="hrRemoveFromArea">Remover da Área</string>
+    <string name="hrPositionOfARecentLocationEstimate">Posição recente Localização estimada</string>
+    <string name="hrWhichAreaDoYouWantToRemove1From">Qual a área que você deseja remover de %1s ?</string>
+    <string name="hrCouldntFindTheAreaNamed1s">Não foi possível encontrar a área %1s</string>
+    <string name="hrWhichAreaDoYouWantToEdit">Qual a área que você quer editar?</string>
+    <string name="hrCreateNewArea">Criar uma nova área</string>
+    <string name="hrWhichAreaDoYouWantToAdd1To">Qual a área que você deseja adicionar a %1s ?</string>
+    <string name="hrEnterANameForTheNewArea">Digite um nome para a nova área</string>
+    <string name="hrWithin1m">Dentro de %1sm</string>
+    <string name="hrNewEvent1">Novo Evento %1s</string>
+    <string name="hrNewProfile1">Novo Perfil %1s</string>
+    <string name="hrLlamaDashEditingEvent">Llama - Edição de Evento</string>
+    <string name="hrLlamaDashOrConditions">Llama - Combinar qualquer condição</string>
+    <string name="hrLlamaDashAndConditions">Llama - Igualar todas as condições</string>
+    <string name="hrLlamaDashNewEvent">Chamada - Novo evento</string>
+    <string name="hrLlamaShortcutName">Llama nome do atalho</string>
+    <string name="hrActions">Ações</string>
+    <string name="hrCancelRemove">Cancelar Remover</string>
+    <string name="hrNowTapAConditionOrActionToRemoveIt">Agora toque uma condição ou ação para removê-la</string>
+    <string name="hrSelectConditionToTriggerEvent">Selecione uma condição para acionar evento</string>
+    <string name="hrSelectActionToPerformWhenTriggered">Selecione a ação a ser executada quando acionado</string>
+    <string name="hrCool">Calma</string>
+    <string name="hrYourEventIsNotCompleteColon">Seu evento não está completo:</string>
+    <string name="hrPleaseFixTheseErrorsOrRemoveTheOffendingConditionsSlashActions">Por favor, corrija esses erros ou remover as condições/ações erradas.</string>
+    <string name="hrIWillIPromise">Eu vou, eu prometo</string>
+    <string name="hrProblems">Problemas</string>
+    <string name="hrLlamaDashEventHistory">Llama - Histórico de Eventos</string>
+    <string name="hrEventHistory">Histórico de Eventos</string>
+    <string name="hrTriggeredBy1Condition">Iniciada pela condição %1s</string>
+    <string name="hrTrigger1Prohibitted">Disparado pela condição %1s não foi permitida</string>
+    <string name="hrDisabled">Inválido</string>
+    <string name="hrEditEvent">Editar evento</string>
+    <string name="hrCopyEvent">Copiar evento</string>
+    <string name="hrRunEventActions">Executar ações de eventos</string>
+    <string name="hrEnableEvent">Ativar evento</string>
+    <string name="hrDisableEvent">Desativar evento</string>
+    <string name="hrDeleteEvent">Excluir evento</string>
+    <string name="hrAreYouSureYouWantToDelete1">"Você tem certeza que deseja excluir '%1s' ?"</string>
+    <string name="hrCopy">copiar</string>
+    <string name="hrCreateLlamaShortcut">Criar um Atalho Llama</string>
+    <string name="hrEnterALabelForTheShortcut">Digite um nome para o atalho</string>
+    <string name="hrCustomEvent">Eventos personalizados</string>
+    <string name="hrSwitchToProfile1">Mudar para o perfil %1s</string>
+    <string name="hrSpecifyACustomSetOfActionsForTheShortcut">Especificar um conjunto personalizado de ações para o atalho</string>
+    <string name="hrProfile">Perfil</string>
+    <string name="hrEvent">Evento</string>
+    <string name="hrCustomEventActions">Ações de eventos personalizados</string>
+    <string name="hrTheLlamaServiceMustBeRunningForShortcutsToWork">O serviço Lama deve estar em execução para que os atalhos funcionem</string>
+    <string name="hrHowCanIHelpYou">Como posso ajudá-lo?</string>
+    <string name="hrCurrentTabInfo">Info da guia atual</string>
+    <string name="hrLlamaInstructions">Instruções Llama</string>
+    <string name="hrLlamaAndKebabAppsWebsite">Llama e Kebabapps website</string>
+    <string name="hrSendEmail">Enviar e-mail</string>
+    <string name="hrAboutTheApp">Sobre a aplicação</string>
+    <string name="hrWhatDoesThisTabDo">O que essa guia não</string>
+    <string name="hrGroovy">Groovy</string>
+    <string name="hrPerformed1ActionsSince2DaysAgo">Realizada a %1$s ações desde %2$s dias.</string>
+    <string name="hrDonateSmiley">Doe :)</string>
+    <string name="hrSettings">Configurações</string>
+    <string name="hrImportExportData">Importação/Exportação de Dados</string>
+    <string name="hrToggleMobileData">Alternar Dados Móveis</string>
+    <string name="hrToggleApn">Alternar APN</string>
+    <string name="hrDonate">Doar</string>
+    <string name="hrQuit">Sair</string>
+    <string name="hrQuitLlama">Sair de Llama</string>
+    <string name="hrPutLlamaToSleep">Colocar a Llama para dormir</string>
+    <string name="hrCloseLlamaExplanation">Isto irá fechar Llama e desativar seu serviço de fundo. Para reiniciar o serviço, toque no ícone Llama na lista de aplicativos da tela inicial.</string>
+    <string name="hrEnableApn">permitir APN</string>
+    <string name="hrCurrent">atual</string>
+    <string name="hrDisableApn">desativar APN</string>
+    <string name="hrEnableMobileData">permitir dados móveis</string>
+    <string name="hrDisableMobileData">desativar dados móveis</string>
+    <string name="hrImportWarning">Você tem certeza que deseja importar as configurações? Isto irá apagar todas as áreas existentes salvas, perfis e eventos que estão em sua Llama!</string>
+    <string name="hrExportWarning">Tem certeza que você deseja exportar as configurações para o cartão SD? Isto irá apagar todas as áreas salvas, perfis e eventos que já estão no seu cartão SD!</string>
+    <string name="hrImportFromSdCard">Importar de SD Card</string>
+    <string name="hrExportToSdCard">Exportar para cartão SD</string>
+    <string name="hrOkeyDoke">Ok doke!</string>
+    <string name="hrLockedUntil1">Bloqueado até %1s</string>
+    <string name="hrProfileLocked">Perfil Bloqueado</string>
+    <string name="hrTheShortcutRefersToAnEventNamed1WhichNoLongerExists">"O atalho se refere a um evento chamado '%1s' que não existe mais"</string>
+    <string name="hrTheShortcutRefersToAProfileNamed1WhichNoLongerExists">"O atalho se refere a um perfil com o nome '%1s' que não existe mais"</string>
+    <string name="hrLoadSettingsError">Falha ao carregar configurações. Elas foram salvas no seu cartão SD.</string>
+    <string name="hrCriticalLoadSettingsError">Falha ao carregar configurações, e houve um erro ao salvar em seu cartão SD. Llama vai fechar agora :(</string>
+    <string name="hrQuietAtNight">Silêncio à noite</string>
+    <string name="hrHome">Casa</string>
+    <string name="hrQuiet">Silêncio</string>
+    <string name="hrNormalAtHome">Normal em casa</string>
+    <string name="hrNormal">Normal</string>
+    <string name="hrLeftHome">Saiu de casa</string>
+    <string name="hrQuietAtWork">Silêncio no trabalho</string>
+    <string name="hrWork">Trabalho</string>
+    <string name="hrNormalOutsideWork">Trabalho fora do horário normal</string>
+    <string name="hrLeftWork">Fora do Trabalho</string>
+    <string name="hrSilent">Silencioso</string>
+    <string name="hrLoud">Alto</string>
+    <string name="hrCouldNotFindEventNamed1">"Não foi possível encontrar o evento chamado '%1s'"</string>
+    <string name="hrTestVersion">Versão de teste</string>
+    <string name="hrLlamaForAndroidVersionContact">"Llama para Android
+%1s
+Contacte kebabapps@gmail.com"</string>
+    <string name="hrThanksForDonatingExclamation">Obrigado por doar!</string>
+    <string name="hrPleaseDonateBeerMoney">Se você encontrar este app útil, por favor doar um dinheiro para minha cerveja</string>
+    <string name="hrOkThanks">Ok, obrigado</string>
+    <string name="hrDonateViaMarket">Doações via Google Play</string>
+    <string name="hrProfilesAreLockedGotoProfilesTabToUnlock">Os perfis estão bloqueados. Vá até a aba perfis e pressione Menu para desbloquear.</string>
+    <string name="hrCouldNotChangeProfileBecauseNoProfileNamed1">Não foi possível alterar o perfil, porque não existe um perfil chamado %1s</string>
+    <string name="hrError">ERRO</string>
+    <string name="hrInfo">INFO</string>
+    <string name="hrExportFailedSadFace">Exportação falhou :(</string>
+    <string name="hrImportFailedSadFace">A importação falhou: (Certifique-se de que seus dados estão em uma pasta do cartão SD chamado Llama</string>
+    <string name="hrImportOf1Successful">Importação do %1s com sucesso. Por favor, reinicie Llama</string>
+    <string name="hrStorageAreas">áreas</string>
+    <string name="hrStorageEvents">eventos</string>
+    <string name="hrStorageProfiles">perfis</string>
+    <string name="hrStorageIgnoredCell">células ignoradas</string>
+    <string name="hrQuickReminderAt1">Lembrete rápido em %1s</string>
+    <string name="hrNoApnsDefinedTip">Você não tem APNs. Você pode remover as ações APN de seus eventos.</string>
+    <string name="hrWifiNotTurnedOffAsItsConnected">WiFi não foi desligado quando ele está conectado</string>
+    <string name="hrBluetoothNotTurnedOffAsConnectedToAudioDevice">Bluetooth não está desligado quando ele está conectado a um dispositivo de áudio</string>
+    <string name="hrBluetoothNotTurnedOffAsItsConnected">Bluetooth não está desligado quando ele está conectado</string>
+    <string name="hrCouldnNotTurnOnBluetoothMaybeAirplane">Não foi possível ligar o Bluetooth, talvez o modo avião está ativado.</string>
+    <string name="hrBluetoothIsntSupported">Bluetooth não é suportado</string>
+    <string name="hrBluetoothApiNotSupported">API Bluetooth não é suportada</string>
+    <string name="hrCouldnotStart1">Não foi possível iniciar %1s</string>
+    <string name="hrRebootFailWarning">Não reiniciar, uptime do telefone estava em %1s minutos (s). Por razões de segurança, deve ser de pelo menos 5 minuto</string>
+    <string name="hrShutdownFailWarning">Não desligue, uptime telefone foi %1s minuto (s). Por razões de segurança, deve ser de pelo menos 5 minutos.</string>
+    <string name="hrRebooting">Reiniciando!</string>
+    <string name="hrShuttingDown">DESLIGAR!</string>
+    <string name="hrProfileChangesUnlocked">Alterações de perfil Desbloqueado</string>
+    <string name="hrPositionsFor1">Posições para %1s</string>
+    <string name="hrSave">Salvar</string>
+    <string name="hrClose">Fechar</string>
+    <string name="hrLlamaMapNotInstalled">Mapa da Llama Não está Instalado</string>
+    <string name="hrLlamaMapNeededMessage">"Para visualizar mapas em Llama você precisa instalar o Llama Mapa addon.
+nIsto é porque Lama não tem as permissões necessárias de internet para baixar os mapas do Google.
+
+ comoLlama, o addon mapa é gratuito também."</string>
+    <string name="hrSelectEmailApplication">Seleccione o App de e-mail.</string>
+    <string name="hrEnteredUnknownArea">Entrando em uma área desconhecida</string>
+    <string name="hrLeftArea1">Saiu de %1s</string>
+    <string name="hrEnteredArea1">Entrou em %1s</string>
+    <string name="hrLlamaDashEditingProfile">Lama - Edição de Perfil</string>
+    <string name="hrLlamaDashNewProfile">Lama - Novo Perfil</string>
+    <string name="hrVibrate">Vibrar</string>
+    <string name="hrRing">Tom</string>
+    <string name="hrRingAndVibrate">Tocar e vibrar</string>
+    <string name="hrProfilesUnlocked">Perfis desbloqueados</string>
+    <string name="hrActivateAndLock">Ativar e bloquear</string>
+    <string name="hrEditProfile">Editar perfil</string>
+    <string name="hrCopyProfile">Copiar Perfil</string>
+    <string name="hrDeleteProfile">Excluir Perfil</string>
+    <string name="hrNever">Nunca</string>
+    <string name="hrAutomaticallyUnlockProfileDescription">Você pode evitar que eventos de Llama mude seus perfis, por um período de tempo. Por exemplo, você está indo para uma reunião de uma hora e quer que o seu telefone Fique em silêncio</string>
+    <string name="hrAutomaticallyUnlockProfileChangesAfter">Desbloquear automaticamente muda o perfil depois</string>
+    <string name="hrWillActivateWhenProfilesAreManuallyUnlocked">Será ativado quando os perfis são desbloqueadas manualmente</string>
+    <string name="hrWillActivateAt1">Ativará em %1s</string>
+    <string name="hrActivatedAt1">Ativado em %1s</string>
+    <string name="hrAuto">Automático</string>
+    <string name="hrChangeBrightness">Alterar o brilho</string>
+    <string name="hrSetToAutomaticBrightness">configurada para brilho automático</string>
+    <string name="hrSetTo1Brightness">definido para %1s%% de brilho</string>
+    <string name="hrLlamaBluetoothPolling">Llama Pooling de Bluetooth</string>
+    <string name="hrChangeLlamaBluetoothPolling">Alterar Llama Polling Bluetooth</string>
+    <string name="hrChangeAndroidLocationPolling">Mude o local de Pooling do Android</string>
+    <string name="hrAndroidLocationPolling">Local de Pooling do Android</string>
+    <string name="hrLlamaWifiPolling">Local de WIFI de LLama</string>
+    <string name="hrChangeLlamaWifiPolling">Mudar o Pooling do Wifi de Llama</string>
+    <string name="hrSet1ToNever">definir %1s para nunca</string>
+    <string name="hrSet1To2">definir %1$s para %2$s</string>
+    <string name="hrChangeNotificationIconTo1">alterar o ícone de notificação para %1s</string>
+    <string name="hrChangeNotificationIcon">Alterar Ícone de Notificação</string>
+    <string name="hrChangeProfile">Mudança de perfil</string>
+    <string name="hrChangeProfileTo">alterar o perfil para %1s</string>
+    <string name="hrChooseAProfile">Escolha um perfil</string>
+    <string name="hrChangeScreenTimeout">Alterar Tempo limite da tela</string>
+    <string name="hrDisableScreenTimeout">desativar o tempo limite da tela</string>
+    <string name="hrSetScreenTimeoutTo1Seconds">definir o tempo limite da tela para %1s segundos</string>
+    <string name="hrToggleScreenLock">Alternar bloqueio de tela</string>
+    <string name="hrScreenLockOn">Ativar bloqueio de tela</string>
+    <string name="hrScreenLockOnForce">Ativar bloqueio de tela (forçado)</string>
+    <string name="hrScreenLockOffImmediately">Desativar bloqueio de tela imediatamente (buggy!)</string>
+    <string name="hrScreenLockOffAfterPassword">Desativar bloqueio de tela depois de desbloqueio</string>
+    <string name="hrEnableKeyGuard">permitir bloqueio de tela</string>
+    <string name="hrEnableKeyGuardForce">permitir bloqueio de tela (forçado)</string>
+    <string name="hrDisableKeyGuardImmediately">desativar bloqueio de tela imediatamente</string>
+    <string name="hrDisableKeyGuardAfterUnlock">desativar bloqueio de tela depois de um desbloqueio</string>
+    <string name="hrKillApplication">Matar Aplicação</string>
+    <string name="hrKillApplicationWithRoot">Matar Aplicação (Root)</string>
+    <string name="hrKill1DieDieDie">kill %1s !</string>
+    <string name="hrChooseAnApplication">Escolha uma aplicação</string>
+    <string name="hrChooseAnApplicationWithAName">Escolha um nome de aplicativo</string>
+    <string name="hrLockProfileChanges">Bloquear alterações de perfil</string>
+    <string name="hrUnlockProfileChanges">Desbloquear alterações de perfil</string>
+    <string name="hrLockProfileChangesDescription">bloquear mudanças no perfil</string>
+    <string name="hrUnlockProfileChangesDescription">desbloquear mudanças no perfil</string>
+    <string name="hrChangeMusicVolume">Mudar o volume da música / media</string>
+    <string name="hrSetMusicVolumeTo1">efinir o volume da música / media para %1s</string>
+    <string name="hrReminder">Lembrete</string>
+    <string name="hrShowAReminder">mostrar um lembrete</string>
+    <string name="hrEnterSomeReminderText">Digite algum texto explicativo</string>
+    <string name="hrNoDontDoAnything">Não, não faça nada</string>
+    <string name="hrYesIReallyWantToReboot">Sim, eu realmente quero reiniciar!</string>
+    <string name="hrYesIReallyWantToShutdown">Sim, eu realmente quero desligar o telefone!</string>
+    <string name="hrRebootPhoneDescription">reiniciar telefone</string>
+    <string name="hrDontRebootPhoneDescription">não reiniciar telefone</string>
+    <string name="hrShutdownPhoneDescription">desligar o telefone</string>
+    <string name="hrDontShutdownPhoneDescription">não desligue o telefone</string>
+    <string name="hrRunApplication">Executar Aplicação</string>
+    <string name="hrRun1">executar %1s</string>
+    <string name="hrIfNotConnected">se não conectado</string>
+    <string name="hrForAtLeast1">pelo menos %1s</string>
+    <string name="hrForAtLeast1Minutes">para, pelo menos, %1s minutos</string>
+    <string name="hrIfNotConnectedDescription">se não conectado</string>
+    <string name="hrFor1ThenDisconectIfNotConnected">%1s para depois desligar se não estiver conectado</string>
+    <string name="hrFor1MinutesThenDisconectIfNotConnected">parar %1s minutos depois desligar se não estiver conectado</string>
+    <string name="hrAirplaneModeOn">Modo Avião Ligado</string>
+    <string name="hrAirplaneModeOff">Modo Avião Desligado</string>
+    <string name="hrToggleAirplaneMode">Alternar Modo Avião</string>
+    <string name="hrEnableAirplaneMode">ativar o Modo Avião</string>
+    <string name="hrDisableAirplaneMode">desabilitar o Modo Avião</string>
+    <string name="hrApnOn">APN Ligado</string>
+    <string name="hrApnOff">APN Desligado</string>
+    <string name="hrBluetoothOn">Bluetooth Ligado</string>
+    <string name="hrBluetoothOff">Bluetooth Desligado</string>
+    <string name="hrToggleBluetooth">Alternar Bluetooth</string>
+    <string name="hrEnableBluetooth">Ativar Bluetooth</string>
+    <string name="hrDisableBluetooth">Desativar Bluetooth</string>
+    <string name="hrToggleLlamaCellPolling">Alternar o Pooling do celular em Llama</string>
+    <string name="hrCellPollingOn">Pooling do celular Ligado</string>
+    <string name="hrCellPollingOff">Pooling do celular Desligado</string>
+    <string name="hrEnableLlamaCellPolling">Habilitar o Pooling de celular em LLama</string>
+    <string name="hrDisableLlamaCellPolling">Desabilitar o Pooling de celular em LLama</string>
+    <string name="hrToggleGps">Alternar GPS</string>
+    <string name="hrGpsOn">GPS</string>
+    <string name="hrGpsOff">GPS Desligado</string>
+    <string name="hrEnableGps">Habilitar GPS</string>
+    <string name="hrDisableGps">Desativar GPS</string>
+    <string name="hrMobileDataOn">Dados móveis Ligado</string>
+    <string name="hrMobileDataOff">Dados móveis Desligado</string>
+    <string name="hrEnableSyncRequestUpdate">Ativar Sync, Solicitação de Atualização</string>
+    <string name="hrEnableSyncNoUpdate">Ativar Sync, sem atualização</string>
+    <string name="hrDisableSync">Desativar sincronização</string>
+    <string name="hrToggleAccountSync">Alternar sincronismo de conta</string>
+    <string name="hrEnableAccountSyncThenRequestUpdateDescription">permitir o pedido de atualizacao de conta</string>
+    <string name="hrEnableAccountSyncDescription">permitir o sincronismo de conta</string>
+    <string name="hrDisableAccountSyncDescription">desativar o sincronismo de conta</string>
+    <string name="hrWifiOn">Wifi Ligado</string>
+    <string name="hrWifiOff">Wifi Desligado</string>
+    <string name="hrToggleWifi">Alternar Wifi</string>
+    <string name="hrEnableWifi">Permitir Wifi</string>
+    <string name="hrDisableWifi">Desativar Wifi</string>
+    <string name="hrVibratePattern">Modo Padrão de Vibrar</string>
+    <string name="hrVibrateThe1Pattern">Vibrar o padrão %1s</string>
+    <string name="hrVibrateACustomisedPattern">vibrar um padrão personalizado</string>
+    <string name="hrVibrateShort">Curto</string>
+    <string name="hrVibrateLong">Longo</string>
+    <string name="hrVibrateMultipleShort">Multiplo Curto</string>
+    <string name="hrVibrateMultipleLong">Multiplo longo</string>
+    <string name="hrBatteryLevel">Nível da Bateria</string>
+    <string name="hrBatteryLevelAbove1">Acima do nível %1s da bateria</string>
+    <string name="hrBatteryLevelBelow1">Abaixo do nível %1s da bateria</string>
+    <string name="hrWhenBatteryGoesBelow1Percent">quando a bateria estiver abaixo de %1s%%</string>
+    <string name="hrWhenBatteryRisesAbove1Percent">quando a bateria estiver acima de %1s%%</string>
+    <string name="hrPleaseChooseAtLeastOneBluetoothDevice">Por favor, escolha pelo menos um dispositivo Bluetooth</string>
+    <string name="hrPleaseChooseAtLeastOneWifiNetwork">Por favor, escolha pelo menos uma rede Wi-Fi</string>
+    <string name="hrOr">ou</string>
+    <string name="hrNor">nem</string>
+    <string name="hrWhen1IsConnected">quando %1s está ligado</string>
+    <string name="hrWhen1Disconnects">quando %1s está desligado</string>
+    <string name="hrBluetoothDeviceDisconnected">Dispositivo Bluetooth Desconectado</string>
+    <string name="hrBluetoothDeviceConnected">Dispositivo Bluetooth Conectado</string>
+    <string name="hrWhenCalendarHasACurrentEventNameContaining1">"quando o calendário tem um nome de evento atual contendo '%1s'"</string>
+    <string name="hrWhenCalendarDoesNotHaveACurrentEventNameContaining1">"quando o calendário não tem um nome de evento atual contendo '%1s'"</string>
+    <string name="hrCalendarDoesNotHaveACurrentEventNameContaining1">"Calendário tem um nome do evento atual contendo '%1s'"</string>
+    <string name="hrCalendarEvent">Calendário de Eventos</string>
+    <string name="hrCalendarConditionMustHaveACalendarEventNameOrCalendarOrEventType">A condição do calendário deve ter um nome de evento de calendário, um calendário selecionado ou um tipo de evento de calendário selecionado.</string>
+    <string name="hrInCarMode">No Modo Carro</string>
+    <string name="hrNotInCarMode">Fora do Modo Carro</string>
+    <string name="hrWhenInCarMode">quando em modo de carro</string>
+    <string name="hrWhenNotInCarMode">quando não estiver em modo de carro</string>
+    <string name="hrUsingBattery">Usando bateria</string>
+    <string name="hrChargingFromAny">Carregando de qualquer fonte</string>
+    <string name="hrChargingFromAc">Carregamento de AC</string>
+    <string name="hrChargingFromUsb">Carregamento pelo USB</string>
+    <string name="hrChargingFromWireless">Carregamento sem fio</string>
+    <string name="hrChargingStatus">Estado de carregamento</string>
+    <string name="hrWhenChargingUnknown">quando a carga é desconhecida</string>
+    <string name="hrWhenChargingFromAc">quando o carregamento é na tomada AC</string>
+    <string name="hrWhenChargingFromUsb">quando a carga é a partir do USB</string>
+    <string name="hrWhenChargingWirelessy">quando a carregamento é sem fio</string>
+    <string name="hrWhenCharging">quando está carregando</string>
+    <string name="hrWhenUsingBattery">quando se utiliza a bateria</string>
+    <string name="hrChooseAtLeastOneDay">Escolha pelo menos um dia</string>
+    <string name="hrDayOfTheWeek">Dia da semana</string>
+    <string name="hrWhenIts1">quando é %1s</string>
+    <string name="hrChooseAnAreaToEnter">Escolha de uma área para entrar</string>
+    <string name="hrEnterArea">Entrar na área</string>
+    <string name="hrAt1">em %1s</string>
+    <string name="hrAtTime1">em %1s</string>
+    <string name="hrWiredHeadsetConnected">Fone de ouvido com fio ligado</string>
+    <string name="hrWiredHeadsetDisconnected">Fone de ouvido com fio desconectado</string>
+    <string name="hrWhenWiredHeadsetIsDisconnected">quando o fone de ouvido com fio é desconectado</string>
+    <string name="hrChooseAnAreaToLeave">Escolha uma área para sair</string>
+    <string name="hrLeaveArea">Deixar uma área</string>
+    <string name="hrUponLeaving1">ao sair de %1s</string>
+    <string name="hrMusicPlayback">Reprodução de Música</string>
+    <string name="hrMusicPlaying">Ouvir música</string>
+    <string name="hrMusicPaused">Ouvir música</string>
+    <string name="hrWhenMusicIsPlaying">quando a música está tocando</string>
+    <string name="hrWhenMusicIsPaused">quando a música está em pausa</string>
+    <string name="hrBluetoothDeviceNotConnected">Dispositivo Bluetooth Não Conectado</string>
+    <string name="hrWhen1IsNotConnected">Quando %1s não está conectado</string>
+    <string name="hrNotInArea">Não na Área</string>
+    <string name="hrChooseAnAreaToNotBeIn">Escolha uma área que você não está</string>
+    <string name="hrWhenNotAt1">Quando não está em %1s</string>
+    <string name="hrTimeBetween">Entre as Horas</string>
+    <string name="hrBetween1And2">entre %1$s e %2$s</string>
+    <string name="hrFrom">De</string>
+    <string name="hrTo">para</string>
+    <string name="hrActionChangeProfile">Perfil</string>
+    <string name="hrActionChangeProfileDescription">Isso vai mudar as configurações de som do seu telefone de acordo com os perfis indicados na guia perfis. O ícone de notificação também pode mudar dependendo de como o perfil está definido.</string>
+    <string name="hrActionNotificationIcon">Llama Ícone de Notificação</string>
+    <string name="hrActionNotificationIconDescription">Isso irá alterar o ícone que aparece na barra de notificação. Use ícones diferentes para determinar quais são suas configurações atuais. O ícone pode ser ligado e desligado nas principais configurações de Llama.</string>
+    <string name="hrActionScreenBrightness">Brilho de tela</string>
+    <string name="hrActionScreenBrightnessDescription">Isso vai mudar o brilho da tela. Alguns telefones suportar Brilho automático.</string>
+    <string name="hrActionScreenOnDescription">Isto irá ligar a tela imediatamente. Se o bloqueio de tela não estiver ativo, a tela irá ficar até o tempo de inatividade passar. Se o bloqueio de tela está ativado, o bloqueio de tela será mostrado na tela e desligado após 2 segundos. Nota: seu telefone pode não mostrar a diferença entre escuros, brilhantes e luminosos, com luzes de botão</string>
+    <string name="hrActionScreenOff">Tela desligada</string>
+    <string name="hrActionScreenOffDescription">Isto irá desligar a tela imediatamente. Se o bloqueio de tela estiver ativado, ele será ativada.</string>
+    <string name="hrActionMusicVolume">Volume de Música / Mídia</string>
+    <string name="hrActionMusicVolumeDescription">Isso vai mudar o volume da música / volume.</string>
+    <string name="hrActionVibrate">Vibrar</string>
+    <string name="hrActionVibrateDescription">Isso vai vibrar de acordo com um conjunto de padrões predefinidos, ou você pode criar seu próprio ritmo.</string>
+    <string name="hrActionApn">APN</string>
+    <string name="hrActionApnDescription">Isso irá desativar dados móveis falsificando as configurações do APN do seu provedor de rede. Isso só funciona em redes GSM. Ele é compatível com o widget APNDroid.</string>
+    <string name="hrActionBluetooth">Bluetooth</string>
+    <string name="hrActionBluetoothDescription">Isso irá tornar o Bluetooth ligado e desligado. Você pode optar por ativar apenas o Bluetooth se não houver dispositivos conectados. Você também pode ligar o Bluetooth, por um curto período de tempo, e, em seguida, desliga-se automaticamente se nenhum dispositivo permanecer conectado.</string>
+    <string name="hrActionAirplane">Modo Avião</string>
+    <string name="hrActionAirplaneDescription">Isso irá ativar o modo Avião para ligado e desligado. Isso também vai ter o efeito colateral de desabilitar Wi-Fi e Bluetooth. Quando o modo avião estiver ativo, você não será capaz de determinar a sua localização!</string>
+    <string name="hrActionWifi">WIFI</string>
+    <string name="hrActionWifiDescription">Isto tornar o WiFi ligado e desligado. Você pode optar por deixar ativado o WiFi se não houver nenhuma rede Wi-Fi ligada. Você também pode ligar WiFi em um curto período de tempo, e, em seguida, desliga-se automaticamente se nenhuma rede WiFi permanece ligada.</string>
+    <string name="hrActionGps">GPS</string>
+    <string name="hrActionGpsDescription">Isto irá tornar o GPS ligado e desligado. Isto não é oficialmente suportado pelo Android, por isso pode não funcionar. Se você instalou o Gingerbread ou superior (Android 2.3), então ele definitivamente não vai funcionar. Nag Google, se você quer que ele funcione.</string>
+    <string name="hrActionReboot">Reboot(Requer root)</string>
+    <string name="hrActionRebootDescription">Isto irá reiniciar o telefone. Seja cuidadoso com suas condições de eventos, de modo que você não acabe de reiniciar após o seu telefone ser reiniciado. Llama requer o telefone fique ligado por pelo menos 5 minutos para que essa ação ocorra.</string>
+    <string name="hrActionShutdown">Desligar o telefone(requer root)</string>
+    <string name="hrActionShutdownDescription">Isto irá desligar o telefone. Seja cuidadoso com suas condições de eventos, de modo que você não acabar desligndo o telefone logo depois do telefone ser reiniciado. Llama requer o telefone fique ligado por pelo menos 5 minutos para que essa ação ocorra.</string>
+    <string name="hrActionSync">Sincronizar conta</string>
+    <string name="hrActionSyncDescription">Isso irá ativar ou desativar a configuração de sincronização de conta. Você também pode usar isso para forçar uma sincronização.</string>
+    <string name="hrActionLlamaCellPolling">Llama celular Polling</string>
+    <string name="hrActionLlamaCellPollingDescription">EXPERIMENTAL: Isso muda a freqüência de polling célula de Llama. Isto só é útil se estiver ativado nas configurações experimentais.</string>
+    <string name="hrActionLlamaWifiPolling">Polling WiFi Llama</string>
+    <string name="hrActionLlamaWifiPollingDescription">"EXPERIMENTAL: Isso muda a freqüência de polling WiFi do Llama. Isto só é útil se estiver ativado nas configurações experimentais. Se for definido como 'nunca', em seguida, Llama vai ligar seu próprio pooling WiFi do Android."</string>
+    <string name="hrActionLlamaBluetoothPolling">Llama Polling Bluetooth</string>
+    <string name="hrActionLlamaBluetoothPollingDescription">"EXPERIMENTAL: Isso muda a freqüência de polling detectável do dispositivo Bluetooth do Llama. Isto só é útil se estiver ativado nas configurações experimentais. Se for definido como 'nunca', em seguida, Llama vai ativar sua própria varredura de Bluetooth do Android."</string>
+    <string name="hrActionAndroidLocationPolling">Llama Android local de pooling</string>
+    <string name="hrActionAndroidLocationPollingDescription">"EXPERIMENTAL: Isso muda a freqüência de polling próprio local do Android. Isto só é útil se estiver ativado nas configurações experimentais. Se for definido como 'nunca', em seguida, Llama vai ativar outras aplicações que solicitam a sua localização."</string>
+    <string name="hrActionScreenTimeout">Tempo limite da tela</string>
+    <string name="hrActionScreenTimeoutDescription">Isso vai mudar a quantidade de tempo que a tela permanece ligada depois de ter sido tocada.</string>
+    <string name="hrActionMobileData">Dados Móveis</string>
+    <string name="hrActionMobileDataDescription">"Isso vai mudar a configuração de dados móveis. Isso não funciona no Gingerbread porque o Google deliberadamente desativou: '(Se você estiver executando o Android 2.2.1 ou inferior, você precisa ter os Dados móveis habilitado nas configurações do seu telefone para que isso funcione."</string>
+    <string name="hrActionReminder">Lembrete</string>
+    <string name="hrActionReminderDescription">Isto irá mostrar um lembrete mal muito feio na barra de notificação.</string>
+    <string name="hrActionScreenLock">Bloqueio de tela (Buggy)</string>
+    <string name="hrActionScreenLockDescription2">"Isto irá tornar o bloqueio de tela ligado e desligo. O Android não fornece uma forma permanente de fazer isso, de modo que este pode não funcionar como você espera
+
+Se a tela está ligada e desbloqueada:. N-permitindo que o bloqueio de tela não vai mostrar o bloqueio até que a tela se fique desligada
+-permitindo que o bloqueio de tela (forçado) irá desligar a tela e mostrar o bloqueio quando próximas vez
+-desativar o bloqueio de tela vai acontecer de imediato (ou seja, na próxima vez que você desligar a tela, você não vai ver o bloqueio de tela)
+
+
+Se a tela está bloqueada e desligada:
+-permitindo que o bloqueio de tela fará com que o bloqueio fique mostrando na próxima vez que a tela está ligada
+-desativar o bloqueio de tela imediatamente, fará com que a tela de bloqueio nunca apareça e pode atrapalhar o seu home / botões de pesquisa n-desativar o bloqueio de tela depois de desbloqueio irá mostrar a tela de bloqueio uma vez e depois nunca mais, até você reativá-lo.
+
+
+Se a tela está desbloqueada e ficou desligada off:..
+
+-permitindo que o bloqueio vai mostrar o bloqueio de tela após a tela tenha sido desligado e ligado uma vez n, permitindo o bloqueio (força) vai fazer a tela de bloqueio aparecer próxima vez que o screen está ligado 
+
+
+Se o botão home pára de funcionar, você não deve usar essa ação. Você também pode ter mais sorte se você usar o padrão de bloqueio em vez de um bloqueio de pin/password."</string>
+    <string name="hrActionProfileLock">Lama Bloqueio de Alterações de Perfil</string>
+    <string name="hrActionProfileLockDescription">Isso permite que você controle o bloqueio perfil de Llama. Você pode usar isso para evitar que Llama mude o seu perfil em determinados momentos.</string>
+    <string name="hrActionRunApp">Executar Aplicação</string>
+    <string name="hrActionRunAppDescription">Isso permite que você execute um aplicativo. Por favor, indique o tempo para carregar, se você tem um monte de aplicativos</string>
+    <string name="hrActionKillApp">Matar Aplicação</string>
+    <string name="hrActionKillAppDescription">Isso permite que Llama mate um aplicativo para o melhor de suas habilidades. Note-se que matar uma aplicação em Android é limitado, então isso pode não funcionar como você espera.</string>
+    <string name="hrActionKillWithRootApp">Matar Aplicação (privilégios de root)</string>
+    <string name="hrActionKillWithRootAppDescription">Isso permite que Llama matar uma aplicação à força. Isso não é recomendável e pode causar um mal funcionamento do aplicativo. Isso requer que o seu telefone esteja rooteado.</string>
+    <string name="hrConditionEnterInArea">Entrando / Na Área</string>
+    <string name="hrConditionEnterInAreaDescription">Esta condição é válida quando você entrar em qualquer das áreas selecionadas e permanece válida até que você deixe as áreas selecionadas.</string>
+    <string name="hrConditionLeaveArea">Deixar a área</string>
+    <string name="hrConditionLeaveAreaDescription">Esta condição só é válida quando você sair de qualquer das áreas selecionadas. (Veja fora das condiçoes de áreas)</string>
+    <string name="hrConditionNotInAreas">Fora das áreas</string>
+    <string name="hrConditionNotInAreasDescription">Esta condição só é válida quando você deixa todas as áreas selecionadas, e permanece válida enquanto você não estiver nessas áreas.</string>
+    <string name="hrConditionCalendarEvent">Calendário de Eventos</string>
+    <string name="hrConditionCalendarEventDescription">Esta condição é válida de acordo com os eventos atuais de seus calendários. Pode especificar o começo de um evento ou o final de um evento</string>
+    <string name="hrConditionDayOfTheWeek">Dia da semana</string>
+    <string name="hrConditionDayOfTheWeek_Description">Esta condição permite filtrar um evento para ocorrer somente em determinados dias da semana.</string>
+    <string name="hrConditionHeadset">Fone de ouvido conectado / desconectado</string>
+    <string name="hrConditionHeadsetDescription">Esta condição permite que você realize eventos quando o seu fone de ouvido ou fones de ouvido com fio são ligados ou desligados a partir do seu telefone.</string>
+    <string name="hrConditionCharging">Carregando ou Desplugado</string>
+    <string name="hrConditionChargingDescription">Esta condição permite que você realize eventos quando o telefone estiver conectado a um PC ou a um carregador, ou se está descarregando.</string>
+    <string name="hrConditionPhoneReboot">Reinicialização do telefone</string>
+    <string name="hrConditionPhoneRebootDescription">Esta condição permite que você realize eventos quando o telefone é iniciado ou antes de ser desligado.</string>
+    <string name="hrConditionBatteryLevel">Nível da Bateria</string>
+    <string name="hrConditionBatteryLevelDescription">Esta condição permite que você realize eventos quando sua bateria estiver abaixo ou acima de um determinado nível.</string>
+    <string name="hrConditionSignalLevel">Intensidade do Sinal</string>
+    <string name="hrConditionSignalLevelDescription">"Esta condição permite que você realize eventos quando a intensidade do sinal cair ou subir a um determinado nível.
+
+A condição irá mostrar uma pré-visualização do nível de sinal corrente quando você editá-lo
+nNão. Os Valores estão em dBm.
+nLlama usa -150 como Sem sinal. Note que o sinal GSM pode ficar tão baixo quanto-113dBm."</string>
+    <string name="hrConditionCarMode">Modo Carro</string>
+    <string name="hrConditionCarModeDescription">"Esta condição permite que você execute eventos quando o telefone entra ou sai do modo 'dock carro'."</string>
+    <string name="hrConditionBluetoothConnected">Dispositivo Bluetooth conectado</string>
+    <string name="hrConditionBluetoothConnectedDescription">Esta condição é válida quando qualquer um dos dispositivos Bluetooth selecionados são conectados, e permanece válida enquanto eles estão conectados ao seu telefone.</string>
+    <string name="hrConditionBluetootDeviceNotConnected">Dispositivos Bluetooth não estão ligado</string>
+    <string name="hrConditionBluetootDeviceNotConnectedDescription">Esta condição é válida somente quando nenhum dos dispositivos Bluetooth selecionados estão ligados. Ele vai acionar quando todos os dispositivos Bluetooth especificados forem desconectados.</string>
+    <string name="hrConditionBluetoothDisconnected">Dispositivo Bluetooth Desligado</string>
+    <string name="hrConditionBluetoothDisconnectedDescription">Esta condição é válida quando qualquer um dos dispositivos Bluetooth selecionados estão desconectados do telefone.</string>
+    <string name="hrConditionMusicPlayback">Reprodução de Música</string>
+    <string name="hrConditionMusicPlaybackDescription">Esta acionada por alterações no leitor de música do Android. NOTA: Diferentes fabricantes decidiram personalizar seu media player, mas não fornecem qualquer documentação para desenvolvedores de terceiros para interagir com eles.</string>
+    <string name="hrConditionTimeBetween">Entre Horas</string>
+    <string name="hrConditionTimeBetweenDescription">"Esta condição permite filtrar eventos para que eles só ocorrem em determinados períodos do dia. Você pode fazer o intervalo de tempo durante a noite (por exemplo, dez horas - seis horas) para especificar eventos que só deve ocorrer durante a noite. O 'De' tempo age como um gatilho para esse evento. Quando o tempo atingir o 'De' do tempo, Llama irá verificar outras condições do evento e executar as ações do evento."</string>
+    <string name="hrAlternativeIconColour">Cor de ícone alternativa</string>
+    <string name="hrAlternativeIconColourDescription">Se usar ícones de notificação preto ou branco (por Sense / Gingerbread)</string>
+    <string name="hrNotificationMode">Modo de Notificação</string>
+    <string name="hrNotificationModeDescription">Como informá-lo sobre alterações no perfil. Notificações em curso informa ao Android para evitar de matar a aplicação Llama</string>
+    <string name="hr12HourPickers">Use marcador de 12 horas</string>
+    <string name="hr12HourPickersDescription">Se usar marcadores de 12 horas (menos horas clicando ;)</string>
+    <string name="hrShowApnMobileData">Mostrar APN / dados móveis no Menu</string>
+    <string name="hrShowApnMobileDataDescription">Mostrar APN / dados móveis alternar no menu do Llama. DICA: Crie um atalho para a tela inicial, em vez disso</string>
+    <string name="hrSoundProfileSettings">Configurações de perfil de som</string>
+    <string name="hrLockProfilesOnChange">Bloquear mudanças de perfis na mudança de volume</string>
+    <string name="hrLockProfilesOnChangeDescription">Usado para evitar que Llama altere perfis quando você ajustar manualmente o volume usando os botões de volume</string>
+    <string name="hrUnlockProfilesAutomatically">Desbloquear Perfis automaticamente</string>
+    <string name="hrUnlockProfilesAutomaticallyDescription">Depois de bloquear perfis, desbloquear perfis depois</string>
+    <string name="hrCellTrackingSettings">Configurações de rastreamento de células</string>
+    <string name="hrIgnoreInvalidNoSignal">Ignorar inválido / Sem sinal móvel</string>
+    <string name="hrIgnoreInvalidNoSignalDescription">"Usado para evitar IDs de célula inválidas e nenhum sinal ao 'deixar' uma área"</string>
+    <string name="hrCellPollingMode">Modo de Polling celular</string>
+    <string name="hrCellPollingModeDescription">EXPERIMENTAL: Se deve acordar a CPU para controlar as alterações celulares de maneira mais confiável. Isso pode afetar a vida da bateria. Quando desligado, entrar / sair de eventos podem continuar ativo. Normalmente, isso não é um problema, porque o evento ocorrerá imediatamente quando o telefone acordar.</string>
+    <string name="hrCellPollingInterval">Intervalo Polling do celular</string>
+    <string name="hrCellPollingIntervalDescription">Quantas vezes para acordar a CPU</string>
+    <string name="hrCellPollingIntervalMinutes">Qual a frequência para acordar a CPU</string>
+    <string name="hrAlternativeLocationMethods">Localização de Métodos Alternativos</string>
+    <string name="hrExperimentalStuff">Coisas Experimentais</string>
+    <string name="hrExperimentalStuffDescription">Aqui há dragões</string>
+    <string name="hrLocationSettings">Configurações de Localização</string>
+    <string name="hrUseAndroidLocation">Use a Localização do Android</string>
+    <string name="hrUseAndroidLocationDescription">EXTREMAMENTE EXPERIMENTAL: Usar o Android para buscar locais. Áreas de lugar em um mapa, podem ser mais precisas, se você tiver WiFi habilitado, mas pode ter efeito sobre a vida da bateria</string>
+    <string name="hrUseGps">Use GPS</string>
+    <string name="hrUseGpsDescription">Use o GPS para determinar a sua localização. Isso vai comer a vida útil da bateria.</string>
+    <string name="hrAndroidLocationPollingName">Intervalo de Localização do Pooling do Android</string>
+    <string name="hrAndroidLocationPollingDescription">EXTREMAMENTE EXPERIMENTAL: Quantas vezes para verificar o seu local</string>
+    <string name="hrAndroidLocationPollingInterval">Intervalo de Localização do Pooling do Android(Minutos)</string>
+    <string name="hrWifiTrackingSettings">Configurações de rastreamento do WiFi</string>
+    <string name="hrCheckForWifiNetworks">Verifique se há redes Wi-Fi</string>
+    <string name="hrCheckForWifiNetworksDescription">EXTREMAMENTE EXPERIMENTAL: Se deve ligar o WiFi vez em quando para ver se há redes Wi-Fi próximas</string>
+    <string name="hrWifiPolling">Intervalo de Pooling do WIFI</string>
+    <string name="hrWifiPollingDescription">EXTREMAMENTE EXPERIMENTAL: Quanto tempo para verificar se há redes Wi-Fi</string>
+    <string name="hrWifiPollingInterval">Intervalo de busca do WiFi(minutos)</string>
+    <string name="hrBluetoothTrackingSettings">Configurações de rastreamento Bluetooth</string>
+    <string name="hrCheckForBluetoothDevices">Verificar se há dispositivos Bluetooth</string>
+    <string name="hrCheckForBluetoothDevicesDescription">EXTREMAMENTE EXPERIMENTAL: Se ligar Bluetooth de vez em quando para ver se há dispositivos Bluetooth descobertos próximos</string>
+    <string name="hrBluetoothPollingInterval">Intervalo de busca do Bluetooth</string>
+    <string name="hrBluetoothPollingIntervalDescription">EXTREMAMENTE EXPERIMENTAL: Quanto tempo verificar se há dispositivos Bluetooth</string>
+    <string name="hrBluetoothPollingIntervalMinutes">Intervalo de busca do Bluetooth (minutos)</string>
+    <string name="hrUserInterfaceSettings">Configurações da interface de usuário</string>
+    <string name="hrDebugSettings">Depurar configurações - coisas extremamente Geeky</string>
+    <string name="hrDebugSettingsTitle">Configurações de depuração</string>
+    <string name="hrDebugSettingsDescriptions">Configurações adicionais para fins de registro e diagnósticos</string>
+    <string name="hrEventName">Nome do evento</string>
+    <string name="hrEventNameAndGroup">Nome do evento e do grupo</string>
+    <string name="hrEventNameDescription">O nome usado para identificar este evento</string>
+    <string name="hrEnabled">Ativado</string>
+    <string name="hrEventEnabledDescription">Se Llama deverá verificar as condições deste evento e executar suas ações</string>
+    <string name="hrProfileName">Nome do perfil</string>
+    <string name="hrProfileNameDescription">O nome usado para identificar o perfil</string>
+    <string name="hrNotificationVolume">Volume de Notificação</string>
+    <string name="hrRingVibrateSilent">Toque / modo de vibração / silencioso</string>
+    <string name="hrChangeRingVibrateSilent">Alterar Toque / modo de vibração / silencioso</string>
+    <string name="hrChangeRingVibrateSilentDescription">Usado para mudar o toque, modo de vibração ou silencioso quando o perfil é ativado</string>
+    <string name="hrRingtone">Ringtone</string>
+    <string name="hrChangeRingtone">Alterar toque</string>
+    <string name="hrChangeRingtoneDescription">Usado para mudar o toque quando o perfil é ativado</string>
+    <string name="hrNotificationTone">Tom de notificação</string>
+    <string name="hrChangeNotificationTone">Alterar o padão do tom de notificação</string>
+    <string name="hrChangeNotificationToneDescription">Use para mudar o tom de notificação padrão quando o perfil é ativado</string>
+    <string name="hrMusicVolume">Volume da música / Mídia</string>
+    <string name="hrChangeMusicVolumeDescription">Use para mudar o volume da música / media quando o perfil é ativado</string>
+    <string name="hrAlarmVolume">Volume do alarme</string>
+    <string name="hrChangeAlarmVolume">Alterar o volume do alarme</string>
+    <string name="hrChangeAlarmVolumeDescription">Use para mudar o volume do alarme quando o perfil é ativado</string>
+    <string name="hrInCallVolume">Volume em chamada</string>
+    <string name="hrChangeInCallVolume">Alterar o volume durante a chamada</string>
+    <string name="hrChangeInCallVolumeDescription">Use para alterar o volume numa quando o perfil é ativado</string>
+    <string name="hrSystemSoundsVolume">Volume do som do Sistema</string>
+    <string name="hrChangeSystemSoundsVolume">Altera os volumes dos sons do sistema</string>
+    <string name="hrChangeSystemSoundsVolumeDescription">Use para alterar o volume de som do sistema quando o perfil é ativado</string>
+    <string name="hrLlamaIcon">Ícone da Llama</string>
+    <string name="hrChangeLlamaIcon">Alterar o ícone da Llama</string>
+    <string name="hrChangeLlamaIconDescription">use para mudar o ícone da Llama quando o perfil é ativado</string>
+    <string name="hrLlamaIcons">Ícones da Llama</string>
+    <string name="hrSelectALlamaIcon">Selecione um ícone da Llama</string>
+    <string name="hrRingtoneVolumeDescription">O volume para definir o toque para</string>
+    <string name="hrNotificationToneVolumeDescription">O volume para definir os tons de notificação para</string>
+    <string name="hrChooseVibrateMode">Escolha o modo Vibrar</string>
+    <string name="hrChooseVibrateModeDescription">Modo silencioso / vibratório</string>
+    <string name="hrSelectARingtone">Selecione um toque</string>
+    <string name="hrRingtones">Ringtones</string>
+    <string name="hrSelectDefaultNotificationDescription">Escolha um tom de notificação padrão</string>
+    <string name="hrNotificationTones">Tons de notificação</string>
+    <string name="hrMusicVolumeDescription">O volume para definir música / media para</string>
+    <string name="hrAlarmDescription">O volume para definir sons de alarme para</string>
+    <string name="hrInCallDescription">O volume para definir o áudio da chamada para</string>
+    <string name="hrSystemSoundDescription">O volume para definir os sons do sistema de</string>
+    <string name="hrChangeRingtoneVolume">Alterar o volume de toque</string>
+    <string name="hrChangeRingtoneVolumeDescription">Use para mudar o volume do toque quando o perfil é ativado</string>
+    <string name="hrChangeNotificationVolume">Alterar o volume de notificação</string>
+    <string name="hrChangeNotificationVolumeDescription">Se deve alterar o volume de notificação quando o perfil é ativado</string>
+    <string name="hrRingtoneVolume">Volume do toque</string>
+    <string name="hrAddAction">Adicionar Ação</string>
+    <string name="hrAddCondition">Adicionar condição</string>
+    <string name="hrRemove">Remover</string>
+    <string name="hrTestActions">Ações de teste</string>
+    <string name="hrNotificationIconOnlyError">Ongoing ícone só notificação não é suportado pelo Gingerbread e superior:(</string>
+    <string name="hrThanksToTranslators">Muito obrigado aos tradutores da Llama:</string>
+    <string name="hrUnableToUpdateArea1">"Não é possível atualizar área '%1s', porque ela não existe mais:("</string>
+    <string name="hrToggleProfileChangesLock">Alterações de perfil de alternância de bloqueio</string>
+    <string name="hrRebootBracketRequiresRootBracket">Reboot (Requer root)</string>
+    <string name="hrCarMode">Modo Carro</string>
+    <string name="hrWiredHeadset">Fone de ouvido com fio</string>
+    <string name="hrConditionsMatchAll">Condições (corresponder a todos)</string>
+    <string name="hrConditionsMatchAny">Condições (corresponde a nenhum)</string>
+    <string name="hrSorryNoHelpYet">Desculpe, nenhuma ajuda ainda: (</string>
+    <string name="hrAirplaneModeEnterAreaWarning">"Quando em Modo Avião você não será capaz de 'entrar' em todas as áreas porque você não está conectado à rede celular!"</string>
+    <string name="hrRebootSafetyMessage">"Tenha cuidado com suas condições!
+O seu telefone tem de estar ligado por pelo menos 5 minutos para que ele reinicie, por razões de segurança"</string>
+    <string name="hrShutdownSafetyMessage">"Tenha cuidado com suas condições!
+O seu telefone tem de estar ligado por pelo menos 5 minutos para que ele desligue, por razões de segurança"</string>
+    <string name="hrBluetoothParingInfo">O dispositivo Bluetooth precisa estar emparelhado com o seu telefone. Se esta lista estiver vazia, ligue o Bluetooth e tente novamente.</string>
+    <string name="hrWifiNetworkInfo">"Se esta lista estiver vazia, ligue o Wifi e tente novamente. A rede Wi-Fi deve estar na faixa ou você já deve ter ligado a ele no passado e 'lembrar'."</string>
+    <string name="hrAndroid22Only">Android 2.2 + apenas</string>
+    <string name="hrKeyGuardBuggyWarning">AVISO: Buggy! Seu botão home pode parar de funcionar até que você reative a proteção do teclado. Isso também pode fazer o seu bloqueio do cartão SIM! coisa engraçada!</string>
+    <string name="hrMobileDataWarning">EXPERIMENTAL: Você deve ter os dados móveis habilitados nas configurações!</string>
+    <string name="hrLanguageDescription">Use uma linguagem que não é a linguagem habitual do seu telefone</string>
+    <string name="hrLanguageBracketEnglishLanguageBracket">Linguagem</string>
+    <string name="hrTurnOnTheScreenDim">ligar a tela em brilho baixo</string>
+    <string name="hrTurnOnTheScreenBright">ligar a tela no brilho normal</string>
+    <string name="hrTurnOnTheScreenBrightAndKeyboard">ligar a tela e as luzes do botão de brilho normal</string>
+    <string name="hrTurnOffTheScreen">Desligar a tela</string>
+    <string name="hrErrorNotificationMode">Notificações de erro</string>
+    <string name="hrErrorNotificationModeDescription">Como informá-lo sobre os problemas que podem ocorrer quando Lama está em segundo plano, tais como erros de evento e fechamento de perfil</string>
+    <string name="hrLlamaErrorV2">Erro da Llama - Toque aqui</string>
+    <string name="hrLlamaInfoV2">Llama Info - Toque aqui</string>
+    <string name="hrLlamaProblem">Problemas com a Llama</string>
+    <string name="hrFailedToReadCalendar1">Falha ao ler calendário %1s. Você pode desativar a notificação de erros nas configurações da Llama.</string>
+    <string name="hrRevertVolumeChanges">Desativar botões de volume</string>
+    <string name="hrRevertVolumeChangesDescription">Alterar o volume de volta para a definição do perfil atual quando você acidentalmente pressionar os botões de volume.</string>
+    <string name="hrScreenOn">Tela</string>
+    <string name="hrScreenOff">Tela desligada</string>
+    <string name="hrWhenScreenIsOn">Quando o girar de tela estiver ligado</string>
+    <string name="hrWhenScreenIsOff">quando a tela desligar</string>
+    <string name="hrScreenOnOff">Tela ligada / Desligada</string>
+    <string name="hrConditionScreenOnOffDescription">Esta condição permite que você execute ou filtre eventos, dependendo de quando a tela é ligada ou desligada.</string>
+    <string name="hrAutoRelinkVolumes">Volumes de re-ligação</string>
+    <string name="hrAutoRelinkVolumesDescription">"Se para reativar o 'volume das notificações de chamadas recebidas , marque esta caixa quando um perfil com volumes correspondentes é ativado."</string>
+    <string name="hrTimeBetweenWarning">Lembre-se de criar um outro evento para quando estiver fora destes horários!</string>
+    <string name="hrConditionWifiConnected">Rede Wi-Fi conectada</string>
+    <string name="hrConditionWifiConnectedDescription">Esta condição é válida quando qualquer uma das redes WiFi selecionadas estão conectados, e permanece válida enquanto o telefone estiver conectado a elas.</string>
+    <string name="hrConditionWifiDisconnected">Rede WiFi Disconectada</string>
+    <string name="hrConditionWifiDisconnectedDescription">Esta condição é válida quando qualquer uma das redes WiFi selecionadas desconectadas ou não, e permanece válida enquanto o telefone não está ligado a nenhuma delas.</string>
+    <string name="hrWhenWifi1Disconnects">quando o telefone desliga-se de %1$s</string>
+    <string name="hrWhenWifi1Connects">quando o telefone se conecta a %1$s</string>
+    <string name="hrNoSignalUnknown">Sem sinal / desconhecido</string>
+    <string name="hrNewProfile">Novo Perfil</string>
+    <string name="hrColourEventList">Lista de eventos coloridas</string>
+    <string name="hrColourEventListDescription">Se as condições do evento de cor de acordo com seu status atual. NGreen = true, vermelho = false, sublinhado = eventos disparados durante o último evento teste</string>
+    <string name="hrActionUsbStorage">Armazenamento massivo USB</string>
+    <string name="hrActionUsbStorageDescription">Isso liga e desliga o armazenamento massivo USB. Se o fabricante do seu celular adicionadar outros modos USB (por exemplo, Media Sync, PC Suite), este pode não se comportar corretamente. DICA: Crie um atalho Llama em sua tela inicial para alternar de armazenamento USB ligado e desligado com um simples clique. Nenhuma notificação mais irritante tocando :)</string>
+    <string name="hrUsbStorageOn">Armazenamento em massa USB Ligado</string>
+    <string name="hrUsbStorageOff">Armazenamento em massa USB Desligado</string>
+    <string name="hrUsbStorageToggle">Armazenamento em massa USB Ligado / Desligado</string>
+    <string name="hrUsbStorageOnDescription">Ligar o armazenamento em massa USB</string>
+    <string name="hrUsbStorageOffDescription">desligar de armazenamento em massa USB</string>
+    <string name="hrUsbStorageToggleDescription">ligar / desligar o armazenamento em massa USB</string>
+    <string name="hrUsbToggleError">Alterar o estado de armazenamento USB quando falhar</string>
+    <string name="hrActionMediaPlayer">Média player</string>
+    <string name="hrActionMediaPlayerDescription">Isto executa uma ação media player, como um play e pausa. É semelhante ao pressionar o botão Avançar Play / Pause, anterior ou em um fone de ouvido. Isso depende do seu player de mídia para apoiar essas ações, e nem todos os players de mídia vai apoiar todas as ações.</string>
+    <string name="hrSendMedia1Button">enviar media botão %1s</string>
+    <string name="hrUnknownArea">Área desconhecida</string>
+    <string name="hrNoisyContacts">Contatos ruidosos ...</string>
+    <string name="hrNoisyContactsDescription">Selecione os contatos que será permitido substituir as configurações de campainha neste perfil.</string>
+    <string name="hrNoisyContactRingerVolume">Volume da campainha Ruidosa</string>
+    <string name="hrNoisyContactRingerVolumeDescription">O volume para definir a campainha quando um de seus contatos ruidosos ligam.</string>
+    <string name="hrNoisyContactPicker1Selected">Contato ruidoso %1s selecionado</string>
+    <string name="hr4GOn">4G Ligado</string>
+    <string name="hr4GOff">4G DesLigado</string>
+    <string name="hrActionToggle4G">4G</string>
+    <string name="hrActionToggle4GDescription">Torne o 4G ligado ou desligado, se o seu telefone suporta. Se o seu telefone não suporta, você poderá invocar um espírito de um lugar horrível.</string>
+    <string name="hrEnable4G">permitir 4G</string>
+    <string name="hrDisable4G">desativar 4G</string>
+    <string name="hr4GWarning">EXPERIMENTAL: Eu não possuo um telefone 4G para testá-lo. Doações são bem-vindas!</string>
+    <string name="hrActionRunShortcut">Executar App Atalho</string>
+    <string name="hrActionRunShortcutDescription">Inicia outro aplicativo usando o atalho especificado. Você pode usar isso para realizar todos os tipos de ações dentro de outras aplicações. Se um aplicativo não estiver listado ou a ação que você deseja executar não existe, vamos desenvolvedor em outro aplicativo.</string>
+    <string name="hrChooseAShortcutToRun">Escolha um atalho para executar</string>
+    <string name="hrRunAShortcut">"executar um atalho '%1s'"</string>
+    <string name="hrPleaseWait">Aguarde...</string>
+    <string name="hrGettingApplicationNames">Obtendo os nomes de aplicativos ...</string>
+    <string name="hrGettingShortcuts">Buscando atalhos...</string>
+    <string name="hrAnyWifiNetwork">&lt;Qualquer rede WiFi></string>
+    <string name="hrInAirplaneMode">Modo avião ativado</string>
+    <string name="hrNotInAirplaneMode">Modo Avião desativado</string>
+    <string name="hrWhenInAirplaneMode">Quando o modo avião está ativado</string>
+    <string name="hrWhenNotInAirplaneMode">Quando o modo avião está desativado</string>
+    <string name="hrConditionAirplaneMode">Modo avião</string>
+    <string name="hrConditionAirplaneModeDescription">Esta condição permite que você realize eventos quando você ativar ou desativar o modo avião.</string>
+    <string name="hrTheApocalypse">No apocalipse!</string>
+    <string name="hrEnableHapticFeedback">ligar feedback tátil</string>
+    <string name="hrDisableHapticFeedback">Desligar o feedback háptico</string>
+    <string name="hrActionHapticFeedback">Feedback Tátil</string>
+    <string name="hrActionHapticFeedbackDescription">Esta ação torna o feedback tátil ligado e desligado. Feedback háptico é a vibração que o telefone faz quando você toca nos botões na tela.</string>
+    <string name="hrHapticFeedbackOn">Feedback tátil ligado</string>
+    <string name="hrHapticFeedbackOff">Feedback tátil desligado</string>
+    <string name="hrActionScreenOnWarning">Telefones diferentes se comportam de forma diferente. Use em combinação com o brilho da tela para ajustar o brilho real.</string>
+    <string name="hrWifiSleepPolicyNever">WiFi nunca dorme</string>
+    <string name="hrWifiSleepPolicyNeverWhilePlugged">WiFi nunca dorme durante o carregamento</string>
+    <string name="hrWifiSleepPolicyScreenOff">WiFi dorme quando a tela desliga</string>
+    <string name="hrWifiSleepPolicyNeverDescription">evitar WiFi de dormir</string>
+    <string name="hrWifiSleepPolicyNeverWhilePluggedDescription">evitar WiFi de dormir enquanto conectado</string>
+    <string name="hrWifiSleepPolicyScreenOffDescription">definir WiFi para dormir logo após a tela desligar</string>
+    <string name="hrActionWifiSleepPolicy">Política de hibernação Wi-Fi</string>
+    <string name="hrActionWifiSleepPolicyDescription">Essa ação muda a configuração Wi-Fi avançado que controla quando o telefone WiFi é colocado para dormir. Observe que alguns telefones têm um atraso entre a tela sair e WiFi ao ir dormir.</string>
+    <string name="hrClearNotification">Limpá-la</string>
+    <string name="hrLeaveNotification">Deixá-lo</string>
+    <string name="hrChangeWallpaperTo1">"mudar papel de parede para '%1s'"</string>
+    <string name="hrPleaseChooseAWallpaper">Escolha um papel de parede</string>
+    <string name="hrActionWallpaper">Papel de parede</string>
+    <string name="hrActionWallpaperDescription">"Permite alterar o papel de parede da tela inicial. Isto irá usar o selecionador de papel de parede do Android para deixá-lo escolher e cortar uma imagem da sua galeria. A imagem recortada será salvo na pasta do seu cartão SD Llama / Wallpaper
+
+android não deixa aplicações alterar o Live Wallpaper:.'("</string>
+    <string name="hrHowDoIChangeOtherStuff">Onde estão as outras configurações?</string>
+    <string name="hrHowDoIChangeOtherStuffDescription">Esta tela é para perfis de som. Se você quer mudar Bluetooth, WiFi, etc, volte para a guia Eventos e criar eventos para aciona-los.</string>
+    <string name="hrConditionAppNotification">Ícone da barra de notificação do App</string>
+    <string name="hrConditionAppNotificationDescription">EXPERIMENTAL: Esta condição é acionada quando outro aplicativo coloca um ícone de notificação na barra de notificação. Você deve ter o Llama ajustado como um serviço de acessibilidade para que isso funcione. Você pode usá-lo para executar ações quando uma mensagem de SMS ou Google Talk é recebida, ou quando alguns outros aplicativos colocam um ícone na barra de notificação. Trabalho em andamento, GEEKS APENAS.</string>
+    <string name="hrConditionAppNotificationWarning">EXPERIMENTAL: Coloque a Llama em configurações de acessibilidade do Android!</string>
+    <string name="hrKillWithRootDieDieDie1">Matar %1s com privilégios de root!</string>
+    <string name="hrInvalidPackageNameToKill1">"Não pode matar o pacote '%1s' porque seu nome é inválido"</string>
+    <string name="hrIgnored">Ignorado</string>
+    <string name="hrUnignoreCell">Célula ignorada</string>
+    <string name="hrIgnoreCell">Ignorar celula</string>
+    <string name="hrIgnoreCells">Ignorar celulas</string>
+    <string name="hrNoCellsIgnoredLongTapRecentTab">Quando alguma célula é ignorada. Pressione longamente uma célula na guia Recente para ignorá-la.</string>
+    <string name="hrIgnoreOtherCells">Outras células ignoradas ...</string>
+    <string name="hrIgnoreOtherCellsDescription">Às vezes você pode ter uma célula que aparece brevemente em duas áreas. Você pode ignorar essas células para que elas não te leve a deixar uma área. Toque na aba recente para ver as células ignoradas.</string>
+    <string name="hrAndFinally">E, finalmente ...</string>
+    <string name="hrCalendarEventDialogEventNameContains">O Nome do evento contém ... (Vários nomes separados com uma linha vertical)</string>
+    <string name="hrCalendarEventDialogInCalendars">Em calendários ...</string>
+    <string name="hrThisAreaHasNotBeenDefinedLongTapItOrLookInTheRecentTab">Esta área não foi definido ainda. Pressione Longamente para começar a aprender sobre antenas de telefonia próximas ou toque em nos itens da guia Recente para começar a definir nesta área.</string>
+    <string name="hrActionScreenBrightnessWarning">Telefones diferentes tratam o brilho da tela de maneira diferente. Você pode ter que virar a tela e desligar antes que a alteração tenha efeito.</string>
+    <string name="hrAnyCalendarEvent">qualquer evento de calendário</string>
+    <string name="hrAnyCalendar">qualquer calendário</string>
+    <string name="hrCalendarEvents1ContainsAnyEvent">%1$s tem quaisquer eventos do calendário</string>
+    <string name="hrCalendarEvents1DoesNotContainAnyEvent">%1$s não tem nenhum calendário de eventos</string>
+    <string name="hrCalendarEvents1Contains2">%1$s tem um calendário de eventos nomeado para %2$s</string>
+    <string name="hrCalendarEvents1DoesNotContains2">%1$s não tem um calendário de eventos nomeado para %2$s</string>
+    <string name="hrCalendarEvents1ContainsAnyEventDescription">quando %1$s tem quaisquer eventos do calendário</string>
+    <string name="hrCalendarEvents1DoesNotContainAnyEventDescription">quando %1$s não possui eventos do calendário</string>
+    <string name="hrCalendarEvents1Contains2Description">quando %1$s tem um calendário de eventos nomeado para %2$s</string>
+    <string name="hrCalendarEvents1DoesNotContains2Description">quando %1$s não tem um calendário de eventos nomeado para %2$s</string>
+    <string name="hrCalendarEventNameSpaceWarning">Alguns de seus nomes do calendário de eventos têm espaços antes ou depois deles. Alguns teclados Android inserem espaços automaticamente. Se você não tinha a intenção desses espaços de estarem lá, pressione remover espaços.</string>
+    <string name="hrRemoveSpaces">Remover espaços</string>
+    <string name="hrLeaveSpaces">Deixar espaços</string>
+    <string name="hrOnStartUp">depois de iniciar</string>
+    <string name="hrOnShutdown">Antes de desligar</string>
+    <string name="hrWhenPhoneBoots">quando o telefone começa a funcionar</string>
+    <string name="hrWhenPhoneShutsdown">quando o telefone desliga-se</string>
+    <string name="hrEnableRotation">Ativar a rotação</string>
+    <string name="hrDisableRotation">Desativar a rotação</string>
+    <string name="hrActionScreenRotation">Rotação da tela</string>
+    <string name="hrActionScreenRotationDescription">Isto te permite mudar se o seu telefone gira a tela quando você gira o telefone. A maioria dos celulares só permitem a rotação a ser bloqueado para o modo retrato ou automaticamente alternar entre retrato e paisagem.</string>
+    <string name="hrAllow1Rotations">permita que a tela gire %1s</string>
+    <string name="hrLockProfileFor1">bloquear perfil para %1s</string>
+    <string name="hrForeverEternity">eternidade (Use a aba Perfil de utilização para re-ativar)</string>
+    <string name="hrLockProfileForever">bloquear perfil para sempre</string>
+    <string name="hrAlsoPreventOtherEventsFromChangingProfilesForDotDotDot_1">Também activar o bloqueio do perfil. Outros eventos não serão capaz de alterar o perfil. Quando este número de minutos passar, Llama vai voltar para o perfil anterior.</string>
+    <string name="hrCarDockOnOffDescription">ligar / desligar o modo carro</string>
+    <string name="hrCarDockOnOff">Ativar o modo de carro Liga / Desligado</string>
+    <string name="hrCarDockOffDescription">desligar o modo carro</string>
+    <string name="hrCarDockOff">Tornar o modo carro desligado</string>
+    <string name="hrCarDockOnDescription">ativar o modo carro</string>
+    <string name="hrCarDockOn">Transforme em modo carro</string>
+    <string name="hrActionCarMode">Modo Carro</string>
+    <string name="hrActionCarModeDescription">Esta ação ativa o modo de carro em ligado e desligado manualmente. Somente suportado pelo Android 2.2 +.</string>
+    <string name="hrCarModeNotSupportedByPhone">Modo carro só é suportado pelo Android 2.2 +</string>
+    <string name="hrFailedToStartShortcut1">Falha ao iniciar o atalho %1s</string>
+    <string name="hrLlamaFailedToChangeApnSettings">Lama não conseguiu alterar as configurações de APN</string>
+    <string name="hrErrorReadingContacts">Erro na leitura dos contatos</string>
+    <string name="hrThereWasAnErrorReadingYourContacts">Houve um erro na leitura de seus contatos: (</string>
+    <string name="hrAlarmVolumeWarning">Cuidado com os aplicativos de despertador que controlam o seu próprio volume do alarme. Por exemplo, alguns celulares da Samsung. Por favor, instale um outro app de alarme do Google Play que não faz isso.</string>
+    <string name="hrRunIntent1">"executar uma intenção Android '%1s'"</string>
+    <string name="hrCreateAnIntent">Definir uma intenção Android</string>
+    <string name="hrActionAndroidIntent">Intenção Android</string>
+    <string name="hrActionAndroidIntentDescription">Isso permite que você inicie uma Intenção Android. Esta é uma função muito avançada e precisa da cooperação de aplicativos de terceiros. Llama vem com algumas Intenções pré-definidas. Se você tiver uma boa, por favor, deixe que outras pessoas saibam sobre ela :)</string>
+    <string name="hrPreset">Predefinido</string>
+    <string name="hrDashDashOrDashDash">-- OU --</string>
+    <string name="hrIntentEditPackageName">Nome do pacote</string>
+    <string name="hrIntentEditClassName">Nome da classe</string>
+    <string name="hrIntentEditAction">Ação</string>
+    <string name="hrIntentEditCategory">Categorias (vírgula /pipe separado)</string>
+    <string name="hrIntentEditData">Dados</string>
+    <string name="hrIntentEditDateType">Tipo de dados</string>
+    <string name="hrCustomAndroidIntent">Intenção android personalizada</string>
+    <string name="hrIntentEditExtras">Extras</string>
+    <string name="hrIntentEditAddExtra">"Adicionar nova linha 'extra'"</string>
+    <string name="hrTpiWidgetLockerEnable">Widget Locker: Ativar</string>
+    <string name="hrTpiWidgetLockerDisable">Widget Locker: Desativar</string>
+    <string name="hrTpiWidgetLockerSuspend">Widget Locker: Suspender</string>
+    <string name="hrTpiWidgetLockerResume">Widget Locker: Retomar</string>
+    <string name="hrTpiWidgetLockerActivate">Widget Locker: Bloqueio</string>
+    <string name="hrTpiWidgetLockerUnlock">Widget Locker: Desbloqueio</string>
+    <string name="hrTpiBeautifulWidgetsRefresh">Lindos Widgets: Atualizar</string>
+    <string name="hrTpiAndroidStartHome">Android: tela home inicial</string>
+    <string name="hrTpiHoursBankStartStop">Banco de Horas: Iniciar / parar</string>
+    <string name="hrTpiDrivingModeWidgetOn">Direção Widget Modo: Ligado</string>
+    <string name="hrTpiDrivingModeWidgetOff">Direção Widget Modo: Desligado</string>
+    <string name="hrIntentEditSendMode">Intenção modo de envio</string>
+    <string name="hrAdvancedDotDotDot">Avançado ...</string>
+    <string name="hrEventAdvancedDescription2">Se este evento está atrasado ou repetindo, requer confirmação e filtros de gatilho</string>
+    <string name="hrRepeatEvent">Repita evento</string>
+    <string name="hrRepeatEventDescription">Se as ações deste evento continuam disparando enquanto as condições se mantém</string>
+    <string name="hrRepeatEventMinutes">Repita o intervalo</string>
+    <string name="hrRepeatEventMinutesDescription">O número de minutos entre cada repetição de ações deste evento.</string>
+    <string name="hrDelayEvent">Atraso do evento</string>
+    <string name="hrDelayEventDescription">Se as ações deste evento são executadas imediatamente ou que são executadas depois de esperar um determinado número de minutos.</string>
+    <string name="hrDelayEventMinutes">Minutos de atraso</string>
+    <string name="hrDelayEventMinutesDescription">O número de minutos que deve passar entre este evento que está sendo acionado e as ações que estão sendo desencadeadas.</string>
+    <string name="hrDelayEventSeconds">Atraso em segundos</string>
+    <string name="hrDelayEventSecondsDescription">O número de segundos adicionais que devem passar entre este evento que está sendo acionado e as ações que estão sendo desencadeadas (para pessoas com reações rápidas ou OCD :)</string>
+    <string name="hrCancelDelayedEvent">Cancelar atraso se for falso</string>
+    <string name="hrCancelDelayedEventDescription">Se marcado, as ações de um atraso do evento não será acionada se suas condições não são verdadeiras.</string>
+    <string name="hrEventRequireConfirmation">Requer confirmação</string>
+    <string name="hrEventRequireConfirmationDescription">Se as ações deste evento só serão executadas depois de confirmados através de uma notificação.</string>
+    <string name="hrMoreInfoDotDotDot">Mais info ...</string>
+    <string name="hrEventAdvancedDetailedDescription">"Se mais de uma opção avançada é selecionada:
+
+A confirmação não será mostrada até após o atraso
+
+O evento repetido não vai começar a repetir o atraso e/ou confirmação.."</string>
+    <string name="hrRepeatTriggerName">Evento repetido</string>
+    <string name="hrAfterDelayTriggerName">Evento atrasado</string>
+    <string name="hrConfirmationTriggerName">Confirmado pelo usuário</string>
+    <string name="hrEventNameTriggerName">Nome do evento</string>
+    <string name="hrEventNameTriggerShortcutName">Nome do Atalho do evento</string>
+    <string name="hrEventNameTriggerShortcutCustom">Atalho personalizado</string>
+    <string name="hrEventNameTriggerEventEditor">Editor de evento de teste</string>
+    <string name="hrEventNameTriggerEventList">Lista de eventos de teste</string>
+    <string name="hrEventNameTriggerSetLlamaVariableIntent">Configure uma variável Llama Externa</string>
+    <string name="hrEventNameExternalSetLlamaVariable">Configure uma variável Llama Externa</string>
+    <string name="hrTheEventNamed1NoLongerExists">"O evento denominado '%1s' não existe mais."</string>
+    <string name="hrWifiAccessPointMayNotBeSupported">WifiAccessPoint podem não ser suportados por seu telefone.</string>
+    <string name="hrEvent1RequiresConfirmation">"O evento chamado '%1$s' requer confirmação para executar estas ações:"</string>
+    <string name="hrEventRequiresConfirmationFooter">Você pode executar essas ações agora, guardá-las para mais tarde, ou desmarcar a notificação.</string>
+    <string name="hrEventRequireConfirmationDialog">Diálogo de confirmação</string>
+    <string name="hrEventRequireConfirmationDialogDescription">Se vai interromper sua atividade atual para mostrar uma caixa de diálogo, ou apenas colocar um ícone na barra de notificação.</string>
+    <string name="hrEventConfirmationRunNow">Executar agora</string>
+    <string name="hrEventConfirmationSaveForLater">Mais tarde</string>
+    <string name="hrEventConfirmationDontRun">Limpar</string>
+    <string name="hrRepeatingAt1">(Repetindo em %1s)</string>
+    <string name="hrDelayedUntil1">(Adiada até %1s)</string>
+    <string name="hrAwaitingConfirmation">Aguardando confirmação)</string>
+    <string name="hrWifiHotSpotOnOffDescription">ligar / desligar o modo hotspot WiFi</string>
+    <string name="hrWifiHotSpotOnOff">Tornar ligado e desligado o hotspot WIFI</string>
+    <string name="hrWifiHotSpotOffDescription">desligar Wi-Fi hotspot</string>
+    <string name="hrWifiHotSpotOff">Desligar o modo hotspot WiFi</string>
+    <string name="hrWifiHotSpotOnDescription">Ligar o modo hotspot WiFi</string>
+    <string name="hrWifiHotSpotOn">Ligar o modo hotspot WiFi</string>
+    <string name="hrActionWifiHotSpot">Wi-Fi hotspot</string>
+    <string name="hrActionWifiHotSpotDescription">Esta ação aciona o hotspot WiFi manualmente. Somente suportado pelo Android 2.2 +.</string>
+    <string name="hrScreenBrightnessWarning">Nem todos os telefones Android são criados iguais. Alguns telefones não vai responder às mudanças de brilho até que a tela tenha sido desligada e ligada novamente.</string>
+    <string name="hrScreenBrightnessLowWarning">AVISO: Alguns telefones que permitem definir o brilho da tela tão baixo que você não pode ver a tela. Prossiga por sua conta e risco! Você deve ser capaz de remover a bateria e reiniciar para voltar ao normal.</string>
+    <string name="hrSpeakerphoneOnOffDescription">ligar / desligar o modo viva-voz</string>
+    <string name="hrSpeakerphoneOnOff">tornar o viva-voz ligado / desligado</string>
+    <string name="hrSpeakerphoneOffDescription">desligar viva-voz</string>
+    <string name="hrSpeakerphoneOff">Desligar o autofalante</string>
+    <string name="hrSpeakerphoneOnDescription">Ligar o autufalante</string>
+    <string name="hrSpeakerphoneOn">Ligar o viva-voz</string>
+    <string name="hrActionSpeakerphone">Autofalante</string>
+    <string name="hrActionSpeakerphoneDescription">Essa ação torna as chamadas em viva-voz ligada e desligada. Ela afeta apenas chamadas telefônicas e não os outros tipos de áudio (por exemplo, música)</string>
+    <string name="hrDeviceAdminDescription">Fornece suporte para algumas ações Lama</string>
+    <string name="hrDeviceAdminNotSupported">Dispositivo como Administrador só é suportado em Android 2.2 +</string>
+    <string name="hrDeviceAdminError">A Lama não foi concedido privilégios de administrador do dispositivo. Ver Localização e configurações de segurança do Android.</string>
+    <string name="hrScreenOffError">Não foi possível virar a tela desligada.</string>
+    <string name="hrActionChangePassword">Senha de bloqueio de tela</string>
+    <string name="hrActionChangePasswordDescription">Isso muda a senha de bloqueio de tela. Você pode usá-lo para limpar temporariamente a senha para que o bloqueio de tela não mostra. Esta senha será armazenada em um formato criptografado, que pode ser escrito no seu cartão SD, se um erro de dados Llama ocorre ou se você exporte seus dados manualmente. A senha será criptografada usando a senha de segurança Llama em ambientes de lama, o que nunca é armazenado no seu cartão SD. No entanto, outros aplicativos com permissão de root pode ser capaz de ler a Senha de segurança lama! Se você modificar a sua Senha de segurança Llama você terá que digitar novamente a senha Alterar senha da ação.</string>
+    <string name="hrChangePasswordError">Não foi possível alterar a senha de bloqueio de tela.</string>
+    <string name="hrThereWasAnErrorSavingYourPassword">Houve um erro ao salvar a senha de bloqueio de tela. Você pode ter alterado a senha de segurança Llama. Por favor, tente entrar novamente com a senha de bloqueio de tela.</string>
+    <string name="hrFailedToDecryptYourPassword">Falha ao descriptografar a senha de bloqueio de tela, por isso não foi alterado.</string>
+    <string name="hrSecuritySettings">As configurações de segurança</string>
+    <string name="hrLlamaSecurityPassword">Llama senha de segurança</string>
+    <string name="hrLlamaSecurityPasswordDescription">Isso é usado para criptografar as informações confidenciais definidas em eventos. por exemplo, a senha de bloqueio de tela</string>
+    <string name="hrLlamaSecurityPasswordDescriptionEx">"Isso é usado para criptografar informações confidenciais definida em eventos (por exemplo: senha de bloqueio de tela). Isso é para que informações confidenciais não seja escrita em texto simples para o cartão SD, se você exportar seus dados.
+Se essa senha for alterada, será necessário redefinir as ações de senhas de bloqueio de tela que você usou.
+ 
+Você não precisará desta senha novamente, a menos que você mude telefones ou reinstalar a Llama."</string>
+    <string name="hrSetLlamaSecurityPasswordNow">Você deve definir uma senha de segurança Llama. Isto é usado para informações sensíveis protegida quando os eventos são gravados no seu cartão SD. É separada da senha de bloqueio ou a senha da conta Google. Você deseja definir uma senha de segurança Llama agora?</string>
+    <string name="hrPleaseEnterALlamaSecurityPassword">Por favor insira uma senha de segurança Llama, ou pressione Cancelar para manter a sua senha já existente</string>
+    <string name="hrChangeScreenLockPassword">alterar a senha de bloqueio de tela</string>
+    <string name="hrQueueEventActionValidation">O evento em fila deve conter, pelo menos, um estado, ou seja, pelo menos, após a fila de espera de um minuto.</string>
+    <string name="hrActionQueueEvent">Fila de mais um evento</string>
+    <string name="hrActionQueueEventDescription">"Isso permite que você crie um evento único. É possível utilizá-lo para executar um outro conjunto de acções depois de um certo período de tempo. Um novo evento foi acionado uma vez, ele será excluído.
+Se você definir tanto o número de minutos de fila e adicionar condições, o evento na fila só irá disparar se essas condições forem verdadeiras.
+Se você definir apenas as condições , o evento na fila só será acionado quando essas condições são acionados."</string>
+    <string name="hrQueueEventMinutes">Atraso de fila</string>
+    <string name="hrQueueEventSeconds">Atraso de fila em segundos</string>
+    <string name="hrQueueEventMinutesDescription">O número de minutos após o evento original acionado que este evento deve aguardar antes de verificar suas condições e executar suas ações.</string>
+    <string name="hrQueueEventSecondsDescription">O número de segundos após o evento original acionado que este evento deve aguardar antes de verificar suas condições e executar suas ações.</string>
+    <string name="hrQueueAnEventNamed1After2Minutes">"fila de um evento chamado '%1$s' depois de %2$s minutos"</string>
+    <string name="hrQueueAnEventNamed1After2Seconds" formatted="false">"%2$s segundos fila de um evento chamado '%1$s' após %"</string>
+    <string name="hrQueueAnEventNamed1After2Minutes3Seconds">"fila de um evento chamado '%1$s' depois de %2$s minutos e %3$s segundos"</string>
+    <string name="hrQueueAnEventNamed1">"fila de um evento chamado '%1$s'"</string>
+    <string name="hrWaitFor1Minutes">Espere por %1$s minutos</string>
+    <string name="hrWaitFor1Seconds">Espere por %1$s segundos</string>
+    <string name="hrWaitFor1Minutes2Seconds">Espere por %1$s minutos e %2$s segundos</string>
+    <string name="hrConditionAbbr">C</string>
+    <string name="hrActionAbbr">A</string>
+    <string name="hrYouHaveFiltersActive">Alguns eventos estão escondidos pelo seu filtro!</string>
+    <string name="hrEnterAScreenLockPassword">Digite uma senha de bloqueio de tela:</string>
+    <string name="hrConfirmScreenLockPassword">Confirme sua senha de bloqueio de tela:</string>
+    <string name="hrPasswordsDontMatch">As senhas não coincidem. Por favor, tente novamente.</string>
+    <string name="hrPasswordHidden">Senha escondida</string>
+    <string name="hrPasswordErrorPleaseReenterItAgain">Erro de senha, por favor redigite-a.</string>
+    <string name="hrEventActionAndConditionSettings">Ação de evento e as configurações de condição</string>
+    <string name="hrDefaultReminderTone">Tom de notificação de Lembrete</string>
+    <string name="hrDefaultReminderToneDescription">O tom de notificação para tocar quando você usar a ação lembrete</string>
+    <string name="hrWaitForConditions">Esperar por condições</string>
+    <string name="hrLongerProfileLock">Longo bloqueio de perfil</string>
+    <string name="hrLongerProfileLockDescription">Se a barra de bloqueio de perfil deve mostrar 8 horas ou 24 horas.</string>
+    <string name="hrCellPolling">Configurações de pooling de células</string>
+    <string name="hrCellPollingDescription">Llama normalmente trabalha de forma passiva usando o celular conectado no momento. Essas configurações ajustar método polling célula alternativa do lama.</string>
+    <string name="hrCellPollingWithWakeLock">Acordado em pooling</string>
+    <string name="hrCellPollingWithWakeLockDescription">Se deve forçar o telefone para ficar acordado quando está tentando ver se a célula foi alterada. Alguns telefones podem precisar disso.</string>
+    <string name="hrCellPollingWithScreenWakeLock">Tela ligada em pooling</string>
+    <string name="hrCellPollingWithScreenWakeLockDescription">Se deve ligar a sua tela por alguns instantes. AVISO: Ligando e desligando a tela milhares de vezes por dia pode danificá-la. Eu não tenho idéia o que isso pode causar, use por seu próprio risco.</string>
+    <string name="hrCellPollingActiveInterval">Tempo de ativo de célula em pooling</string>
+    <string name="hrCellPollingActiveIntervalMillis">O número de milissegundos para manter potencialmente o dispositivo acordado. Você provavelmente não deve defini-la por mais de 5 segundos, se você valoriza a vida da bateria.</string>
+    <string name="hrConfirmationTriggeredBy1Condition">Confirmação desencadeada pela condição %1s</string>
+    <string name="hrDelayTriggeredBy1Condition">Atraso iniciado pela condição %1s</string>
+    <string name="hrEventDelayCancelled">Atraso cancelado porque as condições não eram mais atendidas</string>
+    <string name="hrEventRepeatingCancelled">Repetindo cancelado porque as condições não eram mais atendidas</string>
+    <string name="hrSetLlamaVariable1To2">"Ajuste a variável chamada Llama chamada '%1$s' para '%2$s'"</string>
+    <string name="hrPleaseEnterAVariableName">Por favor insira um nome de variável Llama</string>
+    <string name="hrPleaseEnterAVariableValue">Por favor insira um valor da variável Llama</string>
+    <string name="hrVariableName">Nome da variável</string>
+    <string name="hrVariableValue">Valor da variável(Pode ser em branco)</string>
+    <string name="hrActionSetLlamaVariable">Variável Llama</string>
+    <string name="hrActionSetLlamaVariableDescription">Llama permite armazenar um texto que outros eventos podem agir sobre ele, permitindo que você crie conjuntos terrivelmente complexo de eventos. Você pode armazenar texto em variáveis ??nomeadas. Você pode ter várias variáveis ??nomeadas. Como um bônus adicional, as variáveis ??são enviadas para Widget de texto minimalista (MTW). O MTW sabe o nome da variável como variável Locale.</string>
+    <string name="hrDonateRequiresMarket">Houve um problema ao abrir o Google Play. As doações só podem ser feitas por meio do Google Play.</string>
+    <string name="hrWhen1HasAValueOf2">"quando '%1$s' tem um valor de '%2$s'"</string>
+    <string name="hrWhen1DoesNotHaveAValueOf2">"quando '%1$s' não tem um valor de '%2$s'"</string>
+    <string name="hrWhen1HasAValueGreaterThan2">"quando '%1$s' tem um valor maior do que '%2$s'"</string>
+    <string name="hrWhen1HasAValueGreaterThanOrEqualTo2">"quando '%1$s' tem um valor maior do que ou igual a '%2$s'"</string>
+    <string name="hrWhen1HasAValueLessThan2">"quando '%1$s' tem um valor menor do que '%2$s'"</string>
+    <string name="hrWhen1HasAValueLessThanOrEqualTo2">"quando '%1$s' tem um valor inferior ou igual a '%2$s'"</string>
+    <string name="hrConditionLlamaVariable">Variável Llama</string>
+    <string name="hrConditionLlamaVariableDescription">Este é utilizado em conjunção com a ação variável Llama. Você pode usá-lo para criar eventos usando os valores atuais das variáveis Llama.</string>
+    <string name="hrVariables">Variáveis Llama</string>
+    <string name="hrAreYouSureYouWantToClearVariables">"Você realmente quer limpar seus nomes e valores de variáveis?
+nIsto só deve ser feito para repor o uso da variável. Não vai desencadear eventos."</string>
+    <string name="hrNoVariablesSet">"Nenhuma variável definida. Criar um evento que tem ação um Llama Variável 'para começar a usar variáveis. A variável não terá seu valor definido até o evento que define seu valor for executado pela primeira vez."</string>
+    <string name="hrConfirmationDeniedTriggerName">Confirmação negada</string>
+    <string name="hrForceNoisyContactRingtone">Forçar ringtone de contato ruidoso</string>
+    <string name="hrForceNoisyContactRingtoneDescription">Alguns telefones não começam a tocar uma campainha quando em silêncio. Faça Llama tocar em seu lugar. Desmarque se você ouvir dois toques.</string>
+    <string name="hrRepeatingEventWithNoConditionsWarning">"Este evento repetido não tem condições, por isso nunca será acionado.
+
+Se você quer que ele repita sempre considerar a adição de uma reinicialização do Telefone / condição de inicialização.
+
+ Você quer adicionar isto agora?"</string>
+    <string name="hrNotificationIconDots">Número de pontos</string>
+    <string name="hrColour">Cor</string>
+    <string name="hrTheNumberOfDotsToShowOnTheIcon">O número de pontos a ser exibido no ícone.</string>
+    <string name="hr1Dots">%1s pontos</string>
+    <string name="hr1Dot">%1s ponto</string>
+    <string name="hrWith">com</string>
+    <string name="hrDontChangeDots">Não altere pontos</string>
+    <string name="hrPleaseChooseASoundToPlay">Por favor, escolha um som para tocar</string>
+    <string name="hrNotificationIconMustChangeTheIconOrNumberOfDots">Ícone de notificação precisa alterar o ícone ou o número de pontos</string>
+    <string name="hrActionSoundPlayer">Tocar um som</string>
+    <string name="hrActionSoundPlayerDescription">"Isto irá tocar um tom de toque ou notificação. Você pode escolher o fluxo de áudio que deve reproduzir o som. Cada um dos fluxos de áudio tem seu próprio nível de volume, que Llama controla através de seus perfis.
+
+O som será reproduzido até que ele termine e mais sons serão enfileirados. Para parar a reprodução de sons, use o ícone de notificação que aparece quando reproduz sons. Este ícone pode ser desligado nas configurações do Llama."</string>
+    <string name="hrRingtonePickerType">Tipo de Ringtone</string>
+    <string name="hrPlaySound1">"reproduzir o som '%1s'"</string>
+    <string name="hrEventColonSoundDescription">"%1$s: Tocando '%2$s'"</string>
+    <string name="hrChooseARingToneToPlay">Escolha um ringtone</string>
+    <string name="hrNoneSelected">nenhum selecionado</string>
+    <string name="hrCurrentRingtoneColon1">Ringtone atual: %1s</string>
+    <string name="hrErrrMusicDescription">"Seletor de toque padrão do Android não deixa você escolher a música como ringtones. No entanto, porque o Android é mais esperto do que o seu concorrente à base de frutas, você pode usar outro selecionador ringtone!
+ 
+I'd recomendar Anéis prorrogado por Googler Dianne Hackborn.
+ Você provavelmente deve ignorar quaisquer aplicativos que pretende dar música livre ou tentar inscrevê-lo para um £ 5 ringtone-of-the-semana. Quem usa esses serviços é um idiota.nAnyways, você deseja pesquisar Google Play para um selecionador ringtone alternativa?"</string>
+    <string name="hrNoisyLlamaTapToStop">Llama Noisy - Toque para parar</string>
+    <string name="hrProblemStartingAndroidMarket">Houve um problema ao iniciar Google Play: (</string>
+    <string name="hrUseTheNotificationToStopPlaying">Use a notificação para parar o som. Torná-lo ligado / desligado em ambientes do Llama.</string>
+    <string name="hrBulkOperations">Operações em massa</string>
+    <string name="hrBulkOperationsDescription">Maneiras rápidas de fazer algumas coisas avançadas.</string>
+    <string name="hrBulkDeleteCellsFromAreas">Eliminar células de áreas. Útil para quando você muda de rede móvel.</string>
+    <string name="hrBulkDeleteMapPointsFromAreas">Excluir pontos do mapa de áreas</string>
+    <string name="hrBulkDeleteWifiMacFromAreas">Excluir wi-fi de endereços MAC de áreas</string>
+    <string name="hrBulkDeleteWifiNameFromAreas">Excluir nomes de rede Wi-Fi a partir de áreas</string>
+    <string name="hrBulkDeleteBluetoothFromAreas">Excluir dispositivos bluetooth de áreas</string>
+    <string name="hrBulkDeleteBeaconWarning">Você tem certeza que quer fazer isto? Faça um backup caso você queira mudar de idéia. Você deve sair e reiniciar o Llama depois de fazer isso.</string>
+    <string name="hrActionTwoGThreeG">2G/3G (apenas telefones Modificados)</string>
+    <string name="hrActionTwoGThreeGDescription">"** ISTO SÓ FUNCIONA EM TELEFONES QEU FORAM HACKEADOS / MODIFICADOS PARA SUPORTÁ-LO ** Você precisa ter o CyanogenMod 7 + instalado em seu telefone para que isso tenha qualquer efeito. Esta é uma limitação do Android. O Android normalmente não deixa aplicativos de terceiros controlar o tipo de rede.
+sso permite que você defina o tipo de rede que seu telefone irá se conectar. Faça algumas pesquidas no Google para encontrar o seu tipo de rede, mas provavelmente serão estas:
+nEurope - GSM/WCDMA
+USA - ou GSM/ WCDMA e CDMA"</string>
+    <string name="hrGpsEnableWarning">Isso pode não funcionar! GPS só pode ser alterado no Android 2.2 e inferior, ou alguns telefones modificados. Esta é uma limitação relacionada à segurança do Android para evitar que aplicativos espionem você.</string>
+    <string name="hrActionKillAppWarning">Isso pode não funcionar! Android 2.2 e superior limita a eficácia das aplicações matando outros apps. Se você tiver Hackeado /Rooteado seu telefone, tente a alternativa matar ação do aplicativo.</string>
+    <string name="hrMilliAbbreviation">ms</string>
+    <string name="hrDelayFor1">atraso para %1s</string>
+    <string name="hrRepeatedEventEditWarning">Você editou um evento repetido. Você quer verificar se suas condições são válidas para que ele possa começar a repetir?</string>
+    <string name="hrQueuedEventDefaultName">Evento na fila</string>
+    <string name="hrQueuedEventChangeDefaultNameTip">Todos os nomes de eventos devem ser exclusivos. Seu evento na fila não pode ser recriado se outro evento já existe com o mesmo nome! Por favor, altere o nome do evento na fila.</string>
+    <string name="hrCalendarEventDialogExtraEventSettings">Você também pode filtrar os eventos com base no tipo de evento e disponibilidade. Se você deixar o calendário e a caixa do nome do evento em branco, a sua condição será de responder apenas aos eventos que correspondem durante todo o dia ou disponibilidade, etc &lt;br>&lt;br> NOTA: Nem todos os provedores de calendário são iguais (por exemplo, alguns aplicativos MS Exchange); &lt;u> clique aqui para ver o calendário debug View do Llama &lt;/u> e ver o que Llama pensa que está acontecendo.</string>
+    <string name="hrCalendarDebugTitle1">Eventos nos próximos %1s minutos</string>
+    <string name="hrCalendarEventMustBe">deve ser</string>
+    <string name="hrAllDay">durante todo o dia</string>
+    <string name="hrNotAllDay">nem todos os dias</string>
+    <string name="hrShownAsAvailable">mostrado como disponíveis</string>
+    <string name="hrNotShownAsAvailable">não mostrado como disponíveis</string>
+    <string name="hrYourDeviceDoesNotSupportDeviceAdmin">O seu dispositivo não suporta o recurso do Administration do dispositivo Android:(</string>
+    <string name="hrAlsoThanksTo">Também graças a:</string>
+    <string name="hrConditionAudioBecomingNoisy">Áudio se tornando barulhento</string>
+    <string name="hrConditionAudioBecomingNoisyDescription">Isso é acionado quando um fone de ouvido Bluetooth ou headset com fio está desligado. Alguns telefones podem responder a isso mais rápido do que em outras condições.</string>
+    <string name="hrWhenAudioBecomesNoisy">quando o áudio torna-se ruidoso</string>
+    <string name="hrConditionDeskDock">No Desk Dock</string>
+    <string name="hrConditionDeskDockDescription">Esta condição permite que você realiza eventos quando o telefone é colocado em uma doca de mesa. N nNote que o seu telefone tem de suportar a forma normal Android de ser colocado em uma doca de mesa. Alguns fabricantes gostam de personalizar este e não se comportam adequadamente. Além disso, alguns secretária docas são realmente desagradáveis ??caroços baratas de plástico, ao invés de docas reais, para que o seu telefone não sei se ele está encaixado.</string>
+    <string name="hrInDeskDock">Em um Desk Dock</string>
+    <string name="hrNotInDeskDock">Fora de um Desk Dock</string>
+    <string name="hrWhenInDeskDock">quando em um Desk Dock</string>
+    <string name="hrWhenNotInDeskDock">quando fora de um Desk Dock</string>
+    <string name="hrActionSpeak">Falar</string>
+    <string name="hrActionSpeakDescription">"Faça seu Llama falar com você com uma voz robótica. Você pode fazê-lo falar variáveis L??lama cercando o nome da variável com duas hashes. Por exemplo 'Lock está habilitado para' ##LockEnabled##"</string>
+    <string name="hrSay1">"diga '%1s'"</string>
+    <string name="hrActionLocalePlugin">Localizar Plugin</string>
+    <string name="hrActionLocalePluginDescription">"EXPERIMENTAL ** ** 
+Isto permite que os plugins de terceiros executem o popular Locale app. Locale plugins estão disponíveis no Google Play. Alguns são gratuitos, outros precisam que você pague por eles. Llama não garante que ele vai funcionar com qualquer um deles!
+
+Não há atualmente um problema com plugins que contam com textos e ícones do Locale. Estes podem não ser exibidos corretamente, mas ainda deve funcionar.
+
+Quando você configurar um plugin Locale você precisará pressionar MENU para salvar as alterações. A última opção no botão do MENU onde normalmente ele é salvo."</string>
+    <string name="hrLocalePluginConfigMessage">Alguns plugins exigem que você pressione MENU e, em seguida, o último item de menu para salvar!</string>
+    <string name="hrRunLocalePlugin1Quotes2">"Executar o plugin Locale '%1$s: %2$s'"</string>
+    <string name="hrChooseALocalePluginToRun">Escolha um plugin Locale para ser executado.</string>
+    <string name="hrGettingLocaleActionPlugins">Obtendo plugins Local ...</string>
+    <string name="hrInAppDonateBlurb">"Mostre sua apreciação pelos meus esforços no desenvolvimento de Llama doando algum dinheiro. Você pode doar quantas vezes você quiser. Quando você toca em um item que será enviado ao Google Play para ver o preço de up-to-date e concluir o processo.
+
+estas são apenas sugestões que você poderia comprar :) Obrigado!"</string>
+    <string name="hrInAppThanksForDonating">Você já doaram! Felicidades!</string>
+    <string name="hrYouCanHideTheDonateMenu">Você pode ocultar o menu de doar em Llama configurações :)</string>
+    <string name="hrHideDonateMenuItem">Ocultar item de menu doar</string>
+    <string name="hrHideDonateMenuItemDescription">Obrigado por doar. Agora você pode esconder a opção Doar no menu. Você ainda pode doar mais via o Llama? botão.</string>
+    <string name="hrRecheckDonation">Status da Doação</string>
+    <string name="hrWhen1ShowsANotification">quando %1s mostra uma notificação</string>
+    <string name="hrChooseAnApp">Escolha uma aplicação</string>
+    <string name="hrAppStatus">Status:</string>
+    <string name="hrConditionActiveApp">Aplicação ativa</string>
+    <string name="hrConditionActiveAppDescription">Essa condição é acionada quando um aplicativo se torna a atividade de primeiro plano ou quando ele retorna ao fundo. Isso requer que Llama diga ao Android que o aplicativo está ativo no momento a cada poucas centenas de milissegundos. Esse intervalo pode ser configurado nas configurações do lama.</string>
+    <string name="hrActiveAppWatcherMillis">Polling ativos em milisegundos</string>
+    <string name="hrActiveAppWatcherMillisDescription">"Se você usar a 'condição de aplicativo Activo , Llama irá verificar se o aplicativo atual a cada algumas centenas de milissegundos. Valores menores permitirá que Llama responda mais rápido, mas pode afetar o desempenho do seu telefone. Eu recomendo entre 200ms a %1s"</string>
+    <string name="hrMIUIVolumeChangeWarning">"As versões recentes do MIUI tem gerenciamento de permissões, o que impede que Llama altere o volume de chamadas. Você precisa fazer isso para fazê-lo funcionar:
+
+-Vá para o app super-usuário 
+-Encontre Llama nos detalhes do app 
+-Set 'Monitorar chamadas' permitir permissão. Isto é enganosamente chamado e não deve afetar o volume, mas ele faz. Grrr. Lama não faz qualquer gravação de suas chamadas telefônicas."</string>
+    <string name="hrNeverShowAgain">Nunca mostrar novamente</string>
+    <string name="hrThinkingDotDotDot">Pensando ...</string>
+    <string name="hrConditionGroupOr">OU (Corresponde a nenhum)</string>
+    <string name="hrConditionGroupOrDescription">Esta condição permite que você crie um grupo de outras condições. Se qualquer uma dessas condições for verdadeira, então o grupo também é verdadeiro.</string>
+    <string name="hrConditionGroupAnd">E(corresponde a todos)</string>
+    <string name="hrConditionGroupAndDescription">"Esta condição permite que você crie um grupo de outras condições. Se todas essas condições forem verdadeiras, então, o grupo também é verdadeiro. NOTA: Isto só é necessário quando você quer colocar um 'E (corresponder a todos) dentro de um' OU (corresponde a nenhum) ', como Llama trata eventos normais como' E (corresponder a todos)"</string>
+    <string name="hrAllowRetrigger">Permitir Reacionar</string>
+    <string name="hrAllowRetriggerDescription">Se executar ações deste evento novamente se ela já é verdadeira quando outra das suas condições é acionado.</string>
+    <string name="hrIcsNotificationUseRingVolumeWarning">"Ice Cream Sandwich (versão 4.0 +) não suporta mais um volume de som de notificação que é diferente do volume do toque.
+
+Você deve editar os seus perfis para que eles não mais faça isso, caso contrário, Llama vai pensar incorretamente que o volume mudou e pode ativar o bloqueio do perfil 
+
+android 4.0 - um passo em frente, um passo para trás:. ("</string>
+    <string name="hrRingerChangeNoVolumeWarning">Llama agora requer que você selecione um nível de volume da campainha ou notificações quando você definir o tipo de toque para toque ou toque + vibrar. Por favor modifique seus perfis em conformidade.</string>
+    <string name="hrIcsApn">Ice Cream Sandwich (versão 4.0 +) não suporta mais aplicativos de terceiros alterar as configurações de APN.</string>
+    <string name="hrWhatShouldLlamaSay">O que Llama deve dizer:</string>
+    <string name="hrConditionCallState">Estado da chamada</string>
+    <string name="hrConditionCallStateDescription">Esta condição permite criar eventos com base no estado de chamada do seu telemóvel, ou quando se está em uma chamada ou não em uma chamada. Dependendo da configuração, ele irá disparar quando você n-fazer uma chamada ou são chamados. N-quando a chamada termina.</string>
+    <string name="hrExtraTtsCleanup">Falar se houver corte</string>
+    <string name="hrExtraTtsCleanupDescription">Se para estimular o texto-para-fala motor um pouco mais difícil quando todo o discurso foi concluída. Use quando sua música já não funciona depois de falar.</string>
+    <string name="hrExtraTtsCleanupText">Fale esse texto</string>
+    <string name="hrExtraTtsCleanupTextDescription">"O texto a dizer para a frase acima. O padrão é um ponto, no entanto, alguns motores TTS vai realmente dizer 'ponto'. Tente chaves ou tubo: {} |"</string>
+    <string name="hrAudioStreamSpeakInfo">"Alguns fluxos de áudio (por exemplo, toque e notificação) são tocados tanto através do alto-falante e fone de ouvido. Música / media são tocados através do fone de ouvido se ele estiver conectado.
+
+Se você tocar através do fluxo de toque / notificação você pode perceber a música parar de tocar. Se isso acontecer, habilite 'Falar se houver corte' nas configurações do Lama. Isso afeta apenas alguns telefones e combinações de motor TTS. Samsung TTS se comporta mal. Mal Samsung!"</string>
+    <string name="hrEnterSomeTextToSpeak">Digite algo para Llama dizer</string>
+    <string name="hrBilling_cannot_connect_message">No app faturamento não está disponível em seu telefone ou Market/versão no Google Play.</string>
+    <string name="hrBilling_billing_not_available">O app Faturamento não está disponível no momento. Por favor, tente novamente mais tarde</string>
+    <string name="hrBilling_learn_more">Aprenda mais</string>
+    <string name="hrAdvancedRotationWarning">"Isto só funciona em telefones com ROMs modificadas que suportam ângulos de rotação personalizados. por exemplo, CyanogenMod 7.
+
+Evite misturar ações de rotação simples e avançado. Use 0 ° e 90° para voltar ao normal.
+
+A rotação não pode mudar imediatamente, dependendo da sua ROM."</string>
+    <string name="hrWhenTheCurrentAppIs1">quando o aplicativo atual é %1s</string>
+    <string name="hrWhenTheCurrentAppIsNot1">quando o aplicativo atual não é %1s</string>
+    <string name="hrAndThen">e depois</string>
+    <string name="hrEvery1minutes">cada %1s</string>
+    <string name="hrIcsHiddenNotificationIcon">Você está com Llama configurado para mostrar uma notificação em curso, mas ocultar o ícone. Android realmente não deixa aplicativos fazerem isso. Antes do Ice Cream Sandwich os aplicativos poderia usar um ícone transparente e definir sua data para longe no futuro. Isto teve o efeito de alinhar o ícone para a direita. Isso não é mais possível. Por favor, altere a configuração de ícone de notificação na Llama a um dos outros modos.</string>
+    <string name="hrChangeIconIfVolumeChanges">Altere o ícone, se há mudanças de volume</string>
+    <string name="hrChangeIconIfVolumeChangesDescription">Se quer mudar o ícone de notificação de um ícone de aviso quando você alterar o volume.</string>
+    <string name="hrUnknownProfile">Perfil desconhecido</string>
+    <string name="hrFailedToWriteToLocationLog">Falha ao gravar no log de localização</string>
+    <string name="hrLlamaTrailSettings">Configurações de trilha em Llama (em desenvolvimento!)</string>
+    <string name="hrLlamaTrail">Grave as trilhas em Llama</string>
+    <string name="hrLlamaTrailDescription">Para armazenar todas as células que você nunca vê, você pode auditar seus movimentos. por exemplo, para quadros de horários.</string>
+    <string name="hrLlamaTrailToSdCard">Grave no cartão SD</string>
+    <string name="hrLlamaTrailToSdCardDescription">Para armazenar os arquivos de trilha de Llama no seu cartão SD ou telefone. Preste atenção que o armazenamento no cartão SD pode ter problemas se você costuma usar armazenamento em massa USB.</string>
+    <string name="hrConditionScreenRotation">Rotação da tela (app atual)</string>
+    <string name="hrConditionScreenRotationDescription">"Esta condição permite que você especifique os eventos que acontecem quando a tela é girada. Isso pode se comportar engraçado antes do Android 2.2, porque ele só relata retrato / paisagem, mas há apenas 1.300 de vocês presos ao 2.1.
+
+Isto só vai funcionar quando a tela está ligada e se o aplicativo atual suporta rotação, por causa dos próprios sensores piggy-backs do Android e, portanto, não descarregar a bateria extra."</string>
+    <string name="hrWhenScreenIsRotated1">quando a tela é girada em %1s</string>
+    <string name="hrEditArea">Edite área</string>
+    <string name="hrRingtonePickerFailedToOpen">O selecionador ringtone não abriu corretamente. Pode ser que o seu telefone não suporte esse tipo de selecionador ringtone:(</string>
+    <string name="hrRingtonePickerPickedSilent">"Você escolheu silencioso no seletor de ringtone. Obviamente, você não pode tocar um som silencioso, então você precisa escolher um outro.
+
+Você pode perguntar por que eu me incomodo mesmo deixar o selecionador mostrar ringtone 'silêncio' ... bem, você tem a Samsung para agradecer por isso. O selecionador do Galaxy S ringtone trava se eu pedir para ele se esconder silencioso.http://stackoverflow.com/q/5874372/
+
+On 3..."</string>
+    <string name="hrApps2SdWarning">"Llama foi instalado no seu cartão SD. Isso pode acontecer se a memória interna do telefone está com pouco espaço, ou se você pediu ao Llama ser mudado para lá.
+nPor favor, esteja ciente de que Llama precisa ser executado como um serviço em segundo plano. Quando você ligar o seu modo de utilização armazenamento em massa para transferir arquivos cabo USB e, Llama será matado e não será capaz de detectar qualquer condição ou executar qualquer ação.
+
+Quando você finalizou com o modo 'armazenamento em massa' , Llama vai reiniciar. Você pode acelerar este processo, desligando sua tela.
+Idealmente, se o espaço permitir, você deve manter Llama instalado na memória interna do telefone. Ver informações da aplicação Llama nas configurações do Android para fazer isso."</string>
+    <string name="hrViewLlamaAppInfo">App Informações</string>
+    <string name="hrWhenTheNextAlarmIsDue1">quando o próximo alarme é devido (%1s)</string>
+    <string name="hrConditionNextAlarm">Hora do alarme</string>
+    <string name="hrConditionNextAlarmDescription">Esta condição será acionada quando o próximo alarme está definido. Isso só funciona com o estoque Android app, e aplicativos que atualizam corretamente a configuração Android NEXT_ALARM_FORMATTED.</string>
+    <string name="hrWhenTheresNoAlarmSet">quando não há nenhum conjunto de alarme</string>
+    <string name="hrTheNextAlarmIs1AndHeresHowYouUseIt">"O próximo alarme está definido para:.
+
+%1s
+
+Você pode ter esta condição de disparo quando este alarme dispara, ou você pode ter o passe condição, se não existe um conjunto de alarme
+ne.g.larme nquando é vencido> mostrar lembrete
+
+-ou-
+
+Entre 21:00 h e as 21:05, quando não há alarme> lotes de vibração"</string>
+    <string name="hrTriggerWhenAlarmIsDue">Acionar quando o alarme está vencido</string>
+    <string name="hrTrueWhenNoAlarm">Verdadeiro quando sem alarme</string>
+    <string name="hrEventGroupOptional">Grupo de eventos (opcional)</string>
+    <string name="hrNoGroupString">Sem grupo</string>
+    <string name="hrEventsNowGroupedEditEventNamesToGroup">Lista de eventos agrupados agora. Edite os eventos para criar grupos.</string>
+    <string name="hrEventsNotGrouped">Lista de eventos não agrupadas</string>
+    <string name="hrFilterViewSearch">Filtros, lista filtros e pesquisa</string>
+    <string name="hrWhenUserIsPresent">quando o usuário está presente</string>
+    <string name="hrConditionUserPresent">Usuário está presente</string>
+    <string name="hrConditionUserPresentDescription">Isso aciona quando o bloqueio de tela foi ligado. Se não houver um bloqueio de tela, ele irá disparar imediatamente.</string>
+    <string name="hrWhenCallStateIs1">quando o estado de chamada é %1s</string>
+    <string name="hrCallStateInCall">Em uma chamada</string>
+    <string name="hrCallStateNotInCall">fora de uma chamada</string>
+    <string name="hrCallStateRinging">tocando</string>
+    <string name="hrPleaseChooseOneOrTwoCallStates">Por favor, escolha um ou dois estados de chamada.</string>
+    <string name="hrDontCheckVolumeInCall">Ignorar as mudanças de volume durante a chamada</string>
+    <string name="hrDontCheckVolumeInCallDescription">"Alguns telefones são ineptos e não informam corretamente os níveis de volume quando você estiver em uma chamada telefônica. Isso faz com que Llama pense que o volume mudou quando ele não mudou. Certifique-se de 'Ignorar as mudanças de volume durante a chamada' esteja marcada se Llama bloqueia incorretamente seu perfil ou muda para o perfil desconhecido durante uma chamada."</string>
+    <string name="hrTheAction1CannotBeRunFromACustomShortcut">"A ação '%1s' não pode ser executada a partir de um atalho personalizado. Por questões de segurança, por favor, crie um evento para ele e crie um NOME para o atalho do evento."</string>
+    <string name="hrLlamaTonePicker">Selecionador do LlamaTone</string>
+    <string name="hrLlamaTones">LlamaTones</string>
+    <string name="hrLlamaTonesDescription">LlamaTones permite alterar os tons de notificações de outros aplicativos, quando você mudar de perfil.</string>
+    <string name="hrLlamaTonesDetailedDescription">"LlamaTones vai deixá-lo mudar o toque usado por outro aplicativo, dependendo do perfil atual.
+
+Em um de seus perfis, crie um LlamaTone e dê-lhe um nome sugestivo. por exemplo Gmail. Você pode então especificar o toque que o perfil deve utilizar para as notificações do Gmail.
+
+depois edite LlamaTones dos seus outros perfis e defina qual ton que o perfil deve utilizar para o Gmail. O passo final
+
+É dizer ao Gmail que LlamaTone deve usar. Para fazer isso, vá nas configurações de notificação de edição do Gmail. Você vai ver um seletor 'LlamaTone' na seleção tons, que você pode usar para escolher o LlamaTone.
+
+Para apagar um LlamaTone, você deve 'Limpar / cancelar a partir de todos os perfis."</string>
+    <string name="hrCreateNewLlamaTone">Criar um novo LlamaTone</string>
+    <string name="hrTapToCreateANewLlamaTone">Toque para um novo LlamaTone</string>
+    <string name="hrPleaseEnterNameForTheLlamaTone">Por favor, nomeie o novo LlamaTone:</string>
+    <string name="hrALlamaToneNamed1AlreadyExists">A LlamaTone nomeado como %1s já existe. Por favor, escolha outro nome ou use um LlamaTone existente.</string>
+    <string name="hrCurrentlySetTo1">Atualmente definido como %1s</string>
+    <string name="hr3rdPartyActionCrumb">Ação</string>
+    <string name="hrYouHaventSetUpAnyLlamaTones">"Você não criou nenhum LlamaTones. Edite um de seus perfis para começar a usá-los.
+
+LlamaTones permitem que você altere o som reproduzido por um aplicativo de terceiros, dependendo do perfil atual."</string>
+    <string name="hrDontChange">Não altere LlamaTone</string>
+    <string name="hrCopyLlamaTonesToProfile">Escolha outro perfil que deve usar essas LlamaTones</string>
+    <string name="hrCopyTo">Copiar para ...</string>
+    <string name="hrCopyToSelected">Copiar para o selecionado</string>
+    <string name="hrExportSuccess">Dados exportados com sucesso</string>
+    <string name="hrDataNotExported">Os dados não foram exportados!</string>
+    <string name="hrWhichTypeOfToneIsLlamaTone">Escolha um tipo de toque ou cancelar este LlamaTone</string>
+    <string name="hrLlamaCouldntFindAnyRingtonePickers">"Llama não conseguimos encontrar os tons.
+
+não foi COMPUTADO!"</string>
+    <string name="hrChooseARingtonePicker">Escolha um selecionador de tons</string>
+    <string name="hrClearCancelLlamaTone">Limpar/cancelar LlamaTone</string>
+    <string name="hrCantSelectLlamaToneAsLlamaTone">"Você não pode selecionar um LlamaTone para usar como um LlamaTone.
+Tudo isso pode fazer explodir o universo."</string>
+    <string name="hrWhichProfiles">Que perfis?</string>
+    <string name="hrMoanToGoogle">Buscar no Google</string>
+    <string name="hrLeaveSettingsAlone">Use volumes de qualquer jeito</string>
+    <string name="hrMakeSettingsTheSame">Mantenha os mesmos volumes</string>
+    <string name="hrWhenWifiHotspotIsEnabled">quando Wi-Fi hotspot está habilitado</string>
+    <string name="hrWhenWifiHotspotIsDisabled">quando hotspot Wi-Fi está desativado</string>
+    <string name="hrConditionWifiHotspot">WiFi Hotspot</string>
+    <string name="hrConditionWifiHotspotDescription">Se o hotspot WiFi está habilitado ou não. Este evento não dispara eventos! Ela só pode filtrar outros eventos.</string>
+    <string name="hrEnableAll">Habilitar todos</string>
+    <string name="hrDisableAll">Desativar todos</string>
+    <string name="hrRenameGroup">Renomear Grupos</string>
+    <string name="hrPleaseEnterANewGroupName">Por favor insira um novo nome do grupo:</string>
+    <string name="hrBrightnessCustomEventWarning">Não é possível baixar o brilho em um atalho de evento personalizado. Crie um evento e o nomeie atalho de evento em vez disso! Isto é por razões de segurança!</string>
+    <string name="hrRootedShutdownCommand">Comando de desligamento Root</string>
+    <string name="hrRootedShutdownCommandDescription">O comando que Llama usa para desligar o telefone. Tente um diferente se seu telefone está Rooteado e não é reiniciado.</string>
+    <string name="hrRootedRebootCommand">Comando reboot Root</string>
+    <string name="hrRootedRebootCommandDescription">O comando que Llama usa para reiniciar o telefone. Tente um diferente se seu telefone está Rooteado não reinicia.</string>
+    <string name="hrNearbyWifiDisableForHotSpot">Torne o Wifi hotspot amigável</string>
+    <string name="hrNearbyWifiDisableForHotSpotDescription">Se Llama deverá suspender todas os polling wi-fi quando se detecta que um hotspot Wi-Fi estiver ativado. Isso só vai funcionar com os telefones que usam hotspot WiFi normais do Android.</string>
+    <string name="hrWhatEventDescriptionsShouldIShow">Quais as descrições de eventos que devo mostrar?</string>
+    <string name="hrIcsRingerNotificationVolumeMessage">Ice Cream Sandwich já não permite que você tenha um toque diferente e volume de notificação. O Que você quer fazer?</string>
+    <string name="hrDeviceAdminWarning">"Você precisa habilitar Llama como um administrador de dispositivo para executar certa segurança relacionada as funções do Android. Se você decidir desinstalar Llama, você precisará desativar Llama como um administrador de dispositivo. Isto pode ser encontrado nas configurações de segurança do Android.
+
+Caso contrário, o Android vai lhe dar uma mensagem 'não desinstalado com sucesso mensagem extremamente inútil.
+
+Obrigado para lembrar :)"</string>
+    <string name="hrInstantConfirmation">Confirmação instantânea de evento</string>
+    <string name="hrInstantConfirmationDescription">Quando marcada, Llama irá executar uma ação de confirmação de um evento imediatamente quando tocar na janela de notificação, sem mostrar uma caixa de diálogo. Você vai precisar usar o botão Limpar ou deslizar a notificação para limpá-la.</string>
+    <string name="hrWhenNfcTag1IsDectected">quando NFC tag %1s for detectado</string>
+    <string name="hrPleaseChooseAnNfcTag">Por favor escolha uma tag NFC</string>
+    <string name="hrConditionNfcTagDetected">Tag NFC detectado</string>
+    <string name="hrConditionNfcTagDetectedDescription">"Esta condição será desencadeada quando a tag NFC especificada for detectada pelo seu telefone. Seu telefone precisa ter NFC ativado (que Llama, infelizmente, não pode controlar).
+
+Llama não diz quando o tag NFC não está mais perto, então esta condição é sempre falsa em outros momentos.n
+Se você precisa criar um evento repetido, você vai precisar usar variáveis ??Llama para armazenar o fato de que uma tag NFC foi vista, e então algum outro evento e condição para limpar a variável Llama."</string>
+    <string name="hrDoYouWantToUseTheTag1InThisCondition">"Você quer usar a tag '%1s' nesta condição?"</string>
+    <string name="hrLlamaHasFoundATagPleaseNameIt">Llama encontrou uma tag! Por favor, dê-lhe um nome amigável:</string>
+    <string name="hrTheFriendlyNameForNfcTag1WasModified">"O nome amigável para NFC tag '%1s' foi modificada pela"</string>
+    <string name="hrLlamaDoesNotKnowAboutAnyNfcTagsTapOneOnYourPhone">"Llama não sabe sobre todas as tags NFC.
+Toque no seu celular agora para nomeá-lo."</string>
+    <string name="hrYourPhoneDoesNotSupportNfc">Seu telefone não suporta leitura de etiquetas NFC: (Para corrigir isso, por favor compre um novo telefone ou use a sua imaginação ... você pode encontrar fazendo barulhos beep-beep .</string>
+    <string name="hrChooseAnNfcTagOrTapYourPhoneAgainstANewTag">Escolha uma tag NFC conhecido</string>
+    <string name="hrYouCanAlsoUseAnotherTagByTappingItOnYourPhone">Você também pode usar uma outra tag tocando no seu telefone</string>
+    <string name="hrNfcIsNotCurrentlyTurnedOnTurnItOnToAddTags">NFC não está ativada. Ligá-lo para adicionar uma nova tag</string>
+    <string name="hrPleaseSeeTheKebabappsWebsiteToDonateToTranslators">Por favor, consulte o site Kebabapps para doar aos tradutores!</string>
+    <string name="hrLocalLanguageName">Inglês</string>
+    <string name="hrPlaySoundNotificationIcon">Reproduzir som de notificação</string>
+    <string name="hrPlaySoundNotificationIconDescription">Um ícone de notificação é mostrado quando a ação do som de Llama está em execução. Se você desligar isso, você não será capaz de parar o som que Llama está executando!</string>
+    <string name="hrConditionRoaming">Roaming!</string>
+    <string name="hrConditionRoamingDescription">Esta condição será desencadeada quando o telefone inicia ou sai do roaming.</string>
+    <string name="hrNotRoaming">Não entrar em roaming</string>
+    <string name="hrRoaming">Roaming</string>
+    <string name="hrWhenRoaming">quando em roaming</string>
+    <string name="hrWhenNotRoaming">quando não estiver em roaming</string>
+    <string name="hrManageSavedNfcTags">Gerenciar tags NFC</string>
+    <string name="hrManageSavedNfcTagsDescription">Toque aqui para gerenciar todas as tags NFC que você já nomeou.</string>
+    <string name="hrDeleteTag">Excluir tag</string>
+    <string name="hrWatchForNfcTags">Permitir a detecção NFC</string>
+    <string name="hrWatchForNfcTagsDescription">Se Llama deve se preocupar com tags NFC ou não. Se você usar outro aplicativo para detectar tags NFC, você deve desmarcar esta opção. Esta configuração não afeta as configurações globais de NFC do seu telefone.</string>
+    <string name="hrCancelTagReading">Pare de ver as etiquetas NFC</string>
+    <string name="hrFailedToDecodeIntentInEvent1">"Falha ao decodificar Inteção no evento '%1s'"</string>
+    <string name="hrShareEvent">Evento Compartilhar</string>
+    <string name="hrShareLlamaEvent">Compartilhar evento Llama</string>
+    <string name="hrConditionMobileData">Dados móveis ativado/desativado</string>
+    <string name="hrConditionMobileDataDescription">"Essa condição passa quando a caixa de marcação de dados móveis está marcada, caso contrário falso. Isso depende de uma API Android não documentada. Ele pode não funcionar para todos os telefones. 
+
+Pergunte ao Google educadamente o que você é capaz de fazer com isso e eles podem implementar uma API própria para isto.
+
+Esta condição será adiada por alguns segundos até que alguma intenção dos dados de redes móveis do Android ocorrer."</string>
+    <string name="hrWhenMobileDataEnabled">quando os dados móveis está habilitado</string>
+    <string name="hrWhenMobileDataDisabled">quando os dados móveis está desativado</string>
+    <string name="hrMobileDataEnabled">Dados móveis habilitados</string>
+    <string name="hrMobileDataDisabled">Dados móveis desativado</string>
+    <string name="hrConditionMobileDataConnected">Conexão de dados móvel</string>
+    <string name="hrConditionMobileDataConnectedDescription">Isso condiciona a passagem quando o telefone estiver conectado a uma rede de dados móvel (que é o G, E, 3G ou H). Ele também pode funcionar para LTE/WiMax, mas eu não sei como eles se comportam, porque o Reino Unido está preso na idade das trevas. Nós temos ratos perambulando pelas ruas e Blackadder ainda está pendurado sobre a cidade.</string>
+    <string name="hrWhenMobileDataConnected">quando os dados móveis foi conectado</string>
+    <string name="hrWhenMobileDataNotConnected">quando os dados celulares mobile não está ligado</string>
+    <string name="hrMobileDataConnected">Dados móveis conectados</string>
+    <string name="hrMobileDataNotConnected">Dados móveis não conectados</string>
+    <string name="hrLlamaToneRateLimitHint">Taxa LlamaTone limitando:nUtilize o controle deslizante para limitar quantas vezes o LlamaTone é tocado. Útil para GTalk ou outros aplicativos de mensagens instantâneas.</string>
+    <string name="hrRateLimit1SecondsSilence">%1s segundos em silêncio</string>
+    <string name="hrNoRateLimiting">Sem limitação de taxa</string>
+    <string name="hrNowPickALlameTone">Escolha uma LlamaTone para usar</string>
+    <string name="hrSocialImportWarning">Você está prestes a importar um evento em Llama. Você deve verificar se ele não vai fazer nada de mal.</string>
+    <string name="hrTheChoiceIsYours">A escolha é sua ...</string>
+    <string name="hrImportLlamaEvent">Chamar evento Import</string>
+    <string name="hrAddToLlama">Adicionar ao Llama</string>
+    <string name="hrEventImported">Importado</string>
+    <string name="hrRingtoneChangeError1">"Lama não conseguiu mudar o toque para o perfil '%1s'. Por favor, escolha o toque novamente."</string>
+    <string name="hrLlamaFormatterInfo">"Esta tela permitirá que você formate uma tag NFC para usar com Llama.
+
+ Você precisa fazer isso para que a etiqueta aciona em Llama, ao invés de avançar para cima da ativade da 'tag encontrado'.
+Toque a tag contra o seu telefone agora para formatá-lo. Isto irá remover todos os dados do tag. A marca não será marcado como somente leitura.
+nUma vez formatado, você vai ser capaz de usar a tag no estado. Se Llama nunca tinha visto essa marca antes,também será solicitado a nomeá-lo."</string>
+    <string name="hrKey">Chave</string>
+    <string name="hrValue">Valor</string>
+    <string name="hrCouldNotConvertExtra3">"Não foi possível converter '%2$s' to a '%3$s' for '%1$s'"</string>
+    <string name="hrIntentEditSetKeyBlankToDelete2">Definir a chave em branco para remover essa linha. Cerque nomes de variáveis ??com duas hashes extras para expandí-la (por exemplo ##variavelnome##).</string>
+    <string name="hrAirplaneModeStupidness">Android decidiu que o modo avião deve ser um ambiente seguro. Llama só pode mudar o modo de Avião se o seu telefone está Rooteado. Culpa do Google. Mal o Google! Pare de mudar as coisas para pior, sem fornecer alternativas.</string>
+    <string name="hrResolveContentUris">Reproduzir som resolve conteúdo URIs</string>
+    <string name="hrResolveContentUrisDescription">Toque no Android geralmente retornam um conteúdo ://URI, que aponta para um ID no banco de dados de mídia. Se você mover Llama entre telefones ou trocar roms, o mesmo arquivo não pode receber o mesmo ID. Ativando isto faz Llama armazenar o caminho do arquivo em vez tocar o Som em LlamaTones.</string>
+    <string name="hrAdvancedVariableActions">Aumentar/diminuir/etc</string>
+    <string name="hrSetLlamaVariableIncrement1">"aumentar variável Llama '%1$s'"</string>
+    <string name="hrSetLlamaVariableDecrement1">"diminuir variável Llama '%1$s'"</string>
+    <string name="hrSetLlamaVariableToggle01">"Alternância da variável Llama '%1$s' entre 0 e 1"</string>
+    <string name="hrAdvancedVariableConditions">Maior do que/menor de/etc</string>
+    <string name="hrIcsSystemVolumeMessage">"Ice Cream Sandwich (versão 4.0 +) realmente não faz muito com sistema de volumes.
+
+Na verdade, você pode achar que o seu volume de toque está definido como o volume do sistema que você definiu.
+
+ Você provavelmente vai querer Desmarcar o sistema de som.
+
+Pressione salvar para deixar este volume do sistema de mudança de perfil ou cancelar, se você quiser editar o perfil."</string>
+    <string name="hrSignalLevelAbove1">A intensidade do sinal acima de %1sdBm</string>
+    <string name="hrSignalLevelBelow1">A intensidade do sinal abaixo de %1sdBm</string>
+    <string name="hrWhenSignalGoesBelow1">quando a intensidade do sinal cai abaixo de %1sdBm</string>
+    <string name="hrWhenSignalRisesAbove1">quando a intensidade do sinal sobe acima de %1sdBm</string>
+    <string name="hrCurrentStrengthColon1">Sinal de corrente é:%1sdBm</string>
+    <string name="hrSignalStrengthDialogHint">"O número acima é o nível de sinal corrente do telefone. Redes GSM utilizam um intervalo entre -113 (sem sinal) e -51 (sinal completo).
+
+Llama irá relatar um valor artificial de -150 no modo avião ou quando fora de serviço. Observe que alguns telefones são estúpidos e ainda relatan um sinal suficientemente bom mesmo quando você está metros de profundidade em um metrô.
+
+Você pode querer combinar uma condição de sinal com um estado de desligamento móvel de dados, pois é de um modo mais fiável para detectar uma ligação funcional."</string>
+    <string name="hrVisitWebsite">Visite o site</string>
+    <string name="hrBrokenWifiToggleUpdateDeviceStats">"O seu telefone / software tablet 's tem um bug horrível que impede Llama de tornar Wi-Fi ligado e desligado.
+
+Não é um problema registrado em code.google.com.
+nPor favor, verifique se há atualizações para o seu aparelho ou ROM personalizada.
+
+Enquanto isso, você deve remover todas as ações wi-fi ou ocultar a mensagem para que seja exibida novamente. Ele também vai ser bom para você ver a questão em code.google.com pressionando o botão 'website view'."</string>
+    <string name="hrCouldNotResolveContentUri">Não foi possível resolver o item para um caminho de arquivo, por isso vai ser armazenado como um conteúdo URI.</string>
+    <string name="hrLlamaCouldNotGetRootAccess">Lama não conseguiu acesso Root no tempo. Por favor verifique o seu aplicativo SU.</string>
+    <string name="hrAddNewArea">Adicionar nova área</string>
+    <string name="hrAddNewEvent">Adicionar novo evento</string>
+    <string name="hrSearchEventsByNameAndDescription">Procurar eventos por nome e descrição</string>
+    <string name="hrShowEventsGroupedOrFlat">Mostrar eventos em grupos ou uma lista</string>
+    <string name="hrAddNewProfile">Adicionar novo perfil</string>
+    <string name="hrProfileLock">Bloquear perfis</string>
+    <string name="hrProfileUnlock">Desbloquear perfis</string>
+    <string name="hrShowHelpMenu">Mostrar menu Ajuda</string>
+    <string name="permSetLlamaVariable">Defina uma variável Llama</string>
+    <string name="permSetLlamaVariableDescription">Permite que o aplicativo defina uma variável Llama. Isto pode causar eventos que utilizam variáveis ??Llama e acionar inesperadamente.</string>
+    <string name="hrBrokenWifiToggleMultiuser">"Argh! Llama quase caiu ao mudar de estado sem fios do dispositivo. Ele pode ter mudado, não pode ter mudado, mas de qualquer forma o dispositivo quase matou Llama
+ dispositivo.
+O seu exige que Llama tem o 'android.permission.INTERACT_ACROSS_USERS_FULL' ou permissão dos android.permission.INTERACT_ACROSS_USERS 'para alternar WiFi.
+NtIsto são permissões do sistema de Llama que nunca será capaz de ter: (Por favor, verifique se há atualizações para o seu dispositivo ROM /."</string>
+    <string name="hrWhenMccMncIs12">quando o código de rede de telefonia é %1$s:%2$s</string>
+    <string name="hrWhenMccMncIsNot12">quando o código de rede de telefonia não é %1$s:%2$s</string>
+    <string name="hrConditionMobileNetworkId">ID de rede móvel</string>
+    <string name="hrConditionMobileNetworkIdDescription">Esta condição é baseado fora do ID da rede de telefone conectado no momento. Isto é feito em duas partes: um código de país e o código de rede. Olhe para o guia recente para ver o país e códigos de rede que o telefone está conectado, ou você pode olhar no Wikipedia.</string>
+    <string name="hrMccMncHelpText">Esta condição usa a ID da rede do telefone conectado no momento. O MCC é o código da rede de telefonia do país, e MNC é o código de rede. Se você deixar a caixa em branco irá corresponder a qualquer valor.</string>
+    <string name="hrAllowedTriggers">Acionar filtragem</string>
+    <string name="hrAllowedTriggersDescription">Llama vai disparar um evento quando estiverem reunidas todas as condições, e uma condição fez com que ele dispare. Esta opção permite-lhe evitar que ações ocorram se um determinado tipo de condição dispara o evento. Desmarque a condição para impedi-la o acionamento.</string>
+    <string name="hrEventFilteringPleaseAddSomeConditions">Por favor, adicione algumas condições para o seu evento. Depois de adicionar algumas condições você será capaz de anular as condições que você não quer agir como acionadores.</string>
+    <string name="hrNfcFormatSuccess">Formatado com sucesso tag como tag Llama! Você pode formatar um outro, ou simplesmente usar este</string>
+    <string name="hrFormatFailHelp">"Falha ao formatar a tag para Llama 
+
+Você pode tentar formatá-lo manualmente através da instalação de um aplicativo Escritor de NFC a partir da Play Store, em seguida, escrever o URL especial Llama para o tag:.
+
+%1s"</string>
+    <string name="hrWhenWiredHeadsetIsConnected">quando o fone de ouvido com fio está conectado</string>
+    <string name="hrAudioStream">Escolha o volume (stream de áudio) que o som será reproduzido em:</string>
+</resources>

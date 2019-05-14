@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/llamanotify0white" android:left="0.0px" android:top="0.0px" android:right="0.0px" android:bottom="0.0px" />
+    <item android:drawable="@drawable/dibblewhite" android:left="8.0px" android:top="7.0px" android:right="16.0px" android:bottom="27.0px" />
+    <item android:drawable="@drawable/llamanotifylockgrey" android:left="14.0px" android:top="19.0px" android:right="0.0px" android:bottom="4.0px" />
+</layer-list>

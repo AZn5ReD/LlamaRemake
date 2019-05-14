@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:id="@id/text" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <Button android:id="@id/ringtoneButton" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/hrChooseARingToneToPlay" />
+        <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/hrAudioStream2" />
+        <Spinner android:id="@id/spinner" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+</ScrollView>

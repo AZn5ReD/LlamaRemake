@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="notificationModeArray">
+        <item>通知なし</item>
+        <item>実行中通知とアイコン</item>
+        <item>実行中通知(アイコンなし)</item>
+        <item>実行中アイコン(通知なし)</item>
+        <item>消せる通知とアイコン</item>
+        <item>トースト</item>
+        <item>Ongoing notification and icon (normal priority)</item>
+        <item>Ongoing notification and icon (high priority)</item>
+    </string-array>
+    <string-array name="batteryLevelOptions">
+        <item>電池がこれより減ったら</item>
+        <item>電池がこれより増えたら</item>
+    </string-array>
+    <string-array name="signalLevelOptions">
+        <item>Signal strength goes below...</item>
+        <item>Signal strength rises above...</item>
+    </string-array>
+    <string-array name="calendarContainsOptions">
+        <item>予定開始/最中</item>
+        <item>予定終了/予定中で無い</item>
+    </string-array>
+    <string-array name="cellPollingModeArray">
+        <item>確認しない(イベントが遅れるかも)</item>
+        <item>学習するときだけ</item>
+        <item>確認する(電池持ちに影響あり)</item>
+    </string-array>
+    <string-array name="mobileDataMenuModeArray">
+        <item>どちらでもない</item>
+        <item>モバイルデータ</item>
+        <item>APN</item>
+        <item>どちらも</item>
+    </string-array>
+    <string-array name="notificationColourNames">
+        <item>赤</item>
+        <item>橙</item>
+        <item>黄</item>
+        <item>緑</item>
+        <item>青</item>
+        <item>紫</item>
+        <item>桃</item>
+        <item>水</item>
+        <item>黒</item>
+        <item>白</item>
+        <item>Llama設定:他のアイコンの色</item>
+        <item>色を変えない</item>
+    </string-array>
+    <string-array name="screenOnNames">
+        <item>キーライトも一緒に</item>
+        <item>明るい(画面のみ)</item>
+        <item>暗め(画面のみ)</item>
+    </string-array>
+    <string-array name="errorNotificationModeArray">
+        <item>なし</item>
+        <item>トーストのみ</item>
+        <item>通知とトースト</item>
+    </string-array>
+    <string-array name="colourEventListModeArray">
+        <item>なし</item>
+        <item>オン - 赤緑(標準)</item>
+        <item>オン - 赤青</item>
+        <item>オン - 青緑</item>
+    </string-array>
+    <string-array name="mediaButtonNames">
+        <item>再生/一時停止</item>
+        <item>次の曲</item>
+        <item>前の曲</item>
+        <item>停止</item>
+        <item>早送り</item>
+        <item>巻き戻し</item>
+        <item>再生(Android 3.0以降)</item>
+        <item>一時停止(Android 3.0以降)</item>
+        <item>録音(Android 3.0以降)</item>
+    </string-array>
+    <string-array name="simpleRotationOptions">
+        <item>回転させない</item>
+        <item>回転させる</item>
+        <item>高度機能...(改造ROMが必要です)</item>
+    </string-array>
+    <string-array name="intentEditorTypes">
+        <item>アクティビティ開始</item>
+        <item>サービス開始</item>
+        <item>ブロードキャスト</item>
+    </string-array>
+    <string-array name="llamaVariableChangeOptions">
+        <item>これなら</item>
+        <item>違ったら</item>
+    </string-array>
+    <string-array name="mccMncDropDown">
+        <item>携帯電波IDがこれなら…</item>
+        <item>携帯電波IDがこれじゃない…</item>
+    </string-array>
+    <string-array name="audioStreamNames">
+        <item>ベル</item>
+        <item>通知</item>
+        <item>音楽/メディア</item>
+        <item>アラーム</item>
+        <item>通話音量</item>
+        <item>システム</item>
+        <item>[Cancel queued sounds]</item>
+    </string-array>
+    <string-array name="ringtoneTypes">
+        <item>着信音</item>
+        <item>通知音</item>
+        <item>アラーム</item>
+        <item>えーと...音楽はどこ???</item>
+    </string-array>
+    <string-array name="twoGThreeGNames">
+        <item>"WCDMA優先
+(2G/3G優先)"</item>
+        <item>"GSMのみ
+(2G)"</item>
+        <item>"WCDMAのみ
+(3G)"</item>
+        <item>"GSM自動(PRL)
+(2G優先/3G)"</item>
+        <item>"CDMA自動(PRL)
+(2G/3G)"</item>
+        <item>"CDMAのみ
+(2G)"</item>
+        <item>"EvDoのみ
+(3G)"</item>
+        <item>"GSM/CDMA自動(PRL)
+(2G/3G)"</item>
+    </string-array>
+    <string-array name="calendarAllDayOptions">
+        <item>すべての予定</item>
+        <item>終日予定のみ</item>
+        <item>終日は無視</item>
+    </string-array>
+    <string-array name="calendarAvailabilityOptions">
+        <item>どんな外部向け表示でも</item>
+        <item>予定なしだけ</item>
+        <item>予定ありだけ</item>
+    </string-array>
+    <string-array name="activeAppStatuses">
+        <item>アプリ起動、または前面化</item>
+        <item>アプリ終了、またはバックグラウンド化</item>
+    </string-array>
+    <string-array name="rebootCommandArray">
+        <item>reboot</item>
+        <item>reboot -p</item>
+    </string-array>
+    <string-array name="shutdownCommandArray">
+        <item>poweroff</item>
+        <item>poweroff -f</item>
+        <item>poweroff -d 8 -f</item>
+        <item>reboot -p</item>
+    </string-array>
+    <string-array name="advancedVariableActionNames">
+        <item>増やす</item>
+        <item>減らす</item>
+        <item>0と1を切替え</item>
+    </string-array>
+</resources>

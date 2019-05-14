@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" android:installLocation="auto" package="com.kebab.Llama">
+    <application android:debuggable="false" android:icon="@drawable/icon" android:label="@string/app_name" android:persistent="true" android:theme="@style/LlamaThemeCompat">
+        <activity android:configChanges="keyboardHidden|orientation" android:label="@string/app_name" android:name=".LlamaUi" android:theme="@style/LlamaThemeCompat.NoTitleBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="llama.location.profiles" android:pathPattern="*" android:scheme="http"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SEND"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="llama.location.profiles" android:pathPattern="*" android:scheme="http"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SEND"/>
+                <data android:host="llama.location.profiles" android:pathPattern="*" android:scheme="http"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <data android:host="llama.location.profiles" android:pathPattern="*" android:scheme="http"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.EDIT"/>
+                <data android:host="llama.location.profiles" android:pathPattern="*" android:scheme="http"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <action android:name="android.intent.action.EDIT"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:host="llama.location.profiles" android:scheme="http"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <action android:name="android.intent.action.EDIT"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:scheme="llamaloc"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <action android:name="android.intent.action.EDIT"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="llama.location.profiles" android:pathPattern=".*" android:scheme="http"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <action android:name="android.intent.action.EDIT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:scheme="llamaloc"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation" android:name=".AreasActivity"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name=".CellsActivity"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name=".ProfilesActivity"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name=".EventsActivity"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name=".ProfileEditActivity"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name=".GlobalSettingsActivity"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name=".EventEditActivity"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name=".EventEditActivityDialog"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name=".EventHistoryActivity"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name=".CalendarDebugActivity"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.kebab.Activities.PeoplePickerActivity"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.kebab.Nfc.LlamaNfcWriterActivity"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:label="Llama" android:name=".LauncherShortcutActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.CREATE_SHORTCUT"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation" android:exported="true" android:name=".LauncherShortcutRunnerActivity" android:theme="@style/Theme.Transparent">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.SHORTCUT_RUNNER"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation" android:exported="true" android:name=".NfcDiscoverActivity" android:theme="@style/Theme.Transparent">
+            <intent-filter>
+                <action android:name="android.nfc.action.TAG_DISCOVERED"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.nfc.action.NDEF_DISCOVERED"/>
+                <data android:host="llama.location.profiles" android:pathPrefix="/nfc" android:scheme="http"/>
+                <data android:host="llama.location.profiles" android:pathPrefix="/nfc" android:scheme="llamaloc"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation" android:name=".BrightnessChangerActivity" android:theme="@android:style/Theme.Dialog"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name=".EventConfirmationActivity" android:theme="@style/Theme.Transparent"/>
+        <activity android:label="@string/hrLlamaTonePicker" android:name=".LlamaTonePickerActivity" android:theme="@android:style/Theme.Dialog" android:windowSoftInputMode="stateAlwaysVisible|adjustResize">
+            <intent-filter>
+                <action android:name="android.intent.action.RINGTONE_PICKER"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <service android:name="LlamaService"/>
+        <service android:label="@string/app_name" android:name=".LlamaAccessiblityService" android:permission="android.permission.BIND_ACCESSIBILITY_SERVICE">
+            <meta-data android:name="android.accessibilityservice" android:resource="@xml/accessibility_service_config"/>
+            <intent-filter>
+                <action android:name="android.accessibilityservice.AccessibilityService"/>
+            </intent-filter>
+        </service>
+        <receiver android:name="RtcReceiver"/>
+        <receiver android:name="NotificationReceiver"/>
+        <receiver android:name=".ShutdownReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.ACTION_SHUTDOWN"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:enabled="true" android:exported="false" android:label="IntentReceiver" android:name="com.kebab.Llama.IntentReceiverUnprotected"/>
+        <receiver android:enabled="true" android:exported="true" android:label="IntentReceiverStrict" android:name="com.kebab.Llama.IntentReceiverStrict">
+            <intent-filter>
+                <action android:name="android.media.VOLUME_CHANGED_ACTION"/>
+                <action android:name="android.intent.action.AIRPLANE_MODE"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:enabled="true" android:exported="true" android:label="IntentReceiverExported" android:name="com.kebab.Llama.IntentReceiverExported" android:permission="android.permission.WRITE_SECURE_SETTINGS">
+            <intent-filter>
+                <action android:name="android.intent.action.MEDIA_MOUNTED"/>
+                <action android:name="android.intent.action.MEDIA_SCANNER_FINISHED"/>
+                <action android:name="android.intent.action.MEDIA_SCANNER_STARTED"/>
+                <action android:name="android.intent.action.SCREEN_OFF"/>
+                <action android:name="android.net.wifi.SCAN_RESULTS"/>
+                <action android:name="android.net.wifi.WIFI_STATE_CHANGED"/>
+                <action android:name="android.net.wifi.supplicant.STATE_CHANGE"/>
+                <action android:name="android.net.wifi.supplicant.CONNECTION_CHANGE"/>
+                <action android:name="android.bluetooth.adapter.action.STATE_CHANGED"/>
+                <action android:name="android.app.action.ENTER_CAR_MODE"/>
+                <action android:name="android.app.action.EXIT_CAR_MODE"/>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+                <action android:name="android.intent.action.PHONE_STATE"/>
+                <action android:name="android.media.AUDIO_BECOMING_NOISY"/>
+                <action android:name="android.app.action.ENTER_DESK_MODE"/>
+                <action android:name="android.app.action.EXIT_DESK_MODE"/>
+                <action android:name="android.intent.action.USER_PRESENT"/>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE"/>
+                <action android:name="android.bluetooth.device.action.ACL_CONNECTED"/>
+                <action android:name="android.bluetooth.device.action.ACL_DISCONNECTED"/>
+                <action android:name="android.bluetooth.device.action.FOUND"/>
+                <action android:name="android.bluetooth.adapter.action.DISCOVERY_STARTED"/>
+                <action android:name="android.bluetooth.adapter.action.DISCOVERY_FINISHED"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:enabled="true" android:exported="true" android:label="ExportedReceiver" android:name="com.kebab.Llama.ExportedReceiver" android:permission="com.kebab.Llama.SET_LLAMA_VARIABLE"/>
+        <receiver android:description="@string/hrDeviceAdminDescription" android:label="@string/app_name" android:name=".DeviceAdmin.LlamaDeviceAdminReceiver" android:permission="android.permission.BIND_DEVICE_ADMIN">
+            <meta-data android:name="android.app.device_admin" android:resource="@xml/llama_device_admin"/>
+            <intent-filter>
+                <action android:name="android.app.action.DEVICE_ADMIN_ENABLED"/>
+            </intent-filter>
+        </receiver>
+        <provider android:authorities="com.kebab.llama.main" android:name="com.kebab.Llama.Content.LlamaMainContentProvider"/>
+        <provider android:authorities="com.kebab.llama.tone" android:name=".Content.LlamaToneContentProvider"/>
+    </application>
+    <permission android:description="@string/permSetLlamaVariableDescription" android:label="@string/permSetLlamaVariable" android:name="com.kebab.Llama.SET_LLAMA_VARIABLE" android:permissionGroup="android.permission-group.SYSTEM_TOOLS" android:protectionLevel="dangerous"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_APN_SETTINGS"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.BLUETOOTH"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD"/>
+    <uses-permission android:name="android.permission.WRITE_SYNC_SETTINGS"/>
+    <uses-permission android:name="android.permission.READ_SYNC_SETTINGS"/>
+    <uses-permission android:name="android.permission.GET_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS"/>
+    <uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES"/>
+    <uses-permission android:name="android.permission.RESTART_PACKAGES"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.MODIFY_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.READ_CALENDAR"/>
+    <uses-permission android:name="android.permission.WRITE_CALENDAR"/>
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.READ_CONTACTS"/>
+    <uses-permission android:name="android.permission.BROADCAST_STICKY"/>
+    <uses-permission android:name="android.permission.ACCESS_WIMAX_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_WIMAX_STATE"/>
+    <uses-permission android:name="android.permission.SET_WALLPAPER"/>
+    <uses-permission android:name="com.android.phone.CHANGE_NETWORK_MODE"/>
+    <uses-permission android:name="android.permission.GET_TASKS"/>
+    <uses-permission android:name="android.permission.NFC"/>
+    <uses-permission android:name="android.permission.UPDATE_DEVICE_STATS"/>
+    <uses-permission android:name="android.permission.INTERACT_ACROSS_USERS_FULL"/>
+    <uses-permission android:name="android.permission.INTERACT_ACROSS_USERS"/>
+    <uses-permission android:name="android.permission.ACCESS_SUPERUSER"/>
+    <uses-feature android:name="android.hardware.telephony" android:required="false"/>
+    <supports-screens android:largeScreens="true" android:normalScreens="true" android:smallScreens="true"/>
+</manifest>

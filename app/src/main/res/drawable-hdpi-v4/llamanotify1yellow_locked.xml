@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:left="0.0px" android:top="0.0px">
+        <bitmap android:gravity="center|left|top" android:src="@drawable/llamanotify0yellow" />
+    </item>
+    <item android:left="8.0px" android:top="7.0px">
+        <bitmap android:gravity="center|left|top" android:src="@drawable/dibbleyellow" />
+    </item>
+    <item android:left="14.0px" android:top="19.0px">
+        <bitmap android:gravity="center|left|top" android:src="@drawable/llamanotifylockgrey" />
+    </item>
+</layer-list>

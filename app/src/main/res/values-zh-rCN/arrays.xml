@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="notificationModeArray">
+        <item>无通知</item>
+        <item>正在运行的通知和图标</item>
+        <item>正在运行的通知（没有图标）</item>
+        <item>正在运行的图标（没有通知）</item>
+        <item>清除通知和图标</item>
+        <item>Toasts</item>
+        <item>Ongoing notification and icon (normal priority)</item>
+    </string-array>
+    <string-array name="batteryLevelOptions">
+        <item>电量降到...以下</item>
+        <item>电量提高到...以上</item>
+    </string-array>
+    <string-array name="calendarContainsOptions">
+        <item>事件开始/当前事件</item>
+        <item>事件结束/非当前事件</item>
+    </string-array>
+    <string-array name="cellPollingModeArray">
+        <item>不轮询（事件也许后延迟执行）</item>
+        <item>只在学习时</item>
+        <item>启用轮询（也许后影响电池使用时间）</item>
+    </string-array>
+    <string-array name="mobileDataMenuModeArray">
+        <item>或</item>
+        <item>移动数据</item>
+        <item>APN</item>
+        <item>两者都</item>
+    </string-array>
+    <string-array name="notificationColourNames">
+        <item>红</item>
+        <item>橙</item>
+        <item>黄</item>
+        <item>绿</item>
+        <item>蓝</item>
+        <item>紫</item>
+        <item>粉红</item>
+        <item>青</item>
+        <item>黑</item>
+        <item>白</item>
+        <item>Llama设置：替代图标颜色</item>
+        <item>不要改变颜色</item>
+    </string-array>
+    <string-array name="screenOnNames">
+        <item>点亮按键灯</item>
+        <item>点亮（只有屏幕）</item>
+        <item>暗（只有屏幕）</item>
+    </string-array>
+    <string-array name="errorNotificationModeArray">
+        <item>什么也没有</item>
+        <item>Toasts only</item>
+        <item>Notifications and toasts</item>
+    </string-array>
+    <string-array name="colourEventListModeArray">
+        <item>关</item>
+        <item>开</item>
+        <item>开（色盲）</item>
+        <item>开(色盲2）</item>
+    </string-array>
+    <string-array name="mediaButtonNames">
+        <item>播放/暂停</item>
+        <item>下一首曲目</item>
+        <item>上一首曲目</item>
+        <item>停止</item>
+        <item>快速转寄</item>
+        <item>倒带</item>
+        <item>播放 (Android 3.0+)</item>
+        <item>暂停(Android 3.0+)</item>
+        <item>录制(Android 3.0+)</item>
+    </string-array>
+    <string-array name="simpleRotationOptions">
+        <item>无自动旋转</item>
+        <item>打开自动旋转</item>
+        <item>高级... （需要自定义的ROM支持）</item>
+    </string-array>
+    <string-array name="intentEditorTypes">
+        <item>开始活动</item>
+        <item>启动服务</item>
+        <item>广播</item>
+    </string-array>
+    <string-array name="llamaVariableChangeOptions">
+        <item>当前值</item>
+        <item>非当前值</item>
+    </string-array>
+    <string-array name="audioStreamNames">
+        <item>响铃</item>
+        <item>通知</item>
+        <item>音乐/媒体</item>
+        <item>闹铃</item>
+        <item>通话</item>
+        <item>系统</item>
+        <item>[Cancel queued sounds]</item>
+    </string-array>
+    <string-array name="ringtoneTypes">
+        <item>铃声</item>
+        <item>通知</item>
+        <item>闹铃</item>
+        <item>错误...音乐呢？？</item>
+    </string-array>
+    <string-array name="twoGThreeGNames">
+        <item>"首选WCDMA
+(2G / 首选 3G)"</item>
+        <item>"只有GSM
+(2G)"</item>
+        <item>"只有WCDMA
+(3G)"</item>
+        <item>"自动转换GSM(PRL)
+(首选 2G / 3G)"</item>
+        <item>"自动转换CDMA(PRL)
+(2G / 3G)"</item>
+        <item>"只有CDMA
+(2G)"</item>
+        <item>"只有EvDo
+(3G)"</item>
+        <item>"自动转换GSM/CDMA (PRL)
+(2G / 3G)"</item>
+    </string-array>
+    <string-array name="calendarAllDayOptions">
+        <item>全天或非全天</item>
+        <item>只有全天事件</item>
+        <item>忽略所有的全天事件</item>
+    </string-array>
+    <string-array name="calendarAvailabilityOptions">
+        <item>显示可用或忙碌</item>
+        <item>只显示为可用</item>
+        <item>只显示为忙碌</item>
+    </string-array>
+    <string-array name="activeAppStatuses">
+        <item>程序启动或在前台工作</item>
+        <item>程序停止或在后台工作</item>
+    </string-array>
+    <string-array name="rebootCommandArray">
+        <item>重启</item>
+    </string-array>
+    <string-array name="shutdownCommandArray">
+        <item>关机</item>
+        <item>关机-f</item>
+        <item>poweroff -d 8 -f</item>
+    </string-array>
+</resources>

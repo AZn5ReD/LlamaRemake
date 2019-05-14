@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:key="editEventScreen"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.kebab.Llama.EventNamePreference android:title="@string/hrEventNameAndGroup" android:key="eventName" android:defaultValue="false" />
+    <com.kebab.longpref.CheckBoxPreference android:title="@string/hrEnabled" android:key="eventEnabled" android:summary="@string/hrEventEnabledDescription" android:defaultValue="true" />
+    <com.kebab.longpref.CheckBoxPreference android:title="@string/hrAllowRetrigger" android:key="allowRetrigger" android:summary="@string/hrAllowRetriggerDescription" android:defaultValue="false" />
+    <com.kebab.SeekBarPreference android:persistent="false" android:max="1440" android:text="" android:title="@string/hrQueueEventMinutes" android:key="queueEventMinutes" android:summary="" android:defaultValue="15" android:dialogMessage="@string/hrQueueEventMinutesDescription" min="0" zeroMessage="@string/hr0Minutes" formatter="hoursMinutes" />
+    <com.kebab.SeekBarPreference android:persistent="false" android:max="59" android:text="@string/hrSpaceSeconds" android:title="@string/hrQueueEventSeconds" android:key="queueEventSeconds" android:summary="" android:defaultValue="15" android:dialogMessage="@string/hrQueueEventSecondsDescription" min="0" zeroMessage="@string/hr0Seconds" showAsValueOverMax="0" />
+    <PreferenceScreen android:layout="@layout/long_preference" android:title="@string/hrAdvancedDotDotDot" android:key="advanced" android:summary="@string/hrEventAdvancedDescription2" android:defaultValue="true">
+        <PreferenceCategory android:title="@string/hrDelayEvent" android:key="delayEventCategory">
+            <com.kebab.longpref.CheckBoxPreference android:title="@string/hrDelayEvent" android:key="delayEvent" android:summary="@string/hrDelayEventDescription" android:defaultValue="false" />
+            <com.kebab.SeekBarPreference android:persistent="false" android:max="1440" android:text="" android:title="@string/hrDelayEventMinutes" android:key="delayEventMinutes" android:summary="" android:dependency="delayEvent" android:defaultValue="15" android:dialogMessage="@string/hrDelayEventMinutesDescription" zeroMessage="@string/hr0Minutes" min="0" formatter="hoursMinutes" />
+            <com.kebab.SeekBarPreference android:persistent="false" android:max="59" android:text="@string/hrSpaceSeconds" android:title="@string/hrDelayEventSeconds" android:key="delayEventSeconds" android:summary="" android:dependency="delayEvent" android:defaultValue="0" android:dialogMessage="@string/hrDelayEventSecondsDescription" zeroMessage="@string/hr0Seconds" min="0" showAsValueOverMax="0" />
+            <com.kebab.longpref.CheckBoxPreference android:title="@string/hrCancelDelayedEvent" android:key="cancelDelayedEvent" android:summary="@string/hrCancelDelayedEventDescription" android:dependency="delayEvent" android:defaultValue="false" />
+        </PreferenceCategory>
+        <PreferenceCategory android:title="@string/hrEventRequireConfirmation" android:key="requireConfirmationCategory">
+            <com.kebab.longpref.CheckBoxPreference android:title="@string/hrEventRequireConfirmation" android:key="requireConfirmation" android:summary="@string/hrEventRequireConfirmationDescription" android:defaultValue="false" />
+            <com.kebab.longpref.CheckBoxPreference android:title="@string/hrEventRequireConfirmationDialog" android:key="dialogConfirmation" android:summary="@string/hrEventRequireConfirmationDialogDescription" android:dependency="requireConfirmation" android:defaultValue="false" />
+        </PreferenceCategory>
+        <PreferenceCategory android:title="@string/hrRepeatEvent" android:key="repeatEventCategory">
+            <com.kebab.longpref.CheckBoxPreference android:title="@string/hrRepeatEvent" android:key="repeatEvent" android:summary="@string/hrRepeatEventDescription" android:defaultValue="false" />
+            <com.kebab.SeekBarPreference android:persistent="false" android:max="1440" android:text="" android:title="@string/hrRepeatEventMinutes" android:key="repeatEventMinutes" android:summary="" android:dependency="repeatEvent" android:defaultValue="15" android:dialogMessage="@string/hrRepeatEventMinutesDescription" min="1" formatter="hoursMinutes" />
+        </PreferenceCategory>
+        <PreferenceCategory android:title="@string/hrAllowedTriggers" android:key="dummy3">
+            <Preference android:title="@string/hrAllowedTriggers" android:key="allowedTriggers" android:summary="@string/hrAllowedTriggersDescription" />
+        </PreferenceCategory>
+        <PreferenceCategory android:title="@string/hrMoreInfoDotDotDot" android:key="dummy2">
+            <PreferenceScreen android:title="@string/hrMoreInfoDotDotDot" android:key="moreInfo" android:summary="" android:defaultValue="true" />
+        </PreferenceCategory>
+    </PreferenceScreen>
+</PreferenceScreen>

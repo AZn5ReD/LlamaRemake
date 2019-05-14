@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:id="@id/textView1" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/hrPreset" />
+        <Spinner android:id="@id/choose_preset" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <TextView android:gravity="center" android:layout_gravity="center" android:id="@id/TextView02" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/hrDashDashOrDashDash" />
+        <TextView android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/hrIntentEditSendMode" />
+        <Spinner android:entries="@array/intentEditorTypes" android:id="@id/intent_type" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <TextView android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/hrIntentEditPackageName" />
+        <EditText android:id="@id/package_name" android:layout_width="fill_parent" android:layout_height="fill_parent" android:hint="@string/hrIntentEditPackageName" android:singleLine="true" android:selectAllOnFocus="true" />
+        <TextView android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/hrIntentEditClassName" />
+        <EditText android:id="@id/class_name" android:layout_width="fill_parent" android:layout_height="fill_parent" android:hint="@string/hrIntentEditClassName" android:singleLine="true" android:selectAllOnFocus="true" />
+        <TextView android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/hrIntentEditAction" />
+        <EditText android:id="@id/action" android:layout_width="fill_parent" android:layout_height="fill_parent" android:hint="@string/hrIntentEditAction" android:singleLine="true" android:selectAllOnFocus="true" />
+        <TextView android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/hrIntentEditCategory" />
+        <EditText android:id="@id/category" android:layout_width="fill_parent" android:layout_height="fill_parent" android:hint="@string/hrIntentEditCategory" android:singleLine="true" android:selectAllOnFocus="true" />
+        <TextView android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/hrIntentEditData" />
+        <EditText android:id="@id/data" android:layout_width="fill_parent" android:layout_height="fill_parent" android:hint="@string/hrIntentEditData" android:singleLine="true" android:selectAllOnFocus="true" />
+        <TextView android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/hrIntentEditDateType" />
+        <EditText android:id="@id/data_type" android:layout_width="fill_parent" android:layout_height="fill_parent" android:hint="@string/hrIntentEditDateType" android:singleLine="true" android:selectAllOnFocus="true" />
+        <TextView android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/hrIntentEditExtras" />
+        <Button android:id="@id/add" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/hrIntentEditAddExtra" />
+        <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/hrIntentEditSetKeyBlankToDelete2" />
+        <ListView android:id="@id/list" android:layout_width="fill_parent" android:layout_height="?android:listPreferredItemHeight" />
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,1420 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Llama</string>
+    <string name="hrChoosePreset">Шаблоны</string>
+    <string name="hrTapRhythm">Выбейте ритм</string>
+    <string name="hrTest">Тест</string>
+    <string name="hrReset">Сброс</string>
+    <string name="hrVibrateDialogMessage">Выберите готовый шаблон, выбейте ритм или наберите последовательность самостоятельно (используйте шаблоны для примера)</string>
+    <string name="hrCalendarEventDialogMessage">"Это условие основывается на именах мероприятий в вашем календаре. Вы можете выбрать или начало мероприятия календаря или конец мероприятия.Если текст условия совпадает с частью имени мероприятия в календаре, то условие выполнится. Например, если Вы ввели 'встреча' в поле, мероприятие с именем 'Рабочая встреча' и 'Встреча с друзьями' будут вызывать событие."</string>
+    <string name="hrNotificationTitle">Llama</string>
+    <string name="hrIntroText">Я Llama. Ваше собственное Мобильное Приложение Определения Местоположения. Я использую телефонную вышку, чтобы определить Ваше местоположение, так что я не сажаю аккумулятор, пытаясь найти сигнал GPS. Мне понадобится определенное обучение, чтобы начать работать. Вы должны сказать мне, где я сейчас нахожусь. Нажмите на вкладку Зоны, чтобы начать.Если Вы считаете меня полезной, пожалуйста пожертвуйте, нажав Меню, затем Пожертвовать.Пожалуйста, используйте обратную связь - kebabapps@gmail.comПеревел speysar, специально для 4pda.ru</string>
+    <string name="hrCommonTip1">Для определения зон Llama необходимо первоначально обучить</string>
+    <string name="hrCommonTip2">Llama не расходует заряд батареи, т. к. не использует GPS</string>
+    <string name="hrCommonTip3">Точность Llama зависит от расположения вышек сотовой сети и в городе составляет +-100 м</string>
+    <string name="hrCommonTip4">Как правило для правильной работы Llama необходимо 2 события - включающее и выключающее</string>
+    <string name="hrCommonTip5">Llama - мобильное приложение определения местоположения по вышкам сотовой сети (и не только!)</string>
+    <string name="hrCommonTip6">Лама (Llama) похожа на верблюда, только более пугливая :)</string>
+    <string name="hrAreasTip1">Если телефонные вышки недостаточно точны, чтобы определить Ваше местоположение, попробуйте Экспериментальные настройки</string>
+    <string name="hrAreasTip2">Долгое нажатие на зону позволит Llama определить где Вы находитесь</string>
+    <string name="hrEventsTip1">В истории можно посмотреть, какие события когда сработали</string>
+    <string name="hrEventsTip2">В истории можно посмотреть, что послужило причиной запуска события</string>
+    <string name="hrProfilesTip1">Перед совещанием можно заблокировать изменение профиля с помощью значка блокировки (справа от профиля)</string>
+    <string name="hrProfilesTip2">Используйте долгое нажатие на профиль для блокировки или активации профиля</string>
+    <string name="hrProfilesTip3">Включение Настройки > Отключение кнопок громкости позволит возвращать настройки громкости к заданным в Llama при случайном изменении кнопками управления.</string>
+    <string name="hrRecentTip1">"Если Вы видите 'Не добавлено ни в одну зону' среди других зон, выберите мобильную вышку, чтобы дать Llama определить в какой зоне находиться вышка"</string>
+    <string name="hrHelpAreas">Эта вкладка показывает, какие зоны настроены в Llama для идентификации. У Llama в начале две зоны: Дом и Работа. Однако, Llama не знает, где Вы живете или работаете. Чтобы дать определить Llama где Вы находитесь, Вам необходимо физически находиться в этом месте.Долгое нажатие на зону - для определения текущего местоположения, или нажмите кнопку + чтобы создать новую зону. Llama спросит у Вас, как долго Вы планируете находиться здесь. В течении этого времени Llama будет запоминать какие телефонные вышки находились неподалеку, так что Llama сможет определить в какой зоне Вы находитесь, когда Вы вернетесь сюда.Список также показывает сколько телефонных вышек определяется каждой зоной. Вы можете также использовать некоторые экспериментальные методы, чтобы определить ваше местоположение, активируя их в настройках Llama (см. Экспериментально).</string>
+    <string name="hrHelpEvents">Эта вкладка показывает какие события настроены в Llama для выполнения. Llama запрограммирована на несколько событий. Вы можете изменить или удалить их, или добавить еще.Событие содержит некоторые условия и некоторые действия. Когда все условия будут соблюдены, Llama выполнит действия предписанные этому событию.Большинство событий идут в парах; Вам необходимо включить что-то одно, и в тоже время выключить что-то другое, таким образом Вами будет создано два события с противоположными условиями. НапримерДома -> Изменить ПрофильВне Дома -> Изменить ПрофильЕсли Вы считаете, что события происходят тогда, когда они не должны происходить, Вы можете просмотреть историю, чтобы увидеть какое событие произошло, и что его вызвало.Вы также можете разместить ярлыки на события у себя на экране. Чтобы сделать это, долгим нажатием пальца на пустом месте экрана Вашего телефона вызовите меню, выберите Ярлыки, Llama.</string>
+    <string name="hrHelpProfiles">Эта вкладка показывает, какие профили настроены в Llama для использования. В Llama уже настроены основные общие профили, но Вы можете изменить их или добавить еще.Профили в Llama аналогичные профилям в других не Android телефонах; они позволяют группировать различные настройки громкости таким образом, чтобы Вы могли изменять их простым нажатием. Вы также можете настроить Llama, чтобы менять профиль автоматически, с помощью событий. Каждый профиль может быть задан значком в строке состояния, так что Вы можете быстро увидет активный режим.Вы также можете временно запретить Llama менять профиль, если Вы идете на важную встречу. После заданного периода времени, Llama поменяет профиль на тот, который был. В настройках Вы можете указать, чтобы Llama контролировала кнопки регулировки громкости, таким образом, если Вы вручную установите бесшумный режим, Llama включит блокировку профиля.</string>
+    <string name="hrHelpRecent">"Эта вкладка показывает, какие телефонные вышки в Llama были активны недавно. После того как Вы указали в Llama зоны, Вы сможете увидеть какие телефонные вышки ловят в этой зоне.Если у Вас не было много времени, чтобы настроить Llama, Вы можете увидеть ячейки с надписью 'Не добавлено ни в одну зону'. Вы можете вручную добавить их в правильную зону, нажав на вышку в списке. Этот список также показывает время, так что Вы можете вспомнить, где Вы были в это время и добавить ее в правильную зону.Если мобильная вышка добавляется в две различные зоны, то, к сожалению у Вас недостаточное расстояние между двумя телефонными вышками, чтобы определить разницу между ними. Попробуйте активировать Экспериментальные методы обнаружения."</string>
+    <string name="hrServiceRestarted">"В прошлый раз, когда Вы пользовались Llama, Вы воспользовались кнопкой 'Выход'. Фоновая служба Llama была перезапущена. Используйте кнопку 'Выход', чтобы отключить ее снова."</string>
+    <string name="hrTabAreas">Зоны</string>
+    <string name="hrTabEvents">События</string>
+    <string name="hrTabProfiles">Профили</string>
+    <string name="hrTabRecent">Вышки</string>
+    <string name="hrLlamaLogWarning">ВНИМАНИЕ: Журнал LlamaLog включен. Этот файл может стать ооочень большим! В определенный момент Вы, возможно, захотите его отключить.</string>
+    <string name="hrOkeyDokeExclamation">Ок</string>
+    <string name="hrTurnItOff">Выключить его</string>
+    <string name="hrOk">Ок</string>
+    <string name="hrCancel">Отмена</string>
+    <string name="hrViewMap">Просмотр Карты</string>
+    <string name="hrCreateReminder">Создать напоминание</string>
+    <string name="hrRenameArea">Переименовать</string>
+    <string name="hrSetPositionOnMap">Указать Положение На Карте</string>
+    <string name="hrStartLearningArea">Запустить определение зоны</string>
+    <string name="hrStopLearningArea">Остановить определение зоны</string>
+    <string name="hrDeleteArea">Удалить</string>
+    <string name="hrYes">Да</string>
+    <string name="hrNo">Нет</string>
+    <string name="hrEnterAReminderForArea1">"Введите напоминание для зоны '%1s'"</string>
+    <string name="hrEnterANewNameForTheArea">Введите новое имя зоны</string>
+    <string name="hrNewLocationPrompt">Укажите имя нового местоположения</string>
+    <string name="hr1SecondsToGo">%1s секунд(а) до конца</string>
+    <string name="hr1MinutesToGo">%1s минут(а) до конца</string>
+    <string name="hrLearningDash">"Определение - "</string>
+    <string name="hrCurrentDash">"Сейчас - "</string>
+    <string name="hrCurrentNoDash">Сейчас</string>
+    <string name="hrAnd">и</string>
+    <string name="hrHowLongWillYouBeAt1For">Как долго Вы будете находиться в зоне %1s ?</string>
+    <string name="hrImNotThere">Я сейчас не в этой зоне</string>
+    <string name="hrSecond">секунда</string>
+    <string name="hrSeconds">секунд</string>
+    <string name="hrMinute">минуту</string>
+    <string name="hrMinutes">минут</string>
+    <string name="hr0Minutes">0 минут</string>
+    <string name="hr0Seconds">0 секунд</string>
+    <string name="hrSpaceMinutes">" минут"</string>
+    <string name="hrSpaceSeconds">" секунд"</string>
+    <string name="hrSpaceMilliseconds">" миллисекунд"</string>
+    <string name="hrHour">час</string>
+    <string name="hrHours">часа</string>
+    <string name="hrMapPoint">точка на карте</string>
+    <string name="hrMapPoints">точки на карте</string>
+    <string name="hrCell">вышка</string>
+    <string name="hrCells">вышек</string>
+    <string name="hrWifiName">имя WiFi</string>
+    <string name="hrWifiNames">имена WiFi</string>
+    <string name="hrWifiMac">WiFi MAC</string>
+    <string name="hrWifiMacs">WiFi MACs</string>
+    <string name="hrBluetoothDevice">Bluetooth устройство</string>
+    <string name="hrBluetoothDevices">Bluetooth устройства</string>
+    <string name="hrUnknown">неизвестное</string>
+    <string name="hrNotAddedToAnyAreas">Не добавлено ни в одну зону</string>
+    <string name="hrViewAllMapPoints">Посмотреть все точки на карте</string>
+    <string name="hrAllRecentMapPositions">Все Недавние Позиции Карты</string>
+    <string name="hrAddToArea">Добавить в Зону</string>
+    <string name="hrViewCoordinatesOnMap">Посмотреть Координаты на Карте</string>
+    <string name="hrEditAreasPositionOnMap">Изменить Позицию Зоны на Карте</string>
+    <string name="hrRemoveFromArea">Удалить из Зоны</string>
+    <string name="hrPositionOfARecentLocationEstimate">Позиция Недавней Оценки Местоположения</string>
+    <string name="hrWhichAreaDoYouWantToRemove1From">Из какой зоны Вы хотите удалить %1s ?</string>
+    <string name="hrCouldntFindTheAreaNamed1s">Не удалось найти зону %1s</string>
+    <string name="hrWhichAreaDoYouWantToEdit">Какую зону Вы хотите изменить?</string>
+    <string name="hrCreateNewArea">Создать новую зону</string>
+    <string name="hrWhichAreaDoYouWantToAdd1To">В какую зону Вы хотите добавить %1s ?</string>
+    <string name="hrEnterANameForTheNewArea">Введите имя для новой зоны</string>
+    <string name="hrWithin1m">в пределах %1sm</string>
+    <string name="hrNewEvent1">Новое Событие %1s</string>
+    <string name="hrNewProfile1">Новый Профиль %1s</string>
+    <string name="hrLlamaDashEditingEvent">Llama - Редактирование События</string>
+    <string name="hrLlamaDashOrConditions">Llama - Совпадает любое условие</string>
+    <string name="hrLlamaDashAndConditions">Llama - Совпадают все условия</string>
+    <string name="hrLlamaDashNewEvent">Llama - Новое событие</string>
+    <string name="hrLlamaShortcutName">Имя ярлыка Llama</string>
+    <string name="hrActions">Действия</string>
+    <string name="hrCancelRemove">Отменить Удаление</string>
+    <string name="hrNowTapAConditionOrActionToRemoveIt">Теперь нажмите на условие или действие, чтобы удалить его</string>
+    <string name="hrSelectConditionToTriggerEvent">Выберите условие для активации события</string>
+    <string name="hrSelectActionToPerformWhenTriggered">Выберите действие, выполняемое при активации события</string>
+    <string name="hrCool">Спасибо</string>
+    <string name="hrYourEventIsNotCompleteColon">Ваше событие не полное:</string>
+    <string name="hrPleaseFixTheseErrorsOrRemoveTheOffendingConditionsSlashActions">Пожалуйста, исправьте эти ошибки, или удалите условия/действия, вызывающие их</string>
+    <string name="hrIWillIPromise">Я исправлю, обещаю</string>
+    <string name="hrProblems">Проблемы</string>
+    <string name="hrLlamaDashEventHistory">Llama - История событий</string>
+    <string name="hrEventHistory">История событий</string>
+    <string name="hrTriggeredBy1Condition">Запущено с условием %1s</string>
+    <string name="hrTrigger1Prohibitted">Триггер в условии %1s невозможен</string>
+    <string name="hrDisabled">Отключено</string>
+    <string name="hrEditEvent">Редактировать</string>
+    <string name="hrCopyEvent">Копия события</string>
+    <string name="hrRunEventActions">Запустить</string>
+    <string name="hrEnableEvent">Включить</string>
+    <string name="hrDisableEvent">Отключить</string>
+    <string name="hrDeleteEvent">Удалить</string>
+    <string name="hrAreYouSureYouWantToDelete1">"Вы уверены, что хотите удалить событие '%1s'?"</string>
+    <string name="hrCopy">копия</string>
+    <string name="hrCreateLlamaShortcut">Создать Ярлык Llama</string>
+    <string name="hrEnterALabelForTheShortcut">Введите название ярлыка</string>
+    <string name="hrCustomEvent">Пользовательское событие</string>
+    <string name="hrSwitchToProfile1">Переключить профиль на %1s</string>
+    <string name="hrSpecifyACustomSetOfActionsForTheShortcut">Определите пользовательский набор действий для ярлыка</string>
+    <string name="hrProfile">Профиль</string>
+    <string name="hrEvent">Событие</string>
+    <string name="hrCustomEventActions">Действия пользовательского события</string>
+    <string name="hrTheLlamaServiceMustBeRunningForShortcutsToWork">Служба Llama должна быть запущена для работы ярлыков</string>
+    <string name="hrHowCanIHelpYou">Чем могу помочь?</string>
+    <string name="hrCurrentTabInfo">Информация о вкладке</string>
+    <string name="hrLlamaInstructions">Llama инструкции</string>
+    <string name="hrLlamaAndKebabAppsWebsite">Сайт Llama и Kebabapps</string>
+    <string name="hrSendEmail">Отправить e-mail</string>
+    <string name="hrAboutTheApp">О приложении</string>
+    <string name="hrWhatDoesThisTabDo">Назначение вкладки</string>
+    <string name="hrGroovy">Прекрасно</string>
+    <string name="hrPerformed1ActionsSince2DaysAgo">Выполнено %1$s действий в течение %2$s дней.</string>
+    <string name="hrDonateSmiley">Подкиньте деньжат :)</string>
+    <string name="hrSettings">Настройки</string>
+    <string name="hrImportExportData">Импорт/Экспорт Данных</string>
+    <string name="hrToggleMobileData">Переключить Мобильные Данные</string>
+    <string name="hrToggleApn">Переключить APN</string>
+    <string name="hrDonate">Отблагодарить автора</string>
+    <string name="hrQuit">Выйти</string>
+    <string name="hrQuitLlama">Отключить Llama?</string>
+    <string name="hrPutLlamaToSleep">Усыпить Llama</string>
+    <string name="hrCloseLlamaExplanation">Это закроет Llama и отключит её фоновую службу. Чтобы запустить службу, коснитесь значка Llama в списке приложений на экране.</string>
+    <string name="hrEnableApn">включить APN</string>
+    <string name="hrCurrent">текущая</string>
+    <string name="hrDisableApn">отключить APN</string>
+    <string name="hrEnableMobileData">включить мобильные данные</string>
+    <string name="hrDisableMobileData">отключить мобильные данные</string>
+    <string name="hrImportWarning">Вы уверены, что хотите импортировать настройки? Это УДАЛИТ все зоны, профили и события, которые уже настроены в Llama!</string>
+    <string name="hrExportWarning">Вы уверены, что хотите экспортировать настройки на SD-карту? Это УДАЛИТ все зоны, профили и события, сохранённые на SD-карте!</string>
+    <string name="hrImportFromUrl">Импортировать из Llama URL</string>
+    <string name="hrImportFromSdCard">Импорт с SD-карты</string>
+    <string name="hrExportToSdCard">Экспорт на SD-карту</string>
+    <string name="hrOkeyDoke">Ок</string>
+    <string name="hrLockedUntil1">Заблокирован до %1s</string>
+    <string name="hrProfileLocked">Профиль заблокирован</string>
+    <string name="hrTheShortcutRefersToAnEventNamed1WhichNoLongerExists">"Ярлык ссылается на несуществующее событие '%1s'"</string>
+    <string name="hrTheShortcutRefersToAProfileNamed1WhichNoLongerExists">"Ярлык ссылается на несуществующий профиль '%1s'"</string>
+    <string name="hrLoadSettingsError">Не удалось загрузить настройки. Они были сохранены на SD карте.</string>
+    <string name="hrCriticalLoadSettingsError">Не удалось загрузить настройки, произошла ошибка при сохранении на SD карту. Llama сейчас умрет от стыда :(</string>
+    <string name="hrQuietAtNight">Тихая ночь</string>
+    <string name="hrHome">Дом</string>
+    <string name="hrQuiet">Тихий</string>
+    <string name="hrNormalAtHome">Нормальный дома</string>
+    <string name="hrNormal">Нормальный</string>
+    <string name="hrLeftHome">Вышел из дома</string>
+    <string name="hrQuietAtWork">Тихий на работе</string>
+    <string name="hrWork">Работа</string>
+    <string name="hrNormalOutsideWork">Нормальный вне работы</string>
+    <string name="hrLeftWork">Вышел с работы</string>
+    <string name="hrSilent">Без звука</string>
+    <string name="hrLoud">Громкий</string>
+    <string name="hrCouldNotFindEventNamed1">"Не удалось найти событие '%1s'"</string>
+    <string name="hrTestVersion">ТЕСТОВАЯ ВЕРСИЯ</string>
+    <string name="hrLlamaForAndroidVersionContact">"Llama для Android 
+%1s 
+ Пишите kebabapps@gmail.com"</string>
+    <string name="hrThanksForDonatingExclamation">Спасибо за пожертвование!</string>
+    <string name="hrPleaseDonateBeerMoney">Если Вы находите это приложение полезным, пожалуйста, подкиньте банкнот на пиво</string>
+    <string name="hrOkThanks">Ok, спасибо</string>
+    <string name="hrDonateViaMarket">Пожертвование через Google Play</string>
+    <string name="hrProfilesAreLockedGotoProfilesTabToUnlock">Профили заблокированы. Перейдите на вкладку профилей и нажмите Меню для снятия блокировки.</string>
+    <string name="hrCouldNotChangeProfileBecauseNoProfileNamed1">Не удалось изменить профиль, потому что нет профиля %1s</string>
+    <string name="hrError">ОШИБКА</string>
+    <string name="hrInfo">ИНФО</string>
+    <string name="hrExportFailedSadFace">Сбой при экспорте :(</string>
+    <string name="hrImportFailedSadFace">Сбой при импорте :( Пожалуйста, убедитесь что Ваши данные находятся на SD-карте в папке Llama</string>
+    <string name="hrImportOf1Successful">Импорт %1s прошел успешно. Пожалуйста, перезапустите Llama</string>
+    <string name="hrStorageAreas">зоны</string>
+    <string name="hrStorageEvents">события</string>
+    <string name="hrStorageProfiles">профили</string>
+    <string name="hrStorageIgnoredCell">игнорируемые вышки</string>
+    <string name="hrQuickReminderAt1">Быстрое напоминание в %1s</string>
+    <string name="hrNoApnsDefinedTip">У нет настроенных APN. Вы можете удалить действия с APN из своих событий.</string>
+    <string name="hrWifiNotTurnedOffAsItsConnected">WiFi не выключен, поскольку он используется</string>
+    <string name="hrBluetoothNotTurnedOffAsConnectedToAudioDevice">Bluetooth не выключен, поскольку подключен к аудио устройству</string>
+    <string name="hrBluetoothNotTurnedOffAsItsConnected">Bluetooth не выключен, поскольку он используется</string>
+    <string name="hrCouldnNotTurnOnBluetoothMaybeAirplane">Bluetooth не включен, возможно включен Режим полета</string>
+    <string name="hrBluetoothIsntSupported">Bluetooth не поддерживается</string>
+    <string name="hrBluetoothApiNotSupported">Bluetooth API не поддерживается</string>
+    <string name="hrCouldnotStart1">Не удалось запустить %1s</string>
+    <string name="hrRebootFailWarning">Перезагрузка не выполнена, время работы устройства %1s минуты. Из соображений безопасности оно должно быть не менее 5 минут.</string>
+    <string name="hrShutdownFailWarning">Устройство не выключено, время работы устройства %1s минуты. Из соображений безопасности оно должно быть не менее 5 минут.</string>
+    <string name="hrRebooting">ПЕРЕЗАГРУЗКА!!!</string>
+    <string name="hrShuttingDown">ВЫКЛЮЧЕНИЕ!!!</string>
+    <string name="hrProfileChangesUnlocked">Изменение Профилей разблокировано</string>
+    <string name="hrPositionsFor1">Позиции для %1s</string>
+    <string name="hrSave">Сохранить</string>
+    <string name="hrClose">Закрыть</string>
+    <string name="hrLlamaMapNotInstalled">Llama Map не установлен</string>
+    <string name="hrGoToMarket">Перейти в Google Play</string>
+    <string name="hrLlamaMapNeededMessage">"Для просмотра карт в Llama необходимо установить дополнение Llama Map.
+
+Отдельное дополнение необходимо, т.к. Llama не имеет разрешения на доступ в интернет, необходимого для загрузки карт Google. 
+
+Как и Llama, аддон Llama Map бесплатен."</string>
+    <string name="hrSelectEmailApplication">Выберите приложение электронной почты</string>
+    <string name="hrEnteredUnknownArea">Вошел в неизвестную зону</string>
+    <string name="hrLeftArea1">Покинул %1s</string>
+    <string name="hrEnteredArea1">Вошел в %1s</string>
+    <string name="hrLlamaDashEditingProfile">Llama - Редактирование профиля</string>
+    <string name="hrLlamaDashNewProfile">Llama - Новый профиль</string>
+    <string name="hrVibrate">Вибро</string>
+    <string name="hrRing">Звонок</string>
+    <string name="hrRingAndVibrate">Звонок и Вибро</string>
+    <string name="hrProfilesUnlocked">Профили разблокированы</string>
+    <string name="hrActivateAndLock">Вкл. и заблокировать</string>
+    <string name="hrEditProfile">Редактировать</string>
+    <string name="hrCopyProfile">Копия профиля</string>
+    <string name="hrDeleteProfile">Удалить</string>
+    <string name="hrNever">постоянно</string>
+    <string name="hrAutomaticallyUnlockProfileDescription">Можно отключить срабатывание всех событий Llama, изменяющих профили в течение определенного времени. Например, при встрече длительностью 1 час можно заблокировать телефон в тихом режиме</string>
+    <string name="hrAutomaticallyUnlockProfileChangesAfter">Заблокировать изменения профиля на</string>
+    <string name="hrWillActivateWhenProfilesAreManuallyUnlocked">Активируется, когда профили разблокированы вручную</string>
+    <string name="hrWillActivateAt1">Активируется в %1s</string>
+    <string name="hrActivatedAt1">активирован %1s</string>
+    <string name="hrAuto">Авто</string>
+    <string name="hrChangeBrightness">Изменить яркость</string>
+    <string name="hrSetToAutomaticBrightness">установить автоматическую яркость</string>
+    <string name="hrSetTo1Brightness">установить %1s%% яркости</string>
+    <string name="hrLlamaBluetoothPolling">Время опроса Bluetooth</string>
+    <string name="hrChangeLlamaBluetoothPolling">Изменить Время Опроса Bluetooth</string>
+    <string name="hrChangeAndroidLocationPolling">Изменить время опроса местонахождения</string>
+    <string name="hrAndroidLocationPolling">Определение местоположения</string>
+    <string name="hrLlamaWifiPolling">Время опроса Wi-Fi</string>
+    <string name="hrChangeLlamaWifiPolling">Изменить время опроса Wi-fi</string>
+    <string name="hrSet1ToNever">установить %1s - никогда</string>
+    <string name="hrSet1To2">установить %1$s на %2$s</string>
+    <string name="hrChangeNotificationIconTo1">изменить иконку уведомления на %1s</string>
+    <string name="hrChangeNotificationIcon">Изменить иконку уведомления</string>
+    <string name="hrChangeProfile">Изменить профиль</string>
+    <string name="hrChangeProfileTo">изменить профиль на %1s</string>
+    <string name="hrChooseAProfile">Выберите профиль</string>
+    <string name="hrChangeScreenTimeout">Изменить таймаут выключения экрана</string>
+    <string name="hrDisableScreenTimeout">отключить таймаут отключения экрана</string>
+    <string name="hrSetScreenTimeoutTo1Seconds">установить тайм-аут экрана на %1s секунд</string>
+    <string name="hrToggleScreenLock">Переключить блокировку экрана</string>
+    <string name="hrScreenLockOn">Включить блокировку экрана</string>
+    <string name="hrScreenLockOnForce">Включить блокировку экрана (принудительно)</string>
+    <string name="hrScreenLockOffImmediately">Отключить блокировку экрана немедленно (глючит!)</string>
+    <string name="hrScreenLockOffAfterPassword">Отключить блокировку экрана после разблокировки</string>
+    <string name="hrEnableKeyGuard">включить блокировку экрана</string>
+    <string name="hrEnableKeyGuardForce">включить блокировку экрана (принудительно)</string>
+    <string name="hrDisableKeyGuardImmediately">немедленно отключить блокировку экрана</string>
+    <string name="hrDisableKeyGuardAfterUnlock">отключить блокировку экрана после разблокировки</string>
+    <string name="hrKillApplication">Завершить приложение</string>
+    <string name="hrKillApplicationWithRoot">Завершить приложения (Root)</string>
+    <string name="hrKill1DieDieDie">завершить %1s умри! умри!</string>
+    <string name="hrChooseAnApplication">Выберите приложение</string>
+    <string name="hrChooseAnApplicationWithAName">Выберите приложение по имени</string>
+    <string name="hrLockProfileChanges">Заблокировать изменение профиля</string>
+    <string name="hrUnlockProfileChanges">Разблокировать изменение профиля</string>
+    <string name="hrLockProfileChangesDescription">заблокировать изменение профиля</string>
+    <string name="hrUnlockProfileChangesDescription">разблокировать изменение профиля</string>
+    <string name="hrChangeMusicVolume">Изменить громкость музыки/медиа</string>
+    <string name="hrSetMusicVolumeTo1">установить громкость музыки/медиа на %1s</string>
+    <string name="hrReminder">Напоминание</string>
+    <string name="hrShowAReminder">показать напоминание</string>
+    <string name="hrEnterSomeReminderText">Введите текст напоминания</string>
+    <string name="hrNoDontDoAnything">Нет, ничего не делать</string>
+    <string name="hrYesIReallyWantToReboot">Да, я действительно хочу перезагрузить!</string>
+    <string name="hrYesIReallyWantToShutdown">Да, я действительно хочу выключить устройство!</string>
+    <string name="hrRebootPhoneDescription">перезагрузить устройство</string>
+    <string name="hrDontRebootPhoneDescription">не перезагружать устройство</string>
+    <string name="hrShutdownPhoneDescription">выключить устройство</string>
+    <string name="hrDontShutdownPhoneDescription">не выключать устройство</string>
+    <string name="hrRunApplication">Запустить приложение</string>
+    <string name="hrRun1">запустить %1s</string>
+    <string name="hrIfNotConnected">если не подключено</string>
+    <string name="hrForAtLeast1">по крайней мере %1s</string>
+    <string name="hrForAtLeast1Minutes">по крайней мере %1s минут</string>
+    <string name="hrIfNotConnectedDescription">если не подключено</string>
+    <string name="hrFor1ThenDisconectIfNotConnected">на %1s, затем отключить, если не подключен</string>
+    <string name="hrFor1MinutesThenDisconectIfNotConnected">на %1s минут(ы), затем отключить, если не подключен</string>
+    <string name="hrAirplaneModeOn">Режим полета включен</string>
+    <string name="hrAirplaneModeOff">Режим полета выключен</string>
+    <string name="hrToggleAirplaneMode">Переключить режим полета</string>
+    <string name="hrEnableAirplaneMode">включить режим полёта</string>
+    <string name="hrDisableAirplaneMode">отключить режим полета</string>
+    <string name="hrApnOn">APN включена</string>
+    <string name="hrApnOff">APN выключена</string>
+    <string name="hrBluetoothOn">Bluetooth включен</string>
+    <string name="hrBluetoothOff">Bluetooth отключен</string>
+    <string name="hrToggleBluetooth">Переключить Bluetooth</string>
+    <string name="hrEnableBluetooth">включить Bluetooth</string>
+    <string name="hrDisableBluetooth">отключить Bluetooth</string>
+    <string name="hrToggleLlamaCellPolling">Переключить опрос сети</string>
+    <string name="hrCellPollingOn">Опрос сети включен</string>
+    <string name="hrCellPollingOff">Опрос сети выключен</string>
+    <string name="hrEnableLlamaCellPolling">включить опрос сети Llama</string>
+    <string name="hrDisableLlamaCellPolling">выключить опрос сети Llama</string>
+    <string name="hrToggleGps">Переключить GPS</string>
+    <string name="hrGpsOn">GPS включен</string>
+    <string name="hrGpsOff">GPS выключен</string>
+    <string name="hrEnableGps">включить GPS</string>
+    <string name="hrDisableGps">отключить GPS</string>
+    <string name="hrMobileDataOn">Мобильные данные включены</string>
+    <string name="hrMobileDataOff">Мобильные данные выключены</string>
+    <string name="hrEnableSyncRequestUpdate">Включить синхронизацию, запросить обновление</string>
+    <string name="hrEnableSyncNoUpdate">Включить синхронизацию без обновления</string>
+    <string name="hrDisableSync">Отключить синхронизацию</string>
+    <string name="hrToggleAccountSync">Переключить синхронизацию аккаунтов</string>
+    <string name="hrEnableAccountSyncThenRequestUpdateDescription">включить синхронизацию аккаунтов и запросить обновление</string>
+    <string name="hrEnableAccountSyncDescription">включить синхронизацию аккаунтов</string>
+    <string name="hrDisableAccountSyncDescription">отключить синхронизацию аккаунтов</string>
+    <string name="hrWifiOn">Wi-Fi включен</string>
+    <string name="hrWifiOff">Wi-Fi выключен</string>
+    <string name="hrToggleWifi">Переключить Wi-Fi</string>
+    <string name="hrEnableWifi">включить Wi-Fi</string>
+    <string name="hrDisableWifi">отключить Wi-Fi</string>
+    <string name="hrVibratePattern">Шаблон Вибро</string>
+    <string name="hrVibrateThe1Pattern">вибрировать по шаблону %1s</string>
+    <string name="hrVibrateACustomisedPattern">вибрация по настроенному шаблону</string>
+    <string name="hrVibrateShort">Быстро</string>
+    <string name="hrVibrateLong">Долго</string>
+    <string name="hrVibrateMultipleShort">Многократно коротко</string>
+    <string name="hrVibrateMultipleLong">Многократно долго</string>
+    <string name="hrBatteryLevel">Уровень заряда аккумулятора</string>
+    <string name="hrBatteryLevelAbove1">Уровень заряда выше %1s</string>
+    <string name="hrBatteryLevelBelow1">Уровень заряда ниже %1s</string>
+    <string name="hrWhenBatteryGoesBelow1Percent">когда заряд аккумулятора ниже %1s%%</string>
+    <string name="hrWhenBatteryRisesAbove1Percent">когда заряд аккумулятора выше %1s%%</string>
+    <string name="hrPleaseChooseAtLeastOneBluetoothDevice">Выберите по крайней мере одно устройство Bluetooth</string>
+    <string name="hrPleaseChooseAtLeastOneWifiNetwork">Выберите по крайней мере одну сеть Wi-Fi</string>
+    <string name="hrOr">или</string>
+    <string name="hrNor">ни</string>
+    <string name="hrWhen1IsConnected">когда %1s подключена</string>
+    <string name="hrWhen1Disconnects">когда %1s отключена</string>
+    <string name="hrBluetoothDeviceDisconnected">Устройство Bluetooth отключено</string>
+    <string name="hrBluetoothDeviceConnected">Устройство Bluetooth подключено</string>
+    <string name="hrWhenCalendarHasACurrentEventNameContaining1">"когда в календаре текущее событие с названием, содержащим '%1s'"</string>
+    <string name="hrWhenCalendarDoesNotHaveACurrentEventNameContaining1">"когда в календаре текущее событие с названием, содержащим '%1s'"</string>
+    <string name="hrCalendarHasACurrentEventNameContaining1">"В календаре есть текущее событие с названием, содержащим '%1s'"</string>
+    <string name="hrCalendarDoesNotHaveACurrentEventNameContaining1">"В календаре нет текущего события с названием, содержащим '%1s'"</string>
+    <string name="hrCalendarEvent">Календарь</string>
+    <string name="hrCalendarConditionMustHaveACalendarEventNameOrCalendarOrEventType">В условии Календарь должно быть указано название события календаря, выбран календарь или тип события календаря.</string>
+    <string name="hrInCarMode">В автомобильном режиме</string>
+    <string name="hrNotInCarMode">Не в автомобильном режиме</string>
+    <string name="hrWhenInCarMode">когда в автомобильном режиме</string>
+    <string name="hrWhenNotInCarMode">когда не в автомобильном режиме</string>
+    <string name="hrUsingBattery">Работает от аккумулятора</string>
+    <string name="hrChargingFromAny">Зарядка от любого источника</string>
+    <string name="hrChargingFromAc">Заряжается от сети</string>
+    <string name="hrChargingFromUsb">Заряжается от USB</string>
+    <string name="hrChargingFromWireless">Зарядка без проводов</string>
+    <string name="hrChargingStatus">Состояние зарядки</string>
+    <string name="hrWhenChargingUnknown">когда заряжается от неизвестного источника</string>
+    <string name="hrWhenChargingFromAc">когда заряжается от сети</string>
+    <string name="hrWhenChargingFromUsb">когда заряжается от USB</string>
+    <string name="hrWhenChargingWirelessy">когда заражается проводом</string>
+    <string name="hrWhenCharging">когда заряжается</string>
+    <string name="hrWhenUsingBattery">когда работает от аккумулятора</string>
+    <string name="hrChooseAtLeastOneDay">Выберите хотя бы один день</string>
+    <string name="hrDayOfTheWeek">День недели</string>
+    <string name="hrWhenIts1">в %1s</string>
+    <string name="hrChooseAnAreaToEnter">Выберите зону</string>
+    <string name="hrEnterArea">В зоне</string>
+    <string name="hrAt1">"в зоне '%1s'"</string>
+    <string name="hrAtTime1">в %1s</string>
+    <string name="hrWiredHeadsetConnected">Проводная гарнитура подключена</string>
+    <string name="hrWiredHeadsetWithMicConnected">Проводная гарнитура с микрофоном подключена</string>
+    <string name="hrWiredHeadsetNoMicConnected">Проводная гарнитура без микрофона подключена</string>
+    <string name="hrWiredHeadsetDisconnected">Проводная гарнитура отключена</string>
+    <string name="hrWhenWiredHeadsetAnyIsConnected">когда любая проводная гарнитура подключена</string>
+    <string name="hrWhenWiredHeadsetNoMicIsConnected">когда подключена проводная гарнитура (без микрофона)</string>
+    <string name="hrWhenWiredHeadsetWithMicIsConnected">когда подключена проводная гарнитура (с микрофоном)</string>
+    <string name="hrWhenWiredHeadsetIsDisconnected">когда проводная гарнитура отключена</string>
+    <string name="hrChooseAnAreaToLeave">Выберите покидаемую зону</string>
+    <string name="hrLeaveArea">Покидаемая зона</string>
+    <string name="hrUponLeaving1">"покинув зону '%1s'"</string>
+    <string name="hrMusicPlayback">Воспроизведение музыки</string>
+    <string name="hrMusicPlaying">Музыка играет</string>
+    <string name="hrMusicPaused">Музыка на паузе</string>
+    <string name="hrWhenMusicIsPlaying">когда играет музыка</string>
+    <string name="hrWhenMusicIsPaused">когда музыка на паузе</string>
+    <string name="hrBluetoothDeviceNotConnected">Устройство Bluetooth не подключено</string>
+    <string name="hrWhen1IsNotConnected">когда %1s не подключено</string>
+    <string name="hrNotInArea">За пределами зоны</string>
+    <string name="hrChooseAnAreaToNotBeIn">Выберите за пределами какой зоны необходимо быть</string>
+    <string name="hrWhenNotAt1">"когда не в зоне '%1s'"</string>
+    <string name="hrTimeBetween">Время</string>
+    <string name="hrBetween1And2">между %1$s и %2$s</string>
+    <string name="hrFrom">С</string>
+    <string name="hrTo">до</string>
+    <string name="hrActionChangeProfile">Профиль</string>
+    <string name="hrActionChangeProfileDescription">Меняет звуковые настройки устройства согласно профилям, перечисленным в соответствующей вкладке. Значок уведомления изменяется в зависимости от активного профиля.</string>
+    <string name="hrActionNotificationIcon">Значок уведомления Llama</string>
+    <string name="hrActionNotificationIconDescription">Меняет значок Llama в панели уведомлений. Используйте разные значки для разных настроек. Значок Llama включается или выключается в основных настройках.</string>
+    <string name="hrActionScreenBrightness">Яркость экрана</string>
+    <string name="hrActionScreenBrightnessDescription">Меняет яркость экрана. Некоторые устройства поддерживают автоматическую яркость.</string>
+    <string name="hrActionScreenOn">Включить экран</string>
+    <string name="hrActionScreenOnDescription">Немедленно включить экран. Если экран не заблокирован, то он останется включенным в течение времени отключения. Если экран заблокирован, то отобразится экран блокировки и экран погаснет через 2 секунды. ПРИМЕЧАНИЕ: Возможно на вашем устройство не различает тусклый экран, яркий и яркий экран с подсветкой кнопок.</string>
+    <string name="hrActionScreenOff">Выключить экран</string>
+    <string name="hrActionScreenOffDescription">Немедленно выключает экран. Если блокировка экрана включена, экран заблокируется.</string>
+    <string name="hrActionMusicVolume">Громкость музыки/медиа</string>
+    <string name="hrActionMusicVolumeDescription">Изменяет громкость медиа/музыки.</string>
+    <string name="hrActionVibrate">Вибрация</string>
+    <string name="hrActionVibrateDescription">Заставляет вибрировать по шаблону или настроенному ритму.</string>
+    <string name="hrActionApn">Точки доступа (APN)</string>
+    <string name="hrActionApnDescription">Отключает мобильные данные, подменяя настройки APN Вашего оператора. Работает только в GSM сетях. Совместимо с виджетом APNDroid.</string>
+    <string name="hrActionBluetooth">Bluetooth</string>
+    <string name="hrActionBluetoothDescription">Включает и выключает Bluetooth.Выключить Bluetooth можно только при отсутствии подключённых устройств. Можно включить Bluetooth ненадолго, и выключить его автоматически при отсутствии подключенных устройств.</string>
+    <string name="hrActionAirplane">Режим полета</string>
+    <string name="hrActionAirplaneDescription">Включает и выключает режим полета. Wi-Fi и Bluetooth также отключаются. При включеном режиме полёта невозможно определить свое местоположение!</string>
+    <string name="hrActionWifi">Wi-Fi</string>
+    <string name="hrActionWifiDescription">"Включает и выключает Wi-Fi.
+Можно отключать Wi-Fi только при отсутствии подключенных сетей.
+Можно включить Wi-Fi ненадолго и затем выключить автоматически при отстутствии подключенных сетей."</string>
+    <string name="hrActionGps">GPS</string>
+    <string name="hrActionGpsDescription">Включает и выключает GPS. Android не поддерживает это официально, так что это может и не работать (в версиях Android 2.3 и выше). Если же Вы хотите, чтобы это работало - донимайте с этим вопросом Google.</string>
+    <string name="hrActionReboot">Перезагрузка (root)</string>
+    <string name="hrActionRebootDescription">Перезагружает устройство. Будьте осторожны с выбором условий события, так как перезагрузка может происходить сразу же после включения. Llama требует, чтобы устройство работало минимум 5 минут для запуска этого действия.</string>
+    <string name="hrActionShutdown">Выключение (root)</string>
+    <string name="hrActionShutdownDescription">Выключает устройство. Будьте осторожны с выбором условий события, так как выключение может происходить сразу же после включения. Llama требует, чтобы устройство работало минимум 5 минут для запуска этого действия.</string>
+    <string name="hrActionSync">Синхронизация аккаунтов</string>
+    <string name="hrActionSyncDescription">Включает или отключает синхронизацию учетных записей. Можно использовать принудительный запуск синхронизации.</string>
+    <string name="hrActionLlamaCellPolling">Опрос сети</string>
+    <string name="hrActionLlamaCellPollingDescription">ЭКСПЕРИМЕНТАЛЬНАЯ ФУНКЦИЯ: Изменяет частоту опроса сети. Для работы данного действия необходимо включить его в экспериментальных настройках.</string>
+    <string name="hrActionLlamaWifiPolling">Wi-Fi - частота опроса</string>
+    <string name="hrActionLlamaWifiPollingDescription">"ЭКСПЕРИМЕНТАЛЬНАЯ ФУНКЦИЯ: Изменяет частоту опроса Wi-Fi. Для работы данного действия необходимо включить его в экспериментальных настройках. При установке 'никогда' Llama будет использовать стандартную частоту опроса Wi-Fi."</string>
+    <string name="hrActionLlamaBluetoothPolling">Bluetooth - частота опроса</string>
+    <string name="hrActionLlamaBluetoothPollingDescription">"ЭКСПЕРИМЕНТАЛЬНАЯ ФУНКЦИЯ: Изменяет частоту опроса обнаружения Bluetooth устройств. Для работы действия необходимо включить его в экспериментальных настройках. При установке 'никогда' Llama будет использовать стандартную частоту опроса Bluetooth."</string>
+    <string name="hrActionAndroidLocationPolling">GPS - частота опроса</string>
+    <string name="hrActionAndroidLocationPollingDescription">"ЭКСПЕРИМЕНТАЛЬНАЯ ФУНКЦИЯ: Изменяет частоту опроса GPS. Для работы данного действия необходимо включить его в экспериментальных настройках. При установке 'никогда' Llama будет использовать другие приложения, использующие GPS."</string>
+    <string name="hrActionScreenTimeout">Экран - тайм-аут отключения</string>
+    <string name="hrActionScreenTimeoutDescription">Меняет промежуток времени активности экрана после касания.</string>
+    <string name="hrActionMobileData">Мобильные данные</string>
+    <string name="hrActionMobileDataDescription">"Изменяет настройки передачи мобильных данных. Не работает в Андроид 2.3 (Gingerbread), потому что Google сознательно поломал это :'( Если у Вас Андроид 2.2.1 или старше, то для работы действия должны быть включены 'Мобильные данные' в настройках устройства."</string>
+    <string name="hrActionReminder">Напоминание</string>
+    <string name="hrActionReminderDescription">Выводит невзрачное напоминание в панели уведомлений.</string>
+    <string name="hrActionScreenLock">Блокировка экрана (глючит)</string>
+    <string name="hrActionScreenLockDescription2">"Включает и отключает блокировку экрана. Андроид не обеспечивает однозначного управления этой функцией, так что блокировка может не работать так, как ожидается.
+
+Если экран включен и разблокирован:
+- включение блокировки экрана не произойдёт пока экран не выключится.
+- блокировка экрана (принудительно) выключит экран и покажет блокировку после включения
+- отключение блокировки экрана произойдет сразу (то есть в следующий раз, когда Вы выключаете экран, Вы не увидите блокировку).
+
+
+Если экран заблокирован и выключен:
+- включение блокировки экрана заставит показать блокировку в следующий раз, когда экран включится
+- немедленное отключение блокировки экрана никогда не будет отображать блокировку и может сбить работу кнопок Домой и Поиск
+- отключение блокировки экрана после разблокировки, покажет блокировку один раз и затем она не появится, пока Вы повторно не включите ее.
+
+
+Если Ваш экран разблокирован и выключен:
+- включение блокировки экрана покажет блокировку после того, как экран будет выключен и включен
+- принудительная блокировка экрана заставит блокировку появиться при включении экрана.
+
+
+Если кнопка Домой сбоит не стоит использовать это действие. Попробуйте использовать блокировку графическим ключом, а не блокировку по паролю."</string>
+    <string name="hrActionProfileLock">Блокировка профиля</string>
+    <string name="hrActionProfileLockDescription">Позволяет управлять блокировкой профилей Llama. Предотвращает изменение профиля на определенное время.</string>
+    <string name="hrActionRunApp">Запустить приложение</string>
+    <string name="hrActionRunAppDescription">"Запускает приложение.
+Загрузка списка приложений можеть занять некоторое время, особенно, если установленных приложений много."</string>
+    <string name="hrActionKillApp">Завершить приложение</string>
+    <string name="hrActionKillAppDescription">"Завершает работу приложения (в меру возможностей Llama).
+Внимание! Завершение работы приложений в Андроид ограничено, так что действие может работать не так, как хотелось бы."</string>
+    <string name="hrActionKillWithRootApp">Завершить приложение (root)</string>
+    <string name="hrActionKillWithRootAppDescription">Это позволяет Llama ПРИНУДИТЕЛЬНО завершить приложение. Это действие не рекомендуется использовать и может привести к сбою приложения. Требуются root права.</string>
+    <string name="hrConditionEnterInArea">В зоне</string>
+    <string name="hrConditionEnterInAreaDescription">Это условие выполняется, когда Вы впервые входите в ЛЮБУЮ из выбранных зон, и остается в силе, пока Вы не покинете выбранные зоны.</string>
+    <string name="hrConditionLeaveArea">Покидаемая зона</string>
+    <string name="hrConditionLeaveAreaDescription">Это условие выполняется только когда Вы покидаете ЛЮБУЮ из выбранных зон. (См. условие За пределами зон).</string>
+    <string name="hrConditionNotInAreas">Вне зон</string>
+    <string name="hrConditionNotInAreasDescription">Это условие выполняется, когда Вы покидаете ВСЕ выбранные зоны и остается в силе, пока Вы не находитесь в этих зонах.</string>
+    <string name="hrConditionCalendarEvent">Календарь</string>
+    <string name="hrConditionCalendarEventDescription">Условие выполняется в зависимости от текущего события календаря. Можно указать начало или окончание события.</string>
+    <string name="hrConditionDayOfTheWeek">День недели</string>
+    <string name="hrConditionDayOfTheWeek_Description">Это условие позволяет выполнять событие только в определенные дни недели.</string>
+    <string name="hrConditionHeadset">Гарнитура</string>
+    <string name="hrConditionHeadsetDescription">Выполняется, когда проводная гарнитура или наушники подключены или отключены от устройства.</string>
+    <string name="hrConditionCharging">Зарядка</string>
+    <string name="hrConditionChargingDescription">Это условие позволяет выполнять событие, когда телефон подключен к ПК или зарядному устройству или если он разряжается.</string>
+    <string name="hrConditionPhoneReboot">Перезагрузка</string>
+    <string name="hrConditionPhoneRebootDescription">Это условие позволяет Вам выполнять события, когда устройство включается или перед тем как оно завершит работу.</string>
+    <string name="hrConditionBatteryLevel">Батарея</string>
+    <string name="hrConditionBatteryLevelDescription">Условие выполняется/запускается, когда заряд аккумулятора опускается ниже или повышается выше определенного уровня.</string>
+    <string name="hrConditionSignalLevel">Уровень сигнала</string>
+    <string name="hrConditionSignalLevelDescription">"Это условие позволяет выполнять события, когда уровень сигнала падает ниже или поднимается выше определенного значения. 
+
+При редактировании условия отображается текущий уровень сигнала в дБм.
+
+Llama считает -150 отсутствием сигнала. Внимание! Уровень GSM сигнала может опускаться до уровня -113 дБм."</string>
+    <string name="hrConditionCarMode">Автомобильный режим</string>
+    <string name="hrConditionCarModeDescription">Условие позволяет выполнять события, когда устройство подключено или отключено от док-станции</string>
+    <string name="hrConditionBluetoothConnected">Bluetooth устройство подключено</string>
+    <string name="hrConditionBluetoothConnectedDescription">Условие выполняется, когда любое из выбранных Bluetooth устройств подключено</string>
+    <string name="hrConditionBluetootDeviceNotConnected">Bluetooth устройства не подключены</string>
+    <string name="hrConditionBluetootDeviceNotConnectedDescription">Выполняется когда ни одно из выбранных Bluetooth устройств не подключено. Активируется, когда все выбранные устройства Bluetooth отключены.</string>
+    <string name="hrConditionBluetoothDisconnected">Bluetooth устройство отключено</string>
+    <string name="hrConditionBluetoothDisconnectedDescription">Выполняется когда ЛЮБОЕ из выбранных Bluetooth устройств отключено.</string>
+    <string name="hrConditionMusicPlayback">Музыка</string>
+    <string name="hrConditionMusicPlaybackDescription">"Срабатывает при изменениях в стандартном музыкальном плеере. ПРИМЕЧАНИЕ: Различные производители по разному настраивают свои медиа проигрыватели, но не предоставляют документацию сторонним разработчикам по взаимодействию с ними :'("</string>
+    <string name="hrConditionTimeBetween">Время</string>
+    <string name="hrConditionTimeBetweenDescription">"Условие позволяет фильтровать события так, чтобы они выполнялись только в определённое время. Можно задавать период между сутками (например, с 22:00 до 6:00), чтобы указать события, которые должны выполняться ночью. Момент наступления 'С' запускает событие. Пока время не дойдёт 'до' Llama будет проверять другие условия события и выполнять действия события."</string>
+    <string name="hrAlternativeIconColour">Альтернативный цвет значка</string>
+    <string name="hrAlternativeIconColourDescription">Использовать черные или белые значки уведомления (для Sense/Gingerbread)</string>
+    <string name="hrNotificationMode">Режим уведомления</string>
+    <string name="hrNotificationModeDescription">Как сообщить об изменениях профиля. Постоянные уведомления сообщают Андроид что не нужно завершать работу Llama</string>
+    <string name="hr12HourPickers">12-часовой формат времени</string>
+    <string name="hr12HourPickersDescription">Следует ли использовать 12-часовой формат времени (уменьшает количество кликов на часах ;)</string>
+    <string name="hrShowApnMobileData">Показывать APN/Мобильные данные в меню</string>
+    <string name="hrShowApnMobileDataDescription">Показывать, что APN/Мобильные данные переключаются в меню Llama. СОВЕТ: Вместо этого создайте ярлык на рабочем столе</string>
+    <string name="hrSoundProfileSettings">Настройки звукового профиля</string>
+    <string name="hrLockProfilesOnChange">Блокировать профили при изменении громкости</string>
+    <string name="hrLockProfilesOnChangeDescription">Предотвращать ли изменение профилей при изменении громкости кнопками</string>
+    <string name="hrUnlockProfilesAutomatically">Разблокировать профили автоматически</string>
+    <string name="hrUnlockProfilesAutomaticallyDescription">После блокировки профилей, разблокировать профили после</string>
+    <string name="hrCellTrackingSettings">Настройки отслеживания вышек</string>
+    <string name="hrIgnoreInvalidNoSignal">Игнорировать вышку Неверный/ Нет сигнала</string>
+    <string name="hrIgnoreInvalidNoSignalDescription">Обрабатывать ли недопустимые идентификаторы вышек и Нет сигнала как покидание зоны</string>
+    <string name="hrCellPollingMode">Режим опроса сети</string>
+    <string name="hrCellPollingModeDescription">"ЭКСПЕРИМЕНТАЛЬНАЯ ФУНКЦИЯ: Будить процессор для более надежного отслеживания изменения вышек. 
+Может повлиять на время работы от аккумулятора. Если отключено, некоторые события могут запускаться с опозданием. Обычно это не вызывает проблем, т.к. событие будет выполнено сразу после пробуждения."</string>
+    <string name="hrCellPollingInterval">Интервал опроса сети</string>
+    <string name="hrCellPollingIntervalDescription">Как часто будить процессор</string>
+    <string name="hrCellPollingIntervalMinutes">Интервал опроса сети (минуты)</string>
+    <string name="hrAlternativeLocationMethods">Альтернативные методы определения местоположения</string>
+    <string name="hrExperimentalStuff">Экспериментально</string>
+    <string name="hrExperimentalStuffDescription">Здесь драконы</string>
+    <string name="hrLocationSettings">Настройки местоположения</string>
+    <string name="hrUseAndroidLocation">Использовать местоположение Андроид</string>
+    <string name="hrUseAndroidLocationDescription">"ОЧЕНЬ ЭКСПЕРИМЕНТАЛЬНО:
+Использовать встроенные средства определения местоположения Андроид.
+ Определение будет точнее, если включить Wi-Fi, но это интенсивно расходует заряд батареи."</string>
+    <string name="hrUseGps">Использовать GPS</string>
+    <string name="hrUseGpsDescription">Использовать GPS для определения местоположения. Это будет ПОЖИРАТЬ заряд аккумулятора.</string>
+    <string name="hrAndroidLocationPollingName">Интервал опроса местоположения Андроид</string>
+    <string name="hrAndroidLocationPollingDescription">ЭКСПЕРИМЕНТАЛЬНО: Как часто проверять местоположение</string>
+    <string name="hrAndroidLocationPollingInterval">Интервал опроса местоположения Андроид (минуты)</string>
+    <string name="hrWifiTrackingSettings">Настройки отслеживания Wi-Fi</string>
+    <string name="hrCheckForWifiNetworks">Проверка сетей Wi-Fi</string>
+    <string name="hrCheckForWifiNetworksDescription">"ЭКСПЕРИМЕНТАЛЬНО:
+Включать периодически Wi-Fi для сканирования на наличие поблизости сетей Wi-Fi."</string>
+    <string name="hrWifiPolling">Интервал опроса Wi-Fi</string>
+    <string name="hrWifiPollingDescription">ЭКСПЕРИМЕНТАЛЬНО: Как часто проверять наличие сетей Wi-Fi</string>
+    <string name="hrWifiPollingInterval">Интервал опроса Wi-Fi (минуты)</string>
+    <string name="hrBluetoothTrackingSettings">Настройки отслеживания Bluetooth</string>
+    <string name="hrCheckForBluetoothDevices">Проверить устройства Bluetooth</string>
+    <string name="hrCheckForBluetoothDevicesDescription">СОВСЕМ ЭКСПЕРИМЕНТАЛЬНО: Включать периодически Bluetooth для поиска поблизости Bluetooth устройств</string>
+    <string name="hrBluetoothPollingInterval">Интервал опроса Bluetooth</string>
+    <string name="hrBluetoothPollingIntervalDescription">ОЧЕНЬ ЭКСПЕРИМЕНТАЛЬНО: Как часто проверять наличие Bluetooth устройств</string>
+    <string name="hrBluetoothPollingIntervalMinutes">Интервал опроса Bluetooth (минуты)</string>
+    <string name="hrUserInterfaceSettings">Настройки интерфейса пользователя</string>
+    <string name="hrDebugSettings">Настройки отладки (для красноглазиков)</string>
+    <string name="hrDebugSettingsTitle">Настройки отладки</string>
+    <string name="hrDebugSettingsDescriptions">Дополнительные настройки записи в журнал и диагностики</string>
+    <string name="hrEventName">Имя события</string>
+    <string name="hrEventNameAndGroup">Имя события (группы)</string>
+    <string name="hrEventNameDescription">Имя, используемое для идентификации этого события</string>
+    <string name="hrEnabled">Включить</string>
+    <string name="hrEventEnabledDescription">При активации Llama будет проверять условия и выполнять действия события</string>
+    <string name="hrProfileName">Имя профиля</string>
+    <string name="hrProfileNameDescription">Имя, используемое для идентификации этого профиля</string>
+    <string name="hrNotificationVolume">Громкость уведомления</string>
+    <string name="hrRingVibrateSilent">Стиль звонка</string>
+    <string name="hrChangeRingVibrateSilent">Управлять</string>
+    <string name="hrChangeRingVibrateSilentDescription">Изменять стиль звонка при активации профиля</string>
+    <string name="hrRingtone">Мелодия звонка</string>
+    <string name="hrChangeRingtone">Управлять</string>
+    <string name="hrChangeRingtoneDescription">Изменять мелодию звонка при активации профиля</string>
+    <string name="hrNotificationTone">Мелодия уведомления</string>
+    <string name="hrChangeNotificationTone">Управлять</string>
+    <string name="hrChangeNotificationToneDescription">Изменять мелодию уведомления по умолчанию при активации профиля</string>
+    <string name="hrMusicVolume">Громкость медиа/музыки</string>
+    <string name="hrChangeMusicVolumeDescription">Изменять громкость медиа/музыки при активации профиля</string>
+    <string name="hrAlarmVolume">Громкость будильника</string>
+    <string name="hrChangeAlarmVolume">Управлять</string>
+    <string name="hrChangeAlarmVolumeDescription">Изменять громкость будильника при активации профиля</string>
+    <string name="hrInCallVolume">Громкость приема вызова</string>
+    <string name="hrChangeInCallVolume">Управлять</string>
+    <string name="hrChangeInCallVolumeDescription">Изменить громкость приема вызова при активации профиля</string>
+    <string name="hrSystemSoundsVolume">Громкость системных звуков</string>
+    <string name="hrChangeSystemSoundsVolume">Управлять</string>
+    <string name="hrChangeSystemSoundsVolumeDescription">Изменять громкость системных звуков при активации профиля</string>
+    <string name="hrLlamaIcon">Значок Llama</string>
+    <string name="hrChangeLlamaIcon">Управлять</string>
+    <string name="hrChangeLlamaIconDescription">Изменять значок Llama при активации профиля</string>
+    <string name="hrLlamaIcons">Значки Llama</string>
+    <string name="hrSelectALlamaIcon">Выбрать значок Llama</string>
+    <string name="hrRingtoneVolumeDescription">Установить громкость звонка на</string>
+    <string name="hrNotificationToneVolumeDescription">Установить громкость уведомления на</string>
+    <string name="hrChooseVibrateMode">Выбрать стиль звонка</string>
+    <string name="hrChooseVibrateModeDescription">Стиль звонка</string>
+    <string name="hrSelectARingtone">Выберите мелодию</string>
+    <string name="hrRingtones">Мелодии</string>
+    <string name="hrSelectDefaultNotificationDescription">Выберите стандартное уведомление</string>
+    <string name="hrNotificationTones">Мелодии уведомления</string>
+    <string name="hrMusicVolumeDescription">Установить громкость медиа на</string>
+    <string name="hrAlarmDescription">Установить громкость будильника на</string>
+    <string name="hrInCallDescription">Установить громкость приема вызова на</string>
+    <string name="hrSystemSoundDescription">Установить громкость системных звуков</string>
+    <string name="hrChangeRingtoneVolume">Управлять</string>
+    <string name="hrChangeRingtoneVolumeDescription">Изменять громкость звонка при активации профиля</string>
+    <string name="hrChangeNotificationVolume">Изменять громкость уведомления</string>
+    <string name="hrChangeNotificationVolumeDescription">Изменять громкость уведомления при активации профиля</string>
+    <string name="hrRingtoneVolume">Громкость звонка</string>
+    <string name="hrAddAction">Добавить действие</string>
+    <string name="hrAddCondition">Добавить условие</string>
+    <string name="hrRemove">Удалить</string>
+    <string name="hrTestActions">Проверить действия</string>
+    <string name="hrNotificationIconOnlyError">Постоянный значок не поддерживается в Gingerbread и выше :(</string>
+    <string name="hrThanksToTranslators">Большое спасибо переводчикам Llama:</string>
+    <string name="hrUnableToUpdateArea1">"Не удается обновить зону '%1s' поскольку ее больше не существует :("</string>
+    <string name="hrToggleProfileChangesLock">Переключить блокировку профиля</string>
+    <string name="hrRebootBracketRequiresRootBracket">Перезагрузка (Необходимы root права)</string>
+    <string name="hrCarMode">Автомобильный режим</string>
+    <string name="hrWiredHeadset">Проводная гарнитура</string>
+    <string name="hrConditionsMatchAll">Условия (совпадают все)</string>
+    <string name="hrConditionsMatchAny">Условия (совпадает любое)</string>
+    <string name="hrSorryNoHelpYet">Извините, но справки нет :(</string>
+    <string name="hrAirplaneModeEnterAreaWarning">"Когда телефон находится в Режиме полета, Вы не сможете 'войти' в какую-либо зону, т.к. Вы не подключены к телефонной сети!"</string>
+    <string name="hrRebootSafetyMessage">"Будьте осторожны с условиями!
+Устройство должно быть включено минимум 5 минут до перезагрузки по соображениям безопасности"</string>
+    <string name="hrShutdownSafetyMessage">"Будьте осторожны со своими условиями!
+Устройство должно быть включено минимум 5 минут перед выключением, из соображений безопасности"</string>
+    <string name="hrBluetoothParingInfo">Устройство Bluetooth должно быть сопряжено с устройством. Если этот список пуст, включите Bluetooth и попробуйте еще раз.</string>
+    <string name="hrWifiNetworkInfo">Если этот список пуст, включите Wi-Fi и повторите попытку. Сеть Wi-Fi должна быть поблизости, или должны были подключаться к ней ранее и сохранить её.</string>
+    <string name="hrAndroid22Only">Только для Android 2.2+</string>
+    <string name="hrKeyGuardBuggyWarning">ПРЕДУПРЕЖДЕНИЕ: Глючит! Кнопка Домой может перестать работать до тех пор, пока Вы повторно не включите блокировку клавиатуры. Это также может сделать процесс блокировки весьма забавным!</string>
+    <string name="hrMobileDataWarning">ЭКСПЕРИМЕНТАЛЬНО: Вам нужно включить мобильные данные в настройках!</string>
+    <string name="hrLanguageDescription">Использовать язык, отличный от языка интерфейса Андроид</string>
+    <string name="hrLanguageBracketEnglishLanguageBracket">Язык</string>
+    <string name="hrTurnOnTheScreenDim">включить экран с низкой яркостью</string>
+    <string name="hrTurnOnTheScreenBright">включить экран с нормальной яркостью</string>
+    <string name="hrTurnOnTheScreenBrightAndKeyboard">включить экран и кнопки подсветки с нормальной яркостью</string>
+    <string name="hrTurnOffTheScreen">выключить экран</string>
+    <string name="hrErrorNotificationMode">Уведомления об ошибках</string>
+    <string name="hrErrorNotificationModeDescription">Как сообщать Вам о проблемах, которые могут произойти, когда Llama в фоновом режиме (ошибки событий и блокировки профиля)</string>
+    <string name="hrLlamaErrorV2">Ошибка Llama - Нажмите сюда</string>
+    <string name="hrLlamaInfoV2">Llama инфо - Нажмите сюда</string>
+    <string name="hrLlamaProblem">Проблема Llama</string>
+    <string name="hrFailedToReadCalendar1">Невозможно прочитать календарь %1s. Вы можете отключить уведомления об ошибках в настройках Llama.</string>
+    <string name="hrRevertVolumeChanges">Отключение кнопок регулировки громкости</string>
+    <string name="hrRevertVolumeChangesDescription">Возвращать ли назад настройки громкости текущего профиля, когда Вы случайно нажмете кнопку регулировки громкости.</string>
+    <string name="hrScreenOn">Экран включен</string>
+    <string name="hrScreenOff">Экран выключен</string>
+    <string name="hrWhenScreenIsOn">когда экран включен</string>
+    <string name="hrWhenScreenIsOff">когда экран выключен</string>
+    <string name="hrScreenOnOff">Экран</string>
+    <string name="hrConditionScreenOnOffDescription">Условие запускать или фильтровать события в зависимости от того, включен или выключен экран.</string>
+    <string name="hrAutoRelinkVolumes">Перепривязать уровни громкости</string>
+    <string name="hrAutoRelinkVolumesDescription">"Включить ли повторно флажок 'использовать громкость входящего вызова для уведомлений', когда профиль с соответствующим уровнем громкости активирован."</string>
+    <string name="hrTimeBetweenWarning">Не забудьте создать еще одно событие за пределами этого интервала времени!</string>
+    <string name="hrConditionWifiConnected">Wi-Fi cеть подключена</string>
+    <string name="hrConditionWifiConnectedDescription">Условие выполняется, когда любая из выбранных сетей Wi-Fi подключена и продолжает выполнятся до тех пор, пока устройство подключено к ним.</string>
+    <string name="hrConditionWifiDisconnected">Wi-Fi сеть отключена</string>
+    <string name="hrConditionWifiDisconnectedDescription">Условие выполняется, когда любая из выбранных сетей Wi-Fi отключается или не подключена, и остается действительным до тех пор, пока устройство не подключится к одной из них.</string>
+    <string name="hrWhenWifi1Disconnects">когда отключен от %1$s</string>
+    <string name="hrWhenWifi1Connects">когда подключен к %1$s</string>
+    <string name="hrNoSignalUnknown">Нет сигнала/Неизвестный сигнал</string>
+    <string name="hrNewProfile">Новый профиль</string>
+    <string name="hrColourEventList">Цветной список событий</string>
+    <string name="hrColourEventListDescription">"Окрасить ли условия события согласно их текущему состоянию? 
+Зеленое = истина, красное = ложь, подчеркнутое = инициированные события во время последнего теста события"</string>
+    <string name="hrActionUsbStorage">USB-накопитель</string>
+    <string name="hrActionUsbStorageDescription">"Включает и выключает режим USB-накопителя. Если производитель телефона добавил другие режимы USB (например, MTP), возможны ошибки в работе.
+СОВЕТ: Создайте ярлык Llama на рабочем столе, чтобы переключать режим USB-накопителя простым касанием и нет больше раздражающих лишних нажатий :)"</string>
+    <string name="hrUsbStorageOn">USB-накопитель включен</string>
+    <string name="hrUsbStorageOff">USB-накопитель выключен</string>
+    <string name="hrUsbStorageToggle">Вкл/выкл USB-накопитель</string>
+    <string name="hrUsbStorageOnDescription">включить USB-накопитель</string>
+    <string name="hrUsbStorageOffDescription">выключить USB-накопитель</string>
+    <string name="hrUsbStorageToggleDescription">включить/выключить USB-накопитель</string>
+    <string name="hrUsbToggleError">Изменение состояния USB-накопителя не удалось</string>
+    <string name="hrActionMediaPlayer">Медиа плеер</string>
+    <string name="hrActionMediaPlayerDescription">Запускает действия медиа плеера, например воспроизведение и паузу. Действия аналогичны нажатию кнопок Play/Pause, Prev или Next на гарнитуре. Зависит от Вашего медиа-плеера, т.к. не все проигрыватели поддерживают эти действия.</string>
+    <string name="hrSendMedia1Button">отправить нажатие медиа кнопки %1s</string>
+    <string name="hrUnknownArea">Неизвестная зона</string>
+    <string name="hrNoisyContacts">"'Громкие' контакты"</string>
+    <string name="hrNoisyContactsDescription">Выберите контакты, для которых разрешена отмена настроек звонка в этом профиле.</string>
+    <string name="hrNoisyContactRingerVolume">"Громкость 'громкого' звонка"</string>
+    <string name="hrNoisyContactRingerVolumeDescription">"Установка громкости звонка 'громких' контактов."</string>
+    <string name="hrNoisyContactPicker1Selected">"Выбор 'громкого' контакта - %1s выбраны"</string>
+    <string name="hr4GOn">Включить 4G</string>
+    <string name="hr4GOff">Выключить 4G</string>
+    <string name="hrActionToggle4G">4G</string>
+    <string name="hrActionToggle4GDescription">Включает или выключает 4G, если это поддерживает Ваш телефон. Если у Вашего телефона нет поддержки 4G, можно вызвать духа из ужасного места!</string>
+    <string name="hrEnable4G">включить 4G</string>
+    <string name="hrDisable4G">отключить 4G</string>
+    <string name="hr4GWarning">ЭКСПЕРИМЕНТАЛЬНО: У меня нет телефона с 4G, чтобы протестировать это. Приветствуются пожертвования, чтобы исправить эту досадную ошибку!</string>
+    <string name="hrActionRunShortcut">Запустить ярлык приложения</string>
+    <string name="hrActionRunShortcutDescription">Запускает другое приложение, используя указанный ярлык. Вы можете использовать действие, чтобы выполнять все виды действий в других приложениях. Если приложения нет в списке или действие, которое Вы хотите выполнить, не существует, сообщите разработчику приложения.</string>
+    <string name="hrChooseAShortcutToRun">Выберите ярлык для запуска</string>
+    <string name="hrRunAShortcut">"запустить ярлык '%1s'"</string>
+    <string name="hrPleaseWait">Пожалуйста, подождите...</string>
+    <string name="hrGettingApplicationNames">Получение списка приложений...</string>
+    <string name="hrGettingShortcuts">Получение списка ярлыков...</string>
+    <string name="hrAnyWifiNetwork">&lt;Любая сеть Wi-Fi></string>
+    <string name="hrInAirplaneMode">Режим полета включен</string>
+    <string name="hrNotInAirplaneMode">Режим полета отключен</string>
+    <string name="hrWhenInAirplaneMode">когда Режим полета включен</string>
+    <string name="hrWhenNotInAirplaneMode">когда Режим полета отключен</string>
+    <string name="hrConditionAirplaneMode">Режим полета</string>
+    <string name="hrConditionAirplaneModeDescription">Это условие позволяет выполнять события, когда Вы включаете или отключаете режим полета.</string>
+    <string name="hrTheApocalypse">До принудительной смены</string>
+    <string name="hrEnableHapticFeedback">включить тактильную отдачу</string>
+    <string name="hrDisableHapticFeedback">выключить тактильную отдачу</string>
+    <string name="hrActionHapticFeedback">Тактильная отдача</string>
+    <string name="hrActionHapticFeedbackDescription">Включает и выключает тактильную отдачу. Тактильная отдача - это вибрация при нажатии клавиш на экране вашего устройства.</string>
+    <string name="hrHapticFeedbackOn">Включить тактильную отдачу</string>
+    <string name="hrHapticFeedbackOff">Выключить тактильную отдачу</string>
+    <string name="hrActionScreenOnWarning">Различные телефоны ведут себя по разному. Используйте в комбинации с яркостью экрана, чтобы установить АКТУАЛЬНУЮ яркость.</string>
+    <string name="hrWifiSleepPolicyNever">Wi-Fi никогда не отключать</string>
+    <string name="hrWifiSleepPolicyNeverWhilePlugged">Wi-Fi не отключать на зарядке</string>
+    <string name="hrWifiSleepPolicyScreenOff">отключать Wi-Fi при отключении экрана</string>
+    <string name="hrWifiSleepPolicyNeverDescription">предотвращать Wi-Fi в спящем режиме</string>
+    <string name="hrWifiSleepPolicyNeverWhilePluggedDescription">предотвращать Wi-Fi в спящем режиме при подключении</string>
+    <string name="hrWifiSleepPolicyScreenOffDescription">отключить Wi-Fi сразу после отключения экрана</string>
+    <string name="hrActionWifiSleepPolicy">Wi-Fi в спящем режиме</string>
+    <string name="hrActionWifiSleepPolicyDescription">Управляет отключением Wi-Fi в спящем режиме. У некоторых устройств есть пауза между выключением экрана и отключением Wi-Fi.</string>
+    <string name="hrClearNotification">Очистить</string>
+    <string name="hrLeaveNotification">Оставить</string>
+    <string name="hrChangeWallpaperTo1">"изменить обои на '%1s'"</string>
+    <string name="hrPleaseChooseAWallpaper">Выбрать обои</string>
+    <string name="hrActionWallpaper">Обои</string>
+    <string name="hrActionWallpaperDescription">"Изменяет обои рабочего стола, используя стандартное приложение выбора обоев и позволяет выбрать и обрезать изображение из Галереи. Обрезанное изображение будет сохранено в папке Llama/Wallpaper на SD-карте.
+
+Андроид не позволяет приложениям изменять живые обои :'("</string>
+    <string name="hrHowDoIChangeOtherStuff">А где остальные настройки?</string>
+    <string name="hrHowDoIChangeOtherStuffDescription">Это экран звуковых профилей. Если необходимо изменить настройки Bluetooth, Wi-Fi и т.п., вернитесь во вкладку События.</string>
+    <string name="hrConditionAppNotification">Значок приложения</string>
+    <string name="hrConditionAppNotificationDescription">"ЭКСПЕРИМЕНТАЛЬНО: Срабатывает, когда другое приложение выводит значок в панель уведомлений.
+
+Для работы условия необходима запущенная служба Llama.
+
+Можно использовать для запуска действия при получении SMS или сообщения Google Hangouts. ДОРАБАТЫВАЕТСЯ, РАБОТОСПОСОБНОСТЬ НЕ ГАРАНТИРУЕТСЯ."</string>
+    <string name="hrConditionAppNotificationWarning">ЭКСПЕРИМЕНТАЛЬНО: Добавьте Llama в администраторы устройства в системных настройках</string>
+    <string name="hrKillWithRootDieDieDie1">завершить %1s с правами root-пользователя</string>
+    <string name="hrInvalidPackageNameToKill1">"Не могу завершить '%1s'. Неправильное имя"</string>
+    <string name="hrIgnored">Игнорировать</string>
+    <string name="hrUnignoreCell">Обрабатывать вышку</string>
+    <string name="hrIgnoreCell">Игнорировать вышку</string>
+    <string name="hrIgnoreCells">Игнорировать вышки</string>
+    <string name="hrNoCellsIgnoredLongTapRecentTab">Никакие другие вышки не игнорируются. Длинным нажатием на вышке во вкладке Вышки вызовите меню, чтобы добавить вышку в игнорируемые.</string>
+    <string name="hrIgnoreOtherCells">Другие игнорируемые вышки...</string>
+    <string name="hrIgnoreOtherCellsDescription">Возможно ситуация, когда одна вышка кратковременно появляется в двух зонах. Вы можете игнорировать такие вышки чтобы не срабатывало условия покидания зоны. Длинным нажатием на вышке вызовите меню и выберите Игнорировать вышку.</string>
+    <string name="hrAndFinally">И наконец...</string>
+    <string name="hrCalendarEventDialogEventNameContains">Имя события содержит... (разделите несколько имен знаком |)</string>
+    <string name="hrCalendarEventDialogInCalendars">В календарях...</string>
+    <string name="hrThisAreaHasNotBeenDefinedLongTapItOrLookInTheRecentTab">Эта зона еще не настраивалась. Длинным нажатием на зоне вызовите меню, в котором укажите начать обнаружение вышек или выберите вышки, которые необходимо добавить в эту зону, во вкладке Вышки.</string>
+    <string name="hrActionScreenBrightnessWarning">Различные устройства управляют яркостью экрана по-разному. Вам, вероятнее всего, придется выключить и включить экран прежде, чем изменение вступит в силу.</string>
+    <string name="hrAnyCalendarEvent">любое событие календаря</string>
+    <string name="hrAnyCalendar">любой календарь</string>
+    <string name="hrCalendarEvents1ContainsAnyEvent">%1$s содержит любые события календаря</string>
+    <string name="hrCalendarEvents1DoesNotContainAnyEvent">%1$s не содержит никаких событий календаря</string>
+    <string name="hrCalendarEvents1Contains2">%1$s содержит событие календаря с названием %2$s</string>
+    <string name="hrCalendarEvents1DoesNotContains2">%1$s не содержит событий календаря с названием %2$s</string>
+    <string name="hrCalendarEvents1ContainsAnyEventDescription">когда %1$s содержит любые события календаря</string>
+    <string name="hrCalendarEvents1DoesNotContainAnyEventDescription">когда %1$s не содержит никаких событий календаря</string>
+    <string name="hrCalendarEvents1Contains2Description">когда %1$s содержит событие календаря с названием %2$s</string>
+    <string name="hrCalendarEvents1DoesNotContains2Description">когда %1$s не содержит событие календаря с названием %2$s</string>
+    <string name="hrCalendarEventNameSpaceWarning">Названия некоторых событий из календарей содержат пробелы в начале или в конце. Некоторые Андроид-клавиатуры вставляют пробелы автоматически. Если Вы намеренно вставили пробелы, нажмите Удалить пробелы.</string>
+    <string name="hrRemoveSpaces">Удалить пробелы</string>
+    <string name="hrLeaveSpaces">Оставить пробелы</string>
+    <string name="hrOnStartUp">После включения</string>
+    <string name="hrOnShutdown">Перед выключением</string>
+    <string name="hrWhenPhoneBoots">когда устройство включается</string>
+    <string name="hrWhenPhoneShutsdown">когда устройство выключается</string>
+    <string name="hrEnableRotation">включить автоповорот</string>
+    <string name="hrDisableRotation">отключить автоповорот</string>
+    <string name="hrActionScreenRotation">Автоповорот экрана</string>
+    <string name="hrActionScreenRotationDescription">Позволяет управлять включением и отключением автоповорота экрана при повороте устройства. Большинстве устройств поддерживают установку только портретную ориентацию или автоматическое переключение между портретной (вертикальной) и ландшафтной (горизонтальной) ориентациями.</string>
+    <string name="hrAllow1Rotations">разрешить автоматический поворот экрана %1s</string>
+    <string name="hrLockProfileFor1">заблокировать профиль на %1s</string>
+    <string name="hrForeverEternity">постоянно (повторно включите на вкладке Профиль)</string>
+    <string name="hrLockProfileForever">заблокировать профиль навсегда</string>
+    <string name="hrAlsoPreventOtherEventsFromChangingProfilesForDotDotDot_1">Тоже активирует блокировку профиля. Другие события не смогут изменить профиль. При прошествии указанного количества минут Llama переключится на предыдущий профиль.</string>
+    <string name="hrCarDockOnOffDescription">вкл/выкл автомобильный режим</string>
+    <string name="hrCarDockOnOff">Автомобильный режим вкл/выкл</string>
+    <string name="hrCarDockOffDescription">выключить автомобильный режим</string>
+    <string name="hrCarDockOff">Выключить автомобильный режим</string>
+    <string name="hrCarDockOnDescription">включить автомобильный режим</string>
+    <string name="hrCarDockOn">Включить автомобильный режим</string>
+    <string name="hrActionCarMode">Автомобильный режим</string>
+    <string name="hrActionCarModeDescription">Это действие включает и выключает автомобильный режим вручную. Поддерживается только на Андроид 2.2 и новее.</string>
+    <string name="hrCarModeNotSupportedByPhone">Автомобильный режим поддерживается только на Андроид 2.2+</string>
+    <string name="hrFailedToStartShortcut1">Не удалось запустить ярлык %1s</string>
+    <string name="hrLlamaFailedToChangeApnSettings">Llama смогла изменить настройки APN</string>
+    <string name="hrErrorReadingContacts">Ошибка чтения контактов</string>
+    <string name="hrThereWasAnErrorReadingYourContacts">Произошла ошибка чтения ваших контактов :(</string>
+    <string name="hrAlarmVolumeWarning">Остерегайтесь приложений будильника, которые управляют громкостью сигнала, например, в некоторых телефонах Samsung. Пожалуйста, установите другой будильник из Google Play, который не делает этого.</string>
+    <string name="hrRunIntent1">"запустить интент '%1s'"</string>
+    <string name="hrCreateAnIntent">Определить интент</string>
+    <string name="hrActionAndroidIntent">Intent</string>
+    <string name="hrActionAndroidIntentDescription">Позволяет Вам запускать Андроид интент. Это очень сложная функция и нуждается в поддержке со стороны других приложений. В Llama уже есть несколько предопределенных интентов. Если Вы придумаете хороший интент, пожалуйста, сообщите другим людям об этом :)</string>
+    <string name="hrPreset">Шаблон</string>
+    <string name="hrDashDashOrDashDash">или</string>
+    <string name="hrIntentEditPackageName">Имя пакета</string>
+    <string name="hrIntentEditClassName">Имя класса</string>
+    <string name="hrIntentEditAction">Действие</string>
+    <string name="hrIntentEditCategory">Категории (разделители , или |)</string>
+    <string name="hrIntentEditData">Данные</string>
+    <string name="hrIntentEditDateType">Тип данных</string>
+    <string name="hrCustomAndroidIntent">Пользовательский интент</string>
+    <string name="hrIntentEditExtras">Дополнительно</string>
+    <string name="hrIntentEditAddExtra">Добавить новую строку</string>
+    <string name="hrTpiWidgetLockerEnable">Widget Locker: Включить</string>
+    <string name="hrTpiWidgetLockerDisable">Widget Locker: Отключить</string>
+    <string name="hrTpiWidgetLockerSuspend">Widget Locker: Приостановить</string>
+    <string name="hrTpiWidgetLockerResume">Widget Locker: Возобновить</string>
+    <string name="hrTpiWidgetLockerActivate">Widget Locker: Блокировать</string>
+    <string name="hrTpiWidgetLockerUnlock">Widget Locker: Разблокировать</string>
+    <string name="hrTpiBeautifulWidgetsRefresh">Beautiful Widgets: Обновить</string>
+    <string name="hrTpiAndroidStartHome">Андроид: Отобразить домашний экран</string>
+    <string name="hrTpiHoursBankStartStop">Hours Bank: Запустить/остановить</string>
+    <string name="hrTpiDrivingModeWidgetOn">Виджет режима вождения: Включить</string>
+    <string name="hrTpiDrivingModeWidgetOff">Виджет режима вождения: Отключить</string>
+    <string name="hrIntentEditSendMode">Режим отправки интента</string>
+    <string name="hrAdvancedDotDotDot">Продвинутые...</string>
+    <string name="hrEventAdvancedDescription2">Повторять ли это событие, необходимо ли подтверждение и фильтры триггеров</string>
+    <string name="hrRepeatEvent">Повторять событие</string>
+    <string name="hrRepeatEventDescription">Должны ли действия этого события работать пока выполняются условия</string>
+    <string name="hrRepeatEventMinutes">Интервал повтора</string>
+    <string name="hrRepeatEventMinutesDescription">Количество минут между повторениями действий этого события.</string>
+    <string name="hrDelayEvent">Задержка события</string>
+    <string name="hrDelayEventDescription">Выполнять действия этого события немедленно или спустя указанное количество минут?</string>
+    <string name="hrDelayEventMinutes">Задержка (минут)</string>
+    <string name="hrDelayEventMinutesDescription">Количество минут, которое должно пройти между моментом выполнения условий и запуском действий события.</string>
+    <string name="hrDelayEventSeconds">Задержка (секунд)</string>
+    <string name="hrDelayEventSecondsDescription">Количество секунд, которое должно пройти между моментом выполнения условий и запуском действий события (для тех, у кого быстрая реакция или ОКР :)</string>
+    <string name="hrCancelDelayedEvent">Отмена задержки при ошибке</string>
+    <string name="hrCancelDelayedEventDescription">При активации действия задержанного события запустятся, если условия более не выполняются.</string>
+    <string name="hrEventRequireConfirmation">Требовать подтверждение</string>
+    <string name="hrEventRequireConfirmationDescription">Запускать действия этого события только после подтверждения из уведомления?</string>
+    <string name="hrMoreInfoDotDotDot">Подробнее...</string>
+    <string name="hrEventAdvancedDetailedDescription">"Если был выбран более чем один дополнительный параметр:
+
+- Подтверждение не будет показано до окончания задержки.
+
+- Повторяющееся событие не начнет повторяться до окончания задержки и/или подтверждения."</string>
+    <string name="hrRepeatTriggerName">Повторяющееся событие</string>
+    <string name="hrAfterDelayTriggerName">Задержанное событие</string>
+    <string name="hrConfirmationTriggerName">Подтверждено пользователем</string>
+    <string name="hrEventNameTriggerName">Имя события</string>
+    <string name="hrEventNameTriggerShortcutName">Ярлык имени события</string>
+    <string name="hrEventNameTriggerShortcutCustom">Пользовательский ярлык</string>
+    <string name="hrEventNameTriggerEventEditor">Тест редактора события</string>
+    <string name="hrEventNameTriggerEventList">Тест списка событий</string>
+    <string name="hrEventNameTriggerSetLlamaVariableIntent">Внешне установленная переменная Llama</string>
+    <string name="hrEventNameExternalSetLlamaVariable">Внешне установленная переменная Llama</string>
+    <string name="hrTheEventNamed1NoLongerExists">"Событие с именем '%1s' более не существует"</string>
+    <string name="hrWifiAccessPointMayNotBeSupported">Точка доступа Wi-fi может не поддерживается Вашим телефоном.</string>
+    <string name="hrEvent1RequiresConfirmation">"Событие с именем '%1$s' требует подтверждения для выполнения этих действий:"</string>
+    <string name="hrEventRequiresConfirmationFooter">Вы можете выполнить эти действия сейчас, сохранить их на потом, или очистить уведомление.</string>
+    <string name="hrEventRequireConfirmationDialog">Окно подтверждения</string>
+    <string name="hrEventRequireConfirmationDialogDescription">Выводить подтверждение поверх всех приложений или помещать значок в панель уведомлений.</string>
+    <string name="hrEventConfirmationRunNow">Запустить сейчас</string>
+    <string name="hrEventConfirmationSaveForLater">Позже</string>
+    <string name="hrEventConfirmationDontRun">Очистить</string>
+    <string name="hrRepeatingAt1">(Повторить в %1s)</string>
+    <string name="hrDelayedUntil1">(Задержка до %1s)</string>
+    <string name="hrAwaitingConfirmation">(Ожидание подтверждения)</string>
+    <string name="hrWifiHotSpotOnOffDescription">вкл/выкл режим Точки доступа Wi-Fi</string>
+    <string name="hrWifiHotSpotOnOff">Точка доступа Wi-Fi вкл/выкл</string>
+    <string name="hrWifiHotSpotOffDescription">выключить точку доступа Wi-Fi</string>
+    <string name="hrWifiHotSpotOff">Выключить точку доступа Wi-Fi</string>
+    <string name="hrWifiHotSpotOnDescription">включить точку доступа Wi-Fi</string>
+    <string name="hrWifiHotSpotOn">Выключить точку доступа Wi-Fi</string>
+    <string name="hrActionWifiHotSpot">Wi-Fi - точка доступа</string>
+    <string name="hrActionWifiHotSpotDescription">Управляет точкой доступа Wi-Fi. Поддерживается в Андроид 2.2+.</string>
+    <string name="hrScreenBrightnessWarning">Не все Андроид-телефоны работают одинаково. Некоторые телефоны не будут реагировать на изменение яркости, до тех пор, пока экран не будет выключен, а затем включен.</string>
+    <string name="hrScreenBrightnessLowWarning">ПРЕДУПРЕЖДЕНИЕ: Некоторые телефоны позволяют уменьшить яркость так, что на экране ничего не будет видно. Используйте на свой страх и риск! Возможно Вам придется извлечь батарею и перезагрузить телефон.</string>
+    <string name="hrSpeakerphoneOnOffDescription">вкл/выкл режим громкой связи</string>
+    <string name="hrSpeakerphoneOnOff">Вкл/выкл громкой связи</string>
+    <string name="hrSpeakerphoneOffDescription">выключить громкую связь</string>
+    <string name="hrSpeakerphoneOff">Выключить громкую связь</string>
+    <string name="hrSpeakerphoneOnDescription">включить громкую связь</string>
+    <string name="hrSpeakerphoneOn">Включить громкую связь</string>
+    <string name="hrActionSpeakerphone">Громкая связь</string>
+    <string name="hrActionSpeakerphoneDescription">Включает и выключает громкую связь при звонке. Влияет только на телефонные вызовы! Не влияет на другие аудиопотоки (в т.ч. музыку).</string>
+    <string name="hrDeviceAdminDescription">Обеспечивает поддержку некоторых действий Llama</string>
+    <string name="hrDeviceAdminNotSupported">Администратор устройства поддерживается только на Андроид 2.2+</string>
+    <string name="hrDeviceAdminError">Llama не предоставлены привилегии Администратора устройства. Проверьте настройки безопасности Андроид.</string>
+    <string name="hrScreenOffError">Не удается выключить экран.</string>
+    <string name="hrActionChangePassword">Пароль блокировки экрана</string>
+    <string name="hrActionChangePasswordDescription">"Изменяет пароль блокировки экрана. Можно временно отключить пароль, чтобы блокировка экрана не отображалась.
+Пароль будет сохранен в зашифрованном виде, который может быть записан на SD-карту, если произойдёт ошибка данных Llama или если экспортируете свои данные вручную.
+Пароль будет зашифрован с помощью Пароля безопасности Llama (см. в настройках Llama), который никогда не хранится на SD-карте. Однако другие приложения с root правами могут считать Пароль безопасности Llama! Если измените Пароль безопасности Llama, придется повторно ввести пароль действия Изменить пароль."</string>
+    <string name="hrChangePasswordError">Не удается изменить пароль блокировки экрана.</string>
+    <string name="hrThereWasAnErrorSavingYourPassword">Произошла ошибка при сохранении пароля блокировки экрана. Возможно вы изменили Пароль безопасности Llama. Пожалуйста, попробуйте повторно войти в действие Пароль блокировки экрана.</string>
+    <string name="hrFailedToDecryptYourPassword">Не удалось расшифровать пароль блокировки экрана, поэтому он не изменён.</string>
+    <string name="hrSecuritySettings">Настройки безопасности</string>
+    <string name="hrLlamaSecurityPassword">Пароль безопасности Llama</string>
+    <string name="hrLlamaSecurityPasswordDescription">Используется для шифрования конфиденциальной информации, определенной в событиях, например, пароль блокировки экрана</string>
+    <string name="hrLlamaSecurityPasswordDescriptionEx">"Используется для шифрования конфиденциальной информации, определенной в событиях (например, пароль блокировки экрана). Это связано с тем, что конфиденциальная информация не записывается в текстовом виде на SD-карту, когда Вы экспортируете свои данные.
+
+Если этот пароль будет изменен, то Вы должны будете повторно ввести все пароли в действиях блокировки экрана, которые Вы использовали.
+
+Данный пароль Вам не понадобится пока Вы не поменяете телефон или не переустановите Llama."</string>
+    <string name="hrSetLlamaSecurityPasswordNow">Вы должны установить Пароль Безопасности Llama. Это необходимо для защиты конфиденциальной информации при экспорте событий на SD-карту. Он не связан с паролем блокировки или паролем аккаунта Google. Установить Пароль безопасности Llama?</string>
+    <string name="hrPleaseEnterALlamaSecurityPassword">Пожалуйста, введите Пароль безопасности Llama, или нажмите Отмена, чтобы оставить текущий</string>
+    <string name="hrChangeScreenLockPassword">изменить пароль блокировки экрана</string>
+    <string name="hrQueueEventActionValidation">Ваше событие должно содержать хотя бы одно условие, или быть поставлено в очередь по крайней мере на одну минуту.</string>
+    <string name="hrActionQueueEvent">Отложенное событие</string>
+    <string name="hrActionQueueEventDescription">"Позволяет создавать разовое событие. Может использоваться для выполнения другого набора действий после определенного периода времени. После того как данное событие сработает, оно будет удалено.
+
+Если установить и задержку и условия, то отложенное событие запустится только случае выполнения условий.
+
+Если установить только условия, то отложенное событие запустится только когда условия станут истинными."</string>
+    <string name="hrQueueEventMinutes">Задержка очереди</string>
+    <string name="hrQueueEventSeconds">Секунд задержки</string>
+    <string name="hrQueueEventMinutesDescription">Количество минут после первоначального срабатывания события, которое должно пройти прежде, чем будут проверены условия и выполнены действия.</string>
+    <string name="hrQueueEventSecondsDescription">Количество секунд, после первоначального срабатывания события, которое должно пройти прежде, чем будут проверены условия и выполнены действия.</string>
+    <string name="hrQueueAnEventNamed1After2Minutes">"в очереди событие с именем '%1$s' после %2$s минут"</string>
+    <string name="hrQueueAnEventNamed1After2Seconds">"в очереди событие с именем '%1$s' после %2$s секунд"</string>
+    <string name="hrQueueAnEventNamed1After2Minutes3Seconds">"в очереди событие с именем '%1$s' после %2$s минут и %3$s секунд"</string>
+    <string name="hrQueueAnEventNamed1">"в очереди событие с именем '%1$s'"</string>
+    <string name="hrWaitFor1Minutes">Подождите %1$s минут(ы)</string>
+    <string name="hrWaitFor1Seconds">Подождите %1$s секунд(ы)</string>
+    <string name="hrWaitFor1Minutes2Seconds">Подождите %1$s минут(ы) и %2$s секунд(ы)</string>
+    <string name="hrConditionAbbr">У</string>
+    <string name="hrActionAbbr">Д</string>
+    <string name="hrYouHaveFiltersActive">Некоторые события скрыты фильтром!</string>
+    <string name="hrEnterAScreenLockPassword">Введите пароль блокировки экрана:</string>
+    <string name="hrConfirmScreenLockPassword">Подтвердите пароль блокировки экрана:</string>
+    <string name="hrPasswordsDontMatch">Пароли не совпадают. Пожалуйста, попробуйте еще раз.</string>
+    <string name="hrPasswordHidden">Пароль скрыт</string>
+    <string name="hrPasswordErrorPleaseReenterItAgain">Не правильный пароль, введите пароль повторно</string>
+    <string name="hrEventActionAndConditionSettings">Настройки условий и действий события</string>
+    <string name="hrDefaultReminderTone">Тон уведомления напоминания</string>
+    <string name="hrDefaultReminderToneDescription">Тон уведомления, который будет воспроизведён, когда Вы используете действие Напоминание</string>
+    <string name="hrWaitForConditions">Ожидайте условия</string>
+    <string name="hrLongerProfileLock">Длительная блокировка профиля</string>
+    <string name="hrLongerProfileLockDescription">Установить максимальное значение для слайдера блокировки профиля 8 часов или 24 часа</string>
+    <string name="hrCellPolling">Настройки опроса сети</string>
+    <string name="hrCellPollingDescription">Llama обычно работает пассивно, используя активную в данный момент вышку. Эти настройки регулируют альтернативный метод опроса сети Llama.</string>
+    <string name="hrCellPollingWithWakeLock">Разбудить при опросе</string>
+    <string name="hrCellPollingWithWakeLockDescription">Будить телефон, когда он пытается определить, изменилась ли вышка? Некоторым телефонам это может понадобится.</string>
+    <string name="hrCellPollingWithScreenWakeLock">Включить экран при опросе</string>
+    <string name="hrCellPollingWithScreenWakeLockDescription">Включить ненадолго экран? ВНИМАНИЕ: Включение и выключение по нескольку сотен раз за день может привести его к выходу из строя. Я понятия как это отразится на Вашем телефоне, так что используйте опцию это на свой страх и риск.</string>
+    <string name="hrCellPollingActiveInterval">Время активации опроса сети</string>
+    <string name="hrCellPollingActiveIntervalMillis">Количество миллисекунд, на которое пробуждается Ваше устройство. Вам, вероятно, не стоит устанавливать это значение дольше 5 секунд, если Вы хотите чтобы батарея работала дольше.</string>
+    <string name="hrConfirmationTriggeredBy1Condition">Подтверждение инициировано условием %1s</string>
+    <string name="hrDelayTriggeredBy1Condition">Задержка запущенна условием %1s</string>
+    <string name="hrEventDelayCancelled">Задержка отменена, поскольку условия больше не выполняются</string>
+    <string name="hrEventRepeatingCancelled">Повторение отменено, поскольку условия больше не выполняются</string>
+    <string name="hrSetLlamaVariable1To2">"установить переменную Llama '%1$s' значение '%2$s'"</string>
+    <string name="hrPleaseEnterAVariableName">Введите имя переменной Llama</string>
+    <string name="hrPleaseEnterAVariableValue">Введите значение переменной Llama</string>
+    <string name="hrVariableName">Имя переменной</string>
+    <string name="hrVariableValue">Значение переменной (может быть пустым)</string>
+    <string name="hrActionSetLlamaVariable">Переменная Llama</string>
+    <string name="hrActionSetLlamaVariableDescription">Llama позволяет хранить текст, который могут использовать другие события, позволяя создавать ужасно сложные наборы событий. Сохраняйте текст именованных переменных. Можно создать несколько переменных с разными именами. В качестве бонуса, переменные отправляются в Minimalistic Text Widget (MTW). MTW видит переменные Llama как переменные Locale</string>
+    <string name="hrDonateRequiresMarket">Возникла проблема при запуске Google Play. Пожертвования могут быть сделаны только посредством него.</string>
+    <string name="hrWhen1HasAValueOf2">"когда '%1$s' равно '%2$s'"</string>
+    <string name="hrWhen1DoesNotHaveAValueOf2">"когда '%1$s' не равно '%2$s'"</string>
+    <string name="hrWhen1HasAValueGreaterThan2">"когда значение '%1$s' больше '%2$s'"</string>
+    <string name="hrWhen1HasAValueGreaterThanOrEqualTo2">"когда значение '%1$s' больше или равно '%2$s'"</string>
+    <string name="hrWhen1HasAValueLessThan2">"когда значение '%1$s' меньше '%2$s'"</string>
+    <string name="hrWhen1HasAValueLessThanOrEqualTo2">"когда значение '%1$s' меньше или равно '%2$s'"</string>
+    <string name="hrConditionLlamaVariable">Переменная Llama</string>
+    <string name="hrConditionLlamaVariableDescription">Используется в дополнение к действию Переменная Llama. Можно использовать для создания событий, используя текущие значения Переменных Llama.</string>
+    <string name="hrVariables">Переменные Llama</string>
+    <string name="hrAreYouSureYouWantToClearVariables">"Вы действительно хотите сбросить значение переменной и её имя?
+Используется только для сброса переменной. Не запускает события."</string>
+    <string name="hrNoVariablesSet">Переменные не установлены. Создайте событие с действием Переменная Llama, чтобы начать использовать переменные. Первоначально у переменной нет значения до первого запуска события, которое установит значение для этой переменной.</string>
+    <string name="hrConfirmationDeniedTriggerName">Подтверждение отменено</string>
+    <string name="hrForceNoisyContactRingtone">"Рингтон 'громких' контактов"</string>
+    <string name="hrForceNoisyContactRingtoneDescription">Некоторые телефоны не могут воспроизводить мелодию входящего звонка, когда они в бесшумном режиме. Заставляет Llama вместо этого проигрывать мелодию входящего звонка. Отключите, если слышите две мелодии входящего звонка.</string>
+    <string name="hrRepeatingEventWithNoConditionsWarning">"Это повторяющееся событие не содержит условий, поэтому оно никогда не сработает.
+
+Если Вы хотите, чтобы оно повторялось добавить условие Перезагрузка/запуск телефона.
+
+Добавить его сейчас?"</string>
+    <string name="hrNotificationIconDots">Количество точек</string>
+    <string name="hrColour">Цвет</string>
+    <string name="hrTheNumberOfDotsToShowOnTheIcon">Количество точек на значке</string>
+    <string name="hr1Dots">%1s точки</string>
+    <string name="hr1Dot">%1s точка</string>
+    <string name="hrWith">с</string>
+    <string name="hrDontChangeDots">Не менять точки</string>
+    <string name="hrPleaseChooseASoundToPlay">Выберите звук для воспроизведения</string>
+    <string name="hrNotificationIconMustChangeTheIconOrNumberOfDots">Иконка уведомления должна изменить иконку или количество точек</string>
+    <string name="hrAudioStream2">Выберите аудио поток в котором будет воспроизведён звук или выберите отмену всех воспроизводимых Ламой звуков:</string>
+    <string name="hrStopQueuedSounds">остановить воспроизведение звуков в очереди</string>
+    <string name="hrActionSoundPlayer">Воспроизвести</string>
+    <string name="hrActionSoundPlayerDescription">"Воспроизведёт рингтон или мелодию уведомления. Вы можете выбрать, какой аудиопоток должен воспроизводить звук. У каждого из аудиопотоков свой уровень громкости, которым Llama управляет через свои профили.
+
+Мелодия будет играть, пока она не закончится и больше не будет мелодий в очереди. Чтобы остановить воспроизведение, используйте значок уведомления, появляющийся при воспроизведении. Значок может быть выключен в настройках Llama."</string>
+    <string name="hrRingtonePickerType">Тип выбора рингтона</string>
+    <string name="hrPlaySound1">"играет мелодия '%1s'"</string>
+    <string name="hrEventColonSoundDescription">"%1$s: Проигрывается '%2$s'"</string>
+    <string name="hrChooseARingToneToPlay">Выбрать рингтон</string>
+    <string name="hrNoneSelected">не выбрано</string>
+    <string name="hrCurrentRingtoneColon1">Текущий рингтон: %1s</string>
+    <string name="hrErrrMusicDescription">"Стандартное средство Андроид для выбора рингтона не позволяет Вам выбирать музыку для рингтона. Однако, поскольку Андроид умнее своего фруктового конкурента, Вы можете использовать другое приложение для выбора мелодии входящего сигнала!
+
+Я рекомендую Rings Extended от Dianne Hackborn.
+
+Советую воздержаться от приложений, которые утверждают, что бесплатно предоставляют музыку, а на самом деле подписывают Вас на &amp;#163;5 рингтон недели.Любой, кто использует эти услуги - тупица.
+
+В любом случае, Вы хотите поискать в Google Play альтернативу программе для выбора рингтона?"</string>
+    <string name="hrNoisyLlamaTapToStop">Шумная Llama - Нажмите, чтобы остановить</string>
+    <string name="hrProblemStartingAndroidMarket">Произошла проблема при запуске Google Play :(</string>
+    <string name="hrUseTheNotificationToStopPlaying">Используйте уведомление, чтобы остановить воспроизведение. Включите или выключите его в настройках Llama.</string>
+    <string name="hrBulkOperations">Групповые операции</string>
+    <string name="hrBulkOperationsDescription">Быстрый способ сделать некоторые непростые штуки</string>
+    <string name="hrBulkDeleteCellsFromAreas">Удалить вышки из зон. Полезно, когда вы меняете мобильного оператора.</string>
+    <string name="hrBulkDeleteMapPointsFromAreas">Удалить точки карты из зон</string>
+    <string name="hrBulkDeleteWifiMacFromAreas">Удалить MAC-адреса Wi-Fi из зон</string>
+    <string name="hrBulkDeleteWifiNameFromAreas">Удалить имена сетей Wi-Fi из зон</string>
+    <string name="hrBulkDeleteBluetoothFromAreas">Удалить Bluetooth-устройства из зон</string>
+    <string name="hrBulkDeleteBeaconWarning">Вы уверены, что хотите сделать это?! Убедитесь, что Вы сделали резервную копию, на тот случай, если передумаете. Вы должны выйти и перезапустить Llama после этой операции.</string>
+    <string name="hrActionTwoGThreeG">2G/3G</string>
+    <string name="hrActionTwoGThreeGDescription">"!!!РАБОТАЕТ ТОЛЬКО на Cyanogenmod 7+, в связи с ограничением Android, не позволяющим сторонним приложениям управлять типом сети.
+
+Устанавливает тип сети, к которой будет подключаться устройство. 
+- в Европе - GSM/WCDMA
+- в США - или GSM/WCDMA или CDMA"</string>
+    <string name="hrChangeNetworkTo1">изменить сеть на %1s</string>
+    <string name="hrGpsEnableWarning">Это может не работать! Управление GPS поддерживается на Андроид 2.2 и ниже. Это связанно с ограничением безопасности, препятствующим приложениям шпионить за Вами.</string>
+    <string name="hrActionKillAppWarning">Это может не работать! Андроид 2.2 и выше ограничивает возможность приложений завершать работу других приложений. Если у Вас телефон с root-правами, попробуйте альтернативное действие Завершение приложения.</string>
+    <string name="hrMilliAbbreviation">мс</string>
+    <string name="hrDelayFor1">задержка %1s</string>
+    <string name="hrRepeatedEventEditWarning">Вы изменили повторяющееся событие. Проверить условия для того чтобы оно могло начать повторяться?</string>
+    <string name="hrQueuedEventDefaultName">Событие из очереди</string>
+    <string name="hrQueuedEventChangeDefaultNameTip">Все названия событий должны быть уникальными. Невозможно сделать 2 события с одинаковыми названиями. Измените название события очереди.</string>
+    <string name="hrCalendarEventDialogExtraEventSettings">Вы можете фильтровать события по типу события и доступности. Если Вы оставите поля Календарь и Имя события пустыми, то условие будет отображать только события на весь день и т.д.&lt;br>&lt;br>ПРИМЕЧАНИЕ: Не все приложения-календари работают одинаково (напр. некоторые приложения для работы с MS Exchange); &lt;u> нажмите здесь для просмотра отладчика календаря Llama&lt;/u> чтобы увидеть то, что Llama думает о происходящем.</string>
+    <string name="hrCalendarDebugTitle1">События следующих %1s минут</string>
+    <string name="hrCalendarEventMustBe">должно быть</string>
+    <string name="hrAllDay">весь день</string>
+    <string name="hrNotAllDay">не весь день</string>
+    <string name="hrShownAsAvailable">"отмечен как 'Доступен(на)'"</string>
+    <string name="hrNotShownAsAvailable">"не отмечен как 'Доступен(на)'"</string>
+    <string name="hrYourDeviceDoesNotSupportDeviceAdmin">Ваше устройство не поддерживает функцию Администратор устройства :(</string>
+    <string name="hrAlsoThanksTo">Также благодарю:</string>
+    <string name="hrConditionAudioBecomingNoisy">Динамик</string>
+    <string name="hrConditionAudioBecomingNoisyDescription">Запускается, когда Bluetooth или проводная гарнитура отключаются. Некоторые аппараты могут реагировать на это условие с задержкой.</string>
+    <string name="hrWhenAudioBecomesNoisy">когда активен динамик</string>
+    <string name="hrConditionDeskDock">Док станция</string>
+    <string name="hrConditionDeskDockDescription">"Выполняется, когда устройство установлено на док станцию.
+
+Устройство должно поддерживать нормальную работу с док станцией! Некоторые производители любят изменять этот режим и условие работает не пойми как. Кроме того, некоторые док станции - просто куски дешевого пластика, и устройство не знает, когда его установили на такую док станцию."</string>
+    <string name="hrInDeskDock">В док станции</string>
+    <string name="hrNotInDeskDock">Не в док станции</string>
+    <string name="hrWhenInDeskDock">когда в док станции</string>
+    <string name="hrWhenNotInDeskDock">когда не в док станции</string>
+    <string name="hrActionSpeak">Говорить</string>
+    <string name="hrActionSpeakDescription">"Позволяет Llama говорить с Вами голосом робота. Вы можете научить озвучивать переменные Llama, окружая имя переменной двумя хешами. Например, 'Блокировка установлена - в ##LockEnabled##'"</string>
+    <string name="hrSay1">"сказать '%1s'"</string>
+    <string name="hrActionLocalePlugin">Locale плагин</string>
+    <string name="hrActionLocalePluginDescription">"**ЭКСПЕРЕМЕНТАЛЬНО**Запускает плагины популярного приложения Locale. Плагины доступны в Google Play. Некоторые бесплатны, некоторые требуют оплаты. Llama НЕ ГАРАНТИРУЕТ, что будет работать с любым из них!
+
+В настоящий момент есть проблема с плагинами, которые используют текст и иконки Locale. Они могут отображаться не правильно, но должны работать.После настройки плагина Locale необходимо нажать 'Меню', чтобы сохранить изменения. Последняя кнопка в меню, обычно, Сохранить."</string>
+    <string name="hrLocalePluginConfigMessage">Некоторые плагины требуют, чтобы Вы нажали Меню и затем последний пункт меню, чтобы сохранить!</string>
+    <string name="hrRunLocalePlugin1Quotes2">"запустить плагин Locale '%1$s: %2$s'"</string>
+    <string name="hrChooseALocalePluginToRun">Выберите плагин Locale для запуска.</string>
+    <string name="hrGettingLocaleActionPlugins">Формирование списка плагинов Locale...</string>
+    <string name="hrInAppDonateBlurb">Выразите свою признательность за мои усилия в создании Llama, перечислив небольшую сумму. Вы можете благодарить столько раз, сколько пожелаете. При запуске Вы будете перенаправлены на Play Market, чтобы просмотреть актуальную цену и завершить процесс.Это только предложения того, что я хотел бы купить :) Спасибо!</string>
+    <string name="hrInAppThanksForDonating">Спасибо за благодарность! Будьте здоровы!</string>
+    <string name="hrYouCanHideTheDonateMenu">Вы можете скрыть пункт Отблагодарить автора в настройках Llama :)</string>
+    <string name="hrHideDonateMenuItem">Скрыть пункт Отблагодарить</string>
+    <string name="hrHideDonateMenuItemDescription">Спасибо за благодарность! Теперь можете скрыть пункт Отблагодарить в меню. Но можно отблагодарить и ещё раз через кнопку Llama :)</string>
+    <string name="hrRecheckDonation">Перепроверить состояние благодарности</string>
+    <string name="hrWhen1ShowsANotification">когда %1s показывает уведомление</string>
+    <string name="hrChooseAnApp">Выберите приложение</string>
+    <string name="hrAppStatus">Статус:</string>
+    <string name="hrConditionActiveApp">Активное приложение</string>
+    <string name="hrConditionActiveAppDescription">Это условие срабатывает, когда приложение становится активным или когда возвращается в фоновый режим. Это требует, чтобы Llama опрашивала Андроид на предмет текущего активного приложения каждые несколько сотен миллисекунд. Этот интервал может быть изменен в настройках Llama.</string>
+    <string name="hrActiveAppWatcherMillis">Время опроса активного приложения (миллисекунд)</string>
+    <string name="hrActiveAppWatcherMillisDescription">"При использовании условия 'Активное приложение' Llama проверяет активное приложение каждые несколько сотен миллисекунд. Меньшее значение позволят Llama реагировать быстрее, но может снизить производительность устройства. Рекомендуемый интервал 200 - 1000"</string>
+    <string name="hrMIUIVolumeChangeWarning">"В последних версиях MIUI установлены разрешения, не дающие Llama изменять громкость звонка. Для того, чтобы управление работало, необходимо сделать следующее:
+
+- Зайдите в приложение Superuser
+
+- Найдите свойства Llama
+
+- Установите для разрешения 'Мониторинг звонков' разрешить
+
+Это разрешение так названо так ошибочно и не должно влиять на громкость, но влияет. Llama НЕ ДЕЛАЕТ никаких действий без Вашего разрешения, вроде записи вызовов и т.п."</string>
+    <string name="hrNeverShowAgain">Больше не показывать</string>
+    <string name="hrThinkingDotDotDot">Думаю...</string>
+    <string name="hrConditionGroupOr">ИЛИ (одно или более выполнение)</string>
+    <string name="hrConditionGroupOrDescription">Логическое ИЛИ. Условие создавать группу вложенных условий. Если выполняется хотя бы одно из вложенных условий, то ИЛИ выполняется.</string>
+    <string name="hrConditionGroupAnd">И (все выполняются)</string>
+    <string name="hrConditionGroupAndDescription">"Логическое И. Если все дочерние условия верны, то И - выполняется.
+
+ПРИМЕЧАНИЕ: Необходимо только внутри условия ИЛИ (одно или более выполнение), поскольку Llama рассматривает несколько условий как включённые в И."</string>
+    <string name="hrAllowRetrigger">Позволить переинициирование</string>
+    <string name="hrAllowRetriggerDescription">Выполнять ли действия этого события повторно, если оно уже верно, когда срабатывает другое условие данного события.</string>
+    <string name="hrIcsNotificationUseRingVolumeWarning">"ICS (версии 4.0+) более не поддерживают различные уровни громкости уведомления и рингтона.
+
+Необходимо изменить профили в соответствии с данным требованием, иначе Llama будет ошибочно полагать, что громкость изменилась и может активировать блокировку профиля.
+
+ндроид 4.0 - шаг вперед и два назад :("</string>
+    <string name="hrRingerChangeNoVolumeWarning">Llama необходимо, чтобы Вы указали уровень громкости звонка или оповещения при выборе типа звонка мелодия и вибро или мелодия</string>
+    <string name="hrIcsApn">Ice Cream Sandwich (Андроид 4.0+) больше не поддерживает сторонние приложения, изменяющие настройки APN.</string>
+    <string name="hrWhatShouldLlamaSay">Что должна сказать Llama:</string>
+    <string name="hrConditionCallState">Вызов</string>
+    <string name="hrConditionCallStateDescription">"Это условие позволяет создавать события, основанные на состоянии вызова телефона - во время звонка или во время его отсутствия. В зависимости от установки инициируется:
+- при поднятии трубки или во время разговора.
+- при завершении вызова."</string>
+    <string name="hrExtraTtsCleanup">Хак очистки синтеза речи</string>
+    <string name="hrExtraTtsCleanupDescription">Принудительно выключать синтез речи по окончании проговаривания текста. Активировать в случае, когда проигрывание музыки не возобновляется после проговаривания текста.</string>
+    <string name="hrExtraTtsCleanupText">Текст хака синтеза речи</string>
+    <string name="hrExtraTtsCleanupTextDescription">Текст для активации хака. По умолчанию это знак . (точка), но некоторые синтезаторы речи произносят точка. Попробуйте использовать фигурные скобки {}или вертикальную черту |.</string>
+    <string name="hrAudioStreamSpeakInfo">"Некоторые аудиопотоки (например, мелодия вызова и уведомления) воспроизводятся и через динамик и через гарнитуру. Музыка/медиа проигрываются только через гарнитуру, если она подключена.
+
+Когда воспроизводится рингтон/уведомление, музыка прекращает играть. Если это Вам не подходит, включите 'Хак очистки синтеза речи' в настройках Llama. Хак работает только на некоторых комбинациях синтезаторов речи (TTS) и устройствах. Синтезатор речи Samsung - один из таких кривых TTS. Поганый Samsung!"</string>
+    <string name="hrEnterSomeTextToSpeak">Введите что-нибудь, что проговорит Llama</string>
+    <string name="hrBilling_cannot_connect_message">Оплата в приложении не доступна на устройстве или версии Market/Google Play.</string>
+    <string name="hrBilling_billing_not_available">Оплата в приложении не доступна в настоящее время. Пожалуйста, попробуйте позднее.</string>
+    <string name="hrBilling_learn_more">Узнать больше</string>
+    <string name="hrAdvancedRotationWarning">"Работает только на модифицированных прошивках, поддерживающими произвольные повороты экрана, например, Cyanogenmod 7.
+
+Избегайте одновременного использования простого и улучшенного поворота экрана. Используйте 0° и 90° для возврата к нормальному положению.
+
+Поворот может срабатывать не сразу (зависит от прошивки)."</string>
+    <string name="hrWhenTheCurrentAppIs1">когда активно приложение %1s</string>
+    <string name="hrWhenTheCurrentAppIsNot1">когда не активно приложение %1s</string>
+    <string name="hrAndThen">и затем</string>
+    <string name="hrEvery1minutes">каждые %1s</string>
+    <string name="hrIcsHiddenNotificationIcon">Llama настроена на использование уведомлений, но скрытым значком. Андроид не позволяет приложениям работать в таком режиме. До Андроид 4 приложения могли использовать прозрачную иконку и отображать ее справа. Теперь это невозможно. Измените настройку Значок уведомления на один из других режимов.</string>
+    <string name="hrChangeIconIfVolumeChanges">Изменять значок, если меняется громкость</string>
+    <string name="hrChangeIconIfVolumeChangesDescription">Изменять ли значок уведомления на значок предупреждения при изменении громкости?</string>
+    <string name="hrUnknownProfile">Неизвестный профиль</string>
+    <string name="hrFailedToWriteToLocationLog">Ошибка записи в журнал местоположения</string>
+    <string name="hrLlamaTrailSettings">Настройки журнала перемещений (В РАЗРАБОТКЕ!!!)</string>
+    <string name="hrLlamaTrail">Вести журнал перемещений</string>
+    <string name="hrLlamaTrailDescription">Сохранять в журнал все вышки, которые когда-либо видел телефон. Можете использовать для контроля свои перемещений, например, для заполнения отчётов.</string>
+    <string name="hrLlamaTrailToSdCard">Записать на SD-карту</string>
+    <string name="hrLlamaTrailToSdCardDescription">Сохранять журнал перемещений на SD-карте или в телефоне. Помните, что хранение на SD-карте может быть проблематичным, если Вы часто подключаете устройство в режиме USB-накопителя.</string>
+    <string name="hrConditionScreenRotation">Поворот экрана</string>
+    <string name="hrConditionScreenRotationDescription">"Условие выполняется при повороте экрана на 90°, 180° и 270°. Работает только при включенном экране и если текущее приложение поддерживает поворот экрана, так как Llama берёт данные со стандартного датчика поворота Андроид, чтобы не тратить заряд батареи.
+
+Может вести себя забавно на Android старше 2.2, т.к. данные версии сообщают только о горизонтальном/вертикальном положении."</string>
+    <string name="hrWhenScreenIsRotated1">когда экран повернут на %1s</string>
+    <string name="hrEditArea">Редактировать зону</string>
+    <string name="hrRingtonePickerFailedToOpen">Приложение выбора мелодии звонка не открылось корректно. Может быть аппарат не поддерживает этот тип выбора:(</string>
+    <string name="hrRingtonePickerPickedSilent">"Вы выбрали 'бесшумный' в качестве мелодии звонка. Видимо, аппарат не может проиграть бесшумный звук, поэтому необходимо выбрать другой вариант.
+
+Вы конечно же спросите, зачем я оставил возможность зачем я позволил отображаться мелодии 'бесшумный' ... ну, Вы можете поблагодарить за это Samsung. Приложение выбора мелодии в Galaxy S, если указать ему спрятать мелодию 'бесшумный'.
+http://stackoverflow.com/q/5874372/
+
+На 3... 1, 2, 3... Спасибо, Samsung! *улыбаемся и аплодируем*"</string>
+    <string name="hrApps2SdWarning">"Llama была установлена на SD-карту. Это могло произойти из-за того, что внутренняя память аппарата переполнена, или если Вы сами перенесли туда Llama.
+
+Имейте в виду, что Llamе необходимо запускаться как сервису в фоновом режиме. Когда Вы подключите кабель USB и включите режим USB-накопителя для передачи файлов, Llama будет отключена и будет не в состоянии проверять условия или выполнить действия.
+
+При отключении режима USB-накопителя, Llama, конечно же, запустится снова. Можно ускорить этот процесс, выключив экран телефона.
+
+Но лучше (если позволяет место на аппарате), установить Llama во внутреннюю память аппарата. Для этого запустите просмотр информации о приложении Llama в настройках Андроид."</string>
+    <string name="hrViewLlamaAppInfo">Информация о приложении</string>
+    <string name="hrWhenTheNextAlarmIsDue1">при следующем будильнике (%1s)</string>
+    <string name="hrConditionNextAlarm">Будильник</string>
+    <string name="hrConditionNextAlarmDescription">Условие запускается при следующем срабатывании будильника. Работает только со стандартным будильником и любыми будильниками, которые корректно обновляют NEXT_ALARM_FORMATTED.</string>
+    <string name="hrWhenTheresNoAlarmSet">когда будильники не установлены</string>
+    <string name="hrTheNextAlarmIs1AndHeresHowYouUseIt">"Следующий будильник установлен на:%1s
+
+Условие срабатывает либо когда будильник срабатывает, либо когда не установлен будильник.
+Например, когда сработает будильник > показать напоминание
+- или-
+Между 21:00 и 21:05, когда нет будильников > долго вибрировать"</string>
+    <string name="hrTriggerWhenAlarmIsDue">Когда срабатывает будильник</string>
+    <string name="hrTrueWhenNoAlarm">Когда будильники не установлены</string>
+    <string name="hrEventGroupOptional">Группа события (дополнительно)</string>
+    <string name="hrNoGroupString">Без группы</string>
+    <string name="hrEventsNowGroupedEditEventNamesToGroup">События сгруппированы. Отредактируйте события для создания групп.</string>
+    <string name="hrEventsNotGrouped">События разгруппированы</string>
+    <string name="hrFilterViewSearch">Фильтр, стиль списка и поиск</string>
+    <string name="hrWhenUserIsPresent">когда устройство активно</string>
+    <string name="hrConditionUserPresent">Устройство активно</string>
+    <string name="hrConditionUserPresentDescription">Выполняется при разблокировании экрана. Если экран не заблокирован, запускается сразу.</string>
+    <string name="hrWhenCallStateIs1">когда состояние вызова %1s</string>
+    <string name="hrCallStateInCall">Во время разговора</string>
+    <string name="hrCallStateNotInCall">Отсутствие разговора</string>
+    <string name="hrCallStateRinging">Во время звонка</string>
+    <string name="hrPleaseChooseOneOrTwoCallStates">Пожалуйста, выберите ОДНО или ДВА состояния вызова.</string>
+    <string name="hrDontCheckVolumeInCall">Игнорировать изменение громкости разговора</string>
+    <string name="hrDontCheckVolumeInCallDescription">"Некоторые аппараты тупы и не корректно сообщают об уровне громкости при разговоре. Это заставляет Llama думать, что громкость изменилась, когда этого не происходило. Проверьте, что настройка 'Игнорировать изменение громкости разговора', включена, если Llama некорректно блокирует профиль или профиль изменяется на 'неизвестный профиль' во время звонка."</string>
+    <string name="hrTheAction1CannotBeRunFromACustomShortcut">"Действие '%1s' не может быть запущено пользовательским ярлыком. Для безопасности, создайте для него событие и создайте ярлык для события."</string>
+    <string name="hrLlamaTonePicker">Выбор звонка LlamaTone</string>
+    <string name="hrLlamaTones">LlamaTones</string>
+    <string name="hrLlamaTonesDescription">LlamaTones позволяет изменять мелодии уведомлений других приложений при изменении профиля.</string>
+    <string name="hrLlamaTonesDetailedDescription">"LlamaTones позволяет изменять рингтон, используемый другим приложением, в зависимости от текущего профиля.
+
+В одном из Ваших профилей создайте LlamaTone и дайте ему полезное имя. Например, Gmail. Затем можно указать мелодию этого профиля, которая должна использоваться для уведомлений Gmail.
+
+Затем отредактируйте LlamaTones в других профилях и установите, какой рингтон должен использовать профиль для Gmail.
+
+Заключительный шаг - указать Gmail какой LlamaTone использовать, для этого измените настройки уведомления в Gmail. При выборе рингтона вы увидите LlamaTone, который можно выборать в качестве мелодии.
+
+Для удаления LlamaTone необходимо удалить/очистить их из всех профилей."</string>
+    <string name="hrCreateNewLlamaTone">Создать новый LlamaTone</string>
+    <string name="hrTapToCreateANewLlamaTone">Нажмите для ввода названия LlamaTone</string>
+    <string name="hrPleaseEnterNameForTheLlamaTone">Назовите новый LlamaTone:</string>
+    <string name="hrALlamaToneNamed1AlreadyExists">LlamaTone с именем %1s уже существует. Пожалуйста, выберите другое имя или используйте уже существующий LlamaTone.</string>
+    <string name="hrCurrentlySetTo1">Сейчас установлен как %1s</string>
+    <string name="hr3rdPartyActionCrumb">Действие</string>
+    <string name="hrYouHaventSetUpAnyLlamaTones">"Вы не установили ни одного LlamaTone. Отредактируйте один из своих профилей для их использования.
+
+LlamaTone позволяют изменять мелодии оповещений сторонних приложений в зависимости от текущего профиля Llama."</string>
+    <string name="hrDontChange">Не изменяйте LlamaTone</string>
+    <string name="hrCopyLlamaTonesToProfile">Выберите другой профиль, который будет использовать LlamaTone</string>
+    <string name="hrCopyTo">Копировать в ...</string>
+    <string name="hrCopyToSelected">Копировать в выбранный</string>
+    <string name="hrExportSuccess">Данные экспортированы успешно</string>
+    <string name="hrDataNotExported">Данные НЕ экспортированы!</string>
+    <string name="hrWhichTypeOfToneIsLlamaTone">Выберите тип мелодии или отмените этот LlamaTone</string>
+    <string name="hrLlamaCouldntFindAnyRingtonePickers">"Llama не смогла найти ни одного приложения для выбора мелодии.
+
+НЕ ЗАВЕРШЕНО!!!"</string>
+    <string name="hrChooseARingtonePicker">Выберите приложение выбора мелодии</string>
+    <string name="hrClearCancelLlamaTone">Очистить/сбросить LlamaTone</string>
+    <string name="hrCantSelectLlamaToneAsLlamaTone">"Вы не можете выбрать LlamaTone для использования в качестве LlamaTone.
+
+Это взорвёт Вселенную."</string>
+    <string name="hrWhichProfiles">Какие профили?</string>
+    <string name="hrMoanToGoogle">Поплакаться Гуглу</string>
+    <string name="hrLeaveSettingsAlone">Всё равно управлять громкостью</string>
+    <string name="hrMakeSettingsTheSame">Выровнять уровни громкости</string>
+    <string name="hrWhenWifiHotspotIsEnabled">когда Точка доступа Wi-Fi включена</string>
+    <string name="hrWhenWifiHotspotIsDisabled">когда Точка доступа Wi-Fi отключена</string>
+    <string name="hrConditionWifiHotspot">Wi-Fi точка доступа</string>
+    <string name="hrConditionWifiHotspotDescription">Определяет включена или выключена точка доступа Wi-Fi. Условие не запускает события! Работает только как фильтр.</string>
+    <string name="hrEnableAll">Включить все</string>
+    <string name="hrDisableAll">Выключить все</string>
+    <string name="hrRenameGroup">Переименовать группу</string>
+    <string name="hrPleaseEnterANewGroupName">Введите имя новой группы:</string>
+    <string name="hrBrightnessCustomEventWarning">Не могу изменить яркость, которая уменьшена в ярлыке Пользовательского события. Вместо этого создайте событие и ярлык для него. Ограничение безопасности !</string>
+    <string name="hrRootedShutdownCommand">Команда выключения (для root-прав)</string>
+    <string name="hrRootedShutdownCommandDescription">Команда, которую Llama использует для выключения телефона. Попробуйте другие команды, если на аппарате получены root-права, а выключение не работает.</string>
+    <string name="hrRootedRebootCommand">Команда перезагрузки (для root-прав)</string>
+    <string name="hrRootedRebootCommandDescription">Команда, которую Llama использует для перезагрузки аппарата. Попробуйте другие команды, если на аппарате получены root-права, а перезагрузка не работает.</string>
+    <string name="hrNearbyWifiDisableForHotSpot">Приоритет точки доступа Wi-Fi</string>
+    <string name="hrNearbyWifiDisableForHotSpotDescription">Отключать опросы Wi-Fi, когда включена точка доступа Wi-Fi? Работает только на аппаратах, использующих стандартный функционал Точки доступа Андроид.</string>
+    <string name="hrWhatEventDescriptionsShouldIShow">Описания каких событий отображать?</string>
+    <string name="hrIcsRingerNotificationVolumeMessage">Андроид 4+ не позволяет устанавливать разные уровни громкости для звонка и напоминания. Что делать?</string>
+    <string name="hrDeviceAdminWarning">"Для доступа к ограниченным системой функциям необходимо добавить Llama в Администраторы устройства.
+Если же Вы решите удалить Llama, перед этим необходимо УДАЛИТЬ Llama из Администраторов устройства. (Настройки > Безопасность). Иначе увидите только бесполезное сообщение 'удаление не выполнено'.
+
+Спасибо, что запомнили :)"</string>
+    <string name="hrInstantConfirmation">Подтверждение быстрых событий</string>
+    <string name="hrInstantConfirmationDescription">"При включении Llama запустит событие сразу же при касании оповещения Llama в окне оповещений без дополнительного запроса. Для очистки уведомления используйте кнопку 'x' или сдвиньте оповещение в сторону."</string>
+    <string name="hrWhenNfcTag1IsDectected">когда обнаружена NFC метка %1s</string>
+    <string name="hrPleaseChooseAnNfcTag">Выберите NFC метку</string>
+    <string name="hrConditionNfcTagDetected">NFC метка обнаружена</string>
+    <string name="hrConditionNfcTagDetectedDescription">"Это условие срабатывает, когда аппарат обнаруживает NFC метку. Необходимо, чтобы NFC было включено (жаль, что Llama не может управлять NFC).
+
+Ничто не может указать Llama, что метки NFC уже нет поблизости, поэтому в дальнейшем это условие всегда будет ложным.
+
+Если необходимо создать повторяющееся событие, необходимо использовать переменные Llama для хранения информации о том, что метка NFC была опознана, а также создать другое событие и условие для сброса значения переменной."</string>
+    <string name="hrDoYouWantToUseTheTag1InThisCondition">"Хотите использовать метку '%1s' в условии?"</string>
+    <string name="hrLlamaHasFoundATagPleaseNameIt">Llama нашла метку! Дайте ей понятное название:</string>
+    <string name="hrTheFriendlyNameForNfcTag1WasModified">"Имя метки NFC '%1s' изменено"</string>
+    <string name="hrLlamaDoesNotKnowAboutAnyNfcTagsTapOneOnYourPhone">"Llamе пока неизвестна ни одна NFC метка.
+
+Приложите одну к аппарату, чтобы задать её название."</string>
+    <string name="hrYourPhoneDoesNotSupportNfc">Ваш аппарат не поддерживает чтение NFC меток:( Для исправления ситуации купите новый аппарат или используйте Ваше воображение... Вы можете обнаружить, что бибиканье может быть весьма полезным.</string>
+    <string name="hrChooseAnNfcTagOrTapYourPhoneAgainstANewTag">Выберите известную NFC метку</string>
+    <string name="hrYouCanAlsoUseAnotherTagByTappingItOnYourPhone">Можно настроить следующую метку, приложив её к аппарату</string>
+    <string name="hrNfcIsNotCurrentlyTurnedOnTurnItOnToAddTags">NFC выключен. Необходимо включить NFC для добавления новой метки</string>
+    <string name="hrPleaseSeeTheKebabappsWebsiteToDonateToTranslators">Посетите домашнюю страницу Kebabapps стобы отблагодарить переводчиков!</string>
+    <string name="hrLocalLanguageName">Английский</string>
+    <string name="hrPlaySoundNotificationIcon">Воспроизвести звуковое оповещение</string>
+    <string name="hrPlaySoundNotificationIconDescription">Отображать значок оповещения, когда Llama воспроизводит мелодию? После выключения невозможно будет остановить проигрываемую мелодию!</string>
+    <string name="hrConditionRoaming">Роуминг</string>
+    <string name="hrConditionRoamingDescription">Позволяет фильтровать события в зависимости от нахождения в роуминге или в домашней сети</string>
+    <string name="hrNotRoaming">В домашней сети</string>
+    <string name="hrRoaming">Роуминг</string>
+    <string name="hrWhenRoaming">когда в роуминге</string>
+    <string name="hrWhenNotRoaming">когда не в роуминге</string>
+    <string name="hrManageSavedNfcTags">Управление NFC метками</string>
+    <string name="hrManageSavedNfcTagsDescription">Коснитесь здесь для управления настроенными NFC метками</string>
+    <string name="hrDeleteTag">Удалить метку</string>
+    <string name="hrWatchForNfcTags">Включить обнаружение NFC</string>
+    <string name="hrWatchForNfcTagsDescription">Должна ли Llama обрабатывать NFC метки? Если Вы используете другое приложение для работы с метками - отключите. Настройка не влияет на глобальное включение NFC (в настройках Андроид).</string>
+    <string name="hrCancelTagReading">Остановить поиск NFC меток</string>
+    <string name="hrFailedToDecodeIntentInEvent1">"Ошибка расшифровки интента в событии '%1s'"</string>
+    <string name="hrShareEvent">Опубликовать событие</string>
+    <string name="hrShareLlamaEvent">Опубликовать событие Llama</string>
+    <string name="hrConditionMobileData">Передача данных</string>
+    <string name="hrConditionMobileDataDescription">"Условие выполняется, когда в настройках включена передача данных. Использует недокументированное API Android. РАБОТАЕТ НЕ НА ВСЕХ устройствах.
+
+Вежливо сообщите Google, что Вы желаете его использовать и, возможно, они реализуют должный API.
+
+Условие срабатывает с опозданием в несколько секунд, в течение которых выполняются внутренние интенты Android."</string>
+    <string name="hrWhenMobileDataEnabled">когда Передача данных включена</string>
+    <string name="hrWhenMobileDataDisabled">когда Передача данных выключена</string>
+    <string name="hrMobileDataEnabled">Передача данных включена</string>
+    <string name="hrMobileDataDisabled">Передача данных выключена</string>
+    <string name="hrConditionMobileDataConnected">Мобильное подключение</string>
+    <string name="hrConditionMobileDataConnectedDescription">Выполняется, когда телефон подключен к сети передачи данных (GPRS, EDGE или 3G). Возможно работает для LTE/Wi-Max.</string>
+    <string name="hrWhenMobileDataConnected">когда установлено мобильное подключение</string>
+    <string name="hrWhenMobileDataNotConnected">когда мобильное подключение отсутствует</string>
+    <string name="hrMobileDataConnected">Мобильное подключение установлено</string>
+    <string name="hrMobileDataNotConnected">Мобильное подключение отсутствует</string>
+    <string name="hrLlamaToneRateLimitHint">"Ограничение на частоту проигрывания LlamaTone:
+Используйте ползунок для установки ограничения частоты проигрывания LlamaTone. Полезно для GTalk или других IM приложений."</string>
+    <string name="hrRateLimit1SecondsSilence">тишина %1s сек.</string>
+    <string name="hrNoRateLimiting">Без ограничения</string>
+    <string name="hrNowPickALlameTone">Выберите LlamaTone</string>
+    <string name="hrSocialImportWarning">Вы собираетесь импортировать событие в Llama. Проверьте, чтобы импорт ничего не испортил.</string>
+    <string name="hrTheChoiceIsYours">Выбор за Вами...</string>
+    <string name="hrImportLlamaEvent">Импортировать событие Llama</string>
+    <string name="hrAddToLlama">Добавить в Llama</string>
+    <string name="hrEventImported">Импортировано</string>
+    <string name="hrRingtoneChangeError1">"Llama не удалось изменить мелодию звонка для профиля '%1s'. Выберите мелодию снова."</string>
+    <string name="hrLlamaFormatterInfo">"Этот экран позволяет отформатировать NFC метку для использования в Llama.
+
+Это необходимо, чтобы метка наверняка срабатывала, а не просто выскакивало оповещение 'метка найдена'.
+
+Приложите метку к телефону для форматирования. Метка НЕ будет помечена только для чтения.
+
+После форматирования вы сможете использовать метку в условиях.
+
+Если Llama прежде не работала с этой меткой, будет предложено задать ей имя."</string>
+    <string name="hrKey">Ключ</string>
+    <string name="hrValue">Значение</string>
+    <string name="hrCouldNotConvertExtra3">"Не могу преобразовать '%2$s' в '%3$s' для '%1$s'"</string>
+    <string name="hrIntentEditSetKeyBlankToDelete2">"Оставьте 'ключ' пустым для удаления строки. Выделите переменную двумя решётками для разворачивания их строковую переменную (например ##название переменной##)."</string>
+    <string name="hrAirplaneModeStupidness">Андроид решил, что режим полёта настройка безопасности. Llama может управлять данным режимом только при наличии root-прав.Проклинаю Google за это! Google - плохой! Хватит менять что-то ухудшая и не предлагая альтернатив.</string>
+    <string name="hrResolveContentUris">Воспроизвести звук расшифровав URI</string>
+    <string name="hrResolveContentUrisDescription">Стандартное приложение выбора мелодии Андроид возвращает content:// URI, который ссылается на ID в медиа библиотеке. Если Вы переносите Llama между устройствами или меняете прошивки, файлы могут получать другие ID. Включение данной опции заставит Llama сохранять полные пути к файлам для действия Воспроизвести звук и LlamaTone.</string>
+    <string name="hrAdvancedVariableActions">Увеличить/Уменьшить/и т.п.</string>
+    <string name="hrSetLlamaVariableIncrement1">"увеличить переменную Llama '%1$s'"</string>
+    <string name="hrSetLlamaVariableDecrement1">"уменьшить переменную Llama '%1$s'"</string>
+    <string name="hrSetLlamaVariableToggle01">"переключать переменную Llama '%1$s' между 0 и 1"</string>
+    <string name="hrAdvancedVariableConditions">Больше чем / меньше чем / и т.д.</string>
+    <string name="hrIcsSystemVolumeMessage">"ICS (Андроид 4.0+) на самом деле теперь не может многого в управлении громкостью.
+
+ На само деле можно обнаружить, что уровень громкости звонка равен системному уровню. 
+
+ Вероятно Вы хотите снять выделение с системных звуков.
+
+Нажмите Сохранить для изменения данным профилем громкости системных звуков или Отмена для редактирования профиля."</string>
+    <string name="hrSignalLevelAbove1">Уровень сигнала выше %1s дБм</string>
+    <string name="hrSignalLevelBelow1">Уровень сигнала ниже %1s дБм</string>
+    <string name="hrWhenSignalGoesBelow1">когда уровень сигнала ниже %1s дБм</string>
+    <string name="hrWhenSignalRisesAbove1">когда уровень сигнала выше %1s дБм</string>
+    <string name="hrCurrentStrengthColon1">Уровень сигнала: %1s дБм</string>
+    <string name="hrSignalStrengthDialogHint">"Значение выше текущего уровня сигнала. GSM сети используют диапазон от -113 (нет сигнала) до -51 (максимальный уровень).
+
+Llama показывает уровень -150, когда включен режим полёта или отсутствии сети. Некоторые сумашедшие телефоны продолжают показывать нормальный уровень сигнала даже когда Вы находитесь на глубине нескольких метров под землёй в тоннеле для поезда.
+
+Можно комбинировать данное условие с условием отключения мобильных данных для более надёжного определения наличия сети."</string>
+    <string name="hrVisitWebsite">Посетить веб-сайт</string>
+    <string name="hrBrokenWifiToggleUpdateDeviceStats">"Прошивка Вашего телефона/планшета содержит ужасный баг, из-за которого Llama не может включать и выключать Wi-fi.
+
+Проверьте наличие обновлённой прошивки.
+
+Вы можете удалить все действия по переключению Wi-fi из событий или скрыть ввод предупреждения. Также можно ознакомиться с проблемой на code.google.com, нажав Посетить веб-сайт"</string>
+    <string name="hrCouldNotResolveContentUri">Невозможно расшифровать путь к файлу, сохранено как Content URI</string>
+    <string name="hrLlamaCouldNotGetRootAccess">Llama не может получить привилегии уровня root. Проверьте приложение Superuser.</string>
+    <string name="hrAddNewArea">Добавить новую зону</string>
+    <string name="hrAddNewEvent">Добавить событие</string>
+    <string name="hrSearchEventsByNameAndDescription">Поиск событий по имени и описанию</string>
+    <string name="hrShowEventsGroupedOrFlat">Отображать события группами или списком</string>
+    <string name="hrAddNewProfile">Добавить профиль</string>
+    <string name="hrProfileLock">Заблокировать профиль</string>
+    <string name="hrProfileUnlock">Разблокировать профиль</string>
+    <string name="hrShowHelpMenu">Показать меню помощи</string>
+    <string name="permSetLlamaVariable">Установка переменной Llama</string>
+    <string name="permSetLlamaVariableDescription">Разрешить программе установить значение переменной Llama. Это может привести к неожиданным запускам событий, которые используют переменные Llama!</string>
+    <string name="hrBrokenWifiToggleMultiuser">"Чёрт! Llama чуть не расшиблась при попытке изменить состояние WiFi. Возможно что-то и получилось...
+
+Для корректной работы на этом устройстве Llama необходимы разрешения 'android.permission.INTERACT_ACROSS_USERS_FULL' или 'android.permission.INTERACT_ACROSS_USERS' для управления WiFi.
+
+Это системные разрешения, которые Llama не может получить :`( Проверьте наличие обновленной прошивки (ROM) для вашего устройства."</string>
+    <string name="hrWhenMccMncIs12">когда код сети %1$s:%2$s</string>
+    <string name="hrWhenMccMncIsNot12">когда код сети не равен %1$s:%2$s</string>
+    <string name="hrConditionMobileNetworkId">ID мобильной сети</string>
+    <string name="hrConditionMobileNetworkIdDescription">"Проверяет ID текущей подключенной сотовой сети.
+ID состоит из 2х частей:
+кода страны,
+кода сети. Найти ID можно на закладке Вышки или в Википедии."</string>
+    <string name="hrMccMncHelpText">Это условие использует ID подключенной сотовой сети. MMC - код страны, а MNC - код сети.Если не заполнить поля - условие будет выполняться в любом случае.</string>
+    <string name="hrAllowedTriggers">Фильтр активации</string>
+    <string name="hrAllowedTriggersDescription">Llama запускает событие когда все условия выполняются и одно событие запускает событие. Эта опция позволит отключить запуск по одному из условий. Снимите выделение с условия, которое не должно запускать событие.</string>
+    <string name="hrEventFilteringPleaseAddSomeConditions">Добавьте условия в событие. После добавления нескольких можно будет выбрать условия, которые не должны срабатывать как триггеры (запускать событие).</string>
+    <string name="hrNfcFormatSuccess">Метка отформатирована как Метка Llama! Можно отформатировать ещё одну или использовать эту.</string>
+    <string name="hrFormatFailHelp">"Не удалось отформатировать метку.
+
+Можете попробовать отформатировать её, установив из Google Play приложение NFC Tag Writer, а затем записать специальный Llama URL :
+
+%1s"</string>
+    <string name="hrRingerSilentButHasVolumes">"Выбрана громкость звонка или оповещений, но режим звонка установлен на бесшумный или вибро.
+
+Установите режим на звонок, звонок+вибро или установите громкость звонка и оповещений на 0."</string>
+    <string name="hrPasteLlamaUrl">Введите или вставьте Llama URL:</string>
+    <string name="hrVibrateWhenProfilesUnlock">Вибро при разблокировании профиля</string>
+    <string name="hrVibrateWhenProfilesUnlockDescription">Шаблон вибро по окончании блокировки профиля Llama. Пустое значение - не вибрировать.</string>
+    <string name="hrToastAction">Всплывающее сообщение</string>
+    <string name="hrToastActionDescription">Отображает краткое сообщение внизу экрана, используя системый интерфейс . Значение переменной можно вывести, заключив её имя двойными решётками, т.е. ##zone##.</string>
+    <string name="hrShowAToast1">"вывести всплывающее сообщение '%1s'"</string>
+</resources>

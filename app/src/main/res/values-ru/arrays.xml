@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="notificationModeArray">
+        <item>Нет оповещения</item>
+        <item>Постоянное оповещение и значок</item>
+        <item>Постоянное оповещение (без значка)</item>
+        <item>Только значок (без оповещения)</item>
+        <item>Убираемые оповещение и значок</item>
+        <item>OSD</item>
+        <item>Текущее уведомление и значок (нормальный приоритет)</item>
+        <item>Ongoing notification and icon (high priority)</item>
+    </string-array>
+    <string-array name="batteryLevelOptions">
+        <item>Батарея разряжена ниже ...</item>
+        <item>Батарея заряжена сверх ...</item>
+    </string-array>
+    <string-array name="signalLevelOptions">
+        <item>Уровень сигнала опускается ниже...</item>
+        <item>Уровень сигнала поднимается выше...</item>
+    </string-array>
+    <string-array name="calendarContainsOptions">
+        <item>Начало события/Текущее событие</item>
+        <item>Событие завершилось/Нет текущего события</item>
+    </string-array>
+    <string-array name="cellPollingModeArray">
+        <item>Нет опроса (события могут быть отложены)</item>
+        <item>Только при обучении</item>
+        <item>Включить опрос (может разряжать батарею)</item>
+    </string-array>
+    <string-array name="mobileDataMenuModeArray">
+        <item>Ни одной</item>
+        <item>Мобильный интернет</item>
+        <item>APN</item>
+        <item>Оба</item>
+    </string-array>
+    <string-array name="notificationColourNames">
+        <item>Красный</item>
+        <item>Оранжевый</item>
+        <item>Желтый</item>
+        <item>Зеленый</item>
+        <item>Синий</item>
+        <item>Фиолетовый</item>
+        <item>Розовый</item>
+        <item>Голубой</item>
+        <item>Черный</item>
+        <item>Белый</item>
+        <item>Настройка Llama: Альтернативный цвет значка</item>
+        <item>Не менять цвет</item>
+    </string-array>
+    <string-array name="screenOnNames">
+        <item>Яркий с подсветкой кнопок</item>
+        <item>Яркий (только экран)</item>
+        <item>Тусклый (только экран)</item>
+    </string-array>
+    <string-array name="errorNotificationModeArray">
+        <item>Ничего</item>
+        <item>Только OSD</item>
+        <item>Оповещения и OSD</item>
+    </string-array>
+    <string-array name="colourEventListModeArray">
+        <item>Выкл.</item>
+        <item>Вкл.</item>
+        <item>Вкл. (Для дальтоников)</item>
+        <item>Вкл. (Для дальтоников 2)</item>
+    </string-array>
+    <string-array name="mediaButtonNames">
+        <item>Воспр./пауза</item>
+        <item>Следующий трек</item>
+        <item>Предыдущий трек</item>
+        <item>Стоп</item>
+        <item>Ускор. перемотка вперед</item>
+        <item>Перемотка назад</item>
+        <item>Воспр. (Android 3.0+)</item>
+        <item>Пауза (Android 3.0+)</item>
+        <item>Запись (Android 3.0+)</item>
+    </string-array>
+    <string-array name="simpleRotationOptions">
+        <item>Не поворачивать</item>
+        <item>Поворот включён</item>
+        <item>Дополнительно... (требуется поддержка кастомной прошивкой)</item>
+    </string-array>
+    <string-array name="intentEditorTypes">
+        <item>Запустить действие</item>
+        <item>Запустить службу</item>
+        <item>Транслировать</item>
+    </string-array>
+    <string-array name="llamaVariableChangeOptions">
+        <item>Текущее значение</item>
+        <item>Нет текущего значения</item>
+    </string-array>
+    <string-array name="mccMncDropDown">
+        <item>ID сети равен</item>
+        <item>ID сети не равен</item>
+    </string-array>
+    <string-array name="audioStreamNames">
+        <item>Звонок</item>
+        <item>Уведомление</item>
+        <item>Музыка/медиа</item>
+        <item>Будильник</item>
+        <item>Вызов</item>
+        <item>Система</item>
+        <item>[Отменить звуки в очереди]</item>
+    </string-array>
+    <string-array name="ringtoneTypes">
+        <item>Рингтоны</item>
+        <item>Уведомления</item>
+        <item>Будильники</item>
+        <item>Ээээ... как насчет музыки???</item>
+    </string-array>
+    <string-array name="twoGThreeGNames">
+        <item>"Предпочитается WCDMA
+(2G / предпочитать 3G)"</item>
+        <item>Только GSM (2G)</item>
+        <item>Только WCDMA (3G)</item>
+        <item>"GSM авто (PRL)
+(предпочитать 2G / 3G)"</item>
+        <item>"CDMA авто (PRL)
+(2G / 3G)"</item>
+        <item>"Только CDMA 
+(2G)"</item>
+        <item>"Только EvDo 
+(3G)"</item>
+        <item>"GSM/CDMA авто (PRL)
+(2G / 3G)"</item>
+    </string-array>
+    <string-array name="calendarAllDayOptions">
+        <item>Весь день или не весь день</item>
+        <item>Только события на весь день</item>
+        <item>Игнорировать события на весь день</item>
+    </string-array>
+    <string-array name="calendarAvailabilityOptions">
+        <item>Показать когда доступен(на) или занят(а)</item>
+        <item>Показать только когда доступен(на)</item>
+        <item>Показать только когда занят(а)</item>
+    </string-array>
+    <string-array name="activeAppStatuses">
+        <item>Приложение запущено или активно</item>
+        <item>Приложение остановлено или в фоне</item>
+    </string-array>
+    <string-array name="rebootCommandArray">
+        <item>rebооt</item>
+        <item>reboot -p</item>
+    </string-array>
+    <string-array name="shutdownCommandArray">
+        <item>роwerоff</item>
+        <item>poweroff -f</item>
+        <item>роwerоff -d 8 -f</item>
+        <item>reboot -p</item>
+    </string-array>
+    <string-array name="advancedVariableActionNames">
+        <item>Увеличить</item>
+        <item>Уменьшить</item>
+        <item>Переключить 0 и 1</item>
+    </string-array>
+</resources>

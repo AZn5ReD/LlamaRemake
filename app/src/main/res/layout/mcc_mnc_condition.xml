@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/mainLayout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:id="@id/text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="16.0dip" android:text="@string/hrMccMncHelpText" />
+        <Spinner android:entries="@array/mccMncDropDown" android:id="@id/spinner" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <EditText android:id="@id/mcc" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="MCC" android:singleLine="true" android:inputType="number" />
+        <EditText android:id="@id/mnc" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="MNC" android:singleLine="true" android:inputType="number" />
+    </LinearLayout>
+</ScrollView>

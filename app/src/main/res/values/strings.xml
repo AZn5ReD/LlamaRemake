@@ -1,0 +1,1449 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Llama</string>
+    <string name="hrChoosePreset">Choose Preset...</string>
+    <string name="hrTapRhythm">Tap Rhythm</string>
+    <string name="hrTest">Test</string>
+    <string name="hrReset">Reset</string>
+    <string name="hrVibrateDialogMessage">Choose a preset -OR- Tap a rhythm -OR- Type pattern manually (use presets as an example)</string>
+    <string name="hrCalendarEventDialogMessage">"This condition is based on the names of events in your calendars. You can choose either the start of a calendar event or the end of a calendar event.
+
+If part of the event's name matches the text then the condition passes, e.g. if you put 'meeting' in the box, events named 'Work meeting' and 'Boring meetings' will trigger the event."</string>
+    <string name="hrNotificationTitle">Llama</string>
+    <string name="hrIntroText">"I'm Llama. Your very own Location Aware Mobile Application. I use phone masts to figure out where you are, so I don't eat your battery trying to find a GPS signal. I'll need some training to start with. You'll need to tell me where I am now. Tap the areas tab to begin.
+
+If you find me useful, please donate by pressing Menu, then Donate.
+
+Please send feedback to kebabapps@gmail.com"</string>
+    <string name="hrCommonTip1">You need to train your Llama to identify your favourites area</string>
+    <string name="hrCommonTip2">The groundspeed velocity of an unladen Llama can reach 28mph</string>
+    <string name="hrCommonTip3">Llama llama duck!</string>
+    <string name="hrCommonTip4">Not related to the Dalai Lama</string>
+    <string name="hrCommonTip5">Llama is a Location Aware Mobile Application</string>
+    <string name="hrCommonTip6">Llamas are like camels, but much more awesome</string>
+    <string name="hrAreasTip1">If phone masts are not accurate enough to determine your location, try using the other options in Experimental settings</string>
+    <string name="hrAreasTip2">Long-press an area to start teaching Llama about where you are</string>
+    <string name="hrEventsTip1">You can see which events have occurred by pressing the history button</string>
+    <string name="hrEventsTip2">You can see what triggered an event by pressing the history button</string>
+    <string name="hrProfilesTip1">If you are going into a meeting, you can prevent Llama from changing your profile using the padlock button</string>
+    <string name="hrProfilesTip2">You can long press a profile to activate and lock it</string>
+    <string name="hrProfilesTip3">"Look in the Settings to make sure Llama doesn't reset the volume if you use your volume buttons"</string>
+    <string name="hrRecentTip1">"If you see 'Not added to any areas' between your other areas, tap the cell to teach Llama where the cell belongs"</string>
+    <string name="hrHelpAreas">"This tab shows you which areas you have trained your Llama to identify. Llama starts off with two areas: Home and Work. However, Llama does not know where you live or where you work. To teach Llama where you are, you need to physically be there.
+
+Long-tap the area for your current location, or press the + button to create a new area. Llama will then ask you how long you plan on staying here. During that time, Llama will remember which phone masts are nearby, so that it can figure out where you are when you come back here.
+
+The list also shows you how many phone masts (also known as cells) define each area. You can also use some experimental methods to determine your location by enabling them in Llama's settings (see Experimental)."</string>
+    <string name="hrHelpEvents">"This tab shows you which events you have told your Llama to perform. Llama comes with some pre-defined events. You can modify or delete these, or add more.
+
+An event contains some conditions and some actions. When all of the conditions are met, Llama will perform the actions for the event.
+
+Most events come in pairs; you need one to turn something on, then another to turn something off, so you'll usually create two events with the event conditions reversed. e.g.
+
+Enter Home -> Change Profile
+Leave Home -> Change Profile
+
+If you think events are occurring when they shouldn't be, you can press the history button to see what event happened, and what caused it.
+
+You can also place shortcuts to events on your home screen/launcher. To do this, long tap an empty area of your home screen, choose Shortcuts, then Llama."</string>
+    <string name="hrHelpProfiles">"This tab shows you which profiles you have told Llama to use. Llama comes with common profiles already defined, but you can change these or add more.
+
+Profiles in Llama are similar to profiles in other non-Android phones; they let you group all of the different volume settings so you can change them with a simple tap. You can also tell Llama to change the profile automatically using events. Each profile can be given a notification bar icon, so you can quickly see which profile is activated.
+
+You can also temporarily prevent Llama from changing the profile if you go to an important meeting. After a period of time, Llama will set the profile back to what it was. If you go to the settings screen, you can tell Llama to monitor your volume buttons, so if you manually set the volume to silent, Llama will turn on its profile lock."</string>
+    <string name="hrHelpRecent">"This tab shows you which phone masts Llama has seen recently. After you have trained your Llama about an area, you'll be able to see which area a phone mast (also know as a cell) belongs to.
+
+If you didn't have much time to train Llama, you may see cells saying 'Not added to any areas'. You can manually add these to the correct area by tapping the cell in the list. This list also shows the time, so you can remember where you were at that time and add it to the correct area.
+
+If a cell is added to two different areas, then unfortunately you do not have enough phone masts nearby to determine the difference between the two locations. Try enabling the Experimental location methods."</string>
+    <string name="hrServiceRestarted">Last time that you used Llama, you used the quit button. The Llama background service has now been restarted. Use the quit button to disable it again.</string>
+    <string name="hrTabAreas">Areas</string>
+    <string name="hrTabEvents">Events</string>
+    <string name="hrTabProfiles">Profiles</string>
+    <string name="hrTabRecent">Recent</string>
+    <string name="hrLlamaLogWarning">WARNING: Log to LlamaLog is enabled. This file may get very big! You may want to turn it off at some point.</string>
+    <string name="hrOkeyDokeExclamation">Okey doke!</string>
+    <string name="hrTurnItOff">Turn it off</string>
+    <string name="hrOk">OK</string>
+    <string name="hrCancel">Cancel</string>
+    <string name="hrViewMap">View Map</string>
+    <string name="hrCreateReminder">Create Reminder</string>
+    <string name="hrRenameArea">Rename Area</string>
+    <string name="hrSetPositionOnMap">Set Position on Map</string>
+    <string name="hrStartLearningArea">Start Learning Area</string>
+    <string name="hrStopLearningArea">Stop Learning Area</string>
+    <string name="hrDeleteArea">Delete Area</string>
+    <string name="hrYes">Yes</string>
+    <string name="hrNo">No</string>
+    <string name="hrEnterAReminderForArea1">"Enter a reminder for area '%1s'"</string>
+    <string name="hrEnterANewNameForTheArea">Enter a new name for the area</string>
+    <string name="hrNewLocationPrompt">Give me a name for the new location</string>
+    <string name="hr1SecondsToGo">%1s second(s) to go</string>
+    <string name="hr1MinutesToGo">%1s minute(s) to go</string>
+    <string name="hrLearningDash">"Learning - "</string>
+    <string name="hrCurrentDash">"Current - "</string>
+    <string name="hrCurrentNoDash">Current</string>
+    <string name="hrAnd">and</string>
+    <string name="hrHowLongWillYouBeAt1For">How long will you be at %1s for?</string>
+    <string name="hrImNotThere">"Don't start learning"</string>
+    <string name="hrSecond">second</string>
+    <string name="hrSeconds">seconds</string>
+    <string name="hrMinute">minute</string>
+    <string name="hrMinutes">minutes</string>
+    <string name="hr0Minutes">0 minutes</string>
+    <string name="hr0Seconds">0 seconds</string>
+    <string name="hrSpaceMinutes">" minutes"</string>
+    <string name="hrSpaceSeconds">" seconds"</string>
+    <string name="hrSpaceMilliseconds">" milliseconds"</string>
+    <string name="hrHour">hour</string>
+    <string name="hrHours">hours</string>
+    <string name="hrMapPoint">map point</string>
+    <string name="hrMapPoints">map points</string>
+    <string name="hrCell">cell</string>
+    <string name="hrCells">cells</string>
+    <string name="hrWifiName">WiFi name</string>
+    <string name="hrWifiNames">WiFi names</string>
+    <string name="hrWifiMac">WiFi MAC</string>
+    <string name="hrWifiMacs">WiFi MACs</string>
+    <string name="hrBluetoothDevice">Bluetooth device</string>
+    <string name="hrBluetoothDevices">Bluetooth devices</string>
+    <string name="hrUnknown">unknown</string>
+    <string name="hrNotAddedToAnyAreas">Not added to any areas</string>
+    <string name="hrViewAllMapPoints">View all map points</string>
+    <string name="hrAllRecentMapPositions">All Recent Map Positions</string>
+    <string name="hrAddToArea">Add to Area</string>
+    <string name="hrViewCoordinatesOnMap">View Coordinates on Map</string>
+    <string name="hrEditAreasPositionOnMap">"Edit Area's Position on Map"</string>
+    <string name="hrRemoveFromArea">Remove from Area</string>
+    <string name="hrPositionOfARecentLocationEstimate">Position of a Recent Location Estimate</string>
+    <string name="hrWhichAreaDoYouWantToRemove1From">Which area do you want to remove %1s from?</string>
+    <string name="hrCouldntFindTheAreaNamed1s">"Couldn't find the area named %1s"</string>
+    <string name="hrWhichAreaDoYouWantToEdit">Which area do you want to edit?</string>
+    <string name="hrCreateNewArea">Create new area</string>
+    <string name="hrWhichAreaDoYouWantToAdd1To">Which area do you want to add %1s to?</string>
+    <string name="hrEnterANameForTheNewArea">Enter a name for the new area</string>
+    <string name="hrWithin1m">within %1sm</string>
+    <string name="hrNewEvent1">New Event %1s</string>
+    <string name="hrNewProfile1">New Profile %1s</string>
+    <string name="hrLlamaDashEditingEvent">Llama - Editing event</string>
+    <string name="hrLlamaDashOrConditions">Llama - Match any condition</string>
+    <string name="hrLlamaDashAndConditions">Llama - Match all conditions</string>
+    <string name="hrLlamaDashNewEvent">Llama - New event</string>
+    <string name="hrLlamaShortcutName">Llama shortcut name</string>
+    <string name="hrActions">Actions</string>
+    <string name="hrCancelRemove">Cancel Remove</string>
+    <string name="hrNowTapAConditionOrActionToRemoveIt">Now tap a condition or action to remove it</string>
+    <string name="hrSelectConditionToTriggerEvent">Select condition to trigger event</string>
+    <string name="hrSelectActionToPerformWhenTriggered">Select action to perform when triggered</string>
+    <string name="hrCool">Cool</string>
+    <string name="hrYourEventIsNotCompleteColon">Your event is not complete:</string>
+    <string name="hrPleaseFixTheseErrorsOrRemoveTheOffendingConditionsSlashActions">Please fix these errors or remove the offending conditions/actions.</string>
+    <string name="hrIWillIPromise">I will, I promise</string>
+    <string name="hrProblems">Problems</string>
+    <string name="hrLlamaDashEventHistory">Llama - Event History</string>
+    <string name="hrEventHistory">Event History</string>
+    <string name="hrTriggeredBy1Condition">Triggered by %1s condition</string>
+    <string name="hrTrigger1Prohibitted">Trigger by %1s condition was not allowed</string>
+    <string name="hrDisabled">Disabled</string>
+    <string name="hrEditEvent">Edit event</string>
+    <string name="hrCopyEvent">Copy event</string>
+    <string name="hrRunEventActions">Run event actions</string>
+    <string name="hrEnableEvent">Enable event</string>
+    <string name="hrDisableEvent">Disable event</string>
+    <string name="hrDeleteEvent">Delete event</string>
+    <string name="hrAreYouSureYouWantToDelete1">"Are you sure you want to delete '%1s'?"</string>
+    <string name="hrCopy">copy</string>
+    <string name="hrCreateLlamaShortcut">Create Llama Shortcut</string>
+    <string name="hrEnterALabelForTheShortcut">Enter a label for the shortcut</string>
+    <string name="hrCustomEvent">Custom event</string>
+    <string name="hrSwitchToProfile1">Switch to profile %1s</string>
+    <string name="hrSpecifyACustomSetOfActionsForTheShortcut">Specify a custom set of actions for the shortcut</string>
+    <string name="hrProfile">Profile</string>
+    <string name="hrEvent">Event</string>
+    <string name="hrCustomEventActions">Custom event actions</string>
+    <string name="hrTheLlamaServiceMustBeRunningForShortcutsToWork">The Llama service must be running for shortcuts to work</string>
+    <string name="hrHowCanIHelpYou">How can I help you?</string>
+    <string name="hrCurrentTabInfo">Current tab info</string>
+    <string name="hrLlamaInstructions">Llama instructions</string>
+    <string name="hrLlamaAndKebabAppsWebsite">Llama and Kebabapps website</string>
+    <string name="hrSendEmail">Send email</string>
+    <string name="hrAboutTheApp">About the app</string>
+    <string name="hrWhatDoesThisTabDo">What does this tab do</string>
+    <string name="hrGroovy">Groovy</string>
+    <string name="hrPerformed1ActionsSince2DaysAgo">Performed %1$s actions since %2$s days ago.</string>
+    <string name="hrDonateSmiley">Donate :)</string>
+    <string name="hrSettings">Settings</string>
+    <string name="hrImportExportData">Import/Export Data</string>
+    <string name="hrToggleMobileData">Toggle Mobile Data</string>
+    <string name="hrToggleApn">Toggle APN</string>
+    <string name="hrDonate">Donate</string>
+    <string name="hrQuit">Quit</string>
+    <string name="hrQuitLlama">Quit Llama</string>
+    <string name="hrPutLlamaToSleep">Put Llama to sleep</string>
+    <string name="hrCloseLlamaExplanation">"This will close Llama and disable its background service. To restart the service, tap the Llama icon in your home screen's application list."</string>
+    <string name="hrEnableApn">enable APN</string>
+    <string name="hrCurrent">current</string>
+    <string name="hrDisableApn">disable APN</string>
+    <string name="hrEnableMobileData">enable mobile data</string>
+    <string name="hrDisableMobileData">disable mobile data</string>
+    <string name="hrImportWarning">Are you sure you want to import settings? This will DELETE any existing saved areas, profiles and events already in Llama!</string>
+    <string name="hrExportWarning">Are you sure you want to export settings to your USB storage? This will DELETE any saved areas, profiles and events that are already on your USB storage!</string>
+    <string name="hrImportFromUrl">Import from Llama URL</string>
+    <string name="hrImportFromSdCard">Import from USB storage</string>
+    <string name="hrExportToSdCard">Export to USB storage</string>
+    <string name="hrOkeyDoke">Okey doke!</string>
+    <string name="hrLockedUntil1">Locked Until %1s</string>
+    <string name="hrProfileLocked">Profile Locked</string>
+    <string name="hrTheShortcutRefersToAnEventNamed1WhichNoLongerExists">"The shortcut refers to an event named '%1s' which no longer exists"</string>
+    <string name="hrTheShortcutRefersToAProfileNamed1WhichNoLongerExists">"The shortcut refers to a profile named '%1s' which no longer exists"</string>
+    <string name="hrLoadSettingsError">Failed to load settings. They have been saved to your USB storage.</string>
+    <string name="hrCriticalLoadSettingsError">Failed to load settings, and there was an error saving to your USB storage. Llama will die now :(</string>
+    <string name="hrQuietAtNight">Quiet at night</string>
+    <string name="hrHome">Home</string>
+    <string name="hrQuiet">Quiet</string>
+    <string name="hrNormalAtHome">Normal at home</string>
+    <string name="hrNormal">Normal</string>
+    <string name="hrLeftHome">Left home</string>
+    <string name="hrQuietAtWork">Quiet at work</string>
+    <string name="hrWork">Work</string>
+    <string name="hrNormalOutsideWork">Normal outside work</string>
+    <string name="hrLeftWork">Left work</string>
+    <string name="hrSilent">Silent</string>
+    <string name="hrLoud">Loud</string>
+    <string name="hrCouldNotFindEventNamed1">"Could not find event named '%1s'"</string>
+    <string name="hrTestVersion">TEST VERSION</string>
+    <string name="hrLlamaForAndroidVersionContact">"Llama for Android
+%1s
+Contact kebabapps@gmail.com"</string>
+    <string name="hrThanksForDonatingExclamation">Thanks for donating!</string>
+    <string name="hrPleaseDonateBeerMoney">If you find this app useful, please donate beer money</string>
+    <string name="hrOkThanks">Ok, thanks</string>
+    <string name="hrDonateViaMarket">Donate via Google Play</string>
+    <string name="hrProfilesAreLockedGotoProfilesTabToUnlock">Profiles are locked. Go to the profiles tab and press Menu to unlock.</string>
+    <string name="hrCouldNotChangeProfileBecauseNoProfileNamed1">Could not change profile because there is no profile named %1s</string>
+    <string name="hrError">ERROR</string>
+    <string name="hrInfo">INFO</string>
+    <string name="hrExportFailedSadFace">Export failed :(</string>
+    <string name="hrImportFailedSadFace">Import failed :( Please ensure that your data is in a folder named Llama on your USB storage</string>
+    <string name="hrImportOf1Successful">Import of %1s successful. Please restart Llama</string>
+    <string name="hrStorageAreas">areas</string>
+    <string name="hrStorageEvents">events</string>
+    <string name="hrStorageProfiles">profiles</string>
+    <string name="hrStorageIgnoredCell">ignored cells</string>
+    <string name="hrQuickReminderAt1">Quick Reminder at %1s</string>
+    <string name="hrNoApnsDefinedTip">You have no APNs. You can remove the APN actions from your events.</string>
+    <string name="hrWifiNotTurnedOffAsItsConnected">WiFi not turned off as it is connected</string>
+    <string name="hrBluetoothNotTurnedOffAsConnectedToAudioDevice">Bluetooth not turned off as it is connected to an audio device</string>
+    <string name="hrBluetoothNotTurnedOffAsItsConnected">Bluetooth not turned off as it is connected</string>
+    <string name="hrCouldnNotTurnOnBluetoothMaybeAirplane">Could not turn on Bluetooth, maybe airplane mode is turned on.</string>
+    <string name="hrBluetoothIsntSupported">"Bluetooth isn't supported"</string>
+    <string name="hrBluetoothApiNotSupported">"Bluetooth API isn't supported"</string>
+    <string name="hrCouldnotStart1">"Couldn't start %1s"</string>
+    <string name="hrRebootFailWarning">Did not reboot, phone uptime was %1s minute(s). For safety reasons, it must be at least 5 minutes.</string>
+    <string name="hrShutdownFailWarning">Did not turn off, phone uptime was %1s minute(s). For safety reasons, it must be at least 5 minutes.</string>
+    <string name="hrRebooting">REBOOTING!!!</string>
+    <string name="hrShuttingDown">TURNING OFF!!!</string>
+    <string name="hrProfileChangesUnlocked">Profile Changes Unlocked</string>
+    <string name="hrPositionsFor1">Positions for %1s</string>
+    <string name="hrSave">Save</string>
+    <string name="hrClose">Close</string>
+    <string name="hrLlamaMapNotInstalled">Llama Map Not Installed</string>
+    <string name="hrGoToMarket">Go to Google Play</string>
+    <string name="hrLlamaMapNeededMessage">"To view maps in Llama you need to install the Llama Map addon.
+
+This is because Llama does not have the internet permissions needed to download the maps from Google.
+
+Like Llama, the map addon is free too."</string>
+    <string name="hrSelectEmailApplication">Select email application.</string>
+    <string name="hrEnteredUnknownArea">Entered unknown area</string>
+    <string name="hrLeftArea1">Left %1s</string>
+    <string name="hrEnteredArea1">Entered %1s</string>
+    <string name="hrLlamaDashEditingProfile">Llama - Editing Profile</string>
+    <string name="hrLlamaDashNewProfile">Llama - New Profile</string>
+    <string name="hrVibrate">Vibrate</string>
+    <string name="hrRing">Ring</string>
+    <string name="hrRingAndVibrate">Ring and Vibrate</string>
+    <string name="hrProfilesUnlocked">Profiles unlocked</string>
+    <string name="hrActivateAndLock">Activate and Lock</string>
+    <string name="hrEditProfile">Edit Profile</string>
+    <string name="hrCopyProfile">Copy Profile</string>
+    <string name="hrDeleteProfile">Delete Profile</string>
+    <string name="hrNever">Never</string>
+    <string name="hrAutomaticallyUnlockProfileDescription">You can prevent Llama events from changing profiles for a period of time. e.g. you are going into a meeting for an hour and want your phone to remain on silent</string>
+    <string name="hrAutomaticallyUnlockProfileChangesAfter">Automatically unlock profile changes after</string>
+    <string name="hrWillActivateWhenProfilesAreManuallyUnlocked">Will activate when profiles are manually unlocked</string>
+    <string name="hrWillActivateAt1">Will activate at %1s</string>
+    <string name="hrActivatedAt1">activated at %1s</string>
+    <string name="hrAuto">Auto</string>
+    <string name="hrChangeBrightness">Change Brightness</string>
+    <string name="hrSetToAutomaticBrightness">set to automatic brightness</string>
+    <string name="hrSetTo1Brightness">set to %1s%% brightness</string>
+    <string name="hrLlamaBluetoothPolling">Llama Bluetooth polling</string>
+    <string name="hrChangeLlamaBluetoothPolling">Change Llama Bluetooth Polling</string>
+    <string name="hrChangeAndroidLocationPolling">Change Android Location Polling</string>
+    <string name="hrAndroidLocationPolling">Android location polling</string>
+    <string name="hrLlamaWifiPolling">Llama WiFi polling</string>
+    <string name="hrChangeLlamaWifiPolling">Change Llama Wifi Polling</string>
+    <string name="hrSet1ToNever">set %1s to never</string>
+    <string name="hrSet1To2">set %1$s to %2$s</string>
+    <string name="hrChangeNotificationIconTo1">change notification icon to %1s</string>
+    <string name="hrChangeNotificationIcon">Change Notification Icon</string>
+    <string name="hrChangeProfile">Change Profile</string>
+    <string name="hrChangeProfileTo">change profile to %1s</string>
+    <string name="hrChooseAProfile">Choose a profile</string>
+    <string name="hrChangeScreenTimeout">Change Screen Timeout</string>
+    <string name="hrDisableScreenTimeout">disable screen timeout</string>
+    <string name="hrSetScreenTimeoutTo1Seconds">set screen timeout to %1s seconds</string>
+    <string name="hrToggleScreenLock">Toggle screen lock</string>
+    <string name="hrScreenLockOn">Enable screen lock</string>
+    <string name="hrScreenLockOnForce">Enable screen lock (force)</string>
+    <string name="hrScreenLockOffImmediately">Disable screen lock immediately (buggy!)</string>
+    <string name="hrScreenLockOffAfterPassword">Disable screen lock after unlock</string>
+    <string name="hrEnableKeyGuard">enable screen lock</string>
+    <string name="hrEnableKeyGuardForce">enable screen lock (force)</string>
+    <string name="hrDisableKeyGuardImmediately">disable screen lock immediately</string>
+    <string name="hrDisableKeyGuardAfterUnlock">disable screen lock after an unlock</string>
+    <string name="hrKillApplication">Kill Application</string>
+    <string name="hrKillApplicationWithRoot">Kill Application (Root)</string>
+    <string name="hrKill1DieDieDie">kill %1s die! die! die!</string>
+    <string name="hrChooseAnApplication">Choose an application</string>
+    <string name="hrChooseAnApplicationWithAName">Choose an application with a name</string>
+    <string name="hrLockProfileChanges">Lock Profile Changes</string>
+    <string name="hrUnlockProfileChanges">Unlock Profile Changes</string>
+    <string name="hrLockProfileChangesDescription">lock profile changes</string>
+    <string name="hrUnlockProfileChangesDescription">unlock profile changes</string>
+    <string name="hrChangeMusicVolume">Change music/media volume</string>
+    <string name="hrSetMusicVolumeTo1">set music/media volume to %1s</string>
+    <string name="hrReminder">Reminder</string>
+    <string name="hrShowAReminder">show a reminder</string>
+    <string name="hrEnterSomeReminderText">Enter some reminder text</string>
+    <string name="hrNoDontDoAnything">"No, don't do anything"</string>
+    <string name="hrYesIReallyWantToReboot">Yes, I really want to reboot!</string>
+    <string name="hrYesIReallyWantToShutdown">Yes, I really want to turn off the phone!</string>
+    <string name="hrRebootPhoneDescription">reboot phone</string>
+    <string name="hrDontRebootPhoneDescription">"don't reboot phone"</string>
+    <string name="hrShutdownPhoneDescription">turn off phone</string>
+    <string name="hrDontShutdownPhoneDescription">"don't turn off phone"</string>
+    <string name="hrRunApplication">Run Application</string>
+    <string name="hrRun1">run %1s</string>
+    <string name="hrIfNotConnected">if not connected</string>
+    <string name="hrForAtLeast1">for at least %1s</string>
+    <string name="hrForAtLeast1Minutes">for at least %1s minutes</string>
+    <string name="hrIfNotConnectedDescription">if not connected</string>
+    <string name="hrFor1ThenDisconectIfNotConnected">for %1s then turn off if not connected</string>
+    <string name="hrFor1MinutesThenDisconectIfNotConnected">for %1s minutes then turn off if not connected</string>
+    <string name="hrAirplaneModeOn">Airplane Mode On</string>
+    <string name="hrAirplaneModeOff">Airplane Mode Off</string>
+    <string name="hrToggleAirplaneMode">Toggle Airplane Mode</string>
+    <string name="hrEnableAirplaneMode">enable Airplane Mode</string>
+    <string name="hrDisableAirplaneMode">disable Airplane Mode</string>
+    <string name="hrApnOn">APN On</string>
+    <string name="hrApnOff">APN Off</string>
+    <string name="hrBluetoothOn">Bluetooth On</string>
+    <string name="hrBluetoothOff">Bluetooth Off</string>
+    <string name="hrToggleBluetooth">Toggle Bluetooth</string>
+    <string name="hrEnableBluetooth">enable Bluetooth</string>
+    <string name="hrDisableBluetooth">disable Bluetooth</string>
+    <string name="hrToggleLlamaCellPolling">Toggle Llama Cell Polling</string>
+    <string name="hrCellPollingOn">Cell Polling On</string>
+    <string name="hrCellPollingOff">Cell Polling Off</string>
+    <string name="hrEnableLlamaCellPolling">enable Llama cell polling</string>
+    <string name="hrDisableLlamaCellPolling">disable Llama cell polling</string>
+    <string name="hrToggleGps">Toggle GPS</string>
+    <string name="hrGpsOn">GPS On</string>
+    <string name="hrGpsOff">GPS Off</string>
+    <string name="hrEnableGps">enable GPS</string>
+    <string name="hrDisableGps">disable GPS</string>
+    <string name="hrMobileDataOn">Mobile Data On</string>
+    <string name="hrMobileDataOff">Mobile Data Off</string>
+    <string name="hrEnableSyncRequestUpdate">Enable Sync, Request Update</string>
+    <string name="hrEnableSyncNoUpdate">Enable Sync, No Update</string>
+    <string name="hrDisableSync">Disable Sync</string>
+    <string name="hrToggleAccountSync">Toggle Account Sync</string>
+    <string name="hrEnableAccountSyncThenRequestUpdateDescription">enable account sync then request update</string>
+    <string name="hrEnableAccountSyncDescription">enable account sync</string>
+    <string name="hrDisableAccountSyncDescription">disable account sync</string>
+    <string name="hrWifiOn">WiFi On</string>
+    <string name="hrWifiOff">WiFi Off</string>
+    <string name="hrToggleWifi">Toggle WiFi</string>
+    <string name="hrEnableWifi">enable WiFi</string>
+    <string name="hrDisableWifi">disable WiFi</string>
+    <string name="hrVibratePattern">Vibrate Pattern</string>
+    <string name="hrVibrateThe1Pattern">vibrate the %1s pattern</string>
+    <string name="hrVibrateACustomisedPattern">vibrate a customised pattern</string>
+    <string name="hrVibrateShort">Short</string>
+    <string name="hrVibrateLong">Long</string>
+    <string name="hrVibrateMultipleShort">Multiple Short</string>
+    <string name="hrVibrateMultipleLong">Multiple Long</string>
+    <string name="hrBatteryLevel">Battery Level</string>
+    <string name="hrBatteryLevelAbove1">Battery level above %1s</string>
+    <string name="hrBatteryLevelBelow1">Battery level below %1s</string>
+    <string name="hrWhenBatteryGoesBelow1Percent">when battery goes below %1s%%</string>
+    <string name="hrWhenBatteryRisesAbove1Percent">when battery rises above %1s%%</string>
+    <string name="hrPleaseChooseAtLeastOneBluetoothDevice">Please choose at least one Bluetooth device</string>
+    <string name="hrPleaseChooseAtLeastOneWifiNetwork">Please choose at least one Wifi Network</string>
+    <string name="hrOr">or</string>
+    <string name="hrNor">nor</string>
+    <string name="hrWhen1IsConnected">when %1s is connected</string>
+    <string name="hrWhen1Disconnects">when %1s disconnects</string>
+    <string name="hrBluetoothDeviceDisconnected">Bluetooth Device Disconnected</string>
+    <string name="hrBluetoothDeviceConnected">Bluetooth Device Connected</string>
+    <string name="hrWhenCalendarHasACurrentEventNameContaining1">"when calendar has a current event name containing '%1s'"</string>
+    <string name="hrWhenCalendarDoesNotHaveACurrentEventNameContaining1">"when calendar does not have a current event name containing '%1s'"</string>
+    <string name="hrCalendarHasACurrentEventNameContaining1">"Calendar has a current event name containing '%1s'"</string>
+    <string name="hrCalendarDoesNotHaveACurrentEventNameContaining1">"Calendar does not have a current event name containing '%1s'"</string>
+    <string name="hrCalendarEvent">Calendar Event</string>
+    <string name="hrCalendarConditionMustHaveACalendarEventNameOrCalendarOrEventType">Calendar condition must have a calendar event name, a calendar selected or a calendar event type selected.</string>
+    <string name="hrInCarMode">In Car Mode</string>
+    <string name="hrNotInCarMode">Not in Car Mode</string>
+    <string name="hrWhenInCarMode">when in car mode</string>
+    <string name="hrWhenNotInCarMode">when not in car mode</string>
+    <string name="hrUsingBattery">Using battery</string>
+    <string name="hrChargingFromAny">Charging from any source</string>
+    <string name="hrChargingFromAc">Charging from AC</string>
+    <string name="hrChargingFromUsb">Charging from USB</string>
+    <string name="hrChargingFromWireless">Charging wirelessly</string>
+    <string name="hrChargingStatus">Charging Status</string>
+    <string name="hrWhenChargingUnknown">when charging unknown</string>
+    <string name="hrWhenChargingFromAc">when charging from AC</string>
+    <string name="hrWhenChargingFromUsb">when charging from USB</string>
+    <string name="hrWhenChargingWirelessy">when charging wirelessy</string>
+    <string name="hrWhenCharging">when charging</string>
+    <string name="hrWhenUsingBattery">when using battery</string>
+    <string name="hrChooseAtLeastOneDay">Choose at least one day</string>
+    <string name="hrDayOfTheWeek">Day of the week</string>
+    <string name="hrWhenIts1">"when it's %1s"</string>
+    <string name="hrChooseAnAreaToEnter">Choose an area to enter</string>
+    <string name="hrEnterArea">Enter Area</string>
+    <string name="hrAt1">at %1s</string>
+    <string name="hrAtTime1">at %1s</string>
+    <string name="hrWiredHeadsetConnected">Any wired headset connected</string>
+    <string name="hrWiredHeadsetWithMicConnected">Wired headset with mic connected</string>
+    <string name="hrWiredHeadsetNoMicConnected">Wired headset with no mic connected</string>
+    <string name="hrWiredHeadsetDisconnected">Wired headset disconnected</string>
+    <string name="hrWhenWiredHeadsetAnyIsConnected">when any wired headset is connected</string>
+    <string name="hrWhenWiredHeadsetNoMicIsConnected">when wired headset (no mic) is connected</string>
+    <string name="hrWhenWiredHeadsetWithMicIsConnected">when wired headset (with mic) is connected</string>
+    <string name="hrWhenWiredHeadsetIsDisconnected">when wired headset is disconnected</string>
+    <string name="hrChooseAnAreaToLeave">Choose an area to leave</string>
+    <string name="hrLeaveArea">Leave Area</string>
+    <string name="hrUponLeaving1">upon leaving %1s</string>
+    <string name="hrMusicPlayback">Music Playback</string>
+    <string name="hrMusicPlaying">Music Playing</string>
+    <string name="hrMusicPaused">Music Paused</string>
+    <string name="hrWhenMusicIsPlaying">when music is playing</string>
+    <string name="hrWhenMusicIsPaused">when music is paused</string>
+    <string name="hrBluetoothDeviceNotConnected">Bluetooth Device Not Connected</string>
+    <string name="hrWhen1IsNotConnected">when %1s is not connected</string>
+    <string name="hrNotInArea">Not in Area</string>
+    <string name="hrChooseAnAreaToNotBeIn">Choose an area to not be in</string>
+    <string name="hrWhenNotAt1">when not at %1s</string>
+    <string name="hrTimeBetween">Time Between</string>
+    <string name="hrBetween1And2">between %1$s and %2$s</string>
+    <string name="hrFrom">From</string>
+    <string name="hrTo">To</string>
+    <string name="hrActionChangeProfile">Profile</string>
+    <string name="hrActionChangeProfileDescription">"This will change your phone's sound settings according to the profiles shown in the profiles tab. The notification icon may also change depending on how the profile is defined."</string>
+    <string name="hrActionNotificationIcon">Llama Notification Icon</string>
+    <string name="hrActionNotificationIconDescription">"This will change the icon that appears in the notification bar. Use different icons to determine what your current settings are. The icon can be turned on and off in Llama's main settings."</string>
+    <string name="hrActionScreenBrightness">Screen Brightness</string>
+    <string name="hrActionScreenBrightnessDescription">"This will change the screen's brightness. Some phone's support 'automatic brightness'."</string>
+    <string name="hrActionScreenOn">Screen On</string>
+    <string name="hrActionScreenOnDescription">This will turn on the screen immediately. If the screen lock is not active, the screen will stay on until the inactivity time passes. If the screen lock is enabled, then the screen lock is shown and the screen will turn off after 2 seconds. NOTE: Your phone may not show a difference between dim, bright and bright with button lights</string>
+    <string name="hrActionScreenOff">Screen Off</string>
+    <string name="hrActionScreenOffDescription">This will turn off the screen immediately. If the screen lock is enabled it will be activated.</string>
+    <string name="hrActionMusicVolume">Music/Media Volume</string>
+    <string name="hrActionMusicVolumeDescription">This will change the music/media volume.</string>
+    <string name="hrActionVibrate">Vibrate</string>
+    <string name="hrActionVibrateDescription">This will vibrate according to a set of predefined patterns, or you can create your own rhythm.</string>
+    <string name="hrActionApn">APN</string>
+    <string name="hrActionApnDescription">"This will disable mobile data by fudging your network provider's APN settings. This only works on GSM networks. It is compatible with the APNDroid widget."</string>
+    <string name="hrActionBluetooth">Bluetooth</string>
+    <string name="hrActionBluetoothDescription">This will turn Bluetooth on and off. You can choose to only turn off Bluetooth if there are no devices connected. You can also turn Bluetooth on for a short period of time, and then turn off automatically if no device stays connected.</string>
+    <string name="hrActionAirplane">Airplane Mode</string>
+    <string name="hrActionAirplaneDescription">This will turn Airplane mode on and off. This will also have the side-effect of disabling WiFi and Bluetooth. When Airplane mode is active, you will not be able to determine your location!</string>
+    <string name="hrActionWifi">WiFi</string>
+    <string name="hrActionWifiDescription">This will turn WiFi on and off. You can choose to only turn off WiFi if there is no WiFi network connected. You can also turn WiFi on for a short period of time, and then turn off automatically if no WiFi network stays connected.</string>
+    <string name="hrActionGps">GPS</string>
+    <string name="hrActionGpsDescription">"This will turn GPS on and off. This is not officially supported by Android, so may not work. If you have installed Gingerbread or higher (Android 2.3) then it definitely won't work. Nag Google if you want it to work."</string>
+    <string name="hrActionReboot">Reboot (Requires root)</string>
+    <string name="hrActionRebootDescription">This will reboot your phone. Be careful with your event conditions, so that you do not end up rebooting after your phone has rebooted. Llama requires your phone to have been switched on for at least 5 minutes for this action to occur.</string>
+    <string name="hrActionShutdown">Turn off phone (Requires root)</string>
+    <string name="hrActionShutdownDescription">This will turn off your phone. Be careful with your event conditions, so that you do not end up turning off your phone after your phone has rebooted. Llama requires your phone to have been switched on for at least 5 minutes for this action to occur.</string>
+    <string name="hrActionSync">Account Sync</string>
+    <string name="hrActionSyncDescription">This will enable or disable the account sync setting. You can also use this to force a sync to occur.</string>
+    <string name="hrActionLlamaCellPolling">Llama Cell Polling</string>
+    <string name="hrActionLlamaCellPollingDescription">"EXPERIMENTAL: This changes the frequency of Llama's cell polling. This is only useful if it is enabled in the Experimental Settings."</string>
+    <string name="hrActionLlamaWifiPolling">Llama WiFi Polling</string>
+    <string name="hrActionLlamaWifiPollingDescription">"EXPERIMENTAL: This changes the frequency of Llama's WiFi polling. This is only useful if it is enabled in the Experimental Settings. If set to 'never' then Llama will piggy-back Android's own WiFi polling."</string>
+    <string name="hrActionLlamaBluetoothPolling">Llama Bluetooth Polling</string>
+    <string name="hrActionLlamaBluetoothPollingDescription">"EXPERIMENTAL: This changes the frequency of Llama's discoverable Bluetooth device polling. This is only useful if it is enabled in the Experimental Settings. If set to 'never' then Llama will piggy-back Android's own Bluetooth scanning."</string>
+    <string name="hrActionAndroidLocationPolling">Llama Android Location Polling</string>
+    <string name="hrActionAndroidLocationPollingDescription">"EXPERIMENTAL: This changes the frequency of Android's own location polling. This is only useful if it is enabled in the Experimental Settings. If set to 'never' then Llama will piggy-back other applications that request your location."</string>
+    <string name="hrActionScreenTimeout">Screen Timeout</string>
+    <string name="hrActionScreenTimeoutDescription">This will change the amount of time that your screen stays on after you have touched it.</string>
+    <string name="hrActionMobileData">Mobile Data</string>
+    <string name="hrActionMobileDataDescription">"This will change the mobile data setting. This does not work on Gingerbread because Google deliberately broke it :'( If you are running 2.2.1 or less, you need to have the 'Mobile Data' setting enabled in your phones settings for this to work."</string>
+    <string name="hrActionReminder">Reminder</string>
+    <string name="hrActionReminderDescription">This will show a poorly implemented reminder in the notification bar.</string>
+    <string name="hrActionScreenLock">Screen Lock (Buggy)</string>
+    <string name="hrActionScreenLockDescription2">"This will turn the screen lock on and off. Android does not provide a permanent way of doing this, so this may not work as you expect.
+
+If your screen is on and unlocked:
+-enabling the screen lock won't show the lock until after the screen has turned off
+-enabling the screen lock (force) will turn off the screen and show the lock when it next turns on
+-disabling the screen lock will happen immediately (i.e next time you turn off the screen, you won't see the screen lock)
+
+
+If your screen is locked and turned off:
+-enabling the screen lock will cause the lock to show next time the screen is turned on
+-disabling the screen lock immediately, will make the screen lock never appear and may mess up your home/search buttons
+-disabling the screen lock after unlock will show the screen lock once and then never again, until you reenable it.
+
+
+If your screen is unlocked and turned off:
+-enabling the lock will show the screen lock after the screen has been turned off and on once.
+-enabling the lock (force) will make the lock screen appear next time the sceen is turned on.
+
+
+If your home button stops working, you should not use this action. You may also have more luck if you use pattern lock rather than a pin/password lock."</string>
+    <string name="hrActionProfileLock">Llama Profile Changes Lock</string>
+    <string name="hrActionProfileLockDescription">"This allows you to control Llama's profile lock. You can use this to prevent Llama from changing your profile at certain times."</string>
+    <string name="hrActionRunApp">Run Application</string>
+    <string name="hrActionRunAppDescription">This allows you to run an application. Please give the list time to load if you have a lot of applications</string>
+    <string name="hrActionKillApp">Kill Application</string>
+    <string name="hrActionKillAppDescription">This allows Llama to kill an application to the best of its abilities. Note that application killing in Android is limited, so this may not work as you expect.</string>
+    <string name="hrActionKillWithRootApp">Kill Application (root privileges)</string>
+    <string name="hrActionKillWithRootAppDescription">This allows Llama to FORCEFULLY kill an application. This is not recommended and may cause the app to misbehave. This requires your phone to be rooted.</string>
+    <string name="hrConditionEnterInArea">Enter/In Area</string>
+    <string name="hrConditionEnterInAreaDescription">This condition is valid when you first enter ANY of the selected areas and remains valid until you leave the selected areas.</string>
+    <string name="hrConditionLeaveArea">Leave Area</string>
+    <string name="hrConditionLeaveAreaDescription">This condition is only valid when you leave ANY of the selected areas. (See Not in Areas condition)</string>
+    <string name="hrConditionNotInAreas">Not in Areas</string>
+    <string name="hrConditionNotInAreasDescription">This condition is only valid when you leave ALL of the selected areas, and stays valid whilst you are not in those areas.</string>
+    <string name="hrConditionCalendarEvent">Calendar Event</string>
+    <string name="hrConditionCalendarEventDescription">"This condition is valid depending on you calendars' current events. You can specify the start of an event or the end of an event."</string>
+    <string name="hrConditionDayOfTheWeek">Day of the Week</string>
+    <string name="hrConditionDayOfTheWeek_Description">This condition allows you to filter an event to only occur on certain days of the week.</string>
+    <string name="hrConditionHeadset">Headset Connected/Disconnected</string>
+    <string name="hrConditionHeadsetDescription">This condition allows you to perform events when your wired headset or headphones are connected or disconnected from your phone.</string>
+    <string name="hrConditionCharging">Charging or Unplugged</string>
+    <string name="hrConditionChargingDescription">This condition allows you to perform events when your phone is connected to a PC or a charger, or if it is discharging.</string>
+    <string name="hrConditionPhoneReboot">Phone reboot</string>
+    <string name="hrConditionPhoneRebootDescription">This condition allows you to perform events when your phone starts up or before your phone shuts down.</string>
+    <string name="hrConditionBatteryLevel">Battery Level</string>
+    <string name="hrConditionBatteryLevelDescription">This condition allows you to perform events when your battery goes below a certain level or rises above a certain level.</string>
+    <string name="hrConditionSignalLevel">Signal Strength</string>
+    <string name="hrConditionSignalLevelDescription">"This condition allows you to perform events when your signal strength goes below a certain level or rises above a certain level.
+
+The condition will show you a preview of the current signal level when you edit it.
+
+The values are in dBm.
+
+Llama uses -150 as 'no signal'. Note that GSM signal can go as low as -113dBm."</string>
+    <string name="hrConditionCarMode">Car Mode</string>
+    <string name="hrConditionCarModeDescription">"This condition allows you to performs events when your phone enters or leaves 'car dock' mode."</string>
+    <string name="hrConditionBluetoothConnected">Bluetooth Device Connected</string>
+    <string name="hrConditionBluetoothConnectedDescription">This condition is valid when any of the selected Bluetooth devices are conncted, and stays valid whilst they are connected to your phone.</string>
+    <string name="hrConditionBluetootDeviceNotConnected">Bluetooth Devices Not Connected</string>
+    <string name="hrConditionBluetootDeviceNotConnectedDescription">This condition is valid only when none of the selected Bluetooth devices are connected. It will trigger when all of the specified Bluetooth devices have disconnected.</string>
+    <string name="hrConditionBluetoothDisconnected">Bluetooth Device Disconnected</string>
+    <string name="hrConditionBluetoothDisconnectedDescription">This condition is valid when ANY of the selected Bluetooth devices disconnect from your phone.</string>
+    <string name="hrConditionMusicPlayback">Music Playback</string>
+    <string name="hrConditionMusicPlaybackDescription">"This condition is triggered by changes to the Android Music player. NOTE: Different manufacturers decided to customise their media player, but do not provide any documentation for third party developers to interact with them :'("</string>
+    <string name="hrConditionTimeBetween">Time Between</string>
+    <string name="hrConditionTimeBetweenDescription">"This condition allows you to filter events so they only occur during certain times of the day. You can make the time span over night (e.g. 10pm to 6am) to specify events that should only occur at night. The 'From' time acts as a trigger for this event. When the time matches the 'From' time, Llama will check the event's other conditions and run the event's actions."</string>
+    <string name="hrAlternativeIconColour">Alternative icon colour</string>
+    <string name="hrAlternativeIconColourDescription">Whether to use black or white notification icons (for Sense/Gingerbread)</string>
+    <string name="hrNotificationMode">Notification Mode</string>
+    <string name="hrNotificationModeDescription">How to let you know about profile changes. Ongoing notifications tell Android to avoid killing Llama</string>
+    <string name="hr12HourPickers">Use 12-hour time pickers</string>
+    <string name="hr12HourPickersDescription">Whether to use 12-hour time pickers (less hour clicking ;)</string>
+    <string name="hrShowApnMobileData">Show APN/Mobile Data in Menu</string>
+    <string name="hrShowApnMobileDataDescription">"Whether to show APN/Mobile data toggle in Llama's menu. TIP: Create a shortcut for your home screen instead"</string>
+    <string name="hrSoundProfileSettings">Sound Profile Settings</string>
+    <string name="hrLockProfilesOnChange">Lock Profiles on Volume Change</string>
+    <string name="hrLockProfilesOnChangeDescription">Whether to prevent Llama from changing profiles when you manually adjust the volume using the volume buttons</string>
+    <string name="hrUnlockProfilesAutomatically">Unlock Profiles Automatically</string>
+    <string name="hrUnlockProfilesAutomaticallyDescription">After locking profiles, unlock profiles after</string>
+    <string name="hrCellTrackingSettings">Cell Tracking Settings</string>
+    <string name="hrIgnoreInvalidNoSignal">Ignore Invalid/No Signal cell</string>
+    <string name="hrIgnoreInvalidNoSignalDescription">"Whether to prevent invalid cell IDs and no signal from 'leaving' an area"</string>
+    <string name="hrCellPollingMode">Cell Polling Mode</string>
+    <string name="hrCellPollingModeDescription">EXPERIMENTAL: Whether to wake the CPU to track cell changes more reliably. This may affect your battery life. When turned off, enter/leave events may lag. Usually this is not a problem, because the event will occur immediately when your phone wakes.</string>
+    <string name="hrCellPollingInterval">Cell Polling Interval</string>
+    <string name="hrCellPollingIntervalDescription">How often to wake the CPU</string>
+    <string name="hrCellPollingIntervalMinutes">Cell Polling Interval (minutes)</string>
+    <string name="hrAlternativeLocationMethods">Alternative Location Methods</string>
+    <string name="hrExperimentalStuff">Experimental Stuff</string>
+    <string name="hrExperimentalStuffDescription">Here be dragons</string>
+    <string name="hrLocationSettings">Location Settings</string>
+    <string name="hrUseAndroidLocation">Use Android Location</string>
+    <string name="hrUseAndroidLocationDescription">"EXTREMELY EXPERIMENTAL: Whether to use Android's built in location stuff. Place areas on a map, can be more accurate if you have WiFi enabled, but may have an effect on your battery life"</string>
+    <string name="hrUseGps">Use GPS</string>
+    <string name="hrUseGpsDescription">Use GPS to determine your location. This WILL eat into your battery life.</string>
+    <string name="hrAndroidLocationPollingName">Android Location Polling Interval</string>
+    <string name="hrAndroidLocationPollingDescription">EXTREMELY EXPERIMENTAL: How often to check your location</string>
+    <string name="hrAndroidLocationPollingInterval">Android Location Polling Interval (minutes)</string>
+    <string name="hrWifiTrackingSettings">WiFi Tracking Settings</string>
+    <string name="hrCheckForWifiNetworks">Check for WiFi Networks</string>
+    <string name="hrCheckForWifiNetworksDescription">EXTREMELY EXPERIMENTAL: Whether to turn on WiFi every so often to see if there are nearby WiFi networks</string>
+    <string name="hrWifiPolling">WiFi Polling Interval</string>
+    <string name="hrWifiPollingDescription">EXTREMELY EXPERIMENTAL: How often to check for WiFi networks</string>
+    <string name="hrWifiPollingInterval">WiFi Polling Interval (minutes)</string>
+    <string name="hrBluetoothTrackingSettings">Bluetooth Tracking Settings</string>
+    <string name="hrCheckForBluetoothDevices">Check for Bluetooth Devices</string>
+    <string name="hrCheckForBluetoothDevicesDescription">EXTREMELY EXPERIMENTAL: Whether to turn on Bluetooth every so often to see if there are nearby discoverable Bluetooth devices</string>
+    <string name="hrBluetoothPollingInterval">Bluetooth Polling Interval</string>
+    <string name="hrBluetoothPollingIntervalDescription">EXTREMELY EXPERIMENTAL: How often to check for Bluetooth devices</string>
+    <string name="hrBluetoothPollingIntervalMinutes">Bluetooth Polling Interval (minutes)</string>
+    <string name="hrUserInterfaceSettings">User interface settings</string>
+    <string name="hrDebugSettings">Debug settings - Geeky stuff ahead</string>
+    <string name="hrDebugSettingsTitle">Debug Settings</string>
+    <string name="hrDebugSettingsDescriptions">Additional settings for logging purposes and diagnostics</string>
+    <string name="hrEventName">Event name</string>
+    <string name="hrEventNameAndGroup">Event name and group</string>
+    <string name="hrEventNameDescription">The name used to identify this event</string>
+    <string name="hrEnabled">Enabled</string>
+    <string name="hrEventEnabledDescription">"Whether Llama should check this event's conditions and run its actions"</string>
+    <string name="hrProfileName">Profile name</string>
+    <string name="hrProfileNameDescription">The name used to identify this profile</string>
+    <string name="hrNotificationVolume">Notification volume</string>
+    <string name="hrRingVibrateSilent">Ring/vibrate/silent mode</string>
+    <string name="hrChangeRingVibrateSilent">Change ring/vibrate/silent mode</string>
+    <string name="hrChangeRingVibrateSilentDescription">Whether to change the ringer, vibrate or silent mode when this profile is activated</string>
+    <string name="hrRingtone">Ringtone</string>
+    <string name="hrChangeRingtone">Change ringtone</string>
+    <string name="hrChangeRingtoneDescription">Whether to change the ringtone when this profile is activated</string>
+    <string name="hrNotificationTone">Notification tone</string>
+    <string name="hrChangeNotificationTone">Change default notification tone</string>
+    <string name="hrChangeNotificationToneDescription">Whether to change the default notification tone when this profile is activated</string>
+    <string name="hrMusicVolume">Music/Media volume</string>
+    <string name="hrChangeMusicVolumeDescription">Whether to change the music/media volume when this profile is activated</string>
+    <string name="hrAlarmVolume">Alarm volume</string>
+    <string name="hrChangeAlarmVolume">Change alarm volume</string>
+    <string name="hrChangeAlarmVolumeDescription">Whether to change the alarm volume when this profile is activated</string>
+    <string name="hrInCallVolume">In-call volume</string>
+    <string name="hrChangeInCallVolume">Change in-call volume</string>
+    <string name="hrChangeInCallVolumeDescription">Whether to change the in-call/ear-piece volume when this profile is activated</string>
+    <string name="hrSystemSoundsVolume">System sounds volume</string>
+    <string name="hrChangeSystemSoundsVolume">Change system sounds volume</string>
+    <string name="hrChangeSystemSoundsVolumeDescription">Whether to change the system sounds volume when this profile is activated</string>
+    <string name="hrLlamaIcon">Llama icon</string>
+    <string name="hrChangeLlamaIcon">Change Llama icon</string>
+    <string name="hrChangeLlamaIconDescription">Whether to change the Llama icon when this profile is activated</string>
+    <string name="hrLlamaIcons">Llama icons</string>
+    <string name="hrSelectALlamaIcon">Select a Llama icon</string>
+    <string name="hrRingtoneVolumeDescription">The volume to set the ringtone to</string>
+    <string name="hrNotificationToneVolumeDescription">The volume to set notification tones to</string>
+    <string name="hrChooseVibrateMode">Choose vibrate mode</string>
+    <string name="hrChooseVibrateModeDescription">Ringer/vibrate mode</string>
+    <string name="hrSelectARingtone">Select a ringtone</string>
+    <string name="hrRingtones">Ringtones</string>
+    <string name="hrSelectDefaultNotificationDescription">Select a default notification tone</string>
+    <string name="hrNotificationTones">Notification tones</string>
+    <string name="hrMusicVolumeDescription">The volume to set music/media to</string>
+    <string name="hrAlarmDescription">The volume to set alarm sounds to</string>
+    <string name="hrInCallDescription">The volume to set in-call audio to</string>
+    <string name="hrSystemSoundDescription">The volume to set system sounds to</string>
+    <string name="hrChangeRingtoneVolume">Change ringtone volume</string>
+    <string name="hrChangeRingtoneVolumeDescription">Whether to change the ringtone volume when this profile is activated</string>
+    <string name="hrChangeNotificationVolume">Change notification volume</string>
+    <string name="hrChangeNotificationVolumeDescription">Whether to change the notification volume when this profile is activated</string>
+    <string name="hrRingtoneVolume">Ringtone volume</string>
+    <string name="hrAddAction">Add Action</string>
+    <string name="hrAddCondition">Add Condition</string>
+    <string name="hrRemove">Remove</string>
+    <string name="hrTestActions">Test Actions</string>
+    <string name="hrNotificationIconOnlyError">Ongoing icon only notification not supported by Gingerbread and higher :(</string>
+    <string name="hrThanksToTranslators">Many thanks to the Llama translators:</string>
+    <string name="hrUnableToUpdateArea1">"Unable to update area '%1s' because it no longer exists :("</string>
+    <string name="hrToggleProfileChangesLock">Toggle Profile Changes Lock</string>
+    <string name="hrRebootBracketRequiresRootBracket">Reboot (Requires root)</string>
+    <string name="hrCarMode">Car Mode</string>
+    <string name="hrWiredHeadset">Wired Headset</string>
+    <string name="hrConditionsMatchAll">Conditions (match all)</string>
+    <string name="hrConditionsMatchAny">Conditions (match any)</string>
+    <string name="hrSorryNoHelpYet">Sorry, no help yet :(</string>
+    <string name="hrAirplaneModeEnterAreaWarning">"When in Airplane Mode you will be unable to 'enter' any areas because you aren't connected to the phone network!"</string>
+    <string name="hrRebootSafetyMessage">"Be careful with your conditions!
+Your phone must be switched on for at least 5 minutes for it to reboot, for safety reasons"</string>
+    <string name="hrShutdownSafetyMessage">"Be careful with your conditions!
+Your phone must be switched on for at least 5 minutes for it to turn off, for safety reasons"</string>
+    <string name="hrBluetoothParingInfo">Your Bluetooth device must be paired with your phone. If this list is empty, turn on Bluetooth and try again.</string>
+    <string name="hrWifiNetworkInfo">"If this list is empty, turn on Wifi and try again. The wifi network must be in range or you must have already connected to it in the past and 'remembered' it."</string>
+    <string name="hrAndroid22Only">Android 2.2+ only</string>
+    <string name="hrKeyGuardBuggyWarning">WARNING: Buggy! Your home button may stop working until you reenable the keyguard. This may also make your SIM card lock act funny!</string>
+    <string name="hrMobileDataWarning">EXPERIMENTAL: You must have mobile data enabled in settings!</string>
+    <string name="hrLanguageDescription">"Use a language that isn't your phone's usual language"</string>
+    <string name="hrLanguageBracketEnglishLanguageBracket">Language</string>
+    <string name="hrTurnOnTheScreenDim">turn on the screen at low brightness</string>
+    <string name="hrTurnOnTheScreenBright">turn on the screen at normal brightness</string>
+    <string name="hrTurnOnTheScreenBrightAndKeyboard">turn on the screen and button lights at normal brightness</string>
+    <string name="hrTurnOffTheScreen">turn off the screen</string>
+    <string name="hrErrorNotificationMode">Error Notifications</string>
+    <string name="hrErrorNotificationModeDescription">How to let you know about problems that might occur when Llama is in the background, such as event errors and profile locks</string>
+    <string name="hrLlamaErrorV2">Llama error - Tap here</string>
+    <string name="hrLlamaInfoV2">Llama info - Tap here</string>
+    <string name="hrLlamaProblem">Llama problem</string>
+    <string name="hrFailedToReadCalendar1">"Failed to read calendar %1s. You can turn off Error Notification in Llama's settings."</string>
+    <string name="hrRevertVolumeChanges">Disable volume buttons</string>
+    <string name="hrRevertVolumeChangesDescription">"Whether to change the volume back to the current profile's setting when you accidentally press the volume buttons."</string>
+    <string name="hrScreenOn">Screen on</string>
+    <string name="hrScreenOff">Screen off</string>
+    <string name="hrWhenScreenIsOn">when screen turns on</string>
+    <string name="hrWhenScreenIsOff">when screen turns off</string>
+    <string name="hrScreenOnOff">Screen on/off</string>
+    <string name="hrConditionScreenOnOffDescription">This condition allows you to perform or filter events depending on when the screen is on or off.</string>
+    <string name="hrAutoRelinkVolumes">Re-link volumes</string>
+    <string name="hrAutoRelinkVolumesDescription">"Whether to re-enable the 'use incoming call volume for notifications' checkbox when a profile with matching volumes is activated."</string>
+    <string name="hrTimeBetweenWarning">Remember to create another event for when it is outside of these times!</string>
+    <string name="hrConditionWifiConnected">WiFi Network Connected</string>
+    <string name="hrConditionWifiConnectedDescription">This condition is valid when any of the selected WiFi networks are connected, and stays valid whilst your phone is connected to them.</string>
+    <string name="hrConditionWifiDisconnected">WiFi Network Disconnected</string>
+    <string name="hrConditionWifiDisconnectedDescription">This condition is valid when any of the selected WiFi networks disconnect or are not connected, and stays valid whilst your phone is not connected to any of them.</string>
+    <string name="hrWhenWifi1Disconnects">when your phone disconnects from %1$s</string>
+    <string name="hrWhenWifi1Connects">when your phone connects to %1$s</string>
+    <string name="hrNoSignalUnknown">No signal/Unknown</string>
+    <string name="hrNewProfile">New Profile</string>
+    <string name="hrColourEventList">Coloured event list</string>
+    <string name="hrColourEventListDescription">"Whether to colour event conditions according to their current status.
+Green = true, red = false, underline = triggered events during last event test"</string>
+    <string name="hrActionUsbStorage">USB mass storage</string>
+    <string name="hrActionUsbStorageDescription">"This turns USB mass storage on and off. If your phone's manufacturer added other USB modes (e.g Media Sync, PC Suite), this may not behave correctly. TIP: Create a Llama shortcut on your home screen to toggle USB storage on and off with a simple click. No more annoying notification tapping :)"</string>
+    <string name="hrUsbStorageOn">USB mass storage on</string>
+    <string name="hrUsbStorageOff">USB mass storage off</string>
+    <string name="hrUsbStorageToggle">USB mass storage on/off</string>
+    <string name="hrUsbStorageOnDescription">turn on USB mass storage</string>
+    <string name="hrUsbStorageOffDescription">turn off USB mass storage</string>
+    <string name="hrUsbStorageToggleDescription">turn on/off USB mass storage</string>
+    <string name="hrUsbToggleError">Changing USB storage state failed</string>
+    <string name="hrActionMediaPlayer">Media player</string>
+    <string name="hrActionMediaPlayerDescription">This performs a media player action, such a play and pause. It is similar to pressing the Play/Pause, Previous or Next button on a headset. This depends on your media player to support these action, and not all media players will support all actions.</string>
+    <string name="hrSendMedia1Button">send media %1s button</string>
+    <string name="hrUnknownArea">Unknown area</string>
+    <string name="hrNoisyContacts">Noisy contacts...</string>
+    <string name="hrNoisyContactsDescription">Select contacts who will be allowed override the ringer settings in this profile.</string>
+    <string name="hrNoisyContactRingerVolume">Noisy ringer volume</string>
+    <string name="hrNoisyContactRingerVolumeDescription">The volume to set the ringer to when one of your Noisy Contacts calls.</string>
+    <string name="hrNoisyContactPicker1Selected">Noisy Contact Picker - %1s selected</string>
+    <string name="hr4GOn">4G On</string>
+    <string name="hr4GOff">4G Off</string>
+    <string name="hrActionToggle4G">4G</string>
+    <string name="hrActionToggle4GDescription">"Turn 4G on or off, if your phone supports it. If your phone doesn't support it, you may summon a spirit from a horrible place."</string>
+    <string name="hrEnable4G">enable 4G</string>
+    <string name="hrDisable4G">disable 4G</string>
+    <string name="hr4GWarning">"EXPERIMENTAL: I don't own a 4G phone to test it on. Donations welcome!"</string>
+    <string name="hrActionRunShortcut">Run App Shortcut</string>
+    <string name="hrActionRunShortcutDescription">"Starts another application using the specified shortcut. You can use this to perform all kinds of actions within other applications. If an application isn't listed or the action you want to perform doesn't exist, let the app's developer know."</string>
+    <string name="hrChooseAShortcutToRun">Choose a shortcut to run</string>
+    <string name="hrRunAShortcut">"run a shortcut '%1s'"</string>
+    <string name="hrPleaseWait">Please Wait...</string>
+    <string name="hrGettingApplicationNames">Getting application names...</string>
+    <string name="hrGettingShortcuts">Getting shortcuts...</string>
+    <string name="hrAnyWifiNetwork">&lt;Any WiFi network></string>
+    <string name="hrInAirplaneMode">Airplane mode enabled</string>
+    <string name="hrNotInAirplaneMode">Airplane mode disabled</string>
+    <string name="hrWhenInAirplaneMode">when Airplane mode is enabled</string>
+    <string name="hrWhenNotInAirplaneMode">when Airplane mode is disabled</string>
+    <string name="hrConditionAirplaneMode">Airplane mode</string>
+    <string name="hrConditionAirplaneModeDescription">This condition allows you to performs events when you enable or disable airplane mode.</string>
+    <string name="hrTheApocalypse">At the apocalypse!!!</string>
+    <string name="hrEnableHapticFeedback">turn on haptic feedback</string>
+    <string name="hrDisableHapticFeedback">turn off haptic feedback</string>
+    <string name="hrActionHapticFeedback">Haptic feedback</string>
+    <string name="hrActionHapticFeedbackDescription">This action turns haptic feedback on and off. Haptic feedback is the vibration that your phone makes when you tap buttons on the screen.</string>
+    <string name="hrHapticFeedbackOn">Haptic feedback on</string>
+    <string name="hrHapticFeedbackOff">Haptic feedback off</string>
+    <string name="hrActionScreenOnWarning">Different phones behave differently. Use in combination with Screen Brightness to set the ACTUAL brightness.</string>
+    <string name="hrWifiSleepPolicyNever">WiFi never sleeps</string>
+    <string name="hrWifiSleepPolicyNeverWhilePlugged">WiFi never sleeps when charging</string>
+    <string name="hrWifiSleepPolicyScreenOff">WiFi sleeps when screen turns off</string>
+    <string name="hrWifiSleepPolicyNeverDescription">prevent WiFi from sleeping</string>
+    <string name="hrWifiSleepPolicyNeverWhilePluggedDescription">prevent WiFi from sleeping while plugged in</string>
+    <string name="hrWifiSleepPolicyScreenOffDescription">set WiFi to sleep shortly after the screen turns off</string>
+    <string name="hrActionWifiSleepPolicy">WiFi sleep policy</string>
+    <string name="hrActionWifiSleepPolicyDescription">This action changes the advanced WiFi setting that controls when your phone puts WiFi to sleep. Note that some phones have a delay between the screen going off and WiFi going to sleep.</string>
+    <string name="hrClearNotification">Clear it</string>
+    <string name="hrLeaveNotification">Leave it</string>
+    <string name="hrChangeWallpaperTo1">"change wallpaper to '%1s'"</string>
+    <string name="hrPleaseChooseAWallpaper">Choose a wallpaper</string>
+    <string name="hrActionWallpaper">Wallpaper</string>
+    <string name="hrActionWallpaperDescription">"Allows you to change the wallpaper of your home screen. This will use Android's wallpaper picker to let you choose and crop an image from your Gallery. The cropped image will be saved in the Llama/Wallpaper folder of your USB storage.
+
+Android doesn't let applications change the Live Wallpaper :'("</string>
+    <string name="hrHowDoIChangeOtherStuff">"Where's the other settings?"</string>
+    <string name="hrHowDoIChangeOtherStuffDescription">This screen is for sound profiles. If you want to change Bluetooth, WiFi, etc, go back to the Events tab and create events to do your bidding.</string>
+    <string name="hrConditionAppNotification">App Notification Bar Icon</string>
+    <string name="hrConditionAppNotificationDescription">EXPERIMENTAL: This condition triggers when another application places a notification icon in the notification bar. You must have Llama set as an accessibility service for this to work. You can use it to perform actions when an SMS or Google Talk message is received, or when some other application places an icon in the notification bar. WORK IN PROGRESS, GEEKS ONLY.</string>
+    <string name="hrConditionAppNotificationWarning">"EXPERIMENTAL: Please tick Llama in Android's accessibility settings!"</string>
+    <string name="hrKillWithRootDieDieDie1">kill %1s with root privileges die! die! die!</string>
+    <string name="hrInvalidPackageNameToKill1">"Could not kill package '%1s' because its name is invalid"</string>
+    <string name="hrIgnored">Ignored</string>
+    <string name="hrUnignoreCell">Unignore cell</string>
+    <string name="hrIgnoreCell">Ignore cell</string>
+    <string name="hrIgnoreCells">Ignore cells</string>
+    <string name="hrNoCellsIgnoredLongTapRecentTab">No other cells are ignored. Long-press a cell in the Recent tab to ignore some.</string>
+    <string name="hrIgnoreOtherCells">Other ignored cells...</string>
+    <string name="hrIgnoreOtherCellsDescription">Sometimes you may have a cell that briefly appears in two areas. You can ignore those cells so they do not cause you to leave an area. Long-tap in the recent tab to ignore cells.</string>
+    <string name="hrAndFinally">And finally...</string>
+    <string name="hrCalendarEventDialogEventNameContains">Event name contains... (separate multiple names with a vertical line)</string>
+    <string name="hrCalendarEventDialogInCalendars">In calendars...</string>
+    <string name="hrThisAreaHasNotBeenDefinedLongTapItOrLookInTheRecentTab">This area has not been set up yet. Long-press it to start learning about nearby phone masts or tap items in the Recent tab to start defining this area.</string>
+    <string name="hrActionScreenBrightnessWarning">Different phones treat screen brightness differently. You may have to turn your screen off and on before the change takes effect.</string>
+    <string name="hrAnyCalendarEvent">any calendar event</string>
+    <string name="hrAnyCalendar">any calendar</string>
+    <string name="hrCalendarEvents1ContainsAnyEvent">%1$s has any calendar events</string>
+    <string name="hrCalendarEvents1DoesNotContainAnyEvent">%1$s does not have any calendar events</string>
+    <string name="hrCalendarEvents1Contains2">%1$s has a calendar event named %2$s</string>
+    <string name="hrCalendarEvents1DoesNotContains2">%1$s does not have a calendar event named %2$s</string>
+    <string name="hrCalendarEvents1ContainsAnyEventDescription">when %1$s has any calendar events</string>
+    <string name="hrCalendarEvents1DoesNotContainAnyEventDescription">when %1$s does not have any calendar events</string>
+    <string name="hrCalendarEvents1Contains2Description">when %1$s has a calendar event named %2$s</string>
+    <string name="hrCalendarEvents1DoesNotContains2Description">when %1$s does not have a calendar event named %2$s</string>
+    <string name="hrCalendarEventNameSpaceWarning">Some of your calendar event names have spaces before or after them. Some Android keyboards insert spaces automatically. If you did not intend those spaces to be there, press Remove Spaces.</string>
+    <string name="hrRemoveSpaces">Remove spaces</string>
+    <string name="hrLeaveSpaces">Leave spaces</string>
+    <string name="hrOnStartUp">After start up</string>
+    <string name="hrOnShutdown">Before turning off</string>
+    <string name="hrWhenPhoneBoots">when phone starts up</string>
+    <string name="hrWhenPhoneShutsdown">when phone turns off</string>
+    <string name="hrEnableRotation">enable rotation</string>
+    <string name="hrDisableRotation">disable rotation</string>
+    <string name="hrActionScreenRotation">Screen rotation</string>
+    <string name="hrActionScreenRotationDescription">This lets you change whether your phone rotates the screen when you rotate your phone. Most phones only allow the rotation to be locked portrait or automatically switch between portrait and landscape.</string>
+    <string name="hrAllow1Rotations">allow screen to rotate %1s</string>
+    <string name="hrLockProfileFor1">lock profile for %1s</string>
+    <string name="hrForeverEternity">eternity (use Profile tab to re-enable)</string>
+    <string name="hrLockProfileForever">lock profile forever</string>
+    <string name="hrAlsoPreventOtherEventsFromChangingProfilesForDotDotDot_1">Also activate profile lock. Other events will not be able to change the profile. When this number of minutes passes, Llama will switch back to the previous profile.</string>
+    <string name="hrCarDockOnOffDescription">turn on/off car mode</string>
+    <string name="hrCarDockOnOff">Turn car mode on/off</string>
+    <string name="hrCarDockOffDescription">turn off car mode</string>
+    <string name="hrCarDockOff">Turn car mode off</string>
+    <string name="hrCarDockOnDescription">turn on car mode</string>
+    <string name="hrCarDockOn">Turn car mode on</string>
+    <string name="hrActionCarMode">Car Mode</string>
+    <string name="hrActionCarModeDescription">This action turns car mode on and off manually. Only supported by Android 2.2+.</string>
+    <string name="hrCarModeNotSupportedByPhone">Car mode is only supported by Android 2.2+</string>
+    <string name="hrFailedToStartShortcut1">Failed to start shortcut %1s</string>
+    <string name="hrLlamaFailedToChangeApnSettings">Llama failed to change the APN settings</string>
+    <string name="hrErrorReadingContacts">Error reading contacts</string>
+    <string name="hrThereWasAnErrorReadingYourContacts">There was an error reading your contacts :(</string>
+    <string name="hrAlarmVolumeWarning">Beware of alarm clock apps that control their own alarm volume. e.g. some Samsung phones. Please install another alarm app from Google Play that does not do this.</string>
+    <string name="hrRunIntent1">"run an Android intent '%1s'"</string>
+    <string name="hrCreateAnIntent">Define an Android intent</string>
+    <string name="hrActionAndroidIntent">Android intent</string>
+    <string name="hrActionAndroidIntentDescription">This allows you to start an Android Intent. This is a very advanced function and needs the cooperation of third party applications. Llama comes with some pre-defined Intents. If you come up with a good one, please let other people know about it :)</string>
+    <string name="hrPreset">Preset</string>
+    <string name="hrDashDashOrDashDash">-- OR --</string>
+    <string name="hrIntentEditPackageName">Package name</string>
+    <string name="hrIntentEditClassName">Class name</string>
+    <string name="hrIntentEditAction">Action</string>
+    <string name="hrIntentEditCategory">Categories (comma/pipe separated)</string>
+    <string name="hrIntentEditData">Data</string>
+    <string name="hrIntentEditDateType">Data type</string>
+    <string name="hrCustomAndroidIntent">Custom android intent</string>
+    <string name="hrIntentEditExtras">Extras</string>
+    <string name="hrIntentEditAddExtra">"Add new 'extra' row"</string>
+    <string name="hrTpiWidgetLockerEnable">Widget Locker: Enable</string>
+    <string name="hrTpiWidgetLockerDisable">Widget Locker: Disable</string>
+    <string name="hrTpiWidgetLockerSuspend">Widget Locker: Suspend</string>
+    <string name="hrTpiWidgetLockerResume">Widget Locker: Resume</string>
+    <string name="hrTpiWidgetLockerActivate">Widget Locker: Lock</string>
+    <string name="hrTpiWidgetLockerUnlock">Widget Locker: Unlock</string>
+    <string name="hrTpiBeautifulWidgetsRefresh">Beautiful Widgets: Refresh</string>
+    <string name="hrTpiAndroidStartHome">Android: Start home screen</string>
+    <string name="hrTpiHoursBankStartStop">Hours Bank: Start/stop</string>
+    <string name="hrTpiDrivingModeWidgetOn">Driving Mode Widget: On</string>
+    <string name="hrTpiDrivingModeWidgetOff">Driving Mode Widget: Off</string>
+    <string name="hrIntentEditSendMode">Intent send mode</string>
+    <string name="hrAdvancedDotDotDot">Advanced...</string>
+    <string name="hrEventAdvancedDescription2">Whether this event is delayed or repeating, requires confirmation and trigger filters</string>
+    <string name="hrRepeatEvent">Repeat event</string>
+    <string name="hrRepeatEventDescription">"Whether this event's actions keep firing for as long as the conditions hold"</string>
+    <string name="hrRepeatEventMinutes">Repeat interval</string>
+    <string name="hrRepeatEventMinutesDescription">"The number of minutes between each repetition of this event's actions."</string>
+    <string name="hrDelayEvent">Delay event</string>
+    <string name="hrDelayEventDescription">"Whether this event's actions are run immediately or are run after waiting a certain number of minutes."</string>
+    <string name="hrDelayEventMinutes">Delay minutes</string>
+    <string name="hrDelayEventMinutesDescription">The number of minutes that must pass between this event being triggered and the actions being fired.</string>
+    <string name="hrDelayEventSeconds">Delay seconds</string>
+    <string name="hrDelayEventSecondsDescription">The number of additional seconds that must pass between this event being triggered and the actions being fired (for people with fast reactions or OCD :)</string>
+    <string name="hrCancelDelayedEvent">Cancel delayed if false</string>
+    <string name="hrCancelDelayedEventDescription">"If checked, a delayed event's actions won't fire if its conditions no longer hold true."</string>
+    <string name="hrEventRequireConfirmation">Require confirmation</string>
+    <string name="hrEventRequireConfirmationDescription">"Whether this event's actions will only be run after you confirm them via a notification."</string>
+    <string name="hrMoreInfoDotDotDot">More info...</string>
+    <string name="hrEventAdvancedDetailedDescription">"If more than one advanced option is selected:
+
+-A confirmation will not be shown until after the delay.
+
+-A repeating event will not start repeating until after the delay and/or confirmation."</string>
+    <string name="hrRepeatTriggerName">Repeated event</string>
+    <string name="hrAfterDelayTriggerName">Delayed event</string>
+    <string name="hrConfirmationTriggerName">Confirmed by user</string>
+    <string name="hrEventNameTriggerName">Event name</string>
+    <string name="hrEventNameTriggerShortcutName">Event name shortcut</string>
+    <string name="hrEventNameTriggerShortcutCustom">Custom shortcut</string>
+    <string name="hrEventNameTriggerEventEditor">Event editor test</string>
+    <string name="hrEventNameTriggerEventList">Event list test</string>
+    <string name="hrEventNameTriggerSetLlamaVariableIntent">External set Llama variable</string>
+    <string name="hrEventNameExternalSetLlamaVariable">External set Llama variable</string>
+    <string name="hrTheEventNamed1NoLongerExists">"The event named '%1s' no longer exists."</string>
+    <string name="hrWifiAccessPointMayNotBeSupported">WifiAccessPoint may not be supported by your phone.</string>
+    <string name="hrEvent1RequiresConfirmation">"The event named '%1$s' requires confirmation to perform these actions:"</string>
+    <string name="hrEventRequiresConfirmationFooter">You can either run these actions now, save them for later, or clear the notification.</string>
+    <string name="hrEventRequireConfirmationDialog">Confirmation dialog</string>
+    <string name="hrEventRequireConfirmationDialogDescription">Whether to interrupt your current activity to show a dialog, or just place an icon in the notification bar.</string>
+    <string name="hrEventConfirmationRunNow">Run now</string>
+    <string name="hrEventConfirmationSaveForLater">Later</string>
+    <string name="hrEventConfirmationDontRun">Clear</string>
+    <string name="hrRepeatingAt1">(Repeating at %1s)</string>
+    <string name="hrDelayedUntil1">(Delayed until %1s)</string>
+    <string name="hrAwaitingConfirmation">(Awaiting confirmation)</string>
+    <string name="hrWifiHotSpotOnOffDescription">turn on/off WiFi hotspot mode</string>
+    <string name="hrWifiHotSpotOnOff">Turn WiFi hotspot on/off</string>
+    <string name="hrWifiHotSpotOffDescription">turn off WiFi hotspot</string>
+    <string name="hrWifiHotSpotOff">Turn WiFi hotspot off</string>
+    <string name="hrWifiHotSpotOnDescription">turn on WiFi hotspot</string>
+    <string name="hrWifiHotSpotOn">Turn WiFi hotspot on</string>
+    <string name="hrActionWifiHotSpot">WiFi hotspot</string>
+    <string name="hrActionWifiHotSpotDescription">This action turns WiFi hotspot manually. Only supported by Android 2.2+.</string>
+    <string name="hrScreenBrightnessWarning">"Not all Android phones are created equally. Some phones won't respond to brightness changes until after the screen has been turned off and then on."</string>
+    <string name="hrScreenBrightnessLowWarning">WARNING: Some phones will let you set the screen brightness so low that you cannot see the screen. Proceed at your own risk! You may be able to remove the battery and restart to get it back to normal.</string>
+    <string name="hrSpeakerphoneOnOffDescription">turn on/off speakerphone mode</string>
+    <string name="hrSpeakerphoneOnOff">Turn speakerphone on/off</string>
+    <string name="hrSpeakerphoneOffDescription">turn off speakerphone</string>
+    <string name="hrSpeakerphoneOff">Turn speakerphone off</string>
+    <string name="hrSpeakerphoneOnDescription">turn on speakerphone</string>
+    <string name="hrSpeakerphoneOn">Turn speakerphone on</string>
+    <string name="hrActionSpeakerphone">Speakerphone</string>
+    <string name="hrActionSpeakerphoneDescription">This action turns the in-call speakerphone on and off. It only affects phone calls and not the other audio types (e.g. music)</string>
+    <string name="hrDeviceAdminDescription">Provides support for some Llama actions</string>
+    <string name="hrDeviceAdminNotSupported">Device Administrator is only supported on Android 2.2+</string>
+    <string name="hrDeviceAdminError">"Llama was not granted Device Administrator priviliges. See Android's Location and Security settings."</string>
+    <string name="hrScreenOffError">Could not turn screen off.</string>
+    <string name="hrActionChangePassword">Screen lock password</string>
+    <string name="hrActionChangePasswordDescription">"This changes the screen lock password. You can use it to temporarily clear your password so that the screen lock does not show. This password will be stored in an encrypted format, which may be written to your USB storage if a Llama data error occurs or if you export your data manually. The password will be encrypted using the Llama Security Password in Llama's settings, which is never stored on your USB storage. However, other apps with root permission may be able to read the Llama Security Password! If you modify your Llama Security Password you will have to reenter the Change Password action's password."</string>
+    <string name="hrChangePasswordError">Could not change your screen lock password.</string>
+    <string name="hrThereWasAnErrorSavingYourPassword">There was an error saving your screen lock password. You may have changed the Llama Security Password. Please try reentering the screen lock password action.</string>
+    <string name="hrFailedToDecryptYourPassword">Failed to decrypt your screen lock password, so it was not changed.</string>
+    <string name="hrSecuritySettings">Security settings</string>
+    <string name="hrLlamaSecurityPassword">Llama security password</string>
+    <string name="hrLlamaSecurityPasswordDescription">This is used to encrypt sensitive information defined in events. e.g. screen lock password</string>
+    <string name="hrLlamaSecurityPasswordDescriptionEx">"This is used to encrypt sensitive information defined in events (for example: screen lock password). This is so that sensitive information is not written in plain text to your USB storage if you export your data.
+
+If this password is changed, you will need to redefine any screen lock password actions that you have used.
+
+You will not need this password again unless you change phones or reinstall Llama."</string>
+    <string name="hrSetLlamaSecurityPasswordNow">You should set a Llama Security Password. This is used to protected sensitive information when your events are written to your USB storage. It is separate from the keylock password or your Google account password. Do you want to set a Llama Security Password now?</string>
+    <string name="hrPleaseEnterALlamaSecurityPassword">Please enter a Llama Security Password, or press Cancel to keep your existing one</string>
+    <string name="hrChangeScreenLockPassword">change screen lock password</string>
+    <string name="hrQueueEventActionValidation">Your queued event must contain at least one condition, or be queued after at least one minute.</string>
+    <string name="hrActionQueueEvent">Queue another event</string>
+    <string name="hrActionQueueEventDescription">"This lets you create a one-off event. You can use it to perform another set of actions after a certain period of time. One the new event has fired once, it will be deleted.
+
+If you set both the number of minutes to queue and add conditions, the queued event will only fire if those conditions remain true.
+
+If you set only conditions, the queued event will only fire when those conditions are triggered."</string>
+    <string name="hrQueueEventMinutes">Queue delay</string>
+    <string name="hrQueueEventSeconds">Queue delay seconds</string>
+    <string name="hrQueueEventMinutesDescription">The number of minutes after the original event fired that this event must wait before checking its conditions and running its actions.</string>
+    <string name="hrQueueEventSecondsDescription">The number of seconds after the original event fired that this event must wait before checking its conditions and running its actions.</string>
+    <string name="hrQueueAnEventNamed1After2Minutes">"queue an event named '%1$s' after %2$s minutes"</string>
+    <string name="hrQueueAnEventNamed1After2Seconds">"queue an event named '%1$s' after %2$s seconds"</string>
+    <string name="hrQueueAnEventNamed1After2Minutes3Seconds">"queue an event named '%1$s' after %2$s minutes and %3$s seconds"</string>
+    <string name="hrQueueAnEventNamed1">"queue an event named '%1$s'"</string>
+    <string name="hrWaitFor1Minutes">Wait for %1$s minutes</string>
+    <string name="hrWaitFor1Seconds">Wait for %1$s seconds</string>
+    <string name="hrWaitFor1Minutes2Seconds">Wait for %1$s minutes and %2$s seconds</string>
+    <string name="hrConditionAbbr">C</string>
+    <string name="hrActionAbbr">A</string>
+    <string name="hrYouHaveFiltersActive">Some events are hidden by your filter!</string>
+    <string name="hrEnterAScreenLockPassword">Enter a screen lock password:</string>
+    <string name="hrConfirmScreenLockPassword">Confirm your screen lock password:</string>
+    <string name="hrPasswordsDontMatch">"Passwords didn't match. Please try again."</string>
+    <string name="hrPasswordHidden">Password hidden</string>
+    <string name="hrPasswordErrorPleaseReenterItAgain">Password error, please reenter it.</string>
+    <string name="hrEventActionAndConditionSettings">Event action and condition settings</string>
+    <string name="hrDefaultReminderTone">Reminder notification tone</string>
+    <string name="hrDefaultReminderToneDescription">The notification tone to play when you use the reminder action</string>
+    <string name="hrWaitForConditions">Wait for conditions</string>
+    <string name="hrLongerProfileLock">Longer profile lock</string>
+    <string name="hrLongerProfileLockDescription">Whether the profile lock slider should show up to 8 hours or 24 hours.</string>
+    <string name="hrCellPolling">Cell polling settings</string>
+    <string name="hrCellPollingDescription">"Llama normally works passively using the currently connected cell. These settings adjust Llama's alternative cell polling method."</string>
+    <string name="hrCellPollingWithWakeLock">Awake while polling</string>
+    <string name="hrCellPollingWithWakeLockDescription">"Whether to force your phone to stay awake when it's trying to see if the cell has changed. Some phones may need this."</string>
+    <string name="hrCellPollingWithScreenWakeLock">Screen on while polling</string>
+    <string name="hrCellPollingWithScreenWakeLockDescription">Whether to turn on your screen briefly. WARNING: Turning your screen on and off a thousand times per day might damage it. I have no idea if it does, so use it at your own risk.</string>
+    <string name="hrCellPollingActiveInterval">Cell polling active time</string>
+    <string name="hrCellPollingActiveIntervalMillis">"The number of milliseconds to potentially keep your device awake for. You probably shouldn't set it for longer than 5 seconds if you value battery life."</string>
+    <string name="hrConfirmationTriggeredBy1Condition">Confirmation triggered by %1s condition</string>
+    <string name="hrDelayTriggeredBy1Condition">Delay started by %1s condition</string>
+    <string name="hrEventDelayCancelled">Delay cancelled because conditions were no longer met</string>
+    <string name="hrEventRepeatingCancelled">Repeating cancelled because conditions were no longer met</string>
+    <string name="hrSetLlamaVariable1To2">"set Llama variable '%1$s' to '%2$s'"</string>
+    <string name="hrPleaseEnterAVariableName">Please enter a Llama variable name</string>
+    <string name="hrPleaseEnterAVariableValue">Please enter a Llama variable value</string>
+    <string name="hrVariableName">Variable name</string>
+    <string name="hrVariableValue">Variable value (can be blank)</string>
+    <string name="hrActionSetLlamaVariable">Llama variable</string>
+    <string name="hrActionSetLlamaVariableDescription">Llama lets you store some text that other events can then act on, letting you create horribly complex sets of events. You store text in named variables. You can have multiple named variables. As an added bonus, the variables are sent to Minimalistic Text Widget (MTW). Let MTW know the variable name as its Locale variable.</string>
+    <string name="hrDonateRequiresMarket">There was a problem launching Google Play. Donations can only be made through Google Play.</string>
+    <string name="hrWhen1HasAValueOf2">"when '%1$s' has a value of '%2$s'"</string>
+    <string name="hrWhen1DoesNotHaveAValueOf2">"when '%1$s' does not have a value of '%2$s'"</string>
+    <string name="hrWhen1HasAValueGreaterThan2">"when '%1$s' has a value greater than '%2$s'"</string>
+    <string name="hrWhen1HasAValueGreaterThanOrEqualTo2">"when '%1$s' has a value greater than or equal to '%2$s'"</string>
+    <string name="hrWhen1HasAValueLessThan2">"when '%1$s' has a value less than '%2$s'"</string>
+    <string name="hrWhen1HasAValueLessThanOrEqualTo2">"when '%1$s' has a value less than or equal to '%2$s'"</string>
+    <string name="hrConditionLlamaVariable">Llama variable</string>
+    <string name="hrConditionLlamaVariableDescription">This is used in conjunction with the Llama Variable action. You can use it to create events using the current values of Llama Variables.</string>
+    <string name="hrVariables">Llama variables</string>
+    <string name="hrAreYouSureYouWantToClearVariables">"Do you really want to clear your variable names and values?
+
+This should only be done to reset your variable usage. It will not trigger any events."</string>
+    <string name="hrNoVariablesSet">"No variables set. Create an event that has a 'Llama Variable' action to start using variables. A variable won't have its value set until the event that sets its value has run for the first time."</string>
+    <string name="hrConfirmationDeniedTriggerName">Confirmation denied</string>
+    <string name="hrForceNoisyContactRingtone">Force noisy contact ringtone</string>
+    <string name="hrForceNoisyContactRingtoneDescription">"Some phones don't start playing a ringtone when on silent. Make Llama play the ringtone instead. Untick if you hear two ringtones."</string>
+    <string name="hrRepeatingEventWithNoConditionsWarning">"This repeating event has no conditions, so will never be triggered.
+
+If you want it to repeat forever consider adding a Phone reboot/startup condition.
+
+Do you want to add this now?"</string>
+    <string name="hrNotificationIconDots">Number of dots</string>
+    <string name="hrColour">Colour</string>
+    <string name="hrTheNumberOfDotsToShowOnTheIcon">The number of dots to show in the icon.</string>
+    <string name="hr1Dots">%1s dots</string>
+    <string name="hr1Dot">%1s dot</string>
+    <string name="hrWith">with</string>
+    <string name="hrDontChangeDots">"Don't change dots"</string>
+    <string name="hrPleaseChooseASoundToPlay">Please choose a sound to play</string>
+    <string name="hrNotificationIconMustChangeTheIconOrNumberOfDots">Notification icon must change the icon or number of dots</string>
+    <string name="hrAudioStream2">Choose the volume (audio stream) that the sound will play through, or you can choose to cancel all sounds that Llama is playing:</string>
+    <string name="hrStopQueuedSounds">stop playing queued sounds</string>
+    <string name="hrActionSoundPlayer">Play a sound</string>
+    <string name="hrActionSoundPlayerDescription">"This will play a ringtone or notification tone. You can choose what audio stream should play the sound. Each of the audio streams has its own volume level, which Llama controls through its profiles.
+
+A sound will play until it finishes and more sounds will be queued up. To stop sounds playing, use the notification icon that appears when playing sounds. This icon can be turned off in Llama's settings."</string>
+    <string name="hrRingtonePickerType">Ringtone picker type</string>
+    <string name="hrPlaySound1">"play sound '%1s'"</string>
+    <string name="hrEventColonSoundDescription">"%1$s: Playing '%2$s'"</string>
+    <string name="hrChooseARingToneToPlay">Choose a ringtone</string>
+    <string name="hrNoneSelected">none selected</string>
+    <string name="hrCurrentRingtoneColon1">Current ringtone: %1s</string>
+    <string name="hrErrrMusicDescription">"Android's default ringtone picker doesn't let you pick music as ringtones. However, because Android is smarter than its fruit-based competitor you can use another ringtone picker!
+
+I'd recommend Rings Extended by Googler Dianne Hackborn.
+
+You should probably ignore any apps that claims to give away free music or try to sign you up for a £5 ringtone-of-the-week. Anyone who uses those services is a moron.
+
+Anyways, do you want to search Google Play for an alternative ringtone picker?"</string>
+    <string name="hrNoisyLlamaTapToStop">Noisy Llama - Tap to stop</string>
+    <string name="hrProblemStartingAndroidMarket">There was a problem starting Google Play :(</string>
+    <string name="hrUseTheNotificationToStopPlaying">"Use the notification to stop the sound. Turn it on/off in Llama's settings."</string>
+    <string name="hrBulkOperations">Bulk operations</string>
+    <string name="hrBulkOperationsDescription">Quick ways of doing some advanced stuff.</string>
+    <string name="hrBulkDeleteCellsFromAreas">Delete cells from areas. Useful for when you change mobile network.</string>
+    <string name="hrBulkDeleteMapPointsFromAreas">Delete map points from areas</string>
+    <string name="hrBulkDeleteWifiMacFromAreas">Delete wifi MAC addresses from areas</string>
+    <string name="hrBulkDeleteWifiNameFromAreas">Delete wifi network names from areas</string>
+    <string name="hrBulkDeleteBluetoothFromAreas">Delete bluetooth devices from areas</string>
+    <string name="hrBulkDeleteBeaconWarning">"Are you sure that you want to do this?! Make sure that you've taken a backup just in case you change your mind. You should quit and restart Llama after doing this."</string>
+    <string name="hrActionTwoGThreeG">2G/3G (Modified phones only)</string>
+    <string name="hrActionTwoGThreeGDescription">"**THIS ONLY WORKS ON PHONES THAT HAVE BEEN HACKED/MODIFIED TO SUPPORT IT** You need to have Cyanogenmod 7+ installed on your phone for this to have any effect. This is a limitation of Android. Android does NOT normally let third-party apps control the network type.
+
+Tedious warning aside, this lets you set the network type that your phone will connect to. Do some Googlin' to find your network type, but it's probably these:
+
+Europe - GSM/WCDMA
+USA - either GSM/WCDMA or CDMA"</string>
+    <string name="hrChangeNetworkTo1">change network to %1s</string>
+    <string name="hrGpsEnableWarning">This might not work! GPS can only be changed on Android 2.2 and below, or some modified phones. This is a security-related limitation of Android to prevent apps from spying on you.</string>
+    <string name="hrActionKillAppWarning">This might not work! Android 2.2 and above limited the effectiveness of apps killing other apps. If you have hacked/rooted your phone, try the alternative kill app action.</string>
+    <string name="hrMilliAbbreviation">ms</string>
+    <string name="hrDelayFor1">delay for %1s</string>
+    <string name="hrRepeatedEventEditWarning">You have edited a repeated event. Do you want to check if its conditions are valid so that it can start repeating?</string>
+    <string name="hrQueuedEventDefaultName">Queued event</string>
+    <string name="hrQueuedEventChangeDefaultNameTip">"All event names must be unique. Your queued event may not be recreated if another event already exists with the same name! Please change the queued event's name."</string>
+    <string name="hrCalendarEventDialogExtraEventSettings">"You can also filter the events based on the event type and availability. If you leave the calendar and event name box blank, your condition will respond only to events that match all day or availability, etc.&lt;br>&lt;br>NOTE: Not all calendar providers are created equally (e.g. some MS Exchange apps); &lt;u>click here to look at Llama's calendar debug viewer&lt;/u> to see what Llama thinks is going on."</string>
+    <string name="hrCalendarDebugTitle1">Events in the next %1s minutes</string>
+    <string name="hrCalendarEventMustBe">must be</string>
+    <string name="hrAllDay">all day</string>
+    <string name="hrNotAllDay">not all day</string>
+    <string name="hrShownAsAvailable">shown as available</string>
+    <string name="hrNotShownAsAvailable">not shown as available</string>
+    <string name="hrYourDeviceDoesNotSupportDeviceAdmin">"Your device does not support Android's Device Administration feature :("</string>
+    <string name="hrAlsoThanksTo">Also thanks to:</string>
+    <string name="hrConditionAudioBecomingNoisy">Audio becoming noisy</string>
+    <string name="hrConditionAudioBecomingNoisyDescription">This triggers when a wired headset or Bluetooth headset is disconnected. Some phones may respond to this faster than the other conditions.</string>
+    <string name="hrWhenAudioBecomesNoisy">when audio becomes noisy</string>
+    <string name="hrConditionDeskDock">Desk dock</string>
+    <string name="hrConditionDeskDockDescription">"This condition allows you to performs events when your phone is placed in a desk dock.
+
+Note that your phone has to support the normal Android way of being placed in a desk dock. Some manufacturers like to customise this and don't behave properly. Also, some desk docks are actually cheap nasty lumps of plastic, rather than actual docks, so your phone doesn't know if it is docked."</string>
+    <string name="hrInDeskDock">In a desk dock</string>
+    <string name="hrNotInDeskDock">Not in a desk dock</string>
+    <string name="hrWhenInDeskDock">when in a desk dock</string>
+    <string name="hrWhenNotInDeskDock">when not in a desk dock</string>
+    <string name="hrActionSpeak">Speak</string>
+    <string name="hrActionSpeakDescription">"Lets your Llama talk to you in a robotic voice. You can make it speak Llama variables by surrounding the variable name with two hashes. e.g. 'Lock is set to ##LockEnabled##'"</string>
+    <string name="hrSay1">"say '%1s'"</string>
+    <string name="hrActionLocalePlugin">Locale plugin</string>
+    <string name="hrActionLocalePluginDescription">"**EXPERIMENTAL**
+This lets your run third party plugins for the popular Locale app. Locale plugins are available on Google Play. Some are free, some need you to hand over money. Llama DOES NOT guarantee that it will work with any of them!
+
+There's currently a problem with plugins that rely on Locale's text and icons. These may not display properly, but should still work.
+
+When you configure a Locale plugin you will need to press MENU to save your changes. The final button in the MENU-button menu is usually save."</string>
+    <string name="hrLocalePluginConfigMessage">Some plugins require you to press MENU and then the last menu item to save!</string>
+    <string name="hrRunLocalePlugin1Quotes2">"run a Locale plugin '%1$s: %2$s'"</string>
+    <string name="hrChooseALocalePluginToRun">Choose a Locale plugin to run.</string>
+    <string name="hrGettingLocaleActionPlugins">Getting Locale plugins...</string>
+    <string name="hrInAppDonateBlurb">"Show your appreciation for my efforts working on Llama by donating some cash. You can donate as many times as you like. When you tap an item you will be sent to Google Play to view the up-to-date price and complete the process.
+
+These are only suggestions of what I might buy :) Thanks!"</string>
+    <string name="hrInAppThanksForDonating">You have donated! Cheers!</string>
+    <string name="hrYouCanHideTheDonateMenu">"You can hide the donate menu in Llama's settings :)"</string>
+    <string name="hrHideDonateMenuItem">Hide donate menu item</string>
+    <string name="hrHideDonateMenuItemDescription">Thanks for donating. You can now hide the Donate option in the menu. You can still donate more via the Llama? button.</string>
+    <string name="hrRecheckDonation">Recheck donation status</string>
+    <string name="hrWhen1ShowsANotification">when %1s shows a notification</string>
+    <string name="hrChooseAnApp">Choose an app</string>
+    <string name="hrAppStatus">Status:</string>
+    <string name="hrConditionActiveApp">Active application</string>
+    <string name="hrConditionActiveAppDescription">This condition triggers when an app becomes the foreground activity or when it returns to the background. This requires Llama to ask Android for the currently active app every few hundred milliseconds. This interval can be configured in Llama settings.</string>
+    <string name="hrActiveAppWatcherMillis">Active app polling milliseconds</string>
+    <string name="hrActiveAppWatcherMillisDescription">"If you use the 'Active app conditon', Llama will check the current app every few hundred milliseconds. Smaller values will let Llama respond quicker, but may affect the performance of your phone. I recommend between 200ms to 1s"</string>
+    <string name="hrMIUIVolumeChangeWarning">"Recent versions of MIUI have permission management, which prevents Llama from changing call volume. You need to do this to make it work:
+
+-Go to the super-user app
+-Find Llama's app details
+-Set 'Monitor Calls' to allow
+
+This permission is misleadingly named and should not affect volume, but it does. Grrr. Llama DOES NOT do any weird stuff like record your phone calls."</string>
+    <string name="hrNeverShowAgain">Never show again</string>
+    <string name="hrThinkingDotDotDot">Thinking...</string>
+    <string name="hrConditionGroupOr">OR (match any)</string>
+    <string name="hrConditionGroupOrDescription">This condition lets you create a group of other conditions. If any of those conditions is true, then the group is also true.</string>
+    <string name="hrConditionGroupAnd">AND (match all)</string>
+    <string name="hrConditionGroupAndDescription">"This condition lets you create a group of other conditions. If all of those conditions are true, then the group is also true. NOTE: This is only needed when you want to place a 'And (match all)' inside an 'OR (match any)', as Llama treats normal events as 'And (match all)'"</string>
+    <string name="hrAllowRetrigger">Allow retrigger</string>
+    <string name="hrAllowRetriggerDescription">"Whether to run this event's actions again if it is already true when another one of its conditions is triggered."</string>
+    <string name="hrIcsNotificationUseRingVolumeWarning">"Ice Cream Sandwich (Version 4.0+) no longer supports having a notification tone volume that is different from the ringtone volume.
+
+You should edit your profiles so that they no longer do this, otherwise Llama will incorrectly think that the volume has changed and may activate the profile lock.
+
+Android 4.0 - one step forward, another step back :("</string>
+    <string name="hrRingerChangeNoVolumeWarning">Llama now requires that you select a volume level for the ringer or notifications when you set the ringer type to ring or ring+vibrate. Please modify your profiles accordingly.</string>
+    <string name="hrIcsApn">Ice Cream Sandwich (Version 4.0+) no longer supports third party apps changing the APN settings.</string>
+    <string name="hrWhatShouldLlamaSay">What should Llama say:</string>
+    <string name="hrConditionCallState">Call state</string>
+    <string name="hrConditionCallStateDescription">"This condition lets you create events based on your phone's call state, either when it is in a call or not in a call. Depending on the setting, it will trigger when you
+-place a call or are called.
+-when the call ends."</string>
+    <string name="hrExtraTtsCleanup">Speak cleanup hack</string>
+    <string name="hrExtraTtsCleanupDescription">Whether to prod the text-to-speak engine a bit harder when all speech has finished. Use when your music no longer works after speaking.</string>
+    <string name="hrExtraTtsCleanupText">Speak hack text</string>
+    <string name="hrExtraTtsCleanupTextDescription">"The text to say for the above hack. The default is a dot, however some TTS engines will actually say 'dot'. Try curly brackets or pipe:{}|"</string>
+    <string name="hrAudioStreamSpeakInfo">"Some audio streams (e.g. ringer and notification) are played through both the speaker and headphones. Music/media only plays through the headset if it is connected.
+
+If you play through the ringer/notification stream you may notice your music stops playing. If this happens, enable 'Speak action cleanup hack' in Llama's settings. This only affects some phones and TTS engine combinations. Samsung TTS misbehaves. Bad Samsung!"</string>
+    <string name="hrEnterSomeTextToSpeak">Enter something for Llama to say</string>
+    <string name="hrBilling_cannot_connect_message">In-app billing is not available on your phone or Market/Google Play version.</string>
+    <string name="hrBilling_billing_not_available">In-app billing is not available at the moment. Please try again later.</string>
+    <string name="hrBilling_learn_more">Learn more</string>
+    <string name="hrAdvancedRotationWarning">"This only works on modified phones with ROMs that support custom rotation angles. e.g. Cyanogenmod 7.
+
+Avoid mixing simple and advanced rotation actions. Use 0° and 90° to return to normal.
+
+The rotation may not switch immediately, depending on your ROM."</string>
+    <string name="hrWhenTheCurrentAppIs1">when the current app is %1s</string>
+    <string name="hrWhenTheCurrentAppIsNot1">when the current app is not %1s</string>
+    <string name="hrAndThen">and then</string>
+    <string name="hrEvery1minutes">every %1s</string>
+    <string name="hrIcsHiddenNotificationIcon">"You've got Llama set to show an ongoing notification, but hide the icon. Android does not actually let apps do this. Before Ice Cream Sandwich apps could use a transparent icon and set its date to far in the future. This had the effect of aligning the icon to the right. This is no longer possible. Please change the Notification Icon setting in Llama to one of the other modes."</string>
+    <string name="hrChangeIconIfVolumeChanges">Change icon if volume changes</string>
+    <string name="hrChangeIconIfVolumeChangesDescription">Whether to change the notification icon to a warning icon when you change the volume.</string>
+    <string name="hrUnknownProfile">Unknown profile</string>
+    <string name="hrFailedToWriteToLocationLog">Failed to write to location log</string>
+    <string name="hrLlamaTrailSettings">Llama trail settings (UNDER DEVELOPMENT!!!)</string>
+    <string name="hrLlamaTrail">Store Llama trail</string>
+    <string name="hrLlamaTrailDescription">Whether to store all of the cells you ever see, so you can audit your movements. e.g. for timesheets.</string>
+    <string name="hrLlamaTrailToSdCard">Write to USB storage</string>
+    <string name="hrLlamaTrailToSdCardDescription">Whether to store the Llama trail files on your USB storage or phone. Beware that saving on USB storage may have problems if you frequently use USB Mass Storage.</string>
+    <string name="hrConditionScreenRotation">Screen rotation (current app)</string>
+    <string name="hrConditionScreenRotationDescription">"This condition lets you specify events that happen when the screen is rotated. This may behave funny before Android 2.2, because it only reports portrait/landscape, but there's only 1300 of you stuck on 2.1.
+
+This will only work when the screen is on, and if the current app supports rotation, because it piggy-backs Android's own sensor watching and so doesn't drain extra battery."</string>
+    <string name="hrWhenScreenIsRotated1">when the screen is rotated %1s</string>
+    <string name="hrEditArea">Edit area</string>
+    <string name="hrRingtonePickerFailedToOpen">"The ringtone picker didn't open properly. May be your phone doesn't support this ringtone picker type :("</string>
+    <string name="hrRingtonePickerPickedSilent">"You've picked 'silent' from the ringtone picker. Obviously, you can't play a silent sound, so you'll need to pick another one.
+
+You may ask why I even bother letting the ringtone picker show 'silent'... well, you have Samsung to thank for that. The Galaxy S ringtone picker crashes if I ask it to hide 'silent'.
+http://stackoverflow.com/q/5874372/
+
+On 3... 1, 2, 3... Thanks Samsung! *cheering and applause*"</string>
+    <string name="hrApps2SdWarning">"Llama has been installed to your SD card. This may happen if your phone's internal memory is low on space, or if you have asked Llama to be moved there.
+
+Please be aware that Llama needs to run as a service in the background. When you connect your USB cable and use 'mass storage' mode to transfer files, Llama will be killed and won't be able to detect any conditions or run any actions.
+
+When you've finished with 'mass storage' mode, Llama will eventually start again. You can speed up this process by turning off your screen.
+
+Ideally, if space permits, you should have Llama installed on your phone' internal memory. View Llama's application info in Android's settings to do this."</string>
+    <string name="hrViewLlamaAppInfo">App info</string>
+    <string name="hrWhenTheNextAlarmIsDue1">when the next alarm is due (%1s)</string>
+    <string name="hrConditionNextAlarm">Alarm time</string>
+    <string name="hrConditionNextAlarmDescription">This condition will trigger when the next alarm is due. This only works with the stock Android app, and apps that correctly update the NEXT_ALARM_FORMATTED Android setting.</string>
+    <string name="hrWhenTheresNoAlarmSet">"when there's no alarm set"</string>
+    <string name="hrTheNextAlarmIs1AndHeresHowYouUseIt">"The next alarm is set for:
+
+%1s
+
+You can either have this condition trigger when this alarm fires, or you can have the condition pass if there is no alarm set.
+
+e.g.
+when alarm is due > show reminder
+
+-or-
+
+Between 21:00 and 21:05, when there's no alarm > vibrate lots"</string>
+    <string name="hrTriggerWhenAlarmIsDue">Trigger when alarm is due</string>
+    <string name="hrTrueWhenNoAlarm">True when no alarm</string>
+    <string name="hrEventGroupOptional">Event group (optional)</string>
+    <string name="hrNoGroupString">Ungrouped</string>
+    <string name="hrEventsNowGroupedEditEventNamesToGroup">Event list now grouped. Edit events to create groups.</string>
+    <string name="hrEventsNotGrouped">Event list no longer grouped</string>
+    <string name="hrFilterViewSearch">Filter, list style and search</string>
+    <string name="hrWhenUserIsPresent">when user is present</string>
+    <string name="hrConditionUserPresent">User is present</string>
+    <string name="hrConditionUserPresentDescription">This triggers when the screen lock has been passed. If there is no screen lock, it will fire immediately.</string>
+    <string name="hrWhenCallStateIs1">when call state is %1s</string>
+    <string name="hrCallStateInCall">in a call</string>
+    <string name="hrCallStateNotInCall">not in a call</string>
+    <string name="hrCallStateRinging">ringing</string>
+    <string name="hrPleaseChooseOneOrTwoCallStates">Please choose ONE or TWO call states.</string>
+    <string name="hrDontCheckVolumeInCall">Ignore in-call volume changes</string>
+    <string name="hrDontCheckVolumeInCallDescription">"Some phones are inept and don't report the volume levels correctly when you are in a phone call. This causes Llama to think the volume has changed when it hasn't. Make sure 'Ignore in-call volume changes' is ticked if Llama incorrectly locks your profile or changes to 'unknown profile' during a call."</string>
+    <string name="hrTheAction1CannotBeRunFromACustomShortcut">"The action '%1s' cannot be run from a CUSTOM shortcut. For security, please create an event for it and create a NAMED event shortcut."</string>
+    <string name="hrLlamaTonePicker">LlamaTone picker</string>
+    <string name="hrLlamaTones">LlamaTones</string>
+    <string name="hrLlamaTonesDescription">"LlamaTones let you change ringtones of other apps' notifications when you change profile."</string>
+    <string name="hrLlamaTonesDetailedDescription">"LlamaTones let you change the ringtone used by another app depending on the current profile.
+
+In one of your profiles, create a LlamaTone and give it a helpful name. e.g. Gmail. You can then specify the ringtone that profile should use for Gmail notifications.
+
+Then edit your other profiles' LlamaTones and set which ringtone that profile should use for Gmail.
+
+The final step is to tell Gmail which LlamaTone to use. Do this by editing Gmail's notification settings. You will see a 'LlamaTone' picker in the ringtone selection, which you can use to choose the LlamaTone.
+
+To delete a LlamaTone, you must 'Clear/cancel' it from all profiles."</string>
+    <string name="hrCreateNewLlamaTone">Create new LlamaTone</string>
+    <string name="hrTapToCreateANewLlamaTone">Tap to name a new LlamaTone</string>
+    <string name="hrPleaseEnterNameForTheLlamaTone">Please name the new LlamaTone:</string>
+    <string name="hrALlamaToneNamed1AlreadyExists">A LlamaTone named %1s already exists. Please choose another name or use the existing LlamaTone.</string>
+    <string name="hrCurrentlySetTo1">Currently set as %1s</string>
+    <string name="hr3rdPartyActionCrumb">Action</string>
+    <string name="hrYouHaventSetUpAnyLlamaTones">"You haven't set up any LlamaTones. Please edit one of your profiles to start using them.
+
+LlamaTones allow you to change the sound played by a third party app depending on the current profile."</string>
+    <string name="hrDontChange">"Don't change LlamaTone"</string>
+    <string name="hrCopyLlamaTonesToProfile">Choose another profile that should use those LlamaTones</string>
+    <string name="hrCopyTo">Copy to...</string>
+    <string name="hrCopyToSelected">Copy to selected</string>
+    <string name="hrExportSuccess">Exported data successfully</string>
+    <string name="hrDataNotExported">Data NOT exported!</string>
+    <string name="hrWhichTypeOfToneIsLlamaTone">Choose a ringtone type or cancel this LlamaTone</string>
+    <string name="hrLlamaCouldntFindAnyRingtonePickers">"Llama couldn't find any ringtone pickers.
+
+DOES NOT COMPUTE!!!"</string>
+    <string name="hrChooseARingtonePicker">Choose a ringtone picker</string>
+    <string name="hrClearCancelLlamaTone">Clear/cancel LlamaTone</string>
+    <string name="hrCantSelectLlamaToneAsLlamaTone">"You can't select a LlamaTone to use as a LlamaTone.
+
+That'll make the universe explode."</string>
+    <string name="hrWhichProfiles">Which profiles?</string>
+    <string name="hrMoanToGoogle">Moan to Google</string>
+    <string name="hrLeaveSettingsAlone">Use volumes anyway</string>
+    <string name="hrMakeSettingsTheSame">Make volumes same</string>
+    <string name="hrWhenWifiHotspotIsEnabled">when WiFi hotspot is enabled</string>
+    <string name="hrWhenWifiHotspotIsDisabled">when WiFi hotspot is disabled</string>
+    <string name="hrConditionWifiHotspot">WiFi Hotspot</string>
+    <string name="hrConditionWifiHotspotDescription">Whether the WiFi hotspot is enabled or not. This event does NOT trigger events! It can only filter other events.</string>
+    <string name="hrEnableAll">Enable all</string>
+    <string name="hrDisableAll">Disable all</string>
+    <string name="hrRenameGroup">Rename group</string>
+    <string name="hrPleaseEnterANewGroupName">Please enter a new group name:</string>
+    <string name="hrBrightnessCustomEventWarning">Cannot change brightness that low in a Custom Event shortcut. Create an event and a named event shortcut instead! This is for security reasons!</string>
+    <string name="hrRootedShutdownCommand">Root shutdown command</string>
+    <string name="hrRootedShutdownCommandDescription">The command that Llama uses to shutdown your phone. Try a different one if you are rooted and your phone does not shutdown.</string>
+    <string name="hrRootedRebootCommand">Root reboot command</string>
+    <string name="hrRootedRebootCommandDescription">The command that Llama uses to reboot your phone. Try a different one if you are rooted and your phone does not reboot.</string>
+    <string name="hrNearbyWifiDisableForHotSpot">Be Wifi hotspot friendly</string>
+    <string name="hrNearbyWifiDisableForHotSpotDescription">"Whether Llama should suspend all wifi polling when it detects that a WiFi hotspot is enabled. This will only work with phones that use Android's normal WiFi hotspot."</string>
+    <string name="hrWhatEventDescriptionsShouldIShow">What events descriptions should I show you?</string>
+    <string name="hrIcsRingerNotificationVolumeMessage">"Ice cream sandwich no longer allows you to have a different ringer and notification volume. What d'ya wanna do?"</string>
+    <string name="hrDeviceAdminWarning">"You need to enable Llama as a Device Administrator to perform certain security related Android functions. If you decide to uninstall Llama, you will need to DISABLE Llama as a Device Administrator. This can be found in Android's security settings. 
+ 
+Otherwise, Android will give you an extremely unhelpful 'uninstall not successful' message. 
+ 
+Thanks for remembering :)"</string>
+    <string name="hrInstantConfirmation">Instant event confirmation</string>
+    <string name="hrInstantConfirmationDescription">"When ticked, Llama will run a confirmable event's actions immediately when tapped in the notification drawer, without popping up a dialog box. You'll need to use the 'clear' button or swipe-away the notification to clear it."</string>
+    <string name="hrWhenNfcTag1IsDectected">when NFC tag %1s is detected</string>
+    <string name="hrPleaseChooseAnNfcTag">Please choose an NFC tag</string>
+    <string name="hrConditionNfcTagDetected">NFC tag detected</string>
+    <string name="hrConditionNfcTagDetectedDescription">"This condition will trigger when the specified NFC tag is detected by your phone. Your phone will need to have NFC enabled (which Llama sadly cannot control).
+
+Llama does not get told when the NFC tag is no longer nearby, so this condition is always false at other times.
+
+If you need to create a repeating event, you will need to use Llama variables to store the fact that an NFC tag has been seen, and then some other event and condition to clear the Llama Variable."</string>
+    <string name="hrDoYouWantToUseTheTag1InThisCondition">"Do you want to use the tag '%1s' in this condition?"</string>
+    <string name="hrLlamaHasFoundATagPleaseNameIt">Llama has found a tag! Please give it a friendly name:</string>
+    <string name="hrTheFriendlyNameForNfcTag1WasModified">"The friendly name for NFC tag '%1s' was modified"</string>
+    <string name="hrLlamaDoesNotKnowAboutAnyNfcTagsTapOneOnYourPhone">"Llama does not know about any NFC tags.
+
+Tap one on your phone now to name it."</string>
+    <string name="hrYourPhoneDoesNotSupportNfc">Your phone does not support reading NFC tags :( To fix this please purchase a new phone or use your imagination... you may find making beep-beep noises helpful.</string>
+    <string name="hrChooseAnNfcTagOrTapYourPhoneAgainstANewTag">Choose a known NFC tag</string>
+    <string name="hrYouCanAlsoUseAnotherTagByTappingItOnYourPhone">You can also use another tag by tapping it on your phone</string>
+    <string name="hrNfcIsNotCurrentlyTurnedOnTurnItOnToAddTags">NFC is not currently enabled. Turn it on to add a new tag</string>
+    <string name="hrPleaseSeeTheKebabappsWebsiteToDonateToTranslators">Please see the Kebabapps website to donate to translators!</string>
+    <string name="hrLocalLanguageName">English</string>
+    <string name="hrPlaySoundNotificationIcon">Play sound notification</string>
+    <string name="hrPlaySoundNotificationIconDescription">"Whether a notification icon is shown when Llama's play sound action is running. If you turn this off, you won't be able to stop the sound that Llama is playing!"</string>
+    <string name="hrConditionRoaming">Roaming</string>
+    <string name="hrConditionRoamingDescription">This condition will trigger when your phone starts or stops roaming.</string>
+    <string name="hrNotRoaming">Not roaming</string>
+    <string name="hrRoaming">Roaming</string>
+    <string name="hrWhenRoaming">when roaming</string>
+    <string name="hrWhenNotRoaming">when not roaming</string>
+    <string name="hrManageSavedNfcTags">Manage NFC tags</string>
+    <string name="hrManageSavedNfcTagsDescription">"Tap here to manage any NFC tags that you've named."</string>
+    <string name="hrDeleteTag">Delete tag</string>
+    <string name="hrWatchForNfcTags">Enable NFC detection</string>
+    <string name="hrWatchForNfcTagsDescription">"Whether Llama should care about NFC tags or not. If you use another app to detect NFC tags, you should untick this. This setting does not affect your phone's global NFC enable setting."</string>
+    <string name="hrCancelTagReading">Stop looking for NFC tags</string>
+    <string name="hrFailedToDecodeIntentInEvent1">"Failed to decode Intent in event '%1s'"</string>
+    <string name="hrShareEvent">Share event</string>
+    <string name="hrShareLlamaEvent">Share Llama event</string>
+    <string name="hrConditionMobileData">Mobile data enabled/disabled</string>
+    <string name="hrConditionMobileDataDescription">"This condition passes when the mobile data tickbox is ticked, otherwise false. This relies on an undocumented Android API. It MAY NOT WORK for all phones.
+
+Ask Google politely that you want to be able to do this and they may implement a proper API for it.
+
+This condition will be delayed for a few seconds until some internal Android mobile data network intent occurs."</string>
+    <string name="hrWhenMobileDataEnabled">when mobile data is enabled</string>
+    <string name="hrWhenMobileDataDisabled">when mobile data is disabled</string>
+    <string name="hrMobileDataEnabled">Mobile data enabled</string>
+    <string name="hrMobileDataDisabled">Mobile data disabled</string>
+    <string name="hrConditionMobileDataConnected">Mobile data connection</string>
+    <string name="hrConditionMobileDataConnectedDescription">"This conditions passes when the phone is connected to a mobile data network (that's the G,E,3G or H). It might also work for LTE/WiMax, but I don't know how they behave, because the UK is stuck in the dark ages. We have rats roaming the streets and Blackadder is still hanging about."</string>
+    <string name="hrWhenMobileDataConnected">when mobile data has connected</string>
+    <string name="hrWhenMobileDataNotConnected">when mobile data is not connected</string>
+    <string name="hrMobileDataConnected">Mobile data connected</string>
+    <string name="hrMobileDataNotConnected">Mobile data not connected</string>
+    <string name="hrLlamaToneRateLimitHint">"LlamaTone rate limiting:
+Use the slider to limit how often the LlamaTone gets played. Useful for GTalk or other IM apps."</string>
+    <string name="hrRateLimit1SecondsSilence">%1s secs silence</string>
+    <string name="hrNoRateLimiting">No rate limiting</string>
+    <string name="hrNowPickALlameTone">Pick a LlamaTone to use</string>
+    <string name="hrSocialImportWarning">"You're about to import an event into Llama. You should check that it isn't going to do anything malicious."</string>
+    <string name="hrTheChoiceIsYours">The choice is yours...</string>
+    <string name="hrImportLlamaEvent">Import Llama event</string>
+    <string name="hrAddToLlama">Add to Llama</string>
+    <string name="hrEventImported">Imported</string>
+    <string name="hrRingtoneChangeError1">"Llama failed to change the ringtone for profile '%1s'. Please choose the ringtone again."</string>
+    <string name="hrLlamaFormatterInfo">"This screen will let you format an NFC tag for use with Llama.
+
+You need to do this so that the tag reliably triggers Llama, rather than popping up the 'tag found' activity.
+
+Tap the tag against your phone now to format it. This will remove any data on the tag. The tag will NOT be marked as read only.
+
+Once formatted, you'll be able to use the tag in the condition. If Llama has never seen this tag before you will also be asked to name it."</string>
+    <string name="hrKey">Key</string>
+    <string name="hrValue">Value</string>
+    <string name="hrCouldNotConvertExtra3">"Could not convert '%2$s' to a '%3$s' for '%1$s'"</string>
+    <string name="hrIntentEditSetKeyBlankToDelete2">"Set the 'key' to blank to remove that row. Surround variable names with two hashes to expand them in string extra (e.g. ##variablename##)."</string>
+    <string name="hrAirplaneModeStupidness">Android decided that Airplane mode should be a secure setting. Llama can only change Airplane mode if your phone is rooted. Blame Google for this. Bad Google! Stop changing things for the worse without providing alternatives.</string>
+    <string name="hrResolveContentUris">Play sound resolves content URIs</string>
+    <string name="hrResolveContentUrisDescription">Ringtone pickers in Android usually return a content:// URI, which points to an ID in the media database. If you move Llama between phones or switch roms, the same file may not receive the same ID. Enabling this causes Llama to store the file path instead for the Play Sound action and LlamaTones.</string>
+    <string name="hrAdvancedVariableActions">Increment/Decrement/etc</string>
+    <string name="hrSetLlamaVariableIncrement1">"increment Llama variable '%1$s'"</string>
+    <string name="hrSetLlamaVariableDecrement1">"decrement Llama variable '%1$s'"</string>
+    <string name="hrSetLlamaVariableToggle01">"toggle Llama variable '%1$s' between 0 and 1"</string>
+    <string name="hrAdvancedVariableConditions">Greater than/less than/etc</string>
+    <string name="hrIcsSystemVolumeMessage">"Ice Cream Sandwich (Version 4.0+) doesn't really do much with system volumes any more.
+
+In fact, you may find that your ringer volume gets set to the system volume you have set.
+
+You PROBABLY want to UNTICK the system sounds tickbox.
+
+Press save to let this profile change system volume or cancel if you want to edit the profile."</string>
+    <string name="hrSignalLevelAbove1">Signal strength above %1sdBm</string>
+    <string name="hrSignalLevelBelow1">Signal strength below %1sdBm</string>
+    <string name="hrWhenSignalGoesBelow1">when signal strength goes below %1sdBm</string>
+    <string name="hrWhenSignalRisesAbove1">when signal strength rises above %1sdBm</string>
+    <string name="hrCurrentStrengthColon1">Current signal: %1sdBm</string>
+    <string name="hrSignalStrengthDialogHint">"The number above is your phone's current signal level. GSM networks use a range between -113 (no signal) and -51 (full signal).
+
+Llama will report an artificial value of -150 when in airplane mode or when out of service. Note that some phones are daft and still report a good-enough signal strength even when you're metres underground on a tube train.
+
+You may want to combine a low-signal condition with a mobile-data disconnected condition as it is a more reliable way of detecting a working connection."</string>
+    <string name="hrVisitWebsite">Visit website</string>
+    <string name="hrBrokenWifiToggleUpdateDeviceStats">"Your phone/tablet's software has a horrible bug that prevents Llama from turning Wifi on and off.
+
+There is an issue logged on code.google.com.
+
+Please check for any updates to your device or custom ROM.
+
+In the meantime, you should remove any toggle wifi actions or hide the message from appearing again. It'll also be good to watch the issue on code.google.com by pressing the 'view website' button."</string>
+    <string name="hrCouldNotResolveContentUri">Could not resolve item to a file path, so it will be stored as a Content URI.</string>
+    <string name="hrLlamaCouldNotGetRootAccess">Llama could not get root access in time. Please check your SU app.</string>
+    <string name="hrAddNewArea">Add new area</string>
+    <string name="hrAddNewEvent">Add new event</string>
+    <string name="hrSearchEventsByNameAndDescription">Search events by name and description</string>
+    <string name="hrShowEventsGroupedOrFlat">Show events in groups or a list</string>
+    <string name="hrAddNewProfile">Add new profile</string>
+    <string name="hrProfileLock">Lock profiles</string>
+    <string name="hrProfileUnlock">Unlock profiles</string>
+    <string name="hrShowHelpMenu">Show help menu</string>
+    <string name="permSetLlamaVariable">Set a Llama variable</string>
+    <string name="permSetLlamaVariableDescription">Allows the application to set a Llama variable. This may cause events that use Llama variables to trigger unexpectedly.</string>
+    <string name="hrBrokenWifiToggleMultiuser">"Argh! Llama almost fell over while changing your device's wifi state. It may have changed, it may not have changed, but either way your device almost killed Llama.
+
+Your device requires that Llama has the 'android.permission.INTERACT_ACROSS_USERS_FULL' or 'android.permission.INTERACT_ACROSS_USERS' permission to toggle WiFi.
+
+These are system permissions which Llama will never be able to have :'( Please check for any updates to your device/ROM."</string>
+    <string name="hrWhenMccMncIs12">when phone network code is %1$s:%2$s</string>
+    <string name="hrWhenMccMncIsNot12">when phone network code is not %1$s:%2$s</string>
+    <string name="hrConditionMobileNetworkId">Mobile network ID</string>
+    <string name="hrConditionMobileNetworkIdDescription">"This condition is based off the currently connected phone network's ID. This is made of two parts: a country code and a network code. Look at the recent tab to see what country and network codes your phone is connected to, or you can look on Wikipedia."</string>
+    <string name="hrMccMncHelpText">"This condition uses the currently connected phone network's ID. The MCC is the country code of the phone network, and MNC is the network code. If you leave a box blank it will match any value."</string>
+    <string name="hrAllowedTriggers">Trigger filtering</string>
+    <string name="hrAllowedTriggersDescription">Llama will fire an event when all conditions are met, and one condition has caused it to trigger. This option lets you prevent actions from occurring if a certain type of condition triggers the event. Untick the condition to prevent it from triggering.</string>
+    <string name="hrEventFilteringPleaseAddSomeConditions">"Please add some conditions to your event. Once you've added some you will be able to deselect the conditions that you do not want to act as triggers."</string>
+    <string name="hrNfcFormatSuccess">Successfully formatted tag as Llama tag! You can either format another one, or just use this one</string>
+    <string name="hrFormatFailHelp">"Failed to format tag for Llama.
+
+You can try formatting it manually by installing an NFC Tag Writer app from the Play Store, then writing the special Llama URL to the tag:
+
+%1s"</string>
+    <string name="hrRingerSilentButHasVolumes">"You have chosen a ringtone or notification volume, but the ringer mode is set to silent or vibrate.
+
+Please set the ringer mode to ring or ring+vibrate, or set your ringtone and notification volume to zero."</string>
+    <string name="hrPasteLlamaUrl">Type or paste the Llama URL in the box:</string>
+    <string name="hrVibrateWhenProfilesUnlock">Vibrate on profile unlock</string>
+    <string name="hrVibrateWhenProfilesUnlockDescription">"The vibrate pattern to buzz when Llama's profile lock automatically expires. Use a blank value for no vibration."</string>
+    <string name="hrToastAction">Toast message</string>
+    <string name="hrToastActionDescription">"Shows a brief message at the bottom of the screen using Android' toast user interface. You can show the value of variables by surrounding it with two hashes. e.g. The value is ##Blah##."</string>
+    <string name="hrShowAToast1">"show a toast message '%1s'"</string>
+    <string name="hrAccessibilityServiceDescription">"Enable this service to let Llama capture notifications.
+
+You do not need to enable this accessibility service unless you use the App Notification condition.
+
+If you have a dodgy Samsung phone your phone may begin speaking to you. Change the settings for the Android TalkBack service to fix this."</string>
+    <string name="hrFailedToRunLocalePlugin">"Failed to run a Locale plugin '%1$s: %2$s' for event '%3$s'. Please try recreating the event's actions"</string>
+</resources>
