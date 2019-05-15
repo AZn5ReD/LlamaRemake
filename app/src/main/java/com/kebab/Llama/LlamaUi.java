@@ -228,41 +228,42 @@ public class LlamaUi extends TabActivity {
     @Override
     public void onRequestPermissionsResult(int requestCode, String[] permissions, int[] grantResults) {
         super.onRequestPermissionsResult(requestCode, permissions, grantResults);
-        LocalisationInit.Init(getBaseContext(), false);
+
+            LocalisationInit.Init(getBaseContext(), false);
 
 //        super.onCreate(savedInstanceState);
-        Thread.currentThread().setPriority(5);
-        DateHelpers.Init(this);
-        setContentView(R.layout.main);
-        if (((Boolean) LlamaSettings.LlamaWasExitted.GetValue(this)).booleanValue()) {
-            LlamaSettings.LlamaWasExitted.SetValueAndCommit(this, Boolean.valueOf(false), new CachedSetting[0]);
-            if (((Boolean) LlamaSettings.AcceptedDisclaimerMessage.GetValue(this)).booleanValue()) {
-                new Builder(this).setMessage(R.string.hrServiceRestarted).setPositiveButton("OK", null).show();
-            }
-        }
-        Instances.StartService(getApplicationContext());
-        Resources res = getResources();
-        TabHost tabHost = getTabHost();
-        tabHost.addTab(tabHost.newTabSpec("areas").setIndicator(getString(R.string.hrTabAreas), res.getDrawable(R.drawable.ic_tab_areas)).setContent(new Intent().setClass(this, AreasActivity.class)));
-        tabHost.addTab(tabHost.newTabSpec("events").setIndicator(getString(R.string.hrTabEvents), res.getDrawable(R.drawable.ic_tab_events)).setContent(new Intent().setClass(this, EventsActivity.class)));
-        tabHost.addTab(tabHost.newTabSpec(LlamaMainContentProvider.PATH_SEGMENT_PROFILES).setIndicator(getString(R.string.hrTabProfiles), res.getDrawable(R.drawable.ic_tab_profiles)).setContent(new Intent().setClass(this, ProfilesActivity.class)));
-        tabHost.addTab(tabHost.newTabSpec("cells").setIndicator(getString(R.string.hrTabRecent), res.getDrawable(R.drawable.ic_tab_cells)).setContent(new Intent().setClass(this, CellsActivity.class)));
-        if (VERSION.SDK_INT >= 11) {
-            int i = 0;
-            while (i < tabHost.getTabWidget().getChildCount()) {
-                try {
-                    tabHost.getTabWidget().getChildAt(i).setPadding(0, 0, 0, 0);
-                    i++;
-                } catch (Exception e) {
+            Thread.currentThread().setPriority(5);
+            DateHelpers.Init(this);
+            setContentView(R.layout.main);
+            if (((Boolean) LlamaSettings.LlamaWasExitted.GetValue(this)).booleanValue()) {
+                LlamaSettings.LlamaWasExitted.SetValueAndCommit(this, Boolean.valueOf(false), new CachedSetting[0]);
+                if (((Boolean) LlamaSettings.AcceptedDisclaimerMessage.GetValue(this)).booleanValue()) {
+                    new Builder(this).setMessage(R.string.hrServiceRestarted).setPositiveButton("OK", null).show();
                 }
             }
-        }
-        if (Helpers.IsOnMasterLlamasPhone(this)) {
-            tabHost.setCurrentTab(2);
-        } else {
-            tabHost.setCurrentTab(2);
-        }
-        UpdateCounters();
-        Instances.UiActivity = this;
+            Instances.StartService(getApplicationContext());
+            Resources res = getResources();
+            TabHost tabHost = getTabHost();
+            tabHost.addTab(tabHost.newTabSpec("areas").setIndicator(getString(R.string.hrTabAreas), res.getDrawable(R.drawable.ic_tab_areas)).setContent(new Intent().setClass(this, AreasActivity.class)));
+            tabHost.addTab(tabHost.newTabSpec("events").setIndicator(getString(R.string.hrTabEvents), res.getDrawable(R.drawable.ic_tab_events)).setContent(new Intent().setClass(this, EventsActivity.class)));
+            tabHost.addTab(tabHost.newTabSpec(LlamaMainContentProvider.PATH_SEGMENT_PROFILES).setIndicator(getString(R.string.hrTabProfiles), res.getDrawable(R.drawable.ic_tab_profiles)).setContent(new Intent().setClass(this, ProfilesActivity.class)));
+            tabHost.addTab(tabHost.newTabSpec("cells").setIndicator(getString(R.string.hrTabRecent), res.getDrawable(R.drawable.ic_tab_cells)).setContent(new Intent().setClass(this, CellsActivity.class)));
+            if (VERSION.SDK_INT >= 11) {
+                int i = 0;
+                while (i < tabHost.getTabWidget().getChildCount()) {
+                    try {
+                        tabHost.getTabWidget().getChildAt(i).setPadding(0, 0, 0, 0);
+                        i++;
+                    } catch (Exception e) {
+                    }
+                }
+            }
+            if (Helpers.IsOnMasterLlamasPhone(this)) {
+                tabHost.setCurrentTab(2);
+            } else {
+                tabHost.setCurrentTab(2);
+            }
+            UpdateCounters();
+            Instances.UiActivity = this;
     }
 }
