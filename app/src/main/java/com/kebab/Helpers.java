@@ -254,6 +254,7 @@ public class Helpers {
                 p.recycle();
             }
         }
+        return (T) p;
     }
 
     public static boolean VerifyIntentsMatch(Context c, Intent original, Intent y) {
@@ -422,7 +423,7 @@ public class Helpers {
         ArrayList<String> result = new ArrayList(stuff.length);
         if (!(regExLimit == -1 && stuff[0].length() == 0)) {
             for (Object add : stuff) {
-                result.add(add);
+                result.add((String) add);
             }
         }
         return result;

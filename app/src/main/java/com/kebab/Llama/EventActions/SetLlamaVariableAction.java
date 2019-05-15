@@ -148,7 +148,7 @@ public class SetLlamaVariableAction extends EventAction<SetLlamaVariableAction> 
                     public void onClick(View v) {
                         AlertDialog advancedListPicker = new Builder(host.GetActivity()).setItems(this.actionNames, new DialogInterface.OnClickListener() {
                             public void onClick(DialogInterface dialog, int which) {
-                                valueText.setText(AnonymousClass1.this.actionValues[which]);
+                                valueText.setText(actionValues[which]);
                             }
                         }).show();
                     }

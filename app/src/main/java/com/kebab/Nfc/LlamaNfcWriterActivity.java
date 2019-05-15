@@ -53,7 +53,7 @@ public class LlamaNfcWriterActivity extends Activity {
                 ndef.addDataType("*/*");
                 ndef.addDataScheme("http");
                 IntentFilter[] intentFiltersArray = new IntentFilter[]{ndef, ndef2};
-                techListsArray = new String[3][];
+                String[][] techListsArray = new String[3][];
                 techListsArray[0] = new String[]{MifareUltralight.class.getName(), Ndef.class.getName(), NfcA.class.getName()};
                 techListsArray[1] = new String[]{NdefFormatable.class.getName()};
                 techListsArray[2] = new String[]{MifareClassic.class.getName(), Ndef.class.getName(), NfcA.class.getName()};

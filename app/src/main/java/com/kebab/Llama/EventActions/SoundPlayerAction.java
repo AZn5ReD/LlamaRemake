@@ -122,8 +122,8 @@ public class SoundPlayerAction extends EventAction<SoundPlayerAction> {
                                     new Builder(host.GetActivity()).setMessage(R.string.hrRingtonePickerPickedSilent).setPositiveButton(R.string.hrOkeyDoke, null).show();
                                     return;
                                 }
-                                AnonymousClass1.this.ringtoneUri = ringtoneUriResult;
-                                AnonymousClass1.this.ringtoneTitle = title;
+                                ringtoneUri = ringtoneUriResult;
+                                ringtoneTitle = title;
                                 textView.setText(preferenceActivity.getString(R.string.hrCurrentRingtoneColon1, new Object[]{title}));
                             }
                         });
@@ -139,7 +139,7 @@ public class SoundPlayerAction extends EventAction<SoundPlayerAction> {
                 streamPicker.setSelection(index.intValue());
                 AlertDialog dialog = new Builder(host.GetActivity()).setPositiveButton(R.string.hrOk, new DialogInterface.OnClickListener() {
                     public void onClick(DialogInterface dialog, int which) {
-                        gotResultHandler.HandleResult(new SoundPlayerAction(AnonymousClass1.this.ringtoneUri, AnonymousClass1.this.ringtoneTitle, Integer.parseInt(AnonymousClass1.this.streamValues[streamPicker.getSelectedItemPosition()])));
+                        gotResultHandler.HandleResult(new SoundPlayerAction(ringtoneUri, ringtoneTitle, Integer.parseInt(streamValues[streamPicker.getSelectedItemPosition()])));
                         dialog.dismiss();
                     }
                 }).setNegativeButton(R.string.hrCancel, null).setView(view).create();

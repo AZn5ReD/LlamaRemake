@@ -305,7 +305,7 @@ public class Profile implements Parcelable {
     private void SetRingerRingtoneNoficationsBelowApi14(AudioManager audio, LlamaService service) {
         Logging.Report("Profiles", "Running SetRingerRingtoneNoficationsBelowApi14", (Context) service);
         if (!(this.RingVolume == null && this.NotificationVolume == null)) {
-            int notificatinVolumeIsRingVolume;
+            final int notificatinVolumeIsRingVolume;
             int ringerVolume = audio.getStreamVolume(2);
             int notificationVolume = audio.getStreamVolume(5);
             int oldNotificatinVolumeIsRingVolume = GetNotificationUseRingVolume(service.getContentResolver());
@@ -412,8 +412,8 @@ public class Profile implements Parcelable {
     }
 
     private void SetRingerRingtoneNoficationsAtOrAboveApi14(AudioManager audio, LlamaService service) {
-        boolean isSilent;
-        boolean isVibrate;
+        final boolean isSilent;
+        final boolean isVibrate;
         Logging.Report("Profiles", "Running SetRingerRingtoneNoficationsAtOrAboveApi14", (Context) service);
         if (this.RingerMode != null && this.RingerMode.intValue() == 0) {
             isSilent = true;
@@ -500,7 +500,7 @@ public class Profile implements Parcelable {
             runnable = null;
             return;
         }
-        int notificatinVolumeIsRingVolume;
+        final int notificatinVolumeIsRingVolume;
         final int oldRingerVolume = audio.getStreamVolume(2);
         final int oldNotificationVolume = audio.getStreamVolume(5);
         int oldNotificatinVolumeIsRingVolume = GetNotificationUseRingVolume(service.getContentResolver());
@@ -607,7 +607,7 @@ public class Profile implements Parcelable {
             }
         }
         if (profileRingVolume != null || profileNotifVolume != null) {
-            int notificatinVolumeIsRingVolume;
+            final int notificatinVolumeIsRingVolume;
             int oldRingerVolume = audio.getStreamVolume(2);
             int oldNotificationVolume = audio.getStreamVolume(5);
             int oldNotificatinVolumeIsRingVolume = GetNotificationUseRingVolume(service.getContentResolver());
@@ -726,13 +726,13 @@ public class Profile implements Parcelable {
         p.RingVolume = Integer.valueOf(audio.getStreamVolume(2));
         p.RingVolume = Integer.valueOf(audio.getStreamVolume(5));
         int ringerMode = audio.getRingerMode();
-        if (ringerMode == 0 && 1 != null) {
+        if (ringerMode == 0) {
             p.RingerMode = Integer.valueOf(0);
-        } else if (ringerMode == 1 && 1 != null) {
+        } else if (ringerMode == 1) {
             p.RingerMode = Integer.valueOf(1);
-        } else if (ringerMode == 2 && 1 != null) {
+        } else if (ringerMode == 2) {
             p.RingerMode = Integer.valueOf(3);
-        } else if (ringerMode == 2 && 1 != null) {
+        } else if (ringerMode == 2) {
             p.RingerMode = Integer.valueOf(2);
         }
         try {

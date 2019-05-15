@@ -1,5 +1,6 @@
 package com.kebab.Llama.EventConditions;
 
+import android.annotation.SuppressLint;
 import android.content.Context;
 import android.os.Handler;
 import android.preference.Preference;
@@ -79,7 +80,7 @@ public class SignalLevelCondition extends EventCondition<SignalLevelCondition> {
             if (!signalLevelSatisfied) {
                 z = false;
             }
-            return z;
+            return z == true ? 1 : 0;
         } else if (signalLevelSatisfied) {
             if (this._TriggerHasOccured) {
                 return 1;
@@ -136,15 +137,15 @@ public class SignalLevelCondition extends EventCondition<SignalLevelCondition> {
                 public void run() {
                     LlamaService service = Instances.Service;
                     Integer strength = service != null ? service.GetLastSignalStrength() : null;
-                    TextView textView = AnonymousClass2.this._CurrentStrengthText;
-                    Context context = AnonymousClass2.this._CurrentStrengthText.getContext();
+                    TextView textView = _CurrentStrengthText;
+                    Context context = _CurrentStrengthText.getContext();
                     Object[] objArr = new Object[1];
                     if (strength == null) {
-                        strength = "???";
+                        strength = 0;
                     }
                     objArr[0] = strength;
                     textView.setText(context.getString(R.string.hrCurrentStrengthColon1, objArr));
-                    AnonymousClass2.this._Handler.postDelayed(AnonymousClass2.this._Pinger, 1000);
+                    _Handler.postDelayed(_Pinger, 1000);
                 }
             };
             SeekBarDialogView _SeekBar;
@@ -175,7 +176,7 @@ public class SignalLevelCondition extends EventCondition<SignalLevelCondition> {
             }
 
             public View getView(SignalLevelCondition value, Context context, DialogPreference<?, SignalLevelCondition> dialogPreference) {
-                View v = ((LayoutInflater) context.getSystemService("layout_inflater")).inflate(R.layout.signal_level_dialog, null);
+                @SuppressLint("WrongConstant") View v = ((LayoutInflater) context.getSystemService("layout_inflater")).inflate(R.layout.signal_level_dialog, null);
                 this._SeekBar = new SeekBarDialogView(SignalLevelCondition.this._TargetSignalLevel, (int) SignalLevelCondition.MIN_VALUE_NO_SIGNAL, -51, null, null, "dBm");
                 ((LinearLayout) v.findViewById(R.id.mainLayout)).addView(this._SeekBar.createSeekBarDialogView(context));
                 this._Spinner = (Spinner) v.findViewById(R.id.signalLevelOptions);

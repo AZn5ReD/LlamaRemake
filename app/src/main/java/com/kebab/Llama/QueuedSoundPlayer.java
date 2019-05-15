@@ -125,7 +125,7 @@ public class QueuedSoundPlayer {
                 soundCount = 0;
             }
             notification.number = soundCount;
-            this._Notification.setLatestEventInfo(this._Service, this._Service.getString(R.string.hrNoisyLlamaTapToStop), this._Service.getString(R.string.hrEventColonSoundDescription, new Object[]{eventName, soundDescription}), pendingIntent);
+//            this._Notification.setLatestEventInfo(this._Service, this._Service.getString(R.string.hrNoisyLlamaTapToStop), this._Service.getString(R.string.hrEventColonSoundDescription, new Object[]{eventName, soundDescription}), pendingIntent);
             ((NotificationManager) this._Service.getSystemService("notification")).notify(Constants.SOUND_PLAYER_NOTIFICATION_ID, this._Notification);
         }
     }

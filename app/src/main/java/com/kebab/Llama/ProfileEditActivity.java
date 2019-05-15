@@ -326,13 +326,13 @@ public class ProfileEditActivity extends HelloablePreferenceActivity implements 
     }
 
     private void executeDone3() {
-        int i = 1;
+        boolean i = true;
         int i2 = (this._ProfileToEdit.RingerMode == null || (!(this._ProfileToEdit.RingerMode.intValue() == 0 || this._ProfileToEdit.RingerMode.intValue() == 1) || this._ProfileToEdit.RingVolume == null || this._ProfileToEdit.RingVolume.intValue() <= 0)) ? 0 : 1;
-        boolean ringerProblem = false | i2;
+        boolean ringerProblem = i2 != 0 ? false : true;
         if (this._ProfileToEdit.RingerMode == null || (!(this._ProfileToEdit.RingerMode.intValue() == 0 || this._ProfileToEdit.RingerMode.intValue() == 1) || this._ProfileToEdit.NotificationVolume == null || this._ProfileToEdit.NotificationVolume.intValue() <= 0)) {
-            i = 0;
+            i = false;
         }
-        if (ringerProblem | i) {
+        if (i | ringerProblem) {
             new Builder(this).setMessage(R.string.hrRingerSilentButHasVolumes).setPositiveButton(R.string.hrOkeyDoke, new OnClickListener() {
                 public void onClick(DialogInterface paramDialogInterface, int paramInt) {
                     paramDialogInterface.dismiss();

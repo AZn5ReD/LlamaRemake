@@ -114,8 +114,8 @@ public class OngoingNotification {
             }
             if (mode != 4 || VERSION.SDK_INT > 8) {
                 StringBuilder append = new StringBuilder().append(Constants.LLAMA_EXTERNAL_STORAGE_ROOT);
-                r12 = this._IsWarning ? " - " + this._Context.getString(R.string.hrUnknownProfile) : this._CurrentProfileName != null ? " - " + this._CurrentProfileName : "";
-                this._Notification.setLatestEventInfo(this._Context, append.append(r12).toString(), infoText.toString(), this._ContentIntent);
+                String r12 = this._IsWarning ? " - " + this._Context.getString(R.string.hrUnknownProfile) : this._CurrentProfileName != null ? " - " + this._CurrentProfileName : "";
+//                this._Notification.setLatestEventInfo(this._Context, append.append(r12).toString(), infoText.toString(), this._ContentIntent);
             } else {
                 this._Notification.contentIntent = this._ContentIntent;
                 this._Notification.contentView = new RemoteViews(this._Context.getPackageName(), R.layout.empty);

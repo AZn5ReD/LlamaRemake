@@ -79,7 +79,7 @@ public class LlamaToneEditorDialog {
                 }
             }
         }
-        Collections.sort(editingTones, new NameComparer());
+        Collections.sort(editingTones, new ToneListItem.NameComparer());
         ListView list = new ListView(context);
         final BaseAdapter adapter = new BaseAdapter() {
             public View getView(int position, View convertView, ViewGroup parent) {

@@ -24,6 +24,10 @@ public class HourMinute {
         this.Hours = totalMinutes / 60;
     }
 
+    public HourMinute() {
+
+    }
+
     public String toString() {
         StringBuilder stringBuilder;
         Object valueOf;

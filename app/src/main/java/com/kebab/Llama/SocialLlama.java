@@ -105,7 +105,7 @@ public class SocialLlama {
                                 } else {
                                     Helpers.ShowSimpleDialogMessage(activity, "The confirmation text did not match.", new OnClickListener() {
                                         public void onClick(DialogInterface dialog, int which) {
-                                            AnonymousClass1.this.ShowHarmfulConfirmation(activity, events);
+                                            ShowHarmfulConfirmation(activity, events);
                                         }
                                     });
                                 }

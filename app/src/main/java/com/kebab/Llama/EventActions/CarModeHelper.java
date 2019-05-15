@@ -43,7 +43,7 @@ public class CarModeHelper {
                     throw new RuntimeException(ex);
                 }
             }
-            _SetDisabled.invoke(uiservice, new Object[]{Integer.valueOf(0)});
+//            _SetDisabled.invoke(uiservice, new Object[]{Integer.valueOf(0)});
             return;
         }
         service.HandleFriendlyError(service.getString(R.string.hrCarModeNotSupportedByPhone), false);

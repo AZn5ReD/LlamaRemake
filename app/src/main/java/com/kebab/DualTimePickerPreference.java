@@ -102,7 +102,7 @@ public class DualTimePickerPreference<TValue> extends DialogPreference implement
         boolean isVertical = ((double) (((float) display.getWidth()) / ((float) display.getHeight()))) < 0.675d;
         if (isVertical) {
             ViewGroup scrollingViewL = new LinearLayout(getContext());
-            scrollingViewL.setOrientation(1);
+            ((LinearLayout) scrollingViewL).setOrientation(1);
             scrollingView = scrollingViewL;
             scrollRequired = false;
         } else {

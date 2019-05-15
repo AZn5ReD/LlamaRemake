@@ -255,7 +255,7 @@ public class LlamaStorage {
                         return false;
                     }
                 }
-                throw th;
+//                throw th;
             }
         } catch (IOException e2) {
             ex = e2;
@@ -272,12 +272,13 @@ public class LlamaStorage {
                 return false;
             }
         }
+        return false;
     }
 
     /* JADX WARNING: Removed duplicated region for block: B:24:0x0038 A:{SYNTHETIC, Splitter:B:24:0x0038} */
     /* Code decompiled incorrectly, please refer to instructions dump. */
     static String ReadAll(String path) {
-        String stringBuffer;
+        String stringBuffer = null;
         Throwable th;
         BufferedReader reader = null;
         try {
@@ -326,7 +327,7 @@ public class LlamaStorage {
             th = th3;
             if (reader != null) {
             }
-            throw th;
+//            throw th;
         }
         return stringBuffer;
     }

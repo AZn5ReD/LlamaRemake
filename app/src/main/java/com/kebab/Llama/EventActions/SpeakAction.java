@@ -93,7 +93,7 @@ public class SpeakAction extends EventAction<SpeakAction> {
                 streamPicker.setSelection(index.intValue());
                 AlertDialog dialog = new Builder(host.GetActivity()).setPositiveButton(R.string.hrOk, new OnClickListener() {
                     public void onClick(DialogInterface dialog, int which) {
-                        gotResultHandler.HandleResult(new SpeakAction(textView.getText().toString(), Integer.parseInt(AnonymousClass1.this.streamValues[streamPicker.getSelectedItemPosition()])));
+                        gotResultHandler.HandleResult(new SpeakAction(textView.getText().toString(), Integer.parseInt(streamValues[streamPicker.getSelectedItemPosition()])));
                         dialog.dismiss();
                     }
                 }).setNegativeButton(R.string.hrCancel, null).setView(view).create();

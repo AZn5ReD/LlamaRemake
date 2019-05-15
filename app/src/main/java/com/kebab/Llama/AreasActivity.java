@@ -317,9 +317,9 @@ public class AreasActivity extends LlamaListTabBase {
                         AreasActivity.this.EnsureLearningTimer(false);
                     } else {
                         if (((learningUntil.getTime() - Calendar.getInstance().getTime().getTime()) / 1000) / 60 == 0) {
-                            remainingTime = String.format(AreasActivity.this.getString(R.string.hr1SecondsToGo), new Object[]{Long.valueOf(secondsLeft)});
+                            remainingTime = String.format(AreasActivity.this.getString(R.string.hr1SecondsToGo), new Object[]{Long.valueOf((learningUntil.getTime() - Calendar.getInstance().getTime().getTime()) / 1000)});
                         } else {
-                            remainingTime = String.format(AreasActivity.this.getString(R.string.hr1MinutesToGo), new Object[]{Long.valueOf(minutesLeft)});
+                            remainingTime = String.format(AreasActivity.this.getString(R.string.hr1MinutesToGo), new Object[]{Long.valueOf((learningUntil.getTime() - Calendar.getInstance().getTime().getTime()) / 1000) / 60});
                         }
                         AreasActivity.this.EnsureLearningTimer(true);
                     }

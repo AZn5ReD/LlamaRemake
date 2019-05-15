@@ -52,6 +52,7 @@ import android.os.SystemClock;
 import android.os.Vibrator;
 import android.provider.ContactsContract.PhoneLookup;
 import android.provider.Settings.System;
+import android.support.v4.app.NotificationCompat;
 import android.telephony.CellLocation;
 import android.telephony.PhoneStateListener;
 import android.telephony.ServiceState;
@@ -314,7 +315,7 @@ public class LlamaService extends Service implements OnKeyguardExitResult {
         private final Process process;
 
 
-        private Worker(Process process) {
+        private Worker(Process process, Object o) {
             this.process = process;
         }
 
@@ -630,7 +631,7 @@ public class LlamaService extends Service implements OnKeyguardExitResult {
 
     public void onStart(final Intent intent, int startId) {
         if (!((Boolean) LlamaSettings.LlamaWasExitted.GetValue(this)).booleanValue()) {
-            Handler handler;
+            final Handler handler;
             Instances.Service = this;
             if (startId == 1) {
                 Logging.Report("First onStart", getApplicationContext());
@@ -891,7 +892,7 @@ public class LlamaService extends Service implements OnKeyguardExitResult {
             } else {
                 Logging.Report("HandleIntent receive had an unknown intent. With extras " + IterableHelpers.ConcatenateString(intent.getExtras().keySet(), ","), (Context) this);
             }
-            Logging.Report("IntentProfile", intentAction + " = " + (System..        currentTimeMillis() - millis) + "ms", (Context) this);
+            Logging.Report("IntentProfile", intentAction + " = " + (java.lang.System.currentTimeMillis() - millis) + "ms", (Context) this);
             if (releaseLock) {
                 handler.removeCallbacks(this._ReleaseRtcReceiverLockRunnable);
                 handler.post(this._ReleaseRtcReceiverLockRunnable);
@@ -926,7 +927,7 @@ public class LlamaService extends Service implements OnKeyguardExitResult {
             CachedIntSetting cachedIntSetting;
             boolean lastConnected;
             boolean shouldCommitSettings = false;
-            boolean lastState = ((Integer) LlamaSettings.MobileData.GetValue(this)).intValue();
+            boolean lastState = ((Integer) LlamaSettings.MobileData.GetValue(this)).intValue() != 0 ? true : false;
             Boolean newState = getMobileDataState();
             if (!(lastState || newState == null)) {
                 boolean z;
@@ -1481,7 +1482,7 @@ public class LlamaService extends Service implements OnKeyguardExitResult {
                     testedForBatteryEvents = true;
                 }
             } else if (oldIsCharging != null) {
-                int newChargingFrom;
+                final int newChargingFrom;
                 switch (pluggedValue) {
                     case 1:
                         newChargingFrom = 2;
@@ -2170,7 +2171,7 @@ public class LlamaService extends Service implements OnKeyguardExitResult {
             intent = new Intent(this, RtcReceiver.class);
             intent.putExtra("proximity", true);
             this._RtcPendingIntent = PendingIntent.getBroadcast(getApplicationContext(), Constants.RTC_PROXIMITY_TIMEOUT, intent, 134217728);
-            ((AlarmManager) getSystemService("alarm")).set(0, System.currentTimeMillis() + ((long) ((Integer) LlamaSettings.CellPollingActiveMillis.GetValue(this)).intValue()), this._RtcPendingIntent);
+            ((AlarmManager) getSystemService("alarm")).set(0, java.lang.System.currentTimeMillis() + ((long) ((Integer) LlamaSettings.CellPollingActiveMillis.GetValue(this)).intValue()), this._RtcPendingIntent);
         }
     }
 
@@ -2683,11 +2684,19 @@ public class LlamaService extends Service implements OnKeyguardExitResult {
             }
             boolean z = this._EventsChanged;
             int i = (eventsHaveChanged || stateChange.GetEventsNeedSaving()) ? 1 : 0;
-            this._EventsChanged = i | z;
+            if (i != 0) {
+                this._EventsChanged = true;
+            } else {
+                this._EventsChanged = z;
+            }
             this._EventHistoryChanged |= false;
             z = this._EventRtcPotentiallyChanged;
             i = (eventDelayOrRepeatAtChanged || stateChange.TriggerType == 2 || stateChange.GetQueueRtcNeeded()) ? 1 : 0;
-            this._EventRtcPotentiallyChanged = i | z;
+            if (i != 0) {
+                this._EventRtcPotentiallyChanged = true;
+            } else {
+                this._EventRtcPotentiallyChanged = z;
+            }
             EnqueueQueuedEventsAndCheckVariableChanges();
         } finally {
             Logging.StopBufferingAndCommit("EventBuffer", this, false);
@@ -2751,10 +2760,13 @@ public class LlamaService extends Service implements OnKeyguardExitResult {
         if (!showTickerText) {
             tickerText = null;
         }
-        Notification notification = new Notification(R.drawable.ic_tab_events, tickerText, when);
-        notification.setLatestEventInfo(context, contentTitle, contentText, contentIntent);
-        notification.deleteIntent = deleteIntent;
-        ((NotificationManager) getSystemService("notification")).notify(notificationId, notification);
+        NotificationManager notificationManager = (NotificationManager)context.getSystemService(Context.NOTIFICATION_SERVICE);
+        NotificationCompat.Builder builder = new NotificationCompat.Builder(context);
+        Notification notification = builder.setContentTitle(contentTitle).setContentText(contentText).setContentIntent(contentIntent).setDeleteIntent(deleteIntent).build();
+//                new Notification(R.drawable.ic_tab_events, tickerText, when);
+//        notification.setLatestEventInfo(context, contentTitle, contentText, contentIntent);
+//        notification.deleteIntent = deleteIntent;
+        notificationManager.notify(notificationId, notification);
         e.NotificationManagerNotificationId = notificationId;
         return notificationId;
     }
@@ -3280,7 +3292,7 @@ public class LlamaService extends Service implements OnKeyguardExitResult {
         if (this._NotificationManager == null) {
             this._NotificationManager = (NotificationManager) getSystemService("notification");
         }
-        long when = System.currentTimeMillis();
+        long when = java.lang.System.currentTimeMillis();
         int i = isError ? 17301624 : 17301624;
         StringBuilder append = new StringBuilder().append(title).append(" - ");
         if (message.length() > 300) {
@@ -3299,7 +3311,7 @@ public class LlamaService extends Service implements OnKeyguardExitResult {
         if (confirmationMessageId != null) {
             notificationIntent.putExtra(Constants.EXTRA_NOTIFICATION_CONFIRMATION_MESSAGE_ID, confirmationMessageId);
         }
-        n.setLatestEventInfo(this, isError ? getString(R.string.hrLlamaErrorV2) : getString(R.string.hrLlamaInfoV2), message, PendingIntent.getActivity(this, Constants.OTHER_NOTIFICATION_STARTID + 0, notificationIntent, 1207959552));
+//        n.setLatestEventInfo(this, isError ? getString(R.string.hrLlamaErrorV2) : getString(R.string.hrLlamaInfoV2), message, PendingIntent.getActivity(this, Constants.OTHER_NOTIFICATION_STARTID + 0, notificationIntent, 1207959552));
         this._NotificationManager.notify(Constants.OTHER_NOTIFICATION_STARTID + 0, n);
     }
 
@@ -4023,7 +4035,7 @@ public class LlamaService extends Service implements OnKeyguardExitResult {
 
     public void Reboot() {
         if (DateHelpers.GetTimeSpanInMinutes(SystemClock.uptimeMillis()) < 5) {
-            HandleFriendlyError(String.format(getString(R.string.hrRebootFailWarning), new Object[]{Integer.valueOf(minutes)}), false);
+            HandleFriendlyError(String.format(getString(R.string.hrRebootFailWarning), new Object[]{Integer.valueOf(DateHelpers.GetTimeSpanInMinutes(SystemClock.uptimeMillis()))}), false);
             return;
         }
         String command;
@@ -4502,7 +4514,7 @@ public class LlamaService extends Service implements OnKeyguardExitResult {
                     HandleFriendlyError(String.format(getString(failResourceId), new Object[]{friendlyName}), false);
                 }
         }
-        Logging.Report(ex, (Context) this);
+//        Logging.Report(ex, (Context) this);
         HandleFriendlyError(String.format(getString(failResourceId), new Object[]{friendlyName}), false);
     }
 
@@ -4676,7 +4688,7 @@ public class LlamaService extends Service implements OnKeyguardExitResult {
 
     public void ShutdownPhone() {
         if (DateHelpers.GetTimeSpanInMinutes(SystemClock.uptimeMillis()) < 5) {
-            HandleFriendlyError(String.format(getString(R.string.hrShutdownFailWarning), new Object[]{Integer.valueOf(minutes)}), false);
+            HandleFriendlyError(String.format(getString(R.string.hrShutdownFailWarning), new Object[]{Integer.valueOf(DateHelpers.GetTimeSpanInMinutes(SystemClock.uptimeMillis()))}), false);
             return;
         }
         String command;
@@ -4834,7 +4846,7 @@ public class LlamaService extends Service implements OnKeyguardExitResult {
         while (it.hasNext()) {
             Iterator i$ = ((Profile) it.next()).LlamaTones.iterator();
             while (i$.hasNext()) {
-                result.add(((Tuple) i$.next()).Item1);
+                result.add((String) ((Tuple) i$.next()).Item1);
             }
         }
         return result;
@@ -5002,9 +5014,9 @@ public class LlamaService extends Service implements OnKeyguardExitResult {
         Dialog d = new ProgressDialog(activityForProgress);
         d.setCancelable(false);
         d.setCanceledOnTouchOutside(false);
-        d.setIndeterminate(true);
+        ((ProgressDialog) d).setIndeterminate(true);
         d.setOwnerActivity(activityForProgress);
-        d.setMessage("Llama is thinking...");
+        ((ProgressDialog) d).setMessage("Llama is thinking...");
         RunOnWorkerThreadThenUiThread(d, work);
     }
 
@@ -5014,8 +5026,8 @@ public class LlamaService extends Service implements OnKeyguardExitResult {
 
     private <T> void RunOnWorkerThreadThenUiThread(final Dialog d, LWorkBase work) {
         if (((Boolean) LlamaSettings.MultiThreadedMode.GetValue(this)).booleanValue()) {
-            Dialog fullScreenDialog;
-            Runnable delayedDialogShow;
+            final Dialog fullScreenDialog;
+            final Runnable delayedDialogShow;
             if (d != null) {
                 fullScreenDialog = new Dialog(d.getContext(), 16973840);
                 fullScreenDialog.setCancelable(false);

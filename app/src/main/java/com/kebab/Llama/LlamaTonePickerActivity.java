@@ -81,7 +81,7 @@ public class LlamaTonePickerActivity extends ListActivity {
                     v = convertView;
                 }
                 ((TextView) v.findViewById(16908308)).setText((CharSequence) ((Tuple) getItem(position)).Item1);
-                ((TextView) v.findViewById(16908309)).setText(LlamaTonePickerActivity.this.getString(R.string.hrCurrentlySetTo1, new Object[]{map.Item2}));
+                ((TextView) v.findViewById(16908309)).setText(LlamaTonePickerActivity.this.getString(R.string.hrCurrentlySetTo1, new Object[]{((Tuple) getItem(position)).Item2}));
                 return v;
             }
 
@@ -109,7 +109,7 @@ public class LlamaTonePickerActivity extends ListActivity {
 
     /* Access modifiers changed, original: protected */
     public void onListItemClick(ListView l, View v, int position, long id) {
-        String toneName = ((Tuple) this._Data.get(position - 1)).Item1;
+        String toneName = (String) ((Tuple) this._Data.get(position - 1)).Item1;
         int rateLimitSeconds = this._RateLimit.GetResult();
         int newRateLimitId = LlamaToneRateLimits.Instance(this).GetNewRateLimitId();
         Intent resultIntent = new Intent();

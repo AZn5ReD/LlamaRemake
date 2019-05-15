@@ -21,8 +21,8 @@ public class Logging implements UncaughtExceptionHandler {
     private static boolean _Buffer;
     private static StringBuffer _BufferData = new StringBuffer();
     static String[] _Filter = new String[0];
-    public static String llamaDeathlocalPath = new File(localFolder, "LlamaDeath.txt").getAbsolutePath();
     private static File localFolder = new File(Environment.getExternalStorageDirectory(), Constants.LLAMA_EXTERNAL_STORAGE_ROOT);
+    public static String llamaDeathlocalPath = new File(localFolder, "LlamaDeath.txt").getAbsolutePath();
     private static String localPath = new File(localFolder, "LlamaLog.txt").getAbsolutePath();
     private UncaughtExceptionHandler defaultUEH = Thread.getDefaultUncaughtExceptionHandler();
 

@@ -1,5 +1,6 @@
 package com.kebab.Llama.EventActions;
 
+import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.content.Context;
 import android.content.DialogInterface;
@@ -120,7 +121,7 @@ public class VibrateAction extends EventAction<VibrateAction> {
     public void AppendActionDescription(Context context, AppendableCharSequence sb) throws IOException {
         for (String equals : patternValues) {
             if (equals.equals(this._VibratePattern)) {
-                sb.append(String.format(context.getString(R.string.hrVibrateThe1Pattern), new Object[]{patterns[i].toLowerCase()}));
+                sb.append(String.format(context.getString(R.string.hrVibrateThe1Pattern), new Object[]{equals.toLowerCase()}));
                 return;
             }
         }
@@ -136,7 +137,7 @@ public class VibrateAction extends EventAction<VibrateAction> {
     }
 
     public static Tuple<View, EditText> CreateView(final Context context, String originalValue) {
-        View v = ((LayoutInflater) context.getSystemService("layout_inflater")).inflate(R.layout.vibratedialog, null);
+        @SuppressLint("WrongConstant") View v = ((LayoutInflater) context.getSystemService("layout_inflater")).inflate(R.layout.vibratedialog, null);
         final Ref<Long> _LastTicks = new Ref(Long.valueOf(0));
         final Ref<Boolean> _HadFirstTap = new Ref(Boolean.valueOf(false));
         final EditText _Text = (EditText) v.findViewById(R.id.text);

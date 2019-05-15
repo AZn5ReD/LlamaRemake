@@ -44,6 +44,6 @@ public class ArrayHelpers {
         for (i = 0; i < y.length; i++) {
             result[i + first] = y[i];
         }
-        return result;
+        return (T[]) result;
     }
 }

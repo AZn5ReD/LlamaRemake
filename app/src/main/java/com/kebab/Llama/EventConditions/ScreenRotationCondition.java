@@ -112,7 +112,7 @@ public class ScreenRotationCondition extends EventCondition<ScreenRotationCondit
             /* Access modifiers changed, original: protected */
             public void OnPreferenceClicked(ResultRegisterableActivity host, ScreenRotationCondition existingValue, final GotResultHandler<ScreenRotationCondition> gotResultHandler) {
                 Context context2 = host.GetActivity();
-                checks = new boolean[4];
+                final boolean[] checks = new boolean[4];
                 String[] angles = new String[]{"0°", "90°", "180°", "270°"};
                 if (existingValue._RotationAngleBitmask > 0) {
                     if ((existingValue._RotationAngleBitmask & 8) != 0) {

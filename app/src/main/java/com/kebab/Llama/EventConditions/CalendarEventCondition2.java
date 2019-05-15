@@ -193,7 +193,7 @@ public class CalendarEventCondition2 extends EventCondition<CalendarEventConditi
         Iterable escapedCalendarNames = new ArrayList(this._CalendarNames.size());
         Iterator i$ = this._CalendarNames.iterator();
         while (i$.hasNext()) {
-            escapedCalendarNames.add(LlamaStorage.SimpleEscape((String) i$.next()));
+            ((ArrayList) escapedCalendarNames).add(LlamaStorage.SimpleEscape((String) i$.next()));
         }
         if (this._CurrentEventsContainsSubstring) {
             str = "1";
@@ -226,7 +226,7 @@ public class CalendarEventCondition2 extends EventCondition<CalendarEventConditi
             if (!this._CurrentEventsContainsSubstring) {
                 resourceIdContains = resourceIdDoesNotContain;
             }
-            result = String.format(context.getString(resourceIdContains), new Object[]{sb2.toString(), sb1.toString()});
+            result = String.format(context.getString(resourceIdContains), new Object[]{sb2.toString(), sb2.toString()});
         }
         if (this._IsAllDay == null && this._ShowAsAvailable == null) {
             return result;

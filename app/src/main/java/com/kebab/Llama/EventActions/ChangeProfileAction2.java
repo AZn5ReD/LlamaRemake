@@ -168,18 +168,20 @@ public class ChangeProfileAction2 extends EventAction<ChangeProfileAction2> {
                     }
                 });
                 togglableLayout.addView(seekBar.createSeekBarDialogView(host.GetActivity()), new LayoutParams(-1, -2));
-                final LinearLayout linearLayout = togglableLayout;
+                LinearLayout linearLayout = togglableLayout;
+                final LinearLayout finalLinearLayout = linearLayout;
                 clickableLayout.setOnClickListener(new OnClickListener() {
                     public void onClick(View v) {
                         hiddenLayoutVisible = !hiddenLayoutVisible;
-                        updateToggleButton(linearLayout, clickableImageButton, hiddenLayoutVisible);
+                        updateToggleButton(finalLinearLayout, clickableImageButton, hiddenLayoutVisible);
                     }
                 });
                 linearLayout = togglableLayout;
+                final LinearLayout finalLinearLayout1 = linearLayout;
                 clickableImageButton.setOnClickListener(new OnClickListener() {
                     public void onClick(View v) {
                         hiddenLayoutVisible = !hiddenLayoutVisible;
-                        updateToggleButton(linearLayout, clickableImageButton, hiddenLayoutVisible);
+                        updateToggleButton(finalLinearLayout1, clickableImageButton, hiddenLayoutVisible);
                     }
                 });
                 final Spinner spinner = list;

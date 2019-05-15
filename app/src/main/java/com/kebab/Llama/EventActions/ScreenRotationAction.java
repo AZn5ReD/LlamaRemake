@@ -96,7 +96,7 @@ public class ScreenRotationAction extends EventAction<ScreenRotationAction> {
                             dialog.dismiss();
                             new Builder(host.GetActivity()).setMessage(R.string.hrAdvancedRotationWarning).setPositiveButton(R.string.hrOkeyDoke, new OnClickListener() {
                                 public void onClick(DialogInterface paramDialogInterface, int paramInt) {
-                                    AnonymousClass1.this.ShowAdvancedRotationDialog(host, existingValue, gotResultHandler);
+                                    ShowAdvancedRotationDialog(host, existingValue, gotResultHandler);
                                 }
                             }).show();
                         }
@@ -107,7 +107,7 @@ public class ScreenRotationAction extends EventAction<ScreenRotationAction> {
             /* Access modifiers changed, original: 0000 */
             public void ShowAdvancedRotationDialog(ResultRegisterableActivity host, ScreenRotationAction existingValue, final GotResultHandler<ScreenRotationAction> gotResultHandler) {
                 Activity context2 = host.GetActivity();
-                checks = new boolean[4];
+                final boolean[] checks = new boolean[4];
                 String[] angles = new String[]{"0°", "90°", "180°", "270°"};
                 if (existingValue._RotationAngleBitmask > 0) {
                     if ((existingValue._RotationAngleBitmask & 8) != 0) {

@@ -72,7 +72,7 @@ public abstract class KillAppActionBase<T extends KillAppActionBase<?>> extends 
     }
 
     public PreferenceEx<T> CreatePreference(PreferenceActivity context) {
-        return new AppMultiListPreference<T>((ResultRegisterableActivity) context, context.getString(GetTitleResource()), this, true, context.getString(R.string.hrGettingApplicationNames)) {
+        return new AppMultiListPreference<T>((ResultRegisterableActivity) context, context.getString(GetTitleResource()), (T) this, true, context.getString(R.string.hrGettingApplicationNames)) {
             /* Access modifiers changed, original: protected */
             public String GetHumanReadableValue(Context context, T value) {
                 return IterableHelpers.ConcatenateString(value._ApplicationInfo, ", ", new Selector<SimplePackageInfo, String>() {

@@ -194,7 +194,7 @@ public class AndroidIntentAction extends EventAction<AndroidIntentAction> {
         Bundle extras = intent.getExtras();
         if (extras != null) {
             for (String key : extras.keySet()) {
-                String valueObject = extras.get(key);
+                String valueObject = (String) extras.get(key);
                 if (valueObject instanceof String) {
                     String value = valueObject;
                     if (value != null && value.contains("##")) {

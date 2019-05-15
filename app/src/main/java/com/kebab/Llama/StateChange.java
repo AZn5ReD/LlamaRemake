@@ -188,8 +188,8 @@ public class StateChange {
         stateChange.SignalStrength = service._LastSignalStrength;
         stateChange.CurrentCellForMcc = service.GetCurrentCell();
         stateChange.__WifiInfo = wifiInfo;
-        stateChange.CurrentWifiName = new Lazy(new Getter<String>(stateChange) {
-            final /* synthetic */ StateChange val$stateChange;
+        stateChange.CurrentWifiName = new Lazy(new Getter<String>() {
+            StateChange val$stateChange;
 
             public String Get() {
                 if (this.val$stateChange.__WifiInfo == null) {
@@ -202,8 +202,8 @@ public class StateChange {
                 return null;
             }
         });
-        stateChange.CurrentWifiAddress = new Lazy(new Getter<String>(stateChange) {
-            final /* synthetic */ StateChange val$stateChange;
+        Getter g = new Getter<String>() {
+            StateChange val$stateChange;
 
             public String Get() {
                 if (this.val$stateChange.__WifiInfo == null) {
@@ -215,7 +215,8 @@ public class StateChange {
                 Logging.Report("WifiCondition", "Supplicant state was " + this.val$stateChange.__WifiInfo.getSupplicantState(), service);
                 return null;
             }
-        });
+        };
+        stateChange.CurrentWifiAddress = new Lazy(g);
         return stateChange;
     }
 

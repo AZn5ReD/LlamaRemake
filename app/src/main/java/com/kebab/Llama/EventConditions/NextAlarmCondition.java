@@ -75,7 +75,7 @@ public class NextAlarmCondition extends EventCondition<NextAlarmCondition> {
         long alarmMillis = ((Long) LlamaSettings.LastAlarmTimeMillis.GetValue(context)).longValue();
         if (!this._RequireAlarm) {
             if (state.TriggerType == MY_TRIGGER_OTHER || state.TriggerType == MY_TRIGGER_OTHER2) {
-                UpdateAlarmTimeIfNeeded(context, System.currentTimeMillis());
+                UpdateAlarmTimeIfNeeded(context, java.lang.System.currentTimeMillis());
             }
             if (alarmMillis != 0) {
                 return 0;
@@ -90,7 +90,7 @@ public class NextAlarmCondition extends EventCondition<NextAlarmCondition> {
             }
             return i;
         } else {
-            if ((state.TriggerType == MY_TRIGGER_OTHER || state.TriggerType == MY_TRIGGER_OTHER2) && UpdateAlarmTimeIfNeeded(context, System.currentTimeMillis())) {
+            if ((state.TriggerType == MY_TRIGGER_OTHER || state.TriggerType == MY_TRIGGER_OTHER2) && UpdateAlarmTimeIfNeeded(context, java.lang.System.currentTimeMillis())) {
                 state.SetQueueRtcNeeded();
             }
             if (alarmMillis == 0) {

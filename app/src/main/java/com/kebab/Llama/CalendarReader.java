@@ -172,8 +172,8 @@ public class CalendarReader {
                 try {
                     Logging.StartBuffering();
                     for (int i = offsetForCalendarGroup; i < calendars.size(); i++) {
-                        String id = ((Tuple) calendars.get(i)).Item1;
-                        String calendarName = ((Tuple) calendars.get(i)).Item2;
+                        String id = (String) ((Tuple) calendars.get(i)).Item1;
+                        String calendarName = (String) ((Tuple) calendars.get(i)).Item2;
                         Builder builder = Uri.parse("content://" + calendar + "/instances/when").buildUpon();
                         ContentUris.appendId(builder, currentDateTime.getTimeInMillis());
                         ContentUris.appendId(builder, nextWakeDateTime.getTimeInMillis());

@@ -102,7 +102,7 @@ public class IterableHelpers {
 
     public static Integer FindIndex(CharSequence[] items, String itemToFind) {
         int index = 0;
-        for (String item : items) {
+        for (CharSequence item : items) {
             if (itemToFind == item) {
                 return Integer.valueOf(index);
             }
@@ -161,7 +161,7 @@ public class IterableHelpers {
             return ToArray(ToArrayList(values), clazz);
         }
         List<T> valuesAsList = (List) values;
-        return valuesAsList.toArray((Object[]) ((Object[]) Array.newInstance(clazz, valuesAsList.size())));
+        return (T[]) valuesAsList.toArray((Object[]) ((Object[]) Array.newInstance(clazz, valuesAsList.size())));
     }
 
     public static <T> ArrayList<T> ToArrayList(Iterable<T> values) {
@@ -307,18 +307,18 @@ public class IterableHelpers {
 
             public <T> T[] toArray(T[] array) {
                 Object obj = e;
-                array[0] = obj;
-                return (Object[]) obj;
+                array[0] = (T) obj;
+                return (T[]) obj;
             }
         };
     }
 
     public static <T> Collection<T> Empty() {
-        return EMPTY_COLLECTION;
+        return (Collection<T>) EMPTY_COLLECTION;
     }
 
     public static <T> Collection<T> Empty(T t) {
-        return EMPTY_COLLECTION;
+        return (Collection<T>) EMPTY_COLLECTION;
     }
 
     public static <T> boolean Any(Iterable<T> item1) {

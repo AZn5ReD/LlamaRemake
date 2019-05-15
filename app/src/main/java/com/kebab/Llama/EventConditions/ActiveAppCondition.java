@@ -157,18 +157,18 @@ public class ActiveAppCondition extends EventCondition<ActiveAppCondition> {
                 statusPicker.setSelection(existingValue._IsActive ? 0 : 1);
                 appButton.setOnClickListener(new OnClickListener() {
                     public void onClick(View paramView) {
-                        AnonymousClass2.this.ShowList(host, new SimplePackageInfo(AnonymousClass2.this._DialogSelectedFriendlyName, AnonymousClass2.this._DialogSelectedPackageName), new GotResultHandler<SimplePackageInfo>() {
+                        ShowList(host, new SimplePackageInfo(_DialogSelectedFriendlyName, _DialogSelectedPackageName), new GotResultHandler<SimplePackageInfo>() {
                             public void HandleResult(SimplePackageInfo result) {
-                                AnonymousClass2.this._DialogSelectedFriendlyName = result.getFriendlyName();
-                                AnonymousClass2.this._DialogSelectedPackageName = result.getPackageName();
-                                appButton.setText(AnonymousClass2.this._DialogSelectedFriendlyName.length() == 0 ? AnonymousClass2.this._DialogSelectedPackageName : AnonymousClass2.this._DialogSelectedFriendlyName);
+                                _DialogSelectedFriendlyName = result.getFriendlyName();
+                                _DialogSelectedPackageName = result.getPackageName();
+                                appButton.setText(_DialogSelectedFriendlyName.length() == 0 ? _DialogSelectedPackageName : _DialogSelectedFriendlyName);
                             }
                         });
                     }
                 });
                 AlertDialog dialog = new Builder(host.GetActivity()).setPositiveButton(R.string.hrOk, new DialogInterface.OnClickListener() {
                     public void onClick(DialogInterface dialog, int which) {
-                        gotResultHandler.HandleResult(new ActiveAppCondition(statusPicker.getSelectedItemPosition() == 0, AnonymousClass2.this._DialogSelectedPackageName, "", AnonymousClass2.this._DialogSelectedFriendlyName));
+                        gotResultHandler.HandleResult(new ActiveAppCondition(statusPicker.getSelectedItemPosition() == 0, _DialogSelectedPackageName, "", _DialogSelectedFriendlyName));
                         dialog.dismiss();
                     }
                 }).setNegativeButton(R.string.hrCancel, null).setView(view).create();

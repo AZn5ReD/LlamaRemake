@@ -52,7 +52,7 @@ public class UsbStorage {
                 return;
             }
         }
-        this._Disable.invoke(this._UsbService, new Object[0]);
+//        this._Disable.invoke(this._UsbService, new Object[0]);
     }
 
     public void ToggleUsbOnOff() {

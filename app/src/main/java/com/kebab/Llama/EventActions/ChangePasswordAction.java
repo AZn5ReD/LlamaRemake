@@ -99,11 +99,11 @@ public class ChangePasswordAction extends EventAction<ChangePasswordAction> {
                                     }
                                 }).setNegativeButton(R.string.hrNo, new OnClickListener() {
                                     public void onClick(DialogInterface dialog, int which) {
-                                        AnonymousClass1.this.ShowPasswordEditor(host, existingValue, gotResultHandler);
+                                        ShowPasswordEditor(host, existingValue, gotResultHandler);
                                     }
                                 }).show();
                             } else {
-                                AnonymousClass1.this.ShowPasswordEditor(host, existingValue, gotResultHandler);
+                                ShowPasswordEditor(host, existingValue, gotResultHandler);
                             }
                         }
                     }
@@ -124,15 +124,15 @@ public class ChangePasswordAction extends EventAction<ChangePasswordAction> {
                         if (result.matches(".*[^A-Za-z0-9].*")) {
                             new Builder(host.GetActivity()).setMessage("WARNING: Your password contains non-alphanumeric characters.\n\nYou will very likely lock your phone forever if your lock screen cannot enter these characters.\n\nAre you sure that you want to use this screen lock password?").setPositiveButton("Use password", new OnClickListener() {
                                 public void onClick(DialogInterface arg0, int arg1) {
-                                    AnonymousClass1.this.ShowPasswordConfirm(result, host, existingValue, gotResultHandler);
+                                    ShowPasswordConfirm(result, host, existingValue, gotResultHandler);
                                 }
                             }).setNegativeButton("Enter new password", new OnClickListener() {
                                 public void onClick(DialogInterface dialog, int which) {
-                                    AnonymousClass1.this.ShowPasswordEditor(host, existingValue, gotResultHandler);
+                                    ShowPasswordEditor(host, existingValue, gotResultHandler);
                                 }
                             }).show();
                         } else {
-                            AnonymousClass1.this.ShowPasswordConfirm(result, host, existingValue, gotResultHandler);
+                            ShowPasswordConfirm(result, host, existingValue, gotResultHandler);
                         }
                     }
                 }, 144);
@@ -151,7 +151,7 @@ public class ChangePasswordAction extends EventAction<ChangePasswordAction> {
                             return;
                         }
                         Helpers.ShowTip(resultRegisterableActivity.GetActivity(), resultRegisterableActivity.GetActivity().getString(R.string.hrPasswordsDontMatch));
-                        AnonymousClass1.this.ShowPasswordConfirm(str, resultRegisterableActivity, changePasswordAction, gotResultHandler2);
+                        ShowPasswordConfirm(str, resultRegisterableActivity, changePasswordAction, gotResultHandler2);
                     }
                 }, 144);
             }

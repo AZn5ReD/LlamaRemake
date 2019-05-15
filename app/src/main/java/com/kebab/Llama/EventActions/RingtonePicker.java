@@ -53,7 +53,7 @@ public class RingtonePicker {
             public void onClick(DialogInterface dialog, int index) {
                 dialog.dismiss();
                 if (str == null || index != 0) {
-                    int ringtoneType;
+                    final int ringtoneType;
                     switch (index - (str == null ? 0 : 1)) {
                         case 0:
                             ringtoneType = 1;

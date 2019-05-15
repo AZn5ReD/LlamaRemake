@@ -111,7 +111,7 @@ public class NfcDetectedCondition extends EventCondition<NfcDetectedCondition> {
                                 TextEntryDialog.Show(preferenceActivity, preferenceActivity.getString(R.string.hrLlamaHasFoundATagPleaseNameIt), new ButtonHandler() {
                                     public void Do(String result) {
                                         Instances.Service.AddNfcTag(nfcHexId, result);
-                                        AnonymousClass1.this.ShowUseTagConfirmation(nfcHexId, result);
+                                        ShowUseTagConfirmation(nfcHexId, result);
                                     }
                                 });
                             } else {

@@ -44,8 +44,8 @@ public class CellsActivity extends LlamaListTabBase {
     int[] _AreaColours;
     HashMap<Beacon, List<Tuple<String, String>>> _CachedCellToToAreaMap = new HashMap();
     ArrayList<Beacon> _CachedCells = new ArrayList();
-    private Collection<String> _ContextMenuAreasAfter = IterableHelpers.Empty();
-    private Collection<String> _ContextMenuAreasBefore = IterableHelpers.Empty();
+    private Collection<?> _ContextMenuAreasAfter = IterableHelpers.Empty();
+    private Collection<?> _ContextMenuAreasBefore = IterableHelpers.Empty();
     Beacon _ContextMenuCell;
     ArrayList<Tuple<String, CharSequence>> _Data;
     final CachedStringSetting _ShowMapIntentAreaName = new CachedStringSetting("AreasActivity", "_ShowMapIntentAreaName", "");
@@ -241,8 +241,8 @@ public class CellsActivity extends LlamaListTabBase {
         AdapterContextMenuInfo info = (AdapterContextMenuInfo) menuInfo;
         this._ContextMenuCell = (Beacon) this._CachedCells.get(info.position);
         if (Instances.HasServiceOrRestart(this)) {
-            this._ContextMenuAreasBefore = info.position > 0 ? Instances.Service.GetAreasNamesForBeacon((Beacon) this._CachedCells.get(info.position - 1)) : (Collection<String>) IterableHelpers.Empty(null);
-            this._ContextMenuAreasAfter = info.position < this._CachedCells.size() + -1 ? Instances.Service.GetAreasNamesForBeacon((Beacon) this._CachedCells.get(info.position + 1)) : (Collection<String>) IterableHelpers.Empty(null);
+            this._ContextMenuAreasBefore = (info.position > 0) ? Instances.Service.GetAreasNamesForBeacon((Beacon) this._CachedCells.get(info.position - 1)) : IterableHelpers.Empty(null);
+            this._ContextMenuAreasAfter = info.position < this._CachedCells.size() + -1 ? Instances.Service.GetAreasNamesForBeacon((Beacon) this._CachedCells.get(info.position + 1)) : IterableHelpers.Empty(null);
         }
         HashSet<Cell> ignoredCells = Instances.Service.GetIgnoredCells();
         menu.add(0, Constants.MENU_ADD_CELL_TO_AREA, 0, R.string.hrAddToArea);
@@ -362,8 +362,8 @@ public class CellsActivity extends LlamaListTabBase {
         ArrayList<Area> topAreas = new ArrayList();
         ArrayList<String> topNames = new ArrayList();
         HashSet<String> nearbyNames = new HashSet();
-        nearbyNames.addAll(this._ContextMenuAreasBefore);
-        nearbyNames.addAll(this._ContextMenuAreasAfter);
+        nearbyNames.addAll((Collection<? extends String>) this._ContextMenuAreasBefore);
+        nearbyNames.addAll((Collection<? extends String>) this._ContextMenuAreasAfter);
         for (Area a : IterableHelpers.OrderBy(Instances.Service.GetAreas(), Area.NameComparator)) {
             if (nearbyNames.contains(a.Name)) {
                 topAreas.add(a);

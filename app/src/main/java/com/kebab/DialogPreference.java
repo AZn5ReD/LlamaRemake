@@ -88,7 +88,7 @@ public class DialogPreference<TValue, TDialogResult> extends android.preference.
         if (this._OnPreferenceClick == null || this._OnPreferenceClick.CanShowDialog(this)) {
             this._DialogHandler.PrepareDataForDialog(new Runnable() {
                 public void run() {
-                    super.onClick();
+//                    super.onClick();
                 }
             });
         }

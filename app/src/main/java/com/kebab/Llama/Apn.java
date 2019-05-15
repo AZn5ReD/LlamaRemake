@@ -49,6 +49,7 @@ public class Apn {
                 cursor.close();
             }
         }
+        return false;
     }
 
     public int SetApn(Context context, SharedPreferences prefs, boolean enabled, boolean shouldDisableMms, String modifier) {
@@ -114,6 +115,7 @@ public class Apn {
                 cursor.close();
             }
         }
+        return -1;
     }
 
     public int getValue(Context context, boolean shouldDisableMms, String modifier) {

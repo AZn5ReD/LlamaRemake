@@ -58,7 +58,7 @@ public class NotificationAction extends EventAction<NotificationAction> {
             notificationIntent.putExtra(Constants.EXTRA_NOTIFICATION_ID_TO_CLEAR, notificationId);
             PendingIntent contentIntent = PendingIntent.getActivity(context, notificationId, notificationIntent, 0);
             Notification notification = new Notification(R.drawable.ic_tab_areas, tickerText, when);
-            notification.setLatestEventInfo(context, contentTitle, contentText, contentIntent);
+//            notification.setLatestEventInfo(context, contentTitle, contentText, contentIntent);
             String reminderUri = (String) LlamaSettings.ReminderRingtoneUri.GetValue(service);
             if (reminderUri != null && reminderUri.length() > 0) {
                 notification.sound = Uri.parse(reminderUri);

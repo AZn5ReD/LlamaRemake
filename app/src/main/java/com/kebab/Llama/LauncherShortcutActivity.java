@@ -47,8 +47,8 @@ public class LauncherShortcutActivity extends HelloableListActivity {
 
     /* Access modifiers changed, original: protected */
     public void onListItemClick(ListView l, View v, int position, long id) {
-        String shortcutType;
-        String shortcutTargetName;
+        final String shortcutType;
+        final String shortcutTargetName;
         super.onListItemClick(l, v, position, id);
         String selectedItemName = (String) ((HashMap) this._Data.get(position)).get("line1");
         if (selectedItemName.startsWith(PROFILE_PREFIX)) {

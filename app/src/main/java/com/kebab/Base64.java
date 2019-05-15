@@ -199,7 +199,9 @@ public class Base64 {
             op = op2;
             if (finish) {
             }
+            return false;
         }
+
     }
 
     static class Encoder extends Coder {
@@ -429,8 +431,9 @@ public class Base64 {
                             op = i;
                         }
                         if ($assertionsDisabled) {
+                        } else {
+                            throw new AssertionError();
                         }
-                        throw new AssertionError();
                         op = i;
                         if ($assertionsDisabled) {
                         }
