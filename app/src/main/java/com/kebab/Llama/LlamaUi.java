@@ -30,6 +30,7 @@ import com.kebab.Tuple;
 import java.util.ArrayList;
 
 import static android.Manifest.permission.ACCESS_COARSE_LOCATION;
+import static android.Manifest.permission.FOREGROUND_SERVICE;
 
 public class LlamaUi extends TabActivity {
     Dialog _Dialog;
@@ -39,7 +40,7 @@ public class LlamaUi extends TabActivity {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         Logging.Init(this);
-        ActivityCompat.requestPermissions(this, new String[]{ACCESS_COARSE_LOCATION}, 1);
+        ActivityCompat.requestPermissions(this, new String[]{ACCESS_COARSE_LOCATION, FOREGROUND_SERVICE}, 1);
 
     }
 

@@ -1340,6 +1340,6 @@ Llama會在沒訊號時回報數值為-150。"</string>
     <string name="hrAllowedTriggers">過濾觸發</string>
     <string name="hrAllowedTriggersDescription">當所有條件都滿足時，Llama將會觸發事件。這個選項可以防止動作被必然的條件類型觸發。</string>
     <string name="hrEventFilteringPleaseAddSomeConditions">請新增一些條件到您的事件。當您不想要這些條件被觸發，你也可以取消選取條件。</string>
-    <string name="hrWhenWiredHeadsetIsConnected">當有線耳機已連接</string>
-    <string name="hrAudioStream">選取的音量(音效)的聲音會播放在:</string>
+    <!--<string name="hrWhenWiredHeadsetIsConnected">當有線耳機已連接</string>-->
+    <!--<string name="hrAudioStream">選取的音量(音效)的聲音會播放在:</string>-->
 </resources>

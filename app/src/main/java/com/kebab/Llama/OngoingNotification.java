@@ -1,17 +1,23 @@
 package com.kebab.Llama;
 
+import android.annotation.TargetApi;
 import android.app.Notification;
+import android.app.NotificationChannel;
 import android.app.NotificationManager;
 import android.app.PendingIntent;
 import android.content.Context;
 import android.content.Intent;
+import android.os.Build;
 import android.os.Build.VERSION;
 import android.widget.RemoteViews;
 import android.widget.Toast;
 import com.kebab.ApiCompat.NotificationCompat;
 import com.kebab.HelpersC;
 
+import static android.content.Context.NOTIFICATION_SERVICE;
+
 public class OngoingNotification {
+    private static final String NOTIFICATION_CHANNEL_ID_SERVICE = "com.kebab.llama";
     PendingIntent _ContentIntent;
     Context _Context;
     String _CurrentAreaName;
@@ -122,6 +128,8 @@ public class OngoingNotification {
             }
             this._NotificationManager.notify(mode == 5 ? Constants.NON_ONGOING_NOTIFICATION_ID : Constants.ONGOING_NOTIFICATION_ID, this._Notification);
             if (mode != 5 && Instances.Service != null) {
+                if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O)
+                    startMyOwnForeground();
                 Instances.Service.startForeground(Constants.ONGOING_NOTIFICATION_ID, this._Notification);
                 return;
             }
@@ -222,5 +230,17 @@ public class OngoingNotification {
     public void SetIconAsWarningAndUpdate() {
         this._IsWarning = true;
         Update();
+    }
+
+    @TargetApi(Build.VERSION_CODES.O)
+    private void startMyOwnForeground(){
+        this._NotificationManager.createNotificationChannel(new NotificationChannel(NOTIFICATION_CHANNEL_ID_SERVICE, "Llama", NotificationManager.IMPORTANCE_DEFAULT));
+        android.support.v4.app.NotificationCompat.Builder notificationBuilder = new android.support.v4.app.NotificationCompat.Builder(this._Context, NOTIFICATION_CHANNEL_ID_SERVICE);
+        this._Notification = notificationBuilder.setOngoing(true)
+                .setSmallIcon(R.drawable.icon)
+                .setContentTitle("App is running in background")
+                .setPriority(NotificationManager.IMPORTANCE_MIN)
+                .setCategory(Notification.CATEGORY_SERVICE)
+                .build();
     }
 }

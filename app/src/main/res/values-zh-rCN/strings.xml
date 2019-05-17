@@ -961,9 +961,9 @@ when alarm is due > 显示提醒
     <string name="hrNfcIsNotCurrentlyTurnedOnTurnItOnToAddTags">NFC当前没有启用。打开它以添加新的标签</string>
     <string name="hrPleaseSeeTheKebabappsWebsiteToDonateToTranslators">请到Kebabapps的网站上去向翻译者捐赠</string>
     <string name="hrLocalLanguageName">英语</string>
-    <string name="hrWhenWiredHeadsetIsConnected">当有线耳机连接</string>
-    <string name="hrChargingFromUsbOrAc">从USB或AC上充电</string>
-    <string name="hrLlamaError">Llama错误</string>
-    <string name="hrLlamaInfo">Llama信息</string>
-    <string name="hrEventAdvancedDescription">这个事件是否推迟或重复执行</string>
+    <!--<string name="hrWhenWiredHeadsetIsConnected">当有线耳机连接</string>-->
+    <!--<string name="hrChargingFromUsbOrAc">从USB或AC上充电</string>-->
+    <!--<string name="hrLlamaError">Llama错误</string>-->
+    <!--<string name="hrLlamaInfo">Llama信息</string>-->
+    <!--<string name="hrEventAdvancedDescription">这个事件是否推迟或重复执行</string>-->
 </resources>

@@ -1377,6 +1377,6 @@ NtIsto são permissões do sistema de Llama que nunca será capaz de ter: (Por f
 Você pode tentar formatá-lo manualmente através da instalação de um aplicativo Escritor de NFC a partir da Play Store, em seguida, escrever o URL especial Llama para o tag:.
 
 %1s"</string>
-    <string name="hrWhenWiredHeadsetIsConnected">quando o fone de ouvido com fio está conectado</string>
-    <string name="hrAudioStream">Escolha o volume (stream de áudio) que o som será reproduzido em:</string>
+    <!--<string name="hrWhenWiredHeadsetIsConnected">quando o fone de ouvido com fio está conectado</string>-->
+    <!--<string name="hrAudioStream">Escolha o volume (stream de áudio) que o som será reproduzido em:</string>-->
 </resources>
