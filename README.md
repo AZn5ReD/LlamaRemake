@@ -1,7 +1,8 @@
 # Project Title
 
 WARNING : This is still an alpha version. Use at your own risk.
-This application is a remake of the original Llama application. I just decompiled and adapted the code to be compatible with newer version of Android.
+This application is a remake of the original Llama application.
+I just decompiled and adapted the code to be compatible with newer version of Android.
 
 ## Getting Started
 
